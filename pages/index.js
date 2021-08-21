@@ -2,8 +2,11 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
+import { useAuth } from '../lib/hooks';
 
 export default function Home() {
+  const { currentUser } = useAuth();
+
   return (
     <div className={styles.container}>
       <Head>
@@ -30,6 +33,9 @@ export default function Home() {
             </a>
           </Link>
         </div>
+        {currentUser ? (
+          <h3>Successfully Logged In as {currentUser.uid}</h3>
+        ) : null}
       </main>
 
       <footer className={styles.footer}>

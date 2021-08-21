@@ -19,6 +19,7 @@ function About() {
     setStep(step + 1);
     if (step >= 2) setButtonText('Sign Up');
   };
+
   function onChange(label, event) {
     //perform validation
     var values = state;
@@ -39,6 +40,7 @@ function About() {
       console.log('Failed to login', err);
     }
   };
+
   return (
     <div className={styles.container}>
       <div className={styles2.animation_wrapper}>
