@@ -6,7 +6,7 @@ import styles2 from "../styles/Auth.module.css";
 import styles from '../styles/Signup.module.css';
 
 function About() {
-  const [step, setStep] = useState(0)
+  const [step, setStep] = useState(-1)
   const [buttonText, setButtonText] = useState('Continue');
   const [state, setState] = useState({});
 
@@ -30,17 +30,20 @@ function About() {
   return (
     <div className={styles.container}>
       <div className={styles2.animation_wrapper}>
-        <div className={styles2["particle"] + " " + styles2["particle_1"]} ></div>
-        <div className={styles2["particle"] + " " + styles2["particle_2"]}></div>
         <div className={styles2["particle"] + " " + styles2["particle_3"]}></div>
         <div className={styles2["particle"] + " " + styles2["particle_4"]}></div>
       </div>
       <main className={styles2.page_wrapper}>
         <div className={styles.signupCard}>
           <h1 className={styles.typing}>
-            <Typist avgTypingDelay={40} cursor={{ hideWhenDone: true }} onTypingDone={() => onContinue()}>
+            <Typist avgTypingDelay={10} cursor={{ hideWhenDone: true }} onTypingDone={() => onContinue()}>
               Welcome to SSN Invente 6.0!
             </Typist>
+            { step >= 0 ?
+              <Typist avgTypingDelay={10} cursor={{ hideWhenDone: true }} onTypingDone={() => onContinue()}>
+                Are you ready for a battle of minds?
+              </Typist> : null
+            }
           </h1>
           <form onSubmit={onSubmit}>
             {
@@ -48,10 +51,18 @@ function About() {
                 <Container>
                   <Row>
                     <Col xs={12} md={6}>
-                      <h5 className={styles.inputLabel}>First Name</h5><input onChange={(e) => onChange("first_name", e)} className={styles.inputField} type="text" required />
+                      <h5 className={styles.inputLabel}>First Name</h5>
+                      <div className={styles.terminalInput}>
+                        <p>></p>
+                        <input onChange={(e) => onChange("first_name", e)} className={styles.inputField} type="text" required />
+                      </div>
                     </Col>
                     <Col xs={12} md={6}>
-                      <h5 className={styles.inputLabel}>Last Name</h5><input onChange={(e) => onChange("last_name", e)} className={styles.inputField} type="text" required />
+                      <h5 className={styles.inputLabel}>Last Name</h5>
+                      <div className={styles.terminalInput}>
+                        <p>></p>
+                        <input onChange={(e) => onChange("last_name", e)} className={styles.inputField} type="text" required />
+                      </div>
                     </Col>
                   </Row>
                 </Container>
@@ -63,29 +74,53 @@ function About() {
 
                   <Row>
                     <Col xs={12} md={12} lg={12}>
-                      <h5 className={styles.inputLabel}>College Name</h5><input onChange={(e) => onChange("college_name", e)} className={styles.inputField} type="text" required />
+                      <h5 className={styles.inputLabel}>College Name</h5>
+                      <div className={styles.terminalInput}>
+                        <p>></p>
+                        <input onChange={(e) => onChange("college_name", e)} className={styles.inputField} type="text" required />
+                      </div>
                     </Col>
                   </Row>
                   <Row>
                     <Col xs={12} md={12} lg={12}>
-                      <h5 className={styles.inputLabel}>College Register Number</h5><input onChange={(e) => onChange("reg_no", e)} className={styles.inputField} type="text" required />
+                      <h5 className={styles.inputLabel}>College Register Number</h5>
+                      <div className={styles.terminalInput}>
+                        <p>></p>
+                        <input onChange={(e) => onChange("reg_no", e)} className={styles.inputField} type="text" required />
+                      </div>
                     </Col>
                   </Row>
                   <Row>
                     <Col xs={12} md={6}>
                       {/* <h5 className={styles.inputLabel}>Year</h5><select className={styles.inputField} required ><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> */}
-                      <h5 className={styles.inputLabel}>Year</h5><input className={styles.inputField} onChange={(e) => onChange("year", e)} type="number" required />
+                      <h5 className={styles.inputLabel}>Year</h5>
+                      <div className={styles.terminalInput}>
+                        <p>></p>
+                        <input className={styles.inputField} onChange={(e) => onChange("year", e)} type="number" required />
+                      </div>
                     </Col>
                     <Col xs={12} md={6}>
-                      <h5 className={styles.inputLabel}>Department</h5><input className={styles.inputField} onChange={(e) => onChange("department", e)} type="text" required />
+                      <h5 className={styles.inputLabel}>Department</h5>
+                      <div className={styles.terminalInput}>
+                        <p>></p>
+                        <input className={styles.inputField} onChange={(e) => onChange("department", e)} type="text" required />
+                      </div>
                     </Col>
                   </Row>
                   <Row>
                     <Col xs={12} md={6}>
-                      <h5 className={styles.inputLabel}>College Email</h5><input className={styles.inputField} onChange={(e) => onChange("email", e)} type="email" required />
+                      <h5 className={styles.inputLabel}>College Email</h5>
+                      <div className={styles.terminalInput}>
+                        <p>></p>
+                        <input className={styles.inputField} onChange={(e) => onChange("email", e)} type="email" required />
+                      </div>
                     </Col>
                     <Col xs={12} md={6}>
-                      <h5 className={styles.inputLabel}>Phone Number</h5><input className={styles.inputField} onChange={(e) => onChange("phone_number", e)} type="phone" required />
+                      <h5 className={styles.inputLabel}>Phone Number</h5>
+                      <div className={styles.terminalInput}>
+                        <p>></p>
+                        <input className={styles.inputField} onChange={(e) => onChange("phone_number", e)} type="phone" required />
+                      </div>
                     </Col>
                   </Row>
                 </Container>
@@ -96,7 +131,11 @@ function About() {
                 <Container>
                   <Row>
                     <Col xs={12} md={12} lg={12}>
-                      <h5 className={styles.inputLabel}>Password</h5><input className={styles.inputField} onChange={(e) => onChange("password", e)} type="password" required />
+                      <h5 className={styles.inputLabel}>Password</h5>
+                      <div className={styles.terminalInput}>
+                        <p>></p>
+                        <input className={styles.inputField} onChange={(e) => onChange("password", e)} type="password" required />
+                      </div>
                     </Col>
                   </Row></Container>
                 : null
@@ -108,7 +147,7 @@ function About() {
                   <Container>
                     <Row>
                       <Col xs={12} md={6}>
-                        <h6 className={styles.signIn}>Already have an account?<span style={{ color: '#0ff' }}> <Link href="/signin">Sign In</Link></span></h6>
+                        <h6 className={styles.signIn}>Already have an account?<span style={{ color: 'rgba(0, 225, 255, 0.87)' }}> <Link href="/signin">Sign In</Link></span></h6>
                       </Col>
                       <Col xs={12} md={6}>
                         <button type="submit" className={styles.continueButton} onClick={() => onContinue()}>{buttonText}</button>
