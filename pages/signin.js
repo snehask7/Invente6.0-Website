@@ -67,7 +67,7 @@ function Signin() {
                   <Col xs={12} md={6}>
                     <h5 className={styles.inputLabel}>Email</h5>
                     <div className={styles.terminalInput}>
-                      <p>></p>
+                      <p>{'>'}</p>
                       <input type="email" id="form-email" onChange={(e) => setFormEmail(e.target.value)} value={formEmail} className={styles.inputField} required />
                     </div>
                   </Col>
@@ -79,7 +79,7 @@ function Signin() {
                   <Col xs={12} md={6}>
                     <h5 className={styles.inputLabel}>Password</h5>
                     <div className={styles.terminalInput}>
-                      <p>></p>
+                      <p>{'>'}</p>
                       <input type="password" id="form-password" onChange={(e) => setFormPassword(e.target.value)} value={formPassword} className={styles.inputField} required />
                     </div>
                   </Col>
