@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Typist from 'react-typist';
+import Typewriter from "typewriter-effect";
 import styles2 from "../styles/Auth.module.css";
 import styles from '../styles/Signup.module.css';
 
@@ -35,16 +35,32 @@ function About() {
       </div>
       <main className={styles2.page_wrapper}>
         <div className={styles.signupCard}>
-          <h1 className={styles.typing}>
-            <Typist avgTypingDelay={10} cursor={{ hideWhenDone: true }} onTypingDone={() => onContinue()}>
-              Welcome to SSN Invente 6.0!
-            </Typist>
-            { step >= 0 ?
-              <Typist avgTypingDelay={10} cursor={{ hideWhenDone: true }} onTypingDone={() => onContinue()}>
-                Are you ready for a battle of minds?
-              </Typist> : null
-            }
-          </h1>
+           <h1 className={styles.typing}><Typewriter
+              onInit={(typewriter) => {
+                typewriter.changeDelay(30)
+                  .typeString('Welcome to SSN Invente 6.0!\n')
+                  .start()
+                  .callFunction(() => {
+                    typewriter.stop().pauseFor(200)
+                    onContinue()
+                  })
+              }}
+            /></h1>
+          {
+            step >= 0 ?
+              <h1 className={styles.typing}><Typewriter
+                onInit={(typewriter) => {
+                  typewriter.changeDelay(30)
+                    .typeString('Are you ready for a battle of minds?\n')
+                    .start()
+                    .callFunction(() => {
+                      typewriter.stop().pauseFor(200)
+                      onContinue()
+                    })
+                }
+            }/></h1> : null
+          }
+
           <form onSubmit={onSubmit}>
             {
               step >= 1 ?
