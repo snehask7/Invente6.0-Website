@@ -1,13 +1,19 @@
 import Link from 'next/link';
-import React, { useState } from "react";
-import Typewriter from "typewriter-effect";
-import styles2 from "../styles/Auth.module.css";
-import styles from "../styles/Signin.module.css";
 import { Col, Container, Row } from 'react-bootstrap';
-function Signin() {
+import { useRouter } from 'next/router';
+import React, { useState } from 'react';
+import Typewriter from 'typewriter-effect';
+import styles2 from '../styles/Auth.module.css';
+import styles from '../styles/Signin.module.css';
+import { useAuth } from '../lib/hooks';
 
-  const [formEmail, setFormEmail] = useState("");
-  const [formPassword, setFormPassword] = useState("");
+function Signin() {
+  const [formEmail, setFormEmail] = useState('');
+  const [formPassword, setFormPassword] = useState('');
+  const [loading, setLoading] = useState(false);
+  const { login } = useAuth();
+  const router = useRouter();
+
   const [step, setStep] = useState(-1)
   const [buttonText, setButtonText] = useState('Continue');
 
@@ -16,19 +22,30 @@ function Signin() {
     if (step >= 0)
       setButtonText('Sign In')
   }
+  
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    console.log(formEmail, formPassword);
+    try {
+      setLoading(true);
+      await login(formEmail, formPassword);
+      console.log('SignIn success');
+      router.push('/');
+    } catch (err) {
+      console.log('Failed to login', err);
+    }
+  };
 
-  const onSubmit = () => {
-    console.log("submit")
-    event.preventDefault()
-  }
-
-  return <div className={styles.container}>
-
-    <div className={styles2.animation_wrapper}>
-      <div className={styles2["particle"] + " " + styles2["particle_3"]}></div>
-      <div className={styles2["particle"] + " " + styles2["particle_4"]}></div>
-    </div>
-
+  return (
+    <div className={styles.container}>
+      <div className={styles2.animation_wrapper}>
+        <div
+          className={styles2['particle'] + ' ' + styles2['particle_3']}
+        ></div>
+        <div
+          className={styles2['particle'] + ' ' + styles2['particle_4']}
+        ></div>
+      </div>
     <main className={styles2.page_wrapper}>
       <div className={styles.signinCard}>
         <h1 className={styles.typing}><Typewriter
@@ -92,7 +109,6 @@ function Signin() {
       </div>
     </main>
   </div>
-    ;
-};
-
+  );
+}
 export default Signin;
