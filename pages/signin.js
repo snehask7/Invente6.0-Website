@@ -1,12 +1,16 @@
 import React, {useState} from "react";
 import Typewriter from "typewriter-effect";
 import styles from "../styles/Signin.module.css"
-import styles2 from "../styles/Signin.module.scss"
+import styles2 from "../styles/Auth.module.scss"
 import Link from 'next/link'
 function Signin() {
 
     const [formEmail, setFormEmail] = useState("");
     const [formPassword, setFormPassword] = useState("");
+
+    const onSubmit = () => {
+        event.preventDefault()
+    }
 
     return <div className={styles.container}>
             
@@ -29,14 +33,14 @@ function Signin() {
                     })
                 }}
                 /></h1>
-                 <form className="form">
+                 <form className="form" onSubmit={onSubmit}>
                     <input type="email" id="form-email" placeholder="Email" value={formEmail} onChange={(e) => setFormEmail(e.target.value)} className={styles.input} />
 
                     <input type="password" id="form-password" placeholder="Password" value={formPassword} onChange={(e) => setFormPassword(e.target.value)}  className={styles.input}/>
                     <Link href=""><a className={styles.text_muted}> Forgot password?</a></Link>
                     <button type="submit" className={styles.btn_signin}>Sign In</button>
                     </form>
-                    <h6 className={styles.signUp}>Already have an account?<span style={{ color: '#0ff' }}> <Link href="/signup">Sign Up</Link></span></h6>
+                    <h6 className={styles.signUp}>Don`t have an account?<span style={{ color: '#0ff' }}> <Link href="/signup">Sign Up</Link></span></h6>
                 </div>
             </main>
             </div>

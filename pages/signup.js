@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Typist from 'react-typist';
 import styles from '../styles/Signup.module.css';
+import styles2 from "../styles/Auth.module.scss"
 
 function About() {
   const [step, setStep] = useState(0)
@@ -28,7 +29,13 @@ function About() {
   }
   return (
     <div className={styles.container}>
-      <main>
+      <div className={styles2.animation_wrapper}>
+        <div className={styles2["particle"] + " " + styles2["particle_1"]} ></div>
+        <div className={styles2["particle"] + " " + styles2["particle_2"]}></div>
+        <div className={styles2["particle"] + " " + styles2["particle_3"]}></div>
+        <div className={styles2["particle"] + " " + styles2["particle_4"]}></div>
+        </div>
+      <main className={styles2.page_wrapper}>
         <div className={styles.signupCard}>
           <h1 className={styles.typing}>
             <Typist avgTypingDelay={40} cursor={{ hideWhenDone: true }} onTypingDone={() => onContinue()}>

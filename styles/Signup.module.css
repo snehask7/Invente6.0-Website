@@ -7,6 +7,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-blend-mode: screen;
+  background-size: cover;
+  z-index: -1;
 }
 .signupCard {
   background-color: #12243c;
@@ -28,6 +31,7 @@
   font-size: 1.7vh;
   margin-top: 3vh;
   font-weight: 600;
+  text-align: left;
 }
 .inputField {
   background-color: transparent !important;
