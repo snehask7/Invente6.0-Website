@@ -2,8 +2,8 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Typist from 'react-typist';
+import styles2 from "../styles/Auth.module.css";
 import styles from '../styles/Signup.module.css';
-import styles2 from "../styles/Auth.module.scss"
 
 function About() {
   const [step, setStep] = useState(0)
@@ -34,7 +34,7 @@ function About() {
         <div className={styles2["particle"] + " " + styles2["particle_2"]}></div>
         <div className={styles2["particle"] + " " + styles2["particle_3"]}></div>
         <div className={styles2["particle"] + " " + styles2["particle_4"]}></div>
-        </div>
+      </div>
       <main className={styles2.page_wrapper}>
         <div className={styles.signupCard}>
           <h1 className={styles.typing}>
