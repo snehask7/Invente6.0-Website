@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+.container {
+  background-image: linear-gradient(to right, #050d22, #070e21, #1c132e);
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signupCard {
+  background-color: #12243c;
+  padding: 3vh;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 3px #0ff;
+  min-width: 40vw;
+  color: #0ff;
+}
+.typing {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2vh;
+  opacity: 50%;
+  color: white;
+}
+.inputLabel {
+  color: #9b51e0 !important;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.7vh;
+  margin-top: 3vh;
+  font-weight: 600;
+}
+.inputField {
+  background-color: transparent !important;
+  font-size: 1.7vh;
+  color: white;
+  border: none;
+  border-bottom: 1px solid #0ff;
+  width: 100%;
+}
+.inputField > option {
+  color: black;
+}
+.inputField:focus {
+  outline-width: 0;
+}
+.inputField:-webkit-autofill,
+.inputField:-webkit-autofill:hover,
+.inputField:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.continueButton {
+  border: none;
+  font-size: 2vh;
+  border-radius: 10px;
+  margin-top: 2vh;
+  color: white;
+  background: transparent;
+  box-shadow: 0 0 3px 3px #9b51e0;
+  font-family: "Roboto Mono", monospace;
+}
+.signIn {
+  text-align: left;
+  margin-top: 2vh;
+  color: white;
+}
+.buttonContainer {
+  text-align: right;
+}
+@media screen and (max-width: 320px) {
+  .signupCard {
+    padding: 1vh;
+  }
+}

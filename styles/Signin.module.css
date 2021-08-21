@@ -19,12 +19,12 @@
     border-radius: 5px;
     box-shadow: 0 0 3px 3px #0ff;
     margin-top: -30vh;
-    width: 40vh;
+    min-width: 25vw;
 }
 
 .typing{
     font-family: "Roboto Mono", monospace;
-    font-size: 3vh;
+    font-size: 2vh;
     opacity: 50%;
     color: white;
     text-align: center;
@@ -38,7 +38,7 @@
     text-align: center;
     border: 2px solid #9b51e0;
     padding: 10px 10px;
-    width: 250px;
+    width: 15vw;
     outline: none;
     color: white;
     border-radius: 24px;
@@ -48,7 +48,7 @@
 }
 
 .input:focus {
-    width: 300px;
+    width: 18vw;
     border-color: #2ecc71
 }
 
@@ -79,8 +79,9 @@
     text-align: center;
 }
 
-.signup{
-    text-decoration: underline;
+.signUp{
+    margin-top: 2vh;
+    color: white;
 }
 
 .input:-webkit-autofill,
@@ -91,19 +92,19 @@
   -webkit-text-fill-color: #fff !important;
 }
 
-@media (max-width:400px){
+
+
+@media screen and (max-width: 1024px) {
     .signinCard {
-        width: 30vh;
+        padding: 1vh;
+        min-width: 65vw;
     }
-    
-.input{
+    .input{
+        width: 55vw;
+    }
+    .input:focus {
+        width: 58vw;
+    }
 
-    width: 20vh;
-
-}
-
-.input:focus {
-    width: 22vh;
-    border-color: #2ecc71
-}
   }
+
