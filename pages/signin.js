@@ -1,15 +1,29 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
+import { useAuth } from '../lib/hooks';
 
 function Signin() {
   const [formEmail, setFormEmail] = useState('');
   const [formPassword, setFormPassword] = useState('');
+  const [loading, setLoading] = useState(false);
+  const { login } = useAuth();
+  const router = useRouter();
 
-  const onSubmit = (event) => {
+  const onSubmit = async (event) => {
     event.preventDefault();
+    console.log(formEmail, formPassword);
+    try {
+      setLoading(true);
+      await login(formEmail, formPassword);
+      console.log('SignIn success');
+      router.push('/');
+    } catch (err) {
+      console.log('Failed to login', err);
+    }
   };
 
   return (
@@ -65,7 +79,11 @@ function Signin() {
             <Link href="">
               <a className={styles.text_muted}> Forgot password?</a>
             </Link>
-            <button type="submit" className={styles.btn_signin}>
+            <button
+              type="submit"
+              className={styles.btn_signin}
+              disabled={loading}
+            >
               Sign In
             </button>
           </form>

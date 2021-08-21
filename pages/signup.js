@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Typist from 'react-typist';
@@ -12,6 +13,7 @@ function About() {
   const [state, setState] = useState({});
   const { signup } = useAuth();
   const [loading, setLoading] = useState(false);
+  const router = useRouter();
 
   const onContinue = () => {
     setStep(step + 1);
@@ -32,6 +34,7 @@ function About() {
       setLoading(true);
       await signup(state['email'], state['password']);
       console.log('SignUp success');
+      router.push('/');
     } catch (err) {
       console.log('Failed to login', err);
     }
