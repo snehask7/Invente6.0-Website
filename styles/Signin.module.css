@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.container {
+    background-image: linear-gradient(to right, #050d22, #070e21, #1c132e);
+    min-height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: screen;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+.signinCard{
+    background-color: #12243c;
+    padding: 3vh;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 3px #0ff;
+    margin-top: -30vh;
+    width: 40vh;
+}
+
+.typing{
+    font-family: "Roboto Mono", monospace;
+    font-size: 3vh;
+    opacity: 50%;
+    color: white;
+    text-align: center;
+}
+
+.input{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #9b51e0;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    font-size: 2vh;
+    transition: 0.25s;
+
+}
+
+.input:focus {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.btn_signin{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    font-size: 2vh;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.btn_signin:hover{
+    background:#2ecc71;
+}
+
+.text_muted{  
+    font-size: 2vh;
+    color: #787A91;
+    display: block;
+    text-align: center;
+}
+
+.signup{
+    text-decoration: underline;
+}
+
+.input:-webkit-autofill,
+.input:-webkit-autofill:hover, 
+.input:-webkit-autofill:focus, 
+.input:-webkit-autofill:active  {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #fff !important;
+}
+
+@media (max-width:400px){
+    .signinCard {
+        width: 30vh;
+    }
+    
+.input{
+
+    width: 20vh;
+
+}
+
+.input:focus {
+    width: 22vh;
+    border-color: #2ecc71
+}
+  }
