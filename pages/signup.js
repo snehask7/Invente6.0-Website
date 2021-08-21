@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Typist from 'react-typist';
+import { useAuth } from '../lib/hooks';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signup.module.css';
 
@@ -9,6 +10,8 @@ function About() {
   const [step, setStep] = useState(0);
   const [buttonText, setButtonText] = useState('Continue');
   const [state, setState] = useState({});
+  const { signup } = useAuth();
+  const [loading, setLoading] = useState(false);
 
   const onContinue = () => {
     setStep(step + 1);
@@ -21,9 +24,17 @@ function About() {
     setState(values);
     console.log(values);
   }
-  const onSubmit = () => {
+
+  const onSubmit = async (event) => {
     event.preventDefault();
     console.log(state);
+    try {
+      setLoading(true);
+      await signup(state['email'], state['password']);
+      console.log('SignUp success');
+    } catch (err) {
+      console.log('Failed to login', err);
+    }
   };
   return (
     <div className={styles.container}>
@@ -180,6 +191,7 @@ function About() {
                         type="submit"
                         className={styles.continueButton}
                         onClick={() => onContinue()}
+                        disabled={loading}
                       >
                         {buttonText}
                       </button>
