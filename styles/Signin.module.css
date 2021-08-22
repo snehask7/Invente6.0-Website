@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 .container {
-    background-image: linear-gradient(to right, #050d22, #070e21, #1c132e);
+    background-image: linear-gradient(to right, #050d22, #070e21, #1c132e), linear-gradient(to bottom right, #153ca0bb, #070e2100, rgba(144, 53, 172, 0),rgba(144, 53, 172, 0)), linear-gradient(to bottom right, #153ca000, #153ca000, #070e2100, rgba(144, 53, 172, 0.61));
     min-height: 100vh;
-    padding: 0;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,97 +14,119 @@
   }
   
 .signinCard{
-    background-color: #12243c;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     padding: 3vh;
-    border-radius: 5px;
-    box-shadow: 0 0 3px 3px #0ff;
-    margin-top: -30vh;
-    min-width: 25vw;
+    border-radius: 10px;
+    border: solid 1px rgba(128, 128, 128, 0.2);
+    min-width: 40vw;
+    font-family: "Menlo", monospace;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
 }
 
 .typing{
-    font-family: "Roboto Mono", monospace;
-    font-size: 2vh;
-    opacity: 50%;
-    color: white;
-    text-align: center;
+    font-family: "Menlo", monospace;
+  font-size: 2vh;
+  text-align: left;
+  margin-left: 0.5em;
+  color: rgb(102,116,148);
 }
 
 .input{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #9b51e0;
-    padding: 10px 10px;
-    width: 15vw;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    font-size: 2vh;
-    transition: 0.25s;
+background-color: transparent !important;
+  font-size: 2vh;
+  color: white;
+  border: none;
+  width: 100%;
 
 }
 
 .input:focus {
-    width: 18vw;
-    border-color: #2ecc71
-}
-
-.btn_signin{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #2ecc71;
-    padding: 14px 40px;
     outline: none;
+}
+
+
+.inputLabel {
+    color: rgba(0, 225, 255, 0.87);
+    font-family: "Menlo", monospace;
+    font-size: 1.7vh;
+    margin-top: 3vh;
+    font-weight: 600;
+    text-align: left;
+  }
+  .inputField {
+    background-color: transparent !important;
+    font-size: 2vh;
     color: white;
-    border-radius: 24px;
-    font-size: 2vh;
-    transition: 0.25s;
-    cursor: pointer;
-}
-
-.btn_signin:hover{
-    background:#2ecc71;
-}
-
-.text_muted{  
-    font-size: 2vh;
-    color: #787A91;
-    display: block;
-    text-align: center;
-}
-
-.signUp{
+    border: none;
+    width: 100%;
+  }
+  .inputField > option {
+    color: black;
+  }
+  
+  .inputField:focus {
+    outline: none;
+  }
+  .inputField:-webkit-autofill,
+  .inputField:-webkit-autofill:hover,
+  .inputField:-webkit-autofill:focus {
+    -webkit-text-fill-color: white;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+  
+  .signIn {
+    text-align: left;
     margin-top: 2vh;
     color: white;
-}
-
-.input:-webkit-autofill,
-.input:-webkit-autofill:hover, 
-.input:-webkit-autofill:focus, 
-.input:-webkit-autofill:active  {
-  transition: background-color 5000s;
-  -webkit-text-fill-color: #fff !important;
-}
-
-
-
-@media screen and (max-width: 1024px) {
-    .signinCard {
-        padding: 1vh;
-        min-width: 65vw;
+  }
+  .buttonContainer {
+    text-align: right;
+    margin-top: 2em;
+  }
+  @media screen and (max-width: 320px) {
+    .signupCard {
+      padding: 1vh;
     }
-    .input{
-        width: 55vw;
-    }
-    .input:focus {
-        width: 58vw;
-    }
-
+  }
+  
+  .terminalInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .terminalInput p {
+    margin: 0;
+    padding-right: 0.5em;
+    color: rgb(211, 40, 160);
+    font-weight: bold;
+    font-family: 'Menlo', monospace;
+    font-size: 1.5vh;
+    transform: scale(1, 2);
   }
 
+  .continueButton {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    background: none;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  .continueButton:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+              0 0 15px #03e9f4,
+              0 0 30px #03e9f4;
+  }
