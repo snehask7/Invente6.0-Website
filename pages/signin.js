@@ -14,15 +14,14 @@ function Signin() {
   const { login } = useAuth();
   const router = useRouter();
 
-  const [step, setStep] = useState(-1)
+  const [step, setStep] = useState(-1);
   const [buttonText, setButtonText] = useState('Continue');
 
   const onContinue = () => {
-    setStep(step + 1)
-    if (step >= 0)
-      setButtonText('Sign In')
-  }
-  
+    setStep(step + 1);
+    if (step >= 0) setButtonText('Sign In');
+  };
+
   const onSubmit = async (event) => {
     event.preventDefault();
     console.log(formEmail, formPassword);
@@ -46,69 +45,96 @@ function Signin() {
           className={styles2['particle'] + ' ' + styles2['particle_4']}
         ></div>
       </div>
-    <main className={styles2.page_wrapper}>
-      <div className={styles.signinCard}>
-        <h1 className={styles.typing}><Typewriter
-          onInit={(typewriter) => {
-            typewriter.changeDelay(30)
-              .typeString('Welcome back!')
-              .start()
-              .callFunction(() => {
-                typewriter.stop().pauseFor(200)
-                onContinue()
-              })
-          }}
-        /></h1>
-        <form onSubmit={onSubmit}>
+      <main className={styles2.page_wrapper}>
+        <div className={styles.signinCard}>
+          <h1 className={styles.typing}>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .changeDelay(30)
+                  .typeString('Welcome back!')
+                  .start()
+                  .callFunction(() => {
+                    typewriter.stop().pauseFor(200);
+                    onContinue();
+                  });
+              }}
+            />
+          </h1>
+          <form onSubmit={onSubmit}>
             <Container>
-              {
-                step >= 0 ?
+              {step >= 0 ? (
                 <Row>
                   <Col xs={12} md={6}>
                     <h5 className={styles.inputLabel}>Email</h5>
                     <div className={styles.terminalInput}>
                       <p>{'>'}</p>
-                      <input type="email" id="form-email" onChange={(e) => setFormEmail(e.target.value)} value={formEmail} className={styles.inputField} required />
+                      <input
+                        type="email"
+                        id="form-email"
+                        onChange={(e) => setFormEmail(e.target.value)}
+                        value={formEmail}
+                        className={styles.inputField}
+                        required
+                      />
                     </div>
                   </Col>
-                </Row> : null
-              }
-              {
-                step >= 1 ?
+                </Row>
+              ) : null}
+              {step >= 1 ? (
                 <Row>
                   <Col xs={12} md={6}>
                     <h5 className={styles.inputLabel}>Password</h5>
                     <div className={styles.terminalInput}>
                       <p>{'>'}</p>
-                      <input type="password" id="form-password" onChange={(e) => setFormPassword(e.target.value)} value={formPassword} className={styles.inputField} required />
+                      <input
+                        type="password"
+                        id="form-password"
+                        onChange={(e) => setFormPassword(e.target.value)}
+                        value={formPassword}
+                        className={styles.inputField}
+                        required
+                      />
                     </div>
                   </Col>
-                </Row> : null
-              }
+                </Row>
+              ) : null}
             </Container>
 
-            { step >= 0 ?
-            <div className={styles.buttonContainer}>
-              <Container>
-                <Row>
-                  <Col xs={12} md={6}>
-                    <h6 className={styles.signIn}>Don`t have an account?<span style={{ color: 'rgba(0, 225, 255, 0.87)' }}> <Link href="/signup">Sign Up</Link></span></h6>
-                  </Col>
-                  <Col xs={12} md={6}>
-                    <button type="submit" className={styles.continueButton} onClick={() => {
-                      if (step == 0 && formEmail.length > 0) {
-                        onContinue()
-                      }
-                    }}>{buttonText}</button>
-                  </Col>
-                </Row></Container>
-            </div> : null
-            }
+            {step >= 0 ? (
+              <div className={styles.buttonContainer}>
+                <Container>
+                  <Row>
+                    <Col xs={12} md={6}>
+                      <h6 className={styles.signIn}>
+                        Don`t have an account?
+                        <span style={{ color: 'rgba(0, 225, 255, 0.87)' }}>
+                          {' '}
+                          <Link href="/signup">Sign Up</Link>
+                        </span>
+                      </h6>
+                    </Col>
+                    <Col xs={12} md={6}>
+                      <button
+                        type="submit"
+                        className={styles.continueButton}
+                        onClick={() => {
+                          if (step == 0 && formEmail.length > 0) {
+                            onContinue();
+                          }
+                        }}
+                      >
+                        {buttonText}
+                      </button>
+                    </Col>
+                  </Row>
+                </Container>
+              </div>
+            ) : null}
           </form>
-  
-      </div>
-    </main>
-  </div>
+        </div>
+      </main>
+    </div>
   );
 }
 export default Signin;

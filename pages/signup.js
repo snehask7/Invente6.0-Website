@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Typewriter from "typewriter-effect";
+import Typewriter from 'typewriter-effect';
 import { useAuth } from '../lib/hooks';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signup.module.css';
@@ -53,31 +53,36 @@ function About() {
       </div>
       <main className={styles2.page_wrapper}>
         <div className={styles.signupCard}>
-           <h1 className={styles.typing}><Typewriter
+          <h1 className={styles.typing}>
+            <Typewriter
               onInit={(typewriter) => {
-                typewriter.changeDelay(30)
+                typewriter
+                  .changeDelay(30)
                   .typeString('Welcome to SSN Invente 6.0!\n')
                   .start()
                   .callFunction(() => {
-                    typewriter.stop().pauseFor(200)
-                    onContinue()
-                  })
+                    typewriter.stop().pauseFor(200);
+                    onContinue();
+                  });
               }}
-            /></h1>
-          {
-            step >= 0 ?
-              <h1 className={styles.typing}><Typewriter
+            />
+          </h1>
+          {step >= 0 ? (
+            <h1 className={styles.typing}>
+              <Typewriter
                 onInit={(typewriter) => {
-                  typewriter.changeDelay(30)
+                  typewriter
+                    .changeDelay(30)
                     .typeString('Are you ready for a battle of minds?\n')
                     .start()
                     .callFunction(() => {
-                      typewriter.stop().pauseFor(200)
-                      onContinue()
-                    })
-                }
-            }/></h1> : null
-          }
+                      typewriter.stop().pauseFor(200);
+                      onContinue();
+                    });
+                }}
+              />
+            </h1>
+          ) : null}
 
           <form onSubmit={onSubmit}>
             {step >= 1 ? (
