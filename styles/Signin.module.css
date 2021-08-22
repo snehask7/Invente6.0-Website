@@ -116,10 +116,3 @@ background-color: transparent !important;
     font-size: 1.2vh;
     transform: scale(1, 2);
   }
-
-
-  @media screen and (max-width: 320px) {
-    .signupCard {
-      padding: 1vh;
-    }
-  }
