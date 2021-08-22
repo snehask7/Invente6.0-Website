@@ -2,10 +2,10 @@ import Link from 'next/link';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
-import Typewriter from 'typewriter-effect';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
 import { useAuth } from '../lib/hooks';
+import Typist from 'react-typist';
 
 function Signin() {
   const [formEmail, setFormEmail] = useState('');
@@ -48,18 +48,9 @@ function Signin() {
       <main className={styles2.page_wrapper}>
         <div className={styles.signinCard}>
           <h1 className={styles.typing}>
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .changeDelay(30)
-                  .typeString('Welcome back!')
-                  .start()
-                  .callFunction(() => {
-                    typewriter.stop().pauseFor(200);
-                    onContinue();
-                  });
-              }}
-            />
+            <Typist avgTypingDelay={40} cursor={{ hideWhenDone: true }} onTypingDone={() => onContinue()}>
+              Welcome back!
+            </Typist> 
           </h1>
           <form onSubmit={onSubmit}>
             <Container>
