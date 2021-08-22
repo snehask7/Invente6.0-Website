@@ -54,13 +54,21 @@ function About() {
       <main className={styles2.page_wrapper}>
         <div className={styles.signupCard}>
           <h1 className={styles.typing}>
-            <Typist avgTypingDelay={40} cursor={{ hideWhenDone: true }} onTypingDone={() => onContinue()}>
+            <Typist
+              avgTypingDelay={40}
+              cursor={{ hideWhenDone: true }}
+              onTypingDone={() => onContinue()}
+            >
               Welcome to SSN Invente 6.0!
             </Typist>
           </h1>
           {step >= 0 ? (
             <h1 className={styles.typing}>
-              <Typist avgTypingDelay={40} cursor={{ hideWhenDone: true }} onTypingDone={() => onContinue()}>
+              <Typist
+                avgTypingDelay={40}
+                cursor={{ hideWhenDone: true }}
+                onTypingDone={() => onContinue()}
+              >
                 Are you ready for a battle of minds?
               </Typist>
             </h1>

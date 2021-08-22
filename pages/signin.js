@@ -48,9 +48,13 @@ function Signin() {
       <main className={styles2.page_wrapper}>
         <div className={styles.signinCard}>
           <h1 className={styles.typing}>
-            <Typist avgTypingDelay={40} cursor={{ hideWhenDone: true }} onTypingDone={() => onContinue()}>
+            <Typist
+              avgTypingDelay={40}
+              cursor={{ hideWhenDone: true }}
+              onTypingDone={() => onContinue()}
+            >
               Welcome back!
-            </Typist> 
+            </Typist>
           </h1>
           <form onSubmit={onSubmit}>
             <Container>
