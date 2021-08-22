@@ -75,17 +75,6 @@ background-color: transparent !important;
     transition: background-color 5000s ease-in-out 0s;
   }
   
-  .continueButton {
-    border: none;
-    font-size: 1.5vh;
-    border-radius: 12px;
-    color: rgb(102,116,148);
-    border: solid 1px rgb(102,116,148);
-    padding: 0.5em 1em;
-    background: transparent;
-    font-family: "Menlo", monospace;
-    align-items: center;
-  }
   .signIn {
     text-align: left;
     margin-top: 2vh;
@@ -115,4 +104,29 @@ background-color: transparent !important;
     font-family: 'Menlo', monospace;
     font-size: 1.5vh;
     transform: scale(1, 2);
+  }
+
+  .continueButton {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    background: none;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  .continueButton:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+              0 0 15px #03e9f4,
+              0 0 30px #03e9f4;
   }

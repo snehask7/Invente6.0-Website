@@ -98,3 +98,29 @@
   font-size: 1.5vh;
   transform: scale(1, 2);
 }
+
+
+.continueButton {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  background: none;
+  border: none;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+.continueButton:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 15px #03e9f4,
+              0 0 30px #03e9f4;
+}
