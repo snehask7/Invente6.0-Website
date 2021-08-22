@@ -26,7 +26,7 @@
 
 .typing{
     font-family: "Menlo", monospace;
-  font-size: 1.7vh;
+  font-size: 2vh;
   text-align: left;
   margin-left: 0.5em;
   color: rgb(102,116,148);
@@ -34,7 +34,7 @@
 
 .input{
 background-color: transparent !important;
-  font-size: 1.7vh;
+  font-size: 2vh;
   color: white;
   border: none;
   width: 100%;
@@ -49,14 +49,14 @@ background-color: transparent !important;
 .inputLabel {
     color: rgba(0, 225, 255, 0.87);
     font-family: "Menlo", monospace;
-    font-size: 1.5vh;
+    font-size: 1.7vh;
     margin-top: 3vh;
     font-weight: 600;
     text-align: left;
   }
   .inputField {
     background-color: transparent !important;
-    font-size: 1.7vh;
+    font-size: 2vh;
     color: white;
     border: none;
     width: 100%;
@@ -113,6 +113,6 @@ background-color: transparent !important;
     color: rgb(211, 40, 160);
     font-weight: bold;
     font-family: 'Menlo', monospace;
-    font-size: 1.2vh;
+    font-size: 1.5vh;
     transform: scale(1, 2);
   }
