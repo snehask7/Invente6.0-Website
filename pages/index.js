@@ -30,21 +30,6 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to the official SSN Invente 6.0 Website
         </h1>
-        {!currentUser ? (
-          <div className={styles.grid}>
-            <Link href="/signin">
-              <a className={styles.card}>
-                <h2>Signin</h2>
-              </a>
-            </Link>
-
-            <Link href="/signup">
-              <a className={styles.card}>
-                <h2>Signup</h2>
-              </a>
-            </Link>
-          </div>
-        ) : null}
         {currentUser ? (
           <>
             <h3>Successfully Logged In as {currentUser.uid}</h3>
