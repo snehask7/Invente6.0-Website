@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import { Col, Container, Row } from 'react-bootstrap';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import Typist from 'react-typist';
+import { useAuth } from '../lib/hooks';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
-import { useAuth } from '../lib/hooks';
-import Typist from 'react-typist';
 
 function Signin() {
   const [formEmail, setFormEmail] = useState('');

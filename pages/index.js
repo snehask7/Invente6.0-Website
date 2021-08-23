@@ -1,12 +1,22 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from '../styles/Home.module.css';
 import { useAuth } from '../lib/hooks';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
-  const { currentUser } = useAuth();
+  const { logout } = useAuth();
 
+  const { currentUser } = useAuth();
+  const onSignOut = async (event) => {
+    try {
+      await logout();
+      console.log('SignOut success');
+      router.push('/');
+    } catch (err) {
+      console.log('Failed to logout', err);
+    }
+  };
   return (
     <div className={styles.container}>
       <Head>
@@ -34,7 +44,12 @@ export default function Home() {
           </Link>
         </div>
         {currentUser ? (
-          <h3>Successfully Logged In as {currentUser.uid}</h3>
+          <>
+            <h3>Successfully Logged In as {currentUser.uid}</h3>
+            <button onClick={() => onSignOut()} className={styles.card}>
+              <h2>Signout</h2>
+            </button>
+          </>
         ) : null}
       </main>
 
@@ -50,6 +65,6 @@ export default function Home() {
           </span>
         </a>
       </footer>
-    </div>
+    </div >
   );
 }
