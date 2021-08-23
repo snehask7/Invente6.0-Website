@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Typist from 'react-typist';
 import { useAuth } from '../lib/hooks';
@@ -8,6 +8,7 @@ import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signup.module.css';
 
 function About() {
+  const { currentUser } = useAuth();
   const [step, setStep] = useState(-1);
   const [buttonText, setButtonText] = useState('Continue');
   const [state, setState] = useState({});
@@ -19,6 +20,10 @@ function About() {
     setStep(step + 1);
     if (step >= 2) setButtonText('Sign Up');
   };
+
+  useEffect(() => {
+    if (currentUser) router.push('/');
+  }, [currentUser, router]);
 
   function onChange(label, event) {
     //perform validation

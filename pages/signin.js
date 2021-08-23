@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Typist from 'react-typist';
 import { useAuth } from '../lib/hooks';
@@ -8,6 +8,7 @@ import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
 
 function Signin() {
+  const { currentUser } = useAuth();
   const [formEmail, setFormEmail] = useState('');
   const [formPassword, setFormPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -21,6 +22,10 @@ function Signin() {
     setStep(step + 1);
     if (step >= 0) setButtonText('Sign In');
   };
+
+  useEffect(() => {
+    if (currentUser) router.push('/');
+  }, [currentUser, router]);
 
   const onSubmit = async (event) => {
     event.preventDefault();
