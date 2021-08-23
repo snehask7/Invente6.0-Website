@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Typist from 'react-typist';
+import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
@@ -50,6 +51,7 @@ function Signin() {
           className={styles2['particle'] + ' ' + styles2['particle_4']}
         ></div>
       </div>
+      <NavbarComp />
       <main className={styles2.page_wrapper}>
         <div className={styles.signinCard}>
           <h1 className={styles.typing}>
