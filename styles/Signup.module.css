@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
 .container {
-  background-image: linear-gradient(to right, #050d22, #070e21, #1c132e);
+  background-image: linear-gradient(to right, #050d22, #070e21, #1c132e), linear-gradient(to bottom right, #153ca0bb, #070e2100, rgba(144, 53, 172, 0),rgba(144, 53, 172, 0)), linear-gradient(to bottom right, #153ca000, #153ca000, #070e2100, rgba(144, 53, 172, 0.61));
   min-height: 100vh;
   padding: 2rem;
   display: flex;
@@ -12,22 +12,25 @@
   z-index: -1;
 }
 .signupCard {
-  background-color: #12243c;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   padding: 3vh;
-  border-radius: 5px;
-  box-shadow: 0 0 3px 3px #0ff;
+  border-radius: 10px;
+  border: solid 1px rgba(128, 128, 128, 0.2);
   min-width: 40vw;
-  color: #0ff;
+  font-family: "Menlo", monospace;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
 }
 .typing {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Menlo", monospace;
   font-size: 2vh;
-  opacity: 50%;
-  color: white;
+  text-align: left;
+  margin-left: 0.5em;
+  color: rgb(102,116,148);
 }
 .inputLabel {
-  color: #9b51e0 !important;
-  font-family: "Roboto Mono", monospace;
+  color: rgba(0, 225, 255, 0.87);
+  font-family: "Menlo", monospace;
   font-size: 1.7vh;
   margin-top: 3vh;
   font-weight: 600;
@@ -35,17 +38,17 @@
 }
 .inputField {
   background-color: transparent !important;
-  font-size: 1.7vh;
+  font-size: 2vh;
   color: white;
   border: none;
-  border-bottom: 1px solid #0ff;
   width: 100%;
 }
 .inputField > option {
   color: black;
 }
+
 .inputField:focus {
-  outline-width: 0;
+  outline: none;
 }
 .inputField:-webkit-autofill,
 .inputField:-webkit-autofill:hover,
@@ -56,13 +59,14 @@
 
 .continueButton {
   border: none;
-  font-size: 2vh;
-  border-radius: 10px;
-  margin-top: 2vh;
-  color: white;
+  font-size: 1.7vh;
+  border-radius: 12px;
+  color: rgb(102,116,148);
+  border: solid 1px rgb(102,116,148);
+  padding: 0.5em 1em;
   background: transparent;
-  box-shadow: 0 0 3px 3px #9b51e0;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Menlo", monospace;
+  align-items: center;
 }
 .signIn {
   text-align: left;
@@ -71,9 +75,52 @@
 }
 .buttonContainer {
   text-align: right;
+  margin-top: 2em;
 }
 @media screen and (max-width: 320px) {
   .signupCard {
     padding: 1vh;
   }
+}
+
+.terminalInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.terminalInput p {
+  margin: 0;
+  padding-right: 0.5em;
+  color: rgb(211, 40, 160);
+  font-weight: bold;
+  font-family: 'Menlo', monospace;
+  font-size: 1.5vh;
+  transform: scale(1, 2);
+}
+
+
+.continueButton {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  background: none;
+  border: none;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+.continueButton:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 15px #03e9f4,
+              0 0 30px #03e9f4;
 }
