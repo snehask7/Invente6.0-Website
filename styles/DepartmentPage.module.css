@@ -1,0 +1,85 @@
+.container {
+  background-image: linear-gradient(to right, #050d22, #070e21, #1c132e),
+    linear-gradient(
+      to bottom right,
+      #153ca0bb,
+      #070e2100,
+      rgba(144, 53, 172, 0),
+      rgba(144, 53, 172, 0)
+    ),
+    linear-gradient(
+      to bottom right,
+      #153ca000,
+      #153ca000,
+      #070e2100,
+      rgba(144, 53, 172, 0.61)
+    );
+  min-height: 100vh;
+  padding: 2rem;
+  align-items: center;
+  background-blend-mode: screen;
+  background-size: cover;
+}
+.pageHeading {
+  text-align: center;
+  color: white;
+  font-family: 'Menlo', monospace;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.eventCard {
+  border: 1px solid white;
+  font-size: 2vh;
+  width: 12vh;
+  margin: 2vh;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.eventHeading {
+  text-align: center;
+  font-weight: 700;
+  background: #08aeea;
+  background: -webkit-linear-gradient(to top, #08aeea 5%, #b721ff 100%);
+  background: -moz-linear-gradient(to top, #08aeea 5%, #b721ff 100%);
+  background: linear-gradient(to top, #08aeea 5%, #b721ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.eventsContainer {
+  text-align: center;
+  justify-content: center;
+}
+.eventDetails {
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 0.9em #df1592, -2px -2px 0.9em #19e9f0;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Menlo', monospace;
+}
+
+.roundCard {
+  border-radius: 20px;
+  padding: 1rem;
+  border: 1px solid black;
+  backdrop-filter: blur(25px) saturate(200%);
+  -webkit-backdrop-filter: blur(25px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.82);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: white;
+  height: 15em;
+  margin-bottom: 1em;
+}
+.iconStyling {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.iconContainer {
+  text-align: left;
+}
