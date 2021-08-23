@@ -1,24 +1,8 @@
 import { firestore, serverTimestamp } from '../../lib/firebase';
-import Cors from 'cors';
-
-const cors = Cors({
-  methods: ['GET'],
-});
-
-function runMiddleware(req, res, fn) {
-  return new Promise((resolve, reject) => {
-    fn(req, res, (result) => {
-      if (result instanceof Error) {
-        return reject(result);
-      }
-
-      return resolve(result);
-    });
-  });
-}
+import { cors } from '../../lib/middleware';
 
 export default async function handler(req, res) {
-  await runMiddleware(req, res, cors);
+  await cors(req, res);
 
   if (req.method === 'POST') {
     const {
@@ -37,26 +21,32 @@ export default async function handler(req, res) {
     const usernameDoc = firestore.collection('usernames').doc(username);
 
     const batch = firestore.batch();
-    batch.set(usernameDoc, {
-      uid: uid,
-      email: email,
-      username: username,
-      createdAt: serverTimestamp(),
-      updatedAt: serverTimestamp(),
-    });
 
-    batch.set(userDoc, {
-      email: email,
-      username: username,
-      firstName: firstName,
-      lastName: lastName,
-      registerNumber: registerNumber,
-      year: year,
-      department: department,
-      phone: phone,
-      createdAt: serverTimestamp(),
-      updatedAt: serverTimestamp(),
-    });
+    try {
+      batch.set(usernameDoc, {
+        uid: uid,
+        email: email,
+        username: username,
+        updatedAt: serverTimestamp(),
+      });
+
+      batch.set(userDoc, {
+        email: email,
+        username: username,
+        firstName: firstName,
+        lastName: lastName,
+        registerNumber: registerNumber,
+        year: year,
+        department: department,
+        phone: phone,
+        updatedAt: serverTimestamp(),
+      });
+    } catch (err) {
+      res.status(400).send({
+        message: 'Bad request',
+        error: 'One are more body parameters are missing',
+      });
+    }
 
     try {
       await batch.commit();
@@ -64,8 +54,8 @@ export default async function handler(req, res) {
         message: 'User created successfully',
       });
     } catch (err) {
-      res.status(400).send({
-        message: 'Bad request',
+      res.status(500).send({
+        message: 'Server error',
         error: err.toString(),
       });
     }
@@ -76,6 +66,7 @@ export default async function handler(req, res) {
     const userRef = firestore.collection('users').doc(username);
     try {
       const data = (await userRef.get()).data();
+      data['updatedAt'] = data['updatedAt'].seconds;
       res.status(200).send(data);
     } catch (err) {
       res.status(404).send({
