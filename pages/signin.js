@@ -67,7 +67,7 @@ function Signin() {
             <Container>
               {step >= 0 ? (
                 <Row>
-                  <Col xs={12} md={6}>
+                  <Col xs={12}>
                     <h5 className={styles.inputLabel}>Email</h5>
                     <div className={styles.terminalInput}>
                       <p>{'>'}</p>
@@ -85,7 +85,7 @@ function Signin() {
               ) : null}
               {step >= 1 ? (
                 <Row>
-                  <Col xs={12} md={6}>
+                  <Col xs={12}>
                     <h5 className={styles.inputLabel}>Password</h5>
                     <div className={styles.terminalInput}>
                       <p>{'>'}</p>
