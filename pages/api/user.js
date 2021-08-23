@@ -1,6 +1,25 @@
 import { firestore, serverTimestamp } from '../../lib/firebase';
+import Cors from 'cors';
+
+const cors = Cors({
+  methods: ['GET'],
+});
+
+function runMiddleware(req, res, fn) {
+  return new Promise((resolve, reject) => {
+    fn(req, res, (result) => {
+      if (result instanceof Error) {
+        return reject(result);
+      }
+
+      return resolve(result);
+    });
+  });
+}
 
 export default async function handler(req, res) {
+  await runMiddleware(req, res, cors);
+
   if (req.method === 'POST') {
     const {
       uid,
@@ -53,7 +72,7 @@ export default async function handler(req, res) {
   }
 
   if (req.method == 'GET') {
-    const { username } = req.body;
+    const { username } = req.query;
     const userRef = firestore.collection('users').doc(username);
     try {
       const data = (await userRef.get()).data();
