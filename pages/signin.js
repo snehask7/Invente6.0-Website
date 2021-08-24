@@ -105,15 +105,15 @@ function Signin() {
             {step >= 0 ? (
               <div className={styles.buttonContainer}>
                 <Container>
-                <Row>
-                      <Col xs={12}>
-                          <h6 className={styles.signIn}>
-                          <span style={{ color: 'rgba(0, 225, 255, 0.87)' }}>
-                            {' '}
-                            <Link href="/forgot">Forgot Password?</Link>
-                          </span>
-                        </h6>
-                      </Col>
+                  <Row>
+                    <Col xs={12}>
+                      <h6 className={styles.signIn}>
+                        <span style={{ color: 'rgba(0, 225, 255, 0.87)' }}>
+                          {' '}
+                          <Link href="/forgot">Forgot Password?</Link>
+                        </span>
+                      </h6>
+                    </Col>
                   </Row>
                   <Row>
                     <Col xs={12} md={8}>
@@ -126,15 +126,11 @@ function Signin() {
                       </h6>
                     </Col>
                     <Col xs={12} md={4}>
-                      <button
-                        type="submit"
-                        className={styles.continueButton}
-                      >
+                      <button type="submit" className={styles.continueButton}>
                         Sign In
                       </button>
                     </Col>
                   </Row>
-                  
                 </Container>
               </div>
             ) : null}

@@ -9,10 +9,10 @@ import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
 
 function Forgot() {
-  const { currentUser } = useAuth();
   const [formEmail, setFormEmail] = useState('');
+  const [sentMail, setSentMail] = useState(false);
   const [loading, setLoading] = useState(false);
-  const { login } = useAuth();
+  const { currentUser, resetPassword } = useAuth();
   const router = useRouter();
 
   const [step, setStep] = useState(-1);
@@ -28,6 +28,16 @@ function Forgot() {
   const onSubmit = async (event) => {
     event.preventDefault();
     console.log(formEmail);
+    setLoading(true);
+    try {
+      await resetPassword(formEmail);
+      setLoading(false);
+      setSentMail(true);
+      setFormEmail('');
+    } catch (err) {
+      console.log(err);
+      setLoading(false);
+    }
   };
 
   return (
@@ -49,7 +59,7 @@ function Forgot() {
               cursor={{ hideWhenDone: true }}
               onTypingDone={() => onContinue()}
             >
-              Don't worry, we got your back!
+              Don&apos;t worry, we got your back!
             </Typist>
           </h1>
           <form onSubmit={onSubmit}>
@@ -80,20 +90,16 @@ function Forgot() {
               <div className={styles.buttonContainer}>
                 <Container>
                   <Row>
-
                     <Col xs={12}>
-                      <button
-                        type="submit"
-                        className={styles.continueButton}
-                      >
+                      <button type="submit" className={styles.continueButton}>
                         Recover
                       </button>
                     </Col>
                   </Row>
-                  
                 </Container>
               </div>
             ) : null}
+            {sentMail ? 'Check you mail inbox and follow the steps' : null}
           </form>
         </div>
       </main>

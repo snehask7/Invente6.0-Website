@@ -9,7 +9,7 @@ export default function NavbarComp() {
   return (
     <div className={styles.navbar}>
       <div className={styles.inventeLogo}>
-        <Link href="/">
+        <Link href="/" passHref>
           <a>Logo</a>
         </Link>
       </div>
@@ -17,10 +17,10 @@ export default function NavbarComp() {
       <div className={styles.profile}>
         {!currentUser ? (
           <div className={styles.authBar}>
-            <Link href="/signin">
+            <Link href="/signin" passHref>
               <a className={styles.loginBtn}>Log In</a>
             </Link>
-            <Link href="/signup">
+            <Link href="/signup" passHref>
               <a className={styles.signupBtn}>Sign Up</a>
             </Link>
           </div>

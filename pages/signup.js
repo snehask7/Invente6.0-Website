@@ -27,7 +27,7 @@ function SignUp() {
     department: '',
     year: '',
   });
-  const { signup } = useAuth();
+  const { signup, currentUser } = useAuth();
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
