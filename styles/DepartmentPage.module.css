@@ -24,19 +24,54 @@
   text-align: center;
   color: white;
   font-family: 'Menlo', monospace;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-top: 15vh;
+  margin-bottom: 8vh;
 }
 
 .eventCard {
   border: 1px solid white;
   font-size: 2vh;
-  width: 12vh;
+  width: 14vh;
   margin: 2vh;
   color: white;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
+  vertical-align: middle;
+  background: linear-gradient(205deg, #4dff03 0%, #00d0ff 100%);
+  position: relative;
+}
+.eventCard::before {
+  background: linear-gradient(15deg, #4dff03 0%, #00d0ff 100%);
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  top: 0;
+  left: 0;
+  filter: blur(10px);
+}
+.eventCard span {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  background: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+.content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+}
+.content p {
+  margin-top: 2px;
 }
 .eventHeading {
   text-align: center;
@@ -51,6 +86,11 @@
 .eventsContainer {
   text-align: center;
   justify-content: center;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0;
+  padding: 2rem;
 }
 .eventDetails {
   padding: 2rem;
@@ -77,9 +117,22 @@
   margin-bottom: 1em;
 }
 .iconStyling {
-  margin-bottom: 1em;
-  margin-top: 1em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 .iconContainer {
   text-align: left;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eventDesc {
+  font-size: 1.8vh;
+}
+@media (max-width: 1200px) {
+  .pageHeading {
+    margin-bottom: 3vh;
+  }
 }
