@@ -1,12 +1,13 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link';
+import { useRouter } from 'next/router';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
   const { logout } = useAuth();
+  const router = useRouter();
 
   const { currentUser } = useAuth();
   const onSignOut = async (event) => {
@@ -32,7 +33,7 @@ export default function Home() {
         </h1>
         {currentUser ? (
           <>
-            <h3>Successfully Logged In as {currentUser.uid}</h3>
+            <h3>Successfully Logged In as {currentUser.displayName}</h3>
             <button onClick={() => onSignOut()} className={styles.card}>
               <h2>Signout</h2>
             </button>

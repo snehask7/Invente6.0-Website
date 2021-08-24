@@ -28,7 +28,7 @@ function SignUp() {
     department: '',
     year: '',
   });
-  const { signup, currentUser } = useAuth();
+  const { signup, currentUser, addDisplayName } = useAuth();
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
@@ -61,6 +61,10 @@ function SignUp() {
       if (currentUser) {
         await currentUser.sendEmailVerification();
         toast.success('Verification email sent');
+        await addDisplayName(
+          currentUser,
+          state['first_name'] + ' ' + state['last_name']
+        );
         await axios({
           baseURL: process.env.BASE_URL || 'http://localhost:3000',
           method: 'POST',
