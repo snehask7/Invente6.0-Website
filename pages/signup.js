@@ -62,7 +62,7 @@ function About() {
         <div className={styles.signupCard}>
           <h1 className={styles.typing}>
             <Typist
-              avgTypingDelay={40}
+              avgTypingDelay={30}
               cursor={{ hideWhenDone: true }}
               onTypingDone={() => onContinue()}
             >
@@ -72,7 +72,7 @@ function About() {
           {step >= 0 ? (
             <h1 className={styles.typing}>
               <Typist
-                avgTypingDelay={40}
+                avgTypingDelay={20}
                 cursor={{ hideWhenDone: true }}
                 onTypingDone={() => onContinue()}
               >
@@ -222,7 +222,7 @@ function About() {
               <div className={styles.buttonContainer}>
                 <Container>
                   <Row>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={8}>
                       <h6 className={styles.signIn}>
                         Already have an account?
                         <span style={{ color: 'rgba(0, 225, 255, 0.87)' }}>
@@ -231,7 +231,7 @@ function About() {
                         </span>
                       </h6>
                     </Col>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={4}>
                       <button
                         type="submit"
                         className={styles.continueButton}
