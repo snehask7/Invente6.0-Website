@@ -18,13 +18,12 @@ export default async function handler(req, res) {
     } = req.body;
 
     const userDoc = firestore.collection('users').doc(username);
-    const usernameDoc = firestore.collection('usernames').doc(username);
+    const usernameDoc = firestore.collection('usernames').doc(uid);
 
     const batch = firestore.batch();
 
     try {
       batch.set(usernameDoc, {
-        uid: uid,
         email: email,
         username: username,
         updatedAt: serverTimestamp(),
@@ -52,6 +51,7 @@ export default async function handler(req, res) {
       await batch.commit();
       res.status(200).send({
         message: 'User created successfully',
+        username,
       });
     } catch (err) {
       res.status(500).send({
