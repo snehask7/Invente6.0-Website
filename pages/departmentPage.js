@@ -6,7 +6,7 @@ import {
   FaPhoneAlt,
   FaRegBuilding,
   FaTrophy,
-  FaUserAlt
+  FaUserAlt,
 } from 'react-icons/fa';
 import styles from '../styles/DepartmentPage.module.css';
 const DepartmentPage = () => {
