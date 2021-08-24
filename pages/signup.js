@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { toast } from 'react-hot-toast';
 import Typist from 'react-typist';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
@@ -58,6 +59,8 @@ function SignUp() {
         state['password']
       );
       if (currentUser) {
+        await currentUser.sendEmailVerification();
+        toast.success('Verification email sent');
         await axios({
           baseURL: process.env.BASE_URL || 'http://localhost:3000',
           method: 'POST',
@@ -80,11 +83,11 @@ function SignUp() {
           },
         });
       } else {
-        console.log('User not logged in');
+        toast.error('Error signing up');
       }
       console.log('SignUp success');
       setLoading(false);
-      router.push('/');
+      router.push('/unverified');
     } catch (err) {
       console.log('Failed to login', err);
     } finally {
