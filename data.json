@@ -1,0 +1,220 @@
+{
+  "ECEevents": [
+    {
+      "name": "Enigma",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 3,
+      "organisers": [
+        { "name": "Harini", "phone": 8073169475 },
+        { "name": "Aadhish", "phone": 7598098147 }
+      ],
+      "description": {
+        "summary": "Solve puzzles and break the ultimate code",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": null,
+            "description": "Aptitude Test based on topics such as General Science and Mathematics, Abstract and Logical Reasoning, Data Interpretation and Basic Programming. Questions will be sent through a Google form."
+          },
+          {
+            "name": "Round 2",
+            "duration": null,
+            "description": "Qualified teams will be given puzzles based on cryptography, steganography, basic digital electronics and logical deduction. First team to complete wins."
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"]
+    },
+    {
+      "name": "Data Utopia",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 2,
+      "organisers": [{ "name": "Manjunathan", "phone": 9789067642 }],
+      "description": {
+        "summary": null,
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": "30 mins",
+            "description": "MCQ Quiz on Data Science, Machine Learning and Statistics."
+          },
+          {
+            "name": "Round 2",
+            "duration": "1.5 hours",
+            "description": "At the beginning, the participant will be asked a few questions for around 15 minutes for guiding them to use the correct model/testing their knowledge about the models that can be  used. If the team fails to answer the question the volunteer will guide the participants towards the  right direction (e.g.suggesting a column of values to be dropped etc) at the loss of points. Once a team solves the questions, the dataset (same dataset for all teams) will be given to  the team. The dataset will be technical in nature (related to ECE department). Using the answer to the questions as clues, each team must do exploratory analysis on  the dataset and come up with useful insights on the data and on how to proceed further.Then the team must implement a model/algorithm to predict the outputs for the given test values and measure the accuracy metrics along with the predictions."
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+    },
+    {
+      "name": "Tinkering Thoughts",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 3,
+      "organisers": [
+        { "name": "Palaniappan", "phone": 9791130573 },
+        { "name": "Karthik", "phone": 8015775424 },
+        { "name": "Hariharan A", "phone": 9962903437 }
+      ],
+      "description": {
+        "summary": null,
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1:Quiz",
+            "duration": "30 mins",
+            "description": "The quiz tests basic knowledge of microcontrollers, and basic electronics. Every participant will be given a Google Meet link.Based on the number of participants, 5 or 6 teams will be shortlisted."
+          },
+          {
+            "name": "Round 2:Circuit Simulation",
+            "duration": "1.5 hours",
+            "description": "Shortlisted participants from Round 1 will contest in a simulating round. Teams are required to use Tinkercad [open sourced- online software] to design and simulate a circuit. Based on the ranking in the first round, the teams are allowed to choose the projects. If a project is selected, then that project is locked. The teams will be put into breakout rooms."
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Inplant Training for the top two teams"]
+    },
+    {
+      "name": "The Big Meg",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 3,
+      "organisers": [
+        { "name": "Shwathi", "phone": 9445653201 },
+        { "name": "Ashwath", "phone": 9176253113 }
+      ],
+      "description": {
+        "summary": null,
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": null,
+            "description": "Will be conducted in discord. Each team will be given a basic electronic product and will be given 4 minutes to prepare and sell the same to the judges for a maximum of 3 minutes."
+          },
+          {
+            "name": "Round 2",
+            "duration": null,
+            "description": "Will again take place in discord and a theme or a problem statement will be established by the judges. And the participants will be given 20 mins to come up with a product or a service in accordance to the theme. And then the teams should convince the judges as to why they should invest in their product. The time cap for each pitch is set at 5 minutes."
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+    },
+    {
+      "name": "Debug-a-circuit ",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 3,
+      "organisers": [{ "name": "Sandhya B", "phone": 9790956452 }],
+      "description": {
+        "summary": "Apply the basic principles of electronics, debug the given circuits and arrive at a solution",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": null,
+            "description": " A technical quiz based on topics such as but not limited to Circuit Analysis, Semiconductor Devices, Analog Electronic Circuits and Digital Electronics. The questions will be sent to the teams as a Google Form which would be time restricted for submissions. Teams will be selected on the basis of points scored. Only one submission per team would be allowed."
+          },
+          {
+            "name": "Round 2",
+            "duration": null,
+            "description": "Qualified participants shall be added to a discord server and would be on a video conference throughout the event. This round would consist of three levels of increasing difficulty. In each level the participants are given a faulty circuit (circuit which does not produce the expected output), they are required to do some changes to the circuit and find the expected output. The output found in a particular level will act as a key to the next level. First team to complete all the 3 levels will be declared as winners."
+          }
+        ]
+      },
+      "open_to": ["ECE", "EEE"],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"]
+    },
+    {
+      "name": "Junkyard Jumble",
+      "category": "tech",
+      "min_team_size": 2,
+      "max_team_size": 3,
+      "organisers": [{ "name": "Pooja S", "phone": 9791114323 }],
+      "description": {
+        "summary": null,
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": "15 mins",
+            "description": "The first round involves puzzles, scrambled words and references from your favourite fandoms. Use them to crack the physics concepts and move to the next round. This round requires quick thinking skills, analytical and mental ability. Basic concepts of physics will be tested. (class 11 and 12 physics concepts)."
+          },
+          {
+            "name": "Round 2",
+            "duration": "3 mins per team",
+            "description": "This is the Dumb Charades round. Act out a basic technical (physics) question to your teammates. The team which guesses the maximum number of questions and also answers them correctly will win the competition."
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
+      "platform": "Zoom"
+    },
+    {
+      "name": "IPL Auction",
+      "category": "non-tech",
+      "min_team_size": 1,
+      "max_team_size": 3,
+      "organisers": [{ "name": "Vikram K", "phone": 7358046900 }],
+      "description": {
+        "summary": null,
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": "30 mins",
+            "description": "Quiz based entirely on IPL for a duration of 30 minutes."
+          },
+          {
+            "name": "Round 2",
+            "duration": "150 mins",
+            "description": "Purse amount will be 80 crores and each team should pick 15 players (11 players in the  playing 11 and 4 in bench) based on the criteria given. Points for the players will be given as per the data available based on 2020 performance in DREAM 11 (IPL 2021 will not be over by Invente)."
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
+      "platform": "Zoom"
+    },
+    {
+      "name": "SketchX",
+      "category": "non-tech",
+      "min_team_size": 1,
+      "max_team_size": 3,
+      "organisers": [
+        { "name": "Tejaswi S", "phone": 6380562392 },
+        { "name": "Sharmada G", "phone": 7708617246 }
+      ],
+      "description": {
+        "summary": null,
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": "45 mins",
+            "description": "Out of the few topics given on the spot, participants choose one to design a UI framework using any software they see fit. Each team will be scored by the judges and the co-participants(one from each team) through a google form that will be shared after every single presentation which will be 1 min(max). The form will be closed in a bare minimum time."
+          },
+          {
+            "name": "Round 2",
+            "duration": null,
+            "description": "It’s a guessing round where all the teams name 3 other teams who they think would have scored the highest (again, through a google form). for which they will be scored based on their accuracy."
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner:Rs.2000", "Runner-Up:Rs.1000"],
+      "platform": "Zoom"
+    }
+  ]
+}

@@ -15,7 +15,7 @@
       rgba(144, 53, 172, 0.61)
     );
   min-height: 100vh;
-  padding: 2rem;
+  padding: 8rem;
   align-items: center;
   background-blend-mode: screen;
   background-size: cover;
@@ -24,14 +24,14 @@
   text-align: center;
   color: white;
   font-family: 'Menlo', monospace;
-  margin-top: 15vh;
-  margin-bottom: 8vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 .eventCard {
-  border: 1px solid white;
   font-size: 2vh;
   width: 14vh;
+  height: 7vh;
   margin: 2vh;
   color: white;
   text-align: center;
@@ -39,11 +39,10 @@
   margin-right: auto;
   border-radius: 10px;
   vertical-align: middle;
-  background: linear-gradient(205deg, #4dff03 0%, #00d0ff 100%);
+  background: linear-gradient(205deg, #19e9f0 0%, #00d0ff 100%);
   position: relative;
 }
 .eventCard::before {
-  background: linear-gradient(15deg, #4dff03 0%, #00d0ff 100%);
   content: '';
   width: 100%;
   height: 100%;
@@ -51,7 +50,8 @@
   background: inherit;
   top: 0;
   left: 0;
-  filter: blur(10px);
+  filter: blur(0px);
+  border-radius: 10px;
 }
 .eventCard span {
   position: absolute;
@@ -61,17 +61,21 @@
   bottom: 3px;
   background: rgba(0, 0, 0, 0.5);
   pointer-events: none;
+  border-radius: 10px;
 }
 .content {
-  position: relative;
   z-index: 2;
   color: #fff;
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center;
+  border-radius: 10px;
 }
 .content p {
-  margin-top: 2px;
+  /* margin-top: 2px; */
+  margin: auto;
+  align-items: center;
+  padding: 5px;
 }
 .eventHeading {
   text-align: center;
@@ -113,7 +117,6 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   color: white;
-  height: 15em;
   margin-bottom: 1em;
 }
 .iconStyling {
@@ -123,6 +126,7 @@
 .iconContainer {
   text-align: left;
 }
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -134,5 +138,45 @@
 @media (max-width: 1200px) {
   .pageHeading {
     margin-bottom: 3vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .pageHeading {
+    margin-bottom: 3vh;
+  }
+  .container {
+    padding: 2rem;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1 0 18%;
+  margin: 1vh;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 1510px) {
+  .col {
+    flex: 1 0 25%;
+  }
+}
+
+@media (max-width: 770px) {
+  .col {
+    flex: 1 0 35%;
+  }
+}
+@media (max-width: 510px) {
+  .col {
+    flex: 1 0 100%;
+    text-align: left;
   }
 }
