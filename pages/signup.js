@@ -1,17 +1,34 @@
+import axios from 'axios';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { toast } from 'react-hot-toast';
 import Typist from 'react-typist';
+import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signup.module.css';
 
-function About() {
+function generate4DigitNumber() {
+  return Math.floor(Math.random() * 10000) + 1;
+}
+
+function SignUp() {
   const [step, setStep] = useState(-1);
   const [buttonText, setButtonText] = useState('Continue');
-  const [state, setState] = useState({});
-  const { signup } = useAuth();
+  const [state, setState] = useState({
+    email: '',
+    password: '',
+    username: '',
+    phone_number: '',
+    first_name: '',
+    last_name: '',
+    reg_no: '',
+    department: '',
+    year: '',
+  });
+  const { signup, currentUser, addDisplayName } = useAuth();
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
@@ -19,6 +36,10 @@ function About() {
     setStep(step + 1);
     if (step >= 2) setButtonText('Sign Up');
   };
+
+  useEffect(() => {
+    if (currentUser) router.push('/');
+  }, [currentUser, router]);
 
   function onChange(label, event) {
     //perform validation
@@ -33,11 +54,48 @@ function About() {
     console.log(state);
     try {
       setLoading(true);
-      await signup(state['email'], state['password']);
+      const { user: currentUser } = await signup(
+        state['email'],
+        state['password']
+      );
+      if (currentUser) {
+        await currentUser.sendEmailVerification();
+        toast.success('Verification email sent');
+        await addDisplayName(
+          currentUser,
+          state['first_name'] + ' ' + state['last_name']
+        );
+        await axios({
+          baseURL: process.env.BASE_URL || 'http://localhost:3000',
+          method: 'POST',
+          url: '/api/user',
+          data: {
+            uid: currentUser.uid,
+            email: state['email'],
+            username:
+              state['first_name'].toLowerCase() +
+              '_' +
+              state['last_name'].toLowerCase() +
+              '#' +
+              generate4DigitNumber(),
+            firstName: state['first_name'],
+            lastName: state['last_name'],
+            phone: state['phone_number'],
+            registerNumber: state['reg_no'],
+            year: state['year'],
+            department: state['department'],
+          },
+        });
+      } else {
+        toast.error('Error signing up');
+      }
       console.log('SignUp success');
-      router.push('/');
+      setLoading(false);
+      router.push('/unverified');
     } catch (err) {
       console.log('Failed to login', err);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -51,11 +109,12 @@ function About() {
           className={styles2['particle'] + ' ' + styles2['particle_4']}
         ></div>
       </div>
+      <NavbarComp />
       <main className={styles2.page_wrapper}>
         <div className={styles.signupCard}>
           <h1 className={styles.typing}>
             <Typist
-              avgTypingDelay={40}
+              avgTypingDelay={30}
               cursor={{ hideWhenDone: true }}
               onTypingDone={() => onContinue()}
             >
@@ -65,7 +124,7 @@ function About() {
           {step >= 0 ? (
             <h1 className={styles.typing}>
               <Typist
-                avgTypingDelay={40}
+                avgTypingDelay={20}
                 cursor={{ hideWhenDone: true }}
                 onTypingDone={() => onContinue()}
               >
@@ -215,7 +274,7 @@ function About() {
               <div className={styles.buttonContainer}>
                 <Container>
                   <Row>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={8}>
                       <h6 className={styles.signIn}>
                         Already have an account?
                         <span style={{ color: 'rgba(0, 225, 255, 0.87)' }}>
@@ -224,7 +283,7 @@ function About() {
                         </span>
                       </h6>
                     </Col>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={4}>
                       <button
                         type="submit"
                         className={styles.continueButton}
@@ -244,4 +303,4 @@ function About() {
   );
 }
 
-export default About;
+export default SignUp;
