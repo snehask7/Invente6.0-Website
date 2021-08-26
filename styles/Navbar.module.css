@@ -22,3 +22,9 @@
 .signupBtn {
   margin: 0 2em;
 }
+
+@media screen and (max-width: 900px) {
+  .centerTab {
+    display: none;
+  }
+}
