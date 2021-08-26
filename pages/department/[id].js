@@ -7,7 +7,7 @@ import {
   FaRegBuilding,
   FaRegClock,
   FaTrophy,
-  FaUserAlt
+  FaUserAlt,
 } from 'react-icons/fa';
 import data from '../../data.json';
 import styles from '../../styles/DepartmentPage.module.css';
@@ -56,7 +56,20 @@ export default function Department({ data }) {
           </Col>
           <Col lg={12} xl={12} md={12} sm={12}>
             <div className={styles.eventDetails}>
-              <p className={styles.headerWrapper}><span className={styles.eventHeading}>{events[event].name}</span><span className={events[event].category == 'tech' ? styles.techbadge : styles.nontechbadge}>{events[event].category == 'tech' ? 'Tech' : 'Non-Tech'}</span></p>
+              <p className={styles.headerWrapper}>
+                <span className={styles.eventHeading}>
+                  {events[event].name}
+                </span>
+                <span
+                  className={
+                    events[event].category == 'tech'
+                      ? styles.techbadge
+                      : styles.nontechbadge
+                  }
+                >
+                  {events[event].category == 'tech' ? 'Tech' : 'Non-Tech'}
+                </span>
+              </p>
               <br></br>
               {events[event].description.summary ? (
                 <>
@@ -111,9 +124,9 @@ export default function Department({ data }) {
                   {events[event].min_team_size == events[event].max_team_size
                     ? events[event].min_team_size + ' '
                     : events[event].min_team_size +
-                    ' - ' +
-                    events[event].max_team_size +
-                    ' '}
+                      ' - ' +
+                      events[event].max_team_size +
+                      ' '}
                   per team
                 </div>
                 <div className={styles.col}>
@@ -145,60 +158,9 @@ export default function Department({ data }) {
                   })}
                 </div>
               </div>
-              {/* <Row className={styles.iconContainer}>
-              <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
-                {events[event].organisers.map((organiser, id) => {
-                  return (
-                    <div key={`organiser${id}`}>
-                      {id == 0 ? (
-                        <>
-                          <FaPhoneAlt></FaPhoneAlt>
-                        </>
-                      ) : (
-                        <>&nbsp;&nbsp;</>
-                      )}
-                      &nbsp;{organiser.name + ' - ' + organiser.phone}
-                    </div>
-                  );
-                })}
-              </Col>
-
-              <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
-                <FaUserAlt></FaUserAlt>&nbsp;
-                {events[event].min_team_size == events[event].max_team_size
-                  ? events[event].min_team_size + ' '
-                  : events[event].min_team_size +
-                  ' - ' +
-                  events[event].max_team_size +
-                  ' '}
-                per team
-              </Col>
-              <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
-                <FaCalendarAlt></FaCalendarAlt>&nbsp;Oct 7, 9:00 AM
-              </Col>
-              <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
-                <FaRegBuilding></FaRegBuilding>&nbsp;Open to{' '}
-                {events[event].open_to == 'All'
-                  ? 'any Department'
-                  : events[event].open_to.join()}
-              </Col>
-              <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
-                {events[event].prizes.map((prize, id) => {
-                  return (
-                    <div key={`organiser${id}`}>
-                      {id == 0 ? (
-                        <>
-                          <FaTrophy></FaTrophy>
-                        </>
-                      ) : (
-                        <>&nbsp;&nbsp;</>
-                      )}
-                      &nbsp;{prize}
-                    </div>
-                  );
-                })}
-              </Col>
-            </Row> */}
+              <div className={styles.buttonWrapper}>
+                <button className={styles.registerButton}>Register</button>
+              </div>
             </div>
           </Col>
         </Row>

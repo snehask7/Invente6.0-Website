@@ -218,3 +218,29 @@
     content: '\A';
   }
 }
+
+.registerButton {
+  padding: 10px 20px;
+  color: #03e9f4;
+  background: none;
+  border: 2px solid #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  border-radius: 5px;
+}
+
+.registerButton:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 30px #03e9f4;
+}
+
+.buttonWrapper {
+  text-align: right;
+}
