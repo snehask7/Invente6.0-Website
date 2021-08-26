@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="805px" height="21px" viewBox="0 0 805 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="107.956459%" y2="99.2466518%" id="linearGradient-1">
+            <stop stop-color="#F6F4F9" offset="0%"></stop>
+            <stop stop-color="#CECBE4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3.061617e-15%" y1="50%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#C8BFD5" offset="0%"></stop>
+            <stop stop-color="#F1F1F9" stop-opacity="0.5" offset="1.03728612%"></stop>
+            <stop stop-color="#E4E4F1" stop-opacity="0.5" offset="1.98047158%"></stop>
+            <stop stop-color="#DDDCED" stop-opacity="0.5" offset="2.91709686%"></stop>
+            <stop stop-color="#F4F2F8" offset="18.0457937%"></stop>
+            <stop stop-color="#CCCADD" stop-opacity="0.60296066" offset="94.6236262%"></stop>
+            <stop stop-color="#E5E4F1" stop-opacity="0.570462189" offset="96.2197128%"></stop>
+            <stop stop-color="#FFFEFF" stop-opacity="0.542792149" offset="97.7042068%"></stop>
+            <stop stop-color="#F6F5FA" stop-opacity="0.518340048" offset="99.0160589%"></stop>
+            <stop stop-color="#A7A5CD" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="0 12.5 804.667 12.5 804.667 1.832 0 1.832"></polygon>
+        <linearGradient x1="0%" y1="0%" x2="105.613415%" y2="97.0926418%" id="linearGradient-4">
+            <stop stop-color="#DDD8E6" offset="0%"></stop>
+            <stop stop-color="#9992AF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,12.5 C0,17.194 15.958,21 38.5,21 L38.5,21 L766.166,21 C788.709,21 804.667,17.194 804.667,12.5 L804.667,12.5 L0,12.5 Z" id="path-5"></path>
+        <linearGradient x1="0%" y1="0%" x2="105.613415%" y2="97.0926418%" id="linearGradient-6">
+            <stop stop-color="#EAEAEB" offset="0%"></stop>
+            <stop stop-color="#9992AF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M56.334,0.5 C42.834,0.5 0,0.917 0,1.833 L0,1.833 L804.667,1.833 C804.667,0.917 761.833,0.5 748.333,0.5 L748.333,0.5 L56.334,0.5 Z" id="path-7"></path>
+        <linearGradient x1="0%" y1="50%" x2="106.573522%" y2="50%" id="linearGradient-8">
+            <stop stop-color="#F6F4F9" offset="0%"></stop>
+            <stop stop-color="#CECBE4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#7D6D9A" stop-opacity="0.35" offset="7.26027517%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="15.847418%"></stop>
+            <stop stop-color="#E3E0F4" offset="81.0487085%"></stop>
+            <stop stop-color="#EBE9F7" offset="93.7818878%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M448.291,9.875 L356.373,9.875 C351.933,9.875 348.333,6.275 348.333,1.835 L348.333,1.833 L456.333,1.833 C456.333,6.274 452.733,9.875 448.291,9.875" id="path-10"></path>
+    </defs>
+    <g id="01_Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-1-Copy-2" transform="translate(0.000000, -467.000000)">
+            <g id="macbook">
+                <g id="Mockup" transform="translate(0.000000, 0.500000)">
+                    <g id="Group-15" transform="translate(0.000000, 466.000000)">
+                        <g id="Fill-6">
+                            <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                            <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                            <use fill-opacity="0.25" fill="#D1F9FF" style="mix-blend-mode: color;" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="Fill-8">
+                            <use fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                            <use fill-opacity="0.25" fill="#D1F9FF" style="mix-blend-mode: color;" xlink:href="#path-5"></use>
+                        </g>
+                        <g id="Fill-10">
+                            <use fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
+                            <use fill-opacity="0.25" fill="#D1F9FF" style="mix-blend-mode: color;" xlink:href="#path-7"></use>
+                        </g>
+                        <g id="Fill-12">
+                            <use fill="url(#linearGradient-8)" xlink:href="#path-10"></use>
+                            <use fill="url(#linearGradient-9)" xlink:href="#path-10"></use>
+                            <use fill-opacity="0.25" fill="#D1F9FF" style="mix-blend-mode: color;" xlink:href="#path-10"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

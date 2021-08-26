@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+import Hero from '../components/Hero';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import styles from '../styles/Home.module.css';
@@ -30,6 +31,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to the official SSN Invente 6.0 Website
         </h1>
+        <Hero />
         {currentUser ? (
           <>
             <h3>Successfully Logged In as {currentUser.uid}</h3>

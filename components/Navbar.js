@@ -13,7 +13,22 @@ export default function NavbarComp() {
           <a>Logo</a>
         </Link>
       </div>
-      <div className={styles.centerTab}>Center Tab</div>
+      <div className={styles.centerTab}>
+        <div className={styles.authBar}>
+          <Link href="/departments">
+            <a className={styles.loginBtn}>Departments</a>
+          </Link>
+          <Link href="/workshops">
+            <a className={styles.signupBtn}>Workshops</a>
+          </Link>
+          <Link href="/schedule">
+            <a className={styles.signupBtn}>Schedule</a>
+          </Link>
+          <Link href="/contact">
+            <a className={styles.signupBtn}>Contact Us</a>
+          </Link>
+        </div>
+      </div>
       <div className={styles.profile}>
         {!currentUser ? (
           <div className={styles.authBar}>

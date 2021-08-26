@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="694px" height="466px" viewBox="0 0 694 466" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="107.956459%" y2="99.2466518%" id="linearGradient-1">
+            <stop stop-color="#F6F4F9" offset="0%"></stop>
+            <stop stop-color="#CECBE4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.628018296%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#DEEBF6" offset="0%"></stop>
+            <stop stop-color="#7EABBC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="107.600925%" y2="98.9198023%" id="linearGradient-3">
+            <stop stop-color="#DDEAF5" offset="0%"></stop>
+            <stop stop-color="#C2CDD6" offset="100%"></stop>
+        </linearGradient>
+        <path d="M72.333,0.5 C63.497,0.5 56.334,7.664 56.334,16.5 L56.334,16.5 L56.334,463.5 C56.334,469.575 61.258,474.5 67.333,474.5 L67.333,474.5 L737.333,474.5 C743.408,474.5 748.333,469.575 748.333,463.5 L748.333,463.5 L748.333,16.5 C748.333,7.664 741.17,0.5 732.334,0.5 L732.334,0.5 L72.333,0.5 Z" id="path-4"></path>
+    </defs>
+    <g id="01_Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-1-Copy-2" transform="translate(-55.000000, 0.000000)">
+            <g id="macbook">
+                <g id="Mockup" transform="translate(0.000000, 0.500000)">
+                    <g id="Fill-1">
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <use fill-opacity="0.25" fill="#D1F9FF" fill-rule="evenodd" style="mix-blend-mode: color;" xlink:href="#path-4"></use>
+                        <path stroke="url(#linearGradient-2)" stroke-width="3" d="M72.333,2 C64.3256468,2 57.834,8.49220739 57.834,16.5 L57.834,463.5 C57.834,468.746806 62.08666,473 67.333,473 L737.333,473 C742.579573,473 746.833,468.746573 746.833,463.5 L746.833,16.5 C746.833,8.49220739 740.341353,2 732.334,2 L72.333,2 Z"></path>
+                        <path stroke="url(#linearGradient-3)" stroke-width="2.5" d="M72.333,1.75 C64.1875708,1.75 57.584,8.35414103 57.584,16.5 L57.584,463.5 C57.584,468.88487 61.9485818,473.25 67.333,473.25 L737.333,473.25 C742.717644,473.25 747.083,468.884644 747.083,463.5 L747.083,16.5 C747.083,8.35414103 740.479429,1.75 732.334,1.75 L72.333,1.75 Z"></path>
+                        <use stroke-opacity="0.25" stroke="#D1F9FF" stroke-width="1" xlink:href="#path-4"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
