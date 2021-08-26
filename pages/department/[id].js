@@ -56,7 +56,9 @@ export default function Department({ data }) {
           </Col>
           <Col lg={12} xl={12} md={12} sm={12}>
             <div className={styles.eventDetails}>
-              <h1 className={styles.eventHeading}>{events[event].name}</h1>
+              <h1 className={styles.eventHeading}>
+                {events[event].name} <span className={styles.tech}>Tech</span>
+              </h1>
               <br></br>
               {events[event].description.summary ? (
                 <>
@@ -68,6 +70,7 @@ export default function Department({ data }) {
                   ></p>
                 </>
               ) : null}
+              {events[event].description.rounds == 0 ? <hr></hr> : null}
               {events[event].description.round_description.map((round, id) => {
                 return (
                   <Row key={`round${id}`}>
@@ -80,8 +83,9 @@ export default function Department({ data }) {
                         </>
                       ) : null}
                       <hr></hr>
-                      {round.description}
-                      <br></br>
+                      <p
+                        dangerouslySetInnerHTML={{ __html: round.description }}
+                      ></p>
                     </div>
                   </Row>
                 );
@@ -144,59 +148,59 @@ export default function Department({ data }) {
                 </div>
               </div>
               {/* <Row className={styles.iconContainer}>
-                  <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
-                    {events[event].organisers.map((organiser, id) => {
-                      return (
-                        <div key={`organiser${id}`}>
-                          {id == 0 ? (
-                            <>
-                              <FaPhoneAlt></FaPhoneAlt>
-                            </>
-                          ) : (
-                            <>&nbsp;&nbsp;</>
-                          )}
-                          &nbsp;{organiser.name + ' - ' + organiser.phone}
-                        </div>
-                      );
-                    })}
-                  </Col>
-  
-                  <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
-                    <FaUserAlt></FaUserAlt>&nbsp;
-                    {events[event].min_team_size == events[event].max_team_size
-                      ? events[event].min_team_size + ' '
-                      : events[event].min_team_size +
-                      ' - ' +
-                      events[event].max_team_size +
-                      ' '}
-                    per team
-                  </Col>
-                  <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
-                    <FaCalendarAlt></FaCalendarAlt>&nbsp;Oct 7, 9:00 AM
-                  </Col>
-                  <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
-                    <FaRegBuilding></FaRegBuilding>&nbsp;Open to{' '}
-                    {events[event].open_to == 'All'
-                      ? 'any Department'
-                      : events[event].open_to.join()}
-                  </Col>
-                  <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
-                    {events[event].prizes.map((prize, id) => {
-                      return (
-                        <div key={`organiser${id}`}>
-                          {id == 0 ? (
-                            <>
-                              <FaTrophy></FaTrophy>
-                            </>
-                          ) : (
-                            <>&nbsp;&nbsp;</>
-                          )}
-                          &nbsp;{prize}
-                        </div>
-                      );
-                    })}
-                  </Col>
-                </Row> */}
+              <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
+                {events[event].organisers.map((organiser, id) => {
+                  return (
+                    <div key={`organiser${id}`}>
+                      {id == 0 ? (
+                        <>
+                          <FaPhoneAlt></FaPhoneAlt>
+                        </>
+                      ) : (
+                        <>&nbsp;&nbsp;</>
+                      )}
+                      &nbsp;{organiser.name + ' - ' + organiser.phone}
+                    </div>
+                  );
+                })}
+              </Col>
+
+              <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
+                <FaUserAlt></FaUserAlt>&nbsp;
+                {events[event].min_team_size == events[event].max_team_size
+                  ? events[event].min_team_size + ' '
+                  : events[event].min_team_size +
+                  ' - ' +
+                  events[event].max_team_size +
+                  ' '}
+                per team
+              </Col>
+              <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
+                <FaCalendarAlt></FaCalendarAlt>&nbsp;Oct 7, 9:00 AM
+              </Col>
+              <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
+                <FaRegBuilding></FaRegBuilding>&nbsp;Open to{' '}
+                {events[event].open_to == 'All'
+                  ? 'any Department'
+                  : events[event].open_to.join()}
+              </Col>
+              <Col className={styles.iconStyling} sm={12} md={12} lg={2}>
+                {events[event].prizes.map((prize, id) => {
+                  return (
+                    <div key={`organiser${id}`}>
+                      {id == 0 ? (
+                        <>
+                          <FaTrophy></FaTrophy>
+                        </>
+                      ) : (
+                        <>&nbsp;&nbsp;</>
+                      )}
+                      &nbsp;{prize}
+                    </div>
+                  );
+                })}
+              </Col>
+            </Row> */}
             </div>
           </Col>
         </Row>
@@ -207,7 +211,7 @@ export default function Department({ data }) {
 
 export function getStaticPaths() {
   return {
-    paths: [{ params: { id: 'ECE' } }],
+    paths: [{ params: { id: 'ECE' } }, { params: { id: 'BME' } }],
     fallback: false,
   };
 }
