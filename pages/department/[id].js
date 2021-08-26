@@ -10,7 +10,7 @@ import {
   FaUserAlt,
 } from 'react-icons/fa';
 import styles from '../../styles/DepartmentPage.module.css';
-import axios from 'axios';
+import data from '../../data.json';
 
 export default function Department({ data }) {
   const [event, setEvent] = useState(0);
@@ -214,14 +214,10 @@ export function getStaticPaths() {
 
 export async function getStaticProps(context) {
   const { id } = context.params;
-  const res = await axios({
-    baseURL: process.env.BASE_URL || 'http://localhost:3000',
-    method: 'GET',
-    url: `/api/department?did=${id}`,
-  });
+  const res = data[id];
   return {
     props: {
-      data: res.data,
+      data: res,
     },
   };
 }
