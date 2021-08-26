@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import styles from '../styles/Home.module.css';
@@ -37,28 +38,27 @@ export default function Home() {
             <button onClick={() => onSignOut()} className={styles.card}>
               <h2>Signout</h2>
             </button>
-            <Link
-              href={{
-                pathname: '/departmentPage',
-                query: { department: 'ECE' },
-              }}
-            >
-              <a className={styles.card}>
-                <h2>ECE</h2>
-              </a>
-            </Link>
-            <Link
-              href={{
-                pathname: '/departmentPage',
-                query: { department: 'BME' },
-              }}
-            >
-              <a className={styles.card}>
-                <h2>BME</h2>
-              </a>
-            </Link>
           </>
         ) : null}
+        <Link
+          href={{
+            pathname: '/department/ECE',
+          }}
+        >
+          <a className={styles.card}>
+            <h2>ECE</h2>
+          </a>
+        </Link>
+        <Link
+          href={{
+            pathname: '/departmentPage',
+            query: { department: 'BME' },
+          }}
+        >
+          <a className={styles.card}>
+            <h2>BME</h2>
+          </a>
+        </Link>
       </main>
 
       <footer className={styles.footer}>
