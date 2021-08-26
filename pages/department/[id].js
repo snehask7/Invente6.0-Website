@@ -214,7 +214,11 @@ export function getStaticPaths() {
 
 export async function getStaticProps(context) {
   const { id } = context.params;
-  const res = await axios.get(`http://localhost:3000/api/department?did=${id}`);
+  const res = await axios({
+    baseURL: process.env.BASE_URL || 'http://localhost:3000',
+    method: 'GET',
+    url: `/api/department?did=${id}`,
+  });
   return {
     props: {
       data: res.data,

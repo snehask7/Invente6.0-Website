@@ -49,17 +49,17 @@ export default function Home() {
             <button onClick={() => onSignOut()} className={styles.card}>
               <h2>Signout</h2>
             </button>
-            <Link
-              href={{
-                pathname: '/department/ECE',
-              }}
-            >
-              <a className={styles.card}>
-                <h2>ECE</h2>
-              </a>
-            </Link>
           </>
         ) : null}
+        <Link
+          href={{
+            pathname: '/department/ECE',
+          }}
+        >
+          <a className={styles.card}>
+            <h2>ECE</h2>
+          </a>
+        </Link>
       </main>
 
       <footer className={styles.footer}>
