@@ -51,8 +51,7 @@ export default function Home() {
             </button>
             <Link
               href={{
-                pathname: '/departmentPage',
-                query: { department: 'ECE' },
+                pathname: '/department/ECE',
               }}
             >
               <a className={styles.card}>

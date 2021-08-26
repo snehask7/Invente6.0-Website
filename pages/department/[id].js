@@ -9,14 +9,14 @@ import {
   FaTrophy,
   FaUserAlt,
 } from 'react-icons/fa';
-import data from '../../data.json';
 import styles from '../../styles/DepartmentPage.module.css';
+import axios from 'axios';
 
-export default function Department() {
+export default function Department({ data }) {
   const [event, setEvent] = useState(0);
   const router = useRouter();
   var department = router.query.id;
-  var events = data[department + 'events'];
+  var events = data;
   return (
     <div className={styles.container}>
       <main>
@@ -203,4 +203,21 @@ export default function Department() {
       </main>
     </div>
   );
+}
+
+export function getStaticPaths() {
+  return {
+    paths: [{ params: { id: 'ECE' } }],
+    fallback: false,
+  };
+}
+
+export async function getStaticProps(context) {
+  const { id } = context.params;
+  const res = await axios.get(`http://localhost:3000/api/department?did=${id}`);
+  return {
+    props: {
+      data: res.data,
+    },
+  };
 }
