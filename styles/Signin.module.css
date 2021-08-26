@@ -76,7 +76,6 @@
 .inputField > option {
   color: black;
 }
-
 .inputField:focus {
   outline: none;
 }
@@ -139,4 +138,13 @@
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 30px #03e9f4;
+}
+
+
+.mailBoxText {
+  font-family: 'Menlo', monospace;
+  font-size: 2vh;
+  text-align: center;
+  margin-left: 0.5em;
+  color: rgb(102, 116, 148);
 }
