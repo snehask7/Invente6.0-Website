@@ -7,7 +7,7 @@ import {
   FaRegBuilding,
   FaRegClock,
   FaTrophy,
-  FaUserAlt,
+  FaUserAlt
 } from 'react-icons/fa';
 import data from '../data.json';
 import styles from '../styles/DepartmentPage.module.css';
@@ -56,7 +56,10 @@ const DepartmentPage = () => {
           </Col>
           <Col lg={12} xl={12} md={12} sm={12}>
             <div className={styles.eventDetails}>
-              <h1 className={styles.eventHeading}>{events[event].name}</h1>
+              <h1 className={styles.eventHeading}>
+                {events[event].name}{' '}
+                <span className={styles.tech}>Info CSS</span>
+              </h1>
               <br></br>
               {events[event].description.summary ? (
                 <>
@@ -68,6 +71,7 @@ const DepartmentPage = () => {
                   ></p>
                 </>
               ) : null}
+              {events[event].description.rounds == 0 ? <hr></hr> : null}
               {events[event].description.round_description.map((round, id) => {
                 return (
                   <Row key={`round${id}`}>
@@ -80,8 +84,7 @@ const DepartmentPage = () => {
                         </>
                       ) : null}
                       <hr></hr>
-                      {round.description}
-                      <br></br>
+                      <p dangerouslySetInnerHTML={{ __html: round.description }}></p>
                     </div>
                   </Row>
                 );
@@ -109,9 +112,9 @@ const DepartmentPage = () => {
                   {events[event].min_team_size == events[event].max_team_size
                     ? events[event].min_team_size + ' '
                     : events[event].min_team_size +
-                      ' - ' +
-                      events[event].max_team_size +
-                      ' '}
+                    ' - ' +
+                    events[event].max_team_size +
+                    ' '}
                   per team
                 </div>
                 <div className={styles.col}>
@@ -201,7 +204,7 @@ const DepartmentPage = () => {
           </Col>
         </Row>
       </main>
-    </div>
+    </div >
   );
 };
 

@@ -30,7 +30,7 @@
 
 .eventCard {
   font-size: 2vh;
-  width: 14vh;
+  min-width: 14vh;
   height: 7vh;
   margin: 2vh;
   color: white;
@@ -86,6 +86,14 @@
   background: linear-gradient(to top, #08aeea 5%, #b721ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.tech {
+  padding: 8px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  background: #5fd6d4;
+  color: white !important;
 }
 .eventsContainer {
   text-align: center;

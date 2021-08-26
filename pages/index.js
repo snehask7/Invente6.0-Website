@@ -59,6 +59,16 @@ export default function Home() {
                 <h2>ECE</h2>
               </a>
             </Link>
+            <Link
+              href={{
+                pathname: '/departmentPage',
+                query: { department: 'BME' },
+              }}
+            >
+              <a className={styles.card}>
+                <h2>BME</h2>
+              </a>
+            </Link>
           </>
         ) : null}
       </main>
