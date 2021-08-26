@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import styles from '../styles/Home.module.css';
@@ -51,8 +51,7 @@ export default function Home() {
         </Link>
         <Link
           href={{
-            pathname: '/departmentPage',
-            query: { department: 'BME' },
+            pathname: '/department/BME',
           }}
         >
           <a className={styles.card}>
