@@ -38,6 +38,7 @@ export default async function handler(req, res) {
         year: year,
         department: department,
         phone: phone,
+        events: [], // to store the list of registered events.
         updatedAt: serverTimestamp(),
       });
     } catch (err) {
