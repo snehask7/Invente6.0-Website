@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Voltaire&display=swap');
 .container {
   background-image: linear-gradient(to right, #050d22, #070e21, #1c132e),
     linear-gradient(
@@ -27,10 +28,10 @@
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
-
 .eventCard {
   font-size: 2vh;
   min-width: 14vh;
+  max-width: 18vh;
   height: 7vh;
   margin: 2vh;
   color: white;
@@ -41,6 +42,7 @@
   vertical-align: middle;
   background: linear-gradient(205deg, #19e9f0 0%, #00d0ff 100%);
   position: relative;
+  font-family: 'Voltaire', sans-serif;
 }
 .eventCard::before {
   content: '';
@@ -72,29 +74,50 @@
   border-radius: 10px;
 }
 .content p {
-  /* margin-top: 2px; */
   margin: auto;
   align-items: center;
   padding: 5px;
 }
 .eventHeading {
   text-align: center;
-  font-weight: 700;
+  font-weight: 900 !important;
   background: #08aeea;
   background: -webkit-linear-gradient(to top, #08aeea 5%, #b721ff 100%);
   background: -moz-linear-gradient(to top, #08aeea 5%, #b721ff 100%);
   background: linear-gradient(to top, #08aeea 5%, #b721ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 3.8vh;
 }
-.tech {
-  padding: 8px 10px;
-  border-radius: 10px;
+
+.techbadge {
+  padding: 6px 40px;
+  border-radius: 20px;
   font-weight: 600;
-  font-size: 14px;
-  background: #5fd6d4;
-  color: white !important;
+  font-size: 2vh;
+  background: rgba(74, 126, 197, 0.4);
+  border: 2px solid rgb(117, 165, 233) !important;
+  color: rgb(117, 165, 233) !important;
   z-index: 3;
+  text-align: right;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+.nontechbadge {
+  padding: 6px 40px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 2vh;
+  background: rgba(220, 111, 141, 0.27);
+  border: 2px solid #dc6f8d !important;
+  color: #dc6f8d !important;
+  z-index: 3;
+  text-align: right;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+.headerWrapper {
+  text-align: center;
 }
 .eventsContainer {
   text-align: center;
@@ -113,7 +136,8 @@
   box-shadow: 2px 2px 0.9em #df1592, -2px -2px 0.9em #19e9f0;
   border-radius: 20px;
   color: white;
-  font-family: 'Menlo', monospace;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2vh;
 }
 
 .roundCard {
@@ -141,9 +165,7 @@
   justify-content: center;
   align-items: center;
 }
-.eventDesc {
-  font-size: 1.8vh;
-}
+
 @media (max-width: 1200px) {
   .pageHeading {
     margin-bottom: 3vh;
@@ -187,5 +209,12 @@
   .col {
     flex: 1 0 100%;
     text-align: left;
+  }
+}
+
+@media (max-width: 900px) {
+  .techbadge::before,
+  .nontechbadge::before {
+    content: '\A';
   }
 }

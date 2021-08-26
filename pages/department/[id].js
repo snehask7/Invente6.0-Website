@@ -7,10 +7,10 @@ import {
   FaRegBuilding,
   FaRegClock,
   FaTrophy,
-  FaUserAlt,
+  FaUserAlt
 } from 'react-icons/fa';
-import styles from '../../styles/DepartmentPage.module.css';
 import data from '../../data.json';
+import styles from '../../styles/DepartmentPage.module.css';
 
 export default function Department({ data }) {
   const [event, setEvent] = useState(0);
@@ -56,9 +56,7 @@ export default function Department({ data }) {
           </Col>
           <Col lg={12} xl={12} md={12} sm={12}>
             <div className={styles.eventDetails}>
-              <h1 className={styles.eventHeading}>
-                {events[event].name} <span className={styles.tech}>Tech</span>
-              </h1>
+              <p className={styles.headerWrapper}><span className={styles.eventHeading}>{events[event].name}</span><span className={events[event].category == 'tech' ? styles.techbadge : styles.nontechbadge}>{events[event].category == 'tech' ? 'Tech' : 'Non-Tech'}</span></p>
               <br></br>
               {events[event].description.summary ? (
                 <>
@@ -75,7 +73,7 @@ export default function Department({ data }) {
                 return (
                   <Row key={`round${id}`}>
                     <div className={styles.roundCard}>
-                      {round.name}{' '}
+                      <b> {round.name}</b>{' '}
                       {round.duration ? (
                         <>
                           &nbsp;<FaRegClock></FaRegClock>&nbsp;
@@ -113,9 +111,9 @@ export default function Department({ data }) {
                   {events[event].min_team_size == events[event].max_team_size
                     ? events[event].min_team_size + ' '
                     : events[event].min_team_size +
-                      ' - ' +
-                      events[event].max_team_size +
-                      ' '}
+                    ' - ' +
+                    events[event].max_team_size +
+                    ' '}
                   per team
                 </div>
                 <div className={styles.col}>

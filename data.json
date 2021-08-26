@@ -1,6 +1,53 @@
 {
   "ECE": [
     {
+      "name": "Hackinfinity",
+      "category": "tech",
+      "min_team_size": 0,
+      "max_team_size": 0,
+      "organisers": [
+        { "name": "Aishwarya", "phone": 7338935634 },
+        { "name": "Nimisha", "phone": 9840780834 }
+      ],
+      "description": {
+        "summary": "<i>“Because the people who are crazy enough to think they can change the world are the ones who do”<br/>~Steve Jobs</i><br/><br/>Have you ever been awestruck by the reach of technology? Does its revolutionary touch on this world dazzle you? Have you ever dreamed of being a tech-savvy pioneer? This is your time! Grab the baton! If you want to make the world a better place, the answer lies in creativity and innovation. Now’s your time to take these problems head on and arrive at remarkable solutions!<br/><br/>Join us in this 24 - hour hackathon and prototype a groundbreaking solution to problems in these topics. Creativity is the greatest rebellion in existence. Can you rebel and innovate a solution to the problems in these areas? Brave against the time crunch and grab this opportunity to win exciting prizes!!!<br/><br/> <h5>Topics for Problem Statement</h5><ul><li>Cyber Security</li><li>Medical and Healthcare</li><li>Women's Safety</li><li>Climate Change and Sustainability</li><li>Fintech</li><li>Technology for agriculture</li><li>Student Innovation (Open Idea)</li></ul><br/>The hackathon will follow a leader board system. The points awarded will be the cumulative points, gained by the team over the three reviews and final presentation. The top team will be announced as the winner of the hackathon.<br/><b>Decision taken by the review panel will be final.</b>",
+        "rounds": 5,
+        "round_description": [
+          {
+            "name": "Schedule",
+            "duration": null,
+            "description": "<h5>Day 1:</h5><ul><li>Virtual meet set up</li><li>Introduction - Google meet</li><li>Hackathon start</li><li>First Review - Discord</li><li>Second Review - Discord</li></ul><br/><h5>Day 2:</h5><ul><li>Third Review - Discord</li><li>Hackathon ends</li><li>Final Presentation - Google Meet</li><li>Valedictory</li></ul>"
+          },
+          {
+            "name": "First Review:",
+            "duration": null,
+            "description": "<ol><li>Teams are expected to explain their problem statement and the workflow of their solution.</li><li>In this round, teams will be evaluated based on the novelty of their problem statement and the clarity in their approach.</li></ol>"
+          },
+          {
+            "name": "Second Review:",
+            "duration": null,
+            "description": "<ol><li>This review is a checkpoint to track the team’s progress.</li><li>The reviewers will give their input and their thoughts on the team’s solution and changes if there are any.</li></ol>"
+          },
+          {
+            "name": "Third Review:",
+            "duration": null,
+            "description": "<ol><li>Teams are expected to implement the changes given in the previous review by the reviewers.</li><li>In this round, the teams are reviewed based on their progress in accordance with their proposed workflow and closeness to completion of the project.</li></ol>"
+          },
+          {
+            "name": "Final Presentation:",
+            "duration": null,
+            "description": "<ol><li>In this round, teams will be evaluated based on presentation, ability to explain their idea and innovation in their solution.</li><li>Teams which address the marketability of their product will be awarded additional points</li></ol>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": [
+        "Winner - Rs.12000",
+        "1st Runner-Up - Rs.8000",
+        "2nd Runner-Up - Rs.5000"
+      ]
+    },
+    {
       "name": "Enigma",
       "category": "tech",
       "min_team_size": 1,
@@ -158,8 +205,32 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
-      "platform": "Zoom"
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"]
+    },
+    {
+      "name": "Paper Presentation",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 4,
+      "organisers": [{ "name": "Nethraa", "phone": 8939073910 }],
+      "description": {
+        "summary": null,
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1:Submission of abstract",
+            "duration": null,
+            "description": "The abstract of the paper of your preference from the given domains must be sent through mail by1st October, 2021. The domains are as follows:<br/><ul><li>Antenna Systems and its Applications </li><li>Augmented Reality </li><li>Cognitive Science </li><li>Cybersecurity and its risk assessment techniques </li><li>Deep Learning </li><li>Emerging trends in Photonics </li><li>Internet of Intelligent Things </li><li>Internet of Things </li><li>Machine Learning </li><li>Machine Learning/ AI for networks </li><li>MEMS </li><li>Network Security and Blockchain Technology </li><li>Optical Communication and Networks </li><li>Robotics </li><li>Signal and Image processing</li><li>Virtual Reality</li></ul><br/>Email id to submit abstract: ssnieeecomsoc@gmail.com"
+          },
+          {
+            "name": "Round 2",
+            "duration": null,
+            "description": "Live Presentation of the shortlisted papers from Round 1. The selected teams from round 1 will be given 5 – 10 minutes to explain their paper and present their idea to the panel of judges LIVE online during the time of the event."
+          }
+        ]
+      },
+      "open_to": ["ECE"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"]
     },
     {
       "name": "IPL Auction",
@@ -184,8 +255,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
-      "platform": "Zoom"
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"]
     },
     {
       "name": "SketchX",
@@ -213,8 +283,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner:Rs.2000", "Runner-Up:Rs.1000"],
-      "platform": "Zoom"
+      "prizes": ["Winner:Rs.2000", "Runner-Up:Rs.1000"]
     }
   ],
   "BME": [
