@@ -94,6 +94,7 @@
   font-size: 14px;
   background: #5fd6d4;
   color: white !important;
+  z-index: 3;
 }
 .eventsContainer {
   text-align: center;
