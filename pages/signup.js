@@ -66,7 +66,7 @@ function SignUp() {
           state['first_name'] + ' ' + state['last_name']
         );
         await axios({
-          baseURL: process.env.BASE_URL || 'http://localhost:3000',
+          baseURL: window.location.origin,
           method: 'POST',
           url: '/api/user',
           data: {
