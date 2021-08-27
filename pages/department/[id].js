@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
+import { toast } from 'react-hot-toast';
 import {
   FaCalendarAlt,
   FaPhoneAlt,
@@ -17,6 +18,10 @@ export default function Department({ data }) {
   const router = useRouter();
   var department = router.query.id;
   var events = data;
+  function register(id) {
+    //add registration code
+    toast.success('Registered Successfully');
+  }
   return (
     <div className={styles.container}>
       <main>
@@ -113,7 +118,7 @@ export default function Department({ data }) {
                         ) : (
                           <>&nbsp;&nbsp;</>
                         )}
-                        &nbsp;{organiser.name + ':' + organiser.phone}
+                        &nbsp;{organiser.name + ' : ' + organiser.phone}
                       </div>
                     );
                   })}
@@ -159,7 +164,12 @@ export default function Department({ data }) {
                 </div>
               </div>
               <div className={styles.buttonWrapper}>
-                <button className={styles.registerButton}>Register</button>
+                <button
+                  className={styles.registerButton}
+                  onClick={() => register()}
+                >
+                  Register
+                </button>
               </div>
             </div>
           </Col>

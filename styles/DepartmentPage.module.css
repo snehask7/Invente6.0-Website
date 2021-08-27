@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .container {
   background-image: linear-gradient(to right, #050d22, #070e21, #1c132e),
     linear-gradient(
@@ -136,7 +137,7 @@
   box-shadow: 2px 2px 0.9em #df1592, -2px -2px 0.9em #19e9f0;
   border-radius: 20px;
   color: white;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2vh;
 }
 
