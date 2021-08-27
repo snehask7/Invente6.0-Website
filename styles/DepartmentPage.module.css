@@ -95,27 +95,27 @@
   padding: 6px 40px;
   border-radius: 20px;
   font-weight: 600;
-  font-size: 2vh;
+  font-size: 1.7vh;
   background: rgba(74, 126, 197, 0.4);
   border: 2px solid rgb(117, 165, 233) !important;
   color: rgb(117, 165, 233) !important;
   z-index: 3;
   text-align: right;
-  margin-left: 20px;
   white-space: nowrap;
+  margin: 20px;
 }
 .nontechbadge {
   padding: 6px 40px;
   border-radius: 20px;
   font-weight: 600;
-  font-size: 2vh;
+  font-size: 1.7vh;
   background: rgba(220, 111, 141, 0.27);
   border: 2px solid #dc6f8d !important;
   color: #dc6f8d !important;
   z-index: 3;
   text-align: right;
-  margin-left: 20px;
   white-space: nowrap;
+  margin: 20px;
 }
 .headerWrapper {
   text-align: center;

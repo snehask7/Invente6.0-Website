@@ -8,7 +8,7 @@ import {
   FaRegBuilding,
   FaRegClock,
   FaTrophy,
-  FaUserAlt,
+  FaUserAlt
 } from 'react-icons/fa';
 import data from '../../data.json';
 import styles from '../../styles/DepartmentPage.module.css';
@@ -113,7 +113,7 @@ export default function Department({ data }) {
                       <div key={`organiser${id}`}>
                         {id == 0 ? (
                           <>
-                            <FaPhoneAlt></FaPhoneAlt>
+                            <FaPhoneAlt></FaPhoneAlt><br></br>
                           </>
                         ) : (
                           <>&nbsp;&nbsp;</>
@@ -125,22 +125,22 @@ export default function Department({ data }) {
                 </div>
                 <div className={styles.col}>
                   {' '}
-                  <FaUserAlt></FaUserAlt>&nbsp;
+                  <FaUserAlt></FaUserAlt><br></br>
                   {events[event].min_team_size == events[event].max_team_size
                     ? events[event].min_team_size + ' '
                     : events[event].min_team_size +
-                      ' - ' +
-                      events[event].max_team_size +
-                      ' '}
+                    ' - ' +
+                    events[event].max_team_size +
+                    ' '}
                   per team
                 </div>
                 <div className={styles.col}>
                   {' '}
-                  <FaCalendarAlt></FaCalendarAlt>&nbsp;Oct 7, 9:00 AM
+                  <FaCalendarAlt></FaCalendarAlt><br></br>Oct 7, 9:00 AM
                 </div>
                 <div className={styles.col}>
                   {' '}
-                  <FaRegBuilding></FaRegBuilding>&nbsp;Open to{' '}
+                  <FaRegBuilding></FaRegBuilding><br></br>Open to{' '}
                   {events[event].open_to == 'All'
                     ? 'any Department'
                     : events[event].open_to.join()}
@@ -152,7 +152,7 @@ export default function Department({ data }) {
                       <div key={`organiser${id}`}>
                         {id == 0 ? (
                           <>
-                            <FaTrophy></FaTrophy>
+                            <FaTrophy></FaTrophy><br></br>
                           </>
                         ) : (
                           <>&nbsp;&nbsp;</>
