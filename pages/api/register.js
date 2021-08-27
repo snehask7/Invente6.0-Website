@@ -1,5 +1,4 @@
-import { firestore, serverTimestamp } from '../../lib/firebase';
-import * as firebase from 'firebase';
+import { firestore, serverTimestamp, arrayUnion } from '../../lib/firebase';
 import { cors } from '../../lib/middleware';
 
 // NOTE: currently, existence of username is checked to prevent server crash.
@@ -7,10 +6,7 @@ export default async function handler(req, res) {
   await cors(req, res);
 
   if (req.method === 'POST') {
-    const {
-      username,
-      eventid
-    } = req.body;
+    const { username, eventid } = req.body;
 
     // bad request format
     if (username === null || eventid === null) {
@@ -18,14 +14,13 @@ export default async function handler(req, res) {
         message: 'Bad request',
         error: 'One are more body parameters are missing',
       });
-    }
-    else {
+    } else {
       const userDoc = firestore.collection('users').doc(username);
       let result;
 
       try {
         result = await userDoc.update({
-          events: firebase.firestore.FieldValue.arrayUnion(eventid),
+          events: arrayUnion(eventid),
           updatedAt: serverTimestamp(),
         });
       } catch (err) {
@@ -49,8 +44,6 @@ export default async function handler(req, res) {
           });
         }
       }
-
     }
   }
-
 }
