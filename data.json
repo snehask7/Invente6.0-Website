@@ -290,8 +290,8 @@
     {
       "name": "Paper Presentation",
       "category": "tech",
-      "min_team_size": 0,
-      "max_team_size": 0,
+      "min_team_size": 1,
+      "max_team_size": 2,
       "organisers": [
         { "name": "Chetana", "phone": 8870229158 },
         { "name": "Sasya", "phone": 9963731710 }
@@ -521,8 +521,8 @@
     {
       "name": "Paper Presentation",
       "category": "tech",
-      "min_team_size": 0,
-      "max_team_size": 0,
+      "min_team_size": 1,
+      "max_team_size": 4,
       "organisers": [
         { "name": "Madhusudan", "phone": 8637433373 },
         { "name": "Adhitya", "phone": 9445027807 },
@@ -530,9 +530,26 @@
         { "name": "Vyshnavi", "phone": 9381821624 }
       ],
       "description": {
-        "summary": "The event involves a preliminary round where the registered candidates will have to submit a project   abstract   along   with   the   camera-ready   paper   on   one   of   the   specified   domains.   The submitted   abstracts   will   be   shortlisted   based   on   the   IEEE   paper   norms   (novelty,   socialimpact,   economic   status,   and   implementation   factor).   The   shortlisted   participants   will   be moved to the next round where they have to present a camera-ready pitch before the panelists for 7 minutes with 3 minutes of QA session for each presentation. Based on the innovation factor and pitch presentation mode, the best presentation and best innovation category will be selected by the panelists.",
-        "rounds": 0,
-        "round_description": []
+        "summary": null,
+        "rounds": 4,
+        "round_description": [
+          {
+            "name": "DOMAINS COVERED (But not limited to)",
+            "description": "<ul><li>Smart Grids</li><li>Soft Computing Techniques in Power Systems</li><li>Feedback Control Systems</li><li>Power Electronics and Energy Efficient Drives</li><li>Renewable Power Conversion Technologies</li><li>Instrumentation and Control</li><li>Power Quality Improvement Techniques</li><li>Expert Systems and Artificial Intelligence Techniques</li><li>Internet of Things</li><li>Analog and Digital Electronics/Optimization Algorithms </li><li>Hybrid/Electric vehicle technology </li></ul><br/>Or any innovative research work !"
+          },
+          {
+            "name": "Round 1",
+            "description": "<b>The papers submitted will be reviewed by a panel of judges</b><br><ul><li>The research paper should be submitted within the stipulated date to invente.eee.paperpresentation@gmail.com</li><li>Mention the title of the paper, author’s names in the mail.</li><li>The last date for paper submission is <b>26/09/2021</b></li><li>The research papers should follow the above rules mentioned</li><li>The paper will be under review by a panel of judges</li><li>The panel will take into account the plagiarism Report of the Research papers for the selection process</li><li>The selected participants will be notified through mail</li></ul>"
+          },
+          {
+            "name": "Round 2",
+            "description": "<b>This round will be conducted on the Zoom/Google meet/Microsoft Teams platform. </b><br><ul><li>Selected participants are required to present their Research work as a Powerpoint presentation during the Final round</li><li>The Presentation will be followed by a Q & A session with the panel of judges</li><li>If the event clashes with other events conducted during INVENTE 6.0, contact the Event Heads beforehand</li><li>The rules will be briefed for the participants when they join the online meeting</li><li>Participants kindly ensure that stable internet connectivity is available throughout the event</li><li>Evaluations of Round 1 and Round 2 will be consolidated for final standings</li><li>The judges’ decision is <b>final</b></li></ul>"
+          },
+          {
+            "name": "Event Rules",
+            "description": "<ul><li>Only a maximum of 4 authors and <b>only</b> student authors are allowed. It is not necessary that all authors must be from the same institute</li><li>he authors can present their paper individually or as a team during the final round</li><li><b>Plagiarism is strictly unacceptable.</b>Only original research works are accepted.</li><li>The paper must be in <b>DOUBLE COLUMN IEEE format</b>. This format must be strictly followed.</li><li>To refer the IEEE standard, use the link below : https://docs.google.com/document/d/1YgyGebtyRlekC8Wan6dXwCllsVC qa09C_glpRJ4P78Q/edit?usp=sharing </li><li>The paper submitted must be in <b>.pdf</b> format</li></ul>"
+          }
+        ]
       },
       "open_to": "All",
       "prizes": ["Winner: Rs.3000", "Runner-Up: Rs.1500"]
@@ -541,210 +558,239 @@
       "name": "Tech Quiz",
       "category": "tech",
       "min_team_size": 1,
-      "max_team_size": 1,
+      "max_team_size": 2,
       "organisers": [
-        { "name": "Padmavati", "phone": 8637460184 },
-        { "name": "Manjula", "phone": 9094949027 },
-        { "name": "Basundhara", "phone": 9751901757 }
+        { "name": "Sri Hari", "phone": 9566061591 },
+        { "name": "Suraj", "phone": 9384661042 },
+        { "name": "Tharun", "phone": 6385148340 }
       ],
       "description": {
-        "summary": "This event consists of 3 rounds.<br/><b>The cumulative scores from the previous rounds will be added to the final round.</b><br/> <b>The person scoring the highest will be declared the winner.</b><br/>The catch is that  the platform Kahoot will rank you based on the correct answer andhow fast you answer the same. So your response time matters  ! and try not to waste timesearching for answers which will automatically reduce the response time pushing you to thelast . ",
+        "summary": "<b>Communication Platform: Zoom</b><br/><b>TOPICS EXPLORED:General Tech! [P.S. Might involve a couple of mild EE Qs for the sake of the department]</b><br/><b>Tie Breakers will be involved</b>",
         "rounds": 3,
         "round_description": [
           {
-            "name": "Round 1",
+            "name": "Prelims",
             "duration": null,
-            "description": "Will be conducted in Kahoot.it. There will be 12-20 questions with different timingfor each question based on difficulty level. This will consist of questions from electronics,electrical and other circuit subjects. The quiz will be multiple choice."
+            "description": "<ul><li>40 questions. Starred questions will be used for tie breakers</li><li>Usual pointers applicable</li><li>Every Breakout Room will have a invigilator to help the contestants and also to monitor whether the rules are abided by the respective teams</li><li>It is mandatory for every contestant to switch on their audio and video throughout the contest</li></ul><br><b>Quiz Master: Tharun R Prakash/ Sri Hari</b><br/><b>Finalists will be decided upon the number of participants [Min 4, Max 6]</b><br/>(If the number of participants is beyond our wildest dreams, then a semi final round might be conducted)"
           },
           {
-            "name": "Round 2",
+            "name": "Grand Finale",
             "duration": null,
-            "description": "Top 15 participants from Round 1 will be moved to this round. This round willconsist of solving various types of circuit problems in a given time period. The platform forthis round is also most likely to be Kahoot.it."
+            "description": "<ul><li>For the ultimate showdown the finale will be a classic Pounce and Bounce with multiple Quiz Masters and multiple drills all very interactive and breezy contention to crown the champions.</li><li>The finale will take place via Zoom and all the participants must be make  sure their Internet connections is as seamless as possible. </li></ul>"
           },
           {
-            "name": "Round 3",
+            "name": "Basic Rules",
             "duration": null,
-            "description": "Top 8 participants from the previous round will participate in the final round. Theround consists of 8 different domains and each participant gets to select one domain fromwhich he/she will be asked questions. The topper of the previous round will get to select theirdomain   first,   followed   by  the   runner   of  the   previous   round   selects   their   preferred   domainfrom the remaining 7 available ones and this continues till the last. Each domain will contain3   to   5   questions   of   higher   difficulty.The   questions   will   be   displayed   to   the   participantsthrough screen sharing in the meeting and  the participants have to fill in the answers in thegoogle form given and submit it within the given time."
+            "description": "<ul><li>Prelims will not have any negative marking. So does Bounce in finals.</li><li>In case of a tie at any stage of the contest, the tie breaker will be decided by the respective Quiz Masters and their decision will be final.</li><li>In case a contestant has network issues in between, grace time will be given in accordance with their situation.</li><li>Any disturbance from the participant’s side and unnecessary interruptions will not be entertained (Except memes!)</li></ul>"
           }
         ]
       },
-      "open_to": ["ECE", "EEE", "EIE", "BME", "Other Circuit Branches"],
-      "prizes": [
-        "Winner - Rs.2000",
-        "1st Runner-Up - Rs.1250",
-        "2nd Runner-Up - Rs.750"
-      ]
+      "open_to": "All",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
     {
       "name": "E-Bugging",
       "category": "tech",
       "min_team_size": 1,
-      "max_team_size": 2,
+      "max_team_size": 3,
       "organisers": [
-        { "name": "Sandhyavarshin", "phone": 9941288689 },
-        { "name": "Harsha", "phone": 9176962001 }
+        { "name": "Harikrishna", "phone": 9884048488 },
+        { "name": "Lohini", "phone": 8870503649 },
+        { "name": "Madhuri", "phone": 9027521824 },
+        { "name": "Neythra", "phone": 7305601210 }
       ],
       "description": {
-        "summary": "This event consists of <b>two rounds</b> having a <b>duration of one and half an hour each.</b> Participants in the first round are required to design a webpage  under  the  given topic of any domain.  Selected   participants  are   allowed   for  the second round where they will be designing a webpage for the topics related to biomedical engineering domain.The participants can make use of any platform for developing theirwebpages.  At the  end of each round the participants are requested to  share their designsthrough an  email id  (which we will provide you) to assess the results. ",
-        "rounds": 0,
-        "round_description": []
+        "summary": "<b>Domains Covered:</b><br/><ul><li>Power Electronics</li><li>EDC</li><li>Analog and Digital Circuits</li><li>Circuit Theory</li><li>Machines</li></ul><br/><br/><b>General Instructions:</b><br/>A circuit will be provided in each question. But a mistake is present in the circuit. The team should identify the mistake and type out the correct answer. <br/><ol><li>There will be three stages : 1. League Stage  2. Eliminator  3. Final Stage</li><li>There will be no negative marking. The answer should be concise and precise. </li><li>Contestants will be asked to join a Zoom meeting, and will be assigned breakout rooms for their convenience to brainstorm the questions from the Google forms and only one response from a team will be acknowledged for each circuit. </li><li>Every Breakout Room will have a invigilator to help the contestants and also to monitor whether the rules are abided by the respective teams. The google form should be screenshared at all times. </li><li> It is mandatory for every contestant to switch on their audio and video throughout the contest.</li><li>The participants should have their own devices like laptop, charger and must also carry their ID card.</li><li>The winners of each round will be announced at the end of each round. The decisions of the Event Heads will be final. </li></ol>",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "League Stage",
+            "duration": "30 mins",
+            "description": "All teams will be given 6 questions to solve in 30 mins.<br/>Each question will be awarded 3 marks. 1 mark for identification and 2 marks for explanation.<br/><br/>Total marks in League stage : 18"
+          },
+          {
+            "name": "Eliminator Stage ",
+            "duration": "20 mins",
+            "description": "All teams will be given 4 questions to solve in 20 mins.<br/>Each question will be awarded 5 marks. There might be more than one mistake. Each question will be awarded marks based on the identification and explanation of the mistake.<br/><br/>Total Marks: 20"
+          },
+          {
+            "name": "Final Stage ",
+            "duration": "20 mins",
+            "description": "All teams will be given 3 questions to solve in 20 mins.<br/>Each question will be awarded 5 marks. There might be more than one mistake. Each question will be awarded marks based on the identification and explanation of the mistake.<br/><br/>Total Marks: 15"
+          }
+        ]
       },
-      "open_to": "All",
-      "prizes": [
-        "Winner - Rs.2000",
-        "1st Runner-Up - Rs.1250",
-        "2nd Runner-Up - Rs.750"
-      ]
+      "open_to": "All Circuit Branches",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
     {
       "name": "Electronic-Maze",
       "category": "tech",
       "min_team_size": 1,
-      "max_team_size": 1,
+      "max_team_size": 3,
       "organisers": [
-        { "name": "Dhanush", "phone": 8248369664 },
-        { "name": "Dharshan", "phone": 9789015214 }
+        { "name": "Surabhi", "phone": 8248369664 },
+        { "name": "Shruthi", "phone": 9789015214 },
+        { "name": "Retika", "phone": 9789015214 },
+        { "name": "Shruthi", "phone": 9789015214 }
       ],
       "description": {
-        "summary": "Participants are required to design a particular problem statement which we will be providing within a span of time and they'll have to present it to the panel of judges. It'll totally be of 2 rounds. One in which they'll have to design a simple model.  This is  the  screening round, where participants will be selected based on the reality of the designs. The second round will be the one where participants will be asked to produce a novel design of need with respect to any industry and that has to prove beneficial for the consumers. They'd have to explain it tothe judges. It's an individual  event. Participants  should be clear, concise in explaining  theaspects   of   the   design.   They   are   even   allowed   to   prepare   presentations   and   can   showsimulations, animations  of the designed 3D Model. Winners will be declared based on theinnovation, uniqueness, aesthetic approach and novelty of the proposed idea.<br><b>Platform to be used – Fusion 360, Solidworks, Blender</b>",
+        "summary": "<b>DOMAINS COVERED:</b> Basics of EEE, Field theory, Digital logic circuits, Electronic devices, Microprocessors, Electrical Machines. ",
         "rounds": 2,
         "round_description": [
           {
             "name": "Round 1",
-            "duration": null,
-            "description": "Participants are required to design a product (exact 3D model ) of their own and submit it in aportal which we provide them. It has to relevant to the industry needs. Participants will befiltered in this round.<br><b>Filtering criteria - Complexity, originality.</b>"
+            "duration": "20 mins",
+            "description": "<b>A theme based recreational technical quiz  </b><br/><ul><li>First round is a fun technical quiz conducted through online quizzing platforms.</li><li>The quiz comprises 20 questions  based on the subjects mentioned above.</li><li>The top six teams will be qualified to the next rounds.</li><li>The team members can connect through a discord server to discuss among themselves.</li><li>There will be no proctoring for the first round. </li><li>Quiz link can be accessed only through the registered email id.</li></ul>"
           },
           {
             "name": "Round 2",
-            "duration": null,
-            "description": "Participants are required to design a model which we assign them. Let's say we have a list of12 models from which they have to choose and design accordingly. The designs should bereplicated properly and rendered image has to be submitted for the same. Then they have toexplain the innovation in the design to the judges. More the innovation, higher the marks.<br><b>Novelty, aesthetics, uniqueness, innovation</b>"
+            "duration": "40 mins",
+            "description": "<b>Unlocking knowledge at the speed of thought!</b><br/><ul><li>The qualified participants will be intimated through the registered email id.</li><li>There are eight levels and correct answers will take the participants to the next level in the maze.</li><li>Mix of technical and  non technical questions  (bonus) .</li><li>There will be a time limit for each question.</li><li>The fastest team to reach any level will have an edge in case of ties.</li></ul>"
           }
         ]
       },
-      "open_to": "All",
-      "prizes": []
+      "open_to": ["ECE", "EEE"],
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
     {
       "name": "Ideate",
       "category": "tech",
-      "min_team_size": 3,
-      "max_team_size": 3,
+      "min_team_size": 1,
+      "max_team_size": 5,
       "organisers": [
-        { "name": "Varsha", "phone": 8489663279 },
-        { "name": "Divya", "phone": 9600075214 }
+        { "name": "Harini", "phone": 8056245960 },
+        { "name": "Nishitha", "phone": 9790871217 },
+        { "name": "Dhruv", "phone": 6379155919 },
+        { "name": "Saikrishna", "phone": 9159775911 }
       ],
       "description": {
-        "summary": null,
-        "rounds": 2,
+        "summary": "<b>IDEATE: </b>&nbsp;is an extended hackathon that kindles the passionate engineering minds to shape up their attractive ideas, that serves to solve a real-time problem or as a token of technological advancement.<br/><br/><b>DOMAINS</b>  <li>Internet Of Things – IoT </li><li>Crisis Response </li><li>Smart Security </li><li>Healthcare </li><li>Mobility </li><li>E- Technologies </li><li>Women Safety </li><li>Open Innovation </li><br/>If your idea doesn’t fall under the domains specified, don’t worry!! Put it on under Open Innovation and get a chance to feature as a winner!! ",
+        "rounds": 5,
         "round_description": [
           {
-            "name": "Round 1",
+            "name": "General Instructions",
             "duration": null,
-            "description": "Round 1 will take place before the main event around mid September during which the participating teams (team of 3) should send an abstract mentioning the Problem statement/theme from the list provided by us.<br/><b>Deadline - Sept 20</b><br/>Abstract should contain<br/><ul><li>Title</li><li>Description of the design</li><li>Novelty</li></ul>Submissions will be scrutinized and around 10-15 submissions will be selected for the secondround. Final list will be sent to the participants within the first week of October."
+            "description": "<ul><li>Valid ID proofs, Laptop, Chargers, working webcam and other hardware equipments needed for completion of the hackathon is mandatory. </li><li>There should be a hardware which could be accompanied by a software.(Contact for  further enquiries on this) </li><li>Ensure to have a stable internet connection </li><li>Participants are requested to stick on to the timelines for a seamless experience at  both ends </li><li>The judging will be based on their novelty, feasibility, innovation quotient, business  model and relevance to problem statement </li><li>Reviews will be done at each stage and credits secured will be considered for evaluation. </li></ul>"
           },
           {
-            "name": "Round 2 (Main Event)",
+            "name": "Phase 1: (Registration) ",
             "duration": null,
-            "description": "Shortlisted participants will have to deliver a presentation and the duration of which will belimited to 10 minutes. The top three teams will be awarded with prize money. Approximateevent duration will be 2 hours."
+            "description": "<ul><li>Team Registration and domain selection has to be done. </li><li>Submission of Abstract  </li><li>Send your abstracts to the Mail ID : inventeideate2021@gmail.com </li></ul><br/><br/><b>Format for Sending Your Abstract: </b><br/><ul><li>Team Name: </li><li>Team Leader(SPOC): </li><li>Team Member Details: Name, Mail ID, Contact Number </li><li>Domain Chosen: </li><li>Problem Statement: </li><li>Objective: </li><li>Abstract: </li><li>Application: </li></ul><br/>Share in the form of TeamName_Domain.pdf <br/>Shortlisted Ideas from Phase 1 will move further <br/>Shortlisted Teams will share the format for further rounds of evaluation. The date and time for the rounds will be communicated to the shortlisted teams.  "
+          },
+          {
+            "name": "Phase 2: (Preliminary Evaluation) ",
+            "duration": null,
+            "description": "<ul><li>Participants will be evaluated based on their workflow (Progress, Improvement,  Involvement by team members)</li><li>Participants are requested to submit the Technology Stack and other data related  to the project (Till the point they have completed)</li><li>Format will be shared via Email   </li></ul>"
+          },
+          {
+            "name": "Phase 3: (Secondary Evaluation) ",
+            "duration": null,
+            "description": "<ul><li>Participants should submit their working videos of the project and explain it in the same.</li><li>Format will be specified post event kick start</li></ul><br/><b>*Points gained in Preliminary and Secondary Evaluation will also be considered for result</b>"
+          },
+          {
+            "name": "Phase 4: (Final Pitching) on the day of Invente ",
+            "duration": null,
+            "description": "<ul><li>Participants will have to pitch their project to a judging panel</li><li>Each team will be given 20 minutes for presentation.</li><li>The projects may be evaluated on following criteria : </li><ol><li>Feasibility and User-friendliness </li><li>Relevance to Problem Statement and Novelty </li><li>Business plan and marketability </li><li>Impact on the society </li><li>Sustainability and Quality </li><li>Creativity and Scalability </li></ol><li>here will be a Dry Run (not for evaluation) before commencement of phase 4, for the participants to get used to the environment.  </li></ul><br/>If teams are tied with the same points, there will be a tie-breaker round, which will happen either before or after Phase 4 (Further details will be given during the process, if at all a tie occurs). "
           }
         ]
       },
       "open_to": "All",
-      "prizes": [
-        "Winner - Rs.2000",
-        "1st Runner-Up - Rs.1500",
-        "2nd Runner-Up - Rs.1000"
-      ]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
     {
       "name": "Inventino 2021",
       "category": "tech",
-      "min_team_size": 3,
-      "max_team_size": 4,
+      "min_team_size": 1,
+      "max_team_size": 3,
       "organisers": [
-        { "name": "Sockalingam (whatsapp only)", "phone": 7358485950 },
-        { "name": "Sherwin", "phone": 9629129302 }
+        { "name": "Parithi", "phone": 9092437531 },
+        { "name": "Siddharthan", "phone": 6385101827 },
+        { "name": "Siddarth", "phone": 7395987120 },
+        { "name": "Rengarajan", "phone": 8681981150 },
+        { "name": "Sivakarthikeyan", "phone": 7812044835 }
       ],
       "description": {
-        "summary": "Interested people can register themselves in groups of 3 or 4(preferred). Other individual entries without any group are taken in and later sorted into a group (optional). They are also advised to make a discord or whatsapp group to make discussion among themselves during the auction.",
-        "rounds": 1,
+        "summary": "Arduino Lads here is a place to prove yourself unique among the crowd. This is a great opportunity to showcase your skills in electronics and microcontrollers using Arduino and compete with other innovative participants. We welcome you all to participate in one of the best tech symposiums in town and win exciting prizes. GET Ready, Set, Code!!!",
+        "rounds": 3,
         "round_description": [
           {
-            "name": "Round 1",
-            "duration": "90 mins",
-            "description": "<b>Base Idea: </b>A good number of medical devices will be put in auction and the teams get to bidfor the devices. All these components will be divided based on their department of use, example imaging - MRI scan, X-ray etc., optical - Autorefractor, Retinoscope, etc. A number of general/must needed devices for hospitals are also kept in auction such as Defibrillators, Anesthesia Machines, Sterilizers, etc. These general devices act as Bonus for teams who buy it. Based on the number of teams who enter the event the number of each components will be increased/altered.<br/><br/>  <b>Evaluation: </b>The teams that buy components that relate to each other make more points. To make the evaluation better, teams with more general devices tend to get bonus points. In a situation of tie the amount of money left will be a decisive factor to decide the winner."
+            "name": "General Instructions",
+            "duration": null,
+            "description": "<ul><li>Valid ID proofs, laptop, working webcam and mic needed for completion of the competition is mandatory.  </li><li>Ensure you have a stable internet connection</li><li>Arduino IDE installed and running </li><li>Basic knowledge of Microprocessors and Microcontrollers is needed</li><li>Hands on knowledge of Arduino</li><li><b>Possession of an Arduino board and related hardware is advantageous.</b></li></ul>"
+          },
+          {
+            "name": "Round 1 (Quiz)",
+            "duration": "60 mins",
+            "description": "<b>Topics:</b> Microprocessors and Microcontrollers, basic electronics and Arduino <br/><ul><li>The quiz will be timed. </li><li>Both marks and time of submission will be considered for evaluation</li><li>No negative marking</li><li>The questions will be a mix of MCQ’s and Arduino code debugging</li><li>Briefing will be given before the start of the event </li></ul><br/><b>Evaluation Criteria:</b><br/><ul><li>Correct Answer for MCQ </li><li>Time of submission</li><li> Logic, execution, feasibility for the code debugging</li></ul><br/>Shortlisted teams will move forward for Round 2 (In case of tie-breaker, further evaluation will be done which will be specified during the time of event)"
+          },
+          {
+            "name": "Round 2 (Inventino)",
+            "duration": "2-3 hours",
+            "description": "<b>Mode:</b> GMeet / Zoom / Cisco Webex </br><ul><li>Participants will be shown Arduino based projects. The number of projects shown will be equal to the number of shortlisted teams. </li><li><b>Participants are required to demonstrate the project they are assigned in hardware.</b></li><li>Teams will be allowed to choose the project of their preference from the given projects based on their performance in the first round.</li><li>An event organiser will be assigned to each team who will be in possession of an Arduino board. In case the team doesn’t have a board with them, they can share their code with their assigned organiser who will test the code and show the output.</li><li>Teams can send their code for debugging how many ever times they want within the specified time frame.</li><li>If a team is in possession of an Arduino, they may debug it on their own. However <b>the final code must be sent to the organiser for testing</b>.</li><li>The code sent last will be taken for evaluation.</li><li>Teams are encouraged to add on to the project to innovate it. Extra marks will be awarded for this.</li><li>Teams are also required to explain how they can improve the project and take it forward as a product. Time will be allocated for this.</li></ul><br/><b>Evaluation will be based upon: </b><br/><ul><li>Closeness to the assigned project</li><li>Time taken to complete</li><li>Innovation quotient</li><li>Creativity and presentation</li></ul>"
           }
         ]
       },
       "open_to": "All",
-      "prizes": [
-        "Winner - Rs.2000",
-        "1st Runner-Up - Rs.1500",
-        "2nd Runner-Up - Rs.500"
-      ]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
     {
       "name": "Tentkotta",
       "category": "non-tech",
-      "min_team_size": 0,
-      "max_team_size": 0,
+      "min_team_size": 1,
+      "max_team_size": 3,
       "organisers": [
-        { "name": "Yuvasri", "phone": 6379107639 },
-        { "name": "Harshini", "phone": 735842968 },
-        { "name": "Prasidha", "phone": 9962236331 }
+        { "name": "Barathkumar", "phone": 7397440584 },
+        { "name": "Balaji", "phone": 7868991177 }
       ],
       "description": {
-        "summary": null,
-        "rounds": 3,
+        "summary": "<b>Platorm: </b>Zoom/g-meet<br/><b>Topics Explored: </b>Kollywood(Thamizh Cinema)",
+        "rounds": 2,
         "round_description": [
           {
             "name": "Round 1",
             "duration": null,
-            "description": "The   first   round   will   consist   of   a   situation   type   quiz,   where   the   participants   will   be   givenbusiness situations, and they will be marked on the type of answers that they are writing. Theparticipants   will   be   judged   based   on   critical   reasoning,   strategic   thinking,   and   businessacumen.   This   will   NOT   be   an   MCQ   quiz,   the   participants   will   write   and   submit   theirresponses. One member of the team  will submit the responses, but the team members  candiscuss amongst themselves. (Elimination round, depending on the number of participants"
+            "description": "<b><u>Part 1: MCQ</u></b><br/><ul><li>Every member of all teams will receive a test link.</li><li>This will be an MCQ-based test which will have 30 questions in total, and you will be given 15 minutes to answer those.</li><li>The average score of each team will be considered.</li></ul><b><u>Part 2: Guess the Film from the dialogue</u></b><br/><ul><li>After completing this online test, your team will be directed to a break-out room, where you will be having your second part of your Preliminary round.</li><li>Here you will be having a set of audio clips containing movie dialogues, separated as:</li><ul><li><i>Easy – 2 Points Each</i></li><li><i>Medium – 4 Points Each</i></li><li><i>Hard - 6 Points Each</i></li></ul><li>You will be given 2/3 minutes in total and you must “find the film” in which the dialogue is placed. You can find any number of films/dialogues within the given time. You can even choose whether you are going to find Easy/Medium/Hard.</li><li>This score will be added with the average score obtained in the first part and the combined score will be used to filter the participants to the next round.</li></ul>"
           },
           {
             "name": "Round 2",
             "duration": null,
-            "description": "The second round will judge the participants on their financial and budgeting skills. They willbe given an amount of 1,00,0000 rupees, and will be asked to explain how they will invest theamount into their business. They will need to justify the amounts that they are investing, andprovide the reason as to why they invested in that particular unit of their business. This willbe submitted  to us via a common email.  (Elimination  round, depending on the  number ofparticipants)"
-          },
-          {
-            "name": "Round 3",
-            "duration": null,
-            "description": "The final  round will be a presentation  round, wherein the team-members  will be asked topitch their product to us, via a PPT. The areas that need to be covered in the PPT will beconveyed to the participants in advance. The participants’ products will be judged based onpracticality, creativity and economical aspects. The problem that the product is trying to solvewill   also   be   a   major   marking   factor.   The   highest-ranking   participants   will   be   given   theWinner, and Runner-Up position."
+            "description": "<b><u>Part 1: Find the song from the lyrics</u></b><br/><ul><li>Part of the lyrics of a song will be given and you must find which song it is. </li><li>Incase Not Known…Question will be passed to the next team.</li></ul><b><u>Part 2: Panchathanthiram</u></b><br/><i><u>(Similar to Panchathandhiram Round of Vijay TV Connexions)</u></i><ul><li>Clues of a movie will be displayed one-by-one and you must find which film it is with the minimum number of Clues.</li<li>The lesser the no. of clues taken, the more the score is.</li></ul><br/><b>The winner of the event will be decided from the Round 2 scores combining Part 1 and Part 2. In case of a tie, TIE-BREAKER will be held, for which, the details will be given then.</b>"
           }
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"]
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
     },
     {
       "name": "IPL Bidding",
       "category": "non-tech",
-      "min_team_size": 1,
-      "max_team_size": 3,
+      "min_team_size": 0,
+      "max_team_size": 0,
       "organisers": [
-        { "name": "Lal Bhaveen", "phone": 9629421656 },
-        { "name": "Uvarani", "phone": 7871885061 },
-        { "name": "Keerthana", "phone": 6379637324 }
+        { "name": "Reshab", "phone": 9884310197 },
+        { "name": "Sivakarthikeyan", "phone": 7812044835 },
+        { "name": "Sai Arun", "phone": 7010054851 },
+        { "name": "Siddarth", "phone": 7395987120 }
       ],
       "description": {
-        "summary": "Reel it is a video meme contest",
+        "summary": "<b>Platform: </b>Zoom/Discord",
         "rounds": 2,
         "round_description": [
           {
-            "name": "Preliminary Round",
-            "duration": "90 mins",
-            "description": "For the preliminary round, a topic will be given on spot to the participants, based on which they have to make a video of 30seconds and upload it in the given drive link. Participants will be shortlisted in this round by the judges. Decision will be based on Creativity."
+            "name": "Round 1",
+            "duration": null,
+            "description": "<ul><li>This will be a MCQ round covering questions related to cricket </li><li>It is an elimination round </li><li>Participants will be filtered according to their marks and 8 members/teams will be  selected to the second round.</li></ul>"
           },
           {
-            "name": "Final Round",
-            "duration": "90 mins",
-            "description": "The shortlisted  participants  will receive  an email  along with the topic for the finalround. Similar to the first round, the participants will have to make a video meme of 30 seconds, based on the given topic and upload it in the same drive link. And, the judges will announce the final winner and runner. Judgement criteria will be Creativity."
+            "name": "Round 2: Auction",
+            "duration": null,
+            "description": "<b>Rules of Auction</b><ul><li>Every team will be provided with same bag amount </li><li>Participants can bid and pick the players of their choice.</li><li>Your squad selection should follow all our criteria which will be given to you before the commencement of the auction</li><li>If your selected team/squad fails to meet any of the given conditions, that particular participant/team will be disqualified.</li></ul><b>Evaluation</b><ul><li>Each and every player in the auction list will be given a rating out of 10 , which is based on their recent performances. (This will be shared only at the end of the auction)</li><li>At the end of the auction, each team/squad picked by the teams will be evaluated based on the ratings of the players they have in their squad/team.</li><li>The teams with higher points will be considered as the winners.(The points will be based on the average of the players ratings in the squad)  </li></ul>"
           }
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner:Rs.1000", "Runner-Up:Rs.500"]
+      "prizes": ["Winner:Rs.3000", "Runner-Up:Rs.1500"]
     }
   ]
 }

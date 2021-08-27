@@ -116,10 +116,8 @@ export default function Department({ data }) {
                             <FaPhoneAlt></FaPhoneAlt>
                             <br></br>
                           </>
-                        ) : (
-                          <>&nbsp;&nbsp;</>
-                        )}
-                        &nbsp;{organiser.name + ' : ' + organiser.phone}
+                        ) : null}
+                        {organiser.name + ' : ' + organiser.phone}
                       </div>
                     );
                   })}
@@ -159,10 +157,8 @@ export default function Department({ data }) {
                             <FaTrophy></FaTrophy>
                             <br></br>
                           </>
-                        ) : (
-                          <>&nbsp;&nbsp;</>
-                        )}
-                        &nbsp;{prize}
+                        ) : null}
+                        {prize}
                       </div>
                     );
                   })}
@@ -186,7 +182,11 @@ export default function Department({ data }) {
 
 export function getStaticPaths() {
   return {
-    paths: [{ params: { id: 'ECE' } }, { params: { id: 'BME' } }],
+    paths: [
+      { params: { id: 'ECE' } },
+      { params: { id: 'BME' } },
+      { params: { id: 'EEE' } },
+    ],
     fallback: false,
   };
 }

@@ -33,7 +33,7 @@
   font-size: 2vh;
   min-width: 14vh;
   max-width: 18vh;
-  height: 7vh;
+  min-height: 7vh;
   margin: 2vh;
   color: white;
   text-align: center;
@@ -44,6 +44,7 @@
   background: linear-gradient(205deg, #19e9f0 0%, #00d0ff 100%);
   position: relative;
   font-family: 'Voltaire', sans-serif;
+  word-wrap: break-word;
 }
 .eventCard::before {
   content: '';
@@ -152,6 +153,7 @@
   border: 1px solid rgba(255, 255, 255, 0.125);
   color: white;
   margin-bottom: 1em;
+  word-wrap: break-word;
 }
 .iconStyling {
   margin-bottom: 0.5em;
@@ -209,7 +211,7 @@
 @media (max-width: 510px) {
   .col {
     flex: 1 0 100%;
-    text-align: left;
+    text-align: left !important;
   }
 }
 
