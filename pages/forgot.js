@@ -49,7 +49,7 @@ function Forgot() {
               cursor={{ hideWhenDone: true }}
               onTypingDone={() => onContinue()}
             >
-              Don't worry, we got your back!
+              Don&apos;t worry, we got your back!
             </Typist>
           </h1>
           <form onSubmit={onSubmit}>
@@ -80,17 +80,12 @@ function Forgot() {
               <div className={styles.buttonContainer}>
                 <Container>
                   <Row>
-
                     <Col xs={12}>
-                      <button
-                        type="submit"
-                        className={styles.continueButton}
-                      >
+                      <button type="submit" className={styles.continueButton}>
                         Recover
                       </button>
                     </Col>
                   </Row>
-                  
                 </Container>
               </div>
             ) : null}

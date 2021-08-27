@@ -30,7 +30,7 @@ function Unverified() {
       <main className={styles2.page_wrapper}>
         <div className={styles.signinCard}>
           <h1 className={styles.mailBoxText}>
-              Check your mailbox to verify your identity.
+            Check your mailbox to verify your identity.
           </h1>
         </div>
       </main>
