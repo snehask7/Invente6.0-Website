@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
@@ -39,6 +40,51 @@ export default function Home() {
             </button>
           </>
         ) : null}
+        <Link
+          href={{
+            pathname: '/department/ECE',
+          }}
+        >
+          <a className={styles.card}>
+            <h2>ECE</h2>
+          </a>
+        </Link>
+        <Link
+          href={{
+            pathname: '/department/BME',
+          }}
+        >
+          <a className={styles.card}>
+            <h2>BME</h2>
+          </a>
+        </Link>
+        <Link
+          href={{
+            pathname: '/department/EEE',
+          }}
+        >
+          <a className={styles.card}>
+            <h2>EEE</h2>
+          </a>
+        </Link>
+        <Link
+          href={{
+            pathname: '/department/IT',
+          }}
+        >
+          <a className={styles.card}>
+            <h2>IT</h2>
+          </a>
+        </Link>
+        <Link
+          href={{
+            pathname: '/department/Chemical',
+          }}
+        >
+          <a className={styles.card}>
+            <h2>Chemical</h2>
+          </a>
+        </Link>
       </main>
 
       <footer className={styles.footer}>
