@@ -8,7 +8,7 @@ import {
   FaRegBuilding,
   FaRegClock,
   FaTrophy,
-  FaUserAlt
+  FaUserAlt,
 } from 'react-icons/fa';
 import data from '../../data.json';
 import styles from '../../styles/DepartmentPage.module.css';
@@ -129,9 +129,9 @@ export default function Department({ data }) {
                   {events[event].min_team_size == events[event].max_team_size
                     ? events[event].min_team_size + ' '
                     : events[event].min_team_size +
-                    ' - ' +
-                    events[event].max_team_size +
-                    ' '}
+                      ' - ' +
+                      events[event].max_team_size +
+                      ' '}
                   per team
                 </div>
                 <div className={styles.col}>
