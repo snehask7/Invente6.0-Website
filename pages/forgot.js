@@ -7,13 +7,13 @@ import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
+import { toast } from 'react-hot-toast';
 
-function Signin() {
-  const { currentUser } = useAuth();
+function Forgot() {
   const [formEmail, setFormEmail] = useState('');
-  const [formPassword, setFormPassword] = useState('');
+  const [sentMail, setSentMail] = useState(false);
   const [loading, setLoading] = useState(false);
-  const { login } = useAuth();
+  const { currentUser, resetPassword } = useAuth();
   const router = useRouter();
 
   const [step, setStep] = useState(-1);
@@ -28,14 +28,20 @@ function Signin() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    console.log(formEmail, formPassword);
+    console.log(formEmail);
+    setLoading(true);
     try {
-      setLoading(true);
-      await login(formEmail, formPassword);
-      console.log('SignIn success');
+      await toast.promise(resetPassword(formEmail), {
+        loading: 'Sending you mail ...',
+        success: 'Check your mail for instructions',
+        error: 'Check your email address',
+      });
+      setLoading(false);
+      setSentMail(true);
       router.push('/');
     } catch (err) {
-      console.log('Failed to login', err);
+      console.log(err);
+      setLoading(false);
     }
   };
 
@@ -58,7 +64,7 @@ function Signin() {
               cursor={{ hideWhenDone: true }}
               onTypingDone={() => onContinue()}
             >
-              Welcome back!
+              Don&apos;t worry, we got your back!
             </Typist>
           </h1>
           <form onSubmit={onSubmit}>
@@ -81,23 +87,6 @@ function Signin() {
                       </div>
                     </Col>
                   </Row>
-
-                  <Row>
-                    <Col xs={12}>
-                      <h5 className={styles.inputLabel}>Password</h5>
-                      <div className={styles.terminalInput}>
-                        <p>{'>'}</p>
-                        <input
-                          type="password"
-                          id="form-password"
-                          onChange={(e) => setFormPassword(e.target.value)}
-                          value={formPassword}
-                          className={styles.inputField}
-                          required
-                        />
-                      </div>
-                    </Col>
-                  </Row>
                 </React.Fragment>
               ) : null}
             </Container>
@@ -107,27 +96,8 @@ function Signin() {
                 <Container>
                   <Row>
                     <Col xs={12}>
-                      <h6 className={styles.signIn}>
-                        <span style={{ color: 'rgba(0, 225, 255, 0.87)' }}>
-                          {' '}
-                          <Link href="/forgot">Forgot Password?</Link>
-                        </span>
-                      </h6>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col xs={12} md={8}>
-                      <h6 className={styles.signIn}>
-                        Don`t have an account?
-                        <span style={{ color: 'rgba(0, 225, 255, 0.87)' }}>
-                          {' '}
-                          <Link href="/signup">Sign Up</Link>
-                        </span>
-                      </h6>
-                    </Col>
-                    <Col xs={12} md={4}>
                       <button type="submit" className={styles.continueButton}>
-                        Sign In
+                        Recover
                       </button>
                     </Col>
                   </Row>
@@ -140,4 +110,4 @@ function Signin() {
     </div>
   );
 }
-export default Signin;
+export default Forgot;
