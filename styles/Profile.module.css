@@ -217,3 +217,7 @@ background: linear-gradient(165deg, rgb(172, 66, 5) 0%, rgb(246, 119, 14) 31%, r
   color: rgb(255, 255, 255);
   text-align: center;
   }
+
+  .error{
+    text-align: center;
+  }

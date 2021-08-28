@@ -59,20 +59,21 @@ function Profile() {
   return (
     <div className={styles.container}>
       <div className={styles.card}>
-        <div className={styles.ticket}>
-          <p className={styles.eventTitle}>EVENT PASS</p>
-          <span className={styles.admit}>
-            <FaCheckCircle className={styles.icon_check}></FaCheckCircle>Tech
-          </span>
-          <br></br>
-          <span className={styles.admit}>
-            <FaTimesCircle className={styles.icon_cross}></FaTimesCircle>
-            Non-tech
-          </span>
-        </div>
-        <div className={styles.image}></div>
         {profile ? (
           <div>
+            <div className={styles.ticket}>
+              <p className={styles.eventTitle}>EVENT PASS</p>
+              <span className={styles.admit}>
+                <FaCheckCircle className={styles.icon_check}></FaCheckCircle>
+                Tech
+              </span>
+              <br></br>
+              <span className={styles.admit}>
+                <FaTimesCircle className={styles.icon_cross}></FaTimesCircle>
+                Non-tech
+              </span>
+            </div>
+            <div className={styles.image}></div>
             <h1 className={styles.name}>
               {profile.fname} {profile.lname}
             </h1>
@@ -132,7 +133,9 @@ function Profile() {
             </Container>
           </div>
         ) : (
-          currentUser && null
+          <div>
+            <h2 className={styles.error}>You must be signed in. </h2>
+          </div>
         )}
 
         {profile ? (
