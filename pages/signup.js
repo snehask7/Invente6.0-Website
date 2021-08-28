@@ -38,7 +38,7 @@ function SignUp() {
   };
 
   useEffect(() => {
-    if (currentUser) router.push('/');
+    if (currentUser) router.push('/unverified');
   }, [currentUser, router]);
 
   function onChange(label, event) {
@@ -65,7 +65,7 @@ function SignUp() {
           currentUser,
           state['first_name'] + ' ' + state['last_name']
         );
-        await axios({
+        axios({
           baseURL: window.location.origin,
           method: 'POST',
           url: '/api/user',
@@ -85,13 +85,19 @@ function SignUp() {
             year: state['year'],
             department: state['department'],
           },
-        });
+        })
+          .then(() => {
+            console.log('SignUp success');
+          })
+          .catch(() => {
+            toast.error('Unable to post data');
+          });
+        router.push('/unverified');
       } else {
         toast.error('Error signing up');
       }
       console.log('SignUp success');
       setLoading(false);
-      router.push('/unverified');
     } catch (err) {
       console.log('Failed to login', err);
     } finally {
