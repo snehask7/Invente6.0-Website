@@ -67,6 +67,24 @@ export default function Home() {
             <h2>EEE</h2>
           </a>
         </Link>
+        <Link
+          href={{
+            pathname: '/department/IT',
+          }}
+        >
+          <a className={styles.card}>
+            <h2>IT</h2>
+          </a>
+        </Link>
+        <Link
+          href={{
+            pathname: '/department/Chemical',
+          }}
+        >
+          <a className={styles.card}>
+            <h2>Chemical</h2>
+          </a>
+        </Link>
       </main>
 
       <footer className={styles.footer}>

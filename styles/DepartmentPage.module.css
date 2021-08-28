@@ -45,6 +45,7 @@
   position: relative;
   font-family: 'Voltaire', sans-serif;
   word-wrap: break-word;
+  text-transform: uppercase;
 }
 .eventCard::before {
   content: '';
@@ -90,6 +91,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3.8vh;
+  font-family: 'Voltaire', sans-serif;
+
+  text-transform: uppercase;
 }
 
 .techbadge {

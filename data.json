@@ -765,8 +765,8 @@
     {
       "name": "IPL Bidding",
       "category": "non-tech",
-      "min_team_size": 0,
-      "max_team_size": 0,
+      "min_team_size": 1,
+      "max_team_size": 2,
       "organisers": [
         { "name": "Reshab", "phone": 9884310197 },
         { "name": "Sivakarthikeyan", "phone": 7812044835 },
@@ -791,6 +791,496 @@
       },
       "open_to": "All",
       "prizes": ["Winner:Rs.3000", "Runner-Up:Rs.1500"]
+    }
+  ],
+  "IT": [
+    {
+      "name": "ENIGMA:(CRYPT IT)",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Nandana", "phone": 6382844423 },
+        { "name": "Swathi", "phone": 6385555603 },
+        { "name": "Raajalakshumi", "phone": 9791349237 }
+      ],
+      "description": {
+        "summary": "This event comprises two rounds,which will be conductedin virtual mode. Event rules are explained toparticipants prior to the event in a zoom call.The first round is conducted on hackerrank/hackerearth platform which composes of 20 mcqs with duration compact of 30 mins.If the student crosses our cut off then he/shewill be qualified to the next round.In the secondround students will be given a cipher to break, andthey must automate the process through code in the given durationof 1-2 hrs.Program will be graded based on thenumber of test cases passed.Students with maximum scores were selected and awarded.",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1: Quiz Round",
+            "duration": "30 mins",
+            "description": "A quiz with around 20 questions will be given to the participants. The questions will involve the participants solving cryptographic puzzles and pattern based problems.<i>Students with maximum scores will be shortlisted.</i>"
+          },
+          {
+            "name": "Round 2: Coding Round",
+            "duration": "1-2 hours",
+            "description": "Students will be given a cipher to break, and theymust automate the process through code. Program canbewritten in C,Cpp, Python, Java (hackerrank) Programwill be graded based on the number of test casespassed.<i>Winners will be announced based on the scores of Round 2.</i>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner: Rs.3000", "Runner-Up: Rs.1500"]
+    },
+    {
+      "name": "WEBSITICA",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Rithanya", "phone": 9487852180 },
+        { "name": "Pakkeer", "phone": 9789032965 },
+        { "name": "Sanjay", "phone": 8608792215 }
+      ],
+      "description": {
+        "summary": "This event is a web development event and basically comprises two important rounds,which will be conducted in virtual mode where thestudents have to login at the given time.",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": "1 hour",
+            "description": "The first round is conducted in google forms which composes of 30(it may vary) mcqs. If the student is able to cross our cut off then they’ll be considered for the next round"
+          },
+          {
+            "name": "Round 2",
+            "duration": "2-3 hours",
+            "description": "In the second round the student is required to create a website with the topic given and in the given duration. If the website meets the requirements then the candidate is taken down for further process by the heads and the winner is selected and awarded."
+          },
+          {
+            "name": "Note",
+            "duration": null,
+            "description": "<ul><li>The student must login at the given time or else they’ll not be allowed to login.</li><li> Switching of tabs is not allowed if done the test will automatically close</li><li>No usage of phone</li><li>This platform rquired webcam and audio enabled.</li><li>All the best</li></ul>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+    },
+    {
+      "name": "CODERA",
+      "category": "tech",
+      "min_team_size": 2,
+      "max_team_size": 2,
+      "organisers": [
+        { "name": "Divya", "phone": 9445816942 },
+        { "name": "Badrinarayan", "phone": 8903039560 },
+        { "name": "Keertivaas", "phone": 8939126658 }
+      ],
+      "description": {
+        "summary": "Participate and test your Data Structures and Algorithms skills.",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": null,
+            "description": "Questions like<br/><ul><li>Debugging</li><li>Find the output</li><li> Coding questions</li><li> Find time complexity Etc</li>"
+          },
+          {
+            "name": "Round 2 ",
+            "duration": null,
+            "description": "5 coding questions<br/><ul><li>One easy</li><li>Two intermediate</li><li>Two hard</li></ul>"
+          },
+          {
+            "name": "Note",
+            "duration": null,
+            "description": "<ul><li>The student must login at the given time or else they’ll not be allowed to login.</li><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>This platform rquired webcam and audio enabled.</li></ul>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+    },
+    {
+      "name": "REVERSE GEAR",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Adithya", "phone": 9962771981 },
+        { "name": "Harrison", "phone": 9080810523 },
+        { "name": "Jayesh", "phone": 9176852722 }
+      ],
+      "description": {
+        "summary": "All our lives are probably going in reverse gear right now, so why not try some Code Obfuscation and Reverse Coding",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": "1 hour",
+            "description": "This round will be conducted on any online quiz platform(yet to be decided) which comprises of 20 MCQs and one obfuscated code for them to deobfuscate within a duration of 1hr. If the student is able to cross our cut off then he/she will be considered for the next round."
+          },
+          {
+            "name": "Round 2",
+            "duration": "1 hour",
+            "description": "Two medium level codes will be given for them to obfuscate and one reverse coding question where the extension file (.exe) will be sent via google drive and they have to find the logic by checking with different input values.They have to complete both within a duration of 1hr. Hackerrank platform will be used for code obfuscation"
+          },
+          {
+            "name": "Note",
+            "duration": null,
+            "description": "<ul><li>The student must login at the given time or else they’ll not be allowed to login.</li><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>This platform rquired webcam and audio enabled (round 1)</li></ul>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+    },
+    {
+      "name": "PAPYRUS",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 3,
+      "organisers": [
+        { "name": "Nithish", "phone": 9092110340 },
+        { "name": "Suthakar", "phone": 9360457630 },
+        { "name": "Visvesh", "phone": 9524587047 }
+      ],
+      "description": {
+        "summary": "Have a Research/Review Paper? Come present it withus at \"Papyrus\", our Paper Presentation Event.",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Round 1 (Off-stage)",
+            "duration": null,
+            "description": "In the first round, participants form a team of upto 3 members and submit their paper and abstract via mail. The papers are then shortlisted and the selected teams are notified."
+          },
+          {
+            "name": "Round 2",
+            "duration": "3.5 hours",
+            "description": "In the second and final round, shortlisted teams are lined up. Each team presents their paper for 7 minutes followed by a Q&A session for 2 minutes. The top 2 papers will be selected as winners."
+          },
+          {
+            "name": "Rules",
+            "duration": null,
+            "description": "<ul><li>Each paper can have upto 3 authors.</li><li>Submitted papers must be in IEEE format.</li><li>Papers must not be published before anywhere or beunder consideration for publication in any journalor conference.</li><li>Plagiarism is not allowed. Original works only.</li><li>Paper length limited to 6 pages.</li><li>Paper must be in .pdf, .docx, or .doc formats.</li><li>A team can have participants from different institutions.</li><li>The paper is to be attached to the mail <u>paperpresentationinvente2021@gmail.com </u>with the subject as the title of the paper.</li><li>The mail must contain - name of authors, college names and departments, phone numbers, and email addresses</li></ul>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+    },
+    {
+      "name": "ANALYTICS SPRINT",
+      "category": "tech",
+      "min_team_size": 2,
+      "max_team_size": 2,
+      "organisers": [
+        { "name": "Venkatesh", "phone": 784574861 },
+        { "name": "Sriram", "phone": 9940270388 },
+        { "name": "Koushika", "phone": 9632066644 }
+      ],
+      "description": {
+        "summary": "Enough of stalking people online, now stalk some data.",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Round 1- Short technical questions",
+            "duration": "30 mins",
+            "description": "This round comproses of 30 questions. The questions will be like<br/><ul><li>Formula of Cost functions</li><li>Regression vs Classification</li><li>General Model Testing</li><li>Missing Data Etc.</li></ul>"
+          },
+          {
+            "name": "Round 2- Coding round",
+            "duration": "60 mins",
+            "description": "<ul><li>1 data set</li><li>Need to build a model that solves for the given dataset (either a classification or prediction modelbased on the data)</li><li>Aggregate of both the rounds will be the winner.</li></ul>"
+          },
+          {
+            "name": "Note",
+            "duration": null,
+            "description": "<ul><li>The student must login at the given time or else they’ll not be allowed to login.</li><li> Switching of tabs is not allowed</li><li>No usage of phone</li></ul>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+    },
+    {
+      "name": "SPORTS QUIZ",
+      "category": "non-tech",
+      "min_team_size": 2,
+      "max_team_size": 2,
+      "organisers": [{ "name": "Mohamed", "phone": 8508446000 }],
+      "description": {
+        "summary": "It's a quiz on sports, you get the idea.",
+        "rounds": 4,
+        "round_description": [
+          {
+            "name": "Round 1: MCQ Based on Tech-GK",
+            "duration": "15 mins",
+            "description": "MCQs Questions like<br/><ul><li>Who invented Cricket?</li><li>No. of shapes on a foot?</li></ul>"
+          },
+          {
+            "name": "Round 2: Connection",
+            "duration": "30 mins",
+            "description": "Connection Here, the answer should be found by usingthe pictures given in the slide which representsthe partof the answer i.e a word or a letter. Finally, theanswer can be found by connecting all the pictures."
+          },
+          {
+            "name": "Round 3: Player's stats based",
+            "duration": "30 mins",
+            "description": "Player’s stats based Questions like<br/><ul><li>What is Kohli’s average in tests?</li><li>How many nitto ATP titles does Nadal have?</li></ul>"
+          },
+          {
+            "name": "Note",
+            "duration": null,
+            "description": "<ul><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>Video must be on at all times</li>/ul>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
+    },
+    {
+      "name": "E-TREASURE HUNT",
+      "category": "non-tech",
+      "min_team_size": 2,
+      "max_team_size": 2,
+      "organisers": [{ "name": "Harish", "phone": 9965514387 }],
+      "description": {
+        "summary": "13 clues in total<br/>Each clue will send the participants to every nook and corner of the globe, having them guess and decide where and how to get to their next clue, only to find the treasure waiting for them, in the deepest darkest corners of the internet.",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Round 1: MCQ based",
+            "duration": "15 mins",
+            "description": null
+          },
+          {
+            "name": "Round 2: Finals",
+            "duration": "1 hour",
+            "description": null
+          },
+          {
+            "name": "Note",
+            "duration": null,
+            "description": "<ul><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>Video must be on at all times</li>/ul>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner:Rs.1000", "Runner-Up:Rs.500"]
+    }
+  ],
+  "Chemical": [
+    {
+      "name": "Paper Presentation",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 3,
+      "organisers": [
+        { "name": "Shivaani", "phone": 9444981640 },
+        { "name": "Bhuvaneshwari", "phone": 6369340571 }
+      ],
+      "description": {
+        "summary": "The stage is set and the lights are out!  The time is ripe and ready as never before so stand proud and flaunt your expertise on various topics mentioned below with your intriguing ideas. Be ready to shoot down the barrage of questions that come your way and leave a trail of excellence behind!<br/><br/><b>Platform: </b>Zoom",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Thrust areas",
+            "duration": null,
+            "description": "<ol><li>Sustainable Energy and energy conservation</li><li>Environment engineering</li><li>Pollution control and abatement</li><li>Solid waste management and recycle</li><li>Wastewater treatment</li><li>Nanotechnology</li><li>Computational Modelling and Simulation</li><li>Material Science and technology</li><li>Bioprocess Engineering and biotechnology</li><li>Process design and optimization</li><li>Fuels and Chemicals</li><li>Separation techniques</li><li>Petrochemical processing</li><li>Safety and hazard management</li><li>Food processing</li><li>Catalysis and reaction engineering</li><li>Chemical technology</li><li>Bio fuels</li><li>Renewable and green technology</li><li>Polymer technology</li></ol>"
+          },
+          {
+            "name": "Pre-Requisite",
+            "duration": null,
+            "description": "<ol><li>Abstracts are obligatory.</li><li>Pre-recorded powerpoint presentation with voice over not exceeding 10 minutes is compulsory.</li></ol>"
+          },
+          {
+            "name": "Rules",
+            "duration": null,
+            "description": "<ol><li>All pre-recorded PPTs and the abstracts  must be sent to the mail id given below: <u>ssnaceiiche@gamil.com</u> </li><li>Abstracts must be sent prior to the deadline after which teams will be sent the PPT template.</li><li>The subject of the mail should be 'PAPER PRESENTATION – (PARTICIPANTS NAMES)' and the file name should be the title of your paper.</li><li>Zoom meeting link and OP Team number will be sent prior to the event to the respective mail ids of participants.</li><li>Every participant is required to ensure stable internet connectivity for the entire session. In case of any issues re-joining with the same meeting link is permitted.</li><li>Participants must login with the following format as their name: [PP-Team Number-Name].</li><li>All the participants must join the meeting 10 minutes before the specified time.</li><li>Audio and video should be on mute during the entire course of the session.</li><li>Video and audio must be kept on during the presentation and question and answer session during the respective presentation.</li><li>15 minutes will be allotted per team where 10 minutes is assigned for presentation and 5 minutes for question-and-answer session.</li><li>All registered participants must be present for the entire course of the session.</li><li>Judges’ decision is final and binding.</li></ol>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+    },
+    {
+      "name": "Who's on the Leaderboard",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Matheswaran", "phone": 7448735575 },
+        { "name": "Harish", "phone": 7397249225 }
+      ],
+      "description": {
+        "summary": "Do you feel that quiz and answering give you a sense of underrated pleasure, then this is for you. Let the curriculum knowledge get distilled in this quiz event. Get ready for the rapid-fire show.<br/><b>Platform: </b> Zoom - online, Kahoot",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "PRE-REQUISITE",
+            "duration": null,
+            "description": "<ol><li>Must be familiar with the basics of Chemical engineering.</li><li>The use of two devices is recommended. (A Laptop to use zoom and a mobile phone/laptop to use Kahoot.)</li></ol>"
+          },
+          {
+            "name": "Rules",
+            "duration": null,
+            "description": "<ol><li>The quiz will be conducted in two rounds.</li><li>Kahoot link and the pin for the quiz will be sent to the participants' mail id.</li><li>Zoom meeting link will be sent before the event to the respective mail ids of participants.</li><li>Every participant is required to ensure stable internet connectivity for the entire session. In case of any issues re-joining with the same meeting link is permitted.</li><li>All the participants must join the meeting 10 minutes before the specified time.</li><li>The video should be on during the entire course of the session.</li><li>Top participants will be selected from round 1 based on the leaderboard on Kahoot.</li><li>And the Kahoot pin for round 2 will be sent to the selected ones.</li><li>The winners will be announced based on the Kahoot leaderboard.</li><li>The questions are MCQs and they would cover the core subjects and important concepts of Chemical engineering</li></ol>"
+          }
+        ]
+      },
+      "open_to": ["Chemical"],
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+    },
+    {
+      "name": "Be-safe-athon",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 3,
+      "organisers": [
+        { "name": "Hrishitha", "phone": 6385904860 },
+        { "name": "Nethra", "phone": 7358271870 }
+      ],
+      "description": {
+        "summary": "Unnecessary risks may leave you on the side-lines instead of in the game. Demonstrate your knowledge of workplace safety with presentations that inspire. Gear up engineer to tackle questions thrown your way.",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Session 1",
+            "duration": null,
+            "description": "\"Process Safety Engineer should need presence of mind and courage to face the problem\" so you own it?<br/><br/>Wish it was a good day at work. But will the day be good?  I guess not. You've an emergency situation to face today! While you are in your industry there comes a situation where you have to take immediate actions in order to safeguard your company and workers. The workers are waiting for your word to take up action. Will your solution save them or worsen the situation? You are the deciding authority, my Engineer!<br/><br/>All we need from you is an immediate response to the problem situation within 15 minutes of your time. The measures you are taking should be submitted to us as a .pdf file."
+          },
+          {
+            "name": "Session 2 ",
+            "duration": null,
+            "description": "Explain your immediate actions and justify them with a PowerPoint presentation. Help us understand what the possible root causes could be too! The power-point must be submitted to us at least  30 minutes prior to the event."
+          },
+          {
+            "name": "Rules",
+            "duration": null,
+            "description": "<ol><li>All  PDFs and the PPTs  must be sent to the mail id mentioned during the session,</li><li>PPTs must be sent at least 30 minutes prior to the event.</li><li>The subject of the mail should be 'BE-SAFE-ATHON – (PARTICIPANTS NAMES)' and the file name should be your allotted team number followed by participant names. </li><li>Zoom meeting link and Team numbers will be sent prior to the event to the respective mail ids of participants.</li><li>Every participant is required to ensure stable internet connectivity for the entire session. In case of any issues re-joining with the same meeting link is permitted.</li><li>Participants must login with the following format as their name: [Team Number-Name].</li><li>All the participants must join the meeting 10 minutes before the specified time.</li><li>Audio and video should be on mute during the entire course of the session. While video and audio must be kept on during the presentation and question and answer session during the respective presentation.</li><li>10 minutes will be allotted per team where 5 minutes is assigned for presentation and 5 minutes for question-and-answer session.</li><li>All registered participants must be present for the entire course of the session.</li><li>Judges’ decision is final and binding.</li></ol>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+    },
+    {
+      "name": "Like-for-Like",
+      "category": "tech",
+      "min_team_size": 2,
+      "max_team_size": 2,
+      "organisers": [
+        { "name": "Kavi Priya", "phone": 9585247277 },
+        { "name": "Niraimathi", "phone": 7639858799 }
+      ],
+      "description": {
+        "summary": "Gear up to choose the right balance… An exciting event with a bunch of unbalanced stoichiometric equations that require curious participants to find the right mix. Get ready to put your brains and fingers in this Yo-Yo test.<br/><br/><b>Platform: </b>Zoom, Google forms - online<br/><b>No of rounds: </b>2",
+        "rounds": 1,
+        "round_description": [
+          {
+            "name": "Rules",
+            "duration": "1 hour",
+            "description": "<ol><li>Zoom meeting link will be sent prior to the event to the respective mail IDs of participants.</li><li>Every participant is required to ensure stable internet connectivity for the entire session. In case of any issues re-join with the same meeting link.</li><li>All the participants must join the meeting 10 minutes prior to the stipulated time.</li><li>After joining the session, link to Google Form will be shared.</li><li>Participants will be asked to solve as many equation within the given time limit.</li><li>Form will automatically close when the time limit reaches.</li><li>Video should be kept on during the entire session.</li><li>Audio should be muted during the entire session.</li><li>All registered participants must be present for the entire session.</li><li>Participants selected for Round 2 will be informed through mail.</li><li>Difficulty of questions in Round 2 will be complex compared to Round 1.</li><li>Judges’ decision is final.</li></ol><br/><br/>For any queries contact  event head’s phone numbers or organizer’s phone numbers mentioned above or write to us at : <u>ssnaceiiche@gmail.com</u> "
+          }
+        ]
+      },
+      "open_to": ["Chemical"],
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+    },
+    {
+      "name": "The Commentator’s Conference",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Riju", "phone": 6380743486 },
+        { "name": "Monica", "phone": 8939463005 },
+        { "name": "Neha", "phone": 8608929292 }
+      ],
+      "description": {
+        "summary": "How amazing is it to share a common platform and find out how many people share your views? Are you looking for an opportunity to expand your horizon and improve your skills, then this is definitely the right time for you to give it a shot. Come join the Commentator’s conference and give us a match report! Get ready to discuss some fun and general Engineering topics.<br/><br/><b>Platform: </b>Zoom-Online<br/><b>No of rounds: </b>2",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Pre-Requisite",
+            "duration": null,
+            "description": "Basic knowledge on general Engineering topics<br/>Don’t worry the topics are going to be pretty simple!!"
+          },
+          {
+            "name": "Rules",
+            "duration": null,
+            "description": "<ul><li>Every participant must ensure stable internet connectivity throughout the session. In case of any issues, re-joining with the same meeting link is permitted.</li><li>Video must be on during the entire session. Audio can be muted when the participant is not talking.</li><li>Zoom meeting link will be sent prior to the event to the respective mail ids of participants. In case of not receiving one, contact the event heads.</li><li>Participants are required to join the meeting at least 10 minutes before the scheduled time.</li><li>Participants are free to share their ideas without ruling out the chance for others. Make sure not to exceed 2 minutes while stating a point in a single stretch.</li><li>Criticising an individual or their opinion will not be entertained at any cost.</li><li>Refrain from using inflammatory language. Avoid blaming and fighting with others.</li><li>Avoid interrupting someone in the midst of talking. Listen actively and wait until they finish talking.</li><li>Topic of discussion will be announced only before the commencement of each round.</li><li>Participants will be filtered based on their performance in the first round for participation in the final round. Rules for the final round will remain the same as the first.</li></ul><br/>For any queries contact event head’s phone numbers or organizer’s phone numbers mentioned above or write to us at: <u>ssnaceiiche@gmail.com </u>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+    },
+    {
+      "name": "IPL-Invente's Pictionary League",
+      "category": "tech",
+      "min_team_size": 2,
+      "max_team_size": 2,
+      "organisers": [
+        { "name": "Shabhareesan", "phone": 6383590530 },
+        { "name": "Dharsen", "phone": 6369272004 },
+        { "name": "Ashwanth", "phone": 9043240455 }
+      ],
+      "description": {
+        "summary": "Curtains up!!!<br/> Let the pictures make some noise, Show off your grandiloquence in  Chemical engineering with  this event which serves as a stage to showcase your prowess. Get ready to put on your thinking caps and compete to become the master.<br/>Let the pictures await.<br/><br/><b>Platform: </b>Zoom-Online<br/><b>No of rounds: </b>2",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Topics covered:",
+            "duration": null,
+            "description": "<ol><li>Sustainable Energy and energy conservation.</li><li>Separation processes.</li><li>Thermodynamics.</li><li>Heat transfer.</li><li>Mass transfer.</li><li>Petroleum engineering.</li><li>Fluid mechanics.</li><li>Industrial chemistry.</li><li>Environmental engineering.</li><li>Wastewater treatment.</li><li>Food technology.</li><li>P& ID symbols</li><li>Process safety</li><li>Basic interdisciplinary concepts</li></ol>            "
+          },
+          {
+            "name": "Rules",
+            "duration": null,
+            "description": "<ol><li>The event has two rounds, a preliminary one followed by the final one.</li><li>Each round has three different types of pictorial questions which will be announced on the day of the event.</li><li>Bonus questions will be presented in the preliminary round. You'll need a bit of luck!!!</li><li>The teams are supposed to submit their answers in the chat of the meeting.</li><li>Points will be provided based on accuracy.</li><li>The top teams from the prelims will be selected for the final round.</li><li>Zoom meeting link and Team number will be sent prior to the event to the respective mail ids of participants.</li><li>Every participant is required to ensure stable internet connectivity for the entire session. In case of any issues, re-joining with the same meeting link is permitted.</li><li>Participants must login with the following format as their name: [Team Number-Name].</li><li>All the participants must join the meeting 10 minutes before the specified time.</li><li>Audio should be on mute during the entire course of the session.</li><li>Video of the participants should be on during the entire session.</li><li>All registered participants must be present for the entire course of the session.</li><li>Judges’ decision is final and binding.</li></ol></ol>"
+          }
+        ]
+      },
+      "open_to": ["Chemical"],
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+    },
+    {
+      "name": "The Last Man Standing",
+      "category": "non-tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Krithikan", "phone": 9944666013 },
+        { "name": "Srinirav", "phone": 9940615473 },
+        { "name": "Nanditha", "phone": 9677058210 }
+      ],
+      "description": {
+        "summary": "All bets are off in this Shipwreck-style event as contestants are thrown into this test of adaptability. Role-playing as a victim of a shipwreck, you must rely on your eloquence and charisma as you try to convince your captain to throw you the one remaining life-vest that will let you escape your otherwise watery fate. Be prepared to come up with your most creative arguments as you will not be arguing for yourself, but for a famous (or very infamous) character assigned to you who may be either fictitious or real. Can you walk a mile in your character’s shoes and choose the right words to make the judges save you over the others? Remember, humour and confidence go a long way!<br/><br/><b>Platform: </b>Zoom-Online<br/><b>No of rounds: </b>2",
+        "rounds": 1,
+        "round_description": [
+          {
+            "name": "Rules",
+            "duration": null,
+            "description": "<ol><li>Initially, contestants are put in pairs and are given a minute and a half to make their case to the judges as to why they deserve the life-vest.</li><li>Once every contestant has had their turn to make their argument, the floor is open for discussion and contestants can refute the arguments of the opposing character.</li><li>Any sort of profanity or obscenity in any form will lead to immediate disqualification.</li><li>Avoid interrupting other participants while they are making their argument.</li><li>The judges’ decision is final and binding.</li><li>All registered participants must be present for the entire course of the session.</li><li>Participants must report to the venue at least 15 minutes before the stipulated time.</li>            </ol><br/>For any queries contact event head’s phone numbers or organizer’s phone numbers mentioned above or write to us at: <u>ssnaceiiche@gmail.com </u>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
+    },
+    {
+      "name": "Ee Sala MEME Namadhe",
+      "category": "non-tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Joshua", "phone": 9444703920 },
+        { "name": "Balaji", "phone": 8248513862 }
+      ],
+      "description": {
+        "summary": "Are you the one cracking jokes with your friends? Is your library full of memes for every occasion? Then this is for you! Show off your content production skills by making a meme!<br/><br/><b>Platform: </b>Instagram",
+        "rounds": 1,
+        "round_description": [
+          {
+            "name": "Rules",
+            "duration": null,
+            "description": "<ul><li>Participants have to send their memes to ssnaceiiche@gmail.com</li><li>Each participant will be allowed to submit just one meme.</li><li>The image aspect ratio should be in the standard 1:1 Instagram format.</li><li>Memes should not display any forms of obscene content.</li><li>The event winner will be selected based on the number of likes their meme has got in the Instagram page.</li></ul><br/><b>Submissions that do not abide with the rules will NOT be accepted and registration fee will not be refunded. </b>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
     }
   ]
 }
