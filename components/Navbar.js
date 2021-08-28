@@ -6,6 +6,7 @@ import styles from '../styles/Navbar.module.css';
 
 export default function NavbarComp() {
   const { currentUser } = useAuth();
+
   return (
     <div className={styles.navbar}>
       <div className={styles.inventeLogo}>
