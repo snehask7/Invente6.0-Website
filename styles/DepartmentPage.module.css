@@ -251,3 +251,8 @@
 .buttonWrapper {
   text-align: right;
 }
+
+.teamModal {
+  background-color: white;
+  border-radius: 20px;
+}

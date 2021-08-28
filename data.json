@@ -620,7 +620,7 @@
           }
         ]
       },
-      "open_to": "All Circuit Branches",
+      "open_to": ["All Circuit Branches"],
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
     {
@@ -1051,7 +1051,7 @@
           {
             "name": "Note",
             "duration": null,
-            "description": "<ul><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>Video must be on at all times</li>/ul>"
+            "description": "<ul><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>Video must be on at all times</li></ul>"
           }
         ]
       },

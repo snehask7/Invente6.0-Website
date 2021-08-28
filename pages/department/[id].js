@@ -10,6 +10,7 @@ import {
   FaTrophy,
   FaUserAlt,
 } from 'react-icons/fa';
+import 'react-responsive-modal/styles.css';
 import data from '../../data.json';
 import styles from '../../styles/DepartmentPage.module.css';
 
@@ -19,9 +20,22 @@ export default function Department({ data }) {
   var department = router.query.id;
   var events = data;
   function register(id) {
-    //add registration code
     toast.success('Registered Successfully');
+    //add registration code
+    // alert(events[id].name);
+    // if (
+    //   events[id].min_team_size == events[id].max_team_size && events[id].min_team_size == 1
+    // ) {
+    //   //only 1 per team
+    //   toast.success('Registered Successfully');
+    // } else {
+    //   onOpenModal();
+    // }
   }
+  const [open, setOpen] = useState(false);
+  const onOpenModal = () => setOpen(true);
+  const onCloseModal = () => setOpen(false);
+
   return (
     <div className={styles.container}>
       <main>
@@ -29,6 +43,24 @@ export default function Department({ data }) {
           Department of{' '}
           {department == 'Chemical' ? 'Chemical Engineering' : department}
         </h1>
+        {/* <div>
+          <Modal
+            classNames={{
+              modal: styles.teamModal,
+            }}
+            open={open}
+            onClose={onCloseModal}
+            center
+          >
+            <div>
+              <h5>
+                You can choose your teammates now or choose them later in the
+                profile section. Ensure that your teammates have already signed
+                up!
+              </h5>
+            </div>
+          </Modal>
+        </div> */}
         <Row className={styles.wrapper}>
           <Col
             lg={12}
@@ -167,7 +199,7 @@ export default function Department({ data }) {
               <div className={styles.buttonWrapper}>
                 <button
                   className={styles.registerButton}
-                  onClick={() => register()}
+                  onClick={() => register(event)}
                 >
                   Register
                 </button>
