@@ -1,15 +1,13 @@
 import Link from 'next/link';
-import { useRouter } from 'next/router';
-import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Typist from 'react-typist';
-import NavbarComp from '../components/Navbar';
-import { useAuth } from '../lib/hooks';
+import { useRouter } from 'next/router';
+import React, { useState } from 'react';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
+import { useAuth } from '../lib/hooks';
+import Typist from 'react-typist';
 
 function Signin() {
-  const { currentUser } = useAuth();
   const [formEmail, setFormEmail] = useState('');
   const [formPassword, setFormPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -17,14 +15,12 @@ function Signin() {
   const router = useRouter();
 
   const [step, setStep] = useState(-1);
+  const [buttonText, setButtonText] = useState('Continue');
 
   const onContinue = () => {
     setStep(step + 1);
+    if (step >= 0) setButtonText('Sign In');
   };
-
-  useEffect(() => {
-    if (currentUser) router.push('/');
-  }, [currentUser, router]);
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -49,12 +45,11 @@ function Signin() {
           className={styles2['particle'] + ' ' + styles2['particle_4']}
         ></div>
       </div>
-      <NavbarComp />
       <main className={styles2.page_wrapper}>
         <div className={styles.signinCard}>
           <h1 className={styles.typing}>
             <Typist
-              avgTypingDelay={30}
+              avgTypingDelay={40}
               cursor={{ hideWhenDone: true }}
               onTypingDone={() => onContinue()}
             >
@@ -64,41 +59,40 @@ function Signin() {
           <form onSubmit={onSubmit}>
             <Container>
               {step >= 0 ? (
-                <React.Fragment>
-                  <Row>
-                    <Col xs={12}>
-                      <h5 className={styles.inputLabel}>Email</h5>
-                      <div className={styles.terminalInput}>
-                        <p>{'>'}</p>
-                        <input
-                          type="email"
-                          id="form-email"
-                          onChange={(e) => setFormEmail(e.target.value)}
-                          value={formEmail}
-                          className={styles.inputField}
-                          required
-                        />
-                      </div>
-                    </Col>
-                  </Row>
-
-                  <Row>
-                    <Col xs={12}>
-                      <h5 className={styles.inputLabel}>Password</h5>
-                      <div className={styles.terminalInput}>
-                        <p>{'>'}</p>
-                        <input
-                          type="password"
-                          id="form-password"
-                          onChange={(e) => setFormPassword(e.target.value)}
-                          value={formPassword}
-                          className={styles.inputField}
-                          required
-                        />
-                      </div>
-                    </Col>
-                  </Row>
-                </React.Fragment>
+                <Row>
+                  <Col xs={12} md={6}>
+                    <h5 className={styles.inputLabel}>Email</h5>
+                    <div className={styles.terminalInput}>
+                      <p>{'>'}</p>
+                      <input
+                        type="email"
+                        id="form-email"
+                        onChange={(e) => setFormEmail(e.target.value)}
+                        value={formEmail}
+                        className={styles.inputField}
+                        required
+                      />
+                    </div>
+                  </Col>
+                </Row>
+              ) : null}
+              {step >= 1 ? (
+                <Row>
+                  <Col xs={12} md={6}>
+                    <h5 className={styles.inputLabel}>Password</h5>
+                    <div className={styles.terminalInput}>
+                      <p>{'>'}</p>
+                      <input
+                        type="password"
+                        id="form-password"
+                        onChange={(e) => setFormPassword(e.target.value)}
+                        value={formPassword}
+                        className={styles.inputField}
+                        required
+                      />
+                    </div>
+                  </Col>
+                </Row>
               ) : null}
             </Container>
 
@@ -106,17 +100,7 @@ function Signin() {
               <div className={styles.buttonContainer}>
                 <Container>
                   <Row>
-                    <Col xs={12}>
-                      <h6 className={styles.signIn}>
-                        <span style={{ color: 'rgba(0, 225, 255, 0.87)' }}>
-                          {' '}
-                          <Link href="/forgot">Forgot Password?</Link>
-                        </span>
-                      </h6>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col xs={12} md={8}>
+                    <Col xs={12} md={6}>
                       <h6 className={styles.signIn}>
                         Don`t have an account?
                         <span style={{ color: 'rgba(0, 225, 255, 0.87)' }}>
@@ -125,9 +109,17 @@ function Signin() {
                         </span>
                       </h6>
                     </Col>
-                    <Col xs={12} md={4}>
-                      <button type="submit" className={styles.continueButton}>
-                        Sign In
+                    <Col xs={12} md={6}>
+                      <button
+                        type="submit"
+                        className={styles.continueButton}
+                        onClick={() => {
+                          if (step == 0 && formEmail.length > 0) {
+                            onContinue();
+                          }
+                        }}
+                      >
+                        {buttonText}
                       </button>
                     </Col>
                   </Row>
