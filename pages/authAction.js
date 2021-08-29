@@ -1,7 +1,7 @@
 import firebase from 'firebase/app';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { default as React, useState } from 'react';
+import React, { useState } from 'react';
 import { Row } from 'react-bootstrap';
 import NavbarComp from '../components/Navbar';
 import styles2 from '../styles/Auth.module.css';
@@ -46,37 +46,30 @@ function Signin() {
                 <Link href="/signin">Sign In</Link>
               </span>
             </h1>
-          ) : (
-            null(
-              page == 'resetPassword' ? (
-                <>
-                  <h1 className={styles.mailBoxText}>
-                    <h4>Reset your password</h4>
-                    <br />
-                    for {email}
-                    <br />
-                    <Row>
-                      <input
+          ) : mode == 'resetPassword' ? (
+            <>
+              <h1 className={styles.mailBoxText}>
+                <h4>Reset your password</h4>
+                <br />
+                for {email}
+                <br />
+                <Row>
+                  {/* <input
                         type="password"
                         id="form-password"
                         onChange={(e) => setFormPassword(e.target.value)}
                         value={formPassword}
                         className={styles.inputField}
                         required
-                      />
-                      <button
-                        type="submit"
-                        className={styles.continueButton}
-                        onClick={() => onContinue()}
-                      >
-                        {buttonText}
-                      </button>
-                    </Row>
-                  </h1>
-                </>
-              ) : null
-            )
-          )}
+                      /> */}
+                  <button
+                    type="submit"
+                    className={styles.continueButton}
+                  ></button>
+                </Row>
+              </h1>
+            </>
+          ) : null}
         </div>
       </main>
     </div>
