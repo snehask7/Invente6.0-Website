@@ -7,7 +7,8 @@ import styles from '../styles/Signin.module.css';
 
 function Signin() {
   const router = useRouter();
-
+  const { query } = useRouter();
+  console.log(query);
   return (
     <div className={styles.container}>
       <div className={styles2.animation_wrapper}>
@@ -21,16 +22,15 @@ function Signin() {
       <NavbarComp />
       <main className={styles2.page_wrapper}>
         <div className={styles.signinCard}>
-          <h3 style={{ color: '#0ff' }}>Your email has been verified</h3>
-          <br />
-          <br />
-          <h5>
+          <h1 className={styles.mailBoxText}>
+            <h4>Your email has been verified</h4>
+            <br />
             You can now sign in with your new account!{' '}
             <span style={{ color: 'rgba(0, 225, 255, 0.87)' }}>
               {' '}
               <Link href="/signin">Sign In</Link>
             </span>
-          </h5>
+          </h1>
         </div>
       </main>
     </div>
