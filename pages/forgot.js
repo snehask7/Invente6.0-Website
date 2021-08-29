@@ -7,12 +7,13 @@ import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
+import { toast } from 'react-hot-toast';
 
 function Forgot() {
-  const { currentUser } = useAuth();
   const [formEmail, setFormEmail] = useState('');
+  const [sentMail, setSentMail] = useState(false);
   const [loading, setLoading] = useState(false);
-  const { login } = useAuth();
+  const { currentUser, resetPassword } = useAuth();
   const router = useRouter();
 
   const [step, setStep] = useState(-1);
@@ -28,6 +29,20 @@ function Forgot() {
   const onSubmit = async (event) => {
     event.preventDefault();
     console.log(formEmail);
+    setLoading(true);
+    try {
+      await toast.promise(resetPassword(formEmail), {
+        loading: 'Sending you mail ...',
+        success: 'Check your mail for instructions',
+        error: 'Check your email address',
+      });
+      setLoading(false);
+      setSentMail(true);
+      router.push('/');
+    } catch (err) {
+      console.log(err);
+      setLoading(false);
+    }
   };
 
   return (

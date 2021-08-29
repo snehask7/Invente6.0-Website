@@ -1,19 +1,34 @@
+import axios from 'axios';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { toast } from 'react-hot-toast';
 import Typist from 'react-typist';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signup.module.css';
 
-function About() {
-  const { currentUser } = useAuth();
+function generate4DigitNumber() {
+  return Math.floor(Math.random() * 10000) + 1;
+}
+
+function SignUp() {
   const [step, setStep] = useState(-1);
   const [buttonText, setButtonText] = useState('Continue');
-  const [state, setState] = useState({});
-  const { signup } = useAuth();
+  const [state, setState] = useState({
+    email: '',
+    password: '',
+    username: '',
+    phone_number: '',
+    first_name: '',
+    last_name: '',
+    reg_no: '',
+    department: '',
+    year: '',
+  });
+  const { signup, currentUser, addDisplayName } = useAuth();
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
@@ -23,7 +38,7 @@ function About() {
   };
 
   useEffect(() => {
-    if (currentUser) router.push('/');
+    if (currentUser) router.push('/unverified');
   }, [currentUser, router]);
 
   function onChange(label, event) {
@@ -39,11 +54,54 @@ function About() {
     console.log(state);
     try {
       setLoading(true);
-      await signup(state['email'], state['password']);
+      const { user: currentUser } = await signup(
+        state['email'],
+        state['password']
+      );
+      if (currentUser) {
+        await currentUser.sendEmailVerification();
+        toast.success('Verification email sent');
+        await addDisplayName(
+          currentUser,
+          state['first_name'] + ' ' + state['last_name']
+        );
+        axios({
+          baseURL: window.location.origin,
+          method: 'POST',
+          url: '/api/user',
+          data: {
+            uid: currentUser.uid,
+            email: state['email'],
+            username:
+              state['first_name'].toLowerCase() +
+              '_' +
+              state['last_name'].toLowerCase() +
+              '#' +
+              generate4DigitNumber(),
+            firstName: state['first_name'],
+            lastName: state['last_name'],
+            phone: state['phone_number'],
+            registerNumber: state['reg_no'],
+            year: state['year'],
+            department: state['department'],
+          },
+        })
+          .then(() => {
+            console.log('SignUp success');
+          })
+          .catch(() => {
+            toast.error('Unable to post data');
+          });
+        router.push('/unverified');
+      } else {
+        toast.error('Error signing up');
+      }
       console.log('SignUp success');
-      router.push('/');
+      setLoading(false);
     } catch (err) {
       console.log('Failed to login', err);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -251,4 +309,4 @@ function About() {
   );
 }
 
-export default About;
+export default SignUp;
