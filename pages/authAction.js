@@ -2,12 +2,13 @@ import firebase from 'firebase/app';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
+import { Row } from 'react-bootstrap';
 import NavbarComp from '../components/Navbar';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
-
 function Signin() {
   const router = useRouter();
+  const [email, setEmail] = useState()
   const { query } = useRouter();
   var mode = query.mode;
   var actionCode = query.oobCode;
@@ -15,12 +16,11 @@ function Signin() {
     .auth()
     .verifyPasswordResetCode(actionCode)
     .then(function (email) {
-      console.log(email);
-      // Display a "new password" form with the user's email address
+      setEmail(email);
     })
     .catch(function () {
       // Invalid code
-      console.log('error');
+      alert('Invalid page! Please use the link in your email')
     });
   return (
     <div className={styles.container}>
@@ -47,10 +47,35 @@ function Signin() {
                 </span>
               </h1>
             ) : null
-            //  (
-            //   page == 'resetPassword' ?
-            //   : null
-            // )
+              (
+                page == 'resetPassword' ?
+                  <>
+                    <h1 className={styles.mailBoxText}>
+                      <h4>Reset your password</h4>
+                      <br />
+                      for {email}<br />
+                      <Row>
+                        <input
+                          type="password"
+                          id="form-password"
+                          onChange={(e) => setFormPassword(e.target.value)}
+                          value={formPassword}
+                          className={styles.inputField}
+                          required
+                        />
+                        <button
+                          type="submit"
+                          className={styles.continueButton}
+                          onClick={() => onContinue()}
+                        >
+                          {buttonText}
+                        </button>
+                      </Row>
+                    </h1>
+
+                  </>
+                  : null
+              )
           }
         </div>
       </main>
