@@ -219,6 +219,7 @@ export function getStaticPaths() {
       { params: { id: 'BME' } },
       { params: { id: 'EEE' } },
       { params: { id: 'IT' } },
+      { params: { id: 'CSE' } },
       { params: { id: 'Chemical' } },
     ],
     fallback: false,
