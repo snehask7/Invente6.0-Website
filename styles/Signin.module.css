@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 .container {
+
   background-image: linear-gradient(to right, #050d22, #070e21, #1c132e),
     linear-gradient(
       to bottom right,

@@ -38,6 +38,7 @@ export default async function handler(req, res) {
         year: year,
         department: department,
         phone: phone,
+        events: [], // to store the list of registered events.
         updatedAt: serverTimestamp(),
       });
     } catch (err) {
@@ -45,6 +46,7 @@ export default async function handler(req, res) {
         message: 'Bad request',
         error: 'One are more body parameters are missing',
       });
+      return;
     }
 
     try {
@@ -58,6 +60,7 @@ export default async function handler(req, res) {
         message: 'Server error',
         error: err.toString(),
       });
+      return;
     }
   }
 
