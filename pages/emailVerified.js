@@ -6,7 +6,6 @@ import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
 
 function Signin() {
-
   const router = useRouter();
 
   return (
@@ -22,15 +21,19 @@ function Signin() {
       <NavbarComp />
       <main className={styles2.page_wrapper}>
         <div className={styles.signinCard}>
-          <h3 style={{ color: '#0ff' }} >Your email has been verified</h3><br />
+          <h3 style={{ color: '#0ff' }}>Your email has been verified</h3>
           <br />
-          <h5>You can now sign in with your new account!  <span style={{ color: 'rgba(0, 225, 255, 0.87)' }}>
-            {' '}
-            <Link href="/signin">Sign In</Link>
-          </span></h5>
+          <br />
+          <h5>
+            You can now sign in with your new account!{' '}
+            <span style={{ color: 'rgba(0, 225, 255, 0.87)' }}>
+              {' '}
+              <Link href="/signin">Sign In</Link>
+            </span>
+          </h5>
         </div>
       </main>
-    </div >
+    </div>
   );
 }
 export default Signin;
