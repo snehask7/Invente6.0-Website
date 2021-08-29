@@ -1,11 +1,12 @@
 import firebase from 'firebase/app';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import React from 'react';
+import { default as React, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import NavbarComp from '../components/Navbar';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
+
 function Signin() {
   const router = useRouter();
   const [email, setEmail] = useState();
