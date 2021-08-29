@@ -22,8 +22,7 @@ function SignUp() {
     password: '',
     username: '',
     phone_number: '',
-    first_name: '',
-    last_name: '',
+    full_name: '',
     reg_no: '',
     department: '',
     year: '',
@@ -61,10 +60,7 @@ function SignUp() {
       if (currentUser) {
         await currentUser.sendEmailVerification();
         toast.success('Verification email sent');
-        await addDisplayName(
-          currentUser,
-          state['first_name'] + ' ' + state['last_name']
-        );
+        await addDisplayName(currentUser, state['full_name']);
         axios({
           baseURL: window.location.origin,
           method: 'POST',
@@ -143,24 +139,12 @@ function SignUp() {
             {step >= 1 ? (
               <Container>
                 <Row>
-                  <Col xs={12} md={6}>
-                    <h5 className={styles.inputLabel}>First Name</h5>
+                  <Col xs={12} md={12} lg={12}>
+                    <h5 className={styles.inputLabel}>Full Name</h5>
                     <div className={styles.terminalInput}>
                       <p>{'>'}</p>
                       <input
-                        onChange={(e) => onChange('first_name', e)}
-                        className={styles.inputField}
-                        type="text"
-                        required
-                      />
-                    </div>
-                  </Col>
-                  <Col xs={12} md={6}>
-                    <h5 className={styles.inputLabel}>Last Name</h5>
-                    <div className={styles.terminalInput}>
-                      <p>{'>'}</p>
-                      <input
-                        onChange={(e) => onChange('last_name', e)}
+                        onChange={(e) => onChange('full_name', e)}
                         className={styles.inputField}
                         type="text"
                         required
