@@ -21,7 +21,7 @@ function Signin() {
       setEmail(email);
     })
     .catch((error) => {
-      toast.error('Invalid page! Please use the link in your email');
+      toast.error(error.message);
       router.push('/signin');
     });
   function changePassword() {
@@ -66,30 +66,32 @@ function Signin() {
             </>
           ) : mode == 'resetPassword' ? (
             <>
-              <h1 className={styles.mailBoxText}>
-                <h4>Reset your password</h4>
-                for {email}
-                <br />
-                <br />
-                <Row>
-                  <form onSubmit={changePassword}>
-                    <h5 className={styles.inputLabel}>New Password</h5>
-                    <div className={styles.terminalInput}>
-                      <p>{'>'}</p>
-                      <input
-                        type="password"
-                        onChange={(e) => setPassword(e.target.value)}
-                        value={password}
-                        className={styles.inputField}
-                        required
-                      />
-                    </div>
-                    <button type="submit" className={styles.continueButton}>
-                      Save
-                    </button>
-                  </form>
-                </Row>
-              </h1>
+              <div className={styles.mailBoxText}>
+                <h4>
+                  Reset your password
+                  <br />
+                  for {email}
+                </h4>
+              </div>
+              <br />
+              <Row>
+                <form onSubmit={changePassword}>
+                  <h5 className={styles.inputLabel}>New Password</h5>
+                  <div className={styles.terminalInput}>
+                    <p>{'>'}</p>
+                    <input
+                      type="password"
+                      onChange={(e) => setPassword(e.target.value)}
+                      value={password}
+                      className={styles.inputField}
+                      required
+                    />
+                  </div>
+                  <button type="submit" className={styles.continueButton}>
+                    Save
+                  </button>
+                </form>
+              </Row>
             </>
           ) : null}
         </div>
