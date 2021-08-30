@@ -19,8 +19,13 @@ function AuthAction() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const email = await firebase.auth().verifyPasswordResetCode(oobCode);
-        setEmail(email);
+        if (mode === 'resetPassword') {
+          const email = await firebase.auth().verifyPasswordResetCode(oobCode);
+          setEmail(email);
+        } else {
+          const email = await firebase.auth().applyActionCode(oobCode);
+          setEmail(email);
+        }
       } catch (error) {
         console.log('Not initialized');
       }
@@ -41,6 +46,7 @@ function AuthAction() {
         toast.error(error.message);
       });
   }
+
   return (
     <div className={styles.container}>
       <div className={styles2.animation_wrapper}>
