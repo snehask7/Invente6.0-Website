@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import { Row } from 'react-bootstrap';
-import toast from 'react-hot-toast';
+import { toast } from 'react-hot-toast';
 import NavbarComp from '../components/Navbar';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
@@ -28,11 +28,13 @@ function Signin() {
   function changePassword() {
     const app = firebase.initializeApp(config);
     const auth = getAuth(app);
-    confirmPasswordReset(auth, actionCode, password).then((resp) => {
-      toast.success('Password Updated');
-    }).catch((error) => {
-      toast.error('URL has expired or password too weak!');
-    });
+    confirmPasswordReset(auth, actionCode, password)
+      .then((resp) => {
+        toast.success('Password Updated');
+      })
+      .catch((error) => {
+        toast.error('URL has expired or password too weak!');
+      });
   }
   return (
     <div className={styles.container}>
@@ -74,10 +76,9 @@ function Signin() {
                       placeHolder="Enter new password"
                       required
                     />
-                    <button
-                      type="submit"
-                      className={styles.continueButton}
-                    >Save</button>
+                    <button type="submit" className={styles.continueButton}>
+                      Save
+                    </button>
                   </form>
                 </Row>
               </h1>
