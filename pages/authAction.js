@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import { Row } from 'react-bootstrap';
+import toast from 'react-hot-toast';
 import NavbarComp from '../components/Navbar';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
@@ -10,6 +11,7 @@ import styles from '../styles/Signin.module.css';
 function Signin() {
   const router = useRouter();
   const [email, setEmail] = useState();
+  const [password, setPassword] = useState();
   const { query } = useRouter();
   var mode = query.mode;
   var actionCode = query.oobCode;
@@ -21,8 +23,17 @@ function Signin() {
     })
     .catch(function () {
       // Invalid code
-      alert('Invalid page! Please use the link in your email');
+      toast.error('Invalid page! Please use the link in your email');
     });
+  function changePassword() {
+    const app = firebase.initializeApp(config);
+    const auth = getAuth(app);
+    confirmPasswordReset(auth, actionCode, password).then((resp) => {
+      toast.success('Password Updated');
+    }).catch((error) => {
+      toast.error('URL has expired or password too weak!');
+    });
+  }
   return (
     <div className={styles.container}>
       <div className={styles2.animation_wrapper}>
@@ -54,18 +65,20 @@ function Signin() {
                 for {email}
                 <br />
                 <Row>
-                  {/* <input
-                        type="password"
-                        id="form-password"
-                        onChange={(e) => setFormPassword(e.target.value)}
-                        value={formPassword}
-                        className={styles.inputField}
-                        required
-                      /> */}
-                  <button
-                    type="submit"
-                    className={styles.continueButton}
-                  ></button>
+                  <form onSubmit={changePassword}>
+                    <input
+                      type="password"
+                      onChange={(e) => setPassword(e.target.value)}
+                      value={password}
+                      className={styles.inputField}
+                      placeHolder="Enter new password"
+                      required
+                    />
+                    <button
+                      type="submit"
+                      className={styles.continueButton}
+                    >Save</button>
+                  </form>
                 </Row>
               </h1>
             </>
