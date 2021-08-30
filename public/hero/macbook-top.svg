@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="805px" height="14px" viewBox="0 0 805 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>top copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="107.956459%" y2="99.2466518%" id="linearGradient-1">
+            <stop stop-color="#F6F4F9" offset="0%"></stop>
+            <stop stop-color="#CECBE4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3.061617e-15%" y1="50%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#C8BFD5" offset="0%"></stop>
+            <stop stop-color="#F1F1F9" stop-opacity="0.5" offset="1.03728612%"></stop>
+            <stop stop-color="#E4E4F1" stop-opacity="0.5" offset="1.98047158%"></stop>
+            <stop stop-color="#DDDCED" stop-opacity="0.5" offset="2.91709686%"></stop>
+            <stop stop-color="#F4F2F8" offset="18.0457937%"></stop>
+            <stop stop-color="#CCCADD" stop-opacity="0.60296066" offset="94.6236262%"></stop>
+            <stop stop-color="#E5E4F1" stop-opacity="0.570462189" offset="96.2197128%"></stop>
+            <stop stop-color="#FFFEFF" stop-opacity="0.542792149" offset="97.7042068%"></stop>
+            <stop stop-color="#F6F5FA" stop-opacity="0.518340048" offset="99.0160589%"></stop>
+            <stop stop-color="#A7A5CD" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="0 13.668 804.669983 13.668 804.669983 8 0 8"></polygon>
+        <linearGradient x1="0%" y1="0%" x2="105.613415%" y2="97.0926418%" id="linearGradient-4">
+            <stop stop-color="#DDD8E6" offset="0%"></stop>
+            <stop stop-color="#9992AF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-5" points="0 13.668 804.667 13.668 804.667 13 0 13"></polygon>
+        <path d="M0,0.5 C0,5.194 25.958,7 48.5,7 C205.762159,7.66666667 323.595492,8 402,8 C480.854603,8 598.909937,7.66666667 756.166,7 C778.709,7 804.667,5.194 804.667,0.5 L0,0.5 Z" id="path-6"></path>
+    </defs>
+    <g id="01_Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="top-copy">
+            <g id="Fill-6">
+                <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                <use fill-opacity="0.25" fill="#D1F9FF" style="mix-blend-mode: color;" xlink:href="#path-3"></use>
+            </g>
+            <g id="Fill-6">
+                <use fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                <use fill-opacity="0.25" fill="#00BBD8" style="mix-blend-mode: color;" xlink:href="#path-5"></use>
+            </g>
+            <g id="Fill-8" transform="translate(402.333500, 4.250000) scale(1, -1) translate(-402.333500, -4.250000) ">
+                <use fill="url(#linearGradient-4)" xlink:href="#path-6"></use>
+                <use fill-opacity="0.25" fill="#D1F9FF" style="mix-blend-mode: color;" xlink:href="#path-6"></use>
+                <use fill-opacity="0.34" fill="#FFFFFF" xlink:href="#path-6"></use>
+            </g>
+        </g>
+    </g>
+</svg>

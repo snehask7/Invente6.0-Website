@@ -14,6 +14,7 @@ import {
   FaTimesCircle,
   FaCheckCircle,
 } from 'react-icons/fa';
+import NavbarComp from '../components/Navbar';
 
 function Profile() {
   const [profile, setProfile] = useState();
@@ -58,6 +59,7 @@ function Profile() {
 
   return (
     <div className={styles.container}>
+      <NavbarComp />
       <div className={styles.card}>
         {profile ? (
           <div>

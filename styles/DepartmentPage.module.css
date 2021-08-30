@@ -17,10 +17,13 @@
       rgba(144, 53, 172, 0.61)
     );
   min-height: 100vh;
-  padding: 8rem;
   align-items: center;
   background-blend-mode: screen;
   background-size: cover;
+}
+
+.mainContainer {
+  padding: 8em;
 }
 .pageHeading {
   text-align: center;

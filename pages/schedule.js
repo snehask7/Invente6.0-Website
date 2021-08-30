@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../styles/Schedule.module.css';
 import { Table, Col, Container, Row } from 'react-bootstrap';
+import NavbarComp from '../components/Navbar';
 
 let current = 'CSE';
 let day = 1;
@@ -89,6 +90,7 @@ function Schedule() {
 
   return (
     <div className={styles.container}>
+      <NavbarComp />
       <main>
         <h1 className={styles.heading}>SCHEDULE</h1>
         {day == 1 ? (
