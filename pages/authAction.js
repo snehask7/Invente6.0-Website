@@ -7,28 +7,32 @@ import { toast } from 'react-hot-toast';
 import NavbarComp from '../components/Navbar';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
-function Signin() {
+
+function AuthAction() {
   const router = useRouter();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   const { query } = useRouter();
-  var mode = query.mode;
-  var actionCode = query.oobCode;
-  firebase
-    .auth()
-    .verifyPasswordResetCode(actionCode)
-    .then(function (email) {
-      setEmail(email);
-    })
-    .catch((error) => {
-      toast.error(error.message);
-      router.push('/signin');
-    });
-  function changePassword() {
-    event.preventDefault();
+  let mode = query.mode;
+  let oobCode = query.oobCode;
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const email = await firebase.auth().verifyPasswordResetCode(oobCode);
+        setEmail(email);
+      } catch (error) {
+        console.log('Not initialized');
+      }
+    }
+    fetchData();
+  }, [oobCode]);
+
+  function changePassword(e) {
+    e.preventDefault();
     firebase
       .auth()
-      .confirmPasswordReset(actionCode, password)
+      .confirmPasswordReset(oobCode, password)
       .then((resp) => {
         toast.success('Password Updated');
         router.push('/signin');
@@ -99,4 +103,4 @@ function Signin() {
     </div>
   );
 }
-export default Signin;
+export default AuthAction;

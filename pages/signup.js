@@ -69,13 +69,9 @@ function SignUp() {
             uid: currentUser.uid,
             email: state['email'],
             username:
-              state['first_name'].toLowerCase() +
-              '_' +
-              state['last_name'].toLowerCase() +
-              '#' +
+              state['full_name'].toLowerCase().replace(' ', '_') +
               generate4DigitNumber(),
-            firstName: state['first_name'],
-            lastName: state['last_name'],
+            fullName: state['full_name'],
             phone: state['phone_number'],
             registerNumber: state['reg_no'],
             year: state['year'],
