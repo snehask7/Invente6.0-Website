@@ -69,3 +69,17 @@
   max-width: 800px;
   margin-top: 3rem;
 }
+
+.about {
+  max-width: 70%;
+  color: white;
+  text-align: center;
+  margin-top: 5em;
+}
+
+.departments {
+  max-width: 70%;
+  color: white;
+  text-align: center;
+  margin-top: 5em;
+}

@@ -11,6 +11,7 @@ import {
   FaUserAlt,
 } from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
+import NavbarComp from '../../components/Navbar';
 import data from '../../data.json';
 import styles from '../../styles/DepartmentPage.module.css';
 
@@ -38,12 +39,14 @@ export default function Department({ data }) {
 
   return (
     <div className={styles.container}>
+      <NavbarComp />
       <main>
-        <h1 className={styles.pageHeading}>
-          Department of{' '}
-          {department == 'Chemical' ? 'Chemical Engineering' : department}
-        </h1>
-        {/* <div>
+        <div className={styles.mainContainer}>
+          <h1 className={styles.pageHeading}>
+            Department of{' '}
+            {department == 'Chemical' ? 'Chemical Engineering' : department}
+          </h1>
+          {/* <div>
           <Modal
             classNames={{
               modal: styles.teamModal,
@@ -61,152 +64,157 @@ export default function Department({ data }) {
             </div>
           </Modal>
         </div> */}
-        <Row className={styles.wrapper}>
-          <Col
-            lg={12}
-            xl={12}
-            md={12}
-            sm={12}
-            className={styles.eventsContainer}
-          >
-            <Row>
-              {events.map((event, id) => {
-                return (
-                  <Col
-                    key={`event${id}`}
-                    onClick={() => {
-                      setEvent(id);
-                    }}
-                  >
-                    <div className={styles.eventCard}>
-                      <span></span>
-                      <div className={styles.content}>
+          <Row className={styles.wrapper}>
+            <Col
+              lg={12}
+              xl={12}
+              md={12}
+              sm={12}
+              className={styles.eventsContainer}
+            >
+              <Row>
+                {events.map((event, id) => {
+                  return (
+                    <Col
+                      key={`event${id}`}
+                      onClick={() => {
+                        setEvent(id);
+                      }}
+                    >
+                      <div className={styles.eventCard}>
+                        <span></span>
                         <div className={styles.content}>
-                          <p>{event.name}</p>
+                          <div className={styles.content}>
+                            <p>{event.name}</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </Col>
-                );
-              })}
-            </Row>
-          </Col>
-          <Col lg={12} xl={12} md={12} sm={12}>
-            <div className={styles.eventDetails}>
-              <p className={styles.headerWrapper}>
-                <span className={styles.eventHeading}>
-                  {events[event].name}
-                </span>
-                <span
-                  className={
-                    events[event].category == 'tech'
-                      ? styles.techbadge
-                      : styles.nontechbadge
+                    </Col>
+                  );
+                })}
+              </Row>
+            </Col>
+            <Col lg={12} xl={12} md={12} sm={12}>
+              <div className={styles.eventDetails}>
+                <p className={styles.headerWrapper}>
+                  <span className={styles.eventHeading}>
+                    {events[event].name}
+                  </span>
+                  <span
+                    className={
+                      events[event].category == 'tech'
+                        ? styles.techbadge
+                        : styles.nontechbadge
+                    }
+                  >
+                    {events[event].category == 'tech' ? 'Tech' : 'Non-Tech'}
+                  </span>
+                </p>
+                <br></br>
+                {events[event].description.summary ? (
+                  <>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: events[event].description.summary,
+                      }}
+                      className={styles.eventDesc}
+                    ></p>
+                  </>
+                ) : null}
+                {events[event].description.rounds == 0 ? <hr></hr> : null}
+                {events[event].description.round_description.map(
+                  (round, id) => {
+                    return (
+                      <Row key={`round${id}`}>
+                        <div className={styles.roundCard}>
+                          <b> {round.name}</b>{' '}
+                          {round.duration ? (
+                            <>
+                              &nbsp;<FaRegClock></FaRegClock>&nbsp;
+                              {round.duration}
+                            </>
+                          ) : null}
+                          <hr></hr>
+                          <p
+                            dangerouslySetInnerHTML={{
+                              __html: round.description,
+                            }}
+                          ></p>
+                        </div>
+                      </Row>
+                    );
                   }
-                >
-                  {events[event].category == 'tech' ? 'Tech' : 'Non-Tech'}
-                </span>
-              </p>
-              <br></br>
-              {events[event].description.summary ? (
-                <>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: events[event].description.summary,
-                    }}
-                    className={styles.eventDesc}
-                  ></p>
-                </>
-              ) : null}
-              {events[event].description.rounds == 0 ? <hr></hr> : null}
-              {events[event].description.round_description.map((round, id) => {
-                return (
-                  <Row key={`round${id}`}>
-                    <div className={styles.roundCard}>
-                      <b> {round.name}</b>{' '}
-                      {round.duration ? (
-                        <>
-                          &nbsp;<FaRegClock></FaRegClock>&nbsp;
-                          {round.duration}
-                        </>
-                      ) : null}
-                      <hr></hr>
-                      <p
-                        dangerouslySetInnerHTML={{ __html: round.description }}
-                      ></p>
-                    </div>
-                  </Row>
-                );
-              })}
-              <div className={styles.row}>
-                <div className={styles.col}>
-                  {events[event].organisers.map((organiser, id) => {
-                    return (
-                      <div key={`organiser${id}`}>
-                        {id == 0 ? (
-                          <>
-                            <FaPhoneAlt></FaPhoneAlt>
-                            <br></br>
-                          </>
-                        ) : null}
-                        {organiser.name + ' : ' + organiser.phone}
-                      </div>
-                    );
-                  })}
+                )}
+                <div className={styles.row}>
+                  <div className={styles.col}>
+                    {events[event].organisers.map((organiser, id) => {
+                      return (
+                        <div key={`organiser${id}`}>
+                          {id == 0 ? (
+                            <>
+                              <FaPhoneAlt></FaPhoneAlt>
+                              <br></br>
+                            </>
+                          ) : null}
+                          {organiser.name + ' : ' + organiser.phone}
+                        </div>
+                      );
+                    })}
+                  </div>
+                  <div className={styles.col}>
+                    {' '}
+                    <FaUserAlt></FaUserAlt>
+                    <br></br>
+                    {events[event].min_team_size == events[event].max_team_size
+                      ? events[event].min_team_size + ' '
+                      : events[event].min_team_size +
+                        ' - ' +
+                        events[event].max_team_size +
+                        ' '}
+                    per team
+                  </div>
+                  <div className={styles.col}>
+                    {' '}
+                    <FaCalendarAlt></FaCalendarAlt>
+                    <br></br>Oct 7, 9:00 AM
+                  </div>
+                  <div className={styles.col}>
+                    {' '}
+                    <FaRegBuilding></FaRegBuilding>
+                    <br></br>Open to{' '}
+                    {events[event].open_to == 'All'
+                      ? 'any Department'
+                      : events[event].open_to.join()}
+                  </div>
+                  <div className={styles.col}>
+                    {' '}
+                    {events[event].prizes.map((prize, id) => {
+                      return (
+                        <div key={`organiser${id}`}>
+                          {id == 0 ? (
+                            <>
+                              <FaTrophy></FaTrophy>
+                              <br></br>
+                            </>
+                          ) : null}
+                          {prize}
+                        </div>
+                      );
+                    })}
+                  </div>
                 </div>
-                <div className={styles.col}>
-                  {' '}
-                  <FaUserAlt></FaUserAlt>
-                  <br></br>
-                  {events[event].min_team_size == events[event].max_team_size
-                    ? events[event].min_team_size + ' '
-                    : events[event].min_team_size +
-                      ' - ' +
-                      events[event].max_team_size +
-                      ' '}
-                  per team
-                </div>
-                <div className={styles.col}>
-                  {' '}
-                  <FaCalendarAlt></FaCalendarAlt>
-                  <br></br>Oct 7, 9:00 AM
-                </div>
-                <div className={styles.col}>
-                  {' '}
-                  <FaRegBuilding></FaRegBuilding>
-                  <br></br>Open to{' '}
-                  {events[event].open_to == 'All'
-                    ? 'any Department'
-                    : events[event].open_to.join()}
-                </div>
-                <div className={styles.col}>
-                  {' '}
-                  {events[event].prizes.map((prize, id) => {
-                    return (
-                      <div key={`organiser${id}`}>
-                        {id == 0 ? (
-                          <>
-                            <FaTrophy></FaTrophy>
-                            <br></br>
-                          </>
-                        ) : null}
-                        {prize}
-                      </div>
-                    );
-                  })}
+                <div className={styles.buttonWrapper}>
+                  <button
+                    className={styles.registerButton}
+                    onClick={() => register(event)}
+                  >
+                    Register
+                  </button>
                 </div>
               </div>
-              <div className={styles.buttonWrapper}>
-                <button
-                  className={styles.registerButton}
-                  onClick={() => register(event)}
-                >
-                  Register
-                </button>
-              </div>
-            </div>
-          </Col>
-        </Row>
+            </Col>
+          </Row>
+        </div>
       </main>
     </div>
   );

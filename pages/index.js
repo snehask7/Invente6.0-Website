@@ -30,59 +30,64 @@ export default function Home() {
       <NavbarComp />
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to Invente 6.0</h1>
-        {currentUser ? (
-          <>
-            <h3>Successfully Logged In as {currentUser.displayName}</h3>
-            <button onClick={() => onSignOut()} className={styles.card}>
-              <h2>Signout</h2>
-            </button>
-          </>
-        ) : null}
-        <Link
-          href={{
-            pathname: '/department/ECE',
-          }}
-        >
-          <a className={styles.card}>
-            <h2>ECE</h2>
-          </a>
-        </Link>
-        <Link
-          href={{
-            pathname: '/department/BME',
-          }}
-        >
-          <a className={styles.card}>
-            <h2>BME</h2>
-          </a>
-        </Link>
-        <Link
-          href={{
-            pathname: '/department/EEE',
-          }}
-        >
-          <a className={styles.card}>
-            <h2>EEE</h2>
-          </a>
-        </Link>
-        <Link
-          href={{
-            pathname: '/department/IT',
-          }}
-        >
-          <a className={styles.card}>
-            <h2>IT</h2>
-          </a>
-        </Link>
-        <Link
-          href={{
-            pathname: '/department/Chemical',
-          }}
-        >
-          <a className={styles.card}>
-            <h2>Chemical</h2>
-          </a>
-        </Link>
+        <div className={styles.about}>
+          <h1>About</h1>
+          <p>
+            Occaecat officia elit excepteur eiusmod magna excepteur minim sit et
+            proident aliqua. Irure nisi aute duis velit ipsum in. Qui in aliqua
+            dolor dolore laborum labore adipisicing laborum sit. Aliquip sunt
+            quis fugiat eiusmod quis ex mollit Lorem Lorem esse laboris amet
+            est. Ut ipsum magna esse dolor esse qui sunt non fugiat minim. Ea
+            elit dolor quis aliquip est dolor mollit.
+          </p>
+        </div>
+        <div className={styles.departments} id={'departments'}>
+          <Link
+            href={{
+              pathname: '/department/ECE',
+            }}
+          >
+            <a className={styles.card}>
+              <h2>ECE</h2>
+            </a>
+          </Link>
+          <Link
+            href={{
+              pathname: '/department/BME',
+            }}
+          >
+            <a className={styles.card}>
+              <h2>BME</h2>
+            </a>
+          </Link>
+          <Link
+            href={{
+              pathname: '/department/EEE',
+            }}
+          >
+            <a className={styles.card}>
+              <h2>EEE</h2>
+            </a>
+          </Link>
+          <Link
+            href={{
+              pathname: '/department/IT',
+            }}
+          >
+            <a className={styles.card}>
+              <h2>IT</h2>
+            </a>
+          </Link>
+          <Link
+            href={{
+              pathname: '/department/Chemical',
+            }}
+          >
+            <a className={styles.card}>
+              <h2>Chemical</h2>
+            </a>
+          </Link>
+        </div>
       </main>
 
       <footer className={styles.footer}></footer>
