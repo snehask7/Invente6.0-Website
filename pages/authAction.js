@@ -1,7 +1,7 @@
 import firebase from 'firebase/app';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
 import NavbarComp from '../components/Navbar';
