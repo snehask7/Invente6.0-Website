@@ -31,7 +31,7 @@ function AuthAction() {
       }
     }
     fetchData();
-  }, [oobCode]);
+  }, [oobCode, mode]);
 
   function changePassword(e) {
     e.preventDefault();
