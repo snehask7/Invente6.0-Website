@@ -34,7 +34,7 @@ function Signin() {
         router.push('/signin');
       })
       .catch((error) => {
-        toast.error('URL has expired or password too weak!');
+        toast.error(error.message);
       });
   }
   return (
