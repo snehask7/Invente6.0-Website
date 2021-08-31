@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import { Col, Row } from "react-bootstrap";
+import { Col, Row } from 'react-bootstrap';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import styles2 from '../styles/Auth.module.css';
@@ -44,7 +44,7 @@ export default function Home() {
               className={styles.logo}
             />
           </Col>
-          <Col sm={12} md={3} >
+          <Col sm={12} md={3}>
             <div className={styles.centerItem}>
               <div className={styles.rocket}>
                 <div className={styles.rocket_body}>
@@ -70,6 +70,6 @@ export default function Home() {
           </Col>
         </Row>
       </main>
-    </div >
+    </div>
   );
 }
