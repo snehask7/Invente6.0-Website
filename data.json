@@ -1282,5 +1282,203 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
     }
+  ],
+  "CSE": [
+    {
+      "name": "Codolympics",
+      "category": "tech",
+      "min_team_size": 2,
+      "max_team_size": 2,
+      "organisers": [
+        { "name": "Avinash", "phone": 9840801323 },
+        { "name": "Venkatraman", "phone": 9176584507 },
+        { "name": "Vrishin", "phone": 9677077928 }
+      ],
+      "description": {
+        "summary": "There would be 2 round, prelims and finals and each would be around 2-3 hours.",
+        "rounds": 1,
+        "round_description": [
+          {
+            "name": "Description",
+            "duration": null,
+            "description": "Codolympics is a Competitive programming event in which the participants will compete in teams of 2 taking part in a programming contest where they would be given the task of solving 5 - 7 DSA related problems. The theme of problem statements will be related to the theme chosen for invente to make the problems fun and exciting.<br><b>Ranking</b> of teams is based on the standard ICPC rules, namely: First on the <b>number of problems solved</b> (more is better). In case of a tie, the total time for all accepted submissions is taken into account (less is better);<br><b>Time</b> is measured from the beginning of the contest until the submission was accepted, where <b>each rejected submission adds 10 - 20 minutes penalty time.</b><br>If there is still a tie, the time of acceptance for the last problem solved matters (less is better).<br>The rounds will be hosted on Competitive Programming platforms, i.e <b>Codechef</b>, <b>Hackerrank</b> or <b>Hackerearth</b>. Problems may vary (considerably) <b>in difficulty, and appear in increasing order of difficulty.</b>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.6000", "Runner-Up - Rs.4000"]
+    },
+    {
+      "name": "Paper Presentation",
+      "category": "tech",
+      "min_team_size": 0,
+      "max_team_size": 0,
+      "organisers": [
+        { "name": "Niel", "phone": 9789053812 },
+        { "name": "Sachin", "phone": 9498097774 }
+      ],
+      "description": {
+        "summary": "There would be 2 round.<br>Results of first round would be announced 1 day before the event.<br>The finals would be 1-2 hours.",
+        "rounds": 1,
+        "round_description": [
+          {
+            "name": "Description",
+            "duration": null,
+            "description": "Paper presentation – the og event for any technical competition is an event where participants will be required to submit research papers.<br>These papers will then be put through an initial test to make sure there is no <b>plagiarism</b>, that the paper is formatted correctly and the references provided are legitimate ones.<br>ANY PAPER FOUND TO BE PLAGAIRISED WILL BE IMMEDIATELY DISQUALIFIED.<br>After the preliminary scanning the selected papers will be announced after which the participants will be required to present their work to a panel of esteemed judges. Participants can use any form of media to present their paper like power points, live demonstrations or just the paper (all on zoom). "
+          }
+        ]
+      },
+      "open_to": ["All"],
+      "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"]
+    },
+    {
+      "name": "Code Triathlon",
+      "category": "tech",
+      "min_team_size": 0,
+      "max_team_size": 0,
+      "organisers": [
+        { "name": "Madhumitha S", "phone": 9445172739 },
+        { "name": "Keerthana", "phone": 6383684631 },
+        { "name": "Madhumitha Chowdhary", "phone": 9444869103 }
+      ],
+      "description": {
+        "summary": "Tri-ath-lon!!!- Just come n TRI it. <br>Do you know to cycle, swim, and run? <br>You don't really need to know all these. All you need is a know-how of logic and basic programming skills !!  Grab your laptops and let's buckle up !! <br>This event is an amalgamation of various exciting rounds that put forth a different perspective of coding! There will be three brain-racking rounds.<br>The first 2 rounds are your entry tickets to the finale!!",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Crack the Code!",
+            "duration": null,
+            "description": "This deals with Pseudocodes and Algorithms. You will be asked to chip in the algorithm in Pseudocode format or comprehend the Pseudocode to understand the algorithm!"
+          },
+          {
+            "name": "Code puzzle!",
+            "duration": null,
+            "description": "This round is like the jumble puzzle that you would have played during your childhood. If you have got the knack to quickly understand the logic, you will be on a winning sprint here."
+          },
+          {
+            "name": "Techxtempo!",
+            "duration": null,
+            "description": "Extempo? Nah! Its Tech+Extempo.<br>Can’t stop your overflowing ideas and do you love to find tech solutions and build prototypes for burning real-world issues? Then you are the perfect fit.<br>PS: You don’t need to be a pro coder or star coder! Don’t miss to grab this opportunity that could fetch you an internship and cash prizes!"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Best Ideator - Rs.3000", "Best Innovater - Rs.3000"]
+    },
+    {
+      "name": "Hacker’s Asylum",
+      "category": "tech",
+      "min_team_size": 0,
+      "max_team_size": 0,
+      "organisers": [
+        { "name": "Christina", "phone": 7411175409 },
+        { "name": "Aarthi", "phone": 7358090325 }
+      ],
+      "description": {
+        "summary": "Cyber Security, Cryptography, Logic, Puzzle Solving<br>You do not need any prior knowledge except basic computer and browsing skills. You  can ask for help anytime but points will be calculated accordingly.  If you’re new to CTFs or they  sound interesting, this is the event for you!",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Prelims",
+            "duration": "1 hour",
+            "description": "A qualifier round that is a mini version of what’s to come."
+          },
+          {
+            "name": "Main Event",
+            "duration": "3 hours",
+            "description": "A Jeopardy style Capture The Flag event with an intriguing plot where you find clues ,  solve puzzles and capture the “flags”. Each element tests your grasp on OSINT, Cryptography,  Reverse Engineering, Password Cracking and a whole range of Cyber Security concepts along  with general logical skills. Each flag you capture gets you points and leads you to unfold the  story a little more.But time is not on your side in this event as the first team to solve all the clues  and reach the final goal, wins."
+          }
+        ]
+      },
+      "open_to": ["All"],
+      "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"]
+    },
+    {
+      "name": "MOCK JOB DRIVE",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Vishakan", "phone": 9003046970 },
+        { "name": "Sreyas", "phone": 7448472807 },
+        { "name": "Srivathsan", "phone": 8124652052 },
+        { "name": "Sricharan", "phone": 9940678405 },
+        { "name": "Ajay", "phone": 8056017697 }
+      ],
+      "description": {
+        "summary": "Every student who wishes to land a dream job looks forward to the Campus Placements season and a “mock-test” before the tense finals is only fair! Mock Job Drive is a realistic simulation of the campus recruitment process, where each round is an eliminator round.",
+        "rounds": 4,
+        "round_description": [
+          {
+            "name": "Aptitude Test",
+            "duration": "45 mins",
+            "description": "The traditional first round of most candidate hiring processes. This is an initial MCQ-based round which focuses on aspects like Computer Science Fundamentals, Logical Reasoning, Aptitude, Quant and English."
+          },
+          {
+            "name": "Coding Test",
+            "duration": "60 mins",
+            "description": "An integral part of all IT/CS sector jobs that tests your soundness in data structures and algorithmic thinking. You’ll be given two coding questions along with sample testcases and shall be expected to code up the solution in a popular programming language of your choice."
+          },
+          {
+            "name": "Technical Interview",
+            "duration": "30-45 mins",
+            "description": "A face-to-face interview that tests participants on various technological aspects based on their résumé, skills and qualifications. You shall be asked to explain about your relevant experience and come up with interesting solutions to our on-spot problems that test your problem-solving skills."
+          },
+          {
+            "name": "HR Interview",
+            "duration": "30-45 mins",
+            "description": "The final face-to-face interview round which will judge your job fitness on based on your personality, traits and behavior. You will be tested on common HR pattern questions and asked to provide anecdotes of relevant incidents in your life. You will be assessed based on your candor and attitude."
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"]
+    },
+    {
+      "name": "Reverse in Relay",
+      "category": "tech",
+      "min_team_size": 3,
+      "max_team_size": 3,
+      "organisers": [
+        { "name": "Subhiksha", "phone": 9791755626 },
+        { "name": "Vaishnavi", "phone": 7530035323 }
+      ],
+      "description": {
+        "summary": null,
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Fast and Furious Wins the Race:",
+            "duration": "1 hour",
+            "description": "Every race has got to have qualifiers.<br>Your team of 3 will have to clear the hurdles , a series of fast paced questions where you get to answer the poll, the first 5 to the finish line qualify!!"
+          },
+          {
+            "name": "Relay in Reverse",
+            "duration": "1 hour",
+            "description": "Won a race by running in reverse? Not possible right!<br>If possible, can you win it? Let's make it more fun! How about a relay?<br>All you have to do is come up with a solution for the problem, receive the baton, start coding, pass the baton.<br>You win if you come first , well obviously in REVERSE"
+          }
+        ]
+      },
+      "open_to": ["All"],
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"]
+    },
+    {
+      "name": "Game Nite",
+      "category": "non-tech",
+      "min_team_size": 0,
+      "max_team_size": 0,
+      "organisers": [
+        { "name": "Krithikan", "phone": 9944666013 },
+        { "name": "Srinirav", "phone": 9940615473 },
+        { "name": "Nanditha", "phone": 9677058210 }
+      ],
+      "description": {
+        "summary": "When we were stuck at home with the seemingly endless lockdown, we didn’t know when we would hang out with our friends next. That is when we turned to online games to have fun and play with them. The main idea of this event is to take a breather from our hectic lives and enjoy those three hours<br>The preliminary round consists of players split randomly into teams and play a game chosen randomly from the wheel of fortune.  Players with the most points would move on to the next round. The final round is a trivia night where players test their knowledge,speed and accuracy. Time is definitely not your friend as the one who answers first will get maximum points.<br>If you are looking for an exhilarating, fun event before getting all technical, this event is for you.",
+        "rounds": 0,
+        "round_description": []
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.2500", "Runner-Up - Rs.1500"]
+    }
   ]
 }
