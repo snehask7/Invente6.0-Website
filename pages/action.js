@@ -31,7 +31,7 @@ function AuthAction() {
           setEmail(email);
         }
       } catch (error) {
-        console.log('Not initialized');
+        console.log('Not initialized', error);
       }
     }
     fetchData();
