@@ -1,7 +1,11 @@
-import firebase from 'firebase/app';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState, useEffect } from 'react';
+import {
+  verifyPasswordResetCode,
+  applyActionCode,
+  confirmPasswordReset,
+} from '../lib/firebase';
 import { Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
 import NavbarComp from '../components/Navbar';
@@ -20,10 +24,10 @@ function AuthAction() {
     async function fetchData() {
       try {
         if (mode === 'resetPassword') {
-          const email = await firebase.auth().verifyPasswordResetCode(oobCode);
+          const email = await verifyPasswordResetCode(oobCode);
           setEmail(email);
         } else {
-          const email = await firebase.auth().applyActionCode(oobCode);
+          const email = await applyActionCode(oobCode);
           setEmail(email);
         }
       } catch (error) {
@@ -35,9 +39,7 @@ function AuthAction() {
 
   function changePassword(e) {
     e.preventDefault();
-    firebase
-      .auth()
-      .confirmPasswordReset(oobCode, password)
+    confirmPasswordReset(oobCode, password)
       .then((resp) => {
         toast.success('Password Updated');
         router.push('/signin');
