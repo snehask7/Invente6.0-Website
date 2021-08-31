@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import NavbarComp from '../components/Navbar';
@@ -85,6 +84,15 @@ export default function Home() {
           >
             <a className={styles.card}>
               <h2>Chemical</h2>
+            </a>
+          </Link>
+          <Link
+            href={{
+              pathname: '/department/CSE',
+            }}
+          >
+            <a className={styles.card}>
+              <h2>CSE</h2>
             </a>
           </Link>
         </div>
