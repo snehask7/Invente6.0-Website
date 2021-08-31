@@ -186,7 +186,11 @@ function SignUp() {
                 <Row>
                   <Col xs={12} md={6}>
                     <h5 className={styles.inputLabel}>Year</h5>
-                    <select className={styles.inputField} required onChange={(e) => onChange('year', e)}>
+                    <select
+                      className={styles.inputField}
+                      required
+                      onChange={(e) => onChange('year', e)}
+                    >
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
@@ -196,8 +200,17 @@ function SignUp() {
                   </Col>
                   <Col xs={12} md={6}>
                     <h5 className={styles.inputLabel}>Department</h5>
-                    <input className={styles.inputField} type="text" list="departments" onChange={(e) => onChange('department', e)} />
-                    <datalist id="departments" className={styles.inputField} required >
+                    <input
+                      className={styles.inputField}
+                      type="text"
+                      list="departments"
+                      onChange={(e) => onChange('department', e)}
+                    />
+                    <datalist
+                      id="departments"
+                      className={styles.inputField}
+                      required
+                    >
                       <option value="CSE">CSE</option>
                       <option value="IT">IT</option>
                       <option value="ECE">ECE</option>
