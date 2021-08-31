@@ -81,6 +81,7 @@ export default async function handler(req, res) {
       const userData = (await userRef.get()).data();
       const paymentData = (await paymentRef.get()).data();
       userData['updatedAt'] = userData['updatedAt'].seconds;
+      paymentData['updatedAt'] = paymentData['updatedAt'].seconds;
       res.status(200).send({ ...userData, paid: paymentData });
       //res.status(200).send(userData);
     } catch (err) {
