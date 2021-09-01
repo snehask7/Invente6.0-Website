@@ -3,9 +3,14 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import {
-  FaCheckCircle, FaPhoneAlt,
-  FaRegBuilding, FaRegCalendarAlt, FaRegEnvelope, FaTimesCircle, FaUniversity,
-  FaUserGraduate
+  FaCheckCircle,
+  FaPhoneAlt,
+  FaRegBuilding,
+  FaRegCalendarAlt,
+  FaRegEnvelope,
+  FaTimesCircle,
+  FaUniversity,
+  FaUserGraduate,
 } from 'react-icons/fa';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
@@ -17,29 +22,33 @@ function Profile() {
   const router = useRouter();
 
   useEffect(() => {
-    if (currentUser?.emailVerified) { getProfile(); }
-    else { router.push('/'); }
-  }, [currentUser]);
-
-  async function getProfile() {
-
-    const userDetails = await axios.get('/api/username', { params: { uid: currentUser.uid } });
-    if (userDetails?.data?.username) {
-      const profileDetails = await axios.get('/api/user', { params: { username: userDetails.data.username } });
-      if (profileDetails?.data) {
-        setProfile(profileDetails.data);
-        console.log(profileDetails)
-      }
-      else {
+    async function getProfile() {
+      const userDetails = await axios.get('/api/username', {
+        params: { uid: currentUser.uid },
+      });
+      if (userDetails?.data?.username) {
+        const profileDetails = await axios.get('/api/user', {
+          params: { username: userDetails.data.username },
+        });
+        if (profileDetails?.data) {
+          setProfile(profileDetails.data);
+          console.log(profileDetails);
+        } else {
+          toast.error('Could not fetch profile');
+          router.push('/');
+        }
+      } else {
         toast.error('Could not fetch profile');
         router.push('/');
       }
     }
-    else {
-      toast.error('Could not fetch profile');
+    if (currentUser?.emailVerified) {
+      getProfile();
+    } else {
       router.push('/');
     }
-  }
+  }, [currentUser, router]);
+
   function renderEvents() {
     return profile.events.map((event, i) => {
       return (
@@ -74,9 +83,7 @@ function Profile() {
               </span>
             </div>
             <div className={styles.image}></div>
-            <h1 className={styles.name}>
-              {profile.fullName}
-            </h1>
+            <h1 className={styles.name}>{profile.fullName}</h1>
             <Container className={styles.details}>
               <Row>
                 <Col xs={6} sm={6} md={4} className={styles.cols}>
