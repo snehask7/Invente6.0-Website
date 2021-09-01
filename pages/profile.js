@@ -1,31 +1,24 @@
+import axios from 'axios';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
-import styles from '../styles/Profile.module.css';
-import { useAuth } from '../lib/hooks';
 import { Col, Container, Row } from 'react-bootstrap';
-
 import {
-  FaRegEnvelope,
-  FaPhoneAlt,
-  FaRegBuilding,
-  FaUniversity,
-  FaUserGraduate,
-  FaRegCalendarAlt,
-  FaTimesCircle,
-  FaCheckCircle,
+  FaCheckCircle, FaPhoneAlt,
+  FaRegBuilding, FaRegCalendarAlt, FaRegEnvelope, FaTimesCircle, FaUniversity,
+  FaUserGraduate
 } from 'react-icons/fa';
 import NavbarComp from '../components/Navbar';
+import { useAuth } from '../lib/hooks';
+import styles from '../styles/Profile.module.css';
 
 function Profile() {
   const [profile, setProfile] = useState();
   const { currentUser } = useAuth();
+  const router = useRouter();
 
   useEffect(() => {
-    if (!currentUser) {
-      setProfile();
-      return;
-    }
-    getProfile();
+    if (currentUser?.emailVerified) { getProfile(); }
+    else { router.push('/'); }
   }, [currentUser]);
 
   async function getProfile() {
@@ -39,8 +32,22 @@ function Profile() {
       email: 'a@b.com',
       events: ['webItOut', 'Sports Quiz', 'Devathlon'],
     };
-    console.log(profileRes);
-    setProfile(profileRes);
+    const userDetails = await axios.get('/api/username', { params: { uid: currentUser.uid } });
+    if (userDetails?.data?.username) {
+      const profileDetails = await axios.get('/api/user', { params: { username: userDetails.data.username } });
+      if (profileDetails?.data) {
+        setProfile(profileDetails.data);
+        console.log(profileDetails)
+      }
+      else {
+        toast.error('Could not fetch profile');
+        router.push('/');
+      }
+    }
+    else {
+      toast.error('Could not fetch profile');
+      router.push('/');
+    }
   }
   function renderEvents() {
     return profile.events.map((event, i) => {
@@ -77,7 +84,7 @@ function Profile() {
             </div>
             <div className={styles.image}></div>
             <h1 className={styles.name}>
-              {profile.fname} {profile.lname}
+              {profile.fullName}
             </h1>
             <Container className={styles.details}>
               <Row>
@@ -86,7 +93,7 @@ function Profile() {
                     <span className={styles.title}>
                       <FaRegBuilding className={styles.icon}></FaRegBuilding>
                     </span>
-                    <p>Computer Science and Engineering</p>
+                    <p>{profile.department}</p>
                   </div>
                 </Col>
                 <Col xs={6} sm={6} md={4} className={styles.cols}>
@@ -102,7 +109,7 @@ function Profile() {
                     <span className={styles.title}>
                       <FaUserGraduate className={styles.icon}></FaUserGraduate>
                     </span>
-                    <p>185001170</p>
+                    <p>{profile.registerNumber}</p>
                   </div>
                 </Col>
                 <Col xs={6} sm={6} md={4} className={styles.cols}>
@@ -110,7 +117,7 @@ function Profile() {
                     <span className={styles.title}>
                       <FaRegEnvelope className={styles.icon}></FaRegEnvelope>
                     </span>
-                    <p>ssn@ssn.com</p>
+                    <p>{profile.email}</p>
                   </div>
                 </Col>
                 <Col xs={6} sm={6} md={4} className={styles.cols}>
@@ -118,7 +125,7 @@ function Profile() {
                     <span className={styles.title}>
                       <FaPhoneAlt className={styles.icon}></FaPhoneAlt>
                     </span>
-                    <p>1234567890</p>
+                    <p>{profile.phone}</p>
                   </div>
                 </Col>
                 <Col xs={6} sm={6} md={4} className={styles.cols}>
@@ -128,7 +135,7 @@ function Profile() {
                         className={styles.icon}
                       ></FaRegCalendarAlt>
                     </span>
-                    <p>Year 4</p>
+                    <p>Year {profile.year}</p>
                   </div>
                 </Col>
               </Row>
