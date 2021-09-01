@@ -1,11 +1,12 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { Col, Row } from 'react-bootstrap';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
+import logo from '../public/icons/invente_logo_white.png';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Home.module.css';
-
 export default function Home() {
   const { logout } = useAuth();
   const router = useRouter();
@@ -38,11 +39,12 @@ export default function Home() {
         <NavbarComp />
         <Row className={styles.headerRow}>
           <Col md={12} lg={9} className={styles.centerLogo}>
-            <img
-              src="/icons/invente_logo_white.png"
-              alt="profile"
-              className={styles.logo}
-            />
+            <div className={styles.logo}>
+              <Image
+                src={logo}
+                alt="profile"
+                layout="responsive"
+              /></div>
           </Col>
           <Col sm={12} md={3}>
             <div className={styles.centerItem}>
