@@ -1,6 +1,6 @@
 {
-  "ECE": [
-    {
+  "ECE": {
+    "20": {
       "name": "Hackinfinity",
       "category": "tech",
       "min_team_size": 1,
@@ -47,7 +47,7 @@
         "2nd Runner-Up - Rs.5000"
       ]
     },
-    {
+    "21": {
       "name": "Enigma",
       "category": "tech",
       "min_team_size": 1,
@@ -75,7 +75,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"]
     },
-    {
+    "22": {
       "name": "Data Utopia",
       "category": "tech",
       "min_team_size": 1,
@@ -100,7 +100,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "23": {
       "name": "Tinkering Thoughts",
       "category": "tech",
       "min_team_size": 1,
@@ -129,7 +129,7 @@
       "open_to": "All",
       "prizes": ["Inplant Training for the top two teams"]
     },
-    {
+    "24": {
       "name": "The Big Meg",
       "category": "tech",
       "min_team_size": 1,
@@ -157,7 +157,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "25": {
       "name": "Debug-a-circuit ",
       "category": "tech",
       "min_team_size": 1,
@@ -182,7 +182,7 @@
       "open_to": ["ECE", "EEE", "(Or any Electronics related majors)"],
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"]
     },
-    {
+    "26": {
       "name": "Junkyard Jumble",
       "category": "tech",
       "min_team_size": 2,
@@ -207,7 +207,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"]
     },
-    {
+    "27": {
       "name": "Paper Presentation",
       "category": "tech",
       "min_team_size": 1,
@@ -232,7 +232,7 @@
       "open_to": ["ECE"],
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"]
     },
-    {
+    "28": {
       "name": "IPL Auction",
       "category": "non-tech",
       "min_team_size": 1,
@@ -257,7 +257,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"]
     },
-    {
+    "29": {
       "name": "SketchX",
       "category": "non-tech",
       "min_team_size": 1,
@@ -285,9 +285,9 @@
       "open_to": "All",
       "prizes": ["Winner:Rs.2000", "Runner-Up:Rs.1000"]
     }
-  ],
-  "BME": [
-    {
+  },
+  "BME": {
+    "50": {
       "name": "Paper Presentation",
       "category": "tech",
       "min_team_size": 1,
@@ -307,7 +307,7 @@
         "Best Innovation Award: Rs. 2000 (based on social and technical novelty)"
       ]
     },
-    {
+    "51": {
       "name": "Quiz Masters",
       "category": "tech",
       "min_team_size": 1,
@@ -345,7 +345,7 @@
         "2nd Runner-Up - Rs.750"
       ]
     },
-    {
+    "52": {
       "name": "Telehealth Web Development",
       "category": "tech",
       "min_team_size": 1,
@@ -366,7 +366,7 @@
         "2nd Runner-Up - Rs.750"
       ]
     },
-    {
+    "53": {
       "name": "Design to Innovate",
       "category": "tech",
       "min_team_size": 1,
@@ -394,7 +394,7 @@
       "open_to": "All",
       "prizes": []
     },
-    {
+    "54": {
       "name": "Biomedicathon",
       "category": "tech",
       "min_team_size": 3,
@@ -426,7 +426,7 @@
         "2nd Runner-Up - Rs.1000"
       ]
     },
-    {
+    "55": {
       "name": "Medical Auction",
       "category": "tech",
       "min_team_size": 3,
@@ -453,7 +453,7 @@
         "2nd Runner-Up - Rs.500"
       ]
     },
-    {
+    "56": {
       "name": "Entrepreneurship",
       "category": "non-tech",
       "min_team_size": 1,
@@ -487,7 +487,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"]
     },
-    {
+    "57": {
       "name": " Reel it ",
       "category": "non-tech",
       "min_team_size": 1,
@@ -516,9 +516,9 @@
       "open_to": "All",
       "prizes": ["Winner:Rs.1000", "Runner-Up:Rs.500"]
     }
-  ],
-  "EEE": [
-    {
+  },
+  "EEE": {
+    "30": {
       "name": "Paper Presentation",
       "category": "tech",
       "min_team_size": 1,
@@ -554,7 +554,7 @@
       "open_to": "All",
       "prizes": ["Winner: Rs.3000", "Runner-Up: Rs.1500"]
     },
-    {
+    "31": {
       "name": "Tech Quiz",
       "category": "tech",
       "min_team_size": 1,
@@ -588,7 +588,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "32": {
       "name": "E-Bugging",
       "category": "tech",
       "min_team_size": 1,
@@ -623,7 +623,7 @@
       "open_to": ["All Circuit Branches"],
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "33": {
       "name": "Electronic-Maze",
       "category": "tech",
       "min_team_size": 1,
@@ -653,7 +653,7 @@
       "open_to": ["ECE", "EEE"],
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "34": {
       "name": "Ideate",
       "category": "tech",
       "min_team_size": 1,
@@ -698,7 +698,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "35": {
       "name": "Inventino 2021",
       "category": "tech",
       "min_team_size": 1,
@@ -734,7 +734,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "36": {
       "name": "Tentkotta",
       "category": "non-tech",
       "min_team_size": 1,
@@ -762,7 +762,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
     },
-    {
+    "37": {
       "name": "IPL Bidding",
       "category": "non-tech",
       "min_team_size": 1,
@@ -792,9 +792,9 @@
       "open_to": "All",
       "prizes": ["Winner:Rs.3000", "Runner-Up:Rs.1500"]
     }
-  ],
-  "IT": [
-    {
+  },
+  "IT": {
+    "10": {
       "name": "ENIGMA:(CRYPT IT)",
       "category": "tech",
       "min_team_size": 1,
@@ -823,7 +823,7 @@
       "open_to": "All",
       "prizes": ["Winner: Rs.3000", "Runner-Up: Rs.1500"]
     },
-    {
+    "11": {
       "name": "WEBSITICA",
       "category": "tech",
       "min_team_size": 1,
@@ -857,7 +857,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "12": {
       "name": "CODERA",
       "category": "tech",
       "min_team_size": 2,
@@ -891,7 +891,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "13": {
       "name": "REVERSE GEAR",
       "category": "tech",
       "min_team_size": 1,
@@ -925,7 +925,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "14": {
       "name": "PAPYRUS",
       "category": "tech",
       "min_team_size": 1,
@@ -959,7 +959,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "15": {
       "name": "ANALYTICS SPRINT",
       "category": "tech",
       "min_team_size": 2,
@@ -993,7 +993,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "16": {
       "name": "SPORTS QUIZ",
       "category": "non-tech",
       "min_team_size": 2,
@@ -1028,7 +1028,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
     },
-    {
+    "17": {
       "name": "E-TREASURE HUNT",
       "category": "non-tech",
       "min_team_size": 2,
@@ -1058,9 +1058,9 @@
       "open_to": "All",
       "prizes": ["Winner:Rs.1000", "Runner-Up:Rs.500"]
     }
-  ],
-  "Chemical": [
-    {
+  },
+  "Chemical": {
+    "70": {
       "name": "Paper Presentation",
       "category": "tech",
       "min_team_size": 1,
@@ -1093,7 +1093,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "71": {
       "name": "Who's on the Leaderboard",
       "category": "tech",
       "min_team_size": 1,
@@ -1121,7 +1121,7 @@
       "open_to": ["Chemical"],
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "72": {
       "name": "Be-safe-athon",
       "category": "tech",
       "min_team_size": 1,
@@ -1154,7 +1154,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "73": {
       "name": "Like-for-Like",
       "category": "tech",
       "min_team_size": 2,
@@ -1177,7 +1177,7 @@
       "open_to": ["Chemical"],
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "74": {
       "name": "The Commentator’s Conference",
       "category": "tech",
       "min_team_size": 1,
@@ -1206,7 +1206,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "75": {
       "name": "IPL-Invente's Pictionary League",
       "category": "tech",
       "min_team_size": 2,
@@ -1235,7 +1235,7 @@
       "open_to": ["Chemical"],
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
     },
-    {
+    "76": {
       "name": "The Last Man Standing",
       "category": "non-tech",
       "min_team_size": 1,
@@ -1259,7 +1259,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
     },
-    {
+    "77": {
       "name": "Ee Sala MEME Namadhe",
       "category": "non-tech",
       "min_team_size": 1,
@@ -1282,9 +1282,9 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
     }
-  ],
-  "CSE": [
-    {
+  },
+  "CSE": {
+    "00": {
       "name": "Codolympics",
       "category": "tech",
       "min_team_size": 2,
@@ -1308,7 +1308,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.6000", "Runner-Up - Rs.4000"]
     },
-    {
+    "01": {
       "name": "Paper Presentation",
       "category": "tech",
       "min_team_size": 0,
@@ -1331,7 +1331,7 @@
       "open_to": ["All"],
       "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"]
     },
-    {
+    "02": {
       "name": "Code Triathlon",
       "category": "tech",
       "min_team_size": 0,
@@ -1365,7 +1365,7 @@
       "open_to": "All",
       "prizes": ["Best Ideator - Rs.3000", "Best Innovater - Rs.3000"]
     },
-    {
+    "03": {
       "name": "Hacker’s Asylum",
       "category": "tech",
       "min_team_size": 0,
@@ -1393,7 +1393,7 @@
       "open_to": ["All"],
       "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"]
     },
-    {
+    "04": {
       "name": "MOCK JOB DRIVE",
       "category": "tech",
       "min_team_size": 1,
@@ -1434,7 +1434,7 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"]
     },
-    {
+    "05": {
       "name": "Reverse in Relay",
       "category": "tech",
       "min_team_size": 3,
@@ -1462,7 +1462,7 @@
       "open_to": ["All"],
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"]
     },
-    {
+    "06": {
       "name": "Game Nite",
       "category": "non-tech",
       "min_team_size": 0,
@@ -1480,5 +1480,5 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.2500", "Runner-Up - Rs.1500"]
     }
-  ]
+  }
 }
