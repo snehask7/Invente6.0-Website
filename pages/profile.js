@@ -22,16 +22,7 @@ function Profile() {
   }, [currentUser]);
 
   async function getProfile() {
-    const profileRes = {
-      fname: 'Murray',
-      lname: 'Reeve',
-      department: 'CSE',
-      college: 'SSNCE',
-      regnum: '123455',
-      phno: '1234567890',
-      email: 'a@b.com',
-      events: ['webItOut', 'Sports Quiz', 'Devathlon'],
-    };
+
     const userDetails = await axios.get('/api/username', { params: { uid: currentUser.uid } });
     if (userDetails?.data?.username) {
       const profileDetails = await axios.get('/api/user', { params: { username: userDetails.data.username } });
