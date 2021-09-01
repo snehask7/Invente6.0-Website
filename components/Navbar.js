@@ -22,7 +22,12 @@ export default function NavbarComp() {
     <div className={styles.navbar}>
       <div className={styles.inventeLogo}>
         <Link href="/" passHref>
-          <Image src="/icons/logo.png" width={100} height={25}></Image>
+          <Image
+            src="/icons/logo.png"
+            width={100}
+            height={25}
+            alt="logo"
+          ></Image>
         </Link>
       </div>
       <div className={currentUser ? styles.centerTab : styles.centerTabMore}>

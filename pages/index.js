@@ -40,11 +40,8 @@ export default function Home() {
         <Row className={styles.headerRow}>
           <Col md={12} lg={9} className={styles.centerLogo}>
             <div className={styles.logo}>
-              <Image
-                src={logo}
-                alt="profile"
-                layout="responsive"
-              /></div>
+              <Image src={logo} alt="header" layout="responsive" />
+            </div>
           </Col>
           <Col sm={12} md={3}>
             <div className={styles.centerItem}>
