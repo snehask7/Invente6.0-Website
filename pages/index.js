@@ -8,6 +8,7 @@ import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import { useNav } from '../lib/navbarstate';
 import ts from '../public/sponsors/ts.png';
+import Footer from '../components/Footer';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Home.module.css';
 
@@ -16,27 +17,11 @@ export default function Home() {
   const { navbarToggle, toggleNavbar, resetNavbar } = useNav();
   const router = useRouter();
   const [loadAnimation, setLoadAnimation] = useState('');
+  const router = useRouter();
 
   useEffect(() => {
-    resetNavbar();
     setLoadAnimation('active');
   }, []);
-
-  const handleNavbarToggle = () => {
-    setNavbarToggle(!navbarToggle);
-  };
-
-  const { currentUser } = useAuth();
-  const onSignOut = async (event) => {
-    try {
-      await logout();
-      console.log('SignOut success');
-      router.push('/');
-    } catch (err) {
-      console.log('Failed to logout', err);
-    }
-  };
-
   return (
     <div className={styles.container}>
       <Head>
@@ -46,7 +31,7 @@ export default function Home() {
       </Head>
       <div className={styles2.animation_wrapper}>
         <div
-          className={styles2['particle_2'] + ' ' + styles2['particle_4']}
+          className={styles2['particle'] + ' ' + styles2['particle_4']}
         ></div>
       </div>
 
@@ -560,6 +545,7 @@ export default function Home() {
                   </div>
                 </Link>
               </Col>
+
               <Col xs={6} sm={6} md={4} lg={3}>
                 <Link
                   href={{
@@ -591,7 +577,7 @@ export default function Home() {
               </Col>
             </Row>
           </Container>
-          <Container className={styles.spons_section}>
+          {/* <Container className={styles.spons_section}>
             <div className={styles.sub_title}>
               <h2>Sponsors</h2>
               <h2>Sponsors</h2>
@@ -618,10 +604,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </Container>
-          <div className={styles.filler}></div>
+          </Container> */}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
