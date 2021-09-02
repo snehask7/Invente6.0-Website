@@ -12,6 +12,7 @@ export default async function handler(req, res) {
       fullName,
       phone,
       registerNumber,
+      collegeName,
       year,
       department,
     } = req.body;
@@ -37,6 +38,7 @@ export default async function handler(req, res) {
         year: year,
         department: department,
         phone: phone,
+        collegeName: collegeName,
         events: [], // to store the list of registered events.
         updatedAt: serverTimestamp(),
       });
