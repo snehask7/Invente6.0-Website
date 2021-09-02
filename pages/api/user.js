@@ -50,6 +50,7 @@ export default async function handler(req, res) {
         wsCivil: false,
         bmeHack: false,
         eceHack: false,
+        cseHack: false,
         updatedAt: serverTimestamp(),
       });
     } catch (err) {

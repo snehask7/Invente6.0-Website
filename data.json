@@ -2,7 +2,7 @@
   "ECE": [
     {
       "name": "Hackinfinity",
-      "category": "tech",
+      "category": "hackathon",
       "min_team_size": 1,
       "max_team_size": 4,
       "organisers": [
@@ -45,7 +45,8 @@
         "Winner - Rs.12000",
         "1st Runner-Up - Rs.8000",
         "2nd Runner-Up - Rs.5000"
-      ]
+      ],
+      "eventid": "20"
     },
     {
       "name": "Enigma",
@@ -73,7 +74,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"]
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
+      "eventid": "21"
     },
     {
       "name": "Data Utopia",
@@ -98,7 +100,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "22"
     },
     {
       "name": "Tinkering Thoughts",
@@ -127,7 +130,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Inplant Training for the top two teams"]
+      "prizes": ["Inplant Training for the top two teams"],
+      "eventid": "23"
     },
     {
       "name": "The Big Meg",
@@ -155,7 +159,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "24"
     },
     {
       "name": "Debug-a-circuit ",
@@ -180,7 +185,8 @@
         ]
       },
       "open_to": ["ECE", "EEE", "(Or any Electronics related majors)"],
-      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"]
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
+      "eventid": "25"
     },
     {
       "name": "Junkyard Jumble",
@@ -205,7 +211,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"]
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
+      "eventid": "26"
     },
     {
       "name": "Paper Presentation",
@@ -230,7 +237,8 @@
         ]
       },
       "open_to": ["ECE"],
-      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"]
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
+      "eventid": "27"
     },
     {
       "name": "IPL Auction",
@@ -255,7 +263,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"]
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
+      "eventid": "28"
     },
     {
       "name": "SketchX",
@@ -283,7 +292,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner:Rs.2000", "Runner-Up:Rs.1000"]
+      "prizes": ["Winner:Rs.2000", "Runner-Up:Rs.1000"],
+      "eventid": "29"
     }
   ],
   "BME": [
@@ -305,7 +315,8 @@
       "prizes": [
         "Best Presentation Award:  Rs.3000 (based on IEEE pitch norms)",
         "Best Innovation Award: Rs. 2000 (based on social and technical novelty)"
-      ]
+      ],
+      "eventid": "50"
     },
     {
       "name": "Quiz Masters",
@@ -343,7 +354,8 @@
         "Winner - Rs.2000",
         "1st Runner-Up - Rs.1250",
         "2nd Runner-Up - Rs.750"
-      ]
+      ],
+      "eventid": "51"
     },
     {
       "name": "Telehealth Web Development",
@@ -364,7 +376,8 @@
         "Winner - Rs.2000",
         "1st Runner-Up - Rs.1250",
         "2nd Runner-Up - Rs.750"
-      ]
+      ],
+      "eventid": "52"
     },
     {
       "name": "Design to Innovate",
@@ -392,11 +405,12 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "53"
     },
     {
       "name": "Biomedicathon",
-      "category": "tech",
+      "category": "hackathon",
       "min_team_size": 3,
       "max_team_size": 3,
       "organisers": [
@@ -424,7 +438,8 @@
         "Winner - Rs.2000",
         "1st Runner-Up - Rs.1500",
         "2nd Runner-Up - Rs.1000"
-      ]
+      ],
+      "eventid": "54"
     },
     {
       "name": "Medical Auction",
@@ -451,7 +466,8 @@
         "Winner - Rs.2000",
         "1st Runner-Up - Rs.1500",
         "2nd Runner-Up - Rs.500"
-      ]
+      ],
+      "eventid": "55"
     },
     {
       "name": "Entrepreneurship",
@@ -485,7 +501,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"]
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
+      "eventid": "56"
     },
     {
       "name": " Reel it ",
@@ -514,7 +531,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner:Rs.1000", "Runner-Up:Rs.500"]
+      "prizes": ["Winner:Rs.1000", "Runner-Up:Rs.500"],
+      "eventid": "57"
     }
   ],
   "EEE": [
@@ -552,7 +570,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner: Rs.3000", "Runner-Up: Rs.1500"]
+      "prizes": ["Winner: Rs.3000", "Runner-Up: Rs.1500"],
+      "eventid": "30"
     },
     {
       "name": "Tech Quiz",
@@ -586,7 +605,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "31"
     },
     {
       "name": "E-Bugging",
@@ -621,7 +641,8 @@
         ]
       },
       "open_to": ["All Circuit Branches"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "32"
     },
     {
       "name": "Electronic-Maze",
@@ -651,7 +672,8 @@
         ]
       },
       "open_to": ["ECE", "EEE"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "33"
     },
     {
       "name": "Ideate",
@@ -696,7 +718,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "34"
     },
     {
       "name": "Inventino 2021",
@@ -732,7 +755,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "35"
     },
     {
       "name": "Tentkotta",
@@ -760,7 +784,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
+      "eventid": "36"
     },
     {
       "name": "IPL Bidding",
@@ -790,7 +815,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner:Rs.3000", "Runner-Up:Rs.1500"]
+      "prizes": ["Winner:Rs.3000", "Runner-Up:Rs.1500"],
+      "eventid": "37"
     }
   ],
   "IT": [
@@ -821,7 +847,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner: Rs.3000", "Runner-Up: Rs.1500"]
+      "prizes": ["Winner: Rs.3000", "Runner-Up: Rs.1500"],
+      "eventid": "10"
     },
     {
       "name": "WEBSITICA",
@@ -855,7 +882,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "11"
     },
     {
       "name": "CODERA",
@@ -889,7 +917,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "12"
     },
     {
       "name": "REVERSE GEAR",
@@ -923,7 +952,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "13"
     },
     {
       "name": "PAPYRUS",
@@ -957,7 +987,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "14"
     },
     {
       "name": "ANALYTICS SPRINT",
@@ -991,7 +1022,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "15"
     },
     {
       "name": "SPORTS QUIZ",
@@ -1026,7 +1058,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
+      "eventid": "16"
     },
     {
       "name": "E-TREASURE HUNT",
@@ -1056,7 +1089,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner:Rs.1000", "Runner-Up:Rs.500"]
+      "prizes": ["Winner:Rs.1000", "Runner-Up:Rs.500"],
+      "eventid": "17"
     }
   ],
   "Chemical": [
@@ -1091,7 +1125,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "70"
     },
     {
       "name": "Who's on the Leaderboard",
@@ -1119,7 +1154,8 @@
         ]
       },
       "open_to": ["Chemical"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "71"
     },
     {
       "name": "Be-safe-athon",
@@ -1152,7 +1188,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "72"
     },
     {
       "name": "Like-for-Like",
@@ -1175,7 +1212,8 @@
         ]
       },
       "open_to": ["Chemical"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "73"
     },
     {
       "name": "The Commentator’s Conference",
@@ -1204,7 +1242,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "74"
     },
     {
       "name": "IPL-Invente's Pictionary League",
@@ -1233,7 +1272,8 @@
         ]
       },
       "open_to": ["Chemical"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "eventid": "75"
     },
     {
       "name": "The Last Man Standing",
@@ -1257,7 +1297,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
+      "eventid": "76"
     },
     {
       "name": "Ee Sala MEME Namadhe",
@@ -1280,7 +1321,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
+      "eventid": "77"
     }
   ],
   "CSE": [
@@ -1306,7 +1348,37 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.6000", "Runner-Up - Rs.4000"]
+      "prizes": ["Winner - Rs.6000", "Runner-Up - Rs.4000"],
+      "eventid": "00"
+    },
+    {
+      "name": "Dev Heist",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 2,
+      "organisers": [
+        { "name": "Vanathi", "phone": 8939684993 },
+        { "name": "Sneha", "phone": 7358223523 }
+      ],
+      "description": {
+        "summary": "Dev Heist is an event for developers to showcase their creativity and design skills. Don’t worry if you’re just a beginner! This is the perfect opportunity for you to get started on your journey as a developer. Register now to show off your app development or prototyping skills!",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Prelims: CSS battle",
+            "duration": "20 mins",
+            "description": "<ul><li>The participants will have to replicate a design given to them using HTML & CSS</li><li>Participants can make use of code collaboration platforms to work together</li><li>No. of teams selected for the finals will depend on registrations.</li></ul>"
+          },
+          {
+            "name": "Finals",
+            "duration": "2-3 hours",
+            "description": "<ul><li>Participants will be given a theme for an app/website/prototype that they’ll have to design and implement. They can choose one common theme from 3 or 4 options that will be given to them at the start by majority vote.</li><li>Proctoring will be done (breakout rooms + screenshare)</li><li>Participants will have to submit the code on Github</li> </ul><br/><b>Judging Criteria</b><ul><li>Visual Hierarchy</li><li>Navigation</li><li>Design and Creativity</li><li>Responsiveness (very important!)</li><li>Intuitiveness </li><li>Load time and performance </li></ul>"
+          }
+        ]
+      },
+      "open_to": ["All"],
+      "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"],
+      "eventid": "01"
     },
     {
       "name": "Paper Presentation",
@@ -1329,7 +1401,8 @@
         ]
       },
       "open_to": ["All"],
-      "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"]
+      "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"],
+      "eventid": "02"
     },
     {
       "name": "Code Triathlon",
@@ -1363,7 +1436,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Best Ideator - Rs.3000", "Best Innovater - Rs.3000"]
+      "prizes": ["Best Ideator - Rs.3000", "Best Innovater - Rs.3000"],
+      "eventid": "03"
     },
     {
       "name": "Hacker’s Asylum",
@@ -1391,7 +1465,8 @@
         ]
       },
       "open_to": ["All"],
-      "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"]
+      "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"],
+      "eventid": "04"
     },
     {
       "name": "MOCK JOB DRIVE",
@@ -1432,7 +1507,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"],
+      "eventid": "05"
     },
     {
       "name": "Reverse in Relay",
@@ -1460,13 +1536,14 @@
         ]
       },
       "open_to": ["All"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"]
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"],
+      "eventid": "06"
     },
     {
       "name": "Game Nite",
       "category": "non-tech",
-      "min_team_size": 0,
-      "max_team_size": 0,
+      "min_team_size": 4,
+      "max_team_size": 5,
       "organisers": [
         { "name": "Jaanhavi", "phone": 7550045716 },
         { "name": "Abhishek", "phone": 9884844705 },
@@ -1479,7 +1556,8 @@
         "round_description": []
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.2500", "Runner-Up - Rs.1500"]
+      "prizes": ["Winner - Rs.2500", "Runner-Up - Rs.1500"],
+      "eventid": "07"
     }
   ],
   "Civil": [
@@ -1509,7 +1587,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "60"
     },
     {
       "name": "QUIZZARDS OF OZ",
@@ -1543,7 +1622,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "61"
     },
     {
       "name": "Paper Presentation",
@@ -1571,7 +1651,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "62"
     },
     {
       "name": "CLASH OF MINDS",
@@ -1594,7 +1675,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "63"
     },
     {
       "name": "DEAL OR NO DEAL",
@@ -1627,7 +1709,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "64"
     },
     {
       "name": "SOLUTION -AU PROBLEME",
@@ -1660,7 +1743,8 @@
         ]
       },
       "open_to": ["Civil"],
-      "prizes": []
+      "prizes": [],
+      "eventid": "65"
     },
     {
       "name": "UNSCRIPTED",
@@ -1688,7 +1772,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "66"
     },
     {
       "name": "BOB THE PLUMBER",
@@ -1721,7 +1806,8 @@
         ]
       },
       "open_to": ["Civil"],
-      "prizes": []
+      "prizes": [],
+      "eventid": "67"
     },
     {
       "name": "NETFLIX WARS",
@@ -1749,7 +1835,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "68"
     },
     {
       "name": "ACE it (VALORANT)",
@@ -1773,7 +1860,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "69"
     }
   ],
   "Mechanical": [
@@ -1800,7 +1888,8 @@
         ]
       },
       "open_to": ["Mechanical"],
-      "prizes": []
+      "prizes": [],
+      "eventid": "40"
     },
     {
       "name": "Project Exhibition",
@@ -1820,7 +1909,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "41"
     },
     {
       "name": "Need for Speed – Autoquiz",
@@ -1850,7 +1940,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "42"
     },
     {
       "name": "Mechathlon",
@@ -1880,7 +1971,8 @@
         ]
       },
       "open_to": ["Mechanical"],
-      "prizes": []
+      "prizes": [],
+      "eventid": "43"
     },
     {
       "name": "2 fast 2 curious",
@@ -1905,7 +1997,8 @@
         ]
       },
       "open_to": ["Mechanical"],
-      "prizes": []
+      "prizes": [],
+      "eventid": "44"
     },
     {
       "name": "Design and deal",
@@ -1930,7 +2023,8 @@
         ]
       },
       "open_to": ["Mechanical"],
-      "prizes": []
+      "prizes": [],
+      "eventid": "45"
     },
     {
       "name": "QUARTER MILE",
@@ -1960,7 +2054,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "46"
     },
     {
       "name": "Car wars",
@@ -1990,7 +2085,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "47"
     },
     {
       "name": "ROUNDABOUT",
@@ -2020,7 +2116,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": []
+      "prizes": [],
+      "eventid": "48"
     }
   ]
 }

@@ -60,7 +60,7 @@ function SignUp() {
       );
       if (currentUser) {
         await currentUser.sendEmailVerification();
-        toast.success('Verification email sent');
+        toast.success('Verification email sent.');
         await addDisplayName(currentUser, state['full_name']);
         axios({
           baseURL: window.location.origin,
@@ -82,6 +82,7 @@ function SignUp() {
         })
           .then(() => {
             console.log('SignUp success');
+            toast.success('Sign up successful!');
           })
           .catch(() => {
             toast.error('Unable to post data');
@@ -90,10 +91,11 @@ function SignUp() {
       } else {
         toast.error('Error signing up');
       }
-      console.log('SignUp success');
+      //console.log('SignUp success');
       setLoading(false);
     } catch (err) {
-      console.log('Failed to login', err);
+      //console.log('Failed to login', err);
+      toast.error('An unexpected error has occurred. ☠️');
     } finally {
       setLoading(false);
     }
