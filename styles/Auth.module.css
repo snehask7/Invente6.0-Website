@@ -2,7 +2,7 @@
 /* mixins */
 .page_bg,
 .animation_wrapper {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -16,7 +16,7 @@
 
 .particle:after {
   position: absolute;
-  content: "";
+  content: '';
   top: 2560px;
 }
 
