@@ -7,6 +7,7 @@ import { toast } from 'react-hot-toast';
 import Typist from 'react-typist';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
+import { useNav } from '../lib/navbarstate';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signup.module.css';
 
@@ -29,6 +30,7 @@ function SignUp() {
     year: '',
   });
   const { signup, currentUser, addDisplayName } = useAuth();
+  const { navbarToggle, toggleNavbar } = useNav();
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
@@ -113,7 +115,7 @@ function SignUp() {
       </div>
       <NavbarComp />
       <main className={styles2.page_wrapper}>
-        <div className={styles.signupCard}>
+        <div className={!navbarToggle ? styles.signupCard : styles.hide}>
           <h1 className={styles.typing}>
             <Typist
               avgTypingDelay={30}

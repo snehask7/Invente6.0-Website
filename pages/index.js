@@ -5,20 +5,40 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
 import NavbarComp from '../components/Navbar';
-import ts from '../public/sponsors/ts.png';
-import styles2 from '../styles/Auth.module.css';
+import { useAuth } from '../lib/hooks';
+import { useNav } from '../lib/navbarstate';
 import styles from '../styles/Home.module.css';
+import styles2 from '../styles/Auth.module.css';
+import ts from '../public/sponsors/ts.png';
+import { Col, Container, Row } from 'react-bootstrap';
 
 export default function Home() {
-  AOS.init();
-  const [loadAnimation, setLoadAnimation] = useState('');
+  const { logout } = useAuth();
+  const { navbarState, setNavbarState, resetNavbar } = useNav();
   const router = useRouter();
+  const [loadAnimation, setLoadAnimation] = useState('');
 
   useEffect(() => {
+    resetNavbar();
     setLoadAnimation('active');
   }, []);
+
+  const handleNavbarToggle = () => {
+    setNavbarToggle(!navbarToggle);
+  };
+
+  const { currentUser } = useAuth();
+  const onSignOut = async (event) => {
+    try {
+      await logout();
+      console.log('SignOut success');
+      router.push('/');
+    } catch (err) {
+      console.log('Failed to logout', err);
+    }
+  };
+
   return (
     <div className={styles.container}>
       <Head>
