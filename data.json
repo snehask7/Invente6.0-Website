@@ -1309,6 +1309,34 @@
       "prizes": ["Winner - Rs.6000", "Runner-Up - Rs.4000"]
     },
     {
+      "name": "Dev Heist",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 2,
+      "organisers": [
+        { "name": "Vanathi", "phone": 8939684993 },
+        { "name": "Sneha", "phone": 7358223523 }
+      ],
+      "description": {
+        "summary": "Dev Heist is an event for developers to showcase their creativity and design skills. Don’t worry if you’re just a beginner! This is the perfect opportunity for you to get started on your journey as a developer. Register now to show off your app development or prototyping skills!",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Prelims: CSS battle",
+            "duration": "20 mins",
+            "description": "<ul><li>The participants will have to replicate a design given to them using HTML & CSS</li><li>Participants can make use of code collaboration platforms to work together</li><li>No. of teams selected for the finals will depend on registrations.</li></ul>"
+          },
+          {
+            "name": "Finals",
+            "duration": "2-3 hours",
+            "description": "<ul><li>Participants will be given a theme for an app/website/prototype that they’ll have to design and implement. They can choose one common theme from 3 or 4 options that will be given to them at the start by majority vote.</li><li>Proctoring will be done (breakout rooms + screenshare)</li><li>Participants will have to submit the code on Github</li> </ul><br/><b>Judging Criteria</b><ul><li>Visual Hierarchy</li><li>Navigation</li><li>Design and Creativity</li><li>Responsiveness (very important!)</li><li>Intuitiveness </li><li>Load time and performance </li></ul>"
+          }
+        ]
+      },
+      "open_to": ["All"],
+      "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"]
+    },
+    {
       "name": "Paper Presentation",
       "category": "tech",
       "min_team_size": 2,
@@ -1465,8 +1493,8 @@
     {
       "name": "Game Nite",
       "category": "non-tech",
-      "min_team_size": 0,
-      "max_team_size": 0,
+      "min_team_size": 4,
+      "max_team_size": 5,
       "organisers": [
         { "name": "Jaanhavi", "phone": 7550045716 },
         { "name": "Abhishek", "phone": 9884844705 },
