@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import styles from '../styles/Schedule.module.css';
 import { Table, Col, Container, Row } from 'react-bootstrap';
 import NavbarComp from '../components/Navbar';
-import { useNav } from '../lib/navbarstate';
 
 let current = 'CSE';
 let day = 1;
@@ -73,11 +72,6 @@ function Card({ dept, handler }) {
 
 function Schedule() {
   const [state, setState] = useState();
-  const { navbarToggle, toggleNavbar, resetNavbar } = useNav();
-
-  useEffect(() => {
-    resetNavbar();
-  }, []);
 
   function changeDay(d) {
     day = d;
@@ -98,16 +92,14 @@ function Schedule() {
     <div className={styles.container}>
       <NavbarComp />
       <main>
-        <h1 className={navbarToggle ? styles.hide : styles.heading}>
-          SCHEDULE
-        </h1>
+        <h1 className={styles.heading}>SCHEDULE</h1>
         {day == 1 ? (
           <div>
-            <span className={navbarToggle ? styles.hide : styles.daySel}>
+            <span className={styles.daySel}>
               Day 1<div className={styles.underline}></div>
             </span>
             <span
-              className={navbarToggle ? styles.hide : styles.day}
+              className={styles.day}
               onClick={() => {
                 changeDay(2);
               }}
@@ -1005,7 +997,7 @@ function Schedule() {
         {day == 2 ? (
           <div>
             <span
-              className={navbarToggle ? styles.hide : styles.day}
+              className={styles.day}
               onClick={() => {
                 changeDay(1);
               }}
@@ -1013,7 +1005,7 @@ function Schedule() {
               Day 1
             </span>
 
-            <span className={navbarToggle ? styles.hide : styles.daySel}>
+            <span className={styles.daySel}>
               Day 2<div className={styles.underline}></div>
             </span>
             <div className={styles.eventsDesktop}>

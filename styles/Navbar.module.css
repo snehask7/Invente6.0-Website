@@ -16,51 +16,12 @@
 .inventeLogo {
   margin-left: 2em;
 }
-
-@media screen and (max-width: 768px) {
-  .inventeLogo {
-    display: none;
-  }
-}
 .loginBtn {
   margin: 0 2em;
 }
 
-.loginBtn:hover {
-  color: white;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #03e9f4, 0 0 42px #03e9f4,
-    0 0 82px #03e9f4, 0 0 92px #03e9f4;
-}
-
 .signupBtn {
-  padding: 8px 16px;
-  margin-right: 2em;
-  color: #03e9f4;
-  background: none;
-  border: none;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: 0.5s;
-  letter-spacing: 4px;
-}
-
-.signupBtn:hover {
-  background: #03e9f4;
-  color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 30px #03e9f4;
-}
-
-.centerNavLink {
   margin: 0 2em;
-}
-
-.centerNavLink:hover {
-  color: white;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #03e9f4, 0 0 42px #03e9f4,
-    0 0 82px #03e9f4, 0 0 92px #03e9f4;
 }
 
 .centerTabMore {
@@ -97,42 +58,4 @@
   padding: 2vh;
   margin: 0 1vh;
   right: 1px;
-}
-
-@media screen and (min-width: 768px) {
-  .hamburger {
-    display: none;
-  }
-}
-
-.hamburger {
-  margin-left: 1em;
-  cursor: pointer;
-  z-index: 11;
-}
-
-.sideBar {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: 80vh;
-  min-height: 200vh;
-  background-color: rgba(0, 0, 0, 0.399);
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
-  width: 100%;
-  z-index: 10 !important;
-  overflow: hidden;
-}
-
-.sideBarNavLink {
-  margin: 2em 0;
-  font-size: 18px;
-  z-index: 10;
-}
-
-.hide {
-  display: none;
 }
