@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@700&family=Josefin+Sans:wght@700&family=Voltaire&display=swap');
 .container {
   background-image: linear-gradient(to right, #050d22, #070e21, #1c132e),
     linear-gradient(
@@ -18,7 +18,6 @@
     );
   align-items: center;
   z-index: -1;
-  height: auto;
 }
 .centerItem {
   position: fixed;
@@ -35,7 +34,12 @@
 .headerRow {
   margin-top: 6%;
 }
-
+.dept_section {
+  margin-top: 8vw;
+}
+.dept_cards {
+  margin-top: 3vw !important;
+}
 @media screen and (max-width: 1000px) {
   .centerLogo {
     top: 20vw;
@@ -102,7 +106,8 @@
 .sub_title {
   position: relative;
   left: calc(50% - 10px);
-  margin-bottom: 6vw;
+  margin-bottom: 3vw;
+  font-family: 'Menlo', monospace;
 }
 .sub_title h2 {
   color: #fff;
@@ -122,9 +127,10 @@
 }
 
 .about_content {
-  font-family: 'Menlo', monospace;
+  font-family: 'Voltaire', sans-serif;
   color: #fff;
   text-align: justify;
+  font-size: 2.5vh;
 }
 
 @keyframes animate {
@@ -157,6 +163,7 @@
     );
   }
 }
+/*Departments*/
 
 .card {
   margin: 30px auto;
@@ -167,10 +174,7 @@
     -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
   cursor: pointer;
   transition: 0.4s;
-}
-
-.card_top {
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 .card .card_image {
@@ -189,15 +193,11 @@
 .card .card_title {
   text-align: center;
   border-radius: 0px 0px 40px 40px;
-  font-family: sans-serif;
+  font-family: 'Voltaire', sans-serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 2.3rem;
   margin-top: -80px;
   height: 40px;
-  z-index: 1;
-}
-.card .card_title p {
-  z-index: 3;
 }
 
 .card:hover {
@@ -236,15 +236,33 @@
   }
 
   .card {
-    width: 170px;
-    height: 170px;
+    width: 180px;
+    height: 180px;
   }
 }
+@media screen and (max-width: 769px) {
+  .card {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: 130px;
+    height: 130px;
+  }
+  .card .card_title {
+    font-size: 1.8rem;
+  }
+}
+
 @media screen and (max-width: 850px) {
   .logo {
     width: 70%;
   }
 }
+
+/*organizing committee*/
 
 .org_card {
   position: relative;
