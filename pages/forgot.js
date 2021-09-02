@@ -31,9 +31,9 @@ function Forgot() {
     setLoading(true);
     try {
       await toast.promise(resetPassword(formEmail), {
-        loading: 'Sending you mail ...',
+        loading: 'Sending you an email..',
         success: 'Check your mail for instructions',
-        error: 'Check your email address',
+        error: 'Check validity of the email address entered',
       });
       setLoading(false);
       setSentMail(true);
