@@ -29,9 +29,10 @@
 }
 
 .signupCard {
-  background-color: rgb(14, 22, 43);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   padding: 3vh;
-  margin: 10% 20vw;
+  margin: 10% 2em;
   border-radius: 10px;
   border: solid 1px rgba(128, 128, 128, 0.2);
   min-width: 40vw;
