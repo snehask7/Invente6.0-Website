@@ -67,7 +67,11 @@ export default function NavbarComp() {
               onClick={() => setProfClicked(!profClicked)}
             >
               <Image
-                src="/icons/hacker.png"
+                src={
+                  currentUser.photoURL
+                    ? currentUser.photoURL
+                    : '/icons/hacker.png'
+                }
                 alt="profile"
                 width={40}
                 height={40}
