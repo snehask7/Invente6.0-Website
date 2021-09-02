@@ -348,6 +348,7 @@ export default function Home() {
                   href={{
                     pathname: '/department/CSE/0',
                   }}
+                  passHref
                 >
                   <div className={styles['card'] + ' ' + styles['card_top']}>
                     <div className={styles.card_image}>
@@ -375,6 +376,7 @@ export default function Home() {
                   href={{
                     pathname: '/department/IT/0',
                   }}
+                  passHref
                 >
                   <div className={styles['card'] + ' ' + styles['card_top']}>
                     <div className={styles.card_image}>
@@ -402,6 +404,7 @@ export default function Home() {
                   href={{
                     pathname: '/department/ECE/0',
                   }}
+                  passHref
                 >
                   <div className={styles['card'] + ' ' + styles['card_top']}>
                     <div className={styles.card_image}>
@@ -429,6 +432,7 @@ export default function Home() {
                   href={{
                     pathname: '/department/EEE/0',
                   }}
+                  passHref
                 >
                   <div className={styles['card'] + ' ' + styles['card_top']}>
                     <div className={styles.card_image}>
@@ -456,6 +460,7 @@ export default function Home() {
                   href={{
                     pathname: '/department/BME/0',
                   }}
+                  passHref
                 >
                   <div className={styles.card}>
                     <div className={styles.card_image}>
@@ -484,6 +489,7 @@ export default function Home() {
                   href={{
                     pathname: '/department/Civil/0',
                   }}
+                  passHref
                 >
                   <div className={styles.card}>
                     <div className={styles.card_image}>
@@ -512,6 +518,7 @@ export default function Home() {
                   href={{
                     pathname: '/department/Mechanical/0',
                   }}
+                  passHref
                 >
                   <div className={styles.card}>
                     <div className={styles.card_image}>
@@ -540,6 +547,7 @@ export default function Home() {
                   href={{
                     pathname: '/department/Chemical/0',
                   }}
+                  passHref
                 >
                   <div className={styles.card}>
                     <div className={styles.card_image}>
