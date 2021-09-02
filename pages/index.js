@@ -3,13 +3,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import { useNav } from '../lib/navbarstate';
-import styles from '../styles/Home.module.css';
-import styles2 from '../styles/Auth.module.css';
 import ts from '../public/sponsors/ts.png';
-import { Col, Container, Row } from 'react-bootstrap';
+import styles2 from '../styles/Auth.module.css';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   const { logout } = useAuth();
@@ -356,13 +356,12 @@ export default function Home() {
         </Container>
         <div className={navbarToggle ? styles.hide : styles.dept_section}>
           <div
-            id={'departments'}
             className={styles.sub_title + ' ' + styles.departmentTitle}
           >
             <h2>DEPARTMENTS</h2>
             <h2>DEPARTMENTS</h2>
           </div>
-          <Container className={styles.dept_cards}>
+          <Container className={styles.dept_cards} id="departments">
             <Row>
               <Col xs={6} sm={6} md={4} lg={3}>
                 <Link
