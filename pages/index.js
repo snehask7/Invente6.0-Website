@@ -1,42 +1,24 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
-import { useAuth } from '../lib/hooks';
-import { useNav } from '../lib/navbarstate';
-import ts from '../public/sponsors/ts.png';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
-  const { logout } = useAuth();
-  const { navbarToggle, toggleNavbar, resetNavbar } = useNav();
-  const router = useRouter();
+  AOS.init();
   const [loadAnimation, setLoadAnimation] = useState('');
+  const router = useRouter();
 
   useEffect(() => {
-    resetNavbar();
     setLoadAnimation('active');
   }, []);
-
-  const handleNavbarToggle = () => {
-    setNavbarToggle(!navbarToggle);
-  };
-
-  const { currentUser } = useAuth();
-  const onSignOut = async (event) => {
-    try {
-      await logout();
-      console.log('SignOut success');
-      router.push('/');
-    } catch (err) {
-      console.log('Failed to logout', err);
-    }
-  };
-
   return (
     <div className={styles.container}>
       <Head>
@@ -46,7 +28,7 @@ export default function Home() {
       </Head>
       <div className={styles2.animation_wrapper}>
         <div
-          className={styles2['particle_2'] + ' ' + styles2['particle_4']}
+          className={styles2['particle'] + ' ' + styles2['particle_4']}
         ></div>
       </div>
 
@@ -307,7 +289,7 @@ export default function Home() {
         <Container className={styles.about_section}>
           <Row>
             <Col s={12} md={12} lg={2}>
-              <div className={navbarToggle ? styles.hide : styles.astronaut}>
+              <div className={styles.astronaut}>
                 <Image
                   src="/icons/astronaut.png"
                   alt="astronaut"
@@ -317,7 +299,7 @@ export default function Home() {
               </div>
             </Col>
             <Col sm={12} md={12} lg={8}>
-              <div className={navbarToggle ? styles.hide : styles.sub_title}>
+              <div className={styles.sub_title}>
                 <h2>ABOUT&nbsp;INVENTE</h2>
                 <h2>ABOUT&nbsp;INVENTE</h2>
               </div>
@@ -343,7 +325,7 @@ export default function Home() {
               </p>
             </Col>
             <Col sm={12} md={12} lg={2}>
-              <div className={navbarToggle ? styles.hide : styles.astronaut2}>
+              <div className={styles.astronaut2}>
                 <Image
                   src="/icons/astronaut2.png"
                   alt="astronaut"
@@ -354,12 +336,12 @@ export default function Home() {
             </Col>
           </Row>
         </Container>
-        <div className={navbarToggle ? styles.hide : styles.dept_section}>
+        <div className={styles.dept_section} id="departments">
           <div className={styles.sub_title + ' ' + styles.departmentTitle}>
             <h2>DEPARTMENTS</h2>
             <h2>DEPARTMENTS</h2>
           </div>
-          <Container className={styles.dept_cards} id="departments">
+          <Container className={styles.dept_cards}>
             <Row>
               <Col xs={6} sm={6} md={4} lg={3}>
                 <Link
@@ -560,6 +542,7 @@ export default function Home() {
                   </div>
                 </Link>
               </Col>
+
               <Col xs={6} sm={6} md={4} lg={3}>
                 <Link
                   href={{
@@ -591,7 +574,7 @@ export default function Home() {
               </Col>
             </Row>
           </Container>
-          <Container className={styles.spons_section}>
+          {/* <Container className={styles.spons_section}>
             <div className={styles.sub_title}>
               <h2>Sponsors</h2>
               <h2>Sponsors</h2>
@@ -618,10 +601,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </Container>
-          <div className={styles.filler}></div>
+          </Container> */}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
