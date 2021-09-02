@@ -100,7 +100,7 @@ function Profile() {
                     <span className={styles.title}>
                       <FaUniversity className={styles.icon}></FaUniversity>
                     </span>
-                    <p>SSN College of Engineering</p>
+                    <p>{profile.collegeName}</p>
                   </div>
                 </Col>
                 <Col xs={6} sm={6} md={4} className={styles.cols}>
