@@ -44,7 +44,7 @@ export default function Home() {
         <div className={styles.departments} id={'departments'}>
           <Link
             href={{
-              pathname: '/department/ECE',
+              pathname: '/department/ECE/0',
             }}
           >
             <a className={styles.card}>
@@ -53,7 +53,7 @@ export default function Home() {
           </Link>
           <Link
             href={{
-              pathname: '/department/BME',
+              pathname: '/department/BME/0',
             }}
           >
             <a className={styles.card}>
@@ -62,7 +62,7 @@ export default function Home() {
           </Link>
           <Link
             href={{
-              pathname: '/department/EEE',
+              pathname: '/department/EEE/0',
             }}
           >
             <a className={styles.card}>
@@ -71,7 +71,7 @@ export default function Home() {
           </Link>
           <Link
             href={{
-              pathname: '/department/IT',
+              pathname: '/department/IT/0',
             }}
           >
             <a className={styles.card}>
@@ -80,7 +80,7 @@ export default function Home() {
           </Link>
           <Link
             href={{
-              pathname: '/department/Chemical',
+              pathname: '/department/Chemical/0',
             }}
           >
             <a className={styles.card}>

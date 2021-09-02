@@ -37,164 +37,168 @@ export default function Department({ data }) {
   }
 
   return (
-    <div className={styles.container}>
-      <NavbarComp />
-      <main>
-        <div className={styles.mainContainer}>
-          <h1 className={styles.pageHeading}>
-            Department of{' '}
-            {department == 'Chemical' ? 'Chemical Engineering' : department}
-          </h1>
-          <Row className={styles.wrapper}>
-            <Col
-              lg={12}
-              xl={12}
-              md={12}
-              sm={12}
-              className={styles.eventsContainer}
-            >
-              <Row>
-                {events.map((event, id) => {
-                  return (
-                    <Link
-                      key={`event${id}`}
-                      href={`/department/${department}/${id}`}
-                      passHref
-                    >
-                      <Col>
-                        <div className={styles.eventCard}>
-                          <span></span>
-                          <div className={styles.content}>
+    <React.Fragment>
+      <div className={styles.container}>
+        <NavbarComp />
+        <main>
+          <div className={styles.mainContainer}>
+            <h1 className={styles.pageHeading}>
+              Department of{' '}
+              {department == 'Chemical' ? 'Chemical Engineering' : department}
+            </h1>
+            <Row className={styles.wrapper}>
+              <Col
+                lg={12}
+                xl={12}
+                md={12}
+                sm={12}
+                className={styles.eventsContainer}
+              >
+                <Row>
+                  {events.map((event, id) => {
+                    return (
+                      <Link
+                        key={`event${id}`}
+                        href={`/department/${department}/${id}`}
+                        passHref
+                      >
+                        <Col>
+                          <div className={styles.eventCard}>
+                            <span></span>
                             <div className={styles.content}>
-                              <p>{event.name}</p>
+                              <div className={styles.content}>
+                                <p>{event.name}</p>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </Col>
-                    </Link>
-                  );
-                })}
-              </Row>
-            </Col>
-            <Col lg={12} xl={12} md={12} sm={12}>
-              <div className={styles.eventDetails}>
-                <p className={styles.headerWrapper}>
-                  <span className={styles.eventHeading}>{events[id].name}</span>
-                  <span
-                    className={
-                      events[id].category == 'tech'
-                        ? styles.techbadge
-                        : styles.nontechbadge
-                    }
-                  >
-                    {events[id].category == 'tech' ? 'Tech' : 'Non-Tech'}
-                  </span>
-                </p>
-                <br></br>
-                {events[id].description.summary ? (
-                  <>
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: events[id].description.summary,
-                      }}
-                      className={styles.eventDesc}
-                    ></p>
-                  </>
-                ) : null}
-                {events[id].description.rounds == 0 ? <hr></hr> : null}
-                {events[id].description.round_description.map((round, id) => {
-                  return (
-                    <Row key={`round${id}`}>
-                      <div className={styles.roundCard}>
-                        <b> {round.name}</b>{' '}
-                        {round.duration ? (
-                          <>
-                            &nbsp;<FaRegClock></FaRegClock>&nbsp;
-                            {round.duration}
-                          </>
-                        ) : null}
-                        <hr></hr>
-                        <p
-                          dangerouslySetInnerHTML={{
-                            __html: round.description,
-                          }}
-                        ></p>
-                      </div>
-                    </Row>
-                  );
-                })}
-                <div className={styles.row}>
-                  <div className={styles.col}>
-                    {events[id].organisers.map((organiser, id) => {
-                      return (
-                        <div key={`organiser${id}`}>
-                          {id == 0 ? (
+                        </Col>
+                      </Link>
+                    );
+                  })}
+                </Row>
+              </Col>
+              <Col lg={12} xl={12} md={12} sm={12}>
+                <div className={styles.eventDetails}>
+                  <p className={styles.headerWrapper}>
+                    <span className={styles.eventHeading}>
+                      {events[id].name}
+                    </span>
+                    <span
+                      className={
+                        events[id].category == 'tech'
+                          ? styles.techbadge
+                          : styles.nontechbadge
+                      }
+                    >
+                      {events[id].category == 'tech' ? 'Tech' : 'Non-Tech'}
+                    </span>
+                  </p>
+                  <br></br>
+                  {events[id].description.summary ? (
+                    <>
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: events[id].description.summary,
+                        }}
+                        className={styles.eventDesc}
+                      ></p>
+                    </>
+                  ) : null}
+                  {events[id].description.rounds == 0 ? <hr></hr> : null}
+                  {events[id].description.round_description.map((round, id) => {
+                    return (
+                      <Row key={`round${id}`}>
+                        <div className={styles.roundCard}>
+                          <b> {round.name}</b>{' '}
+                          {round.duration ? (
                             <>
-                              <FaPhoneAlt></FaPhoneAlt>
-                              <br></br>
+                              &nbsp;<FaRegClock></FaRegClock>&nbsp;
+                              {round.duration}
                             </>
                           ) : null}
-                          {organiser.name + ' : ' + organiser.phone}
+                          <hr></hr>
+                          <p
+                            dangerouslySetInnerHTML={{
+                              __html: round.description,
+                            }}
+                          ></p>
                         </div>
-                      );
-                    })}
+                      </Row>
+                    );
+                  })}
+                  <div className={styles.row}>
+                    <div className={styles.col}>
+                      {events[id].organisers.map((organiser, id) => {
+                        return (
+                          <div key={`organiser${id}`}>
+                            {id == 0 ? (
+                              <>
+                                <FaPhoneAlt></FaPhoneAlt>
+                                <br></br>
+                              </>
+                            ) : null}
+                            {organiser.name + ' : ' + organiser.phone}
+                          </div>
+                        );
+                      })}
+                    </div>
+                    <div className={styles.col}>
+                      {' '}
+                      <FaUserAlt></FaUserAlt>
+                      <br></br>
+                      {events[id].min_team_size == events[id].max_team_size
+                        ? events[id].min_team_size + ' '
+                        : events[id].min_team_size +
+                          ' - ' +
+                          events[id].max_team_size +
+                          ' '}
+                      per team
+                    </div>
+                    <div className={styles.col}>
+                      {' '}
+                      <FaCalendarAlt></FaCalendarAlt>
+                      <br></br>Oct 7, 9:00 AM
+                    </div>
+                    <div className={styles.col}>
+                      {' '}
+                      <FaRegBuilding></FaRegBuilding>
+                      <br></br>Open to{' '}
+                      {events[id].open_to == 'All'
+                        ? 'any Department'
+                        : events[id].open_to.join()}
+                    </div>
+                    <div className={styles.col}>
+                      {' '}
+                      {events[id].prizes.map((prize, id) => {
+                        return (
+                          <div key={`organiser${id}`}>
+                            {id == 0 ? (
+                              <>
+                                <FaTrophy></FaTrophy>
+                                <br></br>
+                              </>
+                            ) : null}
+                            {prize}
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
-                  <div className={styles.col}>
-                    {' '}
-                    <FaUserAlt></FaUserAlt>
-                    <br></br>
-                    {events[id].min_team_size == events[id].max_team_size
-                      ? events[id].min_team_size + ' '
-                      : events[id].min_team_size +
-                        ' - ' +
-                        events[id].max_team_size +
-                        ' '}
-                    per team
-                  </div>
-                  <div className={styles.col}>
-                    {' '}
-                    <FaCalendarAlt></FaCalendarAlt>
-                    <br></br>Oct 7, 9:00 AM
-                  </div>
-                  <div className={styles.col}>
-                    {' '}
-                    <FaRegBuilding></FaRegBuilding>
-                    <br></br>Open to{' '}
-                    {events[id].open_to == 'All'
-                      ? 'any Department'
-                      : events[id].open_to.join()}
-                  </div>
-                  <div className={styles.col}>
-                    {' '}
-                    {events[id].prizes.map((prize, id) => {
-                      return (
-                        <div key={`organiser${id}`}>
-                          {id == 0 ? (
-                            <>
-                              <FaTrophy></FaTrophy>
-                              <br></br>
-                            </>
-                          ) : null}
-                          {prize}
-                        </div>
-                      );
-                    })}
+                  <div className={styles.buttonWrapper}>
+                    <button
+                      className={styles.registerButton}
+                      onClick={() => register(id)}
+                    >
+                      Register
+                    </button>
                   </div>
                 </div>
-                <div className={styles.buttonWrapper}>
-                  <button
-                    className={styles.registerButton}
-                    onClick={() => register(id)}
-                  >
-                    Register
-                  </button>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </div>
-      </main>
-    </div>
+              </Col>
+            </Row>
+          </div>
+        </main>
+      </div>
+    </React.Fragment>
   );
 }
 
