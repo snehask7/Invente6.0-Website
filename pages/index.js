@@ -5,10 +5,11 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
-import ts from '../public/sponsors/ts.png';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Home.module.css';
+
 export default function Home() {
   AOS.init();
   const [loadAnimation, setLoadAnimation] = useState('');
@@ -26,7 +27,10 @@ export default function Home() {
       </Head>
       <div className={styles2.animation_wrapper}>
         <div
-          className={styles2['particle_2'] + ' ' + styles2['particle_4']}
+          className={styles2['particle'] + ' ' + styles2['particle_3']}
+        ></div>
+        <div
+          className={styles2['particle'] + ' ' + styles2['particle_4']}
         ></div>
       </div>
 
@@ -334,7 +338,7 @@ export default function Home() {
             </Col>
           </Row>
         </Container>
-        <div className={styles.dept_section}>
+        <div className={styles.dept_section} id="departments">
           <div className={styles.sub_title + ' ' + styles.departmentTitle}>
             <h2>DEPARTMENTS</h2>
             <h2>DEPARTMENTS</h2>
@@ -431,6 +435,28 @@ export default function Home() {
                     {' '}
                     {/* eslint-disable-next-line */}
                     <img
+                      src="/icons/mech.jpg"
+                      alt="cse"
+                      width={200}
+                      height={200}
+                      className={styles.img}
+                    />{' '}
+                  </div>
+                  <div
+                    className={
+                      styles['card_title'] + ' ' + styles['title-white']
+                    }
+                  >
+                    <p>Mechanical</p>
+                  </div>
+                </div>
+              </Col>
+              <Col xs={6} sm={6} md={4} lg={3}>
+                <div className={styles.card}>
+                  <div className={styles.card_image}>
+                    {' '}
+                    {/* eslint-disable-next-line */}
+                    <img
                       src="/icons/bme.jpg"
                       alt="cse"
                       width={200}
@@ -469,28 +495,7 @@ export default function Home() {
                   </div>
                 </div>
               </Col>
-              <Col xs={6} sm={6} md={4} lg={3}>
-                <div className={styles.card}>
-                  <div className={styles.card_image}>
-                    {' '}
-                    {/* eslint-disable-next-line */}
-                    <img
-                      src="/icons/mech.jpg"
-                      alt="cse"
-                      width={200}
-                      height={200}
-                      className={styles.img}
-                    />{' '}
-                  </div>
-                  <div
-                    className={
-                      styles['card_title'] + ' ' + styles['title-white']
-                    }
-                  >
-                    <p>Mechanical</p>
-                  </div>
-                </div>
-              </Col>
+
               <Col xs={6} sm={6} md={4} lg={3}>
                 <div className={styles.card}>
                   <div className={styles.card_image}>
@@ -515,7 +520,7 @@ export default function Home() {
               </Col>
             </Row>
           </Container>
-          <Container className={styles.spons_section}>
+          {/* <Container className={styles.spons_section}>
             <div className={styles.sub_title}>
               <h2>Sponsors</h2>
               <h2>Sponsors</h2>
@@ -542,10 +547,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </Container>
-          <div className={styles.filler}></div>
+          </Container> */}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
