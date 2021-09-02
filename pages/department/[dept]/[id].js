@@ -63,7 +63,15 @@ export default function Department({ data }) {
                         passHref
                       >
                         <Col>
-                          <div className={styles.eventCard}>
+                          <div
+                            className={
+                              styles.eventCard +
+                              ' ' +
+                              (id == parseInt(router.query.id)
+                                ? styles.eventSelected
+                                : '')
+                            }
+                          >
                             <span></span>
                             <div className={styles.content}>
                               <div className={styles.content}>
