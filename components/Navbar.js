@@ -72,14 +72,11 @@ export default function NavbarComp() {
           <Link href="/#departments">
             <a className={styles.centerNavLink}>Departments</a>
           </Link>
-          <Link href="/workshops">
+          {/* <Link href="/workshops">
             <a className={styles.centerNavLink}>Workshops</a>
-          </Link>
+          </Link> */}
           <Link href="/schedule">
             <a className={styles.centerNavLink}>Schedule</a>
-          </Link>
-          <Link href="/contact">
-            <a className={styles.centerNavLink}>Contact Us</a>
           </Link>
         </div>
       </div>
@@ -108,7 +105,7 @@ export default function NavbarComp() {
               Departments
             </a>
           </Link>
-          <Link href="/workshops">
+          {/* <Link href="/workshops">
             <a
               onClick={() => {
                 toggleNavbar();
@@ -118,7 +115,7 @@ export default function NavbarComp() {
             >
               Workshops
             </a>
-          </Link>
+          </Link> */}
           <Link href="/schedule">
             <a
               onClick={() => {
@@ -130,6 +127,59 @@ export default function NavbarComp() {
               Schedule
             </a>
           </Link>
+
+          {!currentUser ? (
+            <>
+              <Link href="/signin">
+                <a
+                  onClick={() => {
+                    toggleNavbar();
+                    setIsOpen(!isOpen);
+                  }}
+                  className={styles.sideBarNavLink}
+                >
+                  Log In
+                </a>
+              </Link>
+              <Link href="/signup">
+                <a
+                  onClick={() => {
+                    toggleNavbar();
+                    setIsOpen(!isOpen);
+                  }}
+                  className={styles.sideBarNavLink}
+                >
+                  Sign Up
+                </a>
+              </Link>
+            </>
+          ) : (
+            <>
+              <Link href="/profile">
+                <a
+                  onClick={() => {
+                    toggleNavbar();
+                    setIsOpen(!isOpen);
+                  }}
+                  className={styles.sideBarNavLink}
+                >
+                  Profile
+                </a>
+              </Link>
+              <Link href="/">
+                <a
+                  onClick={() => {
+                    toggleNavbar();
+                    setIsOpen(!isOpen);
+                    logout();
+                  }}
+                  className={styles.sideBarNavLink}
+                >
+                  Log out
+                </a>
+              </Link>
+            </>
+          )}
         </div>
       ) : null}
       <div className={styles.profile}>

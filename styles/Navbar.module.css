@@ -17,7 +17,7 @@
   margin-left: 2em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
   .inventeLogo {
     display: none;
   }
@@ -99,7 +99,7 @@
   right: 1px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1100px) {
   .hamburger {
     display: none;
   }
@@ -117,11 +117,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 80vh;
+  padding-top: 85vh;
   min-height: 200vh;
-  background-color: rgba(0, 0, 0, 0.399);
+  background-color: rgb(32, 34, 67);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
+  -moz-backdrop-filter: blur(10px);
   width: 100%;
   z-index: 10 !important;
   overflow: hidden;
@@ -129,7 +130,7 @@
 
 .sideBarNavLink {
   margin: 2em 0;
-  font-size: 18px;
+  font-size: 20px;
   z-index: 10;
 }
 

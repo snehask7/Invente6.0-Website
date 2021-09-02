@@ -1,5 +1,3 @@
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -15,7 +13,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 export default function Home() {
   const { logout } = useAuth();
-  const { navbarState, setNavbarState, resetNavbar } = useNav();
+  const { navbarToggle, toggleNavbar, resetNavbar } = useNav();
   const router = useRouter();
   const [loadAnimation, setLoadAnimation] = useState('');
 
@@ -309,7 +307,7 @@ export default function Home() {
         <Container className={styles.about_section}>
           <Row>
             <Col s={12} md={12} lg={2}>
-              <div className={styles.astronaut}>
+              <div className={navbarToggle ? styles.hide : styles.astronaut}>
                 <Image
                   src="/icons/astronaut.png"
                   alt="astronaut"
@@ -319,7 +317,7 @@ export default function Home() {
               </div>
             </Col>
             <Col sm={12} md={12} lg={8}>
-              <div className={styles.sub_title}>
+              <div className={navbarToggle ? styles.hide : styles.sub_title}>
                 <h2>ABOUT&nbsp;INVENTE</h2>
                 <h2>ABOUT&nbsp;INVENTE</h2>
               </div>
@@ -345,7 +343,7 @@ export default function Home() {
               </p>
             </Col>
             <Col sm={12} md={12} lg={2}>
-              <div className={styles.astronaut2}>
+              <div className={navbarToggle ? styles.hide : styles.astronaut2}>
                 <Image
                   src="/icons/astronaut2.png"
                   alt="astronaut"
@@ -356,8 +354,11 @@ export default function Home() {
             </Col>
           </Row>
         </Container>
-        <div className={styles.dept_section}>
-          <div className={styles.sub_title + ' ' + styles.departmentTitle}>
+        <div className={navbarToggle ? styles.hide : styles.dept_section}>
+          <div
+            id={'departments'}
+            className={styles.sub_title + ' ' + styles.departmentTitle}
+          >
             <h2>DEPARTMENTS</h2>
             <h2>DEPARTMENTS</h2>
           </div>
