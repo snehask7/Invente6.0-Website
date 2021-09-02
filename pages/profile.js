@@ -10,12 +10,12 @@ import {
   FaRegEnvelope,
   FaTimesCircle,
   FaUniversity,
-  FaUserGraduate,
+  FaUserGraduate
 } from 'react-icons/fa';
 import NavbarComp from '../components/Navbar';
+import eventsInfo from '../eventsInfo.json';
 import { useAuth } from '../lib/hooks';
 import styles from '../styles/Profile.module.css';
-
 function Profile() {
   const [profile, setProfile] = useState();
   const { currentUser } = useAuth();
@@ -54,7 +54,7 @@ function Profile() {
     return profile.events.map((event, i) => {
       return (
         <li key={i} className={styles.eventCard}>
-          {event}
+          {eventsInfo[event].name}
 
           <FaTimesCircle className={styles.delete}></FaTimesCircle>
           <br></br>
@@ -141,9 +141,9 @@ function Profile() {
             </Container>
           </div>
         ) : // <div>
-        //   <h2 className={styles.error}>You must be signed in. </h2>
-        // </div>
-        null}
+          //   <h2 className={styles.error}>You must be signed in. </h2>
+          // </div>
+          null}
 
         {profile ? (
           <div>
