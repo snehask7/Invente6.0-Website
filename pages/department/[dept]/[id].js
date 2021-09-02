@@ -1,6 +1,6 @@
-import { useRouter } from 'next/router';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import { useRouter } from 'next/router';
+import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
 import {
@@ -222,6 +222,12 @@ export function getStaticPaths() {
   );
   data['Chemical'].map((event, i) =>
     paths.push({ params: { dept: 'Chemical', id: i.toString() } })
+  );
+  data['Civil'].map((event, i) =>
+    paths.push({ params: { dept: 'Civil', id: i.toString() } })
+  );
+  data['Mechanical'].map((event, i) =>
+    paths.push({ params: { dept: 'Mechanical', id: i.toString() } })
   );
 
   return {
