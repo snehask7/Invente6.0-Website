@@ -45,7 +45,8 @@ function Profile() {
     if (currentUser?.emailVerified) {
       getProfile();
     } else {
-      router.push('/');
+      if (currentUser) router.push('/unverified');
+      else router.push('/');
     }
   }, [currentUser, router]);
 
