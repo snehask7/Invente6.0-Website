@@ -10,7 +10,7 @@ import {
   FaRegBuilding,
   FaRegClock,
   FaTrophy,
-  FaUserAlt
+  FaUserAlt,
 } from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
 import NavbarComp from '../../../components/Navbar';
@@ -59,7 +59,7 @@ export default function Department({ data }) {
     }
     fetchProfile();
     window.scrollTo(0, 0);
-  }, []);
+  }, [currentUser]);
   return (
     <React.Fragment>
       <div className={styles.container}>
@@ -117,12 +117,17 @@ export default function Department({ data }) {
                     </span>
                     <span
                       className={
-                        events[id].category == 'tech' || events[id].category == 'hackathon'
+                        events[id].category == 'tech' ||
+                        events[id].category == 'hackathon'
                           ? styles.techbadge
                           : styles.nontechbadge
                       }
                     >
-                      {events[id].category == 'tech' ? 'Tech' : (events[id].category == 'hackathon' ? 'Hackathon' : 'Non-Tech')}
+                      {events[id].category == 'tech'
+                        ? 'Tech'
+                        : events[id].category == 'hackathon'
+                        ? 'Hackathon'
+                        : 'Non-Tech'}
                     </span>
                   </p>
                   <br></br>
@@ -181,9 +186,9 @@ export default function Department({ data }) {
                       {events[id].min_team_size == events[id].max_team_size
                         ? events[id].min_team_size + ' '
                         : events[id].min_team_size +
-                        ' - ' +
-                        events[id].max_team_size +
-                        ' '}
+                          ' - ' +
+                          events[id].max_team_size +
+                          ' '}
                       per team
                     </div>
                     <div className={styles.col}>
