@@ -23,6 +23,7 @@ function SignUp() {
     username: '',
     phone_number: '',
     full_name: '',
+    college_name: '',
     reg_no: '',
     department: '',
     year: '',
@@ -70,13 +71,13 @@ function SignUp() {
             email: state['email'],
             username:
               state['full_name'].toLowerCase().replace(' ', '_') +
-              '#' +
               generate4DigitNumber(),
             fullName: state['full_name'],
             phone: state['phone_number'],
             registerNumber: state['reg_no'],
             year: state['year'],
             department: state['department'],
+            collegeName: state['college_name'],
           },
         })
           .then(() => {
@@ -136,7 +137,7 @@ function SignUp() {
             {step >= 1 ? (
               <Container>
                 <Row>
-                  <Col xs={12} md={12}>
+                  <Col xs={12} md={12} lg={12}>
                     <h5 className={styles.inputLabel}>Full Name</h5>
                     <div className={styles.terminalInput}>
                       <p>{'>'}</p>

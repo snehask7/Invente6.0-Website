@@ -15,9 +15,14 @@ export default async function handler(req, res) {
       });
     } else {
       const userDoc = firestore.collection('users').doc(username);
+      const eventDoc = firestore.collection('events').doc(eventid);
       try {
         await userDoc.update({
           events: arrayUnion(eventid),
+          updatedAt: serverTimestamp(),
+        });
+        await eventDoc.update({
+          registeredUsers: arrayUnion(username),
           updatedAt: serverTimestamp(),
         });
         res.status(200).send({

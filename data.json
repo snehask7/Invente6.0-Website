@@ -1282,5 +1282,745 @@
       "open_to": "All",
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"]
     }
+  ],
+  "CSE": [
+    {
+      "name": "Codolympics",
+      "category": "tech",
+      "min_team_size": 2,
+      "max_team_size": 2,
+      "organisers": [
+        { "name": "Avinash", "phone": 9840801323 },
+        { "name": "Venkatraman", "phone": 9176584507 },
+        { "name": "Vrishin", "phone": 9677077928 }
+      ],
+      "description": {
+        "summary": "There would be 2 round, prelims and finals and each would be around 2-3 hours.",
+        "rounds": 1,
+        "round_description": [
+          {
+            "name": "Description",
+            "duration": null,
+            "description": "Codolympics is a Competitive programming event in which the participants will compete in teams of 2 taking part in a programming contest where they would be given the task of solving 5 - 7 DSA related problems. The theme of problem statements will be related to the theme chosen for invente to make the problems fun and exciting.<br><b>Ranking</b> of teams is based on the standard ICPC rules, namely: First on the <b>number of problems solved</b> (more is better). In case of a tie, the total time for all accepted submissions is taken into account (less is better);<br><b>Time</b> is measured from the beginning of the contest until the submission was accepted, where <b>each rejected submission adds 10 - 20 minutes penalty time.</b><br>If there is still a tie, the time of acceptance for the last problem solved matters (less is better).<br>The rounds will be hosted on Competitive Programming platforms, i.e <b>Codechef</b>, <b>Hackerrank</b> or <b>Hackerearth</b>. Problems may vary (considerably) <b>in difficulty, and appear in increasing order of difficulty.</b>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.6000", "Runner-Up - Rs.4000"]
+    },
+    {
+      "name": "Paper Presentation",
+      "category": "tech",
+      "min_team_size": 2,
+      "max_team_size": 4,
+      "organisers": [
+        { "name": "Niel", "phone": 9789053812 },
+        { "name": "Sachin", "phone": 9498097774 }
+      ],
+      "description": {
+        "summary": "There would be 2 round.<br>Results of first round would be announced 1 day before the event.<br>The finals would be 1-2 hours.",
+        "rounds": 1,
+        "round_description": [
+          {
+            "name": "Description",
+            "duration": null,
+            "description": "Paper presentation – the og event for any technical competition is an event where participants will be required to submit research papers.<br>These papers will then be put through an initial test to make sure there is no <b>plagiarism</b>, that the paper is formatted correctly and the references provided are legitimate ones.<br>ANY PAPER FOUND TO BE PLAGAIRISED WILL BE IMMEDIATELY DISQUALIFIED.<br>After the preliminary scanning the selected papers will be announced after which the participants will be required to present their work to a panel of esteemed judges. Participants can use any form of media to present their paper like power points, live demonstrations or just the paper (all on zoom). "
+          }
+        ]
+      },
+      "open_to": ["All"],
+      "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"]
+    },
+    {
+      "name": "Code Triathlon",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Madhumitha S", "phone": 9445172739 },
+        { "name": "Keerthana", "phone": 6383684631 },
+        { "name": "Madhumitha Chowdhary", "phone": 9444869103 }
+      ],
+      "description": {
+        "summary": "Tri-ath-lon!!!- Just come n TRI it. <br>Do you know to cycle, swim, and run? <br>You don't really need to know all these. All you need is a know-how of logic and basic programming skills !!  Grab your laptops and let's buckle up !! <br>This event is an amalgamation of various exciting rounds that put forth a different perspective of coding! There will be three brain-racking rounds.<br>The first 2 rounds are your entry tickets to the finale!!",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Crack the Code!",
+            "duration": null,
+            "description": "This deals with Pseudocodes and Algorithms. You will be asked to chip in the algorithm in Pseudocode format or comprehend the Pseudocode to understand the algorithm!"
+          },
+          {
+            "name": "Code puzzle!",
+            "duration": null,
+            "description": "This round is like the jumble puzzle that you would have played during your childhood. If you have got the knack to quickly understand the logic, you will be on a winning sprint here."
+          },
+          {
+            "name": "Techxtempo!",
+            "duration": null,
+            "description": "Extempo? Nah! Its Tech+Extempo.<br>Can’t stop your overflowing ideas and do you love to find tech solutions and build prototypes for burning real-world issues? Then you are the perfect fit.<br>PS: You don’t need to be a pro coder or star coder! Don’t miss to grab this opportunity that could fetch you an internship and cash prizes!"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Best Ideator - Rs.3000", "Best Innovater - Rs.3000"]
+    },
+    {
+      "name": "Hacker’s Asylum",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 2,
+      "organisers": [
+        { "name": "Christina", "phone": 7411175409 },
+        { "name": "Aarthi", "phone": 7358090325 }
+      ],
+      "description": {
+        "summary": "Hacker’s Asylum is a Jeopardy style Capture The Flag event with an intriguing plot where you find clues , solve puzzles and capture the “flags”. Each element tests your grasp on OSINT, Cryptography, Reverse Engineering, Password Cracking and a whole range of Cyber Security concepts along with general logical skills. Each flag you capture gets you points and leads you to unfold the story a little more. But time is not on your side in this event as the first team to figure out all the clues and solve the murders , wins.<br/><br/>To participate in this event, you do not need any prior knowledge except basic computer and browsing skills. You can ask for help anytime but points will be calculated accordingly. If you’re new to CTFs or they sound interesting, this is the event for you!",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Prelims",
+            "duration": "1 hour",
+            "description": "A qualifier round which consists of a mini CTF to familiarize yourself with the concept and see if you've got what it takes!!"
+          },
+          {
+            "name": "Main Event",
+            "duration": "3 hours",
+            "description": "When you return from a 3 month deep undercover mission you find out that a lot of agents at OLEN , the spy organization you work at are dead! You’ve been assigned this case and now it’s on you to get to the bottom of it. Can you solve the reason behind these murders before you end up on the victim list?"
+          }
+        ]
+      },
+      "open_to": ["All"],
+      "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"]
+    },
+    {
+      "name": "MOCK JOB DRIVE",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Vishakan", "phone": 9003046970 },
+        { "name": "Sreyas", "phone": 7448472807 },
+        { "name": "Srivathsan", "phone": 8124652052 },
+        { "name": "Sricharan", "phone": 9940678405 },
+        { "name": "Ajay", "phone": 8056017697 }
+      ],
+      "description": {
+        "summary": "Every student who wishes to land a dream job looks forward to the Campus Placements season and a “mock-test” before the tense finals is only fair! Mock Job Drive is a realistic simulation of the campus recruitment process, where each round is an eliminator round.",
+        "rounds": 4,
+        "round_description": [
+          {
+            "name": "Aptitude Test",
+            "duration": "45 mins",
+            "description": "The traditional first round of most candidate hiring processes. This is an initial MCQ-based round which focuses on aspects like Computer Science Fundamentals, Logical Reasoning, Aptitude, Quant and English."
+          },
+          {
+            "name": "Coding Test",
+            "duration": "60 mins",
+            "description": "An integral part of all IT/CS sector jobs that tests your soundness in data structures and algorithmic thinking. You’ll be given two coding questions along with sample testcases and shall be expected to code up the solution in a popular programming language of your choice."
+          },
+          {
+            "name": "Technical Interview",
+            "duration": "30-45 mins",
+            "description": "A face-to-face interview that tests participants on various technological aspects based on their résumé, skills and qualifications. You shall be asked to explain about your relevant experience and come up with interesting solutions to our on-spot problems that test your problem-solving skills."
+          },
+          {
+            "name": "HR Interview",
+            "duration": "30-45 mins",
+            "description": "The final face-to-face interview round which will judge your job fitness on based on your personality, traits and behavior. You will be tested on common HR pattern questions and asked to provide anecdotes of relevant incidents in your life. You will be assessed based on your candor and attitude."
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"]
+    },
+    {
+      "name": "Reverse in Relay",
+      "category": "tech",
+      "min_team_size": 3,
+      "max_team_size": 3,
+      "organisers": [
+        { "name": "Subhiksha", "phone": 9791755626 },
+        { "name": "Vaishnavi", "phone": 7530035323 }
+      ],
+      "description": {
+        "summary": null,
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Fast and Furious Wins the Race:",
+            "duration": "1 hour",
+            "description": "Every race has got to have qualifiers.<br>Your team of 3 will have to clear the hurdles , a series of fast paced questions where you get to answer the poll, the first 5 to the finish line qualify!!"
+          },
+          {
+            "name": "Relay in Reverse",
+            "duration": "1 hour",
+            "description": "Won a race by running in reverse? Not possible right!<br>If possible, can you win it? Let's make it more fun! How about a relay?<br>All you have to do is come up with a solution for the problem, receive the baton, start coding, pass the baton.<br>You win if you come first , well obviously in REVERSE"
+          }
+        ]
+      },
+      "open_to": ["All"],
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"]
+    },
+    {
+      "name": "Game Nite",
+      "category": "non-tech",
+      "min_team_size": 0,
+      "max_team_size": 0,
+      "organisers": [
+        { "name": "Jaanhavi", "phone": 7550045716 },
+        { "name": "Abhishek", "phone": 9884844705 },
+        { "name": "Anirudh", "phone": 7418208959 },
+        { "name": "Gouthamnath", "phone": 9840053905 }
+      ],
+      "description": {
+        "summary": "When we were stuck at home with the seemingly endless lockdown, we didn’t know when we would hang out with our friends next. That is when we turned to online games to have fun and play with them. The main idea of this event is to take a breather from our hectic lives and enjoy those three hours<br>The preliminary round consists of players split randomly into teams and play a game chosen randomly from the wheel of fortune.  Players with the most points would move on to the next round. The final round is a trivia night where players test their knowledge,speed and accuracy. Time is definitely not your friend as the one who answers first will get maximum points.<br>If you are looking for an exhilarating, fun event before getting all technical, this event is for you.",
+        "rounds": 0,
+        "round_description": []
+      },
+      "open_to": "All",
+      "prizes": ["Winner - Rs.2500", "Runner-Up - Rs.1500"]
+    }
+  ],
+  "Civil": [
+    {
+      "name": "ARCHITECTURE AT ZERO",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Niveditha", "phone": 9444556136 },
+        { "name": "Yuvalatha", "phone": 9841732980 }
+      ],
+      "description": {
+        "summary": "The \"Architecture at zero\" is a technical competition which aims to bring together multi-disciplinary teams active in the design and construction industry to present a building redesigning project using the various Building Information Model (BIM) toolsavailable in the market . The Competition’s objective is to promote practical uses of BIM through collaborative and competitive learning approach among tertiary students in construction related disciplines.<br/><b>Platform: MS Teams</b>",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Description",
+            "duration": null,
+            "description": "Architecture at zero is an event to showcase your talent and skills in designing. You will be given with a problem statement for which you have to come up with an innovative design. You can use any software like Revit, Staad Pro, Auto cad, Sketch up, etc. "
+          },
+          {
+            "name": "Instructions/Requirements",
+            "duration": null,
+            "description": "<ul><li>Make sure you a have a software for designing installed in your PC/ laptop before the commencement of event. </li><li>The problem statement will be given to the participants in the morning of the event day. </li><li>Make sure you upload the design at specified site in Ifc format in BIM </li><li>The design must be submitted before 11 AM on the 2nd day. </li><li>The design would be scored and the results would be declared on the 2nd day </li><li>The winners would be awarded with prize money.</li></ul>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": []
+    },
+    {
+      "name": "QUIZZARDS OF OZ",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Jyothir Adithya", "phone": 8300158662 },
+        { "name": "Grandhe Vishnu", "phone": 9025001415 },
+        { "name": "Nithya", "phone": 7338935087 }
+      ],
+      "description": {
+        "summary": "A technical event comprising of  questions to test our  knowledge. The participants are split into teams. Event comprises of 2 rounds and the teams for round 2 are chosen with points and bonus obtained from the round 1 . The winning team with highest score are rewarded with exciting prices.<br/><b>Platform: Microsoft teams and kahoot</b> ",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Round 1: Qualifier",
+            "duration": "45 mins",
+            "description": "<ul><li>45 minutes test comprising of 30 questions </li><li>The quiz will happen in Kahoot with time duration </li><li>teams with the top scores will qualify to round 2 which is the final round</li><li>Please do note that depending upon the participation count only, the ones who are qualifying to the final round will be determined </li></ul>"
+          },
+          {
+            "name": "Round 2: Finals",
+            "duration": "25 mins",
+            "description": "<ul><li>The qualified participants will take the test in Kahoot</li><li>This round will have about 15 questions with 25 minutes duration</li><li>The team with the highest score will be declared the winner</li></ul>"
+          },
+          {
+            "name": "Note",
+            "duration": null,
+            "description": "The questions will be screen shared and the participants will have to enter the nickname and contest through their mobile phones<br/><br/>A video description will also be sent to the contestants to make them familiar with the Kahoot platform"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": []
+    },
+    {
+      "name": "Paper Presentation",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 3,
+      "organisers": [
+        { "name": "Naveen", "phone": 7358196955 },
+        { "name": "Vikram", "phone": 8870640116 }
+      ],
+      "description": {
+        "summary": "<h3>\"Perspective\"\"Many can pack the cards but a few can play the game\". All of us claim to study but only a few of us can delve deep into the subjectin order to present what we have gained from our studies. Quite often a person's presentations go through our ears, only a few get attached tothe heart, expand to the limbs and are finally established in actions. Presentations, now a days, are an indispensable part of the corporate sector. People wanting to move mountains in future must begin by carrying small stones and this is the impetus of this technical paper presentation.The purpose of this technical paper presentation is to judge efficaciouslyhow skilled we are in our own fields.<br/><b>Platorm: </b> Zoom/Google Meet/Microsoft Teams<br/><br/><b>Topic/Domain of Paper Presentation: (Will bedeclared on 29/08/2021)</b>",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": null,
+            "description": "<ol><li>An abstract of (150 to 300 words) has to be sent to the organizing team through mail ID <u>paper4invente6.0@gmail.com </u></li><li>The selection criteria will be based on the uniqueness of the topic. </li><li>All the entries from various colleges will be evaluated and shortlisted by the chair and secretary. </li><li>Authors of shortlisted papers will be notified for the next round.</li></ol>"
+          },
+          {
+            "name": "Round 2",
+            "duration": null,
+            "description": "<ol><li>The selected participants will be provided with a Google meet/ Microsoft teams/Zoom link. They will be requested to login at least 5 minutes before the start of the event. </li><li>All the participants except the speaker will be requested to mute their audio and video. </li><li>Every participant is required to ensure stable internet connectivity throughout the event. </li><li>In case of internet instability, one can leave the meet and re-join, but presence of first author is must for the entire stretch of the event. </li><li>They will be explained about the event, panel ofjudges, judging criteria, and prizes. </li><li>The first author will be then intimated to submita video recording of their presentation time limited to 5 minutes. They will be provided an hour to submit their presentation. </li><li>The panel will then evaluate the presentation. During the evaluation of presentation, the participants and the panel will be provided a zoom/google meet link. Once the panel finishes the evaluation of presentation, they can immediately shoot their questions to the authors of the corresponding presentation and assess them. </li><li>Evaluations of Round 1 and Round 2 will be consolidated. </li><li>The team with the highest score will be declared as the “Best Student Presentation”. </li><li>All participants shortlisted for Round 2 will be given participation certificates. </li></ol>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": []
+    },
+    {
+      "name": "CLASH OF MINDS",
+      "category": "tech",
+      "min_team_size": 2,
+      "max_team_size": 2,
+      "organisers": [
+        { "name": "Deepika", "phone": 9445247522 },
+        { "name": "Harapriya", "phone": 6385161717 }
+      ],
+      "description": {
+        "summary": "Clash of minds is an elegant, modern form of debate which involves a team of students working to effectively convince a judge that their side of a resolution is,as a generalprinciple, more valid. Students in debate develop balanced leadership skills by researchingmultiple perspectives extensivelyto understand both sides of the resolution, and learn to think critically about every argument that could be made on each side. Below are two exciting forms of debate for our Indian students.These events facilitate student collaboration.",
+        "rounds": 1,
+        "round_description": [
+          {
+            "name": "Format",
+            "duration": null,
+            "description": "First for affirmative Speaker: 3 minutes <br/>First against affirmative Speaker: 3 minutes<br/>Second for affirmative Speaker: 3 minutes<br/>Second against affirmative Speaker: 3 minutes<br/>Final rebuttal rounds (One from each team) : 2 minutes (protected time)<br/>Debate topics will be disclosed for the preliminary knockout round, 2 days before the start of the event to the participant teams registering online.<br/><br/><b>Cross College teams (except SSN Students teams) are allowed.</b>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": []
+    },
+    {
+      "name": "DEAL OR NO DEAL",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Sheena", "phone": 9092076543 },
+        { "name": "Yuvarani", "phone": 9841732991 }
+      ],
+      "description": {
+        "summary": "<i>\"Successful negotiation is not about getting to 'yes'; it's about mastering 'no' and understanding what the path to an agreement is.\"</i><br/><br/> Deal or no deal is a technical event where the negotiation skills of the participants are tested. All the participants will be split into 2 groups - the dealers and the buyers. A certain number of properties will be divided equally among the dealers and a certain amount of cash will be divided equally among the buyers. The buyers are supposed to buy as much properties as they can with the money they have and the dealers are supposed to earn as much money as they can with the properties they have. The best negotiator among the dealers would be the one who has the most cash at the end of the event. And the best negotiator among the buyers would be the one with the most number of properties at the end of the event. Top 3 negotiators from the buyers and top 3 negotiators from the dealers will be selected and among them the winner will be chosen by the judges and will win exciting prizes!",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Instructions",
+            "duration": null,
+            "description": "<b>Platform: Microsoft Teams</b><br/>A Role will be provided to you either as a BUYER or as a SELLER. Both will be provided with common & confidential information about your deal.<br/>Do not discuss your role with anyone before completing the negotiation.<br/>Read your role carefully in the given time so that you understand the facts before you begin negotiating.<br/>Act out your role. Do not say that “The role says that I am Supposed to do this”, Just Do It!<br/>You can add facts, but only if they DO NOT CHANGE any Facts in your role."
+          },
+          {
+            "name": "Round 1",
+            "duration": null,
+            "description": "For reading -10 minutes<br/>For negotiation -15 minutes<br/>Participants will be paired up in such a way that one will be a buyer & other will be a seller.<br/>Each pair will be put into a breakout room and thenegotiation will monitored by the event organiser.<br/>Most profitable dealer of each pair will advance to the next round.<br/>"
+          },
+          {
+            "name": "Round 2",
+            "duration": null,
+            "description": "For reading -20 minutes<br/>For negotiation -20 minutes<br/>Same as round 1<br/>Best profitable dealer wins first place."
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": []
+    },
+    {
+      "name": "SOLUTION -AU PROBLEME",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 4,
+      "organisers": [
+        { "name": "Nijanthan", "phone": 7397454505 },
+        { "name": "Narenthiran", "phone": 7548815835 }
+      ],
+      "description": {
+        "summary": "Usually there are three solutions to every problems :accept it , change it or leave it...If you can't accept it , change it and If you can't change it ,think more because there must be no chance of leaving it.....<br/><br/>So solution au probléme is a technical event which will give u some statements of technical  problems. You have to choose a statement and bring us right solution for it. Teams can refer any material and  have to submit your abstract before end time. The best abstracts will be shortlisted for presentation of their idea. Based on presentation of abstracts, teams will be selected for final presentation in which yourppt work , innovation and changes you done by review of reviewers. Finally the bestteams will be chosen as winners and review panel decision will be final",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Problem Statement:",
+            "duration": null,
+            "description": "5 problem statements will be given out of which the participant/team is required to choose any 1 statement and come up with a solution within the specified time limit. The abstract should be presented for the same."
+          },
+          {
+            "name": "Instructions",
+            "duration": null,
+            "description": "<ul><li>It is not necessary that all participants must be from same institute.</li><li>All the team members should have proper internetconnection.</li><li>Abstracts should be submitted on or before October 5 , 8PM.</li><li>The teams with the best abstracts will be shortlisted for the presentation of their idea.</li><li>Participants are required to make their own arrangements and are allowed to refer any material (including internet sources).</li><li>Participants are supposed to present their idea after the selection of the first review (abstract selection).</li><li>The presentation of the idea will be judged based on Innovation, Impact, Feasibility and Marketability.</li><li>The second review will be conducted 4-5 days prior of the final presentation.</li><li>Participants are requested to register their team and send in their abstract before the deadline using the form (will be provided soon).</li><li>The final presentation should not exceed 15 mins.</li></ul>"
+          },
+          {
+            "name": "Evaluation Criteria",
+            "duration": null,
+            "description": "<h3>First Review</h3>Teams are expected to submit an abstract of their idea.<br/>In this round, teams will be evaluated based on the innovative approach of their problem statement and the clarity.<br/><br/><h3>Second Review</h3>This review is a checkpoint to track the team’s progress.<br/>The reviewers will give their input and their thoughts on the team’s solution and changes if there are any.<br/><br/><h3>Final Presentation</h3>Teams are expected to implement the changes given in the previous review by the reviewers.<br/>In this round, teams will be evaluated based on their PPT presentation, ability to explain their idea and innovation in their solution.<br/>Teams which address the marketability of their idea will be awarded additional points.<br/>The build-a-thon will follow a leader board system.The points awarded will be the cumulative points, gained by the team over the two reviews and the final presentation. The top team will be announced as the winner of the Solution au probleme.<br/><br/>Decision taken by the review panel will be final.            "
+          }
+        ]
+      },
+      "open_to": ["Civil"],
+      "prizes": []
+    },
+    {
+      "name": "UNSCRIPTED",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Prabhakaran", "phone": 9566124655 },
+        { "name": "Thendral", "phone": 9445584880 }
+      ],
+      "description": {
+        "summary": "<i>“Too many people spend too much time trying to perfect something before they actually do it. Instead of waiting for perfection, run with what you got and fix it along the way...”</i><br/>Unscripted is a semi technical event that tests an individual’s extemporising skills. This event includes two challenging rounds in which the each participant will be assigned a topic related to civil engineering and they are expected showcase their extemporising skills by speaking atleast 3 minutes about their topic. A preparation time of 1-2 minutes will be allotted for each participant. Based on their speaking skills and the content they deliver, participants will be chosen to advance to round 2.<br/>The success of your presentation will be judged not by the knowledge you send but by what the listener receives. The winner will be selected based on the judges scores and will receive exciting prizes.<br/><br/><b>Platform: MS Teams</b>",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": null,
+            "description": "<ul><li>Participants will be given a generic topic. </li><li>Maximum of 5 min will be awarded to each participant for preparation.</li><li>Each participant will be given a speech durationof 3-5 min(can vary if needed)</li><li>Based on the performances, participants will be shortlisted for next round.</li></ul>"
+          },
+          {
+            "name": "Round 2",
+            "duration": null,
+            "description": "<ul><li>Shortlisted participants will be given an another topic</li><li>Preparation time for each participants will be reduced based on the potential of competing participants.</li><li>Top 2 participants who excel in their speeches by adhering to the given topic will be awarded. </li><li>Judges decision is final. </li></ul>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": []
+    },
+    {
+      "name": "BOB THE PLUMBER",
+      "category": "non-tech",
+      "min_team_size": 1,
+      "max_team_size": 4,
+      "organisers": [
+        { "name": "Rajkumar", "phone": 9842446869 },
+        { "name": "Yogeswaran", "phone": 9629506412 }
+      ],
+      "description": {
+        "summary": "A technical event where a certain set of problem statements will be given to the participants. Participants are expected to come up with a design-cum solution for the given problem statements. Problem statements shall propose a need of Solution for building's requirement of suitable pipe connections and water distribution and management within the building based on the given datas, which will be provided along with the problem statement. Top  2 winners will be declared,and rewarded with exciting cash prices. ",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Problem Statement:",
+            "duration": null,
+            "description": "A problem statement will be given to the participant/team for which the participant/team is required to come up with a solution within the specified time limit. The problem statement will be provided to the participants through mail (1 or 2 days before first review)."
+          },
+          {
+            "name": "Instructions",
+            "duration": null,
+            "description": "<ul><li>It is not necessary that all participants must be from same institute.</li><li>Participants are required to make their own arrangements and are allowed to refer any material (including internet sources).</li><li>Participants are supposed to present their idea after the selection of the first review.</li><li>The presentation of the idea will be judged based on Innovation, Impact, Feasibility and Marketability.</li><li>The First review will be conducted 1 day prior of the final presentation.</li><li>Participants are requested to register their team and send in their design-cum solution before the deadline using the given platform (will be provided soon).</li><li>The final presentation should not exceed 15 mins.</li></ul>"
+          },
+          {
+            "name": "Evaluation Criteria",
+            "duration": null,
+            "description": "<h3>First Review</h3>Participant/Teams are expected to submit the design-cum solution of their idea.<br/>In this round, teams will be evaluated based on the innovative approach of their problem statement and the clarity.<br/>The reviewers will give their input and their thoughts on the team’s solution and changes if there are any.<br/><br/><h3>Final Presentation/h3>Teams are expected to implement the changes given in the previous review by the reviewers.<br/> In this round, teams will be evaluated based on their presentation, ability to explain their idea and innovation in their solution.<br/>Teams which address the marketability of their idea will be awarded additional points.<br/>The Bob the Plumber will follow a leader board system. The points awarded will be the cumulative points, gained by the team through the first review and the final presentation.<br/>Top 2 winners will be declared based on the points awarded to them.<br/>    Decision taken by the review panel will be final.            "
+          }
+        ]
+      },
+      "open_to": ["Civil"],
+      "prizes": []
+    },
+    {
+      "name": "NETFLIX WARS",
+      "category": "non-tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [
+        { "name": "Dharshan", "phone": 9597139710 },
+        { "name": "Naresh", "phone": 8300442985 }
+      ],
+      "description": {
+        "summary": "A non-technical event filled with challenging rounds to the basic knowledge and memory/recollecting power of candidates for the Netflix shows they binged throughout the lockdown. This event sure does need quick-witted individuals who have general awareness and the necessary trivial skills for the topic. We assure you that this event will test the only work done by the individuals during lockdown and will work as a stress buster yielding great rewards.",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": null,
+            "description": "<ul><li>It is a rapid fire round.</li><li>This round consists of Picture based questions and MCQ’s.</li><li>It has 20 questions [ Picture based questions – 10 ; MCQ’s – 10].</li><li>This round will be conducted in “Kahoot app”.</li><li>The questions will be shared in zoom meeting and the participants will have to answer the questions in the kahoot app.</li><li>Refer this video[ https://youtu.be/V4FQ-j91waA] to get a clear idea about the Kahoot app.</li><li>Participants with higher scores will be shortlisted for the next round.</li></ul>"
+          },
+          {
+            "name": "Round 2",
+            "duration": null,
+            "description": "<ul><li>This Round will have 20 one word questions without choice.</li><li>The shortlisted participants will be assigned serial numbers based on theirs scores starting from highest.</li><li>The question will be asked to the participant with the serial number one , if he or she is not able to answer, then the question will be passed on to the participant with the next serial number. This continues until either the question is answered or nobody knows the answer.</li><li>Finally the participant with the highest score will bethe winner.</li></ul>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": []
+    },
+    {
+      "name": "ACE it (VALORANT)",
+      "category": "non-tech",
+      "min_team_size": 0,
+      "max_team_size": 0,
+      "organisers": [
+        { "name": "Krithikan", "phone": 9944666013 },
+        { "name": "Srinirav", "phone": 9940615473 },
+        { "name": "Nanditha", "phone": 9677058210 }
+      ],
+      "description": {
+        "summary": "A non-technical event based on the game - VALORANT. Valorant is a team-based first-person shooter(5 Vs 5). Players can select an agent from a variety of choices who have their own unique abilities. This game has gained huge popularity in today's gaming world. Both team take turns playing attack or defence and battle their way to get 13 round wins in order to secure the match point. This game requires team co-ordination and communication skills in order to win. Two teams flying on top of the leaderboard will be given exciting cash prices. ",
+        "rounds": 1,
+        "round_description": [
+          {
+            "name": "Rules",
+            "duration": null,
+            "description": "<ul><li>It is enough if any 2 out of 5 participants register</li><li>Participants must follow the rules. </li><li>Rules regarding the game and teams will be notified after registration. </li><li>Stage 1 is knockout stage. Winners qualify for successive rounds. </li><li>Final round will be a best of three. (Based on final two teams convenience the Finals will be conducted either on the same day or the next day) </li><li>All general Valorant rules applied. No third party hacks are permitted, if found the entire team will be eliminated. </li><li>Map selection and other details will be shared in our discord server after registration.</li></ul>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": []
+    }
+  ],
+  "Mechanical": [
+    {
+      "name": "Paper Presentation",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 4,
+      "organisers": [],
+      "description": {
+        "summary": "<b>Platform: Zoom/GMeet</b><br/><b>No of rounds: 2</b>",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Domains Covered",
+            "duration": null,
+            "description": "<ul><li>Manufacturing</li><li>Thermal</li><li>Design</li><li>Robotics</li></ul><br/><b>(Duration: 8m/presentation)</b>"
+          },
+          {
+            "name": "Rules",
+            "duration": null,
+            "description": "<ul><li>Only a maximum of 4 authors and only student authors are allowed.</li><li>Initially, the paper abstract must be sent through the mail.</li><li>Shortlisted teams based on abstracts will be called for a presentation.</li><li>The shortlisted teams must send their research papers through the mail. </li></ul><br/><br/><b>The instructions are as follows:</b><br/><ul><li>The subject must be the title of the paper.</li><li> The body of the email should include- Name and Institute of the participant (from the first author till the fourth one), Department and Year, Contact numbers, Email addresses.</li><li> Paper as an attachment.</li><li> The paper must be in two columns IEEE format. This format must be strictly adhered to. The paper length must be limited to 6 pages. </li><li>The paper must be in .pdf format.</li><li>Plagiarism is a very serious consideration. Only original research works accepted.</li></ul>"
+          }
+        ]
+      },
+      "open_to": ["Mechanical"],
+      "prizes": []
+    },
+    {
+      "name": "Project Exhibition",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 4,
+      "organisers": [],
+      "description": {
+        "summary": "<b>Platform: Zoom/GMeet</b><br/><b>No of rounds: 1</b>",
+        "rounds": 1,
+        "round_description": [
+          {
+            "name": "Rules",
+            "duration": null,
+            "description": "<ol><li> Registration for the event must be done through the provided platform viz. Google forms, Google Sheets, etc.</li><li>The projects can be from any field in Mechanical Engineering.</li><li> A team can either present their projects live in the zoom meeting or send a recorded video explaining the project (video length is 8 min. max)</li><li> After the presentations, participants must be present in the zoom meeting as judges can ask questions.</li><li>Winners of the contest will be decided based on the evaluation by the judges.</li></ol>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": []
+    },
+    {
+      "name": "Need for Speed – Autoquiz",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 2,
+      "organisers": [],
+      "description": {
+        "summary": "Are you an automobile enthusiast? This event is just for you. Join us for this fun filled unorthodox quiz and win exciting prizes!",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Prelims (Online MCQ):",
+            "duration": "15-20 mins",
+            "description": "<ul><li>This is a technical quiz round covering an assortment of topics from automobile, conducted using Kahoot!</li><li>Use the above link to get accustomed to the interface</li><li>A total of 20 questions</li><li>Time duration per question will be brief to prevent malpractices</li><li>Of this, ‘n’ teams will be qualified for the finals</li></ul>"
+          },
+          {
+            "name": "Finals (Traditional: Turn wise):",
+            "duration": "1 hour:",
+            "description": "<ul><li>All team members will have to be present in the meeting; will be conducted via Zoom</li><li>The team leader’s answer will be assessed as final answer from the team by the quizmaster</li><li>This round will be in Wager mode (betting, don’t worry, no real money!)</li><li>Initially each team will be given 10,000 points in their wallet</li><li>There will be 5 rounds of questioning</li><li>Questions will be asked turn wise, no bouncing of questions (i.e.) If a team doesn’t know the answer or gets the wrong answer, the question will not be passed to other teams</li><li>There will be 6 themes to choose from (all pertaining to automobile)</li><li>Before questioning each team, the team leader will have to choose the theme of the question and stake the amount he/she is willing to bet</li><li>If the team gets the answer right, they’d gain the amount equal to the staked points, else if the answer is wrong or they skip, the amount will be deducted from their wallet</li><li>After the team chooses a particular theme for one round, no other team will be able to choose the same theme in that round (for fair play, each round will start with a different team)</li><li>The team with the most points at the end of 5 rounds will be declared as the winner. Tie breaker round will be reserved if similar points are retained</li></ul>"
+          },
+          {
+            "name": "Rules:",
+            "duration": null,
+            "description": "<ul><li>Every Team registered for this event should have a Team leader</li><li>Only the team leader should fill the registration form entering details of participants</li><li>15 minutes before the scheduled start time of this round, every team leader will receive a Google form link to his/her registered email ID. </li><li>The team members can connect through zoom or meet or any means to communicate among each other.</li></ul>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": []
+    },
+    {
+      "name": "Mechathlon",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [],
+      "description": {
+        "summary": "<b>Platform: Zoom</b><br/><b>No of rounds: 3</b>",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Round 1: Quiz",
+            "duration": null,
+            "description": "<ul><li>First, all participants are asked to join a Zoom meeting for giving Instructions.</li><li>The quiz is created in google forms and added to a free timer google workspace app called ‘Quilgo’</li><li>Official email IDs are asked to be sent in the chat box, and the quiz link is sent to them.</li><li>They are asked to attempt the quiz and the meeting is closed.</li><li>The quiz contains 30 questions with 16 technical and (7+7) aptitude and general knowledge.</li><li>Technical questions are taken from SOM, FM, Thermal, Design, KOM, DOM.</li><li>In case the number of participants is 60+, the number of shortlisted students will 25+. In this scenario, we will further shortlist the candidates by conducting an oral quiz</li><li>An oral quiz will be conducted on the Zoom platform in groups of 6 or 7. Students will be allotted a number from 1 to 6 (or 7).</li><li>Questions will be asked orally and if a student knows an answer, he/she will post his own number in the chatbox. The first person to get the correct answer wins a point.</li><li>Videos of the participants should be ON for this round.</li><li>If more than 20 seconds pass and no one has an answer, we move to the next question.</li><li>15 students are shortlisted from this quiz</li></ul>"
+          },
+          {
+            "name": "Round 2: Group Discussion",
+            "duration": null,
+            "description": "<ul><li>Group discussion will be conducted and judged by one or two faculty members.</li><li>Zoom or Google Meet platform can be used for this round depending on the preference of the faculty.</li><li>3 sessions with 5 students in each session will attend the GD.</li><li>The top 3 students will be selected from the entire round and they will be the finalists.</li></ul>"
+          },
+          {
+            "name": "Round 3: Interview",
+            "duration": null,
+            "description": "<ul><li>The interview is held by a committee of professors</li><li>The finalists enter the Zoom chat room one by one to attend the Interview.</li><li>Two winners will be selected by the professors.</li></ul>"
+          }
+        ]
+      },
+      "open_to": ["Mechanical"],
+      "prizes": []
+    },
+    {
+      "name": "2 fast 2 curious",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 1,
+      "organisers": [],
+      "description": {
+        "summary": "We know you would rock in your domain. We know you would also manage time. But <b>What if</b> we tell you that you will have to manage both! So here we are to challenge your technical skills but not compromising on the time!<br/><br/><b>Platform: Quizizz andZoom</b><br/><b>No of rounds: 2</b>",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1: QUICK QUIZ",
+            "duration": "20 mins",
+            "description": "<ol><li>Each team will consist of 2 players with no substitutions allowed.</li><li>The participants of the team will get a mail consisting of the zoom meet link.</li><li>Official email IDs are asked to be sent in the chat box, and the quiz link is sent to them. The quiz will be conducted on an online platform known as Quizizz.</li><li>Only 1 member from the team is allowed to participate in the quiz with the name of the team in the space provided for the name. No duplications.</li><li>The Quiz contains a total of 15 questions with each question given a max time of 20 secs. </li><li>Coordinators will be available in the meeting throughout the quiz so as to answer any queries.   </li><li>Top ‘n’ teams will be qualified for the next round, depending on the no. of entries.</li><li>Question type : MCQs from the basic fields of Mechanical.</li></ol>            "
+          },
+          {
+            "name": "Round 2: TABOO",
+            "duration": "45 mins",
+            "description": "<ol><li>This is the final round conducted on Zoom, wherein the top ‘n’ teams from the previous round are selected.</li><li>Videos of all the participants must be switched ON for this round.</li><li>This round consists of a mechanical word to be given to one of the team members who should be able to make the other team member guess the word given.</li><li>Does it not sound easy? We have something else for you. Along with the word to be guessed, we have a few taboo words that you are not allowed to use to describe the main word at any cost. Else penalties will be generated.</li><li>Coordinators will be asking for the member who would like to describe the word.</li><li>Accordingly, the word, along with the taboo words will be revealed to the person.</li><li>Each team will be given 5 words with a max time of 1 min for each word. The sooner you’re able to get the other person to guess the word, the higher your score gets. </li><li>The team with the highest score wins</li></ol>"
+          }
+        ]
+      },
+      "open_to": ["Mechanical"],
+      "prizes": []
+    },
+    {
+      "name": "Design and deal",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 3,
+      "organisers": [],
+      "description": {
+        "summary": "Each registered team has to complete a set of tasks testing their marketing skills and design skills. A complete study of the given product has to be undertaken and a final 3D model of the product has to be submitted.<br/><b>Platorm: Zoom</b>",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Round 1: The Pitch",
+            "duration": null,
+            "description": "<ul><li>A proposal template will be provided. Each team receives a product and is expected to analyze it among the various brands available in the market on several parameters. </li><li>Participants should come up with an innovative idea to elevate the existing product.</li><li>A detailed proposal is to be submitted explaining their idea, utility, novelty within the stipulated time.</li><li>There is a time limit for submission so the proposal should be submitted before the specified deadline.</li><li>Teams above threshold points will proceed further.</li></ul> <br/><br/><b>Evaluating Criteria</b><br/>Quality of the Analysis<br/>Prowess in handling the situation<br/>Innovative idea"
+          },
+          {
+            "name": "Round 2: Design with an innovation",
+            "duration": null,
+            "description": "<ul><li>The teams need to model all the parts and create an assembly adding their innovative features.</li><li>Each team has to submit the model in PDF format(assembly- top view, front view and isometric view) via a google form.</li><li>Any modelling software can be used.</li><li>A zoom link will be provided to present and explain the model.</li><li>The final assembly has to be shown in the software by screen sharing.</li> </ul><br/><br/><b>Evaluating Criteria</b><br/>Accuracy<br/>Time taken to complete the full assembly<br/>Quality of presentation"
+          }
+        ]
+      },
+      "open_to": ["Mechanical"],
+      "prizes": []
+    },
+    {
+      "name": "QUARTER MILE",
+      "category": "tech",
+      "min_team_size": 1,
+      "max_team_size": 4,
+      "organisers": [],
+      "description": {
+        "summary": "What better way to push your technically sound mind to its limits than solving puzzles? Quarter Mile of Invente 2021 brings you the perfect blend of fun and learning in the form of a multi tiered quiz event.<br/><br/><b>Platform: Gmeet/Discord</b><br/><b>No of Rounds: 3</b>",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Round 1: Genesis",
+            "duration": null,
+            "description": "<ul><li>The first round will involve solving a crossword and a  puzzle </li><li>The crossword will consist of 10-15 questions in a particular domain of mechanical engineering</li></ul>"
+          },
+          {
+            "name": "Round 2: Design",
+            "duration": null,
+            "description": "Participants will be given a component of which they are expected to produce the engineering drawing"
+          },
+          {
+            "name": "Round 3: Apex",
+            "duration": null,
+            "description": "The culmination of the previous 2 rounds, the winners will lock horns and race against time to solve the final quiz/puzzle"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": []
+    },
+    {
+      "name": "Car wars",
+      "category": "tech",
+      "min_team_size": 2,
+      "max_team_size": 2,
+      "organisers": [],
+      "description": {
+        "summary": "<b>Platform: Zoom and use of google drive</b><br/><b>No of Rounds: 3</b>",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Round 1",
+            "duration": null,
+            "description": "In the first round, all the teams would be bidding for the cards with the allotted amount (the cash pool will be provided before the round)[NOT ACTUAL MONEY]. The cards would only have the car's name and photo with the overall rating. There will be a fixed no. of car types and each card will have 5 attributes based on the car's specification. Each team should have at least one car of each category (category of carswill be informed later).<br/>The cars WON'T HAVE THE SPECIFICATION VALUE.            "
+          },
+          {
+            "name": "Round 2",
+            "duration": null,
+            "description": "In the second round, the teams would be completing tasks to get the values ofeach specification of their cars."
+          },
+          {
+            "name": "Round 3",
+            "duration": null,
+            "description": "In the third round, each team would be pitted against another team (based on random draw by the organizers; card clashes will be based on the specifications they received from the second round.<br/> All the rounds from now on will be on a knock-out basis.<br/><br/>Rules for the third round:<br/><ul><li>One versus one</li><li>only one person can interact from a team</li><li>order of drawing cards should be fixed by both teams</li><li>A decider question will choose on which team goes first.</li><li>The team that goes without any cards loses the round.</li><li>The winners of each clash will move to the next level. This goes on until the final winner is decided.</li>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": []
+    },
+    {
+      "name": "ROUNDABOUT",
+      "category": "non-tech",
+      "min_team_size": 2,
+      "max_team_size": 2,
+      "organisers": [],
+      "description": {
+        "summary": "Life is too short to play a bad game. Join us for a fun-filled day with your friends. Exciting prizes up for grabs!!<br/><br/><b>Platform: Google forms, Zoom</b><br/><b>No of Rounds: 3</b>",
+        "rounds": 3,
+        "round_description": [
+          {
+            "name": "Round 1:  20 Questions",
+            "duration": null,
+            "description": "The objective of the Twenty Questions game is quite simple: guess the person, place or thing in 20 questions or less!<br/><br/>Platform: Zoom/Gmeet<br/><ul><li>Each team will have a questioner and an answerer.</li><li>For each round of the game, the answerer would be given a person( living, dead, fictitious character), place( anywhere in the world) or a thing.</li><li>The Questioner is supposed to guess the RIGHT ANSWER only by asking ‘yes’ or ‘no’ questions.</li><li>Once 20 questions are used up, no more questions may be asked.</li><li>Whichever team is able to reach the answer first, WINS.</li><li>This will be an elimination round and the qualifying teams move to ROUND 2 of the event.</li></ul>"
+          },
+          {
+            "name": "Round 2",
+            "duration": null,
+            "description": "<ul><li>This Round will be conducted using the Zoom platform, the link to which will be provided for the selected teams of Round 1.</li><li>This round will be a fun and interactive one to hype you up for the final round.</li><li>Both the team members can be present in the meeting for this round.</li><li>The games include our own twist on the popular game charades along with picture quizzes and so on.</li></ul>"
+          },
+          {
+            "name": "Round 3: SURPRI(ZE) ",
+            "duration": null,
+            "description": "The Final round will be a surprise round to test the participants’ spontaneity. The winners will be decided on the basis of the consolidated scores of Rounds 2 and 3."
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": []
+    }
   ]
 }

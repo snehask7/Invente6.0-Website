@@ -25,13 +25,28 @@
 .mainContainer {
   padding: 8em;
 }
+
+@media screen and (max-width: 800px) {
+  .mainContainer {
+    padding: 1em;
+  }
+}
+
 .pageHeading {
   text-align: center;
   color: white;
-  font-family: 'Menlo', monospace;
-  margin-top: 2vh;
+  font-family: 'Voltaire', sans-serif;
+  font-weight: 700;
   margin-bottom: 2vh;
+  font-size: 2.5vw;
 }
+@media screen and (max-width: 1000px) {
+  .pageHeading {
+    font-size: 5vw;
+    margin-top: 2em;
+  }
+}
+
 .eventCard {
   font-size: 2vh;
   min-width: 14vh;
@@ -43,8 +58,9 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  vertical-align: middle;
-  background: linear-gradient(205deg, #19e9f0 0%, #00d0ff 100%);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
   position: relative;
   font-family: 'Voltaire', sans-serif;
   word-wrap: break-word;
@@ -71,6 +87,14 @@
   pointer-events: none;
   border-radius: 10px;
 }
+
+.eventCard:hover {
+  border: rgb(222, 121, 138) solid 2px;
+}
+.eventSelected {
+  border: rgb(222, 121, 138) solid 2px;
+}
+
 .content {
   z-index: 2;
   color: #fff;
@@ -88,22 +112,31 @@
   text-align: center;
   font-weight: 900 !important;
   background: #08aeea;
-  background: -webkit-linear-gradient(to top, #08aeea 5%, #b721ff 100%);
-  background: -moz-linear-gradient(to top, #08aeea 5%, #b721ff 100%);
-  background: linear-gradient(to top, #08aeea 5%, #b721ff 100%);
+  background: -webkit-linear-gradient(
+    to right bottom,
+    #08aeea 5%,
+    #b721ff 100%
+  );
+  background: -moz-linear-gradient(to right bottom, #1fdcdf 5%, #2769dc 100%);
+  background: linear-gradient(to right bottom, #1fdcdf 5%, #2769dc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3.8vh;
+  font-size: 2vw;
   font-family: 'Voltaire', sans-serif;
-
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 1000px) {
+  .eventHeading {
+    font-size: 4.5vw;
+  }
+}
+
 .techbadge {
-  padding: 6px 40px;
+  padding: 4px 20px;
   border-radius: 20px;
   font-weight: 600;
-  font-size: 1.7vh;
+  font-size: 1.4vh;
   background: rgba(74, 126, 197, 0.4);
   border: 2px solid rgb(117, 165, 233) !important;
   color: rgb(117, 165, 233) !important;
@@ -113,10 +146,10 @@
   margin: 20px;
 }
 .nontechbadge {
-  padding: 6px 40px;
+  padding: 4px 20px;
   border-radius: 20px;
   font-weight: 600;
-  font-size: 1.7vh;
+  font-size: 1.4vh;
   background: rgba(220, 111, 141, 0.27);
   border: 2px solid #dc6f8d !important;
   color: #dc6f8d !important;
@@ -127,6 +160,10 @@
 }
 .headerWrapper {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
 }
 .eventsContainer {
   text-align: center;
@@ -142,11 +179,23 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-  box-shadow: 2px 2px 0.9em #df1592, -2px -2px 0.9em #19e9f0;
+  box-shadow: 2px 2px 50em -70px #df159280;
   border-radius: 20px;
   color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2vh;
+  font-family: 'Menlo', monospace;
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 1000px) {
+  .eventDetails {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .eventDetails {
+    font-size: 3vw;
+  }
 }
 
 .roundCard {

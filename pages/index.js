@@ -2,6 +2,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -342,7 +343,7 @@ export default function Home() {
           <Container className={styles.dept_cards}>
             <Row>
               <Col xs={6} sm={6} md={4} lg={3}>
-                <div className={styles['card'] + ' ' + styles['card_top']}>
+               <div className={styles['card'] + ' ' + styles['card_top']}>
                   <div className={styles.card_image}>
                     {/* eslint-disable-next-line */}
                     <img
