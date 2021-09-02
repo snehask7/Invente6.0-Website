@@ -30,9 +30,10 @@ function Signin() {
   const onSubmit = async (event) => {
     event.preventDefault();
     //console.log(formEmail, formPassword);
+    let toastId;
     try {
       setLoading(true);
-      const toastId = toast.loading('Signing in..');
+      toastId = toast.loading('Signing in..');
       await login(formEmail, formPassword);
       toast.dismiss(toastId);
       toast.success('Success!');
@@ -52,6 +53,7 @@ function Signin() {
       } else {
         toast.error('An unexpected error has occurred. ☠️');
       }
+      toast.dismiss(toastId);
       console.log('Failed to login', err);
     }
   };
