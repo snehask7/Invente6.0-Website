@@ -2,6 +2,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -9,6 +10,7 @@ import NavbarComp from '../components/Navbar';
 import ts from '../public/sponsors/ts.png';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Home.module.css';
+
 export default function Home() {
   AOS.init();
   const [loadAnimation, setLoadAnimation] = useState('');
@@ -342,176 +344,224 @@ export default function Home() {
           <Container className={styles.dept_cards}>
             <Row>
               <Col xs={6} sm={6} md={4} lg={3}>
-                <div className={styles['card'] + ' ' + styles['card_top']}>
-                  <div className={styles.card_image}>
-                    {/* eslint-disable-next-line */}
-                    <img
-                      src="/icons/cse.jpg"
-                      alt="cse"
-                      width={200}
-                      height={200}
-                      className={styles.img}
-                    />
+                <Link
+                  href={{
+                    pathname: '/department/CSE/0',
+                  }}
+                >
+                  <div className={styles['card'] + ' ' + styles['card_top']}>
+                    <div className={styles.card_image}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        src="/icons/cse.jpg"
+                        alt="cse"
+                        width={200}
+                        height={200}
+                        className={styles.img}
+                      />
+                    </div>
+                    <div
+                      className={
+                        styles['card_title'] + ' ' + styles['title-white']
+                      }
+                    >
+                      <p>CSE</p>
+                    </div>
                   </div>
-                  <div
-                    className={
-                      styles['card_title'] + ' ' + styles['title-white']
-                    }
-                  >
-                    <p>CSE</p>
-                  </div>
-                </div>
+                </Link>
               </Col>
               <Col xs={6} sm={6} md={4} lg={3}>
-                <div className={styles['card'] + ' ' + styles['card_top']}>
-                  <div className={styles.card_image}>
-                    {/* eslint-disable-next-line */}
-                    <img
-                      src="/icons/it.jpg"
-                      alt="cse"
-                      width={200}
-                      height={200}
-                      className={styles.img}
-                    />
+                <Link
+                  href={{
+                    pathname: '/department/IT/0',
+                  }}
+                >
+                  <div className={styles['card'] + ' ' + styles['card_top']}>
+                    <div className={styles.card_image}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        src="/icons/it.jpg"
+                        alt="cse"
+                        width={200}
+                        height={200}
+                        className={styles.img}
+                      />
+                    </div>
+                    <div
+                      className={
+                        styles['card_title'] + ' ' + styles['title-white']
+                      }
+                    >
+                      <p>IT</p>
+                    </div>
                   </div>
-                  <div
-                    className={
-                      styles['card_title'] + ' ' + styles['title-white']
-                    }
-                  >
-                    <p>IT</p>
-                  </div>
-                </div>
+                </Link>
               </Col>
               <Col xs={6} sm={6} md={4} lg={3}>
-                <div className={styles['card'] + ' ' + styles['card_top']}>
-                  <div className={styles.card_image}>
-                    {/* eslint-disable-next-line */}
-                    <img
-                      src="/icons/ece.jpeg"
-                      alt="cse"
-                      width={200}
-                      height={200}
-                      className={styles.img}
-                    />
+                <Link
+                  href={{
+                    pathname: '/department/ECE/0',
+                  }}
+                >
+                  <div className={styles['card'] + ' ' + styles['card_top']}>
+                    <div className={styles.card_image}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        src="/icons/ece.jpeg"
+                        alt="cse"
+                        width={200}
+                        height={200}
+                        className={styles.img}
+                      />
+                    </div>
+                    <div
+                      className={
+                        styles['card_title'] + ' ' + styles['title-white']
+                      }
+                    >
+                      <p>ECE</p>
+                    </div>
                   </div>
-                  <div
-                    className={
-                      styles['card_title'] + ' ' + styles['title-white']
-                    }
-                  >
-                    <p>ECE</p>
-                  </div>
-                </div>
+                </Link>
               </Col>
               <Col xs={6} sm={6} md={4} lg={3}>
-                <div className={styles['card'] + ' ' + styles['card_top']}>
-                  <div className={styles.card_image}>
-                    {/* eslint-disable-next-line */}
-                    <img
-                      src="/icons/eee.jpeg"
-                      alt="cse"
-                      width={200}
-                      height={200}
-                      className={styles.img}
-                    />
+                <Link
+                  href={{
+                    pathname: '/department/EEE/0',
+                  }}
+                >
+                  <div className={styles['card'] + ' ' + styles['card_top']}>
+                    <div className={styles.card_image}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        src="/icons/eee.jpeg"
+                        alt="cse"
+                        width={200}
+                        height={200}
+                        className={styles.img}
+                      />
+                    </div>
+                    <div
+                      className={
+                        styles['card_title'] + ' ' + styles['title-white']
+                      }
+                    >
+                      <p>EEE</p>
+                    </div>
                   </div>
-                  <div
-                    className={
-                      styles['card_title'] + ' ' + styles['title-white']
-                    }
-                  >
-                    <p>EEE</p>
-                  </div>
-                </div>
+                </Link>
               </Col>
               <Col xs={6} sm={6} md={4} lg={3}>
-                <div className={styles.card}>
-                  <div className={styles.card_image}>
-                    {' '}
-                    {/* eslint-disable-next-line */}
-                    <img
-                      src="/icons/bme.jpg"
-                      alt="cse"
-                      width={200}
-                      height={200}
-                      className={styles.img}
-                    />{' '}
+                <Link
+                  href={{
+                    pathname: '/department/BME/0',
+                  }}
+                >
+                  <div className={styles.card}>
+                    <div className={styles.card_image}>
+                      {' '}
+                      {/* eslint-disable-next-line */}
+                      <img
+                        src="/icons/bme.jpg"
+                        alt="cse"
+                        width={200}
+                        height={200}
+                        className={styles.img}
+                      />{' '}
+                    </div>
+                    <div
+                      className={
+                        styles['card_title'] + ' ' + styles['title-white']
+                      }
+                    >
+                      <p>BME</p>
+                    </div>
                   </div>
-                  <div
-                    className={
-                      styles['card_title'] + ' ' + styles['title-white']
-                    }
-                  >
-                    <p>BME</p>
-                  </div>
-                </div>
+                </Link>
               </Col>
               <Col xs={6} sm={6} md={4} lg={3}>
-                <div className={styles.card}>
-                  <div className={styles.card_image}>
-                    {' '}
-                    {/* eslint-disable-next-line */}
-                    <img
-                      src="/icons/civil.jpeg"
-                      alt="cse"
-                      width={200}
-                      height={200}
-                      className={styles.img}
-                    />{' '}
+                <Link
+                  href={{
+                    pathname: '/department/Civil/0',
+                  }}
+                >
+                  <div className={styles.card}>
+                    <div className={styles.card_image}>
+                      {' '}
+                      {/* eslint-disable-next-line */}
+                      <img
+                        src="/icons/civil.jpeg"
+                        alt="cse"
+                        width={200}
+                        height={200}
+                        className={styles.img}
+                      />{' '}
+                    </div>
+                    <div
+                      className={
+                        styles['card_title'] + ' ' + styles['title-white']
+                      }
+                    >
+                      <p>Civil</p>
+                    </div>
                   </div>
-                  <div
-                    className={
-                      styles['card_title'] + ' ' + styles['title-white']
-                    }
-                  >
-                    <p>Civil</p>
-                  </div>
-                </div>
+                </Link>
               </Col>
               <Col xs={6} sm={6} md={4} lg={3}>
-                <div className={styles.card}>
-                  <div className={styles.card_image}>
-                    {' '}
-                    {/* eslint-disable-next-line */}
-                    <img
-                      src="/icons/mech.jpg"
-                      alt="cse"
-                      width={200}
-                      height={200}
-                      className={styles.img}
-                    />{' '}
+                <Link
+                  href={{
+                    pathname: '/department/Mechanical/0',
+                  }}
+                >
+                  <div className={styles.card}>
+                    <div className={styles.card_image}>
+                      {' '}
+                      {/* eslint-disable-next-line */}
+                      <img
+                        src="/icons/mech.jpg"
+                        alt="cse"
+                        width={200}
+                        height={200}
+                        className={styles.img}
+                      />{' '}
+                    </div>
+                    <div
+                      className={
+                        styles['card_title'] + ' ' + styles['title-white']
+                      }
+                    >
+                      <p>Mechanical</p>
+                    </div>
                   </div>
-                  <div
-                    className={
-                      styles['card_title'] + ' ' + styles['title-white']
-                    }
-                  >
-                    <p>Mechanical</p>
-                  </div>
-                </div>
+                </Link>
               </Col>
               <Col xs={6} sm={6} md={4} lg={3}>
-                <div className={styles.card}>
-                  <div className={styles.card_image}>
-                    {' '}
-                    {/* eslint-disable-next-line */}
-                    <img
-                      src="/icons/chem.jpeg"
-                      alt="cse"
-                      width={200}
-                      height={200}
-                      className={styles.img}
-                    />{' '}
+                <Link
+                  href={{
+                    pathname: '/department/Chemical/0',
+                  }}
+                >
+                  <div className={styles.card}>
+                    <div className={styles.card_image}>
+                      {' '}
+                      {/* eslint-disable-next-line */}
+                      <img
+                        src="/icons/chem.jpeg"
+                        alt="cse"
+                        width={200}
+                        height={200}
+                        className={styles.img}
+                      />{' '}
+                    </div>
+                    <div
+                      className={
+                        styles['card_title'] + ' ' + styles['title-white']
+                      }
+                    >
+                      <p>Chemical</p>
+                    </div>
                   </div>
-                  <div
-                    className={
-                      styles['card_title'] + ' ' + styles['title-white']
-                    }
-                  >
-                    <p>Chemical</p>
-                  </div>
-                </div>
+                </Link>
               </Col>
             </Row>
           </Container>
