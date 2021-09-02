@@ -1,0 +1,203 @@
+{
+  "10": { "name": "ENIGMA:(CRYPT IT)", "department": "IT", "category": "tech" },
+  "11": { "name": "WEBSITICA", "department": "IT", "category": "tech" },
+  "12": { "name": "CODERA", "department": "IT", "category": "tech" },
+  "13": { "name": "REVERSE GEAR", "department": "IT", "category": "tech" },
+  "14": { "name": "PAPYRUS", "department": "IT", "category": "tech" },
+  "15": { "name": "ANALYTICS SPRINT", "department": "IT", "category": "tech" },
+  "16": { "name": "SPORTS QUIZ", "department": "IT", "category": "non-tech" },
+  "17": {
+    "name": "E-TREASURE HUNT",
+    "department": "IT",
+    "category": "non-tech"
+  },
+  "20": { "name": "Hackinfinity", "department": "ECE", "category": "eceHack" },
+  "21": { "name": "Enigma", "department": "ECE", "category": "tech" },
+  "22": { "name": "Data Utopia", "department": "ECE", "category": "tech" },
+  "23": {
+    "name": "Tinkering Thoughts",
+    "department": "ECE",
+    "category": "tech"
+  },
+  "24": { "name": "The Big Meg", "department": "ECE", "category": "tech" },
+  "25": { "name": "Debug-a-circuit ", "department": "ECE", "category": "tech" },
+  "26": { "name": "Junkyard Jumble", "department": "ECE", "category": "tech" },
+  "27": {
+    "name": "Paper Presentation",
+    "department": "ECE",
+    "category": "tech"
+  },
+  "28": { "name": "IPL Auction", "department": "ECE", "category": "non-tech" },
+  "29": { "name": "SketchX", "department": "ECE", "category": "non-tech" },
+  "30": {
+    "name": "Paper Presentation",
+    "department": "EEE",
+    "category": "tech"
+  },
+  "31": { "name": "Tech Quiz", "department": "EEE", "category": "tech" },
+  "32": { "name": "E-Bugging", "department": "EEE", "category": "tech" },
+  "33": { "name": "Electronic-Maze", "department": "EEE", "category": "tech" },
+  "34": { "name": "Ideate", "department": "EEE", "category": "tech" },
+  "35": { "name": "Inventino 2021", "department": "EEE", "category": "tech" },
+  "36": { "name": "Tentkotta", "department": "EEE", "category": "non-tech" },
+  "37": { "name": "IPL Bidding", "department": "EEE", "category": "non-tech" },
+  "40": {
+    "name": "Paper Presentation",
+    "department": "Mechanical",
+    "category": "tech"
+  },
+  "41": {
+    "name": "Project Exhibition",
+    "department": "Mechanical",
+    "category": "tech"
+  },
+  "42": {
+    "name": "Need for Speed – Autoquiz",
+    "department": "Mechanical",
+    "category": "tech"
+  },
+  "43": {
+    "name": "Mechathlon",
+    "department": "Mechanical",
+    "category": "tech"
+  },
+  "44": {
+    "name": "2 fast 2 curious",
+    "department": "Mechanical",
+    "category": "tech"
+  },
+  "45": {
+    "name": "Design and deal",
+    "department": "Mechanical",
+    "category": "tech"
+  },
+  "46": {
+    "name": "QUARTER MILE",
+    "department": "Mechanical",
+    "category": "tech"
+  },
+  "47": { "name": "Car wars", "department": "Mechanical", "category": "tech" },
+  "48": {
+    "name": "ROUNDABOUT",
+    "department": "Mechanical",
+    "category": "non-tech"
+  },
+  "50": {
+    "name": "Paper Presentation",
+    "department": "BME",
+    "category": "tech"
+  },
+  "51": { "name": "Quiz Masters", "department": "BME", "category": "tech" },
+  "52": {
+    "name": "Telehealth Web Development",
+    "department": "BME",
+    "category": "tech"
+  },
+  "53": {
+    "name": "Design to Innovate",
+    "department": "BME",
+    "category": "tech"
+  },
+  "54": { "name": "Biomedicathon", "department": "BME", "category": "bmeHack" },
+  "55": { "name": "Medical Auction", "department": "BME", "category": "tech" },
+  "56": {
+    "name": "Entrepreneurship",
+    "department": "BME",
+    "category": "non-tech"
+  },
+  "57": { "name": " Reel it ", "department": "BME", "category": "non-tech" },
+  "60": {
+    "name": "ARCHITECTURE AT ZERO",
+    "department": "Civil",
+    "category": "tech"
+  },
+  "61": {
+    "name": "QUIZZARDS OF OZ",
+    "department": "Civil",
+    "category": "tech"
+  },
+  "62": {
+    "name": "Paper Presentation",
+    "department": "Civil",
+    "category": "tech"
+  },
+  "63": { "name": "CLASH OF MINDS", "department": "Civil", "category": "tech" },
+  "64": {
+    "name": "DEAL OR NO DEAL",
+    "department": "Civil",
+    "category": "tech"
+  },
+  "65": {
+    "name": "SOLUTION -AU PROBLEME",
+    "department": "Civil",
+    "category": "tech"
+  },
+  "66": { "name": "UNSCRIPTED", "department": "Civil", "category": "tech" },
+  "67": {
+    "name": "BOB THE PLUMBER",
+    "department": "Civil",
+    "category": "non-tech"
+  },
+  "68": {
+    "name": "NETFLIX WARS",
+    "department": "Civil",
+    "category": "non-tech"
+  },
+  "69": {
+    "name": "ACE it (VALORANT)",
+    "department": "Civil",
+    "category": "non-tech"
+  },
+  "70": {
+    "name": "Paper Presentation",
+    "department": "Chemical",
+    "category": "tech"
+  },
+  "71": {
+    "name": "Who's on the Leaderboard",
+    "department": "Chemical",
+    "category": "tech"
+  },
+  "72": {
+    "name": "Be-safe-athon",
+    "department": "Chemical",
+    "category": "tech"
+  },
+  "73": {
+    "name": "Like-for-Like",
+    "department": "Chemical",
+    "category": "tech"
+  },
+  "74": {
+    "name": "The Commentator’s Conference",
+    "department": "Chemical",
+    "category": "tech"
+  },
+  "75": {
+    "name": "IPL-Invente's Pictionary League",
+    "department": "Chemical",
+    "category": "tech"
+  },
+  "76": {
+    "name": "The Last Man Standing",
+    "department": "Chemical",
+    "category": "non-tech"
+  },
+  "77": {
+    "name": "Ee Sala MEME Namadhe",
+    "department": "Chemical",
+    "category": "non-tech"
+  },
+  "00": { "name": "Codolympics", "department": "CSE", "category": "tech" },
+  "01": { "name": "Dev Heist", "department": "CSE", "category": "tech" },
+  "02": {
+    "name": "Paper Presentation",
+    "department": "CSE",
+    "category": "tech"
+  },
+  "03": { "name": "Code Triathlon", "department": "CSE", "category": "tech" },
+  "04": { "name": "Hacker’s Asylum", "department": "CSE", "category": "tech" },
+  "05": { "name": "MOCK JOB DRIVE", "department": "CSE", "category": "tech" },
+  "06": { "name": "Reverse in Relay", "department": "CSE", "category": "tech" },
+  "07": { "name": "Game Nite", "department": "CSE", "category": "non-tech" }
+}
