@@ -2,6 +2,7 @@
 /* mixins */
 .page_bg,
 .animation_wrapper {
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
