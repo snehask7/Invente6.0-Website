@@ -10,7 +10,7 @@ import {
   FaRegEnvelope,
   FaTimesCircle,
   FaUniversity,
-  FaUserGraduate
+  FaUserGraduate,
 } from 'react-icons/fa';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
@@ -140,12 +140,10 @@ function Profile() {
               </Row>
             </Container>
           </div>
-        ) : (
-          // <div>
-          //   <h2 className={styles.error}>You must be signed in. </h2>
-          // </div>
-          null
-        )}
+        ) : // <div>
+        //   <h2 className={styles.error}>You must be signed in. </h2>
+        // </div>
+        null}
 
         {profile ? (
           <div>
