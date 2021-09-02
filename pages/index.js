@@ -6,9 +6,9 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import NavbarComp from '../components/Navbar';
+import ts from '../public/sponsors/ts.png';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Home.module.css';
-
 export default function Home() {
   AOS.init();
   const [loadAnimation, setLoadAnimation] = useState('');
@@ -25,7 +25,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles2.animation_wrapper}>
-        <div className={styles2['particle_4']}></div>
+        <div
+          className={styles2['particle_2'] + ' ' + styles2['particle_4']}
+        ></div>
       </div>
 
       <main className={styles.main}>
@@ -342,6 +344,7 @@ export default function Home() {
               <Col xs={6} sm={6} md={4} lg={3}>
                 <div className={styles['card'] + ' ' + styles['card_top']}>
                   <div className={styles.card_image}>
+                    {/* eslint-disable-next-line */}
                     <img
                       src="/icons/cse.jpg"
                       alt="cse"
@@ -362,6 +365,7 @@ export default function Home() {
               <Col xs={6} sm={6} md={4} lg={3}>
                 <div className={styles['card'] + ' ' + styles['card_top']}>
                   <div className={styles.card_image}>
+                    {/* eslint-disable-next-line */}
                     <img
                       src="/icons/it.jpg"
                       alt="cse"
@@ -382,6 +386,7 @@ export default function Home() {
               <Col xs={6} sm={6} md={4} lg={3}>
                 <div className={styles['card'] + ' ' + styles['card_top']}>
                   <div className={styles.card_image}>
+                    {/* eslint-disable-next-line */}
                     <img
                       src="/icons/ece.jpeg"
                       alt="cse"
@@ -402,6 +407,7 @@ export default function Home() {
               <Col xs={6} sm={6} md={4} lg={3}>
                 <div className={styles['card'] + ' ' + styles['card_top']}>
                   <div className={styles.card_image}>
+                    {/* eslint-disable-next-line */}
                     <img
                       src="/icons/eee.jpeg"
                       alt="cse"
@@ -423,6 +429,7 @@ export default function Home() {
                 <div className={styles.card}>
                   <div className={styles.card_image}>
                     {' '}
+                    {/* eslint-disable-next-line */}
                     <img
                       src="/icons/bme.jpg"
                       alt="cse"
@@ -444,6 +451,7 @@ export default function Home() {
                 <div className={styles.card}>
                   <div className={styles.card_image}>
                     {' '}
+                    {/* eslint-disable-next-line */}
                     <img
                       src="/icons/civil.jpeg"
                       alt="cse"
@@ -465,6 +473,7 @@ export default function Home() {
                 <div className={styles.card}>
                   <div className={styles.card_image}>
                     {' '}
+                    {/* eslint-disable-next-line */}
                     <img
                       src="/icons/mech.jpg"
                       alt="cse"
@@ -486,6 +495,7 @@ export default function Home() {
                 <div className={styles.card}>
                   <div className={styles.card_image}>
                     {' '}
+                    {/* eslint-disable-next-line */}
                     <img
                       src="/icons/chem.jpeg"
                       alt="cse"
@@ -505,6 +515,35 @@ export default function Home() {
               </Col>
             </Row>
           </Container>
+          <Container className={styles.spons_section}>
+            <div className={styles.sub_title}>
+              <h2>Sponsors</h2>
+              <h2>Sponsors</h2>
+            </div>
+            <div className={styles.slider}>
+              <div className={styles.slide_track}>
+                <div className={styles.slide}>
+                  <Image src={ts} alt="ts"></Image>
+                </div>
+                <div className={styles.slide}>
+                  <Image src={ts} alt="ts"></Image>
+                </div>
+                <div className={styles.slide}>
+                  <Image src={ts} alt="ts"></Image>
+                </div>{' '}
+                <div className={styles.slide}>
+                  <Image src={ts} alt="ts"></Image>
+                </div>{' '}
+                <div className={styles.slide}>
+                  <Image src={ts} alt="ts"></Image>
+                </div>
+                <div className={styles.slide}>
+                  <Image src={ts} alt="ts"></Image>
+                </div>
+              </div>
+            </div>
+          </Container>
+          <div className={styles.filler}></div>
         </div>
       </main>
     </div>
