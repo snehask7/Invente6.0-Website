@@ -1,4 +1,5 @@
 import axios from 'axios';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -83,7 +84,14 @@ function Profile() {
                 Non-tech
               </span>
             </div>
-            <div className={styles.image}></div>
+            <div className={styles.image}>
+              <Image
+                className={styles.image}
+                src="/icons/profile.jpg"
+                width={130}
+                height={130}
+              ></Image>
+            </div>
             <h1 className={styles.name}>{profile.fullName}</h1>
             <Container className={styles.details}>
               <Row>
