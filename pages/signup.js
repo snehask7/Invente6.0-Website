@@ -23,6 +23,7 @@ function SignUp() {
     username: '',
     phone_number: '',
     full_name: '',
+    college_name: '',
     reg_no: '',
     department: '',
     year: '',
@@ -76,6 +77,7 @@ function SignUp() {
             registerNumber: state['reg_no'],
             year: state['year'],
             department: state['department'],
+            collegeName: state['college_name'],
           },
         })
           .then(() => {
