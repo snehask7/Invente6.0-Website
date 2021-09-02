@@ -23,6 +23,11 @@
   background-size: cover;
   z-index: -1;
 }
+
+.container:first-child {
+  z-index: 2 !important;
+}
+
 .signupCard {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -109,12 +114,10 @@
   font-weight: bold;
   font-family: 'Menlo', monospace;
   font-size: 1.5vh;
-  transform: scale(1, 2);
 }
 
 .continueButton {
   position: relative;
-  display: inline-block;
   padding: 10px 20px;
   color: #03e9f4;
   background: none;
@@ -126,6 +129,7 @@
   transition: 0.5s;
   margin-top: 40px;
   letter-spacing: 4px;
+  z-index: 0;
 }
 
 .continueButton:hover {
@@ -133,4 +137,8 @@
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 30px #03e9f4;
+}
+
+.hide {
+  display: none;
 }

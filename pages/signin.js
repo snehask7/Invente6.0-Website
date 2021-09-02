@@ -6,6 +6,7 @@ import { toast } from 'react-hot-toast';
 import Typist from 'react-typist';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
+import { useNav } from '../lib/navbarstate';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
 
@@ -14,6 +15,7 @@ function Signin() {
   const [formEmail, setFormEmail] = useState('');
   const [formPassword, setFormPassword] = useState('');
   const [loading, setLoading] = useState(false);
+  const { navbarToggle, toggleNavbar } = useNav();
   const { login } = useAuth();
   const router = useRouter();
 
@@ -62,12 +64,15 @@ function Signin() {
     <div className={styles.container}>
       {/* <div className={styles2.animation_wrapper}>
         <div
+          className={styles2['particle'] + ' ' + styles2['particle_3']}
+        ></div>
+        <div
           className={styles2['particle'] + ' ' + styles2['particle_4']}
         ></div>
       </div> */}
       <NavbarComp />
       <main className={styles2.page_wrapper}>
-        <div className={styles.signinCard}>
+        <div className={!navbarToggle ? styles.signinCard : styles.hide}>
           <h1 className={styles.typing}>
             <Typist
               avgTypingDelay={30}

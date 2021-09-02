@@ -1,4 +1,4 @@
-import { arrayUnion, firestore, serverTimestamp } from '../../lib/firebase';
+import { firestore, serverTimestamp, arrayUnion } from '../../lib/firebase';
 import { cors } from '../../lib/middleware';
 
 // NOTE: currently, existence of username is checked to prevent server crash.

@@ -2,7 +2,7 @@
   "ECE": [
     {
       "name": "Hackinfinity",
-      "category": "hackathon",
+      "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
       "organisers": [
@@ -410,7 +410,7 @@
     },
     {
       "name": "Biomedicathon",
-      "category": "hackathon",
+      "category": "tech",
       "min_team_size": 3,
       "max_team_size": 3,
       "organisers": [
