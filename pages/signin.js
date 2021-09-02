@@ -5,6 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Typist from 'react-typist';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
+import { useNav } from '../lib/navbarstate';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
 
@@ -13,6 +14,7 @@ function Signin() {
   const [formEmail, setFormEmail] = useState('');
   const [formPassword, setFormPassword] = useState('');
   const [loading, setLoading] = useState(false);
+  const { navbarToggle, toggleNavbar } = useNav();
   const { login } = useAuth();
   const router = useRouter();
 
@@ -51,7 +53,7 @@ function Signin() {
       </div>
       <NavbarComp />
       <main className={styles2.page_wrapper}>
-        <div className={styles.signinCard}>
+        <div className={!navbarToggle ? styles.signinCard : styles.hide}>
           <h1 className={styles.typing}>
             <Typist
               avgTypingDelay={30}
