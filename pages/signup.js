@@ -186,29 +186,41 @@ function SignUp() {
                 </Row>
                 <Row>
                   <Col xs={12} md={6}>
-                    {/* <h5 className={styles.inputLabel}>Year</h5><select className={styles.inputField} required ><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> */}
                     <h5 className={styles.inputLabel}>Year</h5>
-                    <div className={styles.terminalInput}>
-                      <p>{'>'}</p>
-                      <input
-                        className={styles.inputField}
-                        onChange={(e) => onChange('year', e)}
-                        type="number"
-                        required
-                      />
-                    </div>
+                    <select
+                      className={styles.inputField}
+                      required
+                      onChange={(e) => onChange('year', e)}
+                    >
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
                   </Col>
                   <Col xs={12} md={6}>
                     <h5 className={styles.inputLabel}>Department</h5>
-                    <div className={styles.terminalInput}>
-                      <p>{'>'}</p>
-                      <input
-                        className={styles.inputField}
-                        onChange={(e) => onChange('department', e)}
-                        type="text"
-                        required
-                      />
-                    </div>
+                    <input
+                      className={styles.inputField}
+                      type="text"
+                      list="departments"
+                      onChange={(e) => onChange('department', e)}
+                    />
+                    <datalist
+                      id="departments"
+                      className={styles.inputField}
+                      required
+                    >
+                      <option value="CSE">CSE</option>
+                      <option value="IT">IT</option>
+                      <option value="ECE">ECE</option>
+                      <option value="EEE">EEE</option>
+                      <option value="Mechanical">Mechanical</option>
+                      <option value="BME">BME</option>
+                      <option value="Civil">Civil</option>
+                      <option value="Chemical">Chemical</option>
+                    </datalist>
                   </Col>
                 </Row>
                 <Row>
