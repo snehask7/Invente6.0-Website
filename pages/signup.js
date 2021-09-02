@@ -23,8 +23,8 @@ function SignUp() {
     password: '',
     username: '',
     phone_number: '',
-    first_name: '',
-    last_name: '',
+    full_name: '',
+    college_name: '',
     reg_no: '',
     department: '',
     year: '',
@@ -62,11 +62,8 @@ function SignUp() {
       );
       if (currentUser) {
         await currentUser.sendEmailVerification();
-        toast.success('Verification email sent');
-        await addDisplayName(
-          currentUser,
-          state['first_name'] + ' ' + state['last_name']
-        );
+        toast.success('Verification email sent.');
+        await addDisplayName(currentUser, state['full_name']);
         axios({
           baseURL: window.location.origin,
           method: 'POST',
@@ -75,21 +72,19 @@ function SignUp() {
             uid: currentUser.uid,
             email: state['email'],
             username:
-              state['first_name'].toLowerCase() +
-              '_' +
-              state['last_name'].toLowerCase() +
-              '#' +
+              state['full_name'].toLowerCase().replace(' ', '_') +
               generate4DigitNumber(),
-            firstName: state['first_name'],
-            lastName: state['last_name'],
+            fullName: state['full_name'],
             phone: state['phone_number'],
             registerNumber: state['reg_no'],
             year: state['year'],
             department: state['department'],
+            collegeName: state['college_name'],
           },
         })
           .then(() => {
             console.log('SignUp success');
+            toast.success('Sign up successful!');
           })
           .catch(() => {
             toast.error('Unable to post data');
@@ -98,10 +93,11 @@ function SignUp() {
       } else {
         toast.error('Error signing up');
       }
-      console.log('SignUp success');
+      //console.log('SignUp success');
       setLoading(false);
     } catch (err) {
-      console.log('Failed to login', err);
+      //console.log('Failed to login', err);
+      toast.error('An unexpected error has occurred. ☠️');
     } finally {
       setLoading(false);
     }
@@ -145,24 +141,12 @@ function SignUp() {
             {step >= 1 ? (
               <Container>
                 <Row>
-                  <Col xs={12} md={6}>
-                    <h5 className={styles.inputLabel}>First Name</h5>
+                  <Col xs={12} md={12} lg={12}>
+                    <h5 className={styles.inputLabel}>Full Name</h5>
                     <div className={styles.terminalInput}>
                       <p>{'>'}</p>
                       <input
-                        onChange={(e) => onChange('first_name', e)}
-                        className={styles.inputField}
-                        type="text"
-                        required
-                      />
-                    </div>
-                  </Col>
-                  <Col xs={12} md={6}>
-                    <h5 className={styles.inputLabel}>Last Name</h5>
-                    <div className={styles.terminalInput}>
-                      <p>{'>'}</p>
-                      <input
-                        onChange={(e) => onChange('last_name', e)}
+                        onChange={(e) => onChange('full_name', e)}
                         className={styles.inputField}
                         type="text"
                         required
@@ -206,29 +190,41 @@ function SignUp() {
                 </Row>
                 <Row>
                   <Col xs={12} md={6}>
-                    {/* <h5 className={styles.inputLabel}>Year</h5><select className={styles.inputField} required ><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> */}
                     <h5 className={styles.inputLabel}>Year</h5>
-                    <div className={styles.terminalInput}>
-                      <p>{'>'}</p>
-                      <input
-                        className={styles.inputField}
-                        onChange={(e) => onChange('year', e)}
-                        type="number"
-                        required
-                      />
-                    </div>
+                    <select
+                      className={styles.inputField}
+                      required
+                      onChange={(e) => onChange('year', e)}
+                    >
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
                   </Col>
                   <Col xs={12} md={6}>
                     <h5 className={styles.inputLabel}>Department</h5>
-                    <div className={styles.terminalInput}>
-                      <p>{'>'}</p>
-                      <input
-                        className={styles.inputField}
-                        onChange={(e) => onChange('department', e)}
-                        type="text"
-                        required
-                      />
-                    </div>
+                    <input
+                      className={styles.inputField}
+                      type="text"
+                      list="departments"
+                      onChange={(e) => onChange('department', e)}
+                    />
+                    <datalist
+                      id="departments"
+                      className={styles.inputField}
+                      required
+                    >
+                      <option value="CSE">CSE</option>
+                      <option value="IT">IT</option>
+                      <option value="ECE">ECE</option>
+                      <option value="EEE">EEE</option>
+                      <option value="Mechanical">Mechanical</option>
+                      <option value="BME">BME</option>
+                      <option value="Civil">Civil</option>
+                      <option value="Chemical">Chemical</option>
+                    </datalist>
                   </Col>
                 </Row>
                 <Row>

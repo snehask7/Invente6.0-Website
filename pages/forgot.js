@@ -1,13 +1,12 @@
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { toast } from 'react-hot-toast';
 import Typist from 'react-typist';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
-import { toast } from 'react-hot-toast';
 
 function Forgot() {
   const [formEmail, setFormEmail] = useState('');
@@ -32,9 +31,9 @@ function Forgot() {
     setLoading(true);
     try {
       await toast.promise(resetPassword(formEmail), {
-        loading: 'Sending you mail ...',
+        loading: 'Sending you an email..',
         success: 'Check your mail for instructions',
-        error: 'Check your email address',
+        error: 'Check validity of the email address entered',
       });
       setLoading(false);
       setSentMail(true);
