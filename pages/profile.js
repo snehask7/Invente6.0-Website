@@ -55,10 +55,14 @@ function Profile() {
       return (
         <li key={i} className={styles.eventCard}>
           {eventsInfo[event].name}
-
           <FaTimesCircle className={styles.delete}></FaTimesCircle>
           <br></br>
-          <span className={styles.tag}>Event</span>
+          <span className={styles.tag}>
+            {eventsInfo[event].category == 'tech' ||
+            eventsInfo[event].category == 'non-tech'
+              ? 'Event'
+              : 'Hackathon'}
+          </span>
           <span className={styles.verified}>Not paid</span>
         </li>
       );
