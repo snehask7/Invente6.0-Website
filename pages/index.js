@@ -25,9 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles2.animation_wrapper}>
-        <div
-          className={styles2['particle'] + ' ' + styles2['particle_4']}
-        ></div>
+        <div className={styles2['particle_4']}></div>
       </div>
 
       <main className={styles.main}>
