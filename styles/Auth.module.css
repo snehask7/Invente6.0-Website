@@ -17,7 +17,7 @@
 .particle:after {
   position: absolute;
   content: '';
-  top: 2560px;
+  top: 1250px;
 }
 
 .particle_1 {

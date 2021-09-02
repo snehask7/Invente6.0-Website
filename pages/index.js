@@ -355,9 +355,7 @@ export default function Home() {
           </Row>
         </Container>
         <div className={navbarToggle ? styles.hide : styles.dept_section}>
-          <div
-            className={styles.sub_title + ' ' + styles.departmentTitle}
-          >
+          <div className={styles.sub_title + ' ' + styles.departmentTitle}>
             <h2>DEPARTMENTS</h2>
             <h2>DEPARTMENTS</h2>
           </div>
