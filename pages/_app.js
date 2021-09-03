@@ -5,6 +5,7 @@ import { NavProvider } from '../lib/navbarstate';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
+
   return (
     <AuthProvider>
       <NavProvider>
