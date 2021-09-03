@@ -8,6 +8,7 @@ import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
+import { useNav } from '../lib/navbarstate';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Home.module.css';
 
@@ -15,10 +16,13 @@ export default function Home() {
   AOS.init();
   const [loadAnimation, setLoadAnimation] = useState('');
   const router = useRouter();
-
+  const { navbarToggle, toggleNavbar, resetNavbar } = useNav();
   useEffect(() => {
     setLoadAnimation('active');
   }, []);
+  const handleNavbarToggle = () => {
+    setNavbarToggle(!navbarToggle);
+  };
   return (
     <div className={styles.container}>
       <Head>
@@ -289,7 +293,7 @@ export default function Home() {
         <Container className={styles.about_section}>
           <Row>
             <Col s={12} md={12} lg={2}>
-              <div className={styles.astronaut}>
+              <div className={navbarToggle ? styles.hide : styles.astronaut}>
                 <Image
                   src="/icons/astronaut.png"
                   alt="astronaut"
@@ -299,7 +303,7 @@ export default function Home() {
               </div>
             </Col>
             <Col sm={12} md={12} lg={8}>
-              <div className={styles.sub_title}>
+              <div className={navbarToggle ? styles.hide : styles.sub_title}>
                 <h2>ABOUT&nbsp;INVENTE</h2>
                 <h2>ABOUT&nbsp;INVENTE</h2>
               </div>
@@ -325,7 +329,7 @@ export default function Home() {
               </p>
             </Col>
             <Col sm={12} md={12} lg={2}>
-              <div className={styles.astronaut2}>
+              <div className={navbarToggle ? styles.hide : styles.astronaut2}>
                 <Image
                   src="/icons/astronaut2.png"
                   alt="astronaut"
@@ -336,7 +340,10 @@ export default function Home() {
             </Col>
           </Row>
         </Container>
-        <div className={styles.dept_section} id="departments">
+        <div
+          className={navbarToggle ? styles.hide : styles.dept_section}
+          id="departments"
+        >
           <div className={styles.sub_title + ' ' + styles.departmentTitle}>
             <h2>DEPARTMENTS</h2>
             <h2>DEPARTMENTS</h2>

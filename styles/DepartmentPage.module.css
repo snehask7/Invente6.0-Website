@@ -235,7 +235,7 @@
   .pageHeading {
     margin-bottom: 3vh;
   }
-  .container {
+  .mainContainer {
     padding: 2rem;
   }
 }
@@ -322,4 +322,7 @@
 .teamModal {
   background-color: white;
   border-radius: 20px;
+}
+.hideMainContainer {
+  display: none;
 }
