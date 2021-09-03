@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 .container {
-
   background-image: linear-gradient(to right, #050d22, #070e21, #1c132e),
     linear-gradient(
       to bottom right,
@@ -147,4 +146,7 @@
   text-align: center;
   margin-left: 0.5em;
   color: rgb(102, 116, 148);
+}
+.hide {
+  display: none;
 }

@@ -404,3 +404,6 @@
 .filler {
   height: 10vh;
 }
+.hide {
+  display: none;
+}

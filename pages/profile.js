@@ -10,16 +10,19 @@ import {
   FaRegEnvelope,
   FaTimesCircle,
   FaUniversity,
-  FaUserGraduate,
+  FaUserGraduate
 } from 'react-icons/fa';
 import NavbarComp from '../components/Navbar';
 import eventsInfo from '../eventsInfo.json';
 import { useAuth } from '../lib/hooks';
+import { useNav } from '../lib/navbarstate';
 import styles from '../styles/Profile.module.css';
+
 function Profile() {
   const [profile, setProfile] = useState();
   const { currentUser } = useAuth();
   const router = useRouter();
+  const { navbarToggle, toggleNavbar } = useNav();
 
   useEffect(() => {
     async function getProfile() {
@@ -59,7 +62,7 @@ function Profile() {
           <br></br>
           <span className={styles.tag}>
             {eventsInfo[event].category == 'tech' ||
-            eventsInfo[event].category == 'non-tech'
+              eventsInfo[event].category == 'non-tech'
               ? 'Event'
               : 'Hackathon'}
           </span>
@@ -72,7 +75,7 @@ function Profile() {
   return (
     <div className={styles.container}>
       <NavbarComp />
-      <div className={styles.card}>
+      <div className={!navbarToggle ? styles.card : styles.hideCard}>
         {profile ? (
           <div>
             <div className={styles.image}></div>
@@ -153,9 +156,9 @@ function Profile() {
             </Container>
           </div>
         ) : // <div>
-        //   <h2 className={styles.error}>You must be signed in. </h2>
-        // </div>
-        null}
+          //   <h2 className={styles.error}>You must be signed in. </h2>
+          // </div>
+          null}
 
         {profile ? (
           <div>

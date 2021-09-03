@@ -10,12 +10,13 @@ import {
   FaRegBuilding,
   FaRegClock,
   FaTrophy,
-  FaUserAlt,
+  FaUserAlt
 } from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
 import NavbarComp from '../../../components/Navbar';
 import data from '../../../data.json';
 import { useAuth } from '../../../lib/hooks';
+import { useNav } from '../../../lib/navbarstate';
 import styles from '../../../styles/DepartmentPage.module.css';
 
 export default function Department({ data }) {
@@ -25,6 +26,7 @@ export default function Department({ data }) {
   var id = parseInt(router.query.id);
   var events = data;
   const [profile, setProfile] = useState();
+  const { navbarToggle, toggleNavbar } = useNav();
 
   async function register(id) {
     axios({
@@ -65,7 +67,7 @@ export default function Department({ data }) {
       <div className={styles.container}>
         <NavbarComp />
         <main>
-          <div className={styles.mainContainer}>
+          <div className={!navbarToggle ? styles.mainContainer : styles.hideMainContainer}>
             <h1 className={styles.pageHeading}>
               Department of{' '}
               {department == 'Chemical' ? 'Chemical Engineering' : department}
@@ -118,7 +120,7 @@ export default function Department({ data }) {
                     <span
                       className={
                         events[id].category == 'tech' ||
-                        events[id].category == 'hackathon'
+                          events[id].category == 'hackathon'
                           ? styles.techbadge
                           : styles.nontechbadge
                       }
@@ -126,8 +128,8 @@ export default function Department({ data }) {
                       {events[id].category == 'tech'
                         ? 'Tech'
                         : events[id].category == 'hackathon'
-                        ? 'Hackathon'
-                        : 'Non-Tech'}
+                          ? 'Hackathon'
+                          : 'Non-Tech'}
                     </span>
                   </p>
                   <br></br>
@@ -186,9 +188,9 @@ export default function Department({ data }) {
                       {events[id].min_team_size == events[id].max_team_size
                         ? events[id].min_team_size + ' '
                         : events[id].min_team_size +
-                          ' - ' +
-                          events[id].max_team_size +
-                          ' '}
+                        ' - ' +
+                        events[id].max_team_size +
+                        ' '}
                       per team
                     </div>
                     <div className={styles.col}>
