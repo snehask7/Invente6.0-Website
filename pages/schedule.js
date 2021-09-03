@@ -77,7 +77,7 @@ function Schedule() {
 
   useEffect(() => {
     resetNavbar();
-  }, []);
+  }, [resetNavbar]);
 
   function changeDay(d) {
     day = d;

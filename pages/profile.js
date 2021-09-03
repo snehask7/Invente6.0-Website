@@ -10,7 +10,7 @@ import {
   FaRegEnvelope,
   FaTimesCircle,
   FaUniversity,
-  FaUserGraduate
+  FaUserGraduate,
 } from 'react-icons/fa';
 import NavbarComp from '../components/Navbar';
 import eventsInfo from '../eventsInfo.json';
@@ -62,7 +62,7 @@ function Profile() {
           <br></br>
           <span className={styles.tag}>
             {eventsInfo[event].category == 'tech' ||
-              eventsInfo[event].category == 'non-tech'
+            eventsInfo[event].category == 'non-tech'
               ? 'Event'
               : 'Hackathon'}
           </span>
@@ -156,9 +156,9 @@ function Profile() {
             </Container>
           </div>
         ) : // <div>
-          //   <h2 className={styles.error}>You must be signed in. </h2>
-          // </div>
-          null}
+        //   <h2 className={styles.error}>You must be signed in. </h2>
+        // </div>
+        null}
 
         {profile ? (
           <div>

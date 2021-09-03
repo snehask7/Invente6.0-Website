@@ -340,7 +340,10 @@ export default function Home() {
             </Col>
           </Row>
         </Container>
-        <div className={navbarToggle ? styles.hide : styles.dept_section} id="departments">
+        <div
+          className={navbarToggle ? styles.hide : styles.dept_section}
+          id="departments"
+        >
           <div className={styles.sub_title + ' ' + styles.departmentTitle}>
             <h2>DEPARTMENTS</h2>
             <h2>DEPARTMENTS</h2>

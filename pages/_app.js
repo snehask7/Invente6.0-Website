@@ -15,7 +15,8 @@ function MyApp({ Component, pageProps }) {
               background: '#080E22',
               color: '#FFFFFF',
             },
-          }} />
+          }}
+        />
       </NavProvider>
     </AuthProvider>
   );
