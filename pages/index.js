@@ -12,6 +12,7 @@ import {
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import { useNav } from '../lib/navbarstate';
+import ts from '../public/sponsors/amazon.png';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Home.module.css';
 export default function Home() {
@@ -592,22 +593,19 @@ export default function Home() {
             <div className={styles.slider}>
               <div className={styles.slide_track}>
                 <div className={styles.slide}>
-                  <Image src={ts} alt="ts"></Image>
+                  <Image src={ts} alt="ts" ></Image>
                 </div>
                 <div className={styles.slide}>
-                  <Image src={ts} alt="ts"></Image>
+                  <Image src={ts} alt="ts"  ></Image>
                 </div>
                 <div className={styles.slide}>
-                  <Image src={ts} alt="ts"></Image>
+                  <Image src={ts} alt="ts"  ></Image>
                 </div>{' '}
                 <div className={styles.slide}>
-                  <Image src={ts} alt="ts"></Image>
+                  <Image src={ts} alt="ts"  ></Image>
                 </div>{' '}
                 <div className={styles.slide}>
-                  <Image src={ts} alt="ts"></Image>
-                </div>
-                <div className={styles.slide}>
-                  <Image src={ts} alt="ts"></Image>
+                  <Image src={ts} alt="ts" ></Image>
                 </div>
               </div>
             </div>

@@ -265,91 +265,6 @@
   }
 }
 
-/*organizing committee*/
-
-.org_card {
-  position: relative;
-  display: block;
-  height: 200px;
-  width: 200px;
-  border-radius: 40px;
-  overflow: hidden;
-  text-decoration: none;
-  margin: 30px auto;
-}
-
-.org_card_top {
-  margin-top: 120px;
-}
-
-.org_card_image {
-  width: 100%;
-  height: auto;
-}
-
-.org_card_overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  border-radius: 40px;
-  background-color: #03e9f4;
-  transform: translateY(100%);
-  transition: 0.2s ease-in-out;
-}
-
-.org_card:hover .org_card_overlay {
-  transform: translateY(0);
-}
-
-.org_card_header {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 2em;
-  padding: 0 2em;
-  border-radius: 40px 0 0 0;
-  background-color: #03e9f4;
-  transform: translateY(-100%);
-  transition: 0.2s ease-in-out;
-}
-
-.org_card:hover .org_card_header {
-  transform: translateY(0);
-}
-
-.org_card_thumb {
-  flex-shrink: 0;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-
-.org_card_title {
-  font-size: 1em;
-  margin: 0 2.2em 0.3em;
-  color: #050d22;
-}
-
-.org_card_status {
-  font-size: 1em;
-  margin: 0 3.3em;
-  color: #1c132e;
-}
-
-.org_card_description {
-  padding: 0 2em 2em;
-  margin: 0;
-  color: #fff;
-  font-family: 'MockFlowFont';
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
-  margin-top: 10px;
-}
-
 .icon {
   float: left;
   margin-right: 10px;
@@ -369,11 +284,16 @@
 }
 .slider {
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  height: 200px;
+
+  height: 150px;
   margin: auto;
   overflow: hidden;
   position: relative;
   width: 960px;
+}
+.slide {
+  margin: 2em;
+  margin-top: 3em;
 }
 .slider::before,
 .slider::after {
@@ -409,6 +329,9 @@
 }
 
 /*Organiser section*/
+.org_section {
+  margin-top: 8vw;
+}
 .org_card {
   box-shadow: 0 4px 8px 0 rgba(11, 196, 196, 0.5);
   transition: 0.3s;
@@ -417,6 +340,7 @@
   margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
 }
 
 .org_details {
