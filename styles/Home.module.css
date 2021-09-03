@@ -407,3 +407,49 @@
 .hide {
   display: none;
 }
+
+/*Organiser section*/
+.org_card {
+  box-shadow: 0 4px 8px 0 rgba(11, 196, 196, 0.5);
+  transition: 0.3s;
+  width: 200px;
+  height: 200px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.org_details {
+  padding: 5px 8px 0;
+  background-color: #fff;
+  margin-top: -10px;
+}
+
+.icon {
+  float: left;
+  margin-right: 10px;
+  font-size: 0.8em;
+}
+
+.org_name {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.phone {
+  font-size: 0.8em;
+}
+@media screen and (max-width: 992px) {
+  .org_card {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .org_card {
+    width: 120px;
+    height: 120px;
+    margin-top: 40px;
+  }
+}
