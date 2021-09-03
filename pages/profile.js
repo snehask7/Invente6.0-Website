@@ -87,9 +87,10 @@ function Profile() {
             <div className={styles.image}>
               <Image
                 className={styles.image}
-                src="/icons/profile.jpg"
+                src={currentUser?.photoURL}
                 width={130}
                 height={130}
+                alt={profile.username}
               ></Image>
             </div>
             <h1 className={styles.name}>{profile.fullName}</h1>
