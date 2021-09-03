@@ -6,9 +6,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import {
-  FaPhoneAlt
-} from 'react-icons/fa';
+import { FaPhoneAlt } from 'react-icons/fa';
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import { useNav } from '../lib/navbarstate';
@@ -593,19 +591,19 @@ export default function Home() {
             <div className={styles.slider}>
               <div className={styles.slide_track}>
                 <div className={styles.slide}>
-                  <Image src={ts} alt="ts" ></Image>
+                  <Image src={ts} alt="ts"></Image>
                 </div>
                 <div className={styles.slide}>
-                  <Image src={ts} alt="ts"  ></Image>
+                  <Image src={ts} alt="ts"></Image>
                 </div>
                 <div className={styles.slide}>
-                  <Image src={ts} alt="ts"  ></Image>
+                  <Image src={ts} alt="ts"></Image>
                 </div>{' '}
                 <div className={styles.slide}>
-                  <Image src={ts} alt="ts"  ></Image>
+                  <Image src={ts} alt="ts"></Image>
                 </div>{' '}
                 <div className={styles.slide}>
-                  <Image src={ts} alt="ts" ></Image>
+                  <Image src={ts} alt="ts"></Image>
                 </div>
               </div>
             </div>
@@ -661,7 +659,9 @@ export default function Home() {
                       className={styles.img}
                     />
                     <div className={styles.org_details}>
-                      <span className={styles.org_name}>S. Nikhil Viswanath</span>
+                      <span className={styles.org_name}>
+                        S. Nikhil Viswanath
+                      </span>
                       <h6>ECE</h6>
                       <FaPhoneAlt className={styles.icon}></FaPhoneAlt>
                       <p className={styles.phone}>9176875101</p>
