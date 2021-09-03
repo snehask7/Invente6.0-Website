@@ -6,12 +6,13 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { FaPhoneAlt } from 'react-icons/fa';
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import { useNav } from '../lib/navbarstate';
+import ts from '../public/sponsors/amazon.png';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Home.module.css';
-
 export default function Home() {
   AOS.init();
   const [loadAnimation, setLoadAnimation] = useState('');
@@ -581,7 +582,8 @@ export default function Home() {
               </Col>
             </Row>
           </Container>
-          {/* <Container className={styles.spons_section}>
+
+          <Container className={styles.spons_section}>
             <div className={styles.sub_title}>
               <h2>Sponsors</h2>
               <h2>Sponsors</h2>
@@ -603,12 +605,159 @@ export default function Home() {
                 <div className={styles.slide}>
                   <Image src={ts} alt="ts"></Image>
                 </div>
-                <div className={styles.slide}>
-                  <Image src={ts} alt="ts"></Image>
-                </div>
               </div>
             </div>
-          </Container> */}
+          </Container>
+          <div className={styles.org_section}>
+            <div className={styles.sub_title}>
+              <h2>ORGANISERS</h2>
+              <h2>ORGANISERS</h2>
+            </div>
+            <Container className={styles.org_cards}>
+              <Row>
+                <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
+                  <div className={styles['org_card']}>
+                    <Image
+                      src="/presidents/cse.jpg"
+                      alt="cse"
+                      width={200}
+                      height={200}
+                      className={styles.img}
+                    />
+                    <div className={styles.org_details}>
+                      <span className={styles.org_name}>B.Vignesh</span>
+                      <h6>CSE</h6>
+                      <FaPhoneAlt className={styles.icon}></FaPhoneAlt>
+                      <p className={styles.phone}>9841114252</p>
+                    </div>
+                  </div>
+                </Col>
+                <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
+                  <div className={styles['org_card']}>
+                    <Image
+                      src="/presidents/it.jpg"
+                      alt="it"
+                      width={200}
+                      height={200}
+                      className={styles.img}
+                    />
+                    <div className={styles.org_details}>
+                      <span className={styles.org_name}>Alfrin A J</span>
+                      <h6>IT</h6>
+                      <FaPhoneAlt className={styles.icon}></FaPhoneAlt>
+                      <p className={styles.phone}>9791394453</p>
+                    </div>
+                  </div>
+                </Col>
+                <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
+                  <div className={styles['org_card']}>
+                    <Image
+                      src="/presidents/ece.jpg"
+                      alt="ece"
+                      width={200}
+                      height={200}
+                      className={styles.img}
+                    />
+                    <div className={styles.org_details}>
+                      <span className={styles.org_name}>
+                        S. Nikhil Viswanath
+                      </span>
+                      <h6>ECE</h6>
+                      <FaPhoneAlt className={styles.icon}></FaPhoneAlt>
+                      <p className={styles.phone}>9176875101</p>
+                    </div>
+                  </div>
+                </Col>
+                <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
+                  <div className={styles['org_card']}>
+                    <Image
+                      src="/presidents/eee.jpg"
+                      alt="eee"
+                      width={200}
+                      height={200}
+                      className={styles.img}
+                    />
+                    <div className={styles.org_details}>
+                      <span className={styles.org_name}>Somnath Thilak V</span>
+                      <h6>EEE</h6>
+                      <FaPhoneAlt className={styles.icon}></FaPhoneAlt>
+                      <p className={styles.phone}>7550191192</p>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+              <Row>
+                <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
+                  <div className={styles['org_card']}>
+                    <Image
+                      src="/presidents/civil.jpg"
+                      alt="civil"
+                      width={200}
+                      height={200}
+                      className={styles.img}
+                    />
+                    <div className={styles.org_details}>
+                      <span className={styles.org_name}>Sidharath K. Shah</span>
+                      <h6>Civil</h6>
+                      <FaPhoneAlt className={styles.icon}></FaPhoneAlt>
+                      <p className={styles.phone}>9445892891</p>
+                    </div>
+                  </div>
+                </Col>
+                <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
+                  <div className={styles['org_card']}>
+                    <Image
+                      src="/presidents/bme.jpg"
+                      alt="bme"
+                      width={200}
+                      height={200}
+                      className={styles.img}
+                    />
+                    <div className={styles.org_details}>
+                      <span className={styles.org_name}>Lokesh Kumar M</span>
+                      <h6>BME</h6>
+                      <FaPhoneAlt className={styles.icon}></FaPhoneAlt>
+                      <p className={styles.phone}>8072233516</p>
+                    </div>
+                  </div>
+                </Col>
+                <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
+                  <div className={styles['org_card']}>
+                    <Image
+                      src="/presidents/mech.jpg"
+                      alt="mech"
+                      width={200}
+                      height={200}
+                      className={styles.img}
+                    />
+                    <div className={styles.org_details}>
+                      <span className={styles.org_name}>Cynthia Joy</span>
+                      <h6>Mech</h6>
+                      <FaPhoneAlt className={styles.icon}></FaPhoneAlt>
+                      <p className={styles.phone}>9480038164</p>
+                    </div>
+                  </div>
+                </Col>
+                <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
+                  <div className={styles['org_card']}>
+                    <Image
+                      src="/presidents/chem.jpg"
+                      alt="chem"
+                      width={200}
+                      height={200}
+                      className={styles.img}
+                    />
+                    <div className={styles.org_details}>
+                      <span className={styles.org_name}>Achsha Israel</span>
+                      <h6>Chem</h6>
+                      <FaPhoneAlt className={styles.icon}></FaPhoneAlt>
+                      <p className={styles.phone}>9445610075</p>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
+          </div>
         </div>
       </main>
       <Footer />
