@@ -29,7 +29,7 @@ function SignUp() {
     department: '',
     year: '',
   });
-  const { signup, currentUser, addDisplayName } = useAuth();
+  const { signup, currentUser, addUserDetails } = useAuth();
   const [loading, setLoading] = useState(false);
   const router = useRouter();
   const { navbarToggle, toggleNavbar } = useNav();
@@ -61,9 +61,13 @@ function SignUp() {
         state['password']
       );
       if (currentUser) {
+        const username =
+          state['full_name'].toLowerCase().replace(' ', '_') +
+          generate4DigitNumber();
+        const dicebearURL = `https://avatars.dicebear.com/api/bottts/${username}.svg`;
         await currentUser.sendEmailVerification();
-        toast.success('Verification email sent.');
-        await addDisplayName(currentUser, state['full_name']);
+        toast.success('Verification email sent');
+        await addUserDetails(currentUser, state['full_name'], dicebearURL);
         axios({
           baseURL: window.location.origin,
           method: 'POST',
@@ -71,9 +75,7 @@ function SignUp() {
           data: {
             uid: currentUser.uid,
             email: state['email'],
-            username:
-              state['full_name'].toLowerCase().replace(' ', '_') +
-              generate4DigitNumber(),
+            username: username,
             fullName: state['full_name'],
             phone: state['phone_number'],
             registerNumber: state['reg_no'],
