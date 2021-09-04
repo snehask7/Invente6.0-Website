@@ -2,9 +2,11 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { toast } from 'react-hot-toast';
 import Typist from 'react-typist';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
+import { useNav } from '../lib/navbarstate';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
 
@@ -15,6 +17,7 @@ function Signin() {
   const [loading, setLoading] = useState(false);
   const { login } = useAuth();
   const router = useRouter();
+  const { navbarToggle, toggleNavbar } = useNav();
 
   const [step, setStep] = useState(-1);
 
@@ -28,13 +31,31 @@ function Signin() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    console.log(formEmail, formPassword);
+    //console.log(formEmail, formPassword);
+    let toastId;
     try {
       setLoading(true);
+      toastId = toast.loading('Signing in..');
       await login(formEmail, formPassword);
-      console.log('SignIn success');
+      toast.dismiss(toastId);
+      toast.success('Success!');
+      //console.log('SignIn success');
       router.push('/');
     } catch (err) {
+      if (err.code === 'auth/user-not-found') {
+        toast.error('Email not found! Did you mean to sign up?');
+      } else if (err.code === 'auth/wrong-password') {
+        toast(
+          'The password entered was incorrect or you have not verified your email yet.',
+          {
+            duration: 7000,
+            icon: '❌',
+          }
+        );
+      } else {
+        toast.error('An unexpected error has occurred. ☠️');
+      }
+      toast.dismiss(toastId);
       console.log('Failed to login', err);
     }
   };
@@ -43,15 +64,12 @@ function Signin() {
     <div className={styles.container}>
       <div className={styles2.animation_wrapper}>
         <div
-          className={styles2['particle'] + ' ' + styles2['particle_3']}
-        ></div>
-        <div
           className={styles2['particle'] + ' ' + styles2['particle_4']}
         ></div>
       </div>
       <NavbarComp />
       <main className={styles2.page_wrapper}>
-        <div className={styles.signinCard}>
+        <div className={!navbarToggle ? styles.signinCard : styles.hide}>
           <h1 className={styles.typing}>
             <Typist
               avgTypingDelay={30}

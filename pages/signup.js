@@ -7,6 +7,7 @@ import { toast } from 'react-hot-toast';
 import Typist from 'react-typist';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
+import { useNav } from '../lib/navbarstate';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signup.module.css';
 
@@ -31,6 +32,7 @@ function SignUp() {
   const { signup, currentUser, addUserDetails } = useAuth();
   const [loading, setLoading] = useState(false);
   const router = useRouter();
+  const { navbarToggle, toggleNavbar } = useNav();
 
   const onContinue = () => {
     setStep(step + 1);
@@ -84,6 +86,7 @@ function SignUp() {
         })
           .then(() => {
             console.log('SignUp success');
+            toast.success('Sign up successful!');
           })
           .catch(() => {
             toast.error('Unable to post data');
@@ -92,10 +95,11 @@ function SignUp() {
       } else {
         toast.error('Error signing up');
       }
-      console.log('SignUp success');
+      //console.log('SignUp success');
       setLoading(false);
     } catch (err) {
-      console.log('Failed to login', err);
+      //console.log('Failed to login', err);
+      toast.error('An unexpected error has occurred. ☠️');
     } finally {
       setLoading(false);
     }
@@ -105,15 +109,12 @@ function SignUp() {
     <div className={styles.container}>
       <div className={styles2.animation_wrapper}>
         <div
-          className={styles2['particle'] + ' ' + styles2['particle_3']}
-        ></div>
-        <div
           className={styles2['particle'] + ' ' + styles2['particle_4']}
         ></div>
       </div>
       <NavbarComp />
       <main className={styles2.page_wrapper}>
-        <div className={styles.signupCard}>
+        <div className={!navbarToggle ? styles.signupCard : styles.hide}>
           <h1 className={styles.typing}>
             <Typist
               avgTypingDelay={30}

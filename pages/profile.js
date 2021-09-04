@@ -14,13 +14,16 @@ import {
   FaUserGraduate,
 } from 'react-icons/fa';
 import NavbarComp from '../components/Navbar';
+import eventsInfo from '../eventsInfo.json';
 import { useAuth } from '../lib/hooks';
+import { useNav } from '../lib/navbarstate';
 import styles from '../styles/Profile.module.css';
 
 function Profile() {
   const [profile, setProfile] = useState();
   const { currentUser } = useAuth();
   const router = useRouter();
+  const { navbarToggle, toggleNavbar } = useNav();
 
   useEffect(() => {
     async function getProfile() {
@@ -55,11 +58,15 @@ function Profile() {
     return profile.events.map((event, i) => {
       return (
         <li key={i} className={styles.eventCard}>
-          {event}
-
+          {eventsInfo[event].name}
           <FaTimesCircle className={styles.delete}></FaTimesCircle>
           <br></br>
-          <span className={styles.tag}>Event</span>
+          <span className={styles.tag}>
+            {eventsInfo[event].category == 'tech' ||
+            eventsInfo[event].category == 'non-tech'
+              ? 'Event'
+              : 'Hackathon'}
+          </span>
           <span className={styles.verified}>Not paid</span>
         </li>
       );
@@ -69,7 +76,7 @@ function Profile() {
   return (
     <div className={styles.container}>
       <NavbarComp />
-      <div className={styles.card}>
+      <div className={!navbarToggle ? styles.card : styles.hideCard}>
         {profile ? (
           <div>
             <div className={styles.ticket}>
@@ -95,6 +102,26 @@ function Profile() {
             </div>
             <h1 className={styles.name}>{profile.fullName}</h1>
             <Container className={styles.details}>
+              <Row>
+                <Col xs={12} sm={12} md={12} className={styles.ticketCol}>
+                  <div className={styles.ticket}>
+                    <p className={styles.eventTitle}>EVENT PASS</p>
+                    <span className={styles.admit}>
+                      <FaCheckCircle
+                        className={styles.icon_check}
+                      ></FaCheckCircle>
+                      Tech
+                    </span>
+                    <br></br>
+                    <span className={styles.admit}>
+                      <FaTimesCircle
+                        className={styles.icon_cross}
+                      ></FaTimesCircle>
+                      Non-tech
+                    </span>
+                  </div>
+                </Col>
+              </Row>
               <Row>
                 <Col xs={6} sm={6} md={4} className={styles.cols}>
                   <div>

@@ -1,6 +1,7 @@
+import axios from 'axios';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
 import {
@@ -14,34 +15,63 @@ import {
 import 'react-responsive-modal/styles.css';
 import NavbarComp from '../../../components/Navbar';
 import data from '../../../data.json';
+import { useAuth } from '../../../lib/hooks';
+import { useNav } from '../../../lib/navbarstate';
 import styles from '../../../styles/DepartmentPage.module.css';
 
 export default function Department({ data }) {
   const router = useRouter();
+  const { currentUser } = useAuth();
   var department = router.query.dept;
   var id = parseInt(router.query.id);
   var events = data;
+  const [profile, setProfile] = useState();
+  const { navbarToggle, toggleNavbar } = useNav();
 
-  function register(id) {
-    toast.success('Registered Successfully');
-    //add registration code
-    // alert(events[id].name);
-    // if (
-    //   events[id].min_team_size == events[id].max_team_size && events[id].min_team_size == 1
-    // ) {
-    //only 1 per team
-    //   toast.success('Registered Successfully');
-    // } else {
-    //   onOpenModal();
-    // }
+  async function register(id) {
+    axios({
+      baseURL: window.location.origin,
+      method: 'POST',
+      url: '/api/register',
+      data: {
+        username: profile.username,
+        eventid: events[id].eventid,
+      },
+    })
+      .then(() => {
+        toast.success('Registered Successfully');
+      })
+      .catch((err) => {
+        console.log(err);
+        toast.error('Unable register. Please try again later.');
+      });
   }
 
+  useEffect(() => {
+    async function fetchProfile() {
+      if (currentUser?.emailVerified) {
+        const userDetails = await axios.get('/api/username', {
+          params: { uid: currentUser.uid },
+        });
+        const profileDetails = await axios.get('/api/user', {
+          params: { username: userDetails.data.username },
+        });
+        setProfile(profileDetails.data);
+      }
+    }
+    fetchProfile();
+    window.scrollTo(0, 0);
+  }, [currentUser]);
   return (
     <React.Fragment>
       <div className={styles.container}>
         <NavbarComp />
         <main>
-          <div className={styles.mainContainer}>
+          <div
+            className={
+              !navbarToggle ? styles.mainContainer : styles.hideMainContainer
+            }
+          >
             <h1 className={styles.pageHeading}>
               Department of{' '}
               {department == 'Chemical' ? 'Chemical Engineering' : department}
@@ -93,12 +123,17 @@ export default function Department({ data }) {
                     </span>
                     <span
                       className={
-                        events[id].category == 'tech'
+                        events[id].category == 'tech' ||
+                        events[id].category == 'hackathon'
                           ? styles.techbadge
                           : styles.nontechbadge
                       }
                     >
-                      {events[id].category == 'tech' ? 'Tech' : 'Non-Tech'}
+                      {events[id].category == 'tech'
+                        ? 'Tech'
+                        : events[id].category == 'hackathon'
+                        ? 'Hackathon'
+                        : 'Non-Tech'}
                     </span>
                   </p>
                   <br></br>
@@ -165,7 +200,7 @@ export default function Department({ data }) {
                     <div className={styles.col}>
                       {' '}
                       <FaCalendarAlt></FaCalendarAlt>
-                      <br></br>Oct 7, 9:00 AM
+                      <br></br>Oct 8, 9:00 AM
                     </div>
                     <div className={styles.col}>
                       {' '}
@@ -193,12 +228,24 @@ export default function Department({ data }) {
                     </div>
                   </div>
                   <div className={styles.buttonWrapper}>
-                    <button
-                      className={styles.registerButton}
-                      onClick={() => register(id)}
-                    >
-                      Register
-                    </button>
+                    {profile && profile.events.includes(events[id].eventid) ? (
+                      <button className={styles.registeredButton} disabled>
+                        Registered
+                      </button>
+                    ) : (
+                      <button
+                        className={styles.registerButton}
+                        onClick={() => {
+                          currentUser
+                            ? currentUser.emailVerified
+                              ? register(id)
+                              : router.push('/unverified')
+                            : router.push('/signin');
+                        }}
+                      >
+                        Register
+                      </button>
+                    )}
                   </div>
                 </div>
               </Col>

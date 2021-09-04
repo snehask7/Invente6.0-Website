@@ -54,6 +54,7 @@
 .name {
   color: #19e9f0;
   text-align: center;
+  word-wrap: break-word;
 }
 
 .details {
@@ -62,7 +63,6 @@
 }
 
 .icon {
-  margin-right: 1vh;
   margin-bottom: 1vh;
 }
 
@@ -76,12 +76,17 @@
   border: solid 1px rgba(128, 128, 128, 0.2);
   background-color: #050d22;
   min-width: 50vw;
+  max-width: 90%;
   font-family: 'Menlo', monospace;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+.hideCard {
+  display: none;
 }
 
 .cols {
   margin-top: 2em;
+  word-wrap: break-word;
 }
 
 .title {
@@ -192,7 +197,6 @@
 }
 
 .ticket {
-  float: right;
   text-align: left;
   background: rgb(45, 241, 253);
   background: linear-gradient(
@@ -204,6 +208,12 @@
   border-radius: 10px;
   padding: 1vh 0.5vh;
   width: 15vw;
+  min-width: 150px;
+}
+
+.ticketCol {
+  display: flex;
+  justify-content: center;
 }
 
 .eventTitle {

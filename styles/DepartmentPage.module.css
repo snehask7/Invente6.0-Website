@@ -235,7 +235,7 @@
   .pageHeading {
     margin-bottom: 3vh;
   }
-  .container {
+  .mainContainer {
     padding: 2rem;
   }
 }
@@ -283,7 +283,7 @@
   color: #03e9f4;
   background: none;
   border: 2px solid #03e9f4;
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
@@ -291,6 +291,21 @@
   margin-top: 40px;
   letter-spacing: 4px;
   border-radius: 5px;
+}
+.registeredButton {
+  padding: 10px 20px;
+  color: #fff;
+  background: #03e9f4;
+  border: 2px solid #03e9f4;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .registerButton:hover {
@@ -307,4 +322,7 @@
 .teamModal {
   background-color: white;
   border-radius: 20px;
+}
+.hideMainContainer {
+  display: none;
 }
