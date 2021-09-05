@@ -78,6 +78,9 @@ export default function NavbarComp() {
           <Link href="/schedule">
             <a className={styles.centerNavLink}>Schedule</a>
           </Link>
+          <Link href="/passes">
+            <a className={styles.centerNavLink}>Passes</a>
+          </Link>
         </div>
       </div>
 
@@ -125,6 +128,18 @@ export default function NavbarComp() {
               className={styles.sideBarNavLink}
             >
               Schedule
+            </a>
+          </Link>
+
+          <Link href="/passes">
+            <a
+              onClick={() => {
+                toggleNavbar();
+                setIsOpen(!isOpen);
+              }}
+              className={styles.sideBarNavLink}
+            >
+              Passes
             </a>
           </Link>
 
