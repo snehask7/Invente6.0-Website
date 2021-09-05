@@ -32,7 +32,7 @@ const Department = (props) => {
   );
 };
 
-const Event = (props) => {
+const EventM = (props) => {
   return (
     <td colSpan={props.cols} className={styles.event}>
       {props.name}
@@ -42,7 +42,10 @@ const Event = (props) => {
 
 const EventPurple = (props) => {
   return (
-    <td colSpan={props.cols} className={styles['event']+' '+styles['purple']}>
+    <td
+      colSpan={props.cols}
+      className={styles['event'] + ' ' + styles['purple']}
+    >
       {props.name}
     </td>
   );
@@ -50,7 +53,7 @@ const EventPurple = (props) => {
 
 const EventPink = (props) => {
   return (
-    <td colSpan={props.cols} className={styles['event']+' '+styles['pink']}>
+    <td colSpan={props.cols} className={styles['event'] + ' ' + styles['pink']}>
       {props.name}
     </td>
   );
@@ -58,7 +61,7 @@ const EventPink = (props) => {
 
 const EventBlue = (props) => {
   return (
-    <td colSpan={props.cols} className={styles['event']+' '+styles['blue']}>
+    <td colSpan={props.cols} className={styles['event'] + ' ' + styles['blue']}>
       {props.name}
     </td>
   );
@@ -66,7 +69,7 @@ const EventBlue = (props) => {
 
 const EventTeal = (props) => {
   return (
-    <td colSpan={props.cols} className={styles['event']+' '+styles['teal']}>
+    <td colSpan={props.cols} className={styles['event'] + ' ' + styles['teal']}>
       {props.name}
     </td>
   );
@@ -74,7 +77,10 @@ const EventTeal = (props) => {
 
 const EventMPurple = (props) => {
   return (
-    <td rowSpan={props.rows} className={styles['eventM']+' '+styles['purple']}>
+    <td
+      rowSpan={props.rows}
+      className={styles['eventM'] + ' ' + styles['purple']}
+    >
       {props.name}
     </td>
   );
@@ -82,7 +88,10 @@ const EventMPurple = (props) => {
 
 const EventMPink = (props) => {
   return (
-    <td rowSpan={props.rows} className={styles['eventM']+' '+styles['pink']}>
+    <td
+      rowSpan={props.rows}
+      className={styles['eventM'] + ' ' + styles['pink']}
+    >
       {props.name}
     </td>
   );
@@ -90,7 +99,10 @@ const EventMPink = (props) => {
 
 const EventMBlue = (props) => {
   return (
-    <td rowSpan={props.rows} className={styles['eventM']+' '+styles['blue']}>
+    <td
+      rowSpan={props.rows}
+      className={styles['eventM'] + ' ' + styles['blue']}
+    >
       {props.name}
     </td>
   );
@@ -98,7 +110,10 @@ const EventMBlue = (props) => {
 
 const EventMTeal = (props) => {
   return (
-    <td rowSpan={props.rows} className={styles['eventM']+' '+styles['teal']}>
+    <td
+      rowSpan={props.rows}
+      className={styles['eventM'] + ' ' + styles['teal']}
+    >
       {props.name}
     </td>
   );
@@ -199,7 +214,7 @@ function Schedule() {
                     <EventPurple name={'Web-it-out'} cols={6} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventPink name={'Fun Oasis'} cols={6}/>
+                    <EventPink name={'Fun Oasis'} cols={6} />
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
@@ -1101,7 +1116,7 @@ function Schedule() {
                     <EventPurple name={'Devathon'} cols={6} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventPink name={'Fun Oasis'} cols={6}/>
+                    <EventPink name={'Fun Oasis'} cols={6} />
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
