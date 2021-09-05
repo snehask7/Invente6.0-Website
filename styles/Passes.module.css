@@ -25,7 +25,7 @@
   z-index: -1;
 }
 .mainContainer {
-  padding: 6em;
+  padding: 4em;
 }
 
 @media screen and (max-width: 800px) {
@@ -96,7 +96,7 @@ section.price_section .pricing_plans {
   }
 }
 section.price_section .pricing_plans .pricing_plan {
-  max-width: 300px;
+  max-width: 250px;
   position: relative;
 }
 
@@ -211,9 +211,6 @@ section.price_section .pricing_plans .pricing_plan .plan_price .type {
   color: #fff;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
-section.price_section .pricing_plans .pricing_plan + .pricing_plan {
-  margin-top: 40px;
-}
 
 section.price_section {
   padding-top: 20px;
@@ -257,7 +254,7 @@ section.price_section h2 {
   color: #fff;
 }
 .pricing_plan {
-  margin-top: 4rem !important;
+  margin-top: 2rem !important;
 }
 section.price_section .pricing_plan {
   position: relative;
@@ -323,8 +320,8 @@ section.price_section .super_tier .plan_title {
 section.price_section .free_tier .plan_description,
 section.price_section .super_tier .plan_description {
   font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 250;
+  font-size: 18px;
   line-height: 32px;
   /* or 178% */
   letter-spacing: -0.25px;
@@ -364,7 +361,7 @@ section.price_section .plan_action a {
   width: 80%;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   margin-left: -1px;
   width: 300px;
   text-align: center;
@@ -372,6 +369,10 @@ section.price_section .plan_action a {
   color: #fff;
   border-radius: 12px;
   position: relative;
+}
+section.price_section .plan_action a:hover {
+  color: #fff;
+  cursor: pointer;
 }
 section.price_section .plan_action a:after {
   content: '';

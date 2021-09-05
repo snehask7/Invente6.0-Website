@@ -79,9 +79,7 @@ function Plans() {
                       <div className={styles.price}>250</div>
                     </div>
                     <div className={styles.plan_description}>
-                      <span>
-                        All Tech + All Non-Tech + Devathlon (Hackathon)
-                      </span>
+                      <span>All Tech + All Non-Tech + Devathlon</span>
                     </div>
                   </div>
                   <div className={styles.plan_action}>
