@@ -53,13 +53,11 @@ function Plans() {
                   <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div>
-                  {
-                    currentUser ?
-                      <div className={styles.plan_action}>
-                        <a>Upload Receipt</a>
-                      </div>
-                      : null
-                  }
+                  {currentUser ? (
+                    <div className={styles.plan_action}>
+                      <a>Upload Receipt</a>
+                    </div>
+                  ) : null}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -89,13 +87,11 @@ function Plans() {
                   <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div>
-                  {
-                    currentUser ?
-                      <div className={styles.plan_action}>
-                        <a>Upload Receipt</a>
-                      </div>
-                      : null
-                  }
+                  {currentUser ? (
+                    <div className={styles.plan_action}>
+                      <a>Upload Receipt</a>
+                    </div>
+                  ) : null}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -129,13 +125,11 @@ function Plans() {
                   <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div>
-                  {
-                    currentUser ?
-                      <div className={styles.plan_action}>
-                        <a>Upload Receipt</a>
-                      </div>
-                      : null
-                  }
+                  {currentUser ? (
+                    <div className={styles.plan_action}>
+                      <a>Upload Receipt</a>
+                    </div>
+                  ) : null}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -163,13 +157,11 @@ function Plans() {
                   <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div>
-                  {
-                    currentUser ?
-                      <div className={styles.plan_action}>
-                        <a>Upload Receipt</a>
-                      </div>
-                      : null
-                  }
+                  {currentUser ? (
+                    <div className={styles.plan_action}>
+                      <a>Upload Receipt</a>
+                    </div>
+                  ) : null}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -197,13 +189,11 @@ function Plans() {
                   <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div>
-                  {
-                    currentUser ?
-                      <div className={styles.plan_action}>
-                        <a>Upload Receipt</a>
-                      </div>
-                      : null
-                  }
+                  {currentUser ? (
+                    <div className={styles.plan_action}>
+                      <a>Upload Receipt</a>
+                    </div>
+                  ) : null}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -231,13 +221,11 @@ function Plans() {
                   <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div>
-                  {
-                    currentUser ?
-                      <div className={styles.plan_action}>
-                        <a>Upload Receipt</a>
-                      </div>
-                      : null
-                  }
+                  {currentUser ? (
+                    <div className={styles.plan_action}>
+                      <a>Upload Receipt</a>
+                    </div>
+                  ) : null}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -265,13 +253,11 @@ function Plans() {
                   <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div>
-                  {
-                    currentUser ?
-                      <div className={styles.plan_action}>
-                        <a>Upload Receipt</a>
-                      </div>
-                      : null
-                  }
+                  {currentUser ? (
+                    <div className={styles.plan_action}>
+                      <a>Upload Receipt</a>
+                    </div>
+                  ) : null}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -299,13 +285,11 @@ function Plans() {
                   <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div>
-                  {
-                    currentUser ?
-                      <div className={styles.plan_action}>
-                        <a>Upload Receipt</a>
-                      </div>
-                      : null
-                  }
+                  {currentUser ? (
+                    <div className={styles.plan_action}>
+                      <a>Upload Receipt</a>
+                    </div>
+                  ) : null}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -333,13 +317,11 @@ function Plans() {
                   <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div>
-                  {
-                    currentUser ?
-                      <div className={styles.plan_action}>
-                        <a>Upload Receipt</a>
-                      </div>
-                      : null
-                  }
+                  {currentUser ? (
+                    <div className={styles.plan_action}>
+                      <a>Upload Receipt</a>
+                    </div>
+                  ) : null}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -367,13 +349,11 @@ function Plans() {
                   <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div>
-                  {
-                    currentUser ?
-                      <div className={styles.plan_action}>
-                        <a>Upload Receipt</a>
-                      </div>
-                      : null
-                  }
+                  {currentUser ? (
+                    <div className={styles.plan_action}>
+                      <a>Upload Receipt</a>
+                    </div>
+                  ) : null}
                 </Col>
               </Row>
             </div>
