@@ -26,6 +26,7 @@
 }
 
 .image {
+  background-image: url('/icons/profile.jpg');
   display: block;
   width: 120px;
   height: 120px;
