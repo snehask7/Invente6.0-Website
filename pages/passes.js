@@ -12,7 +12,6 @@ function Plans() {
   const router = useRouter();
   const { navbarToggle, toggleNavbar } = useNav();
 
-
   return (
     <div className={styles.container}>
       <NavbarComp />
@@ -22,15 +21,25 @@ function Plans() {
             !navbarToggle ? styles.mainContainer : styles.hideMainContainer
           }
         >
-          <h1 className={styles.pageHeading}>
-            Event Passes
-          </h1>
+          <h1 className={styles.pageHeading}>Event Passes</h1>
           <section className={styles.price_section} id="pricing">
             <div className={styles.feature}>
               <Row className={styles.pricing_plans}>
                 <Col className={styles.pricing_plan}>
-                  <div className={styles.plan_bg}><Image width="400" height="600" src="/Plans/purple.svg" alt="plan background" /></div>
-                  <img src="https://wee.bio/assets/pattern/super-obj-1.png" alt="plan background" className={styles.obj_1} />
+                  <div className={styles.plan_bg}>
+                    <Image
+                      width="400"
+                      height="600"
+                      src="/Plans/purple.svg"
+                      alt="plan background"
+                    />
+                  </div>
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="https://wee.bio/assets/pattern/super-obj-1.png"
+                    alt="plan background"
+                    className={styles.obj_1}
+                  />
                   <div className={styles.super_tier}>
                     <div className={styles.plan_title}>Combo</div>
                     <div className={styles.plan_price}>
@@ -42,15 +51,27 @@ function Plans() {
                     </div>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Pay Now </a>
+                    <a>Pay Now </a>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Upload Receipt</a>
+                    <a>Upload Receipt</a>
                   </div>
                 </Col>
                 <Col className={styles.pricing_plan}>
-                  <div className={styles.plan_bg}><Image width="400" height="600" src="/Plans/purple.svg" alt="plan background" /></div>
-                  <img src="https://wee.bio/assets/pattern/super-obj-1.png" alt="plan background" className={styles.obj_1} />
+                  <div className={styles.plan_bg}>
+                    <Image
+                      width="400"
+                      height="600"
+                      src="/Plans/purple.svg"
+                      alt="plan background"
+                    />
+                  </div>
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="https://wee.bio/assets/pattern/super-obj-1.png"
+                    alt="plan background"
+                    className={styles.obj_1}
+                  />
                   <div className={styles.super_tier}>
                     <div className={styles.plan_title}>Combo</div>
                     <div className={styles.plan_price}>
@@ -58,19 +79,33 @@ function Plans() {
                       <div className={styles.price}>250</div>
                     </div>
                     <div className={styles.plan_description}>
-                      <span>All Tech + All Non-Tech + Devathlon (Hackathon)</span>
+                      <span>
+                        All Tech + All Non-Tech + Devathlon (Hackathon)
+                      </span>
                     </div>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Pay Now </a>
+                    <a>Pay Now </a>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Upload Receipt</a>
+                    <a>Upload Receipt</a>
                   </div>
                 </Col>
                 <Col className={styles.pricing_plan}>
-                  <div className={styles.plan_bg}><Image width="400" height="600" src="/Plans/purple.svg" alt="plan background" /></div>
-                  <img src="https://wee.bio/assets/pattern/super-obj-1.png" alt="plan background" className={styles.obj_1} />
+                  <div className={styles.plan_bg}>
+                    <Image
+                      width="400"
+                      height="600"
+                      src="/Plans/purple.svg"
+                      alt="plan background"
+                    />
+                  </div>
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="https://wee.bio/assets/pattern/super-obj-1.png"
+                    alt="plan background"
+                    className={styles.obj_1}
+                  />
                   <div className={styles.super_tier}>
                     <div className={styles.plan_title}>Combo</div>
                     <div className={styles.plan_price}>
@@ -78,18 +113,29 @@ function Plans() {
                       <div className={styles.price}>200</div>
                     </div>
                     <div className={styles.plan_description}>
-                      <span>All Tech + All Non-Tech<br />&nbsp;</span>
+                      <span>
+                        All Tech + All Non-Tech
+                        <br />
+                        &nbsp;
+                      </span>
                     </div>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Pay Now </a>
+                    <a>Pay Now </a>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Upload Receipt</a>
+                    <a>Upload Receipt</a>
                   </div>
                 </Col>
                 <Col className={styles.pricing_plan}>
-                  <div className={styles.plan_bg}><Image width="400" height="600" src="/Plans/green.svg" alt="plan background" /></div>
+                  <div className={styles.plan_bg}>
+                    <Image
+                      width="400"
+                      height="600"
+                      src="/Plans/green.svg"
+                      alt="plan background"
+                    />
+                  </div>
                   <div className={styles.super_tier}>
                     <div className={styles.plan_title}>Hackathon</div>
                     <div className={styles.plan_price}>
@@ -97,18 +143,29 @@ function Plans() {
                       <div className={styles.price}>100</div>
                     </div>
                     <div className={styles.plan_description}>
-                      <span>Devathlon<br />&nbsp; </span>
+                      <span>
+                        Devathlon
+                        <br />
+                        &nbsp;{' '}
+                      </span>
                     </div>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Pay Now </a>
+                    <a>Pay Now </a>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Upload Receipt</a>
+                    <a>Upload Receipt</a>
                   </div>
                 </Col>
                 <Col className={styles.pricing_plan}>
-                  <div className={styles.plan_bg}><Image width="400" height="600" src="/Plans/green.svg" alt="plan background" /></div>
+                  <div className={styles.plan_bg}>
+                    <Image
+                      width="400"
+                      height="600"
+                      src="/Plans/green.svg"
+                      alt="plan background"
+                    />
+                  </div>
                   <div className={styles.super_tier}>
                     <div className={styles.plan_title}>Hackathon</div>
                     <div className={styles.plan_price}>
@@ -116,17 +173,29 @@ function Plans() {
                       <div className={styles.price}>200</div>
                     </div>
                     <div className={styles.plan_description}>
-                      <span>Hackinfinity<br />&nbsp;</span>
+                      <span>
+                        Hackinfinity
+                        <br />
+                        &nbsp;
+                      </span>
                     </div>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Pay Now </a>
+                    <a>Pay Now </a>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Upload Receipt</a>
+                    <a>Upload Receipt</a>
                   </div>
-                </Col><Col className={styles.pricing_plan}>
-                  <div className={styles.plan_bg}><Image width="400" height="600" src="/Plans/green.svg" alt="plan background" /></div>
+                </Col>
+                <Col className={styles.pricing_plan}>
+                  <div className={styles.plan_bg}>
+                    <Image
+                      width="400"
+                      height="600"
+                      src="/Plans/green.svg"
+                      alt="plan background"
+                    />
+                  </div>
                   <div className={styles.super_tier}>
                     <div className={styles.plan_title}>Hackathon</div>
                     <div className={styles.plan_price}>
@@ -134,18 +203,29 @@ function Plans() {
                       <div className={styles.price}>100</div>
                     </div>
                     <div className={styles.plan_description}>
-                      <span>Biomedicathon<br />&nbsp;</span>
+                      <span>
+                        Biomedicathon
+                        <br />
+                        &nbsp;
+                      </span>
                     </div>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Pay Now </a>
+                    <a>Pay Now </a>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Upload Receipt</a>
+                    <a>Upload Receipt</a>
                   </div>
                 </Col>
                 <Col className={styles.pricing_plan}>
-                  <div className={styles.plan_bg}><Image width="400" height="600" src="/Plans/blue.svg" alt="plan background" /></div>
+                  <div className={styles.plan_bg}>
+                    <Image
+                      width="400"
+                      height="600"
+                      src="/Plans/blue.svg"
+                      alt="plan background"
+                    />
+                  </div>
                   <div className={styles.super_tier}>
                     <div className={styles.plan_title}>Workshop</div>
                     <div className={styles.plan_price}>
@@ -153,18 +233,29 @@ function Plans() {
                       <div className={styles.price}>150</div>
                     </div>
                     <div className={styles.plan_description}>
-                      <span>AI/ML Workshop<br />&nbsp; < /span>
+                      <span>
+                        AI/ML Workshop
+                        <br />
+                        &nbsp;{' '}
+                      </span>
                     </div>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Pay Now </a>
+                    <a>Pay Now </a>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Upload Receipt</a>
+                    <a>Upload Receipt</a>
                   </div>
                 </Col>
                 <Col className={styles.pricing_plan}>
-                  <div className={styles.plan_bg}><Image width="400" height="600" src="/Plans/blue.svg" alt="plan background" /></div>
+                  <div className={styles.plan_bg}>
+                    <Image
+                      width="400"
+                      height="600"
+                      src="/Plans/blue.svg"
+                      alt="plan background"
+                    />
+                  </div>
                   <div className={styles.super_tier}>
                     <div className={styles.plan_title}>Workshop</div>
                     <div className={styles.plan_price}>
@@ -172,18 +263,29 @@ function Plans() {
                       <div className={styles.price}>100</div>
                     </div>
                     <div className={styles.plan_description}>
-                      <span>Civil Workshop<br />&nbsp;</span>
+                      <span>
+                        Civil Workshop
+                        <br />
+                        &nbsp;
+                      </span>
                     </div>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Pay Now </a>
+                    <a>Pay Now </a>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Upload Receipt</a>
+                    <a>Upload Receipt</a>
                   </div>
                 </Col>
                 <Col className={styles.pricing_plan}>
-                  <div className={styles.plan_bg}><Image width="400" height="600" src="/Plans/pink.svg" alt="plan background" /></div>
+                  <div className={styles.plan_bg}>
+                    <Image
+                      width="400"
+                      height="600"
+                      src="/Plans/pink.svg"
+                      alt="plan background"
+                    />
+                  </div>
                   <div className={styles.super_tier}>
                     <div className={styles.plan_title}>Events</div>
                     <div className={styles.plan_price}>
@@ -191,18 +293,29 @@ function Plans() {
                       <div className={styles.price}>150</div>
                     </div>
                     <div className={styles.plan_description}>
-                      <span>All Tech Events<br />&nbsp;</span>
+                      <span>
+                        All Tech Events
+                        <br />
+                        &nbsp;
+                      </span>
                     </div>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Pay Now </a>
+                    <a>Pay Now </a>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Upload Receipt</a>
+                    <a>Upload Receipt</a>
                   </div>
                 </Col>
                 <Col className={styles.pricing_plan}>
-                  <div className={styles.plan_bg}><Image width="400" height="600" src="/Plans/pink.svg" alt="plan background" /></div>
+                  <div className={styles.plan_bg}>
+                    <Image
+                      width="400"
+                      height="600"
+                      src="/Plans/pink.svg"
+                      alt="plan background"
+                    />
+                  </div>
                   <div className={styles.super_tier}>
                     <div className={styles.plan_title}>Events</div>
                     <div className={styles.plan_price}>
@@ -210,22 +323,26 @@ function Plans() {
                       <div className={styles.price}>100</div>
                     </div>
                     <div className={styles.plan_description}>
-                      <span>All Non-Tech Events<br />&nbsp;</span>
+                      <span>
+                        All Non-Tech Events
+                        <br />
+                        &nbsp;
+                      </span>
                     </div>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Pay Now </a>
+                    <a>Pay Now </a>
                   </div>
                   <div className={styles.plan_action}>
-                    <a >Upload Receipt</a>
+                    <a>Upload Receipt</a>
                   </div>
                 </Col>
               </Row>
             </div>
           </section>
-        </div >
-      </main >
-    </div >
+        </div>
+      </main>
+    </div>
   );
 }
 export default Plans;
