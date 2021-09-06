@@ -75,11 +75,11 @@ function Plans() {
                   {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div> */}
-                  {currentUser ? (
+                  {/* {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
                     </div>
-                  ) : null}
+                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.combo_bg}>
@@ -109,11 +109,11 @@ function Plans() {
                   {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div> */}
-                  {currentUser ? (
+                  {/*                   {/* {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
                     </div>
-                  ) : null}
+                  ) : null} */}{' '}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.combo_bg}>
@@ -147,11 +147,11 @@ function Plans() {
                   {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div> */}
-                  {currentUser ? (
+                  {/* {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
                     </div>
-                  ) : null}
+                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -179,11 +179,11 @@ function Plans() {
                   {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div> */}
-                  {currentUser ? (
+                  {/*                   {/* {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
                     </div>
-                  ) : null}
+                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -211,11 +211,11 @@ function Plans() {
                   {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div> */}
-                  {currentUser ? (
+                  {/* {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
                     </div>
-                  ) : null}
+                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -243,11 +243,11 @@ function Plans() {
                   {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div> */}
-                  {currentUser ? (
+                  {/* {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
                     </div>
-                  ) : null}
+                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -275,11 +275,11 @@ function Plans() {
                   {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div> */}
-                  {currentUser ? (
+                  {/* {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
                     </div>
-                  ) : null}
+                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -307,11 +307,11 @@ function Plans() {
                   {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div> */}
-                  {currentUser ? (
+                  {/* {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
                     </div>
-                  ) : null}
+                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -339,11 +339,11 @@ function Plans() {
                   {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div> */}
-                  {currentUser ? (
+                  {/* {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
                     </div>
-                  ) : null}
+                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -371,11 +371,11 @@ function Plans() {
                   {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
                   </div> */}
-                  {currentUser ? (
+                  {/* {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
                     </div>
-                  ) : null}
+                  ) : null} */}
                 </Col>
               </Row>
             </div>
