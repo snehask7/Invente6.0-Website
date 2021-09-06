@@ -100,27 +100,17 @@ section.price_section .pricing_plans .pricing_plan {
   position: relative;
 }
 
-section.price_section
-  .pricing_plans
-  .pricing_plan
-  .pricing_plan_extras
-  ul
-  .coming_soon {
+.coming_soon {
   padding: 20px;
   border-radius: 12px;
   opacity: 1;
-  background: #040712;
+  background: #040712 !important;
   width: 100%;
   margin-top: 20px;
   padding-bottom: 16px;
 }
-section.price_section
-  .pricing_plans
-  .pricing_plan
-  .pricing_plan_extras
-  ul
-  .coming_soon
-  .cs_header {
+
+.cs_header {
   font-size: 12px;
   text-align: left;
   text-transform: uppercase;
@@ -128,40 +118,20 @@ section.price_section
   border-bottom: 1px solid #252943;
   margin-bottom: 20px;
 }
-section.price_section
-  .pricing_plans
-  .pricing_plan
-  .pricing_plan_extras
-  ul
-  .coming_soon
-  li {
+
+.coming_soon li {
   text-align: left;
 }
-section.price_section
-  .pricing_plans
-  .pricing_plan
-  .pricing_plan_extras
-  ul
-  .coming_soon
-  li:first_of_type {
+
+.coming_soon li:first_of_type {
   margin: 0;
 }
-section.price_section
-  .pricing_plans
-  .pricing_plan
-  .pricing_plan_extras
-  ul
-  .coming_soon
-  li:before {
-  content: '';
-  background: url('https://wee.bio/assets/icons/feature-icon--cs.svg') no-repeat;
-  background-size: 100%;
-  display: inline-flex;
-  width: 16px;
-  height: 16px;
-  margin-right: 12px;
-  position: absolute;
-  left: 0px;
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 300px;
+  margin-bottom: 20px;
 }
 section.price_section .pricing_plans .pricing_plan .free_tier,
 section.price_section .pricing_plans .pricing_plan .super_tier {
@@ -263,7 +233,13 @@ section.price_section .pricing_plan .plan_bg {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate3d(0%, -10%, 0);
+  transform: translate3d(10%, -10%, 0);
+}
+section.price_section .pricing_plan .combo_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(0%, -19%, 0);
 }
 section.price_section .pricing_plan .obj_1 {
   position: absolute;
@@ -348,7 +324,7 @@ section.price_section .free_tier::after {
 section.price_section .plan_action {
   margin-top: 8px;
 }
-section.price_section .plan_action a {
+.plan_action a {
   background: radial-gradient(
     100% 100% at 0% 0%,
     rgba(255, 255, 255, 0.4) 0%,
@@ -370,7 +346,7 @@ section.price_section .plan_action a {
   border-radius: 12px;
   position: relative;
 }
-section.price_section .plan_action a:hover {
+.plan_action:hover {
   color: #fff;
   cursor: pointer;
 }

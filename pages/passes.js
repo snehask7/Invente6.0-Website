@@ -23,10 +23,32 @@ function Plans() {
         >
           <h1 className={styles.pageHeading}>Event Passes</h1>
           <section className={styles.price_section} id="pricing">
+            <div className={styles.buttons}>
+              <div className={styles.plan_action}>
+                <a
+                  target="_blank"
+                  href="https://m.paytm.me/ssninv_nrweb"
+                  rel="noreferrer"
+                >
+                  Pay Now{' '}
+                </a>
+              </div>
+
+              <div className={styles.plan_action}>
+                <a
+                  target="_blank"
+                  href="https://7ey3j0toxd0.typeform.com/Invente-Receipt"
+                  rel="noreferrer"
+                >
+                  Upload Receipt{' '}
+                </a>
+              </div>
+            </div>
+
             <div className={styles.feature}>
               <Row className={styles.pricing_plans}>
                 <Col className={styles.pricing_plan}>
-                  <div className={styles.plan_bg}>
+                  <div className={styles.combo_bg}>
                     <Image
                       width="400"
                       height="600"
@@ -50,9 +72,9 @@ function Plans() {
                       <span>All Tech + All Non-Tech + AI/ML Workshop)</span>
                     </div>
                   </div>
-                  <div className={styles.plan_action}>
+                  {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
-                  </div>
+                  </div> */}
                   {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
@@ -60,7 +82,7 @@ function Plans() {
                   ) : null}
                 </Col>
                 <Col className={styles.pricing_plan}>
-                  <div className={styles.plan_bg}>
+                  <div className={styles.combo_bg}>
                     <Image
                       width="400"
                       height="600"
@@ -84,9 +106,9 @@ function Plans() {
                       <span>All Tech + All Non-Tech + Devathlon</span>
                     </div>
                   </div>
-                  <div className={styles.plan_action}>
+                  {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
-                  </div>
+                  </div> */}
                   {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
@@ -94,7 +116,7 @@ function Plans() {
                   ) : null}
                 </Col>
                 <Col className={styles.pricing_plan}>
-                  <div className={styles.plan_bg}>
+                  <div className={styles.combo_bg}>
                     <Image
                       width="400"
                       height="600"
@@ -122,9 +144,9 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  <div className={styles.plan_action}>
+                  {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
-                  </div>
+                  </div> */}
                   {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
@@ -154,9 +176,9 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  <div className={styles.plan_action}>
+                  {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
-                  </div>
+                  </div> */}
                   {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
@@ -186,9 +208,9 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  <div className={styles.plan_action}>
+                  {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
-                  </div>
+                  </div> */}
                   {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
@@ -218,9 +240,9 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  <div className={styles.plan_action}>
+                  {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
-                  </div>
+                  </div> */}
                   {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
@@ -250,9 +272,9 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  <div className={styles.plan_action}>
+                  {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
-                  </div>
+                  </div> */}
                   {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
@@ -282,9 +304,9 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  <div className={styles.plan_action}>
+                  {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
-                  </div>
+                  </div> */}
                   {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
@@ -314,9 +336,9 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  <div className={styles.plan_action}>
+                  {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
-                  </div>
+                  </div> */}
                   {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
@@ -346,9 +368,9 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  <div className={styles.plan_action}>
+                  {/* <div className={styles.plan_action}>
                     <a>Pay Now </a>
-                  </div>
+                  </div> */}
                   {currentUser ? (
                     <div className={styles.plan_action}>
                       <a>Upload Receipt</a>
