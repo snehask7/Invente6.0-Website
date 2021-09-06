@@ -81,6 +81,12 @@
   font-family: 'Menlo', monospace;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
 }
+
+@media screen and (max-width: 900px) {
+  .card {
+    margin: 30% 2em;
+  }
+}
 .hideCard {
   display: none;
 }

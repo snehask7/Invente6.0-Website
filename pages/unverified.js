@@ -2,12 +2,14 @@ import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
+import { useNav } from '../lib/navbarstate';
 import styles2 from '../styles/Auth.module.css';
-import styles from '../styles/Signin.module.css';
+import styles from '../styles/Unverified.module.css';
 
 function Unverified() {
   const { currentUser } = useAuth();
   const router = useRouter();
+  const { navbarToggle, toggleNavbar, resetNavbar } = useNav();
 
   useEffect(() => {
     if (currentUser?.emailVerified) router.push('/');
@@ -25,7 +27,7 @@ function Unverified() {
       </div>
       <NavbarComp />
       <main className={styles2.page_wrapper}>
-        <div className={styles.signinCard}>
+        <div className={navbarToggle ? styles.hide : styles.signinCard}>
           <h1 className={styles.mailBoxText}>
             Check your mailbox to verify your identity.
           </h1>

@@ -36,6 +36,13 @@
     0 0 82px #03e9f4, 0 0 92px #03e9f4;
 }
 
+@media screen and (max-width: 900px) {
+  .loginBtn,
+  .signupBtn {
+    font-size: 14px !important;
+  }
+}
+
 .signupBtn {
   padding: 8px 16px;
   margin-right: 2em;
@@ -91,7 +98,7 @@
 }
 
 .dropDownShown {
-  z-index: 1;
+  z-index: 15;
   position: absolute;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
