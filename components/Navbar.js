@@ -226,7 +226,9 @@ export default function NavbarComp() {
             </button>
             <div
               className={
-                profClicked ? styles.dropDownShown : styles.dropDownHidden
+                profClicked && !navbarToggle
+                  ? styles.dropDownShown
+                  : styles.dropDownHidden
               }
             >
               <div>
