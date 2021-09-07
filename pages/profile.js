@@ -2,7 +2,6 @@ import axios from 'axios';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Image from 'next/image';
 import {
   FaCheckCircle,
   FaPhoneAlt,
@@ -57,34 +56,55 @@ function Profile() {
   function renderEvents() {
     return profile.events.map((event, i) => {
       return (
-        // <li key={i} className={styles.eventCard}>
-        //   {eventsInfo[event].name}
-        //   <FaTimesCircle className={styles.delete}></FaTimesCircle>
-        //   <br></br>
-        //   <span className={styles.tag}>
-        //     {eventsInfo[event].category == 'tech' ||
-        //     eventsInfo[event].category == 'non-tech'
-        //       ? 'Event'
-        //       : 'Hackathon'}
-        //   </span>
-        //   <span className={styles.verified}>Not paid</span>
-        // </li>
         <div key={i} className={styles.event_card}>
-          <div className={styles.event_bg}>
-            <Image
-              width="400"
-              height="350"
-              src="/Plans/purple.svg"
-              alt="plan background"
-            />
-          </div>
-
           <div className={styles.event}>
-            <div className={styles.event_title}>Combo</div>
-            <div className={styles.plan_description}>
-              <span>Devathlon</span>
+            <div className={styles.event_title}>
+              {eventsInfo[event].category == 'tech'
+                ? 'Tech Event '
+                : eventsInfo[event].category == 'non-tech'
+                ? 'Non-tech Event '
+                : eventsInfo[event].category.slice(0, 2) == 'ws'
+                ? 'Workshop '
+                : 'Hackathon '}
+              - {eventsInfo[event].department} <br></br>
+              {eventsInfo[event].category == 'tech' ? (
+                profile.tech == true ? (
+                  <>
+                    <span className={styles.title}>
+                      <FaCheckCircle className={styles.payIcon}></FaCheckCircle>
+                    </span>
+                    {'Paid'}
+                  </>
+                ) : (
+                  <>
+                    <span className={styles.title}>
+                      <FaTimesCircle className={styles.payIcon}></FaTimesCircle>
+                    </span>
+                    {'Not Paid'}
+                  </>
+                )
+              ) : null}
+              {eventsInfo[event].category == 'non-tech' ? (
+                profile.nonTech == true ? (
+                  <>
+                    <span className={styles.title}>
+                      <FaCheckCircle className={styles.payIcon}></FaCheckCircle>
+                    </span>
+                    {'Paid'}
+                  </>
+                ) : (
+                  <>
+                    <span className={styles.title}>
+                      <FaTimesCircle className={styles.payIcon}></FaTimesCircle>
+                    </span>
+                    {'Not Paid'}
+                  </>
+                )
+              ) : null}
             </div>
-            <div className={styles.event_dept}>CSE</div>
+            <div className={styles.plan_description}>
+              <span>{eventsInfo[event].name}</span>
+            </div>
           </div>
         </div>
       );
@@ -99,6 +119,17 @@ function Profile() {
           <div>
             <div className={styles.image}></div>
             <h1 className={styles.name}>{profile.fullName}</h1>
+            {/* <div className={styles.planetHolder}>
+              <div className={styles.planet}>
+                <div className={styles.cloud} />
+                <div className={styles.cloud} />
+                <div className={styles.cloud} />
+                <div className={styles.cloud} />
+                <div className={styles.cloud} />
+                <div className={styles.cloud} />
+              </div>
+              <div className={styles.text}>{profile.fullName}</div>
+            </div> */}
             <Container className={styles.details}>
               <Row>
                 <Col xs={6} sm={6} md={4} className={styles.cols}>

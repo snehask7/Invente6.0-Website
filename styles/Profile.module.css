@@ -125,102 +125,6 @@
   border-radius: 50%;
 }
 
-.pending {
-  text-align: center;
-  background: rgb(126, 5, 5);
-  background: linear-gradient(
-    165deg,
-    rgba(126, 5, 5, 1) 0%,
-    rgba(185, 11, 11, 1) 31%,
-    rgba(126, 5, 5, 1) 100%
-  );
-  color: #fff;
-  font-size: 0.7em;
-  padding: 0.2em;
-  width: 6em;
-  border-radius: 25px;
-  border: 1px solid #b92727;
-  position: relative;
-  float: right;
-  margin: 0 1vh;
-}
-
-.verified {
-  text-align: center;
-  background: rgb(53, 110, 0);
-  background: linear-gradient(
-    165deg,
-    rgb(53, 110, 0) 0%,
-    rgb(39, 148, 49) 31%,
-    rgb(53, 110, 0) 100%
-  );
-  color: #fff;
-  font-size: 0.7em;
-  padding: 0.2em 0.1em;
-  width: 5em;
-  border-radius: 25px;
-  border: 1px solid #3b5d1f;
-  position: relative;
-  float: right;
-  margin: 0 0.2vh;
-}
-
-.paid {
-  text-align: center;
-  background: rgb(172, 66, 5);
-  background: linear-gradient(
-    165deg,
-    rgb(172, 66, 5) 0%,
-    rgb(246, 119, 14) 31%,
-    rgb(172, 66, 5) 100%
-  );
-  color: #fff;
-  font-size: 0.7em;
-  padding: 0.2em;
-  width: 6em;
-  border-radius: 25px;
-  border: 1px solid #b14100;
-  float: right;
-  margin: 0 0.2vh;
-}
-
-.tag {
-  text-align: center;
-  background-color: #111927;
-  background-image: 
-      radial-gradient(at 47% 33%, hsl(289.90, 87%, 47%) 0, transparent 59%), 
-      radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
-  color: #fff;
-  font-size: 0.7em;
-  padding: 0.2em 0.1em;
-  width: 5em;
-  border-radius: 25px;
-  border: 1px solid #700d5b;
-  float: right;
-  margin: 0 0.2vh;
-}
-
-.eventTitle {
-  font-size: 0.9em;
-  font-weight: bold;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.admit {
-  font-size: 0.8em;
-}
-
-.icon_check {
-  color: #003307;
-  margin-right: 0.2em;
-}
-
-.icon_cross {
-  color: #5a0101;
-  margin-right: 0.2em;
-}
-
 .hr_line {
   padding: 0;
   border: none;
@@ -257,24 +161,20 @@
   text-align: center;
 }
 
-section.price_section{
+section.price_section {
   margin-left: auto;
   margin-right: auto;
-}
-
-section.price_section .event_card {
-  margin-left: 25px;
-  margin-right: 25px;
-  float: left;
 }
 
 .event_card {
   margin-top: 2rem !important;
 }
 
-.event{
-  width: 250px;
-  height: 250px;
+.event {
+  width: 80%;
+  height: 15vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section.price_section .event_card {
@@ -284,43 +184,62 @@ section.price_section .event_card .event_bg {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate3d(0%, -5%, 0);
+  transform: translate3d(0%, 2%, 0);
 }
 
-section.price_section .event{
-  background: radial-gradient(
-    100% 100% at 0% 0%,
-    rgba(255, 255, 255, 0.4) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  backdrop-filter: saturate(180%) blur(40px);
-  -webkit-backdrop-filter: saturate(180%) blur(40px);
+section.price_section .event {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-image: linear-gradient(to right, #050d22, #070e21, #1c132e),
+    linear-gradient(
+      to bottom right,
+      #153ca0bb,
+      #070e2100,
+      rgba(144, 53, 172, 0),
+      rgba(144, 53, 172, 0)
+    ),
+    linear-gradient(
+      to bottom right,
+      #153ca000,
+      #153ca000,
+      #070e2100,
+      rgba(144, 53, 172, 0.61)
+    );
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 24px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   text-align: left;
-  padding: 20px 0 0 20px;
+  padding: 20px 25px;
 }
 
-section.price_section .event .plan_description{
-  font-style: normal;
+section.price_section .event .plan_description {
+  font-weight: bold;
   font-weight: 250;
-  font-size: 1.5em;
+  font-size: 2.5vh;
   line-height: 32px;
   /* or 178% */
   letter-spacing: -0.25px;
   z-index: 2;
   color: #fff;
-  margin: 0.5em 0
+  margin: 0.2em 0;
 }
 
-
-.event_title{
-  font-size: 1.2em;
+.event_title {
+  font-size: 2vh;
+  color: rgb(172, 167, 167);
 }
 
-.event_dept{
-  font-size: 1.2em;
+@media screen and (max-width: 382px) {
+  section.price_section .event .plan_description {
+    font-size: 2.2vh;
+    line-height: 38px;
+  }
+}
+
+.icon {
+  margin-right: 5px;
 }
