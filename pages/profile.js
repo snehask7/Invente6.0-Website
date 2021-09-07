@@ -85,7 +85,6 @@ function Profile() {
               <span>Devathlon</span>
             </div>
             <div className={styles.event_dept}>CSE</div>
-            
           </div>
         </div>
       );
