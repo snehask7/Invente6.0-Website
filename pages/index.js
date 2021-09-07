@@ -9,8 +9,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import { useNav } from '../lib/navbarstate';
-import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Home.module.css';
+import styles2 from '../styles/Particles.module.scss';
 export default function Home() {
   AOS.init();
   const [loadAnimation, setLoadAnimation] = useState('');
@@ -36,9 +36,17 @@ export default function Home() {
       </Head>
       <div className={styles2.animation_wrapper}>
         <div
-          className={styles2['particle'] + ' ' + styles2['particle_4']}
+          className={styles2['particle'] + ' ' + styles2['particle-1']}
+        ></div>
+        <div
+          className={styles2['particle'] + ' ' + styles2['particle-4']}
         ></div>
       </div>
+      {/* <div className={styles2.animation_wrapper}>
+        <div
+          className={styles2['particle'] + ' ' + styles2['particle_4']}
+        ></div>
+      </div> */}
 
       <main className={styles.main}>
         <NavbarComp />
