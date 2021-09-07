@@ -493,7 +493,7 @@ export default function Home() {
                     <div className={styles.card_image}>
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/eee.JPG"
+                        src="/icons/eee.jpeg"
                         alt="cse"
                         width={200}
                         height={200}
@@ -780,7 +780,7 @@ export default function Home() {
                         {/* eslint-disable-next-line */}
                         <img
                           className={styles.org_card_image}
-                          src="/presidents/eee.jpg"
+                          src="/presidents/eee.JPG"
                           alt=""
                         ></img>
                       </div>
