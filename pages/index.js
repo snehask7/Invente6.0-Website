@@ -51,10 +51,30 @@ export default function Home() {
                 <title>Invente_Logo_White</title>
                 <g id="Layer_2" data-name="Layer 2">
                   <g id="Layer_1-2" data-name="Layer 1">
-                    <text class="cls-1" transform="translate(209.44 162.88)">8</text>
-                    <text class="cls-2" transform="translate(219.67 156.8) scale(0.58)">th</text>
-                    <text class="cls-1" transform="translate(229.13 162.88)">, 9</text>
-                    <text class="cls-1" transform="translate(247.45 156.8) scale(0.58)">th</text>
+                    <text
+                      className="cls-1"
+                      transform="translate(209.44 162.88)"
+                    >
+                      8
+                    </text>
+                    <text
+                      className="cls-2"
+                      transform="translate(219.67 156.8) scale(0.58)"
+                    >
+                      th
+                    </text>
+                    <text
+                      className="cls-1"
+                      transform="translate(229.13 162.88)"
+                    >
+                      , 9
+                    </text>
+                    <text
+                      className="cls-1"
+                      transform="translate(247.45 156.8) scale(0.58)"
+                    >
+                      th
+                    </text>
                     {/* <path
                       className="cls-1 svg-elem-1"
                       d="M210.92,151.29v-1h7v2l-4.22,10.39-1.33-.42,4.54-10.06v-.92Z"

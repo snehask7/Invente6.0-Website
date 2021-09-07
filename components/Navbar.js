@@ -24,6 +24,15 @@ export default function NavbarComp() {
   return (
     <div className={styles.navbar}>
       <div className={styles.inventeLogo}>
+        <Link href="https://www.ssn.edu.in/" passHref>
+          <Image
+            src="/icons/ssn.png"
+            className={styles.ssnlogo}
+            width={80}
+            height={25}
+            alt="logo"
+          ></Image>
+        </Link>
         <Link href="/" passHref>
           <Image
             src="/icons/logo.png"
