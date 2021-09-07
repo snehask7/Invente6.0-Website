@@ -67,7 +67,9 @@
 .centerNavLink {
   margin: 0 2em;
 }
-
+.ssnlogo {
+  padding-right: 1em !important;
+}
 .centerNavLink:hover {
   color: white;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #03e9f4, 0 0 42px #03e9f4,
