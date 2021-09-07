@@ -82,9 +82,7 @@
   white-space: pre;
 }
 
-
-
-.event{
+.event {
   text-align: center;
   padding: 0;
   font-size: 15px;
@@ -98,15 +96,15 @@
 }
 
 .pink {
-  background-color: #F08FC0 !important;
+  background-color: #f08fc0 !important;
 }
 
-.blue{
-  background-color: #39A2DB !important;
+.blue {
+  background-color: #39a2db !important;
 }
 
-.teal{
-  background-color: #0CECDD !important;
+.teal {
+  background-color: #0cecdd !important;
 }
 .eventM {
   text-align: center;

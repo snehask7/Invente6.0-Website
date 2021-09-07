@@ -60,7 +60,6 @@ export default function Department({ data }) {
       }
     }
     fetchProfile();
-    window.scrollTo(0, 0);
   }, [currentUser]);
   return (
     <React.Fragment>

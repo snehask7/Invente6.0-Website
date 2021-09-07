@@ -24,6 +24,15 @@ export default function NavbarComp() {
   return (
     <div className={styles.navbar}>
       <div className={styles.inventeLogo}>
+        <Link href="https://www.ssn.edu.in/" passHref>
+          <Image
+            src="/icons/ssn.png"
+            className={styles.ssnlogo}
+            width={80}
+            height={25}
+            alt="logo"
+          ></Image>
+        </Link>
         <Link href="/" passHref>
           <Image
             src="/icons/logo.png"
@@ -78,6 +87,9 @@ export default function NavbarComp() {
           <Link href="/schedule">
             <a className={styles.centerNavLink}>Schedule</a>
           </Link>
+          <Link href="/passes">
+            <a className={styles.centerNavLink}>Passes</a>
+          </Link>
         </div>
       </div>
 
@@ -125,6 +137,18 @@ export default function NavbarComp() {
               className={styles.sideBarNavLink}
             >
               Schedule
+            </a>
+          </Link>
+
+          <Link href="/passes">
+            <a
+              onClick={() => {
+                toggleNavbar();
+                setIsOpen(!isOpen);
+              }}
+              className={styles.sideBarNavLink}
+            >
+              Passes
             </a>
           </Link>
 
@@ -203,11 +227,7 @@ export default function NavbarComp() {
               onClick={() => setProfClicked(!profClicked)}
             >
               <Image
-                src={
-                  currentUser.photoURL
-                    ? currentUser.photoURL
-                    : '/icons/hacker.png'
-                }
+                src="/icons/hacker.png"
                 alt="profile"
                 width={40}
                 height={40}
@@ -215,7 +235,9 @@ export default function NavbarComp() {
             </button>
             <div
               className={
-                profClicked ? styles.dropDownShown : styles.dropDownHidden
+                profClicked && !navbarToggle
+                  ? styles.dropDownShown
+                  : styles.dropDownHidden
               }
             >
               <div>

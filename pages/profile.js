@@ -1,5 +1,4 @@
 import axios from 'axios';
-import Image from 'next/image';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -79,27 +78,7 @@ function Profile() {
       <div className={!navbarToggle ? styles.card : styles.hideCard}>
         {profile ? (
           <div>
-            <div className={styles.ticket}>
-              <p className={styles.eventTitle}>EVENT PASS</p>
-              <span className={styles.admit}>
-                <FaCheckCircle className={styles.icon_check}></FaCheckCircle>
-                Tech
-              </span>
-              <br></br>
-              <span className={styles.admit}>
-                <FaTimesCircle className={styles.icon_cross}></FaTimesCircle>
-                Non-tech
-              </span>
-            </div>
-            <div className={styles.image}>
-              <Image
-                className={styles.image}
-                src={currentUser?.photoURL}
-                width={130}
-                height={130}
-                alt={profile.username}
-              ></Image>
-            </div>
+            <div className={styles.image}></div>
             <h1 className={styles.name}>{profile.fullName}</h1>
             <Container className={styles.details}>
               <Row>
