@@ -352,8 +352,8 @@ export default function Home() {
             </Col>
             <Col sm={12} md={12} lg={8}>
               <div className={navbarToggle ? styles.hide : styles.sub_title}>
-                <h2>ABOUT&nbsp;INVENTE</h2>
-                <h2>ABOUT&nbsp;INVENTE</h2>
+                <h2>ABOUT&nbsp; INVENTE</h2>
+                <h2>ABOUT&nbsp; INVENTE</h2>
               </div>
               <p className={styles.about_content}>
                 While the present can be considered as unprecedented at its
@@ -367,7 +367,7 @@ export default function Home() {
                 Invente - a nexus of Innovation, Creativity and Entertainment,
                 is a 2-day Intercollegiate technical fest which is aims to
                 encourage students to think beyond academics and helps them to
-                discover their hidden passions and talents. This technical
+                discover their hidden passions and talents.This technical
                 extravaganza gives space for students to flaunt their skills in
                 various domains and caters to their adrenaline surges.
                 <br />
@@ -638,34 +638,54 @@ export default function Home() {
             <Container id="sponsors" className={styles.sponsors}>
               <Row>
                 <Col className={styles.facilio}>
-                  {/* eslint-disable-next-line */}
-                  <img
-                    src="/sponsors/facilio.png"
-                    alt="facilio"
-                  />{' '}
+                  <a
+                    href="https://facilio.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/facilio.png"
+                      alt="facilio"
+                    />{' '}
+                  </a>
                 </Col>
               </Row>
               <Row>
                 <Col>
-                  {/* eslint-disable-next-line */}
-                  <img
-                    src="/sponsors/sf.png"
-                    alt="facilio"
-                  />{' '}
+                  <a
+                    href="https://business.stayflexi.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/sf.png"
+                      alt="stayflexi"
+                    />{' '}
+                  </a>
                 </Col>
                 <Col>
-                  {/* eslint-disable-next-line */}
-                  <img
-                    src="/sponsors/cosmic.png"
-                    alt="facilio"
-                  />{' '}
+                  <a href="cosmichvac.com" target="_blank">
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/cosmic.png"
+                      alt="cosmic"
+                    />{' '}
+                  </a>
                 </Col>
                 <Col>
-                  {/* eslint-disable-next-line */}
-                  <img
-                    src="/sponsors/typesense.svg"
-                    alt="facilio"
-                  />{' '}
+                  <a
+                    href="https://typesense.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/typesense.svg"
+                      alt="typesense"
+                    />{' '}
+                  </a>
                 </Col>
               </Row>
             </Container>
@@ -837,7 +857,7 @@ export default function Home() {
                         />
                       </svg>
                       <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Somnath T. V.</h6>
+                        <h6 className={styles.org_card_title}>Somnath T.V.</h6>
                         <p className={styles.org_card_dept}>EEE</p>
                         <p className={styles.org_card_phone}>+91 7550191192</p>
                       </div>
@@ -877,7 +897,7 @@ export default function Home() {
                       </svg>
                       <div className={styles.org_card_content}>
                         <h6 className={styles.org_card_title}>
-                          Sidharath K. S.
+                          Sidharath K.S.
                         </h6>
                         <p className={styles.org_card_dept}>Civil</p>
                         <p className={styles.org_card_phone}>+91 9445892891</p>
@@ -915,7 +935,7 @@ export default function Home() {
                         />
                       </svg>
                       <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Lokesh K. M</h6>
+                        <h6 className={styles.org_card_title}>Lokesh K.M</h6>
                         <p className={styles.org_card_dept}>BME</p>
                         <p className={styles.org_card_phone}>+91 8072233516</p>
                       </div>
