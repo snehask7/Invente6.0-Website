@@ -146,10 +146,6 @@ function Schedule() {
   const [state, setState] = useState();
   const { navbarToggle, toggleNavbar, resetNavbar } = useNav();
 
-  useEffect(() => {
-    resetNavbar();
-  }, [resetNavbar]);
-
   function changeDay(d) {
     day = d;
     if (state == 0) setState(1);
@@ -567,7 +563,7 @@ function Schedule() {
             </div>
 
             <div className={styles.eventsMobile}>
-              <Container className={styles.cards}>
+              <Container className={navbarToggle ? styles.hide : styles.cards}>
                 <Row>
                   <Col xs={3}>
                     <Card dept={'CSE'} handler={handler} />
