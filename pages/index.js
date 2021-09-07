@@ -636,18 +636,16 @@ export default function Home() {
               <h2>SPONSORS</h2>
             </div>
             <Container id="sponsors" className={styles.sponsors}>
-              <Row >
-                <Col className={styles.facilio}
-                >
+              <Row>
+                <Col className={styles.facilio}>
                   {/* eslint-disable-next-line */}
                   <img
                     src="/sponsors/facilio.png"
                     alt="facilio"
                   />{' '}
                 </Col>
-
               </Row>
-              <Row >
+              <Row>
                 <Col>
                   {/* eslint-disable-next-line */}
                   <img
