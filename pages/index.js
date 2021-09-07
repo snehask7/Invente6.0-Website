@@ -663,302 +663,132 @@ export default function Home() {
             <Container className={styles.org_cards}>
               <Row>
                 <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/cse.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Vignesh B.</h6>
-                        <p className={styles.org_card_dept}>CSE</p>
-                        <p className={styles.org_card_phone}>+91 9841114252</p>
-                      </div>
+                  <div className={styles['our-team']}>
+                    <div className={styles['pic']}>
+                      {/* eslint-disable-next-line */}
+                    <img
+                        src="/presidents/cse.jpg"
+                        alt=""
+                      ></img>
+                    </div>
+                    <div className={styles['team-content']}>
+                      <h3 className={styles['title']}>Williamson</h3>
+                      <span className={styles['post']}>Web Developer</span>
+                      <p className={styles['post']}>1234567890</p>
                     </div>
                   </div>
                 </Col>
                 <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/it.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Alfrin A J</h6>
-                        <p className={styles.org_card_dept}>IT</p>
-                        <p className={styles.org_card_phone}>+91 9791394453</p>
-                      </div>
+                  <div className={styles['our-team']}>
+                    <div className={styles['pic']}>
+                      {/* eslint-disable-next-line */}
+                    <img
+                        src="/presidents/cse.jpg"
+                        alt=""
+                      ></img>
+                    </div>
+                    <div className={styles['team-content']}>
+                      <h3 className={styles['title']}>Williamson</h3>
+                      <span className={styles['post']}>Web Developer</span>
+                      <p className={styles['post']}>1234567890</p>
                     </div>
                   </div>
                 </Col>
                 <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/ece.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Nikhil V.</h6>
-                        <p className={styles.org_card_dept}>ECE</p>
-                        <p className={styles.org_card_phone}>+91 9176875101</p>
-                      </div>
+                  <div className={styles['our-team']}>
+                    <div className={styles['pic']}>
+                      {/* eslint-disable-next-line */}
+                    <img
+                        src="/presidents/cse.jpg"
+                        alt=""
+                      ></img>
+                    </div>
+                    <div className={styles['team-content']}>
+                      <h3 className={styles['title']}>Williamson</h3>
+                      <span className={styles['post']}>Web Developer</span>
+                      <p className={styles['post']}>1234567890</p>
                     </div>
                   </div>
                 </Col>
                 <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/eee.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Somnath T. V.</h6>
-                        <p className={styles.org_card_dept}>EEE</p>
-                        <p className={styles.org_card_phone}>+91 7550191192</p>
-                      </div>
+                  <div className={styles['our-team']}>
+                    <div className={styles['pic']}>
+                      {/* eslint-disable-next-line */}
+                    <img
+                        src="/presidents/cse.jpg"
+                        alt=""
+                      ></img>
+                    </div>
+                    <div className={styles['team-content']}>
+                      <h3 className={styles['title']}>Williamson</h3>
+                      <span className={styles['post']}>Web Developer</span>
+                      <p className={styles['post']}>1234567890</p>
                     </div>
                   </div>
                 </Col>
               </Row>
               <Row>
                 <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/civil.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>
-                          Sidharath K. S.
-                        </h6>
-                        <p className={styles.org_card_dept}>Civil</p>
-                        <p className={styles.org_card_phone}>+91 9445892891</p>
-                      </div>
+                  <div className={styles['our-team']}>
+                    <div className={styles['pic']}>
+                      {/* eslint-disable-next-line */}
+                    <img
+                        src="/presidents/cse.jpg"
+                        alt=""
+                      ></img>
+                    </div>
+                    <div className={styles['team-content']}>
+                      <h3 className={styles['title']}>Williamson</h3>
+                      <span className={styles['post']}>Web Developer</span>
+                      <p className={styles['post']}>1234567890</p>
                     </div>
                   </div>
                 </Col>
                 <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/bme.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Lokesh K. M</h6>
-                        <p className={styles.org_card_dept}>BME</p>
-                        <p className={styles.org_card_phone}>+91 8072233516</p>
-                      </div>
+                  <div className={styles['our-team']}>
+                    <div className={styles['pic']}>
+                      {/* eslint-disable-next-line */}
+                    <img
+                        src="/presidents/cse.jpg"
+                        alt=""
+                      ></img>
+                    </div>
+                    <div className={styles['team-content']}>
+                      <h3 className={styles['title']}>Williamson</h3>
+                      <span className={styles['post']}>Web Developer</span>
+                      <p className={styles['post']}>1234567890</p>
                     </div>
                   </div>
                 </Col>
                 <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/mech.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Cynthia Joy</h6>
-                        <p className={styles.org_card_dept}>Mechanical</p>
-                        <p className={styles.org_card_phone}>+91 9480038164</p>
-                      </div>
+                  <div className={styles['our-team']}>
+                    <div className={styles['pic']}>
+                      {/* eslint-disable-next-line */}
+                    <img
+                        src="/presidents/cse.jpg"
+                        alt=""
+                      ></img>
+                    </div>
+                    <div className={styles['team-content']}>
+                      <h3 className={styles['title']}>Williamson</h3>
+                      <span className={styles['post']}>Web Developer</span>
+                      <p className={styles['post']}>1234567890</p>
                     </div>
                   </div>
                 </Col>
                 <Col xs={6} sm={6} md={3} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/chem.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Achsha Israel</h6>
-                        <p className={styles.org_card_dept}>Chemical</p>
-                        <p className={styles.org_card_phone}>+91 9445610075</p>
-                      </div>
+                  <div className={styles['our-team']}>
+                    <div className={styles['pic']}>
+                      {/* eslint-disable-next-line */}
+                    <img
+                        src="/presidents/cse.jpg"
+                        alt=""
+                      ></img>
+                    </div>
+                    <div className={styles['team-content']}>
+                      <h3 className={styles['title']}>Williamson</h3>
+                      <span className={styles['post']}>Web Developer</span>
+                      <p className={styles['post']}>1234567890</p>
                     </div>
                   </div>
                 </Col>
