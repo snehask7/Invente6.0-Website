@@ -493,7 +493,7 @@ export default function Home() {
                     <div className={styles.card_image}>
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/eee.jpeg"
+                        src="/icons/eee.JPG"
                         alt="cse"
                         width={200}
                         height={200}
