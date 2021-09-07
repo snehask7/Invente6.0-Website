@@ -81,12 +81,15 @@ export default function NavbarComp() {
           <Link href="/#departments">
             <a className={styles.centerNavLink}>Departments</a>
           </Link>
+          <Link href="/#departments">
+            <a className={styles.centerNavLink}>Sponsors</a>
+          </Link>
           {/* <Link href="/workshops">
             <a className={styles.centerNavLink}>Workshops</a>
           </Link> */}
-          <Link href="/schedule">
+          {/* <Link href="/schedule">
             <a className={styles.centerNavLink}>Schedule</a>
-          </Link>
+          </Link> */}
           <Link href="/passes">
             <a className={styles.centerNavLink}>Passes</a>
           </Link>
@@ -117,6 +120,17 @@ export default function NavbarComp() {
               Departments
             </a>
           </Link>
+          <Link href="/#sponsors">
+            <a
+              onClick={() => {
+                toggleNavbar();
+                setIsOpen(!isOpen);
+              }}
+              className={styles.sideBarNavLink}
+            >
+              Sponsors
+            </a>
+          </Link>
           {/* <Link href="/workshops">
             <a
               onClick={() => {
@@ -128,7 +142,7 @@ export default function NavbarComp() {
               Workshops
             </a>
           </Link> */}
-          <Link href="/schedule">
+          {/* <Link href="/schedule">
             <a
               onClick={() => {
                 toggleNavbar();
@@ -138,7 +152,7 @@ export default function NavbarComp() {
             >
               Schedule
             </a>
-          </Link>
+          </Link> */}
 
           <Link href="/passes">
             <a
