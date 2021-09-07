@@ -1,8 +1,8 @@
 import axios from 'axios';
-import Image from 'next/image';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Image from 'next/image';
 import {
   FaCheckCircle,
   FaPhoneAlt,
@@ -57,18 +57,37 @@ function Profile() {
   function renderEvents() {
     return profile.events.map((event, i) => {
       return (
-        <li key={i} className={styles.eventCard}>
-          {eventsInfo[event].name}
-          <FaTimesCircle className={styles.delete}></FaTimesCircle>
-          <br></br>
-          <span className={styles.tag}>
-            {eventsInfo[event].category == 'tech' ||
-            eventsInfo[event].category == 'non-tech'
-              ? 'Event'
-              : 'Hackathon'}
-          </span>
-          <span className={styles.verified}>Not paid</span>
-        </li>
+        // <li key={i} className={styles.eventCard}>
+        //   {eventsInfo[event].name}
+        //   <FaTimesCircle className={styles.delete}></FaTimesCircle>
+        //   <br></br>
+        //   <span className={styles.tag}>
+        //     {eventsInfo[event].category == 'tech' ||
+        //     eventsInfo[event].category == 'non-tech'
+        //       ? 'Event'
+        //       : 'Hackathon'}
+        //   </span>
+        //   <span className={styles.verified}>Not paid</span>
+        // </li>
+        <div key={i} className={styles.event_card}>
+          <div className={styles.event_bg}>
+            <Image
+              width="400"
+              height="350"
+              src="/Plans/purple.svg"
+              alt="plan background"
+            />
+          </div>
+
+          <div className={styles.event}>
+            <div className={styles.event_title}>Combo</div>
+            <div className={styles.plan_description}>
+              <span>Devathlon</span>
+            </div>
+            <div className={styles.event_dept}>CSE</div>
+            
+          </div>
+        </div>
       );
     });
   }
@@ -79,49 +98,9 @@ function Profile() {
       <div className={!navbarToggle ? styles.card : styles.hideCard}>
         {profile ? (
           <div>
-            <div className={styles.ticket}>
-              <p className={styles.eventTitle}>EVENT PASS</p>
-              <span className={styles.admit}>
-                <FaCheckCircle className={styles.icon_check}></FaCheckCircle>
-                Tech
-              </span>
-              <br></br>
-              <span className={styles.admit}>
-                <FaTimesCircle className={styles.icon_cross}></FaTimesCircle>
-                Non-tech
-              </span>
-            </div>
-            <div className={styles.image}>
-              <Image
-                className={styles.image}
-                src={currentUser?.photoURL}
-                width={130}
-                height={130}
-                alt={profile.username}
-              ></Image>
-            </div>
+            <div className={styles.image}></div>
             <h1 className={styles.name}>{profile.fullName}</h1>
             <Container className={styles.details}>
-              <Row>
-                <Col xs={12} sm={12} md={12} className={styles.ticketCol}>
-                  <div className={styles.ticket}>
-                    <p className={styles.eventTitle}>EVENT PASS</p>
-                    <span className={styles.admit}>
-                      <FaCheckCircle
-                        className={styles.icon_check}
-                      ></FaCheckCircle>
-                      Tech
-                    </span>
-                    <br></br>
-                    <span className={styles.admit}>
-                      <FaTimesCircle
-                        className={styles.icon_cross}
-                      ></FaTimesCircle>
-                      Non-tech
-                    </span>
-                  </div>
-                </Col>
-              </Row>
               <Row>
                 <Col xs={6} sm={6} md={4} className={styles.cols}>
                   <div>
@@ -190,7 +169,13 @@ function Profile() {
           currentUser && null
         )}
 
-        {profile ? renderEvents() : currentUser && null}
+        {profile ? (
+          <section className={styles.price_section} id="pricing">
+            <div className={styles.feature}>{renderEvents()}</div>
+          </section>
+        ) : (
+          currentUser && null
+        )}
       </div>
     </div>
   );
