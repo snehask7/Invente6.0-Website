@@ -21,8 +21,8 @@ function Plans() {
             !navbarToggle ? styles.mainContainer : styles.hideMainContainer
           }
         >
-          <h1 className={styles.pageHeading}>Event Passes</h1>
-          <section className={styles.price_section} id="pricing">
+          <h1 className={!navbarToggle ? styles.pageHeading : styles.hide}>Event Passes</h1>
+          <section className={!navbarToggle ? styles.price_section : styles.hide} id="pricing">
             <div className={styles.buttons}>
               <div className={styles.plan_action}>
                 <a
