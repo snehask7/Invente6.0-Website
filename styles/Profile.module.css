@@ -170,7 +170,7 @@ section.price_section {
   margin-top: 2rem !important;
 }
 
-.event {
+.event{
   width: 80%;
   height: 15vh;
   margin-left: auto;
@@ -187,10 +187,10 @@ section.price_section .event_card .event_bg {
   transform: translate3d(0%, 2%, 0);
 }
 
-section.price_section .event {
+section.price_section .event{
   backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-image: linear-gradient(to right, #050d22, #070e21, #1c132e),
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-image: linear-gradient(to right, #050d22, #070e21, #1c132e),
     linear-gradient(
       to bottom right,
       #153ca0bb,
@@ -205,8 +205,8 @@ section.price_section .event {
       #070e2100,
       rgba(144, 53, 172, 0.61)
     );
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 24px;
   display: flex;
@@ -216,16 +216,15 @@ section.price_section .event {
   padding: 20px 25px;
 }
 
-section.price_section .event .plan_description {
+section.price_section .event .plan_description{
   font-weight: bold;
   font-weight: 250;
   font-size: 2.5vh;
-  line-height: 32px;
   /* or 178% */
-  letter-spacing: -0.25px;
   z-index: 2;
   color: #fff;
-  margin: 0.2em 0;
+  margin: 0;
+  
 }
 
 .event_title {
@@ -233,15 +232,34 @@ section.price_section .event .plan_description {
   color: rgb(172, 167, 167);
 }
 
-@media screen and (max-width: 382px) {
-  section.price_section .event .plan_description {
-    font-size: 2.2vh;
-    line-height: 38px;
-  }
+.event_title{
+  font-size: 2vh;
+  color: rgb(172, 167, 167);
 }
 
-.icon {
+.payIcon{
   margin-right: 5px;
+}
+
+
+@media screen and (max-width: 420px) {
+  section.price_section .event .plan_description{
+    font-size: 2vh;
+    line-height: 38px;
+  }
+  
+.event{
+  width: 95%;
+  height: 15vh;
+}
+  
+section.price_section .event{
+  padding: 20px 10px;
+}
+.payIcon{
+  margin-right: 5px;
+  margin-bottom: 0;
+}
 }
 .payIcon {
   margin-right: 1em;

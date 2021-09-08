@@ -541,6 +541,20 @@
   font-weight: bold;
 }
 
+@media screen and (max-width: 1070px) {
+  .timer {
+    letter-spacing: 1px;
+    width: 70vw;
+  }
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    width: 120px;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .days,
   .hours,
