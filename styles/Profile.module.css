@@ -161,7 +161,7 @@
   text-align: center;
 }
 
-section.price_section{
+section.price_section {
   margin-left: auto;
   margin-right: auto;
 }
@@ -227,6 +227,10 @@ section.price_section .event .plan_description{
   
 }
 
+.event_title {
+  font-size: 2vh;
+  color: rgb(172, 167, 167);
+}
 
 .event_title{
   font-size: 2vh;
