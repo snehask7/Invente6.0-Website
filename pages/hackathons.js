@@ -4,8 +4,10 @@ import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
 import {
-  FaCalendarAlt, FaRegBuilding, FaTrophy,
-  FaUserAlt
+  FaCalendarAlt,
+  FaRegBuilding,
+  FaTrophy,
+  FaUserAlt,
 } from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
 import NavbarComp from '../components/Navbar';
@@ -28,7 +30,7 @@ export default function Department({ data }) {
       url: '/api/register',
       data: {
         username: profile.username,
-        eventid: "80",
+        eventid: '80',
       },
     })
       .then(() => {
@@ -50,7 +52,7 @@ export default function Department({ data }) {
           params: { username: userDetails.data.username },
         });
         setProfile(profileDetails.data);
-        console.log(profileDetails.data)
+        console.log(profileDetails.data);
       }
     }
     fetchProfile();
@@ -65,9 +67,7 @@ export default function Department({ data }) {
               !navbarToggle ? styles.mainContainer : styles.hideMainContainer
             }
           >
-            <h1 className={styles.pageHeading}>
-              Hackathon
-            </h1>
+            <h1 className={styles.pageHeading}>Hackathon</h1>
             <Row className={styles.wrapper}>
               {/* <Col
                 lg={12}
@@ -110,9 +110,7 @@ export default function Department({ data }) {
               <Col lg={12} xl={12} md={12} sm={12}>
                 <div className={styles.eventDetails}>
                   <p className={styles.headerWrapper}>
-                    <span className={styles.eventHeading}>
-                      Devathlon
-                    </span>
+                    <span className={styles.eventHeading}>Devathlon</span>
                     {/* <span
                       className={
                         events[id].category == 'tech' ||
@@ -129,7 +127,16 @@ export default function Department({ data }) {
                     </span> */}
                   </p>
                   <br></br>
-                  Deevathlon is a one week long hackathon. The problem statement will be released on 1st of October. The participants get a week’s time to build a solution for the given problem statement. The participants solution will be evaluated during invente and depending on the viability of the product, the product will be considered for piloting and may be funded. The developers of best solutions get the chance to intern and work in world class companies. The detailed description will be released soon.                  {/* {events[id].description.summary ? (
+                  Deevathlon is a one week long hackathon. The problem statement
+                  will be released on 1st of October. The participants get a
+                  week’s time to build a solution for the given problem
+                  statement. The participants solution will be evaluated during
+                  invente and depending on the viability of the product, the
+                  product will be considered for piloting and may be funded. The
+                  developers of best solutions get the chance to intern and work
+                  in world class companies. The detailed description will be
+                  released soon.{' '}
+                  {/* {events[id].description.summary ? (
                     <>
                       <p
                         dangerouslySetInnerHTML={{
@@ -187,9 +194,9 @@ export default function Department({ data }) {
                       {' '}
                       <FaCalendarAlt></FaCalendarAlt>
                       <br></br>Problem Statement release: October 1st<br></br>
-                      1st Review: October 4th<br />
+                      1st Review: October 4th
+                      <br />
                       Judging: October 8th
-
                     </div>
                     <div className={styles.col}>
                       {' '}
@@ -198,9 +205,12 @@ export default function Department({ data }) {
                     </div>
                     <div className={styles.col}>
                       {' '}
-                      <FaTrophy></FaTrophy><br></br>
-                      Winner - Rs.15000<br />
-                      1st Runner - Rs.10000<br />
+                      <FaTrophy></FaTrophy>
+                      <br></br>
+                      Winner - Rs.15000
+                      <br />
+                      1st Runner - Rs.10000
+                      <br />
                       2nd Runner - Rs.5000
                       {/* {events[id].prizes.map((prize, id) => {
                         return (
@@ -218,7 +228,7 @@ export default function Department({ data }) {
                     </div>
                   </div>
                   <div className={styles.buttonWrapper}>
-                    {profile && profile.events.includes("80") ? (
+                    {profile && profile.events.includes('80') ? (
                       <button className={styles.registeredButton} disabled>
                         Registered
                       </button>
@@ -228,7 +238,7 @@ export default function Department({ data }) {
                         onClick={() => {
                           currentUser
                             ? currentUser.emailVerified
-                              ? register("80")
+                              ? register('80')
                               : router.push('/unverified')
                             : router.push('/signin');
                         }}
@@ -239,7 +249,6 @@ export default function Department({ data }) {
                   </div>
                 </div>
               </Col>
-
             </Row>
           </div>
         </main>
@@ -247,4 +256,3 @@ export default function Department({ data }) {
     </>
   );
 }
-

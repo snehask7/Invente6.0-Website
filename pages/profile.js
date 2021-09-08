@@ -10,7 +10,7 @@ import {
   FaRegEnvelope,
   FaTimesCircle,
   FaUniversity,
-  FaUserGraduate
+  FaUserGraduate,
 } from 'react-icons/fa';
 import NavbarComp from '../components/Navbar';
 import eventsInfo from '../eventsInfo.json';
@@ -62,10 +62,11 @@ function Profile() {
               {eventsInfo[event].category == 'tech'
                 ? 'Tech Event '
                 : eventsInfo[event].category == 'non-tech'
-                  ? 'Non-tech Event '
-                  : eventsInfo[event].category == 'centralWorkshop' || eventsInfo[event].category == 'civilWorkshop'
-                    ? 'Workshop '
-                    : 'Hackathon '}
+                ? 'Non-tech Event '
+                : eventsInfo[event].category == 'centralWorkshop' ||
+                  eventsInfo[event].category == 'civilWorkshop'
+                ? 'Workshop '
+                : 'Hackathon '}
               - {eventsInfo[event].department} <br></br>
               {eventsInfo[event].category == 'tech' ? (
                 profile.paid && profile.paid.tech == true ? (
@@ -202,7 +203,6 @@ function Profile() {
       <div className={!navbarToggle ? styles.card : styles.hideCard}>
         {profile ? (
           <div>
-
             <div className={styles.image}></div>
             <h1 className={styles.name}>{profile.fullName}</h1>
             {/* <div className={styles.planetHolder}>
@@ -272,9 +272,9 @@ function Profile() {
             </Container>
           </div>
         ) : // <div>
-          //   <h2 className={styles.error}>You must be signed in. </h2>
-          // </div>
-          null}
+        //   <h2 className={styles.error}>You must be signed in. </h2>
+        // </div>
+        null}
 
         {profile ? (
           <div>

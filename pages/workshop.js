@@ -62,9 +62,7 @@ export default function Department({ data }) {
               !navbarToggle ? styles.mainContainer : styles.hideMainContainer
             }
           >
-            <h1 className={styles.pageHeading}>
-              Workshops
-            </h1>
+            <h1 className={styles.pageHeading}>Workshops</h1>
             <Row className={styles.wrapper}>
               {/* <Col
                 lg={12}
@@ -107,9 +105,7 @@ export default function Department({ data }) {
               <Col lg={12} xl={12} md={12} sm={12}>
                 <div className={styles.eventDetails}>
                   <p className={styles.headerWrapper}>
-                    <span className={styles.eventHeading}>
-                      AI/ML Workshop
-                    </span>
+                    <span className={styles.eventHeading}>AI/ML Workshop</span>
                     {/* <span
                       className={
                         events[id].category == 'tech' ||
@@ -125,8 +121,10 @@ export default function Department({ data }) {
                           : 'Non-Tech'}
                     </span> */}
                   </p>
-                  <br></br>
-                  A 3 hour workshop exploring the recent technical advancements in the field of AI/ML conducted by the best people in the industry. The speakers and agenda of the workshop will be revealed soon!!
+                  <br></br>A 3 hour workshop exploring the recent technical
+                  advancements in the field of AI/ML conducted by the best
+                  people in the industry. The speakers and agenda of the
+                  workshop will be revealed soon!!
                   {/* {events[id].description.summary ? (
                     <>
                       <p
@@ -204,7 +202,7 @@ export default function Department({ data }) {
                     </div> */}
                   </div>
                   <div className={styles.buttonWrapper}>
-                    {profile && profile.events.includes("90") ? (
+                    {profile && profile.events.includes('90') ? (
                       <button className={styles.registeredButton} disabled>
                         Registered
                       </button>
@@ -214,7 +212,7 @@ export default function Department({ data }) {
                         onClick={() => {
                           currentUser
                             ? currentUser.emailVerified
-                              ? register("90")
+                              ? register('90')
                               : router.push('/unverified')
                             : router.push('/signin');
                         }}
@@ -225,12 +223,10 @@ export default function Department({ data }) {
                   </div>
                 </div>
               </Col>
-              <Col lg={12} xl={12} md={12} sm={12} style={{ marginTop: "2em" }}>
+              <Col lg={12} xl={12} md={12} sm={12} style={{ marginTop: '2em' }}>
                 <div className={styles.eventDetails}>
                   <p className={styles.headerWrapper}>
-                    <span className={styles.eventHeading}>
-                      Civil Workshop
-                    </span>
+                    <span className={styles.eventHeading}>Civil Workshop</span>
                     {/* <span
                       className={
                         events[id].category == 'tech' ||
@@ -247,8 +243,15 @@ export default function Department({ data }) {
                     </span> */}
                   </p>
                   <br></br>
-                  <p>Invente in collaboration with a famous construction company is set to organize a 3 hour workshop which will present an opportunity to learn from the professionals with years of experience in technology and management in the field of civil engineering.The speakers and the agenda of the workshop will be revealed soon so stay tuned!
-                  </p>            {/* {events[id].description.summary ? (
+                  <p>
+                    Invente in collaboration with a famous construction company
+                    is set to organize a 3 hour workshop which will present an
+                    opportunity to learn from the professionals with years of
+                    experience in technology and management in the field of
+                    civil engineering.The speakers and the agenda of the
+                    workshop will be revealed soon so stay tuned!
+                  </p>{' '}
+                  {/* {events[id].description.summary ? (
                     <>
                       <p
                         dangerouslySetInnerHTML={{
@@ -339,7 +342,7 @@ export default function Department({ data }) {
                     </div> */}
                   </div>
                   <div className={styles.buttonWrapper}>
-                    {profile && profile.events.includes("91") ? (
+                    {profile && profile.events.includes('91') ? (
                       <button className={styles.registeredButton} disabled>
                         Registered
                       </button>
@@ -349,7 +352,7 @@ export default function Department({ data }) {
                         onClick={() => {
                           currentUser
                             ? currentUser.emailVerified
-                              ? register("91")
+                              ? register('91')
                               : router.push('/unverified')
                             : router.push('/signin');
                         }}
@@ -368,4 +371,3 @@ export default function Department({ data }) {
     </>
   );
 }
-
