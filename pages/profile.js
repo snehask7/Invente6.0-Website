@@ -63,12 +63,13 @@ function Profile() {
                 ? 'Tech Event '
                 : eventsInfo[event].category == 'non-tech'
                 ? 'Non-tech Event '
-                : eventsInfo[event].category.slice(0, 2) == 'ws'
+                : eventsInfo[event].category == 'centralWorkshop' ||
+                  eventsInfo[event].category == 'civilWorkshop'
                 ? 'Workshop '
                 : 'Hackathon '}
               - {eventsInfo[event].department} <br></br>
               {eventsInfo[event].category == 'tech' ? (
-                profile.tech == true ? (
+                profile.paid && profile.paid.tech == true ? (
                   <>
                     <span className={styles.title}>
                       <FaCheckCircle className={styles.payIcon}></FaCheckCircle>
@@ -85,7 +86,92 @@ function Profile() {
                 )
               ) : null}
               {eventsInfo[event].category == 'non-tech' ? (
-                profile.nonTech == true ? (
+                profile.paid && profile.paid.nonTech == true ? (
+                  <>
+                    <span className={styles.title}>
+                      <FaCheckCircle className={styles.payIcon}></FaCheckCircle>
+                    </span>
+                    {'Paid'}
+                  </>
+                ) : (
+                  <>
+                    <span className={styles.title}>
+                      <FaTimesCircle className={styles.payIcon}></FaTimesCircle>
+                    </span>
+                    {'Not Paid'}
+                  </>
+                )
+              ) : null}
+              {eventsInfo[event].category == 'centralWorkshop' ? (
+                profile.paid && profile.paid.wsCentral == true ? (
+                  <>
+                    <span className={styles.title}>
+                      <FaCheckCircle className={styles.payIcon}></FaCheckCircle>
+                    </span>
+                    {'Paid'}
+                  </>
+                ) : (
+                  <>
+                    <span className={styles.title}>
+                      <FaTimesCircle className={styles.payIcon}></FaTimesCircle>
+                    </span>
+                    {'Not Paid'}
+                  </>
+                )
+              ) : null}
+              {eventsInfo[event].category == 'civilWorkshop' ? (
+                profile.paid && profile.paid.wsCivil == true ? (
+                  <>
+                    <span className={styles.title}>
+                      <FaCheckCircle className={styles.payIcon}></FaCheckCircle>
+                    </span>
+                    {'Paid'}
+                  </>
+                ) : (
+                  <>
+                    <span className={styles.title}>
+                      <FaTimesCircle className={styles.payIcon}></FaTimesCircle>
+                    </span>
+                    {'Not Paid'}
+                  </>
+                )
+              ) : null}
+              {eventsInfo[event].category == 'cseHack' ? (
+                profile.paid && profile.paid.cseHack == true ? (
+                  <>
+                    <span className={styles.title}>
+                      <FaCheckCircle className={styles.payIcon}></FaCheckCircle>
+                    </span>
+                    {'Paid'}
+                  </>
+                ) : (
+                  <>
+                    <span className={styles.title}>
+                      <FaTimesCircle className={styles.payIcon}></FaTimesCircle>
+                    </span>
+                    {'Not Paid'}
+                  </>
+                )
+              ) : null}
+              {eventsInfo[event].category == 'bmeHack' ? (
+                profile.paid && profile.paid.bmeHack == true ? (
+                  <>
+                    <span className={styles.title}>
+                      <FaCheckCircle className={styles.payIcon}></FaCheckCircle>
+                    </span>
+                    {'Paid'}
+                  </>
+                ) : (
+                  <>
+                    <span className={styles.title}>
+                      <FaTimesCircle className={styles.payIcon}></FaTimesCircle>
+                    </span>
+                    {'Not Paid'}
+                  </>
+                )
+              ) : null}
+              {eventsInfo[event].category == 'eceHack' ? (
+                profile.paid && profile.paid.eceHack == true ? (
                   <>
                     <span className={styles.title}>
                       <FaCheckCircle className={styles.payIcon}></FaCheckCircle>

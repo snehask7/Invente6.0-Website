@@ -133,6 +133,7 @@ section.price_section .pricing_plans .pricing_plan {
   width: 300px;
   margin-bottom: 20px;
 }
+
 section.price_section .pricing_plans .pricing_plan .free_tier,
 section.price_section .pricing_plans .pricing_plan .super_tier {
   box-sizing: border-box;
@@ -469,4 +470,7 @@ section.price_section .free_tier + .plan_action a:after {
   background-size: cover;
   border-radius: 0;
   overflow: hidden;
+}
+.hide {
+  display: None;
 }
