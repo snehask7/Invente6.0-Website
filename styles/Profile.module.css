@@ -220,12 +220,10 @@ section.price_section .event .plan_description{
   font-weight: bold;
   font-weight: 250;
   font-size: 2.5vh;
-  line-height: 32px;
   /* or 178% */
-  letter-spacing: -0.25px;
   z-index: 2;
   color: #fff;
-  margin: 0.2em 0;
+  margin: 0;
   
 }
 
@@ -235,16 +233,31 @@ section.price_section .event .plan_description{
   color: rgb(172, 167, 167);
 }
 
-
-@media screen and (max-width: 382px) {
-  section.price_section .event .plan_description{
-    font-size: 2.2vh;
-    line-height: 38px;
-  }
-}
-
-.icon{
+.payIcon{
   margin-right: 5px;
 }
+
+
+@media screen and (max-width: 420px) {
+  section.price_section .event .plan_description{
+    font-size: 2vh;
+    line-height: 38px;
+  }
+  
+.event{
+  width: 95%;
+  height: 15vh;
+}
+  
+section.price_section .event{
+  padding: 20px 10px;
+}
+.payIcon{
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+}
+
+
 
 
