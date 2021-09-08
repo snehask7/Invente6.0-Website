@@ -100,7 +100,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  margin-top: 15vw;
+  margin-top: 20vw;
 }
 
 .sub_title {
@@ -131,7 +131,6 @@
   color: #fff;
   text-align: justify;
   font-size: 2.5vh;
-  margin-top: -1vh;
 }
 
 @keyframes animate {
@@ -222,12 +221,10 @@
 }
 @media screen and (max-width: 650px) {
   .sub_title h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 7vw;
   }
   .about_content {
     padding: 3vw;
-    margin-top: 0vh;
   }
 }
 @media screen and (max-width: 992px) {
@@ -273,17 +270,10 @@
   margin-right: 10px;
 }
 
-/* Sponsors*/
+/*Sponsors*/
 .spons_section {
-  margin-top: -2rem;
+  margin-top: 8vw;
 }
-/* 
-@media screen and (max-width: 991px) {
-  .spons_section {
-    margin-top: 1vw !important;
-  }
-} */
-
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -337,20 +327,10 @@
 .hide {
   display: none;
 }
-.sponsors {
-  text-align: center;
-  margin-top: 10rem;
-}
-.sponsors img {
-  margin-top: 2rem;
-  width: 15rem;
-}
-.facilio {
-  margin-top: 2rem;
-}
+
 /*Organiser section*/
 .org_section {
-  margin-top: 8rem;
+  margin-top: 8vw;
 }
 
 .org_card_image {
@@ -365,27 +345,21 @@
 }
 .org_card {
   position: relative;
-}
-.our-team .pic{
+  background: rgba(144, 53, 172);
   width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 8px solid #7a4b94;
-  margin: 0 auto;
+  height: 250px;
+  border-radius: 6px;
+  padding: 1rem;
+  color: #fff;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
-
-@media screen and (max-width: 1000px) {
-  .our-team .pic {
-    width: 150px;
-    height: 150px;
-  }
+.org_card_image_container {
+  margin: -2rem -2rem 1rem -2rem;
 }
-@media screen and (max-width: 350px) {
-  .our-team .pic {
-    width: 130px;
-    height: 130px;
-  }
+.org_card_line {
+  opacity: 0;
+  animation: LineFadeIn 0.8s 0.8s forwards ease-in;
 }
 
 .org_card_dept {
@@ -394,58 +368,52 @@
   top: 0.5em;
 }
 
-.org_card_phone {
+.org_card_phone{
   font-size: 0.9em;
   position: absolute;
   top: 2em;
 }
 
-.org_cols {
+.org_cols{
   margin-top: 55px;
 }
 @keyframes LineFadeIn {
   0% {
     opacity: 0;
-    d: path(
-      'M 0 300 Q 0 300 0 300 Q 0 300 0 300 C 0 300 0 300 0 300 Q 0 300 0 300 '
-    );
+    d: path("M 0 300 Q 0 300 0 300 Q 0 300 0 300 C 0 300 0 300 0 300 Q 0 300 0 300 ");
     stroke: #fff;
-  }
+ }
   50% {
     opacity: 1;
-    d: path(
-      'M 0 300 Q 50 300 100 300 Q 250 300 350 300 C 350 300 500 300 650 300 Q 750 300 800 300'
-    );
+    d: path("M 0 300 Q 50 300 100 300 Q 250 300 350 300 C 350 300 500 300 650 300 Q 750 300 800 300");
     stroke: #888bff;
-  }
+ }
   100% {
     opacity: 1;
-    d: path(
-      'M -2 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 802 400'
-    );
+    d: path("M -2 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 802 400");
     stroke: #545581;
-  }
+ }
 }
 @keyframes ContentFadeIn {
   0% {
     transform: translateY(-1rem);
     opacity: 0;
-  }
+ }
   100% {
     transform: translateY(0);
     opacity: 1;
-  }
+ }
 }
 @keyframes ImageFadeIn {
   0% {
     transform: translate(-0.5rem, -0.5rem) scale(1.05);
     opacity: 0;
     filter: blur(2px);
-  }
+ }
   50% {
     opacity: 1;
     filter: blur(2px);
-  }
+ }
   100% {
     transform: translateY(0) scale(1);
     opacity: 1;
@@ -466,19 +434,13 @@
   margin-left: auto;
   margin-right: auto;
   background-color: #111927;
-  background-image: radial-gradient(
-      at 47% 33%,
-      hsl(289.9, 87%, 47%) 0,
-      transparent 59%
-    ),
-    radial-gradient(at 82% 65%, hsl(218, 39%, 11%) 0, transparent 55%);
-  width: 50vw;
-  border-radius: 25px;
+  background-image: 
+      radial-gradient(at 47% 33%, hsl(289.90, 87%, 47%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+width: 50vw;
+border-radius: 25px;
 }
-.days,
-.hours,
-.minutes,
-.seconds {
+.days, .hours, .minutes, .seconds {
   display: inline-block;
   padding: 15px 10px;
   width: 10vw;
@@ -523,10 +485,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .days,
-  .hours,
-  .minutes,
-  .seconds {
+  .days, .hours, .minutes, .seconds { 
     width: 100px;
     height: 90px;
     font-size: 10px;
@@ -539,10 +498,7 @@
 }
 
 @media screen and (max-width: 490px) {
-  .days,
-  .hours,
-  .minutes,
-  .seconds {
+  .days, .hours, .minutes, .seconds { 
     width: 65px;
     height: 70px;
     font-size: 10px;
@@ -551,9 +507,9 @@
   .numbers {
     font-size: 2em;
   }
-
-  .timer {
-    letter-spacing: 1px;
-    width: 300px;
-  }
+  
+.timer {
+  letter-spacing: 1px;
+  width: 300px;
+}
 }
