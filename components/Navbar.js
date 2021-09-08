@@ -36,6 +36,7 @@ export default function NavbarComp() {
         <Link href="/" passHref>
           <Image
             src="/icons/logo.png"
+            className={styles.ssnlogo}
             width={100}
             height={25}
             alt="logo"
@@ -81,6 +82,12 @@ export default function NavbarComp() {
           <Link href="/#departments">
             <a className={styles.centerNavLink}>Departments</a>
           </Link>
+          <Link href="/workshop">
+            <a className={styles.centerNavLink}>Workshops</a>
+          </Link>
+          <Link href="/hackathons">
+            <a className={styles.centerNavLink}>Hackathon</a>
+          </Link>
           <Link href="/#departments">
             <a className={styles.centerNavLink}>Sponsors</a>
           </Link>
@@ -118,6 +125,28 @@ export default function NavbarComp() {
               className={styles.sideBarNavLink}
             >
               Departments
+            </a>
+          </Link>
+          <Link href="/workshop">
+            <a
+              onClick={() => {
+                toggleNavbar();
+                setIsOpen(!isOpen);
+              }}
+              className={styles.sideBarNavLink}
+            >
+              Workshops
+            </a>
+          </Link>
+          <Link href="hackathons">
+            <a
+              onClick={() => {
+                toggleNavbar();
+                setIsOpen(!isOpen);
+              }}
+              className={styles.sideBarNavLink}
+            >
+              Hackathon
             </a>
           </Link>
           <Link href="/#sponsors">

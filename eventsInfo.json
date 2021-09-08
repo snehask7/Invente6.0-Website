@@ -199,5 +199,20 @@
   "04": { "name": "Hacker’s Asylum", "department": "CSE", "category": "tech" },
   "05": { "name": "MOCK JOB DRIVE", "department": "CSE", "category": "tech" },
   "06": { "name": "Reverse in Relay", "department": "CSE", "category": "tech" },
-  "07": { "name": "Game Nite", "department": "CSE", "category": "non-tech" }
+  "07": { "name": "Game Nite", "department": "CSE", "category": "non-tech" },
+  "80": {
+    "name": "Devathlon",
+    "department": "All",
+    "category": "cseHack"
+  },
+  "90": {
+    "name": "AI/ML Workshop",
+    "department": "All",
+    "category": "centralWorkshop"
+  },
+  "91": {
+    "name": "Civil Workshop",
+    "department": "Civil",
+    "category": "civilWorkshop"
+  }
 }
