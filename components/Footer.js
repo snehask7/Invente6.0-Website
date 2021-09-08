@@ -3,7 +3,7 @@ import { AnimatedSocialIcon } from 'react-animated-social-icons';
 import { Col, Container, Row } from 'react-bootstrap';
 import styles from '../styles/Footer.module.css';
 
-function Footer() {
+const Footer = ({ sticky }) => {
   let date = new Date();
   let year = date.getFullYear();
   return (
@@ -12,6 +12,7 @@ function Footer() {
       style={{
         textAlign: 'center',
         marginTop: '3em',
+        position: sticky ? 'absolute' : '',
       }}
       className={styles.align_items_center + ' ' + styles.footer}
     >
@@ -63,6 +64,6 @@ function Footer() {
       </Row>
     </Container>
   );
-}
+};
 
 export default Footer;

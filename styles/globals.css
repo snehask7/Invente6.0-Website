@@ -10,7 +10,9 @@ body {
   scroll-behavior: smooth;
   min-height: 100vh;
 }
-
+main {
+  min-height: 100%;
+}
 a {
   color: inherit;
   text-decoration: none;
