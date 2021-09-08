@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
+import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import { useNav } from '../lib/navbarstate';
@@ -387,6 +388,7 @@ function Plans() {
           </section>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
