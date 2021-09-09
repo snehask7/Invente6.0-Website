@@ -3,7 +3,12 @@
   "11": { "name": "WEBSITICA", "department": "IT", "category": "tech" },
   "12": { "name": "CODERA", "department": "IT", "category": "tech" },
   "13": { "name": "REVERSE GEAR", "department": "IT", "category": "tech" },
-  "14": { "name": "PAPYRUS", "department": "IT", "category": "tech" },
+  "14": {
+    "name": "PAPYRUS",
+    "department": "IT",
+    "category": "tech",
+    "sheetId": "1Iwqf2ONJq1mZFNFjGSOGwZJJVb_oySz5yxrqiGk17d8"
+  },
   "15": { "name": "ANALYTICS SPRINT", "department": "IT", "category": "tech" },
   "16": { "name": "SPORTS QUIZ", "department": "IT", "category": "non-tech" },
   "17": {
@@ -11,7 +16,7 @@
     "department": "IT",
     "category": "non-tech"
   },
-  "20": { "name": "Hackinfinity", "department": "ECE", "category": "eceHack" },
+  "20": { "name": "Hackinfinity", "": "ECE", "category": "eceHack" },
   "21": { "name": "Enigma", "department": "ECE", "category": "tech" },
   "22": { "name": "Data Utopia", "department": "ECE", "category": "tech" },
   "23": {
@@ -19,8 +24,18 @@
     "department": "ECE",
     "category": "tech"
   },
-  "24": { "name": "The Big Meg", "department": "ECE", "category": "tech" },
-  "25": { "name": "Debug-a-circuit ", "department": "ECE", "category": "tech" },
+  "24": {
+    "name": "The Big Meg",
+    "department": "ECE",
+    "category": "tech",
+    "sheetId": "1BRGI8WxIbW8zKpOxndixNnWAoExGAi1vWaIXv9nT1Og"
+  },
+  "25": {
+    "name": "Debug-a-circuit ",
+    "department": "ECE",
+    "category": "tech",
+    "sheetId": "1Vz9N8eq4XZe1cEFVp7EPPUE6BXGfRoCp8hR0hFLBbM8"
+  },
   "26": { "name": "Junkyard Jumble", "department": "ECE", "category": "tech" },
   "27": {
     "name": "Paper Presentation",
@@ -109,7 +124,8 @@
   "60": {
     "name": "ARCHITECTURE AT ZERO",
     "department": "Civil",
-    "category": "tech"
+    "category": "tech",
+    "sheetId": "1vxGqECzrA3BGP3-gEX67a5EtfvgJzBt5Y-3oDXAX-1k"
   },
   "61": {
     "name": "QUIZZARDS OF OZ",
@@ -141,12 +157,14 @@
   "68": {
     "name": "NETFLIX WARS",
     "department": "Civil",
-    "category": "non-tech"
+    "category": "non-tech",
+    "sheetId": "1tr1Xj2_WoH0ZMb8ojm62t3weHXg5us-w1NDBdEwapf0"
   },
   "69": {
     "name": "ACE it (VALORANT)",
     "department": "Civil",
-    "category": "non-tech"
+    "category": "non-tech",
+    "sheetId": "1kWw71EkBAcFOQBIcjSqHm6FfN4WEB4FbWEhtISv4bKY"
   },
   "70": {
     "name": "Paper Presentation",
@@ -156,40 +174,57 @@
   "71": {
     "name": "Who's on the Leaderboard",
     "department": "Chemical",
-    "category": "tech"
+    "category": "tech",
+    "sheetId": "1bHkVQnyWdmTGFeJkeFMXVXZqLIbgLtcZfx_XdfQccfY"
   },
   "72": {
     "name": "Be-safe-athon",
     "department": "Chemical",
-    "category": "tech"
+    "category": "tech",
+    "sheetId": "1fXQyAO1q_6VbBmZ63LmNcTa4UD_is9NfEOOjl3EQ9Ig"
   },
   "73": {
     "name": "Like-for-Like",
     "department": "Chemical",
-    "category": "tech"
+    "category": "tech",
+    "sheetId": "1B1DRpTS1qCGkg2mAbF-YbmVL0lHAkPqzT9WY61C0XhI"
   },
   "74": {
     "name": "The Commentator’s Conference",
     "department": "Chemical",
-    "category": "tech"
+    "category": "tech",
+    "sheetId": "17cnuFgpq2Pxwco1rHIpeqA7wqSBYGVUNRlOwlWIS4Us"
   },
   "75": {
     "name": "IPL-Invente's Pictionary League",
     "department": "Chemical",
-    "category": "tech"
+    "category": "tech",
+    "sheetId": "1WoHBlmda-zTKihooHzBCpKywgDIo-Kr-poqO81Ryd98"
   },
   "76": {
     "name": "The Last Man Standing",
     "department": "Chemical",
-    "category": "non-tech"
+    "category": "non-tech",
+    "sheetId": "1ATVLh092YcEgztT_eTHabo-n-jdWbozqCmeqw74y0AY"
   },
   "77": {
     "name": "Ee Sala MEME Namadhe",
     "department": "Chemical",
-    "category": "non-tech"
+    "category": "non-tech",
+    "sheetId": "1zNssBRlgdxv3ZlPDjui0INU5E4SOV73zEW0rjamP0C4"
   },
-  "00": { "name": "Codolympics", "department": "CSE", "category": "tech" },
-  "01": { "name": "Dev Heist", "department": "CSE", "category": "tech" },
+  "00": {
+    "name": "Codolympics",
+    "department": "CSE",
+    "category": "tech",
+    "sheetId": "1Ho6s1hyVoihWggJHAFX1ISAEl39tn8cysqpdsMLpfWc"
+  },
+  "01": {
+    "name": "Dev Heist",
+    "department": "CSE",
+    "category": "tech",
+    "sheetId": "1HzYTEArvm8hbvriN-IA4JXVxh2SZOZEIMIbchJcY7Wc"
+  },
   "02": {
     "name": "Paper Presentation",
     "department": "CSE",
