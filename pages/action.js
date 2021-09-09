@@ -3,7 +3,6 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
-import NavbarComp from '../components/Navbar';
 import { auth } from '../lib/firebase';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
@@ -56,7 +55,7 @@ function AuthAction() {
           className={styles2['particle'] + ' ' + styles2['particle_4']}
         ></div>
       </div>
-      <NavbarComp />
+      {/* <NavbarComp /> */}
       <main className={styles2.page_wrapper}>
         <div className={!navbarToggle ? styles.hide : styles.signinCard}>
           {mode == 'verifyEmail' ? (
