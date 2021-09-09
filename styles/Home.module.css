@@ -278,6 +278,9 @@
 .spons_section {
   margin-top: -2rem;
 }
+#sponsors {
+  scroll-margin-top: 400px;
+}
 /* 
 @media screen and (max-width: 991px) {
   .spons_section {
@@ -553,7 +556,6 @@
     width: 120px;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .days,
