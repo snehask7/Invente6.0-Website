@@ -58,7 +58,7 @@ function AuthAction() {
       </div>
       <NavbarComp />
       <main className={styles2.page_wrapper}>
-        <div className={navbarToggle ? styles.hide : styles.signinCard}>
+        <div className={!navbarToggle ? styles.hide : styles.signinCard}>
           {mode == 'verifyEmail' ? (
             <>
               <h4 className={styles.mailBoxText}>
