@@ -95,7 +95,7 @@ function SignUp() {
       //console.log('SignUp success');
       setLoading(false);
     } catch (err) {
-      console.log(err.toString())
+      console.log(err.toString());
       //console.log('Failed to login', err);
       toast.error('An unexpected error has occurred. ☠️');
     } finally {
