@@ -48,7 +48,6 @@ function SignUp() {
     var values = state;
     values[label] = event.target.value;
     setState(values);
-    console.log(values);
   }
 
   const onSubmit = async (event) => {
@@ -96,6 +95,7 @@ function SignUp() {
       //console.log('SignUp success');
       setLoading(false);
     } catch (err) {
+      console.log(err.toString())
       //console.log('Failed to login', err);
       toast.error('An unexpected error has occurred. ☠️');
     } finally {
@@ -146,6 +146,7 @@ function SignUp() {
                         onChange={(e) => onChange('full_name', e)}
                         className={styles.inputField}
                         type="text"
+                        pattern="[A-Za-z ]{1,}"
                         required
                       />
                     </div>
@@ -164,6 +165,7 @@ function SignUp() {
                         onChange={(e) => onChange('college_name', e)}
                         className={styles.inputField}
                         type="text"
+                        pattern="[A-Za-z]{1,}"
                         required
                       />
                     </div>
@@ -206,6 +208,7 @@ function SignUp() {
                       className={styles.inputField}
                       type="text"
                       list="departments"
+                      pattern="[A-Za-z]{1,}"
                       onChange={(e) => onChange('department', e)}
                     />
                     <datalist
@@ -243,6 +246,7 @@ function SignUp() {
                       <p>{'>'}</p>
                       <input
                         className={styles.inputField}
+                        pattern="[0-9]{10}"
                         onChange={(e) => onChange('phone_number', e)}
                         type="phone"
                         required
@@ -263,6 +267,7 @@ function SignUp() {
                         className={styles.inputField}
                         onChange={(e) => onChange('password', e)}
                         type="password"
+                        pattern=".{6,}"
                         required
                       />
                     </div>
