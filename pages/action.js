@@ -47,14 +47,6 @@ function AuthAction() {
 
   return (
     <div className={styles.container}>
-      <div className={styles2.animation_wrapper}>
-        <div
-          className={styles2['particle'] + ' ' + styles2['particle_3']}
-        ></div>
-        <div
-          className={styles2['particle'] + ' ' + styles2['particle_4']}
-        ></div>
-      </div>
       {/* <NavbarComp /> */}
       <main className={styles2.page_wrapper}>
         <div className={styles.signinCard}>
