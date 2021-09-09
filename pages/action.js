@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useState, useEffect } from 'react';
-import { auth } from '../lib/firebase';
+import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
 import NavbarComp from '../components/Navbar';
+import { auth } from '../lib/firebase';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
 
@@ -58,7 +58,7 @@ function AuthAction() {
       </div>
       <NavbarComp />
       <main className={styles2.page_wrapper}>
-        <div className={styles.signinCard}>
+        <div className={navbarToggle ? styles.hide : styles.signinCard}>
           {mode == 'verifyEmail' ? (
             <>
               <h4 className={styles.mailBoxText}>

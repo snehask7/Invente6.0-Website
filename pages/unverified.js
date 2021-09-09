@@ -30,6 +30,7 @@ function Unverified() {
         <div className={navbarToggle ? styles.hide : styles.signinCard}>
           <h1 className={styles.mailBoxText}>
             Check your mailbox to verify your identity.
+            <br /> If you have verified your mail, logout and sign in again!
           </h1>
         </div>
       </main>

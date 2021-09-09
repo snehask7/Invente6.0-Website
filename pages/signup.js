@@ -27,7 +27,7 @@ function SignUp() {
     college_name: '',
     reg_no: '',
     department: '',
-    year: '',
+    year: '1',
   });
   const { signup, currentUser, addDisplayName } = useAuth();
   const [loading, setLoading] = useState(false);

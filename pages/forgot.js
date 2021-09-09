@@ -55,7 +55,7 @@ function Forgot() {
         ></div>
       </div>
       <NavbarComp />
-      <main className={styles2.page_wrapper}>
+      <main className={navbarToggle ? styles.hide : styles2.page_wrapper}>
         <div className={styles.signinCard}>
           <h1 className={styles.typing}>
             <Typist
