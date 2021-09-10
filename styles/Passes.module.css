@@ -34,6 +34,12 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .mainContainer {
+    margin-top: 10%;
+  }
+}
+
 .pageHeading {
   text-align: center;
   color: white;

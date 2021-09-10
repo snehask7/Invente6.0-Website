@@ -37,6 +37,12 @@
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
 }
 
+@media screen and (max-width: 1000px) {
+  .signinCard {
+    margin-top: 50%;
+  }
+}
+
 .typing {
   font-family: 'Menlo', monospace;
   font-size: 2vh;
