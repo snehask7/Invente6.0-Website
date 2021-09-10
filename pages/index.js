@@ -679,7 +679,7 @@ export default function Home() {
                       {/* eslint-disable-next-line */}
                       <img
                         className={styles.org_card_image}
-                        src="/presidents/cse.jpg"
+                        src="/presidents/cse.webp"
                         alt=""
                       ></img>
                     </div>
@@ -713,7 +713,7 @@ export default function Home() {
                       {/* eslint-disable-next-line */}
                       <img
                         className={styles.org_card_image}
-                        src="/presidents/it.jpg"
+                        src="/presidents/it.webp"
                         alt=""
                       ></img>
                     </div>
@@ -746,7 +746,7 @@ export default function Home() {
                       {/* eslint-disable-next-line */}
                       <img
                         className={styles.org_card_image}
-                        src="/presidents/ece.jpg"
+                        src="/presidents/ece.webp"
                         alt=""
                       ></img>
                     </div>
@@ -780,7 +780,7 @@ export default function Home() {
                       {/* eslint-disable-next-line */}
                       <img
                         className={styles.org_card_image}
-                        src="/presidents/eee.JPG"
+                        src="/presidents/eee.webp"
                         alt=""
                       ></img>
                     </div>
@@ -814,7 +814,7 @@ export default function Home() {
                       {/* eslint-disable-next-line */}
                       <img
                         className={styles.org_card_image}
-                        src="/presidents/civil.jpg"
+                        src="/presidents/civil.webp"
                         alt=""
                       ></img>
                     </div>
@@ -848,7 +848,7 @@ export default function Home() {
                       {/* eslint-disable-next-line */}
                       <img
                         className={styles.org_card_image}
-                        src="/presidents/bme.jpg"
+                        src="/presidents/bme.webp"
                         alt=""
                       ></img>
                     </div>
@@ -882,7 +882,7 @@ export default function Home() {
                       {/* eslint-disable-next-line */}
                       <img
                         className={styles.org_card_image}
-                        src="/presidents/mech.jpg"
+                        src="/presidents/mech.webp"
                         alt=""
                       ></img>
                     </div>
@@ -916,7 +916,7 @@ export default function Home() {
                       {/* eslint-disable-next-line */}
                       <img
                         className={styles.org_card_image}
-                        src="/presidents/chem.jpg"
+                        src="/presidents/chem.webp"
                         alt=""
                       ></img>
                     </div>
