@@ -652,8 +652,7 @@
       "organisers": [
         { "name": "Surabhi", "phone": 8248369664 },
         { "name": "Shruthi", "phone": 9789015214 },
-        { "name": "Retika", "phone": 9789015214 },
-        { "name": "Shruthi", "phone": 9789015214 }
+        { "name": "Retika", "phone": 9789015214 }
       ],
       "description": {
         "summary": "<b>DOMAINS COVERED:</b> Basics of EEE, Field theory, Digital logic circuits, Electronic devices, Microprocessors, Electrical Machines. ",
