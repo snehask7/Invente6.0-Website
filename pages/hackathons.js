@@ -10,10 +10,12 @@ import {
   FaUserAlt,
 } from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
+import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import { useNav } from '../lib/navbarstate';
 import styles from '../styles/DepartmentPage.module.css';
+
 export default function Department({ data }) {
   const router = useRouter();
   const { currentUser } = useAuth();
