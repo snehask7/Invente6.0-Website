@@ -27,13 +27,21 @@
 
 @media screen and (max-width: 1100px) {
   .inventeLogo {
-    display: none;
+    position: absolute;
+    left: 20px;
   }
 
   .centerNavLink {
     margin: 0 1em;
   }
 }
+
+@media screen and (max-width: 570px) {
+  .inventeLogo {
+    display: none;
+  }
+}
+
 .loginBtn {
   margin: 0 2em;
 }

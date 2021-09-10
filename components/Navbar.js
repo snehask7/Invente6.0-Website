@@ -105,6 +105,26 @@ export default function NavbarComp() {
 
       {isOpen ? (
         <div className={styles.sideBar}>
+          <div className={styles.inventeLogoSide}>
+            <Link href="https://www.ssn.edu.in/" passHref>
+              <Image
+                src="/icons/ssn.png"
+                className={styles.ssnlogo}
+                width={80}
+                height={25}
+                alt="logo"
+              ></Image>
+            </Link>
+            <Link href="/" passHref>
+              <Image
+                src="/icons/logo.png"
+                className={styles.ssnlogo}
+                width={100}
+                height={25}
+                alt="logo"
+              ></Image>
+            </Link>
+          </div>
           <Link href="/">
             <a
               onClick={() => {
