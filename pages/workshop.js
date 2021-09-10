@@ -64,62 +64,10 @@ export default function Department({ data }) {
           >
             <h1 className={styles.pageHeading}>Workshops</h1>
             <Row className={styles.wrapper}>
-              {/* <Col
-                lg={12}
-                xl={12}
-                md={12}
-                sm={12}
-                className={styles.eventsContainer}
-              >
-                <Row>
-                  {events.map((event, id) => {
-                    return (
-                      <Link
-                        key={`event${id}`}
-                        href={`/department/${department}/${id}`}
-                        passHref
-                      >
-                        <Col>
-                          <div
-                            className={
-                              styles.eventCard +
-                              ' ' +
-                              (id == parseInt(router.query.id)
-                                ? styles.eventSelected
-                                : '')
-                            }
-                          >
-                            <span></span>
-                            <div className={styles.content}>
-                              <div className={styles.content}>
-                                <p>{event.name}</p>
-                              </div>
-                            </div>
-                          </div>
-                        </Col>
-                      </Link>
-                    );
-                  })}
-                </Row>
-              </Col> */}
               <Col lg={12} xl={12} md={12} sm={12}>
                 <div className={styles.eventDetails}>
                   <p className={styles.headerWrapper}>
                     <span className={styles.eventHeading}>AI/ML Workshop</span>
-                    {/* <span
-                      className={
-                        events[id].category == 'tech' ||
-                          events[id].category == 'hackathon'
-                          ? styles.techbadge
-                          : styles.nontechbadge
-                      }
-                    >
-                      {events[id].category == 'tech'
-                        ? 'Tech'
-                        : events[id].category == 'hackathon'
-                          ? 'Hackathon'
-                          : 'Non-Tech'}
-                    </span> */}
                   </p>
                   <br></br>A 3 hour workshop exploring the recent technical
                   advancements in the field of AI/ML conducted by the best
@@ -184,22 +132,6 @@ export default function Department({ data }) {
                       <FaRegBuilding></FaRegBuilding>
                       <br></br>Open to any Department{' '}
                     </div> */}
-                    {/* <div className={styles.col}>
-                      {' '}
-                      {events[id].prizes.map((prize, id) => {
-                        return (
-                          <div key={`organiser${id}`}>
-                            {id == 0 ? (
-                              <>
-                                <FaTrophy></FaTrophy>
-                                <br></br>
-                              </>
-                            ) : null}
-                            {prize}
-                          </div>
-                        );
-                      })}
-                    </div> */}
                   </div>
                   <div className={styles.buttonWrapper}>
                     {profile && profile.events.includes('90') ? (
@@ -227,20 +159,6 @@ export default function Department({ data }) {
                 <div className={styles.eventDetails}>
                   <p className={styles.headerWrapper}>
                     <span className={styles.eventHeading}>Civil Workshop</span>
-                    {/* <span
-                      className={
-                        events[id].category == 'tech' ||
-                          events[id].category == 'hackathon'
-                          ? styles.techbadge
-                          : styles.nontechbadge
-                      }
-                    >
-                      {events[id].category == 'tech'
-                        ? 'Tech'
-                        : events[id].category == 'hackathon'
-                          ? 'Hackathon'
-                          : 'Non-Tech'}
-                    </span> */}
                   </p>
                   <br></br>
                   <p>
@@ -324,22 +242,6 @@ export default function Department({ data }) {
                         ? 'any Department'
                         : events[id].open_to.join()} */}
                     </div>
-                    {/* <div className={styles.col}>
-                      {' '}
-                      {events[id].prizes.map((prize, id) => {
-                        return (
-                          <div key={`organiser${id}`}>
-                            {id == 0 ? (
-                              <>
-                                <FaTrophy></FaTrophy>
-                                <br></br>
-                              </>
-                            ) : null}
-                            {prize}
-                          </div>
-                        );
-                      })}
-                    </div> */}
                   </div>
                   <div className={styles.buttonWrapper}>
                     {profile && profile.events.includes('91') ? (
