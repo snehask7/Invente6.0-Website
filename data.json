@@ -193,22 +193,28 @@
       "min_team_size": 2,
       "max_team_size": 3,
       "organisers": [
-        { "name": "Pooja S", "phone": 9791114323 },
+        { "name": "Aaryan S", "phone": 9952882211 },
+        { "name": "Gayathri S", "phone": 8754407646 },
         { "name": "Karthik", "phone": 8015775424 }
       ],
       "description": {
-        "summary": null,
-        "rounds": 2,
+        "summary": "Junkyard Jumble is a super fun semi-technical event that provides both.",
+        "rounds": 3,
         "round_description": [
           {
             "name": "Round 1",
             "duration": "15 mins",
-            "description": "The first round involves puzzles, scrambled words and references from your favourite fandoms. Use them to crack the physics concepts and move to the next round. This round requires quick thinking skills, analytical and mental ability. Basic concepts of physics will be tested. (class 11 and 12 physics concepts)."
+            "description": "This event triggers the participants to arrive at the solution by cracking simple puzzles and identifying well known Physics and Electronics Concepts. "
           },
           {
             "name": "Round 2",
             "duration": "3 mins per team",
-            "description": "This is the Dumb Charades round. Act out a basic technical (physics) question to your teammates. The team which guesses the maximum number of questions and also answers them correctly will win the competition."
+            "description": "This is the Dumb Charades round. The participants must act out questions to their teammates and then, find the answer, all under a ticking clock!"
+          },
+          {
+            "name": "Skills",
+            "duration": null,
+            "description": "Logical Reasoning, General Aptitude, Basic Physics, Fundamentals of Electronics and Semiconductors and 11/12th Physics"
           }
         ]
       },
