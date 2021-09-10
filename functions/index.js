@@ -90,7 +90,7 @@ exports.createFiles = functions.https.onRequest(async (req, res) => {
     const DEPT_ID = DB_FOLDER_ID_PATH + '/' + event.department;
 
     deptIDs[DEPT_ID] =
-      deptIDs[DEPT_ID] ??
+      deptIDs[DEPT_ID] ||
       (await admin.database().ref(DEPT_ID).once('value')).val();
 
     const fileMetadata = {
