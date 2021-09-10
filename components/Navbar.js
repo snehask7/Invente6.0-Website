@@ -39,7 +39,7 @@ export default function NavbarComp() {
       <div className={styles.inventeLogo}>
         <Link href="https://www.ssn.edu.in/" passHref>
           <Image
-            src="/icons/ssn.png"
+            src="/icons/ssn.webp"
             className={styles.ssnlogo}
             width={80}
             height={25}
@@ -48,7 +48,7 @@ export default function NavbarComp() {
         </Link>
         <Link href="/" passHref>
           <Image
-            src="/icons/logo.png"
+            src="/icons/logo.webp"
             className={styles.ssnlogo}
             width={100}
             height={25}
@@ -122,7 +122,7 @@ export default function NavbarComp() {
           <div className={styles.inventeLogoSide}>
             <Link href="https://www.ssn.edu.in/" passHref>
               <Image
-                src="/icons/ssn.png"
+                src="/icons/ssn.webp"
                 className={styles.ssnlogo}
                 width={80}
                 height={25}
@@ -131,7 +131,7 @@ export default function NavbarComp() {
             </Link>
             <Link href="/" passHref>
               <Image
-                src="/icons/logo.png"
+                src="/icons/logo.webp"
                 className={styles.ssnlogo}
                 width={100}
                 height={25}
@@ -307,7 +307,7 @@ export default function NavbarComp() {
                 src={
                   currentUser.photoURL
                     ? currentUser.photoURL
-                    : '/icons/hacker.png'
+                    : '/icons/hacker.webp'
                 }
                 alt="profile"
                 width={40}

@@ -322,7 +322,7 @@ export default function Home() {
             <Col s={12} md={12} lg={2}>
               <div className={navbarToggle ? styles.hide : styles.astronaut}>
                 <Image
-                  src="/icons/astronaut.png"
+                  src="/icons/astronaut.webp"
                   alt="astronaut"
                   width={200}
                   height={200}
@@ -358,7 +358,7 @@ export default function Home() {
             <Col sm={12} md={12} lg={2}>
               <div className={navbarToggle ? styles.hide : styles.astronaut2}>
                 <Image
-                  src="/icons/astronaut2.png"
+                  src="/icons/astronaut2.webp"
                   alt="astronaut"
                   width={250}
                   height={250}
@@ -388,7 +388,7 @@ export default function Home() {
                     <div className={styles.card_image}>
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/cse.jpg"
+                        src="/icons/cse.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -416,7 +416,7 @@ export default function Home() {
                     <div className={styles.card_image}>
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/it.jpg"
+                        src="/icons/it.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -444,7 +444,7 @@ export default function Home() {
                     <div className={styles.card_image}>
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/ece.jpeg"
+                        src="/icons/ece.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -472,7 +472,7 @@ export default function Home() {
                     <div className={styles.card_image}>
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/eee.jpeg"
+                        src="/icons/eee.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -501,7 +501,7 @@ export default function Home() {
                       {' '}
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/bme.jpg"
+                        src="/icons/bme.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -530,7 +530,7 @@ export default function Home() {
                       {' '}
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/civil.jpeg"
+                        src="/icons/civil.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -559,7 +559,7 @@ export default function Home() {
                       {' '}
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/mech.jpg"
+                        src="/icons/mech.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -589,7 +589,7 @@ export default function Home() {
                       {' '}
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/chem.jpeg"
+                        src="/icons/chem.webp"
                         alt="cse"
                         width={200}
                         height={200}
