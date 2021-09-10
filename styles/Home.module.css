@@ -39,7 +39,7 @@
   margin-top: 8vw;
 }
 .dept_cards {
-  margin-top: 3vw !important;
+  padding-top: 3em;
 }
 @media screen and (max-width: 1000px) {
   .centerLogo {
@@ -110,8 +110,14 @@
 .sub_title {
   position: relative;
   left: calc(50% - 10px);
-  margin-bottom: 3vw;
+  margin-bottom: 3em;
   font-family: 'Menlo', monospace;
+}
+
+@media screen and (min-width: 1000px) {
+  .sub_title {
+    margin-bottom: 6em;
+  }
 }
 .sub_title h2 {
   color: #fff;
@@ -175,8 +181,7 @@
   width: 200px;
   height: 200px;
   border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: 0.4s;
   margin-top: 50px;
@@ -194,8 +199,7 @@
   border-radius: 40px;
   object-fit: cover;
   z-index: 10;
-  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+  box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.2);
 }
 
 .card .card_title {
@@ -279,7 +283,7 @@
 
 /* Sponsors*/
 .spons_section {
-  margin-top: -2rem;
+  margin-top: 2rem;
 }
 #sponsors {
   scroll-margin-top: 400px;
