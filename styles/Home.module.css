@@ -482,6 +482,24 @@
   }
 }
 
+
+@media screen and (max-width: 575px) {
+  .org_card_svg {
+    display: none;
+  }
+  .org_card {
+    position: relative;
+    height: 270px;
+  }
+  .org_card_content {
+    margin-top: 0;
+  }
+  .org_card_image {
+    border-bottom: solid#03e9f4 1px;
+  }
+}
+
+
 /* Timer section */
 
 .timer {
