@@ -275,6 +275,19 @@ section.price_section .super_tier {
   justify-content: flex-start;
   text-align: left;
 }
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  section.price_section .free_tier,
+  section.price_section .super_tier {
+    background: radial-gradient(
+      100% 100% at 0% 0%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    backdrop-filter: saturate(180%) blur(40px);
+    -webkit-backdrop-filter: saturate(180%) blur(40px);
+  }
+}
+
 section.price_section .free_tier:after,
 section.price_section .super_tier:after {
   content: '';
@@ -481,4 +494,27 @@ section.price_section .free_tier + .plan_action a:after {
 }
 .hide {
   display: None;
+}
+/* slightly transparent fallback for Firefox (not supporting backdrop-filter) */
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  section.price_section .pricing_plan .plan_bg {
+    display: none;
+  }
+  section.price_section .pricing_plan .combo_bg {
+    display: none;
+  }
+  section.price_section .free_tier,
+  section.price_section .super_tier {
+    background-image: radial-gradient(
+        at 47% 53%,
+        hsl(289.9, 97%, 47%) 0,
+        transparent 79%
+      ),
+      radial-gradient(
+        100% 100% at 0% 0%,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(255, 255, 255, 0) 100%,
+        transparent 80%
+      );
+  }
 }

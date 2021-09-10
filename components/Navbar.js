@@ -138,7 +138,7 @@ export default function NavbarComp() {
               Workshops
             </a>
           </Link>
-          <Link href="hackathons">
+          <Link href="/hackathons">
             <a
               onClick={() => {
                 toggleNavbar();

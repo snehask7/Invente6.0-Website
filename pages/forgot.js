@@ -5,6 +5,7 @@ import { toast } from 'react-hot-toast';
 import Typist from 'react-typist';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
+import { useNav } from '../lib/navbarstate';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
 
@@ -14,6 +15,7 @@ function Forgot() {
   const [loading, setLoading] = useState(false);
   const { currentUser, resetPassword } = useAuth();
   const router = useRouter();
+  const { navbarToggle, toggleNavbar } = useNav();
 
   const [step, setStep] = useState(-1);
 

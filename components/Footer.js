@@ -23,7 +23,7 @@ const Footer = ({ sticky }) => {
           }}
           className={styles.footer_copyright}
         >
-          <a target="_blank" href="#">
+          {/* <a target="_blank" href="#">
             <AnimatedSocialIcon
               width="1em"
               className={styles.icon}
@@ -40,8 +40,12 @@ const Footer = ({ sticky }) => {
               brandName="facebook"
               hoverColor="#3b5998"
             />
-          </a>
-          <a target="_blank" href="#">
+          </a> */}
+          <a
+            target="_blank"
+            href="https://www.instagram.com/ssn_invente6.0/"
+            rel="noreferrer"
+          >
             <AnimatedSocialIcon
               width="1em"
               className={styles.icon}

@@ -70,7 +70,7 @@ export default function Home() {
                         8
                       </text>
                       <text
-                        className="cls-2"
+                        className="cls-1"
                         transform="translate(219.67 156.8) scale(0.58)"
                       >
                         th

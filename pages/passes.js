@@ -204,7 +204,7 @@ function Plans() {
                     <div className={styles.plan_title}>Hackathon</div>
                     <div className={styles.plan_price}>
                       <div className={styles.dollar}>Rs.</div>
-                      <div className={styles.price}>200</div>
+                      <div className={styles.price}>150</div>
                     </div>
                     <div className={styles.plan_description}>
                       <span>
