@@ -5,7 +5,6 @@ import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
 import {
-  FaCalendarAlt,
   FaPhoneAlt,
   FaRegBuilding,
   FaRegClock,
@@ -196,11 +195,11 @@ export default function Department({ data }) {
                           ' '}
                       per team
                     </div>
-                    <div className={styles.col}>
+                    {/* <div className={styles.col}>
                       {' '}
                       <FaCalendarAlt></FaCalendarAlt>
                       <br></br>Oct 8, 9:00 AM
-                    </div>
+                    </div> */}
                     <div className={styles.col}>
                       {' '}
                       <FaRegBuilding></FaRegBuilding>
