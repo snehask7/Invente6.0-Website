@@ -18,11 +18,16 @@
   position: fixed;
   top: 0;
   z-index: 15;
+  right: 10px;
 }
 
 .inventeLogo {
   margin-left: 2em;
   min-width: 100px;
+}
+
+.ssnlogo{
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1100px) {
@@ -103,8 +108,14 @@
   .centerTabMore {
     display: none;
   }
+  
 }
 
+/* @media screen and (max-width: 471px) {
+  .navbar {
+    right: 5px;
+  }
+} */
 .userPic {
   background: none;
   border: none;
@@ -138,13 +149,13 @@
   }
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1101px) {
   .hamburger {
     display: none;
   }
 }
 
-@media screen and (max-width: 1099px) {
+@media screen and (max-width: 1100px) {
   .dropDownShown {
     background: rgb(32, 34, 67);
   }

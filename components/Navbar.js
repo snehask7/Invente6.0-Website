@@ -21,8 +21,21 @@ export default function NavbarComp() {
     }
   };
 
+  const updateNav = () => {
+    if (!isOpen) {
+      document.getElementById('navbar').style.right = '0px';
+    } else {
+      // if (window.innerWidth >= 1100) {
+      //   document.getElementById('navbar').style.right = '10px';
+      // } else {
+      //   document.getElementById('navbar').style.right = '5px';
+      // }
+      document.getElementById('navbar').style.right = '10px';
+    }
+  };
+
   return (
-    <div className={styles.navbar}>
+    <div className={styles.navbar} id="navbar">
       <div className={styles.inventeLogo}>
         <Link href="https://www.ssn.edu.in/" passHref>
           <Image
@@ -46,6 +59,7 @@ export default function NavbarComp() {
       <div
         className={styles.hamburger}
         onClick={() => {
+          updateNav();
           setIsOpen(!isOpen);
           toggleNavbar();
         }}
@@ -88,7 +102,7 @@ export default function NavbarComp() {
           <Link href="/hackathons">
             <a className={styles.centerNavLink}>Hackathon</a>
           </Link>
-          <Link href="/#departments">
+          <Link href="/#sponsors">
             <a className={styles.centerNavLink}>Sponsors</a>
           </Link>
           {/* <Link href="/workshops">

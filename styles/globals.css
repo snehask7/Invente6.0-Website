@@ -610,3 +610,31 @@ svg.active .svg-elem-55 {
 .cls-2 {
   opacity: 0.92;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(46, 43, 42);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #03e9f4; 
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #03e9f4; 
+}
+
+/* @media screen and (max-width: 471px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+} */

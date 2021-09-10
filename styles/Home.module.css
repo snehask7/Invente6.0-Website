@@ -30,7 +30,14 @@
   /* left: calc(50% - 45vw); */
   text-align: center;
   width: 50%;
+  margin-top: 5vw;
 }
+
+/* @media screen and (min-width: 1000px) {
+  .logo {
+    
+  }
+} */
 
 .headerRow {
   margin-top: 6%;
