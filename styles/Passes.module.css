@@ -34,11 +34,19 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .mainContainer {
+    margin-top: 10%;
+  }
+}
+
 .pageHeading {
   text-align: center;
   color: white;
   font-family: 'Voltaire', sans-serif;
   font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .hide {

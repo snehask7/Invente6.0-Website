@@ -9,12 +9,15 @@
   background: rgba(0, 0, 0, 0.1);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   color: white;
   height: 4em;
   font-size: 1.2rem;
   font-family: 'Menlo', monospace;
+  position: fixed;
+  top: 0;
+  z-index: 15;
 }
 
 .inventeLogo {
@@ -26,10 +29,10 @@
   .inventeLogo {
     display: none;
   }
-  
-.centerNavLink {
-  margin: 0 1em;
-}
+
+  .centerNavLink {
+    margin: 0 1em;
+  }
 }
 .loginBtn {
   margin: 0 2em;
@@ -125,9 +128,7 @@
   .inventeLogo {
     margin-right: -200px;
   }
-  
 }
-
 
 @media screen and (min-width: 1100px) {
   .hamburger {
@@ -172,4 +173,9 @@
 
 .hide {
   display: none;
+}
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .navbar {
+    background: rgba(1, 4, 40, 1);
+  }
 }
