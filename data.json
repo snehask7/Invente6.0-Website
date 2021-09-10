@@ -2071,17 +2071,17 @@
           {
             "name": "Round 1",
             "duration": null,
-            "description": "In the first round, all the teams would be bidding for the cards with the allotted amount (the cash pool will be provided before the round)[NOT ACTUAL MONEY]. The cards would only have the car's name and photo with the overall rating. There will be a fixed no. of car types and each card will have 5 attributes based on the car's specification. Each team should have at least one car of each category (category of carswill be informed later).<br/>The cars WON'T HAVE THE SPECIFICATION VALUE.            "
+            "description": "In the first round, all the teams would be bidding for the cards with the allotted amount (the cash pool will be provided before the round)[NOT ACTUAL MONEY]. The cards would only have the car's name and photo with the overall rating. There will be a fixed no. of car types and each card will have 5 attributes based on the car's specification. Each team should have at least one car of each category (category of cars will be informed later).<br/>The cars WON'T HAVE THE SPECIFICATION VALUE.            "
           },
           {
             "name": "Round 2",
             "duration": null,
-            "description": "In the second round, the teams would be completing tasks to get the values ofeach specification of their cars."
+            "description": "In the second round, the teams would be completing tasks to get the values of each specification of their cars."
           },
           {
             "name": "Round 3",
             "duration": null,
-            "description": "In the third round, each team would be pitted against another team (based on random draw by the organizers; card clashes will be based on the specifications they received from the second round.<br/> All the rounds from now on will be on a knock-out basis.<br/><br/>Rules for the third round:<br/><ul><li>One versus one</li><li>only one person can interact from a team</li><li>order of drawing cards should be fixed by both teams</li><li>A decider question will choose on which team goes first.</li><li>The team that goes without any cards loses the round.</li><li>The winners of each clash will move to the next level. This goes on until the final winner is decided.</li>"
+            "description": "In the third round, each team would be pitted against another team (based on random draw by the organizers) card clashes will be based on the specifications they received from the second round.<br/> All the rounds from now on will be on a knock-out basis.<br/><br/>Rules for the third round:<br/><ul><li>One versus one</li><li>Only one person can interact from a team</li><li>Order of drawing cards should be fixed by both teams</li><li>A decider question will choose on which team goes first.</li><li>The team that goes without any cards loses the round.</li><li>The winners of each clash will move to the next level. This goes on until the final winner is decided.</li>"
           }
         ]
       },
