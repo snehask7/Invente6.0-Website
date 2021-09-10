@@ -620,7 +620,7 @@ export default function Home() {
                 <a href="https://facilio.com/" target="_blank" rel="noreferrer">
                   {/* eslint-disable-next-line */}
                   <img
-                    src="/sponsors/facilio.png"
+                    src="/sponsors/facilio.webp"
                     alt="facilio"
                   />{' '}
                 </a>
@@ -635,7 +635,7 @@ export default function Home() {
                 >
                   {/* eslint-disable-next-line */}
                   <img
-                    src="/sponsors/sf.png"
+                    src="/sponsors/sf.webp"
                     alt="stayflexi"
                   />{' '}
                 </a>
@@ -644,7 +644,7 @@ export default function Home() {
                 <a href="cosmichvac.com" target="_blank">
                   {/* eslint-disable-next-line */}
                   <img
-                    src="/sponsors/cosmic.png"
+                    src="/sponsors/cosmic.webp"
                     alt="cosmic"
                   />{' '}
                 </a>
