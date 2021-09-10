@@ -25,13 +25,12 @@ export default function NavbarComp() {
     if (!isOpen) {
       document.getElementById('navbar').style.right = '0px';
     } else {
-      if (window.innerWidth >= 1100) {
-        document.getElementById('navbar').style.right = '10px';
-      } else if (window.innerWidth >= 471) {
-        document.getElementById('navbar').style.right = '7px';
-      } else {
-        document.getElementById('navbar').style.right = '5px';
-      }
+      // if (window.innerWidth >= 1100) {
+      //   document.getElementById('navbar').style.right = '10px';
+      // } else {
+      //   document.getElementById('navbar').style.right = '5px';
+      // }
+      document.getElementById('navbar').style.right = '10px';
     }
   };
 

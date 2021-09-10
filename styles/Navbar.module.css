@@ -111,18 +111,11 @@
   
 }
 
-@media screen and (max-width: 1100px) {
-  .navbar {
-    right: 7px;
-  }
-}
-
-
-@media screen and (max-width: 471px) {
+/* @media screen and (max-width: 471px) {
   .navbar {
     right: 5px;
   }
-}
+} */
 .userPic {
   background: none;
   border: none;
