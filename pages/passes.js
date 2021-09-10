@@ -29,6 +29,25 @@ function Plans() {
             className={!navbarToggle ? styles.price_section : styles.hide}
             id="pricing"
           >
+            <div className={styles.instructionsCard}>
+              <span className={styles.ins}>
+                <ol>
+                  <li>
+                    Click on Pay Now and choose the type of pass you wish to
+                    obtain and pay via paytm
+                  </li>
+                  <li>
+                    After you pay, download the receipt from paytm and upload it
+                    by clicking on upload receipt below
+                  </li>
+                  <li>
+                    The payment will be approved in 1-2 days and you will
+                    receive an email notification, the payment status will also
+                    be updated in your profile!
+                  </li>
+                </ol>
+              </span>
+            </div>
             <div className={styles.buttons}>
               <div className={styles.plan_action}>
                 <a
@@ -78,14 +97,6 @@ function Plans() {
                       <span>All Tech + All Non-Tech + AI/ML Workshop)</span>
                     </div>
                   </div>
-                  {/* <div className={styles.plan_action}>
-                    <a>Pay Now </a>
-                  </div> */}
-                  {/* {currentUser ? (
-                    <div className={styles.plan_action}>
-                      <a>Upload Receipt</a>
-                    </div>
-                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.combo_bg}>
@@ -112,14 +123,6 @@ function Plans() {
                       <span>All Tech + All Non-Tech + Devathlon</span>
                     </div>
                   </div>
-                  {/* <div className={styles.plan_action}>
-                    <a>Pay Now </a>
-                  </div> */}
-                  {/*                   {/* {currentUser ? (
-                    <div className={styles.plan_action}>
-                      <a>Upload Receipt</a>
-                    </div>
-                  ) : null} */}{' '}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.combo_bg}>
@@ -150,14 +153,6 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  {/* <div className={styles.plan_action}>
-                    <a>Pay Now </a>
-                  </div> */}
-                  {/* {currentUser ? (
-                    <div className={styles.plan_action}>
-                      <a>Upload Receipt</a>
-                    </div>
-                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -182,14 +177,6 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  {/* <div className={styles.plan_action}>
-                    <a>Pay Now </a>
-                  </div> */}
-                  {/*                   {/* {currentUser ? (
-                    <div className={styles.plan_action}>
-                      <a>Upload Receipt</a>
-                    </div>
-                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -214,14 +201,6 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  {/* <div className={styles.plan_action}>
-                    <a>Pay Now </a>
-                  </div> */}
-                  {/* {currentUser ? (
-                    <div className={styles.plan_action}>
-                      <a>Upload Receipt</a>
-                    </div>
-                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -246,14 +225,6 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  {/* <div className={styles.plan_action}>
-                    <a>Pay Now </a>
-                  </div> */}
-                  {/* {currentUser ? (
-                    <div className={styles.plan_action}>
-                      <a>Upload Receipt</a>
-                    </div>
-                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -278,14 +249,6 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  {/* <div className={styles.plan_action}>
-                    <a>Pay Now </a>
-                  </div> */}
-                  {/* {currentUser ? (
-                    <div className={styles.plan_action}>
-                      <a>Upload Receipt</a>
-                    </div>
-                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -310,14 +273,6 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  {/* <div className={styles.plan_action}>
-                    <a>Pay Now </a>
-                  </div> */}
-                  {/* {currentUser ? (
-                    <div className={styles.plan_action}>
-                      <a>Upload Receipt</a>
-                    </div>
-                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -342,14 +297,6 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  {/* <div className={styles.plan_action}>
-                    <a>Pay Now </a>
-                  </div> */}
-                  {/* {currentUser ? (
-                    <div className={styles.plan_action}>
-                      <a>Upload Receipt</a>
-                    </div>
-                  ) : null} */}
                 </Col>
                 <Col className={styles.pricing_plan}>
                   <div className={styles.plan_bg}>
@@ -374,14 +321,6 @@ function Plans() {
                       </span>
                     </div>
                   </div>
-                  {/* <div className={styles.plan_action}>
-                    <a>Pay Now </a>
-                  </div> */}
-                  {/* {currentUser ? (
-                    <div className={styles.plan_action}>
-                      <a>Upload Receipt</a>
-                    </div>
-                  ) : null} */}
                 </Col>
               </Row>
             </div>
