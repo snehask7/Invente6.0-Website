@@ -1,8 +1,9 @@
 .footer {
-  background-color: #27323a;
+  background-color: #27323a3a;
   bottom: 0 !important;
-  padding-top: 10px !important;
+  padding-top: 120px;
   padding-bottom: 8px !important ;
+  height: 200px;
 }
 
 .footer_copyright {
