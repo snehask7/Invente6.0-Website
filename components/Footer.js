@@ -41,7 +41,11 @@ const Footer = ({ sticky }) => {
               hoverColor="#3b5998"
             />
           </a>
-          <a target="_blank" href="#">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/ssn_invente6.0/"
+            rel="noreferrer"
+          >
             <AnimatedSocialIcon
               width="1em"
               className={styles.icon}

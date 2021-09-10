@@ -1125,7 +1125,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["2 Winners - Rs.2500 each", "2 Runner-Ups - Rs.2000 each"],
       "eventid": "70"
     },
     {
@@ -1154,7 +1154,7 @@
         ]
       },
       "open_to": ["Chemical"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "71"
     },
     {
@@ -1188,7 +1188,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "72"
     },
     {
@@ -1212,7 +1212,7 @@
         ]
       },
       "open_to": ["Chemical"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "73"
     },
     {
@@ -1242,7 +1242,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "74"
     },
     {
@@ -1272,7 +1272,7 @@
         ]
       },
       "open_to": ["Chemical"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "75"
     },
     {
@@ -1297,7 +1297,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.750"],
       "eventid": "76"
     },
     {
@@ -1321,7 +1321,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.750"],
       "eventid": "77"
     }
   ],
@@ -1977,8 +1977,8 @@
     {
       "name": "2 fast 2 curious",
       "category": "tech",
-      "min_team_size": 1,
-      "max_team_size": 1,
+      "min_team_size": 2,
+      "max_team_size": 2,
       "organisers": [],
       "description": {
         "summary": "We know you would rock in your domain. We know you would also manage time. But <b>What if</b> we tell you that you will have to manage both! So here we are to challenge your technical skills but not compromising on the time!<br/><br/><b>Platform: Quizizz andZoom</b><br/><b>No of rounds: 2</b>",
