@@ -1852,8 +1852,8 @@
     {
       "name": "ACE it (VALORANT)",
       "category": "non-tech",
-      "min_team_size": 0,
-      "max_team_size": 0,
+      "min_team_size": 5,
+      "max_team_size": 5,
       "organisers": [
         { "name": "Krithikan", "phone": 9944666013 },
         { "name": "Srinirav", "phone": 9940615473 },
