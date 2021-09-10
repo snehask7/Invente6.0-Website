@@ -587,7 +587,7 @@
           },
           {
             "name": "Event Rules",
-            "description": "<ul><li>Only a maximum of 4 authors and <b>only</b> student authors are allowed. It is not necessary that all authors must be from the same institute</li><li>he authors can present their paper individually or as a team during the final round</li><li><b>Plagiarism is strictly unacceptable.</b>Only original research works are accepted.</li><li>The paper must be in <b>DOUBLE COLUMN IEEE format</b>. This format must be strictly followed.</li><li>To refer the IEEE standard, use the link below : https://docs.google.com/document/d/1YgyGebtyRlekC8Wan6dXwCllsVC qa09C_glpRJ4P78Q/edit?usp=sharing </li><li>The paper submitted must be in <b>.pdf</b> format</li></ul>"
+            "description": "<ul><li>Only a maximum of 4 authors and <b>only</b> student authors are allowed. It is not necessary that all authors must be from the same institute</li><li>he authors can present their paper individually or as a team during the final round</li><li><b>Plagiarism is strictly unacceptable.</b>Only original research works are accepted.</li><li>The paper must be in <b>DOUBLE COLUMN IEEE format</b>. This format must be strictly followed.</li><li>To refer the IEEE standard, use the link: <a target=\"_blank\" href=\"https://docs.google.com/document/d/1YgyGebtyRlekC8Wan6dXwCllsVCqa09C_glpRJ4P78Q/edit?usp=sharing\"><u>IEE Format</u></a> </li><li>The paper submitted must be in <b>.pdf</b> format</li></ul>"
           }
         ]
       },
@@ -674,8 +674,7 @@
       "organisers": [
         { "name": "Surabhi", "phone": 8939267346 },
         { "name": "Shruthi", "phone": 9790466301 },
-        { "name": "Retika", "phone": 8939566476 },
-        { "name": "Retika", "phone": 8861119979 }
+        { "name": "Retika", "phone": 8939566476 }
       ],
       "description": {
         "summary": "<b>DOMAINS COVERED:</b> Basics of EEE, Field theory, Digital logic circuits, Electronic devices, Microprocessors, Electrical Machines. ",
@@ -709,18 +708,18 @@
         { "name": "Saikrishna", "phone": 9159775911 }
       ],
       "description": {
-        "summary": "<b>IDEATE: </b>&nbsp;is an extended hackathon that kindles the passionate engineering minds to shape up their attractive ideas, that serves to solve a real-time problem or as a token of technological advancement.<br/><br/><b>DOMAINS</b>  <li>Internet Of Things – IoT </li><li>Crisis Response </li><li>Smart Security </li><li>Healthcare </li><li>Mobility </li><li>E- Technologies </li><li>Women Safety </li><li>Open Innovation </li><br/>If your idea doesn’t fall under the domains specified, don’t worry!! Put it on under Open Innovation and get a chance to feature as a winner!! ",
+        "summary": "<b>IDEATE: </b>&nbsp;It is an extended hackathon that kindles the passionate engineering minds to shape up their attractive ideas, that serves to solve a real-time problem or as a token of technological advancement.<br/><br/><b>DOMAINS</b>  <li>Internet Of Things – IoT </li><li>Crisis Response </li><li>Smart Security </li><li>Healthcare </li><li>Mobility </li><li>E- Technologies </li><li>Women Safety </li><li>Open Innovation </li><br/>If your idea doesn’t fall under the domains specified, don’t worry!! Put it on under Open Innovation and get a chance to feature as a winner!! ",
         "rounds": 5,
         "round_description": [
           {
             "name": "General Instructions",
             "duration": null,
-            "description": "<ul><li>Valid ID proofs, Laptop, Chargers, working webcam and other hardware equipments needed for completion of the hackathon is mandatory. </li><li>There should be a hardware which could be accompanied by a software.(Contact for  further enquiries on this) </li><li>Ensure to have a stable internet connection </li><li>Participants are requested to stick on to the timelines for a seamless experience at  both ends </li><li>The judging will be based on their novelty, feasibility, innovation quotient, business  model and relevance to problem statement </li><li>Reviews will be done at each stage and credits secured will be considered for evaluation. </li></ul>"
+            "description": "<ul><li>Valid ID proofs, Laptop, Chargers, working webcam and other hardware equipments needed for completion of the hackathon is mandatory. </li><li>There should be a hardware which could be accompanied by a software.(Contact for  further enquiries on this) </li><li>Ensure to have a stable internet connection. </li><li>Participants are requested to stick on to the timelines for a seamless experience at  both ends. </li><li>The judging will be based on their novelty, feasibility, innovation quotient, business  model and relevance to problem statement. </li><li>Reviews will be done at each stage and credits secured will be considered for evaluation. </li></ul>"
           },
           {
             "name": "Phase 1: (Registration) ",
             "duration": null,
-            "description": "<ul><li>Team Registration and domain selection has to be done. </li><li>Submission of Abstract  </li><li>Send your abstracts to the Mail ID : inventeideate2021@gmail.com </li></ul><br/><br/><b>Format for Sending Your Abstract: </b><br/><ul><li>Team Name: </li><li>Team Leader(SPOC): </li><li>Team Member Details: Name, Mail ID, Contact Number </li><li>Domain Chosen: </li><li>Problem Statement: </li><li>Objective: </li><li>Abstract: </li><li>Application: </li></ul><br/>Share in the form of TeamName_Domain.pdf <br/>Shortlisted Ideas from Phase 1 will move further <br/>Shortlisted Teams will share the format for further rounds of evaluation. The date and time for the rounds will be communicated to the shortlisted teams.  "
+            "description": "<ul><li>Team Registration and domain selection has to be done. </li><li>Submission of Abstract  </li><li>Send your abstracts to the Mail ID : inventeideate2021@gmail.com </li></ul><br/><br/><b>Format for Sending Your Abstract: </b><br/><ul><li>Team Name: </li><li>Team Leader(SPOC): </li><li>Team Member Details: Name, Mail ID, Contact Number </li><li>Domain Chosen: </li><li>Problem Statement: </li><li>Objective: </li><li>Abstract: </li><li>Application: </li></ul><br/>Share in the form of TeamName_Domain.pdf <br/>Shortlisted Ideas from Phase 1 will move further <br/>Shortlisted Teams will be shared the format for further rounds of evaluation. The date and time for the rounds will be communicated to the shortlisted teams.  "
           },
           {
             "name": "Phase 2: (Preliminary Evaluation) ",
@@ -735,7 +734,7 @@
           {
             "name": "Phase 4: (Final Pitching) on the day of Invente ",
             "duration": null,
-            "description": "<ul><li>Participants will have to pitch their project to a judging panel</li><li>Each team will be given 20 minutes for presentation.</li><li>The projects may be evaluated on following criteria : </li><ol><li>Feasibility and User-friendliness </li><li>Relevance to Problem Statement and Novelty </li><li>Business plan and marketability </li><li>Impact on the society </li><li>Sustainability and Quality </li><li>Creativity and Scalability </li></ol><li>here will be a Dry Run (not for evaluation) before commencement of phase 4, for the participants to get used to the environment.  </li></ul><br/>If teams are tied with the same points, there will be a tie-breaker round, which will happen either before or after Phase 4 (Further details will be given during the process, if at all a tie occurs). "
+            "description": "<ul><li>Participants will have to pitch their project to a judging panel</li><li>Each team will be given 20 minutes for presentation.</li><li>The projects may be evaluated on following criteria : </li><ol><li>Feasibility and User-friendliness </li><li>Relevance to Problem Statement and Novelty </li><li>Business plan and marketability </li><li>Impact on the society </li><li>Sustainability and Quality </li><li>Creativity and Scalability </li></ol><li>There will be a Dry Run (not for evaluation) before commencement of phase 4, for the participants to get used to the environment.  </li></ul><br/>If teams are tied with the same points, there will be a tie-breaker round, which will happen either before or after Phase 4 (Further details will be given during the process, if at all a tie occurs). "
           }
         ]
       },
@@ -744,7 +743,7 @@
       "eventid": "34"
     },
     {
-      "name": "Inventino 2021",
+      "name": "Inventino",
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
@@ -756,13 +755,13 @@
         { "name": "Sivakarthikeyan", "phone": 7812044835 }
       ],
       "description": {
-        "summary": "Arduino Lads here is a place to prove yourself unique among the crowd. This is a great opportunity to showcase your skills in electronics and microcontrollers using Arduino and compete with other innovative participants. We welcome you all to participate in one of the best tech symposiums in town and win exciting prizes. GET Ready, Set, Code!!!",
+        "summary": "Arduino Lads here is a place to prove yourself unique among the crowd. This is a great opportunity to showcase your skills in electronics and microcontrollers using Arduino and compete with other innovative participants. We welcome you all to participate in one of the best tech symposiums in town and win exciting prizes. Get Ready, Set, Code!!!",
         "rounds": 3,
         "round_description": [
           {
             "name": "General Instructions",
             "duration": null,
-            "description": "<ul><li>Valid ID proofs, laptop, working webcam and mic needed for completion of the competition is mandatory.  </li><li>Ensure you have a stable internet connection</li><li>Arduino IDE installed and running </li><li>Basic knowledge of Microprocessors and Microcontrollers is needed</li><li>Hands on knowledge of Arduino</li><li><b>Possession of an Arduino board and related hardware is advantageous.</b></li></ul>"
+            "description": "<ul><li>Valid ID proofs, laptop, working webcam and mic needed for completion of the competition is mandatory.  </li><li>Ensure you have a stable internet connection.</li><li>Arduino IDE installed and running. </li><li>Basic knowledge of Microprocessors and Microcontrollers is needed.</li><li>Hands on knowledge of Arduino.</li><li><b>Possession of an Arduino board and related hardware is advantageous.</b></li></ul>"
           },
           {
             "name": "Round 1 (Quiz)",
@@ -772,7 +771,7 @@
           {
             "name": "Round 2 (Inventino)",
             "duration": "2-3 hours",
-            "description": "<b>Mode:</b> GMeet / Zoom / Cisco Webex </br><ul><li>Participants will be shown Arduino based projects. The number of projects shown will be equal to the number of shortlisted teams. </li><li><b>Participants are required to demonstrate the project they are assigned in hardware.</b></li><li>Teams will be allowed to choose the project of their preference from the given projects based on their performance in the first round.</li><li>An event organiser will be assigned to each team who will be in possession of an Arduino board. In case the team doesn’t have a board with them, they can share their code with their assigned organiser who will test the code and show the output.</li><li>Teams can send their code for debugging how many ever times they want within the specified time frame.</li><li>If a team is in possession of an Arduino, they may debug it on their own. However <b>the final code must be sent to the organiser for testing</b>.</li><li>The code sent last will be taken for evaluation.</li><li>Teams are encouraged to add on to the project to innovate it. Extra marks will be awarded for this.</li><li>Teams are also required to explain how they can improve the project and take it forward as a product. Time will be allocated for this.</li></ul><br/><b>Evaluation will be based upon: </b><br/><ul><li>Closeness to the assigned project</li><li>Time taken to complete</li><li>Innovation quotient</li><li>Creativity and presentation</li></ul>"
+            "description": "<b>Mode:</b> GMeet / Zoom / Cisco Webex </br><ul><li>Participants will be shown Arduino based projects. The number of projects shown will be equal to the number of shortlisted teams. </li><li><b>Participants are required to demonstrate the project they are assigned in hardware. In case the team doesn’t have a board with them, they can share their code with their assigned organiser who will test the code and show the output.</b></li><li>Teams will be allowed to choose the project of their preference from the given projects based on their performance in the first round.</li><li>An event organiser will be assigned to each team who will be in possession of an Arduino board. </li><li>Teams can send their code for debugging how many ever times they want within the specified time frame.</li><li>If a team is in possession of an Arduino, they may debug it on their own. However <b>the final code must be sent to the organiser for testing</b>.</li><li>The code sent last will be taken for evaluation.</li><li>Teams are encouraged to add on to the project to innovate it. Extra marks will be awarded for this.</li><li>Teams are also required to explain how they can improve the project and take it forward as a product. Time will be allocated for this.</li></ul><br/><b>Evaluation will be based upon: </b><br/><ul><li>Closeness to the assigned project</li><li>Time taken to complete</li><li>Innovation quotient</li><li>Creativity and presentation</li></ul>"
           }
         ]
       },
@@ -1783,7 +1782,7 @@
         { "name": "Thendral", "phone": 9445584880 }
       ],
       "description": {
-        "summary": "<i>“Too many people spend too much time trying to perfect something before they actually do it. Instead of waiting for perfection, run with what you got and fix it along the way...”</i><br/>Unscripted is a semi technical event that tests an individual’s extemporising skills. This event includes two challenging rounds in which the each participant will be assigned a topic related to civil engineering and they are expected showcase their extemporising skills by speaking atleast 3 minutes about their topic. A preparation time of 1-2 minutes will be allotted for each participant. Based on their speaking skills and the content they deliver, participants will be chosen to advance to round 2.<br/>The success of your presentation will be judged not by the knowledge you send but by what the listener receives. The winner will be selected based on the judges scores and will receive exciting prizes.<br/><br/><b>Platform: MS Teams</b>",
+        "summary": "<i>“Too many people spend too much time trying to perfect something before they actually do it. Instead of waiting for perfection, run with what you got and fix it along the way...”</i><br/>Unscripted is a semi technical event that tests an individual’s extemporising skills. This event includes two challenging rounds in which the each participant will be assigned a topic related to civil engineering and they are expected to showcase their extemporising skills by speaking atleast 3 minutes about their topic. A preparation time of 1-2 minutes will be allotted for each participant. Based on their speaking skills and the content they deliver, participants will be chosen to advance to round 2.<br/>The success of your presentation will be judged not by the knowledge you send but by what the listener receives. The winner will be selected based on the judges scores and will receive exciting prizes.<br/><br/><b>Platform: Zoom</b>",
         "rounds": 2,
         "round_description": [
           {
@@ -1871,9 +1870,8 @@
       "min_team_size": 5,
       "max_team_size": 5,
       "organisers": [
-        { "name": "Krithikan", "phone": 9944666013 },
-        { "name": "Srinirav", "phone": 9940615473 },
-        { "name": "Nanditha", "phone": 9677058210 }
+        { "name": "Pavithranathan", "phone": 9786844782 },
+        { "name": "Mohamed A", "phone": 8220977985 }
       ],
       "description": {
         "summary": "A non-technical event based on the game - VALORANT. Valorant is a team-based first-person shooter(5 Vs 5). Players can select an agent from a variety of choices who have their own unique abilities. This game has gained huge popularity in today's gaming world. Both team take turns playing attack or defence and battle their way to get 13 round wins in order to secure the match point. This game requires team co-ordination and communication skills in order to win. Two teams flying on top of the leaderboard will be given exciting cash prices. ",
