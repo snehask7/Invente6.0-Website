@@ -1340,7 +1340,7 @@
     {
       "name": "Codolympics",
       "category": "tech",
-      "min_team_size": 2,
+      "min_team_size": 1,
       "max_team_size": 2,
       "organisers": [
         { "name": "Avinash", "phone": 9840801323 },
@@ -1348,13 +1348,18 @@
         { "name": "Vrishin", "phone": 9677077928 }
       ],
       "description": {
-        "summary": "There would be 2 round, prelims and finals and each would be around 2-3 hours.",
-        "rounds": 1,
+        "summary": "Codolympics is a Competitive programming event in which the participants will compete in teams of 2 or individually taking part in a programming contest where they would be given the task of solving 5 - 7 DSA related problems. The theme of problem statements will be related to the theme chosen for invente to make the problems fun and exciting.<br/><br/>Ranking of teams is based on the standard ICPC rules, namely: First on the number of problems solved (more is better). In case of a tie, the total time for all accepted submissions is taken into account (less is better).<br/><br/>Time is measured from the beginning of the contest until the submission was accepted, where each rejected submission adds 10 - 20 minutes penalty time.<br/><br/>If there is still a tie, the time of acceptance for the last problem solved matters (less is better).<br/><br/>The rounds will be hosted on Competitive Programming platforms, i.e Codechef,Hackerrank or Hackerearth. Problems may vary (considerably) in difficulty, and appear in increasing order of difficulty.",
+        "rounds": 2,
         "round_description": [
           {
-            "name": "Description",
-            "duration": null,
-            "description": "Codolympics is a Competitive programming event in which the participants will compete in teams of 2 taking part in a programming contest where they would be given the task of solving 5 - 7 DSA related problems. The theme of problem statements will be related to the theme chosen for invente to make the problems fun and exciting.<br><b>Ranking</b> of teams is based on the standard ICPC rules, namely: First on the <b>number of problems solved</b> (more is better). In case of a tie, the total time for all accepted submissions is taken into account (less is better);<br><b>Time</b> is measured from the beginning of the contest until the submission was accepted, where <b>each rejected submission adds 10 - 20 minutes penalty time.</b><br>If there is still a tie, the time of acceptance for the last problem solved matters (less is better).<br>The rounds will be hosted on Competitive Programming platforms, i.e <b>Codechef</b>, <b>Hackerrank</b> or <b>Hackerearth</b>. Problems may vary (considerably) <b>in difficulty, and appear in increasing order of difficulty.</b>"
+            "name": "Prelims",
+            "duration": "2-3 hours",
+            "description": "<ul><li>Contains 5-7 problems to be solved in 2-3 Hours.</li><li>Top performing teams will be selected for the next round</li><li>Googling for solution, using a snippet is allowed</li><li>Inter-team plagiarism/ exchange of ideas/hints are not allowed.</li><li>This is a team contest (Max 2 per team)</li><li>In-case of discrepancies, the decision of the organizing committee is final.</li></ul><br/>The qualified teams will be intimated about their results, If a team is not available to confirm their participation, the next in line team will be notified."
+          },
+          {
+            "name": "Finals",
+            "duration": "2-3 hours",
+            "description": "<ul><li>Contains 5-7 problems to be solved in 2-3 Hours.</li><li>Top 2 teams based on performance, will be awarded</li><li>Googling for solution, using a snippet is allowed</li><li>Inter-team plagiarism/ exchange of ideas/hints are not allowed.</li><li>This is a team contest (Max 2 per team), Same team as prelims is</li>expected<li>In-case of discrepancies, the decision of the organizing committee is final</li></ul><br/>The winners will be notified of their status.            "
           }
         ]
       },
@@ -1431,17 +1436,17 @@
         "round_description": [
           {
             "name": "Crack the Code!",
-            "duration": null,
+            "duration": "20 mins",
             "description": "This deals with Pseudocodes and Algorithms. You will be asked to chip in the algorithm in Pseudocode format or comprehend the Pseudocode to understand the algorithm!"
           },
           {
             "name": "Code puzzle!",
-            "duration": null,
+            "duration": "45 mins",
             "description": "This round is like the jumble puzzle that you would have played during your childhood. If you have got the knack to quickly understand the logic, you will be on a winning sprint here."
           },
           {
             "name": "Techxtempo!",
-            "duration": null,
+            "duration": "45 mins",
             "description": "Extempo? Nah! Its Tech+Extempo.<br>Can’t stop your overflowing ideas and do you love to find tech solutions and build prototypes for burning real-world issues? Then you are the perfect fit.<br>PS: You don’t need to be a pro coder or star coder! Don’t miss to grab this opportunity that could fetch you an internship and cash prizes!"
           }
         ]
@@ -1553,8 +1558,8 @@
     {
       "name": "Game Nite",
       "category": "non-tech",
-      "min_team_size": 4,
-      "max_team_size": 5,
+      "min_team_size": 1,
+      "max_team_size": 1,
       "organisers": [
         { "name": "Jaanhavi", "phone": 7550045716 },
         { "name": "Abhishek", "phone": 9884844705 },

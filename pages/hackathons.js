@@ -77,15 +77,16 @@ export default function Department({ data }) {
                     <span className={styles.eventHeading}>Devathlon</span>
                   </p>
                   <br></br>
-                  Deevathlon is a one week long hackathon. The problem statement
+                  Devathlon is a one week long hackathon. The problem statement
                   will be released on 1st of October. The participants get a
-                  week’s time to build a solution for the given problem
-                  statement. The participants solution will be evaluated during
-                  invente and depending on the viability of the product, the
-                  product will be considered for piloting and may be funded. The
-                  developers of best solutions get the chance to intern and work
-                  in world class companies. The detailed description will be
-                  released soon.{' '}
+                  week to build a solution for the given problem statement. The
+                  solution will be evaluated during Invente and depending on the
+                  viability of the product, the solution will be considered for
+                  piloting and may be funded. The developers of best solutions
+                  get the chance to intern and work in world class companies.
+                  The detailed description will be released soon. <br />
+                  <br />
+                  <hr />
                   <div className={styles.row}>
                     {/* <div className={styles.col}>
                       {events[id].organisers.map((organiser, id) => {
