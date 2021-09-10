@@ -253,7 +253,7 @@ export default function Department({ data }) {
             </Row>
           </div>
         </main>
-        <Footer sticky={true} />
+        <Footer />
       </div>
     </>
   );

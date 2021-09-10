@@ -174,3 +174,8 @@
 .hide {
   display: none;
 }
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .navbar {
+    background: rgba(1, 4, 40, 1);
+  }
+}
