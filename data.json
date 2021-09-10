@@ -1886,7 +1886,12 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
-      "organisers": [],
+      "organisers": [
+        { "name": "Manufacturing: Mohammad R", "phone": 7397492626 },
+        { "name": "Thermal: Arunachalam N", "phone": 9789589073 },
+        { "name": "Robotics: Karthik R", "phone": 7358632280 },
+        { "name": "Design: Ranjith K", "phone": 8508506659 }
+      ],
       "description": {
         "summary": "<b>Platform: Zoom/GMeet</b><br/><b>No of rounds: 2</b>",
         "rounds": 2,
@@ -1904,7 +1909,11 @@
         ]
       },
       "open_to": ["Mechanical"],
-      "prizes": [],
+      "prizes": [
+        "Winners and runner-up will be announced for each domain",
+        "Domain winner - Rs.1500",
+        "Domain Runner-Up - Rs.1000"
+      ],
       "eventid": "40"
     },
     {
@@ -1912,7 +1921,10 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
-      "organisers": [],
+      "organisers": [
+        { "name": "Vengadesh V", "phone": 9677243361 },
+        { "name": "Mohanraj A", "phone": 8825416750 }
+      ],
       "description": {
         "summary": "<b>Platform: Zoom/GMeet</b><br/><b>No of rounds: 1</b>",
         "rounds": 1,
@@ -1925,7 +1937,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": [],
+      "prizes": ["Winner - Rs.2500", "Runner-Up - Rs.1500"],
       "eventid": "41"
     },
     {
@@ -1933,7 +1945,10 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
-      "organisers": [],
+      "organisers": [
+        { "name": "Gautam R", "phone": 8939332169 },
+        { "name": "Srinath", "phone": 7695806593 }
+      ],
       "description": {
         "summary": "Are you an automobile enthusiast? This event is just for you. Join us for this fun filled unorthodox quiz and win exciting prizes!",
         "rounds": 3,
@@ -1941,7 +1956,7 @@
           {
             "name": "Prelims (Online MCQ):",
             "duration": "15-20 mins",
-            "description": "<ul><li>This is a technical quiz round covering an assortment of topics from automobile, conducted using Kahoot!</li><li>Use the above link to get accustomed to the interface</li><li>A total of 20 questions</li><li>Time duration per question will be brief to prevent malpractices</li><li>Of this, ‘n’ teams will be qualified for the finals</li></ul>"
+            "description": "<ul><li>This is a technical quiz round covering an assortment of topics from automobile, conducted using <a target=\"_blank\" href=\"https://kahoot.com/\"><u>Kahoot!</u></a></li><li>Use the above link to get accustomed to the interface</li><li>A total of 20 questions</li><li>Time duration per question will be brief to prevent malpractices</li><li>Of this, ‘n’ teams will be qualified for the finals</li></ul>"
           },
           {
             "name": "Finals (Traditional: Turn wise):",
@@ -1956,7 +1971,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": [],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "42"
     },
     {
@@ -1964,9 +1979,12 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
-      "organisers": [],
+      "organisers": [
+        { "name": "Nandita S", "phone": 9176067279 },
+        { "name": "Goutham K", "phone": 8891103014 }
+      ],
       "description": {
-        "summary": "<b>Platform: Zoom</b><br/><b>No of rounds: 3</b>",
+        "summary": "Mechathlon is a mock interview drive that will prepare you for placements. This event follows the same pattern as most placement interview sessions. Register and experience the placement process!<br/><br/><b>Platform: Zoom</b><br/><b>No of rounds: 3</b>",
         "rounds": 3,
         "round_description": [
           {
@@ -1987,7 +2005,7 @@
         ]
       },
       "open_to": ["Mechanical"],
-      "prizes": [],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "43"
     },
     {
@@ -1995,7 +2013,10 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 2,
-      "organisers": [],
+      "organisers": [
+        { "name": "Venkatesh S", "phone": 9710887173 },
+        { "name": "Shriram S", "phone": 7305500805 }
+      ],
       "description": {
         "summary": "We know you would rock in your domain. We know you would also manage time. But <b>What if</b> we tell you that you will have to manage both! So here we are to challenge your technical skills but not compromising on the time!<br/><br/><b>Platform: Quizizz and Zoom</b><br/><b>No of rounds: 2</b>",
         "rounds": 2,
@@ -2013,7 +2034,7 @@
         ]
       },
       "open_to": ["Mechanical"],
-      "prizes": [],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "44"
     },
     {
@@ -2021,7 +2042,10 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
-      "organisers": [],
+      "organisers": [
+        { "name": "Sam S", "phone": 6369009801 },
+        { "name": "Shoba E", "phone": 7338757883 }
+      ],
       "description": {
         "summary": "Each registered team has to complete a set of tasks testing their marketing skills and design skills. A complete study of the given product has to be undertaken and a final 3D model of the product has to be submitted.<br/><b>Platorm: Zoom</b>",
         "rounds": 2,
@@ -2039,7 +2063,7 @@
         ]
       },
       "open_to": ["Mechanical"],
-      "prizes": [],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "45"
     },
     {
@@ -2047,7 +2071,10 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
-      "organisers": [],
+      "organisers": [
+        { "name": "Varuna G", "phone": 9840789912 },
+        { "name": "Viswapriya G", "phone": 9087590821 }
+      ],
       "description": {
         "summary": "What better way to push your technically sound mind to its limits than solving puzzles? Quarter Mile of Invente 2021 brings you the perfect blend of fun and learning in the form of a multi tiered quiz event.<br/><br/><b>Platform: Gmeet/Discord</b><br/><b>No of Rounds: 3</b>",
         "rounds": 3,
@@ -2069,8 +2096,8 @@
           }
         ]
       },
-      "open_to": "All",
-      "prizes": [],
+      "open_to": ["Mechanical"],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "46"
     },
     {
@@ -2078,9 +2105,12 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 2,
-      "organisers": [],
+      "organisers": [
+        { "name": "Krishnanand M", "phone": 9841021169 },
+        { "name": "Akshaya", "phone": 7358548743 }
+      ],
       "description": {
-        "summary": "<b>Platform: Zoom and use of google drive</b><br/><b>No of Rounds: 3</b>",
+        "summary": "Are you a person who likes to play card games like cricket attax or WWE? Or are you person who missed playing these games? Car wars is the event for you! It is a fun filled event to test your technical knowledge and competitive strategy.  Additionally, anyone with an interest in automotive field is guaranteed to enjoy this event. The technical knowledge required is beginner friendly but the fun involved is elite.<br/><br/><b>Platform: Zoom and use of google drive</b><br/><b>No of Rounds: 3</b>",
         "rounds": 3,
         "round_description": [
           {
@@ -2101,7 +2131,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": [],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "47"
     },
     {
@@ -2109,7 +2139,10 @@
       "category": "non-tech",
       "min_team_size": 2,
       "max_team_size": 2,
-      "organisers": [],
+      "organisers": [
+        { "name": "GV Surya Shashank", "phone": 9962527657 },
+        { "name": "Akash S", "phone": 8438340228 }
+      ],
       "description": {
         "summary": "Life is too short to play a bad game. Join us for a fun-filled day with your friends. Exciting prizes up for grabs!!<br/><br/><b>Platform: Google forms, Zoom</b><br/><b>No of Rounds: 3</b>",
         "rounds": 3,
@@ -2132,7 +2165,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": [],
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.600"],
       "eventid": "48"
     }
   ]

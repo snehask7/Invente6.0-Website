@@ -925,7 +925,7 @@ export default function Home() {
                         />
                       </svg>
                       <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Cynthia Joy</h6>
+                        <h6 className={styles.org_card_title}>Cynthia J.</h6>
                         <p className={styles.org_card_dept}>Mechanical</p>
                         <p className={styles.org_card_phone}>+91 9480038164</p>
                       </div>
@@ -962,7 +962,7 @@ export default function Home() {
                         />
                       </svg>
                       <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Achsha Israel</h6>
+                        <h6 className={styles.org_card_title}>Achsha I.</h6>
                         <p className={styles.org_card_dept}>Chemical</p>
                         <p className={styles.org_card_phone}>+91 9445610075</p>
                       </div>
