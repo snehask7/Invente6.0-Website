@@ -614,10 +614,10 @@ export default function Home() {
               <Col className={styles.facilio}>
                 <a href="https://facilio.com/" target="_blank" rel="noreferrer">
                   {/* eslint-disable-next-line */}
-                    <img
-                      src="/sponsors/facilio.png"
-                      alt="facilio"
-                    />{' '}
+                  <img
+                    src="/sponsors/facilio.png"
+                    alt="facilio"
+                  />{' '}
                 </a>
               </Col>
             </Row>
@@ -629,19 +629,19 @@ export default function Home() {
                   rel="noreferrer"
                 >
                   {/* eslint-disable-next-line */}
-                    <img
-                      src="/sponsors/sf.png"
-                      alt="stayflexi"
-                    />{' '}
+                  <img
+                    src="/sponsors/sf.png"
+                    alt="stayflexi"
+                  />{' '}
                 </a>
               </Col>
               <Col>
                 <a href="cosmichvac.com" target="_blank">
                   {/* eslint-disable-next-line */}
-                    <img
-                      src="/sponsors/cosmic.png"
-                      alt="cosmic"
-                    />{' '}
+                  <img
+                    src="/sponsors/cosmic.png"
+                    alt="cosmic"
+                  />{' '}
                 </a>
               </Col>
               <Col>
@@ -651,10 +651,10 @@ export default function Home() {
                   rel="noreferrer"
                 >
                   {/* eslint-disable-next-line */}
-                    <img
-                      src="/sponsors/typesense.svg"
-                      alt="typesense"
-                    />{' '}
+                  <img
+                    src="/sponsors/typesense.svg"
+                    alt="typesense"
+                  />{' '}
                 </a>
               </Col>
             </Row>
@@ -672,7 +672,7 @@ export default function Home() {
                   <div className={styles.org_card}>
                     <div className={styles.org_card_image_container}>
                       {/* eslint-disable-next-line */}
-                        <img
+                      <img
                         className={styles.org_card_image}
                         src="/presidents/cse.jpg"
                         alt=""
@@ -706,7 +706,7 @@ export default function Home() {
                   <div className={styles.org_card}>
                     <div className={styles.org_card_image_container}>
                       {/* eslint-disable-next-line */}
-                        <img
+                      <img
                         className={styles.org_card_image}
                         src="/presidents/it.jpg"
                         alt=""
@@ -739,7 +739,7 @@ export default function Home() {
                   <div className={styles.org_card}>
                     <div className={styles.org_card_image_container}>
                       {/* eslint-disable-next-line */}
-                        <img
+                      <img
                         className={styles.org_card_image}
                         src="/presidents/ece.jpg"
                         alt=""
@@ -773,7 +773,7 @@ export default function Home() {
                   <div className={styles.org_card}>
                     <div className={styles.org_card_image_container}>
                       {/* eslint-disable-next-line */}
-                        <img
+                      <img
                         className={styles.org_card_image}
                         src="/presidents/eee.JPG"
                         alt=""
@@ -807,7 +807,7 @@ export default function Home() {
                   <div className={styles.org_card}>
                     <div className={styles.org_card_image_container}>
                       {/* eslint-disable-next-line */}
-                        <img
+                      <img
                         className={styles.org_card_image}
                         src="/presidents/civil.jpg"
                         alt=""
@@ -841,7 +841,7 @@ export default function Home() {
                   <div className={styles.org_card}>
                     <div className={styles.org_card_image_container}>
                       {/* eslint-disable-next-line */}
-                        <img
+                      <img
                         className={styles.org_card_image}
                         src="/presidents/bme.jpg"
                         alt=""
@@ -875,7 +875,7 @@ export default function Home() {
                   <div className={styles.org_card}>
                     <div className={styles.org_card_image_container}>
                       {/* eslint-disable-next-line */}
-                        <img
+                      <img
                         className={styles.org_card_image}
                         src="/presidents/mech.jpg"
                         alt=""
@@ -897,7 +897,7 @@ export default function Home() {
                       />
                     </svg>
                     <div className={styles.org_card_content}>
-                      <h6 className={styles.org_card_title}>Cynthia Joy</h6>
+                      <h6 className={styles.org_card_title}>Cynthia J.</h6>
                       <p className={styles.org_card_dept}>Mechanical</p>
                       <p className={styles.org_card_phone}>+91 9480038164</p>
                     </div>
@@ -909,7 +909,7 @@ export default function Home() {
                   <div className={styles.org_card}>
                     <div className={styles.org_card_image_container}>
                       {/* eslint-disable-next-line */}
-                        <img
+                      <img
                         className={styles.org_card_image}
                         src="/presidents/chem.jpg"
                         alt=""
@@ -931,7 +931,7 @@ export default function Home() {
                       />
                     </svg>
                     <div className={styles.org_card_content}>
-                      <h6 className={styles.org_card_title}>Achsha Israel</h6>
+                      <h6 className={styles.org_card_title}>Achsha I.</h6>
                       <p className={styles.org_card_dept}>Chemical</p>
                       <p className={styles.org_card_phone}>+91 9445610075</p>
                     </div>
