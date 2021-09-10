@@ -15,6 +15,7 @@ import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import { useNav } from '../lib/navbarstate';
 import styles from '../styles/DepartmentPage.module.css';
+
 export default function Department({ data }) {
   const router = useRouter();
   const { currentUser } = useAuth();
@@ -70,62 +71,10 @@ export default function Department({ data }) {
           >
             <h1 className={styles.pageHeading}>Hackathon</h1>
             <Row className={styles.wrapper}>
-              {/* <Col
-                lg={12}
-                xl={12}
-                md={12}
-                sm={12}
-                className={styles.eventsContainer}
-              >
-                <Row>
-                  {events.map((event, id) => {
-                    return (
-                      <Link
-                        key={`event${id}`}
-                        href={`/department/${department}/${id}`}
-                        passHref
-                      >
-                        <Col>
-                          <div
-                            className={
-                              styles.eventCard +
-                              ' ' +
-                              (id == parseInt(router.query.id)
-                                ? styles.eventSelected
-                                : '')
-                            }
-                          >
-                            <span></span>
-                            <div className={styles.content}>
-                              <div className={styles.content}>
-                                <p>{event.name}</p>
-                              </div>
-                            </div>
-                          </div>
-                        </Col>
-                      </Link>
-                    );
-                  })}
-                </Row>
-              </Col> */}
               <Col lg={12} xl={12} md={12} sm={12}>
                 <div className={styles.eventDetails}>
                   <p className={styles.headerWrapper}>
                     <span className={styles.eventHeading}>Devathlon</span>
-                    {/* <span
-                      className={
-                        events[id].category == 'tech' ||
-                          events[id].category == 'hackathon'
-                          ? styles.techbadge
-                          : styles.nontechbadge
-                      }
-                    >
-                      {events[id].category == 'tech'
-                        ? 'Tech'
-                        : events[id].category == 'hackathon'
-                          ? 'Hackathon'
-                          : 'Non-Tech'}
-                    </span> */}
                   </p>
                   <br></br>
                   Deevathlon is a one week long hackathon. The problem statement
@@ -137,38 +86,6 @@ export default function Department({ data }) {
                   developers of best solutions get the chance to intern and work
                   in world class companies. The detailed description will be
                   released soon.{' '}
-                  {/* {events[id].description.summary ? (
-                    <>
-                      <p
-                        dangerouslySetInnerHTML={{
-                          __html: events[id].description.summary,
-                        }}
-                        className={styles.eventDesc}
-                      ></p>
-                    </>
-                  ) : null} */}
-                  {/* {events[id].description.rounds == 0 ? <hr></hr> : null} */}
-                  {/* {events[id].description.round_description.map((round, id) => {
-                    return (
-                      <Row key={`round${id}`}>
-                        <div className={styles.roundCard}>
-                          <b> {round.name}</b>{' '}
-                          {round.duration ? (
-                            <>
-                              &nbsp;<FaRegClock></FaRegClock>&nbsp;
-                              {round.duration}
-                            </>
-                          ) : null}
-                          <hr></hr>
-                          <p
-                            dangerouslySetInnerHTML={{
-                              __html: round.description,
-                            }}
-                          ></p>
-                        </div>
-                      </Row>
-                    );
-                  })} */}
                   <div className={styles.row}>
                     {/* <div className={styles.col}>
                       {events[id].organisers.map((organiser, id) => {
@@ -213,19 +130,6 @@ export default function Department({ data }) {
                       1st Runner - Rs.10000
                       <br />
                       2nd Runner - Rs.5000
-                      {/* {events[id].prizes.map((prize, id) => {
-                        return (
-                          <div key={`organiser${id}`}>
-                            {id == 0 ? (
-                              <>
-                                <FaTrophy></FaTrophy>
-                                <br></br>
-                              </>
-                            ) : null}
-                            {prize}
-                          </div>
-                        );
-                      })} */}
                     </div>
                   </div>
                   <div className={styles.buttonWrapper}>
@@ -253,7 +157,7 @@ export default function Department({ data }) {
             </Row>
           </div>
         </main>
-        <Footer sticky={true} />
+        <Footer />
       </div>
     </>
   );

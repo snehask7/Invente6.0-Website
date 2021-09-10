@@ -39,11 +39,14 @@
   margin-top: 8vw;
 }
 .dept_cards {
-  margin-top: 3vw !important;
+  padding-top: 3em;
 }
 @media screen and (max-width: 1000px) {
   .centerLogo {
     top: 20vw;
+  }
+  .headerRow {
+    margin-top: 25%;
   }
 }
 .astronaut {
@@ -107,8 +110,14 @@
 .sub_title {
   position: relative;
   left: calc(50% - 10px);
-  margin-bottom: 3vw;
+  margin-bottom: 3em;
   font-family: 'Menlo', monospace;
+}
+
+@media screen and (min-width: 1000px) {
+  .sub_title {
+    margin-bottom: 6em;
+  }
 }
 .sub_title h2 {
   color: #fff;
@@ -172,8 +181,7 @@
   width: 200px;
   height: 200px;
   border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: 0.4s;
   margin-top: 50px;
@@ -191,8 +199,7 @@
   border-radius: 40px;
   object-fit: cover;
   z-index: 10;
-  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+  box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.2);
 }
 
 .card .card_title {
@@ -276,7 +283,10 @@
 
 /* Sponsors*/
 .spons_section {
-  margin-top: -2rem;
+  margin-top: 2rem;
+}
+#sponsors {
+  scroll-margin-top: 400px;
 }
 /* 
 @media screen and (max-width: 991px) {
@@ -484,13 +494,12 @@
   margin-top: 10em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #111927;
+  background-color: #11192779;
   background-image: radial-gradient(
-      at 47% 33%,
-      hsl(289.9, 87%, 47%) 0,
-      transparent 59%
-    ),
-    radial-gradient(at 82% 65%, hsl(218, 39%, 11%) 0, transparent 55%);
+    at 50% 50%,
+    rgba(171, 44, 196, 0.5) 0,
+    transparent 90%
+  );
   width: 50vw;
   border-radius: 25px;
 }
@@ -507,36 +516,40 @@
   margin: 2vw 1vw;
 }
 .days {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(203, 132, 221, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background-color: rgba(43, 42, 42, 0);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: #b6b9be;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background-color: rgba(43, 42, 42, 0);
+  border-radius: 12px;
+  color: #b6b9be;
 }
 .hours {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.904);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background-color: rgba(43, 42, 42, 0);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  color: #183059;
+  color: #b6b9be;
 }
 .minutes {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(38, 255, 244, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background-color: rgba(43, 42, 42, 0);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: #b6b9be;
 }
 .seconds {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(38, 255, 110, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background-color: rgba(43, 42, 42, 0);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: #b6b9be;
 }
 .numbers {
-  color: #183059;
+  color: #c7ccd3;
   font-size: 2.5em;
   font-weight: bold;
 }
@@ -554,8 +567,8 @@
   }
 }
 
-
 @media screen and (max-width: 770px) {
+
   .days,
   .hours,
   .minutes,
