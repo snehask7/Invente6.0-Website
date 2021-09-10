@@ -110,7 +110,6 @@
       "max_team_size": 3,
       "organisers": [
         { "name": "Palaniappan", "phone": 9791130573 },
-        { "name": "Karthik", "phone": 8015775424 },
         { "name": "Hariharan A", "phone": 9962903437 }
       ],
       "description": {
@@ -193,7 +192,10 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 3,
-      "organisers": [{ "name": "Pooja S", "phone": 9791114323 }],
+      "organisers": [
+        { "name": "Pooja S", "phone": 9791114323 },
+        { "name": "Karthik", "phone": 8015775424 }
+      ],
       "description": {
         "summary": null,
         "rounds": 2,
