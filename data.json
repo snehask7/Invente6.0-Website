@@ -54,8 +54,8 @@
       "min_team_size": 1,
       "max_team_size": 3,
       "organisers": [
-        { "name": "Harini", "phone": 8073169475 },
-        { "name": "Aadhish", "phone": 7598098147 }
+        { "name": "Sriram", "phone": 9884625729 },
+        { "name": "Kirthivasan", "phone": 9962744652 }
       ],
       "description": {
         "summary": "Solve puzzles and break the ultimate code",
@@ -82,20 +82,23 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
-      "organisers": [{ "name": "Manjunathan", "phone": 9789067642 }],
+      "organisers": [
+        { "name": "Shwetha S", "phone": 9790950184 },
+        { "name": "Krishi V", "phone": 9941683848 }
+      ],
       "description": {
-        "summary": null,
+        "summary": "As the amount of data increases day by day, extracting useful information from raw data has become inevitable. This event will test the participant’s skills in statistics, Machine Learning and Data Science.        ",
         "rounds": 2,
         "round_description": [
           {
             "name": "Round 1",
-            "duration": "30 mins",
+            "duration": null,
             "description": "MCQ Quiz on Data Science, Machine Learning and Statistics."
           },
           {
             "name": "Round 2",
-            "duration": "1.5 hours",
-            "description": "At the beginning, the participant will be asked a few questions for around 15 minutes for guiding them to use the correct model/testing their knowledge about the models that can be  used. If the team fails to answer the question the volunteer will guide the participants towards the  right direction (e.g.suggesting a column of values to be dropped etc) at the loss of points. Once a team solves the questions, the dataset (same dataset for all teams) will be given to  the team. The dataset will be technical in nature (related to ECE department). Using the answer to the questions as clues, each team must do exploratory analysis on  the dataset and come up with useful insights on the data and on how to proceed further.Then the team must implement a model/algorithm to predict the outputs for the given test values and measure the accuracy metrics along with the predictions."
+            "duration": null,
+            "description": "Teams will initially be quizzed (max 10 minutes) to test their basics and ensure they start off with appropriate  baseline models. Volunteers will guide the team towards the right direction if needed (e.g. suggesting a column of values to be dropped etc.) at the loss of points.<br/>After the quiz, the dataset will be provided. <br/>Teams are expected to perform exploratory data analysis, and implement a model/algorithm to predict the required value for the given test data. Teams will be judged based on the accuracy metrics as well as the predictions.            "
           }
         ]
       },
@@ -138,22 +141,22 @@
       "min_team_size": 1,
       "max_team_size": 3,
       "organisers": [
-        { "name": "Shwathi", "phone": 9445653201 },
-        { "name": "Ashwath", "phone": 9176253113 }
+        { "name": "Aakash", "phone": 8056722144 },
+        { "name": "Rangashri", "phone": 8825894683 }
       ],
       "description": {
-        "summary": null,
+        "summary": "Do you have what it takes to be a master marketer? Hitch on to \"The Big Meg\", pitch your product and if you are deemed worthy, fetch your reward.<br/><br/><b>Platform: Google Meet</b>",
         "rounds": 2,
         "round_description": [
           {
             "name": "Round 1",
             "duration": null,
-            "description": "Will be conducted in discord. Each team will be given a basic electronic product and will be given 4 minutes to prepare and sell the same to the judges for a maximum of 3 minutes."
+            "description": "Participants (max team size of 3) will be assigned a unique electronic product and will be required to mail a presentation about the product's features on or before 4th October, 2021."
           },
           {
             "name": "Round 2",
             "duration": null,
-            "description": "Will again take place in discord and a theme or a problem statement will be established by the judges. And the participants will be given 20 mins to come up with a product or a service in accordance to the theme. And then the teams should convince the judges as to why they should invest in their product. The time cap for each pitch is set at 5 minutes."
+            "description": "Shortlisted participants from round 1 will be asked to pitch their products for a duration of 5 minutes to a panel of judges. "
           }
         ]
       },
@@ -256,9 +259,12 @@
       "category": "non-tech",
       "min_team_size": 1,
       "max_team_size": 3,
-      "organisers": [{ "name": "Vikram K", "phone": 7358046900 }],
+      "organisers": [
+        { "name": "Akash P", "phone": 6381586142 },
+        { "name": "Vikhas", "phone": 9361035286 }
+      ],
       "description": {
-        "summary": null,
+        "summary": "\"<i>Those are the two best words in English, 'Bidding' and 'War'.</i>\" - Evan Dougherty",
         "rounds": 2,
         "round_description": [
           {
@@ -281,24 +287,29 @@
       "name": "SketchX",
       "category": "non-tech",
       "min_team_size": 1,
-      "max_team_size": 3,
+      "max_team_size": 1,
       "organisers": [
-        { "name": "Tejaswi S", "phone": 6380562392 },
-        { "name": "Sharmada G", "phone": 7708617246 }
+        { "name": "Anusha", "phone": 9840251636 },
+        { "name": "Anjali", "phone": 9962096180 }
       ],
       "description": {
-        "summary": null,
-        "rounds": 2,
+        "summary": "Design is where science and art break even. Sketch X is a design event that will test the creativity and basic design knowledge of the participants. ",
+        "rounds": 3,
         "round_description": [
           {
             "name": "Round 1",
-            "duration": "45 mins",
-            "description": "Out of the few topics given on the spot, participants choose one to design a UI framework using any software they see fit. Each team will be scored by the judges and the co-participants(one from each team) through a google form that will be shared after every single presentation which will be 1 min(max). The form will be closed in a bare minimum time."
+            "duration": null,
+            "description": "MCQ round will be conducted based on topics like Design, Colour Theory and Graphic design principles through an online quiz platform."
           },
           {
             "name": "Round 2",
-            "duration": null,
-            "description": "It’s a guessing round where all the teams name 3 other teams who they think would have scored the highest (again, through a google form). for which they will be scored based on their accuracy."
+            "duration": "45 mins",
+            "description": "Out of the few topics given on the spot , participants who have cleared round 1 will choose one to design a Poster using any software they see fit(Adobe illustrator, Canva or PPT)"
+          },
+          {
+            "name": "Round 3",
+            "duration": "45 mins",
+            "description": "The participants will present their poster to the judges explaining the content of the poster and it will be judged based on the pitch, creativity and design. Each poster will be scored by the judges and the co-participants through a vote using an online poll."
           }
         ]
       },
@@ -1527,7 +1538,7 @@
       "eventid": "05"
     },
     {
-      "name": "Reverse in Relay",
+      "name": "Relay in Reverse",
       "category": "tech",
       "min_team_size": 3,
       "max_team_size": 3,
@@ -1536,7 +1547,7 @@
         { "name": "Vaishnavi", "phone": 7530035323 }
       ],
       "description": {
-        "summary": null,
+        "summary": "Do you like thinking in reverse? If so this is the right place for you. You can crack it even if you area beginner! Do register and showcase your skills.",
         "rounds": 2,
         "round_description": [
           {
@@ -1871,7 +1882,7 @@
           {
             "name": "Rules",
             "duration": null,
-            "description": "<ul><li>It is enough if any 2 out of 5 participants register</li><li>Participants must follow the rules. </li><li>Rules regarding the game and teams will be notified after registration. </li><li>Stage 1 is knockout stage. Winners qualify for successive rounds. </li><li>Final round will be a best of three. (Based on final two teams convenience the Finals will be conducted either on the same day or the next day) </li><li>All general Valorant rules applied. No third party hacks are permitted, if found the entire team will be eliminated. </li><li>Map selection and other details will be shared in our discord server after registration.</li></ul>"
+            "description": "<ul><li>All 5 participants must register.</li><li>Participants must follow the rules. </li><li>Rules regarding the game and teams will be notified after registration. </li><li>Stage 1 is knockout stage. Winners qualify for successive rounds. </li><li>Final round will be a best of three. (Based on final two teams convenience the Finals will be conducted either on the same day or the next day) </li><li>All general Valorant rules applied. No third party hacks are permitted, if found the entire team will be eliminated. </li><li>Map selection and other details will be shared in our discord server after registration.</li></ul>"
           }
         ]
       },
