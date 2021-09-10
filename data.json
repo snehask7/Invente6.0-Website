@@ -420,7 +420,7 @@
       "eventid": "53"
     },
     {
-      "name": "Biomedicathon",
+      "name": "Biomedicathon (Hackathon)",
       "category": "hackathon",
       "min_team_size": 3,
       "max_team_size": 3,
@@ -440,7 +440,7 @@
           {
             "name": "Round 2 (Main Event)",
             "duration": "2 hours",
-            "description": "Shortlisted participants will have to deliver a presentation and the duration of which will belimited to 10 minutes. The top three teams will be awarded with prize money."
+            "description": "The review will be conducted by the panel of judges from 3 to 5pm on Day 1 (October 7) and the final presentation (implementing all the suggestions provided by the judge) should be presented on Day 2 (October 8) from 3 to 5pm. The presentation will be limited to 10 minutes. The top three teams will be awarded with prize money."
           }
         ]
       },
