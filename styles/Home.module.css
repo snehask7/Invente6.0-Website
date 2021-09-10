@@ -480,7 +480,7 @@
   }
   50% {
     opacity: 1;
-    filter: blur(2px);
+    filter: blur(0);
   }
   100% {
     transform: translateY(0) scale(1);
@@ -488,7 +488,6 @@
     filter: blur(0);
   }
 }
-
 
 @media screen and (max-width: 575px) {
   .org_card_svg {
@@ -505,7 +504,6 @@
     border-bottom: solid#03e9f4 1px;
   }
 }
-
 
 /* Timer section */
 
@@ -593,7 +591,6 @@
 }
 
 @media screen and (max-width: 770px) {
-
   .days,
   .hours,
   .minutes,

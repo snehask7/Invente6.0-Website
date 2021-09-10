@@ -293,7 +293,12 @@ export default function Home() {
               </div>
             </Col>
           </Row>
-          <div id="timer" className={styles.timer}>
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="800"
+            id="timer"
+            className={styles.timer}
+          >
             <div id="days" className={styles.days}>
               <div id="days_num" className={styles.numbers}></div>
               <div>days</div>

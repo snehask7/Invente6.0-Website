@@ -12,6 +12,7 @@ import {
   FaUserAlt,
 } from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
+import Footer from '../../../components/Footer';
 import NavbarComp from '../../../components/Navbar';
 import data from '../../../data.json';
 import { useAuth } from '../../../lib/hooks';
@@ -289,6 +290,7 @@ export default function Department({ data }) {
             </Row>
           </div>
         </main>
+        <Footer />
       </div>
     </React.Fragment>
   );
