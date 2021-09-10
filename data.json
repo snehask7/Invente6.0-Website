@@ -110,7 +110,6 @@
       "max_team_size": 3,
       "organisers": [
         { "name": "Palaniappan", "phone": 9791130573 },
-        { "name": "Karthik", "phone": 8015775424 },
         { "name": "Hariharan A", "phone": 9962903437 }
       ],
       "description": {
@@ -193,20 +192,29 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 3,
-      "organisers": [{ "name": "Pooja S", "phone": 9791114323 }],
+      "organisers": [
+        { "name": "Aaryan S", "phone": 9952882211 },
+        { "name": "Gayathri S", "phone": 8754407646 },
+        { "name": "Karthik", "phone": 8015775424 }
+      ],
       "description": {
-        "summary": null,
-        "rounds": 2,
+        "summary": "Junkyard Jumble is a super fun semi-technical event that provides both.",
+        "rounds": 3,
         "round_description": [
           {
             "name": "Round 1",
             "duration": "15 mins",
-            "description": "The first round involves puzzles, scrambled words and references from your favourite fandoms. Use them to crack the physics concepts and move to the next round. This round requires quick thinking skills, analytical and mental ability. Basic concepts of physics will be tested. (class 11 and 12 physics concepts)."
+            "description": "This event triggers the participants to arrive at the solution by cracking simple puzzles and identifying well known Physics and Electronics Concepts. "
           },
           {
             "name": "Round 2",
             "duration": "3 mins per team",
-            "description": "This is the Dumb Charades round. Act out a basic technical (physics) question to your teammates. The team which guesses the maximum number of questions and also answers them correctly will win the competition."
+            "description": "This is the Dumb Charades round. The participants must act out questions to their teammates and then, find the answer, all under a ticking clock!"
+          },
+          {
+            "name": "Skills",
+            "duration": null,
+            "description": "Logical Reasoning, General Aptitude, Basic Physics, Fundamentals of Electronics and Semiconductors and 11/12th Physics"
           }
         ]
       },
@@ -218,8 +226,11 @@
       "name": "Paper Presentation",
       "category": "tech",
       "min_team_size": 1,
-      "max_team_size": 4,
-      "organisers": [{ "name": "Nethraa", "phone": 8939073910 }],
+      "max_team_size": 3,
+      "organisers": [
+        { "name": "Nethra P", "phone": 8925642614 },
+        { "name": "Bharath V", "phone": 9940656712 }
+      ],
       "description": {
         "summary": null,
         "rounds": 2,
@@ -227,7 +238,7 @@
           {
             "name": "Round 1:Submission of abstract",
             "duration": null,
-            "description": "The abstract of the paper of your preference from the given domains must be sent through mail by 1st October, 2021. The domains are as follows:<br/><ul><li>Antenna Systems and its Applications </li><li>Augmented Reality </li><li>Cognitive Science </li><li>Cybersecurity and its risk assessment techniques </li><li>Deep Learning </li><li>Emerging trends in Photonics </li><li>Internet of Intelligent Things </li><li>Internet of Things </li><li>Machine Learning </li><li>Machine Learning/ AI for networks </li><li>MEMS </li><li>Network Security and Blockchain Technology </li><li>Optical Communication and Networks </li><li>Robotics </li><li>Signal and Image processing</li><li>Virtual Reality</li></ul><br/>Email id to submit abstract: ssnieeecomsoc@gmail.com"
+            "description": "The abstract of the paper of your preference from the given domains must be sent through mail by 3rd October, 2021. The domains are as follows:<br/><ul><li>Antenna Systems and its Applications </li><li>Augmented Reality </li><li>Cognitive Science </li><li>Cybersecurity and its risk assessment techniques </li><li>Deep Learning </li><li>Emerging trends in Photonics </li><li>Internet of Intelligent Things </li><li>Internet of Things </li><li>Machine Learning </li><li>Machine Learning/ AI for networks </li><li>MEMS </li><li>Network Security and Blockchain Technology </li><li>Optical Communication and Networks </li><li>Robotics </li><li>Signal and Image processing</li><li>Virtual Reality</li></ul><br/>Email id to submit abstract: ssnieeecomsoc@gmail.com"
           },
           {
             "name": "Round 2",
@@ -363,11 +374,11 @@
       "min_team_size": 1,
       "max_team_size": 2,
       "organisers": [
-        { "name": "Sandhyavarshin", "phone": 9941288689 },
+        { "name": "Sandhyavarshini", "phone": 9941288689 },
         { "name": "Harsha", "phone": 9176962001 }
       ],
       "description": {
-        "summary": "This event consists of <b>two rounds</b> having a <b>duration of one and half an hour each.</b> Participants in the first round are required to design a webpage  under  the  given topic of any domain.  Selected   participants  are   allowed   for  the second round where they will be designing a webpage for the topics related to biomedical engineering domain.The participants can make use of any platform for developing theirwebpages.  At the  end of each round the participants are requested to  share their designsthrough an  email id  (which we will provide you) to assess the results. ",
+        "summary": "This event consists of <b>two rounds</b> having a <b>duration of one and half an hour each.</b> Participants in the first round are required to design a webpage  under  the  given topic of any domain.  Selected   participants  are   allowed   for  the second round where they will be designing a webpage for the topics related to biomedical engineering domain.The participants can make use of any platform for developing theirwebpages.  At the  end of each round the participants are requested to  share their designs through an  email id  (which we will provide you) to assess the results. ",
         "rounds": 0,
         "round_description": []
       },
@@ -389,18 +400,18 @@
         { "name": "Dharshan", "phone": 9789015214 }
       ],
       "description": {
-        "summary": "Participants are required to design a particular problem statement which we will be providing within a span of time and they'll have to present it to the panel of judges. It'll totally be of 2 rounds. One in which they'll have to design a simple model.  This is  the  screening round, where participants will be selected based on the reality of the designs. The second round will be the one where participants will be asked to produce a novel design of need with respect to any industry and that has to prove beneficial for the consumers. They'd have to explain it tothe judges. It's an individual  event. Participants  should be clear, concise in explaining  theaspects   of   the   design.   They   are   even   allowed   to   prepare   presentations   and   can   showsimulations, animations  of the designed 3D Model. Winners will be declared based on theinnovation, uniqueness, aesthetic approach and novelty of the proposed idea.<br><b>Platform to be used – Fusion 360, Solidworks, Blender</b>",
+        "summary": "Participants are required to design a particular problem statement which we will be providing within a span of time and they'll have to present it to the panel of judges. It'll totally be of 2 rounds. One in which they'll have to design a simple model.  This is  the  screening round, where participants will be selected based on the reality of the designs. The second round will be the one where participants will be asked to produce a novel design of need with respect to any industry and that has to prove beneficial for the consumers. They'd have to explain it to the judges. It's an individual  event. Participants  should be clear, concise in explaining  the aspects   of   the   design.   They   are   even   allowed   to   prepare   presentations   and   can   show simulations, animations  of the designed 3D Model. Winners will be declared based on theinnovation, uniqueness, aesthetic approach and novelty of the proposed idea.<br><b>Platform to be used – Fusion 360, Solidworks, Blender</b>",
         "rounds": 2,
         "round_description": [
           {
             "name": "Round 1",
             "duration": null,
-            "description": "Participants are required to design a product (exact 3D model ) of their own and submit it in aportal which we provide them. It has to relevant to the industry needs. Participants will befiltered in this round.<br><b>Filtering criteria - Complexity, originality.</b>"
+            "description": "Participants are required to design a product (exact 3D model ) of their own and submit it in a portal which we provide them. It has to relevant to the industry needs. Participants will be filtered in this round.<br><b>Filtering criteria - Complexity, originality.</b>"
           },
           {
             "name": "Round 2",
             "duration": null,
-            "description": "Participants are required to design a model which we assign them. Let's say we have a list of12 models from which they have to choose and design accordingly. The designs should bereplicated properly and rendered image has to be submitted for the same. Then they have toexplain the innovation in the design to the judges. More the innovation, higher the marks.<br><b>Novelty, aesthetics, uniqueness, innovation</b>"
+            "description": "Participants are required to design a model which we assign them. Let's say we have a list of 12 models from which they have to choose and design accordingly. The designs should be replicated properly and rendered image has to be submitted for the same. Then they have to explain the innovation in the design to the judges. More the innovation, higher the marks.<br><b>Novelty, aesthetics, uniqueness, innovation</b>"
           }
         ]
       },
@@ -486,7 +497,7 @@
           {
             "name": "Round 1",
             "duration": null,
-            "description": "The   first   round   will   consist   of   a   situation   type   quiz,   where   the   participants   will   be   givenbusiness situations, and they will be marked on the type of answers that they are writing. Theparticipants   will   be   judged   based   on   critical   reasoning,   strategic   thinking,   and   businessacumen.   This   will   NOT   be   an   MCQ   quiz,   the   participants   will   write   and   submit   theirresponses. One member of the team  will submit the responses, but the team members  candiscuss amongst themselves. (Elimination round, depending on the number of participants"
+            "description": "The   first   round   will   consist   of   a   situation   type   quiz,   where   the   participants   will   be   given business situations, and they will be marked on the type of answers that they are writing. The participants   will   be   judged   based   on   critical   reasoning,   strategic   thinking,   and   business acumen.   This   will   NOT   be   an   MCQ   quiz,   the   participants   will   write   and   submit   their responses. One member of the team  will submit the responses, but the team members  can discuss amongst themselves. (Elimination round, depending on the number of participants"
           },
           {
             "name": "Round 2",
@@ -650,10 +661,10 @@
       "min_team_size": 1,
       "max_team_size": 3,
       "organisers": [
-        { "name": "Surabhi", "phone": 8248369664 },
-        { "name": "Shruthi", "phone": 9789015214 },
-        { "name": "Retika", "phone": 9789015214 },
-        { "name": "Shruthi", "phone": 9789015214 }
+        { "name": "Surabhi", "phone": 8939267346 },
+        { "name": "Shruthi", "phone": 9790466301 },
+        { "name": "Retika", "phone": 8939566476 },
+        { "name": "Retika", "phone": 8861119979 }
       ],
       "description": {
         "summary": "<b>DOMAINS COVERED:</b> Basics of EEE, Field theory, Digital logic circuits, Electronic devices, Microprocessors, Electrical Machines. ",
@@ -774,7 +785,7 @@
           {
             "name": "Round 1",
             "duration": null,
-            "description": "<b><u>Part 1: MCQ</u></b><br/><ul><li>Every member of all teams will receive a test link.</li><li>This will be an MCQ-based test which will have 30 questions in total, and you will be given 15 minutes to answer those.</li><li>The average score of each team will be considered.</li></ul><b><u>Part 2: Guess the Film from the dialogue</u></b><br/><ul><li>After completing this online test, your team will be directed to a break-out room, where you will be having your second part of your Preliminary round.</li><li>Here you will be having a set of audio clips containing movie dialogues, separated as:</li><ul><li><i>Easy – 2 Points Each</i></li><li><i>Medium – 4 Points Each</i></li><li><i>Hard - 6 Points Each</i></li></ul><li>You will be given 2/3 minutes in total and you must “find the film” in which the dialogue is placed. You can find any number of films/dialogues within the given time. You can even choose whether you are going to find Easy/Medium/Hard.</li><li>This score will be added with the average score obtained in the first part and the combined score will be used to filter the participants to the next round.</li></ul>"
+            "description": "<b><u>Part 1: MCQ</u></b><br/><ul><li>Every member of all teams will receive a test link.</li><li>This will be an MCQ-based test which will have 30 questions in total, and you will be given 15 minutes to answer those.</li><li>The average score of each team will be considered.</li></ul><b><u>Part 2: Guess the Film from the dialogue</u></b><br/><ul><li>After completing this online test, your team will be directed to a break-out room, where you will be having your second part of your Preliminary round.</li><li>Here you will be having a set of audio clips containing movie dialogues, separated as:</li><ul><li><i>Easy – 2 Points Each</i></li><li><i>Medium – 4 Points Each</i></li><li><i>Hard - 6 Points Each</i></li></ul><li>You will be given 2 or 3 minutes in total and you must “find the film” in which the dialogue is placed. You can find any number of films/dialogues within the given time. You can even choose whether you are going to find Easy/Medium/Hard.</li><li>This score will be added with the average score obtained in the first part and the combined score will be used to filter the participants to the next round.</li></ul>"
           },
           {
             "name": "Round 2",
@@ -831,18 +842,18 @@
         { "name": "Raajalakshumi", "phone": 9791349237 }
       ],
       "description": {
-        "summary": "This event comprises two rounds,which will be conductedin virtual mode. Event rules are explained toparticipants prior to the event in a zoom call.The first round is conducted on hackerrank/hackerearth platform which composes of 20 mcqs with duration compact of 30 mins.If the student crosses our cut off then he/shewill be qualified to the next round.In the secondround students will be given a cipher to break, andthey must automate the process through code in the given durationof 1-2 hrs.Program will be graded based on thenumber of test cases passed.Students with maximum scores were selected and awarded.",
+        "summary": "This event comprises two rounds, which will be conducted in virtual mode. Event rules are explained to participants prior to the event in a zoom call.The first round is conducted on hackerrank/hackerearth platform which composes of 20 mcqs with duration compact of 30 mins.If the student crosses our cut off then he/shewill be qualified to the next round.In the secondround students will be given a cipher to break, andthey must automate the process through code in the given durationof 1-2 hrs.Program will be graded based on thenumber of test cases passed.Students with maximum scores were selected and awarded.",
         "rounds": 2,
         "round_description": [
           {
             "name": "Round 1: Quiz Round",
             "duration": "30 mins",
-            "description": "A quiz with around 20 questions will be given to the participants. The questions will involve the participants solving cryptographic puzzles and pattern based problems.<i>Students with maximum scores will be shortlisted.</i>"
+            "description": "A quiz with around 20 questions will be given to the participants. The questions will involve the participants solving cryptographic puzzles and pattern based problems. <i> Students with maximum scores will be shortlisted.</i>"
           },
           {
             "name": "Round 2: Coding Round",
             "duration": "1-2 hours",
-            "description": "Students will be given a cipher to break, and theymust automate the process through code. Program canbewritten in C,Cpp, Python, Java (hackerrank) Programwill be graded based on the number of test casespassed.<i>Winners will be announced based on the scores of Round 2.</i>"
+            "description": "Students will be given a cipher to break, and they must automate the process through code. Program can be written in C, Cpp, Python, Java (hackerrank) and will be graded based on the number of test cases passed. <i> Winners will be announced based on the scores of Round 2.</i>"
           }
         ]
       },
@@ -1053,7 +1064,7 @@
           {
             "name": "Note",
             "duration": null,
-            "description": "<ul><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>Video must be on at all times</li>/ul>"
+            "description": "<ul><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>Video must be on at all times</li></ul>"
           }
         ]
       },
@@ -1125,7 +1136,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["2 Winners - Rs.2500 each", "2 Runner-Ups - Rs.2000 each"],
       "eventid": "70"
     },
     {
@@ -1154,7 +1165,7 @@
         ]
       },
       "open_to": ["Chemical"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "71"
     },
     {
@@ -1188,7 +1199,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "72"
     },
     {
@@ -1212,7 +1223,7 @@
         ]
       },
       "open_to": ["Chemical"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "73"
     },
     {
@@ -1242,7 +1253,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "74"
     },
     {
@@ -1272,7 +1283,7 @@
         ]
       },
       "open_to": ["Chemical"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "75"
     },
     {
@@ -1297,7 +1308,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.750"],
       "eventid": "76"
     },
     {
@@ -1321,7 +1332,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.750"],
       "eventid": "77"
     }
   ],
@@ -1841,8 +1852,8 @@
     {
       "name": "ACE it (VALORANT)",
       "category": "non-tech",
-      "min_team_size": 0,
-      "max_team_size": 0,
+      "min_team_size": 5,
+      "max_team_size": 5,
       "organisers": [
         { "name": "Krithikan", "phone": 9944666013 },
         { "name": "Srinirav", "phone": 9940615473 },
@@ -1977,11 +1988,11 @@
     {
       "name": "2 fast 2 curious",
       "category": "tech",
-      "min_team_size": 1,
-      "max_team_size": 1,
+      "min_team_size": 2,
+      "max_team_size": 2,
       "organisers": [],
       "description": {
-        "summary": "We know you would rock in your domain. We know you would also manage time. But <b>What if</b> we tell you that you will have to manage both! So here we are to challenge your technical skills but not compromising on the time!<br/><br/><b>Platform: Quizizz andZoom</b><br/><b>No of rounds: 2</b>",
+        "summary": "We know you would rock in your domain. We know you would also manage time. But <b>What if</b> we tell you that you will have to manage both! So here we are to challenge your technical skills but not compromising on the time!<br/><br/><b>Platform: Quizizz and Zoom</b><br/><b>No of rounds: 2</b>",
         "rounds": 2,
         "round_description": [
           {
@@ -2070,17 +2081,17 @@
           {
             "name": "Round 1",
             "duration": null,
-            "description": "In the first round, all the teams would be bidding for the cards with the allotted amount (the cash pool will be provided before the round)[NOT ACTUAL MONEY]. The cards would only have the car's name and photo with the overall rating. There will be a fixed no. of car types and each card will have 5 attributes based on the car's specification. Each team should have at least one car of each category (category of carswill be informed later).<br/>The cars WON'T HAVE THE SPECIFICATION VALUE.            "
+            "description": "In the first round, all the teams would be bidding for the cards with the allotted amount (the cash pool will be provided before the round)[NOT ACTUAL MONEY]. The cards would only have the car's name and photo with the overall rating. There will be a fixed no. of car types and each card will have 5 attributes based on the car's specification. Each team should have at least one car of each category (category of cars will be informed later).<br/>The cars WON'T HAVE THE SPECIFICATION VALUE.            "
           },
           {
             "name": "Round 2",
             "duration": null,
-            "description": "In the second round, the teams would be completing tasks to get the values ofeach specification of their cars."
+            "description": "In the second round, the teams would be completing tasks to get the values of each specification of their cars."
           },
           {
             "name": "Round 3",
             "duration": null,
-            "description": "In the third round, each team would be pitted against another team (based on random draw by the organizers; card clashes will be based on the specifications they received from the second round.<br/> All the rounds from now on will be on a knock-out basis.<br/><br/>Rules for the third round:<br/><ul><li>One versus one</li><li>only one person can interact from a team</li><li>order of drawing cards should be fixed by both teams</li><li>A decider question will choose on which team goes first.</li><li>The team that goes without any cards loses the round.</li><li>The winners of each clash will move to the next level. This goes on until the final winner is decided.</li>"
+            "description": "In the third round, each team would be pitted against another team (based on random draw by the organizers) card clashes will be based on the specifications they received from the second round.<br/> All the rounds from now on will be on a knock-out basis.<br/><br/>Rules for the third round:<br/><ul><li>One versus one</li><li>Only one person can interact from a team</li><li>Order of drawing cards should be fixed by both teams</li><li>A decider question will choose on which team goes first.</li><li>The team that goes without any cards loses the round.</li><li>The winners of each clash will move to the next level. This goes on until the final winner is decided.</li>"
           }
         ]
       },

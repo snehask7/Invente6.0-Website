@@ -70,7 +70,7 @@ export default function Home() {
                         8
                       </text>
                       <text
-                        className="cls-2"
+                        className="cls-1"
                         transform="translate(219.67 156.8) scale(0.58)"
                       >
                         th
@@ -638,12 +638,12 @@ export default function Home() {
             </Row>
           </Container>
 
-          <Container className={styles.spons_section}>
+          <Container id="sponsors" className={styles.spons_section}>
             <div className={styles.sub_title}>
               <h2>SPONSORS</h2>
               <h2>SPONSORS</h2>
             </div>
-            <Container id="sponsors" className={styles.sponsors}>
+            <Container className={styles.sponsors}>
               <Row>
                 <Col className={styles.facilio}>
                   <a
@@ -724,7 +724,7 @@ export default function Home() {
             </div>
             <Container className={styles.org_cards}>
               <Row>
-                <Col xs={12} sm={6} md={3} lg={3} className={styles.org_cols}>
+                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
                   <div className={styles.org_container}>
                     <div className={styles.org_card}>
                       <div className={styles.org_card_image_container}>
@@ -761,7 +761,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Col>
-                <Col xs={12} sm={6} md={3} lg={3} className={styles.org_cols}>
+                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
                   <div className={styles.org_container}>
                     <div className={styles.org_card}>
                       <div className={styles.org_card_image_container}>
@@ -798,7 +798,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Col>
-                <Col xs={12} sm={6} md={3} lg={3} className={styles.org_cols}>
+                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
                   <div className={styles.org_container}>
                     <div className={styles.org_card}>
                       <div className={styles.org_card_image_container}>
@@ -835,7 +835,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Col>
-                <Col xs={12} sm={6} md={3} lg={3} className={styles.org_cols}>
+                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
                   <div className={styles.org_container}>
                     <div className={styles.org_card}>
                       <div className={styles.org_card_image_container}>
@@ -872,9 +872,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Col>
-              </Row>
-              <Row>
-                <Col xs={12} sm={6} md={3} lg={3} className={styles.org_cols}>
+                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
                   <div className={styles.org_container}>
                     <div className={styles.org_card}>
                       <div className={styles.org_card_image_container}>
@@ -913,7 +911,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Col>
-                <Col xs={12} sm={6} md={3} lg={3} className={styles.org_cols}>
+                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
                   <div className={styles.org_container}>
                     <div className={styles.org_card}>
                       <div className={styles.org_card_image_container}>
@@ -950,7 +948,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Col>
-                <Col xs={12} sm={6} md={3} lg={3} className={styles.org_cols}>
+                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
                   <div className={styles.org_container}>
                     <div className={styles.org_card}>
                       <div className={styles.org_card_image_container}>
@@ -987,7 +985,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Col>
-                <Col xs={12} sm={6} md={3} lg={3} className={styles.org_cols}>
+                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
                   <div className={styles.org_container}>
                     <div className={styles.org_card}>
                       <div className={styles.org_card_image_container}>
