@@ -693,7 +693,7 @@ export default function Home() {
                           stroke="transparent"
                           fill="rgba(144, 53, 172)"
                         />
-                        <pat
+                        <path
                           className={styles.card_line}
                           d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
                           stroke="#03e9f4"
@@ -720,7 +720,6 @@ export default function Home() {
                           alt=""
                         ></img>
                       </div>
-
                       <svg
                         className={styles.org_card_svg}
                         viewBox="0 0 800 500"
@@ -730,7 +729,7 @@ export default function Home() {
                           stroke="transparent"
                           fill="rgba(144, 53, 172)"
                         />
-                        <pat
+                        <path
                           className={styles.card_line}
                           d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
                           stroke="#03e9f4"
@@ -767,7 +766,7 @@ export default function Home() {
                           stroke="transparent"
                           fill="rgba(144, 53, 172)"
                         />
-                        <pat
+                        <path
                           className={styles.card_line}
                           d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
                           stroke="#03e9f4"
@@ -804,7 +803,7 @@ export default function Home() {
                           stroke="transparent"
                           fill="rgba(144, 53, 172)"
                         />
-                        <pat
+                        <path
                           className={styles.card_line}
                           d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
                           stroke="#03e9f4"
@@ -841,7 +840,7 @@ export default function Home() {
                           stroke="transparent"
                           fill="rgba(144, 53, 172)"
                         />
-                        <pat
+                        <path
                           className={styles.card_line}
                           d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
                           stroke="#03e9f4"
@@ -880,7 +879,7 @@ export default function Home() {
                           stroke="transparent"
                           fill="rgba(144, 53, 172)"
                         />
-                        <pat
+                        <path
                           className={styles.card_line}
                           d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
                           stroke="#03e9f4"
@@ -917,7 +916,7 @@ export default function Home() {
                           stroke="transparent"
                           fill="rgba(144, 53, 172)"
                         />
-                        <pat
+                        <path
                           className={styles.card_line}
                           d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
                           stroke="#03e9f4"
@@ -954,7 +953,7 @@ export default function Home() {
                           stroke="transparent"
                           fill="rgba(144, 53, 172)"
                         />
-                        <pat
+                        <path
                           className={styles.card_line}
                           d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
                           stroke="#03e9f4"
