@@ -167,6 +167,15 @@ export default function Department({ data }) {
                       </Row>
                     );
                   })}
+                  {events[id].max_team_size != 1 ? (
+                    <Row>
+                      <div className={styles.roundCard}>
+                        This is a team event and each person in the team must
+                        register individually and must also obtain a pass in
+                        order to participate.
+                      </div>
+                    </Row>
+                  ) : null}
                   <div className={styles.row}>
                     <div className={styles.col}>
                       {events[id].organisers.map((organiser, id) => {
