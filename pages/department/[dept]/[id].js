@@ -148,27 +148,6 @@ export default function Department({ data }) {
               </Col>
               <Col lg={12} xl={12} md={12} sm={12}>
                 <div className={styles.eventDetails}>
-                  <div className={styles.buttonWrapper}>
-                    {profile && profile.events.includes(events[id].eventid) ? (
-                      <button className={styles.registeredButton} disabled>
-                        Registered
-                      </button>
-                    ) : (
-                      <button
-                        className={styles.registerButton}
-                        disabled={disableReg}
-                        onClick={() => {
-                          currentUser
-                            ? currentUser.emailVerified
-                              ? register(id)
-                              : router.push('/unverified')
-                            : router.push('/signin');
-                        }}
-                      >
-                        Register
-                      </button>
-                    )}
-                  </div>
                   <p className={styles.headerWrapper}>
                     <span className={styles.eventHeading}>
                       {events[id].name}

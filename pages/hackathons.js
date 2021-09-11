@@ -72,8 +72,34 @@ export default function Department({ data }) {
               !navbarToggle ? styles.mainContainer : styles.hideMainContainer
             }
           >
-            <h1 className={styles.pageHeading}>Hackathon</h1>
+            <h1 className={styles.pageHeading}>Hackathons</h1>
             <Row className={styles.wrapper}>
+              <Row style={{ width: '50%' }}>
+                <Col>
+                  <a href="/department/ECE/0">
+                    <div className={styles.eventCard}>
+                      <span></span>
+                      <div className={styles.content}>
+                        <div className={styles.content}>
+                          <p>Hackinfinity</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </Col>
+                <Col>
+                  <a href="/department/BME/4">
+                    <div className={styles.eventCard}>
+                      <span></span>
+                      <div className={styles.content}>
+                        <div className={styles.content}>
+                          <p>Biomedicathon</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </Col>
+              </Row>
               <Col lg={12} xl={12} md={12} sm={12}>
                 <div className={styles.eventDetails}>
                   <p className={styles.headerWrapper}>
