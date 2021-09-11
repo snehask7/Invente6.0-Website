@@ -28,25 +28,48 @@ export default function Department({ data }) {
   var events = data;
   const [profile, setProfile] = useState();
   const { navbarToggle, toggleNavbar } = useNav();
+  const [disableReg, setDisableReg] = useState(true);
 
   async function register(id) {
-    axios({
-      baseURL: window.location.origin,
-      method: 'POST',
-      url: '/api/register',
-      data: {
-        username: profile.username,
-        eventid: events[id].eventid,
-      },
-    })
-      .then(() => {
-        toast.success('Registered Successfully');
+    if (profile?.username) {
+      let toastId;
+      toastId = toast.loading('Registering..');
+      setDisableReg(true);
+      axios({
+        baseURL: window.location.origin,
+        method: 'POST',
+        url: '/api/register',
+        data: {
+          username: profile.username,
+          eventid: events[id].eventid,
+        },
       })
-      .catch((err) => {
-        toast.error('Unable register. Please try again later.');
-      });
+        .then((res) => {
+          toast.dismiss(toastId);
+          toast.success('Registered Successfully');
+          getProfile();
+          setDisableReg(false);
+        })
+        .catch((err) => {
+          toast.dismiss(toastId);
+          toast.error('Unable register. Please try again later.');
+          setDisableReg(false);
+        });
+    } else {
+      toast.error('Please refresh the page');
+    }
   }
-
+  async function getProfile() {
+    if (currentUser?.emailVerified) {
+      const userDetails = await axios.get('/api/username', {
+        params: { uid: currentUser.uid },
+      });
+      const profileDetails = await axios.get('/api/user', {
+        params: { username: userDetails.data.username },
+      });
+      setProfile(profileDetails.data);
+    }
+  }
   useEffect(() => {
     async function fetchProfile() {
       if (currentUser?.emailVerified) {
@@ -60,6 +83,7 @@ export default function Department({ data }) {
       }
     }
     fetchProfile();
+    setDisableReg(false);
   }, [currentUser]);
   return (
     <React.Fragment>
@@ -132,6 +156,7 @@ export default function Department({ data }) {
                     ) : (
                       <button
                         className={styles.registerButton}
+                        disabled={disableReg}
                         onClick={() => {
                           currentUser
                             ? currentUser.emailVerified
@@ -281,6 +306,7 @@ export default function Department({ data }) {
                     ) : (
                       <button
                         className={styles.registerButton}
+                        disabled={disableReg}
                         onClick={() => {
                           currentUser
                             ? currentUser.emailVerified
