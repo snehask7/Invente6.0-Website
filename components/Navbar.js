@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import { Col, Row } from 'react-bootstrap';
 import { FaAngleDown } from 'react-icons/fa';
 import { useAuth } from '../lib/hooks';
 import { useNav } from '../lib/navbarstate';
@@ -31,23 +32,29 @@ export default function NavbarComp() {
   return (
     <div className={styles.navbar} id="navbar">
       <div className={styles.inventeLogo}>
-        <Link href="https://www.ssn.edu.in/" passHref>
-          <Image
-            src="/icons/ssn.webp"
-            className={styles.ssnlogo}
-            width={80}
-            height={25}
-            alt="logo"
-          ></Image>
-        </Link>
-        <Link href="/" passHref>
-          <Image
-            src="/icons/logo.webp"
-            width={100}
-            height={25}
-            alt="logo"
-          ></Image>
-        </Link>
+        <Row>
+          <Col>
+            <Link href="https://www.ssn.edu.in/" passHref>
+              <Image
+                src="/icons/ssn.webp"
+                className={styles.ssnlogo}
+                width={80}
+                height={25}
+                alt="logo"
+              ></Image>
+            </Link>
+          </Col>
+          <Col className={styles.inventeHide}>
+            <Link href="/" passHref>
+              <Image
+                src="/icons/logo.webp"
+                width={100}
+                height={25}
+                alt="logo"
+              ></Image>
+            </Link>
+          </Col>
+        </Row>
       </div>
       <div
         className={styles.hamburger}
@@ -232,7 +239,7 @@ export default function NavbarComp() {
                   }}
                   className={styles.sideBarNavLink}
                 >
-                  LOG IN
+                  Log In
                 </a>
               </Link>
               <Link href="/signup">
