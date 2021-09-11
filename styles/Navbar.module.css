@@ -107,6 +107,9 @@
   padding-left: 10vh;
 }
 
+.centerTab {
+  padding-left: -5em !important;
+}
 @media screen and (max-width: 1100px) {
   .centerTab {
     display: none;
@@ -154,6 +157,9 @@
   }
   .inventeLogo {
     margin-right: -200px;
+  }
+  .centerTab {
+    padding-left: 10em;
   }
 }
 
