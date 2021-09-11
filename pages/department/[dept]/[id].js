@@ -31,29 +31,33 @@ export default function Department({ data }) {
   const [disableReg, setDisableReg] = useState(true);
 
   async function register(id) {
-    let toastId;
-    toastId = toast.loading('Registering..');
-    setDisableReg(true);
-    axios({
-      baseURL: window.location.origin,
-      method: 'POST',
-      url: '/api/register',
-      data: {
-        username: profile.username,
-        eventid: events[id].eventid,
-      },
-    })
-      .then((res) => {
-        toast.dismiss(toastId);
-        toast.success('Registered Successfully');
-        getProfile();
-        setDisableReg(false);
+    if (profile?.username) {
+      let toastId;
+      toastId = toast.loading('Registering..');
+      setDisableReg(true);
+      axios({
+        baseURL: window.location.origin,
+        method: 'POST',
+        url: '/api/register',
+        data: {
+          username: profile.username,
+          eventid: events[id].eventid,
+        },
       })
-      .catch((err) => {
-        toast.dismiss(toastId);
-        toast.error('Unable register. Please try again later.');
-        setDisableReg(false);
-      });
+        .then((res) => {
+          toast.dismiss(toastId);
+          toast.success('Registered Successfully');
+          getProfile();
+          setDisableReg(false);
+        })
+        .catch((err) => {
+          toast.dismiss(toastId);
+          toast.error('Unable register. Please try again later.');
+          setDisableReg(false);
+        });
+    } else {
+      toast.error('Please refresh the page');
+    }
   }
   async function getProfile() {
     if (currentUser?.emailVerified) {
