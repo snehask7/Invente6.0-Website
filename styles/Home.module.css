@@ -16,6 +16,8 @@
       #070e2100,
       rgba(144, 53, 172, 0.61)
     );
+    background-blend-mode: screen;
+    background-size: cover;
   align-items: center;
   z-index: -1;
   min-height: 100vh;
@@ -500,35 +502,20 @@
   margin: 2vw 1vw;
 }
 .days {
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  background-color: rgba(43, 42, 42, 0);
   border-radius: 12px;
   color: #b6b9be;
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  background-color: rgba(43, 42, 42, 0);
   border-radius: 12px;
   color: #b6b9be;
 }
 .hours {
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  background-color: rgba(43, 42, 42, 0);
   border-radius: 12px;
   color: #b6b9be;
 }
 .minutes {
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  background-color: rgba(43, 42, 42, 0);
   border-radius: 12px;
   color: #b6b9be;
 }
 .seconds {
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  background-color: rgba(43, 42, 42, 0);
   border-radius: 12px;
   color: #b6b9be;
 }
