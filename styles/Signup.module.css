@@ -79,7 +79,7 @@
 .continueButton {
   border: none;
   font-size: 1.7vh;
-  border-radius: 12px;
+  border-radius: 5px;
   color: rgb(102, 116, 148);
   border: solid 1px rgb(102, 116, 148);
   padding: 0.5em 1em;
@@ -132,6 +132,7 @@
   transition: 0.5s;
   margin-top: 40px;
   letter-spacing: 4px;
+  border: 1px solid #03e9f4;
 }
 
 .continueButton:hover {

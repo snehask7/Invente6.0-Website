@@ -72,8 +72,8 @@
   border: none;
   font-size: 16px;
   text-decoration: none;
-  text-transform: uppercase;
   overflow: hidden;
+  text-transform: uppercase;
   transition: 0.5s;
   letter-spacing: 4px;
 }
