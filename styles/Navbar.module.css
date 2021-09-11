@@ -26,7 +26,7 @@
   min-width: 100px;
 }
 
-.ssnlogo{
+.ssnlogo {
   cursor: pointer;
 }
 
@@ -108,7 +108,6 @@
   .centerTabMore {
     display: none;
   }
-  
 }
 
 /* @media screen and (max-width: 471px) {
@@ -185,7 +184,7 @@
 }
 
 .sideBarNavLink {
-  margin: 3vh 0;
+  margin: 2vh 0;
   font-size: 20px;
   z-index: 10;
 }
