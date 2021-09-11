@@ -674,7 +674,8 @@
       "organisers": [
         { "name": "Surabhi", "phone": 8939267346 },
         { "name": "Shruthi", "phone": 9790466301 },
-        { "name": "Retika", "phone": 8939566476 }
+        { "name": "Retika", "phone": 8939566476 },
+        { "name": "Swetha A", "phone": 8861119979 }
       ],
       "description": {
         "summary": "<b>DOMAINS COVERED:</b> Basics of EEE, Field theory, Digital logic circuits, Electronic devices, Microprocessors, Electrical Machines. ",
@@ -1577,9 +1578,20 @@
         { "name": "Gouthamnath", "phone": 9840053905 }
       ],
       "description": {
-        "summary": "When we were stuck at home with the seemingly endless lockdown, we didn’t know when we would hang out with our friends next. That is when we turned to online games to have fun and play with them. The main idea of this event is to take a breather from our hectic lives and enjoy those three hours<br>The preliminary round consists of players split randomly into teams and play a game chosen randomly from the wheel of fortune.  Players with the most points would move on to the next round. The final round is a trivia night where players test their knowledge,speed and accuracy. Time is definitely not your friend as the one who answers first will get maximum points.<br>If you are looking for an exhilarating, fun event before getting all technical, this event is for you.",
-        "rounds": 0,
-        "round_description": []
+        "summary": "When we were stuck at home with the seemingly endless lockdown, we didn’t know when we would hang out with our friends next. That is when we turned to online games to have fun and play with them. These games were not just a stress-buster but were sometimes the only thing we looked forward to during the day.<br/>If you are looking for an exhilarating, fun event before getting all technical, this event is for you.",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Wheel Of Fortune",
+            "duration": "90 mins",
+            "description": "Initially individual players will be randomly split into teams and each team will be assigned to a game chosen by the Wheel of Fortune. Neither you or we would know what game will be chosen to play beforehand. These are games which you might definitely know considering the fact that they are common Party Games. Volunteers will be present in each break out session and will guide you through the process. Winners in each event will be selected and they will proceed to the second and final round of the event. The fact that you will not be knowing which game you’ll be participating prior to the round adds to the mystery of the event."
+          },
+          {
+            "name": "Trivia Night",
+            "duration": "60 mins",
+            "description": "The final round is a trivia nite where players test their knowledge against time."
+          }
+        ]
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.2500", "Runner-Up - Rs.1500"],
@@ -1803,7 +1815,7 @@
     },
     {
       "name": "BOB THE PLUMBER",
-      "category": "non-tech",
+      "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
       "organisers": [
