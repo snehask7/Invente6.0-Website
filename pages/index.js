@@ -623,7 +623,7 @@ export default function Home() {
                     src="/sponsors/facilio.webp"
                     alt="facilio"
                     width="300"
-                    height="100"
+                    height="130"
                   />{' '}
                 </a>
               </Col>
@@ -637,8 +637,8 @@ export default function Home() {
                   <img
                     src="/sponsors/saama.svg"
                     alt="saama"
-                    width="200"
-                    height="100"
+                    width="300"
+                    height="150"
                   />{' '}
                 </a>
               </Col>
@@ -660,7 +660,11 @@ export default function Home() {
                 </a>
               </Col>
               <Col>
-                <a href="cosmichvac.com" target="_blank">
+                <a
+                  href="https://cosmichvac.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {/* eslint-disable-next-line */}
                   <img
                     src="/sponsors/cosmic.webp"
