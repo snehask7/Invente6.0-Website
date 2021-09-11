@@ -378,7 +378,7 @@
 }
 .org_card {
   position: relative;
-  background: rgba(144, 53, 172);
+  background: rgba(144, 53, 172, 0.6);
   width: 200px;
   height: 250px;
   border-radius: 6px;
@@ -483,7 +483,7 @@
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 2000px) {
   .org_card_svg {
     display: none;
   }
@@ -495,7 +495,7 @@
     margin-top: 0;
   }
   .org_card_image {
-    border-bottom: solid#03e9f4 1px;
+    border-bottom: solid#03e9f4 2px;
   }
 }
 
