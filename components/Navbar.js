@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import { Col, Row } from 'react-bootstrap';
+import { FaAngleDown } from 'react-icons/fa';
 import { useAuth } from '../lib/hooks';
 import { useNav } from '../lib/navbarstate';
 import styles from '../styles/Navbar.module.css';
@@ -31,28 +33,29 @@ export default function NavbarComp() {
   return (
     <div className={styles.navbar} id="navbar">
       <div className={styles.inventeLogo}>
-        <div className={styles.invente}>
-          <Link href="https://www.ssn.edu.in/" passHref>
-            <Image
-              src="/icons/ssn.webp"
-              className={styles.ssnlogo}
-              width={80}
-              height={25}
-              alt="logo"
-            ></Image>
-          </Link>
-        </div>
-        <div className={styles.ssn}>
-          <Link href="/" passHref>
-            <Image
-              src="/icons/logo.webp"
-              className={styles.ssnlogo}
-              width={100}
-              height={25}
-              alt="logo"
-            ></Image>
-          </Link>
-        </div>
+        <Row>
+          <Col>
+            <Link href="https://www.ssn.edu.in/" passHref>
+              <Image
+                src="/icons/ssn.webp"
+                className={styles.ssnlogo}
+                width={80}
+                height={25}
+                alt="logo"
+              ></Image>
+            </Link>
+          </Col>
+          <Col className={styles.inventeHide}>
+            <Link href="/" passHref>
+              <Image
+                src="/icons/logo.webp"
+                width={100}
+                height={25}
+                alt="logo"
+              ></Image>
+            </Link>
+          </Col>
+        </Row>
       </div>
       <div
         className={styles.hamburger}
@@ -92,7 +95,7 @@ export default function NavbarComp() {
       <div className={currentUser ? styles.centerTab : styles.centerTabMore}>
         <div className={styles.authBar}>
           <Link href="/#departments">
-            <a className={styles.centerNavLink}>Departments</a>
+            <a className={styles.centerNavLink}>Events</a>
           </Link>
           <Link href="/workshop">
             <a className={styles.centerNavLink}>Workshops</a>
@@ -156,7 +159,7 @@ export default function NavbarComp() {
               }}
               className={styles.sideBarNavLink}
             >
-              Departments
+              Events
             </a>
           </Link>
           <Link href="/workshop">
@@ -237,7 +240,7 @@ export default function NavbarComp() {
                   }}
                   className={styles.sideBarNavLink}
                 >
-                  Log In
+                  LOG IN
                 </a>
               </Link>
               <Link href="/signup">
@@ -285,7 +288,7 @@ export default function NavbarComp() {
         {!currentUser ? (
           <div className={styles.authBar}>
             <Link href="/signin" passHref>
-              <a className={styles.loginBtn}>Log In</a>
+              <a className={styles.loginBtn}>LOG IN</a>
             </Link>
             <Link href="/signup" passHref>
               <a className={styles.signupBtn}>Sign Up</a>
@@ -311,6 +314,7 @@ export default function NavbarComp() {
                 width={40}
                 height={40}
               />
+              <FaAngleDown style={{ color: 'white' }} />
             </button>
             <div
               className={

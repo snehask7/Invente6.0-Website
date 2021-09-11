@@ -24,7 +24,9 @@
   margin-left: 2em;
   min-width: 100px;
 }
-
+.inventeHide {
+  margin-left: -2rem;
+}
 .ssnlogo {
   cursor: pointer;
 }
@@ -37,14 +39,11 @@
   .ssn {
     display: none;
   }
-  
 
   .centerNavLink {
     margin: 0 1em;
   }
 }
-
-
 
 .loginBtn {
   margin: 0 2em;
@@ -163,6 +162,7 @@
   margin-left: 1em;
   cursor: pointer;
   z-index: 11;
+  margin-top: -0.4rem;
 }
 
 .sideBar {
@@ -197,15 +197,16 @@
   }
 }
 
-
 @media screen and (max-width: 570px) {
-.loginBtn {
-  margin: 0;
-  margin-left: 1em;
-}
+  .loginBtn {
+    margin: 0;
+    margin-left: 1em;
+  }
 
-.signupBtn {
-  margin-right: 0;
-
-}
+  .signupBtn {
+    margin-right: 0;
+  }
+  .inventeHide {
+    display: none;
+  }
 }
