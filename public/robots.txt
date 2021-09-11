@@ -1,0 +1,8 @@
+# Block crawlers
+User-agent: *
+Disallow: /verify
+Disallow: /profile
+
+# Allow all crawlers
+User-agent: *
+Allow: /
