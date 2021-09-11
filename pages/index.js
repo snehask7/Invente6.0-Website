@@ -623,8 +623,8 @@ export default function Home() {
                   <img
                     src="/sponsors/facilio.webp"
                     alt="facilio"
-                    width="300"
-                    height="130"
+                    width="350"
+                    height="150"
                   />{' '}
                 </a>
               </Col>
@@ -638,7 +638,7 @@ export default function Home() {
                   <img
                     src="/sponsors/saama.svg"
                     alt="saama"
-                    width="300"
+                    width="350"
                     height="150"
                   />{' '}
                 </a>
