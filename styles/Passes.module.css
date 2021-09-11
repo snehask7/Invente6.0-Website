@@ -391,32 +391,6 @@ section.price_section .free_tier + .plan_action a:after {
   border-radius: 0;
   overflow: hidden;
 }
-.wee_cta {
-  padding: 100px 0;
-}
-.wee_cta .flex_col_center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.wee_cta h2 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 100%;
-  /* or 72px */
-  text-align: center;
-  letter-spacing: -0.25px;
-  color: #f52053;
-  max-width: 1024px;
-  margin: 0 auto;
-  margin-bottom: 40px;
-}
-@media (min-width: 800px) {
-  .wee_cta h2 {
-    font-size: 72px;
-  }
-}
 @keyframes MoveUpDown {
   0%,
   100% {

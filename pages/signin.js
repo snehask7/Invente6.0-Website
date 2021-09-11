@@ -31,7 +31,6 @@ function Signin() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    //console.log(formEmail, formPassword);
     let toastId;
     try {
       setLoading(true);
@@ -39,7 +38,6 @@ function Signin() {
       await login(formEmail, formPassword);
       toast.dismiss(toastId);
       toast.success('Success!');
-      //console.log('SignIn success');
       router.push('/');
     } catch (err) {
       if (err.code === 'auth/user-not-found') {
@@ -56,7 +54,6 @@ function Signin() {
         toast.error('An unexpected error has occurred. ☠️');
       }
       toast.dismiss(toastId);
-      console.log('Failed to login', err);
     }
   };
 
