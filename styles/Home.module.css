@@ -365,10 +365,10 @@
   font-weight: 800;
   letter-spacing: 0.01em;
   position: absolute;
-  top: -1em;
+  top: -0.5rem;
 }
 .org_card_content {
-  margin-top: -2rem;
+  margin-top: -1rem;
   opacity: 0;
   animation: ContentFadeIn 0.8s 1.6s forwards;
 }
@@ -381,13 +381,13 @@
 .org_card_dept {
   font-weight: bold;
   position: absolute;
-  top: 0.5em;
+  top: 0.8rem;
 }
 
 .org_card_phone {
   font-size: 0.9em;
   position: absolute;
-  top: 2em;
+  top: 2.2rem;
 }
 
 .org_cols {

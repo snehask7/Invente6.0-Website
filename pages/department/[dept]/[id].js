@@ -28,8 +28,12 @@ export default function Department({ data }) {
   var events = data;
   const [profile, setProfile] = useState();
   const { navbarToggle, toggleNavbar } = useNav();
+  const [disableReg, setDisableReg] = useState(false);
 
   async function register(id) {
+    let toastId;
+    toastId = toast.loading('Registering..');
+    setDisableReg(true);
     axios({
       baseURL: window.location.origin,
       method: 'POST',
@@ -39,14 +43,29 @@ export default function Department({ data }) {
         eventid: events[id].eventid,
       },
     })
-      .then(() => {
+      .then((res) => {
+        toast.dismiss(toastId);
         toast.success('Registered Successfully');
+        setDisableReg(false);
+        getProfile();
       })
       .catch((err) => {
+        toast.dismiss(toastId);
         toast.error('Unable register. Please try again later.');
+        setDisableReg(false);
       });
   }
-
+  async function getProfile() {
+    if (currentUser?.emailVerified) {
+      const userDetails = await axios.get('/api/username', {
+        params: { uid: currentUser.uid },
+      });
+      const profileDetails = await axios.get('/api/user', {
+        params: { username: userDetails.data.username },
+      });
+      setProfile(profileDetails.data);
+    }
+  }
   useEffect(() => {
     async function fetchProfile() {
       if (currentUser?.emailVerified) {
@@ -132,6 +151,7 @@ export default function Department({ data }) {
                     ) : (
                       <button
                         className={styles.registerButton}
+                        disabled={disableReg}
                         onClick={() => {
                           currentUser
                             ? currentUser.emailVerified
@@ -281,6 +301,7 @@ export default function Department({ data }) {
                     ) : (
                       <button
                         className={styles.registerButton}
+                        disabled={disableReg}
                         onClick={() => {
                           currentUser
                             ? currentUser.emailVerified
