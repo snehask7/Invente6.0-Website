@@ -28,7 +28,7 @@ export default function Department({ data }) {
   var events = data;
   const [profile, setProfile] = useState();
   const { navbarToggle, toggleNavbar } = useNav();
-  const [disableReg, setDisableReg] = useState(false);
+  const [disableReg, setDisableReg] = useState(true);
 
   async function register(id) {
     let toastId;
@@ -46,8 +46,8 @@ export default function Department({ data }) {
       .then((res) => {
         toast.dismiss(toastId);
         toast.success('Registered Successfully');
-        setDisableReg(false);
         getProfile();
+        setDisableReg(false);
       })
       .catch((err) => {
         toast.dismiss(toastId);
@@ -79,6 +79,7 @@ export default function Department({ data }) {
       }
     }
     fetchProfile();
+    setDisableReg(false);
   }, [currentUser]);
   return (
     <React.Fragment>
