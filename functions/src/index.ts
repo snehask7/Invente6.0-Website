@@ -1,3 +1,5 @@
+/* eslint-disable require-jsdoc */
+/* eslint-disable no-async-promise-executor */
 import * as functions from 'firebase-functions';
 import * as admin from 'firebase-admin';
 import { OAuth2Client } from 'google-auth-library';
@@ -29,7 +31,7 @@ const SCOPES = [
 const functionsOauthClient = new OAuth2Client(
   CONFIG_CLIENT_ID,
   CONFIG_CLIENT_SECRET,
-  FUNCTIONS_REDIRECT
+  FUNCTIONS_REDIRECT,
 );
 
 // OAuth token cached locally.
@@ -43,7 +45,7 @@ exports.authgoogleapi = functions.https.onRequest((req, res) => {
       access_type: 'offline',
       scope: SCOPES,
       prompt: 'consent',
-    })
+    }),
   );
 });
 
@@ -56,7 +58,7 @@ exports.oauthcallback = functions.https.onRequest(async (req, res) => {
     res
       .status(200)
       .send(
-        'Successfully configured with new credentials. You can now close this page.'
+        'Successfully configured with new credentials. You can now close this page.',
       );
   } catch (error) {
     res.status(400).send(error);
@@ -177,7 +179,7 @@ exports.exportToSheets = functions.https.onRequest(async (req, res) => {
         'Event',
         event.name,
         event.department,
-        event.registeredUsers.length
+        event.registeredUsers.length,
       );
     } catch (err: any) {
       // Error handling is bad..
@@ -190,7 +192,7 @@ exports.exportToSheets = functions.https.onRequest(async (req, res) => {
   }
   functions.logger.info(
     'Export complete! Events exported (with > 0 registrations):',
-    count
+    count,
   );
 });
 
@@ -230,7 +232,7 @@ exports.addHeaders = functions.https.onRequest(async (req, res) => {
           'Sheets response',
           data.spreadsheetId,
           event.department,
-          event.name
+          event.name,
         );
       })
       .catch((err) => {
@@ -242,40 +244,37 @@ exports.addHeaders = functions.https.onRequest(async (req, res) => {
   }
 });
 
-// accepts an update request, returns a Promise to update it, enriching it with auth
 function writePromise(requestWithoutAuth: any) {
-  return new Promise((resolve, reject) => {
-    return getAuthorizedClient().then((client) => {
-      const sheets = google.sheets('v4');
-      const request = requestWithoutAuth;
-      request.auth = client;
-      return sheets.spreadsheets.values.update(
-        request,
-        (err: any, response: any) => {
-          if (err) {
-            functions.logger.log(`The API returned an error: ${err}`);
-            return reject(err);
-          }
-          return resolve(response.data);
-        }
-      );
-    });
-  });
-}
-
-function driveCreatePromise(requestWithoutAuth: any) {
-  return new Promise((resolve, reject) => {
-    return getAuthorizedClient().then((client) => {
-      const drive = google.drive('v3');
-      const request = requestWithoutAuth;
-      request.auth = client;
-      return drive.files.update(request, function (err: any, response: any) {
+  return new Promise(async (resolve, reject) => {
+    const client = await getAuthorizedClient();
+    const sheets = google.sheets('v4');
+    const request = requestWithoutAuth;
+    request.auth = client;
+    return sheets.spreadsheets.values.update(
+      request,
+      (err: any, response: any) => {
         if (err) {
           functions.logger.log(`The API returned an error: ${err}`);
           return reject(err);
         }
         return resolve(response.data);
-      });
+      },
+    );
+  });
+}
+
+function driveCreatePromise(requestWithoutAuth: any) {
+  return new Promise(async (resolve, reject) => {
+    const client = await getAuthorizedClient();
+    const drive = google.drive('v3');
+    const request = requestWithoutAuth;
+    request.auth = client;
+    return drive.files.update(request, function (err: any, response: any) {
+      if (err) {
+        functions.logger.log(`The API returned an error: ${err}`);
+        return reject(err);
+      }
+      return resolve(response.data);
     });
   });
 }
