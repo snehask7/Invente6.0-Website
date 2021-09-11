@@ -622,6 +622,8 @@ export default function Home() {
                   <img
                     src="/sponsors/facilio.webp"
                     alt="facilio"
+                    width="300"
+                    height="100"
                   />{' '}
                 </a>
               </Col>
@@ -637,6 +639,8 @@ export default function Home() {
                   <img
                     src="/sponsors/sf.webp"
                     alt="stayflexi"
+                    width="230"
+                    height="100"
                   />{' '}
                 </a>
               </Col>
@@ -646,6 +650,8 @@ export default function Home() {
                   <img
                     src="/sponsors/cosmic.webp"
                     alt="cosmic"
+                    width="200"
+                    height="150"
                   />{' '}
                 </a>
               </Col>
@@ -659,6 +665,8 @@ export default function Home() {
                   <img
                     src="/sponsors/typesense.svg"
                     alt="typesense"
+                    width="300"
+                    height="100"
                   />{' '}
                 </a>
               </Col>
@@ -681,6 +689,8 @@ export default function Home() {
                         className={styles.org_card_image}
                         src="/presidents/cse.webp"
                         alt=""
+                        width="230"
+                        height="200"
                       ></img>
                     </div>
 
@@ -715,6 +725,8 @@ export default function Home() {
                         className={styles.org_card_image}
                         src="/presidents/it.webp"
                         alt=""
+                        width="230"
+                        height="200"
                       ></img>
                     </div>
                     <svg className={styles.org_card_svg} viewBox="0 0 800 500">
@@ -748,6 +760,8 @@ export default function Home() {
                         className={styles.org_card_image}
                         src="/presidents/ece.webp"
                         alt=""
+                        width="230"
+                        height="200"
                       ></img>
                     </div>
 
@@ -782,6 +796,8 @@ export default function Home() {
                         className={styles.org_card_image}
                         src="/presidents/eee.webp"
                         alt=""
+                        width="230"
+                        height="200"
                       ></img>
                     </div>
 
@@ -816,6 +832,8 @@ export default function Home() {
                         className={styles.org_card_image}
                         src="/presidents/civil.webp"
                         alt=""
+                        width="230"
+                        height="200"
                       ></img>
                     </div>
 
@@ -850,6 +868,8 @@ export default function Home() {
                         className={styles.org_card_image}
                         src="/presidents/bme.webp"
                         alt=""
+                        width="230"
+                        height="200"
                       ></img>
                     </div>
 
@@ -884,6 +904,8 @@ export default function Home() {
                         className={styles.org_card_image}
                         src="/presidents/mech.webp"
                         alt=""
+                        width="230"
+                        height="200"
                       ></img>
                     </div>
 
@@ -918,6 +940,8 @@ export default function Home() {
                         className={styles.org_card_image}
                         src="/presidents/chem.webp"
                         alt=""
+                        width="230"
+                        height="200"
                       ></img>
                     </div>
 

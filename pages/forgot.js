@@ -29,7 +29,6 @@ function Forgot() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    console.log(formEmail);
     setLoading(true);
     try {
       await toast.promise(resetPassword(formEmail), {
@@ -41,7 +40,6 @@ function Forgot() {
       setSentMail(true);
       router.push('/');
     } catch (err) {
-      console.log(err);
       setLoading(false);
     }
   };

@@ -52,7 +52,6 @@ function SignUp() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    console.log(state);
     try {
       setLoading(true);
       const { user: currentUser } = await signup(
@@ -84,7 +83,6 @@ function SignUp() {
           },
         })
           .then(() => {
-            console.log('SignUp success');
             toast.success('Sign up successful!');
           })
           .catch(() => {
@@ -94,11 +92,8 @@ function SignUp() {
       } else {
         toast.error('Error signing up');
       }
-      //console.log('SignUp success');
       setLoading(false);
     } catch (err) {
-      console.log(err.toString());
-      //console.log('Failed to login', err);
       toast.error('An unexpected error has occurred. ☠️');
     } finally {
       setLoading(false);

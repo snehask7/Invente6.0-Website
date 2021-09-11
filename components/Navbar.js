@@ -14,7 +14,6 @@ export default function NavbarComp() {
   const onSignOut = async (event) => {
     try {
       await logout();
-      console.log('SignOut success');
       router.push('/');
     } catch (err) {
       console.log('Failed to logout', err);
@@ -25,11 +24,6 @@ export default function NavbarComp() {
     if (!isOpen) {
       document.getElementById('navbar').style.right = '0px';
     } else {
-      // if (window.innerWidth >= 1100) {
-      //   document.getElementById('navbar').style.right = '10px';
-      // } else {
-      //   document.getElementById('navbar').style.right = '5px';
-      // }
       document.getElementById('navbar').style.right = '10px';
     }
   };
