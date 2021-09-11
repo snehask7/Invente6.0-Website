@@ -61,8 +61,10 @@ function SignUp() {
       );
       if (currentUser) {
         const username =
-          state['full_name'].toLowerCase().replace(' ', '_') +
-          generate4DigitNumber();
+          state['full_name']
+            .substring(0, 15)
+            .toLowerCase()
+            .replace(/\s/g, '_') + generate4DigitNumber();
         const dicebearURL = `https://avatars.dicebear.com/api/bottts/${username}.svg`;
         await currentUser.sendEmailVerification();
         toast.success('Verification email sent');
