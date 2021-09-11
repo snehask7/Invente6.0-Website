@@ -10,7 +10,7 @@ import {
   FaRegBuilding,
   FaRegClock,
   FaTrophy,
-  FaUserAlt
+  FaUserAlt,
 } from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
 import Footer from '../../../components/Footer';
@@ -102,8 +102,8 @@ export default function Department({ data }) {
             <h1 className={styles.pageHeading}>
               Department of {department}
               {department == 'Chemical' ||
-                department == 'Mechanical' ||
-                department == 'Civil'
+              department == 'Mechanical' ||
+              department == 'Civil'
                 ? ' Engineering'
                 : ' '}
             </h1>
@@ -155,7 +155,7 @@ export default function Department({ data }) {
                     <span
                       className={
                         events[id].category == 'tech' ||
-                          events[id].category == 'hackathon'
+                        events[id].category == 'hackathon'
                           ? styles.techbadge
                           : styles.nontechbadge
                       }
@@ -163,8 +163,8 @@ export default function Department({ data }) {
                       {events[id].category == 'tech'
                         ? 'Tech'
                         : events[id].category == 'hackathon'
-                          ? 'Hackathon'
-                          : 'Non-Tech'}
+                        ? 'Hackathon'
+                        : 'Non-Tech'}
                     </span>
                   </p>
                   <br></br>
@@ -201,7 +201,7 @@ export default function Department({ data }) {
                     );
                   })}
                   {events[id].max_team_size != 1 &&
-                    events[id].eventid != '69' ? (
+                  events[id].eventid != '69' ? (
                     <Row>
                       <div className={styles.roundCard}>
                         This is a team event and each person in the team must
@@ -242,9 +242,9 @@ export default function Department({ data }) {
                       {events[id].min_team_size == events[id].max_team_size
                         ? events[id].min_team_size + ' '
                         : events[id].min_team_size +
-                        ' - ' +
-                        events[id].max_team_size +
-                        ' '}
+                          ' - ' +
+                          events[id].max_team_size +
+                          ' '}
                       per team
                     </div>
                     {/* <div className={styles.col}>

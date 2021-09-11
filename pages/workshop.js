@@ -53,7 +53,7 @@ export default function Department({ data }) {
     fetchProfile();
   }, [currentUser]);
   return (
-    <>
+    <body>
       <div className={styles.container}>
         <Head>
           <title>Workshops</title>
@@ -277,6 +277,6 @@ export default function Department({ data }) {
         </main>
         <Footer></Footer>
       </div>
-    </>
+    </body>
   );
 }

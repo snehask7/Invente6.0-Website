@@ -420,7 +420,6 @@ section.price_section .free_tier + .plan_action a:after {
   font-size: 20px;
   line-height: 100%;
   /* or 20px */
-  margin-left: -1px;
   width: 322px;
   text-align: center;
   letter-spacing: 2px;

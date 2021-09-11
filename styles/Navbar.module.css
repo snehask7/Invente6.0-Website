@@ -18,15 +18,14 @@
   position: fixed;
   top: 0;
   z-index: 15;
+  right: 10px;
 }
 
 .inventeLogo {
   margin-left: 2em;
   min-width: 100px;
 }
-.inventeHide {
-  margin-left: -2rem;
-}
+
 .ssnlogo {
   cursor: pointer;
 }
@@ -36,12 +35,21 @@
     position: absolute;
     left: 20px;
   }
-  .ssn {
-    display: none;
-  }
 
   .centerNavLink {
     margin: 0 1em;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .inventeHide {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 343px) {
+  .inventeLogo {
+    display: none;
   }
 }
 
@@ -96,7 +104,7 @@
 }
 
 .centerTabMore {
-  padding-left: 10em;
+  padding-left: 10vh;
 }
 
 @media screen and (max-width: 1100px) {
@@ -141,6 +149,9 @@
     margin: 0 1em;
     font-size: 0.9em;
   }
+  .centerTabMore {
+    margin-left: 8em;
+  }
   .inventeLogo {
     margin-right: -200px;
   }
@@ -162,7 +173,6 @@
   margin-left: 1em;
   cursor: pointer;
   z-index: 11;
-  margin-top: -0.4rem;
 }
 
 .sideBar {
@@ -194,19 +204,5 @@
 @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
   .navbar {
     background: rgba(1, 4, 40, 1);
-  }
-}
-
-@media screen and (max-width: 570px) {
-  .loginBtn {
-    margin: 0;
-    margin-left: 1em;
-  }
-
-  .signupBtn {
-    margin-right: 0;
-  }
-  .inventeHide {
-    display: none;
   }
 }

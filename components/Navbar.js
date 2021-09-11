@@ -100,7 +100,7 @@ export default function NavbarComp() {
             <a className={styles.centerNavLink}>Workshops</a>
           </Link>
           <Link href="/hackathons">
-            <a className={styles.centerNavLink}>Hackathon</a>
+            <a className={styles.centerNavLink}>Hackathons</a>
           </Link>
           <Link href="/#sponsors">
             <a className={styles.centerNavLink}>Sponsors</a>
@@ -180,7 +180,7 @@ export default function NavbarComp() {
               }}
               className={styles.sideBarNavLink}
             >
-              Hackathon
+              Hackathons
             </a>
           </Link>
           <Link href="/#sponsors">

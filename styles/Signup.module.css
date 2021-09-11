@@ -144,3 +144,7 @@
 .hide {
   display: none;
 }
+.option {
+  background-color: #292a2d;
+  color: white !important;
+}
