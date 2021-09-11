@@ -1,4 +1,5 @@
 import axios from 'axios';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
@@ -59,6 +60,10 @@ export default function Department({ data }) {
   }, [currentUser]);
   return (
     <>
+      <Head>
+        <title>Hackathons</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className={styles.container}>
         <NavbarComp />
         <main>

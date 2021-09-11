@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import React from 'react';
@@ -15,6 +16,10 @@ function Plans() {
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Passes</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <NavbarComp />
       <main>
         <div

@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -46,6 +47,10 @@ function Forgot() {
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Invente 6.0</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <NavbarComp />
       <main className={navbarToggle ? styles.hide : styles2.page_wrapper}>
         <div className={styles.signinCard}>

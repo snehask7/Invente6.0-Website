@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
@@ -59,6 +60,10 @@ function Signin() {
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Invente 6.0</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className={styles2.animation_wrapper}>
         <div
           className={styles2['particle'] + ' ' + styles2['particle_4']}

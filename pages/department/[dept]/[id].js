@@ -1,4 +1,5 @@
 import axios from 'axios';
+import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
@@ -62,6 +63,10 @@ export default function Department({ data }) {
   }, [currentUser]);
   return (
     <React.Fragment>
+      <Head>
+        <title>{department}</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className={styles.container}>
         <NavbarComp />
         <main>
@@ -71,8 +76,12 @@ export default function Department({ data }) {
             }
           >
             <h1 className={styles.pageHeading}>
-              Department of{' '}
-              {department == 'Chemical' ? 'Chemical Engineering' : department}
+              Department of {department}
+              {department == 'Chemical' ||
+              department == 'Mechanical' ||
+              department == 'Civil'
+                ? ' Engineering'
+                : ' '}
             </h1>
             <Row className={styles.wrapper}>
               <Col

@@ -1,4 +1,5 @@
 import axios from 'axios';
+import Head from 'next/head';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
@@ -200,6 +201,10 @@ function Profile() {
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Profile</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <NavbarComp />
       <div className={!navbarToggle ? styles.card : styles.hideCard}>
         {profile ? (
