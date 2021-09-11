@@ -343,11 +343,21 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: rgba(144, 53, 172);
+  background-color: #11192779;
+  background-image: radial-gradient(
+    at 50% 50%,
+    rgba(171, 44, 196, 0.5) 0,
+    transparent 90%
+  );
 }
 .org_card {
   position: relative;
-  background: rgba(144, 53, 172, 0.6);
+  background-color: #11192779;
+  background-image: radial-gradient(
+    at 50% 50%,
+    rgba(171, 44, 196, 0.5) 0,
+    transparent 90%
+  );
   width: 200px;
   height: 250px;
   border-radius: 6px;

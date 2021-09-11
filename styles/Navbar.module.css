@@ -34,17 +34,17 @@
     position: absolute;
     left: 20px;
   }
+  .ssn {
+    display: none;
+  }
+  
 
   .centerNavLink {
     margin: 0 1em;
   }
 }
 
-@media screen and (max-width: 570px) {
-  .inventeLogo {
-    display: none;
-  }
-}
+
 
 .loginBtn {
   margin: 0 2em;
@@ -195,4 +195,17 @@
   .navbar {
     background: rgba(1, 4, 40, 1);
   }
+}
+
+
+@media screen and (max-width: 570px) {
+.loginBtn {
+  margin: 0;
+  margin-left: 1em;
+}
+
+.signupBtn {
+  margin-right: 0;
+
+}
 }

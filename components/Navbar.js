@@ -31,24 +31,28 @@ export default function NavbarComp() {
   return (
     <div className={styles.navbar} id="navbar">
       <div className={styles.inventeLogo}>
-        <Link href="https://www.ssn.edu.in/" passHref>
-          <Image
-            src="/icons/ssn.webp"
-            className={styles.ssnlogo}
-            width={80}
-            height={25}
-            alt="logo"
-          ></Image>
-        </Link>
-        <Link href="/" passHref>
-          <Image
-            src="/icons/logo.webp"
-            className={styles.ssnlogo}
-            width={100}
-            height={25}
-            alt="logo"
-          ></Image>
-        </Link>
+        <div className={styles.invente}>
+          <Link href="https://www.ssn.edu.in/" passHref>
+            <Image
+              src="/icons/ssn.webp"
+              className={styles.ssnlogo}
+              width={80}
+              height={25}
+              alt="logo"
+            ></Image>
+          </Link>
+        </div>
+        <div className={styles.ssn}>
+          <Link href="/" passHref>
+            <Image
+              src="/icons/logo.webp"
+              className={styles.ssnlogo}
+              width={100}
+              height={25}
+              alt="logo"
+            ></Image>
+          </Link>
+        </div>
       </div>
       <div
         className={styles.hamburger}
