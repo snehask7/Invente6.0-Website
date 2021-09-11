@@ -33,7 +33,6 @@ export default function Department({ data }) {
         toast.success('Registered Successfully');
       })
       .catch((err) => {
-        console.log(err);
         toast.error('Unable register. Please try again later.');
       });
   }

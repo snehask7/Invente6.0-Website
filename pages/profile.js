@@ -37,7 +37,6 @@ function Profile() {
         });
         if (profileDetails?.data) {
           setProfile(profileDetails.data);
-          console.log(profileDetails);
         } else {
           toast.error('Could not fetch profile');
           router.push('/');

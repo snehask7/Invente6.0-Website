@@ -39,7 +39,6 @@ export default function Department({ data }) {
         toast.success('Registered Successfully');
       })
       .catch((err) => {
-        console.log(err);
         toast.error('Unable register. Please try again later.');
       });
   }
@@ -54,7 +53,6 @@ export default function Department({ data }) {
           params: { username: userDetails.data.username },
         });
         setProfile(profileDetails.data);
-        console.log(profileDetails.data);
       }
     }
     fetchProfile();
