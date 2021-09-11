@@ -616,13 +616,28 @@ export default function Home() {
           </div>
           <Container className={styles.sponsors}>
             <Row>
-              <Col className={styles.facilio}>
+              <Col className={styles.facilio} style={{ textAlign: 'right' }}>
                 <a href="https://facilio.com/" target="_blank" rel="noreferrer">
                   {/* eslint-disable-next-line */}
                   <img
                     src="/sponsors/facilio.webp"
                     alt="facilio"
                     width="300"
+                    height="100"
+                  />{' '}
+                </a>
+              </Col>
+              <Col className={styles.facilio} style={{ textAlign: 'left' }}>
+                <a
+                  href="https://www.saama.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/saama.svg"
+                    alt="saama"
+                    width="200"
                     height="100"
                   />{' '}
                 </a>

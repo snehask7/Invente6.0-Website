@@ -320,6 +320,13 @@
 .sponsors .facilio {
   margin-top: 2rem;
   width: 20rem !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+@media screen and (max-width: 767px) {
+  .facilio {
+    text-align: center !important;
+  }
 }
 /*Organiser section*/
 .org_section {
