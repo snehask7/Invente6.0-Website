@@ -103,7 +103,7 @@ function Plans() {
                         <div className={styles.price}>300</div>
                       </div>
                       <div className={styles.plan_description}>
-                        <span>All Tech + All Non-Tech + AI/ML Workshop)</span>
+                        <span>All Tech + All Non-Tech + AI/ML Workshop</span>
                       </div>
                     </div>
                   </Col>
