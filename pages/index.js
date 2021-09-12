@@ -31,6 +31,7 @@ export default function Home() {
           name="description"
           content="The sixth edition of SSN College of Engineering's annual, intercollegiate techfest is back with a bang! October 8, 9: Save the dates to reinvent yourself in this Realm of Virtuality."
         />
+        <meta name="robots" />
         <link rel="icon" href="/favicon.ico" />
         {/* eslint-disable-next-line @next/next/no-sync-scripts */}
         <script type="text/javascript" src="..."></script>
@@ -340,10 +341,8 @@ export default function Home() {
               <p className={styles.about_content}>
                 While the present can be considered as unprecedented at its
                 best, SSN offers a platform to showcase your talents as a
-                surety.
-                <br />
-                Presenting to you the 6th edition of the annual techfest -
-                Invente.
+                surety.Presenting to you the 6th edition of the annual techfest
+                - Invente.
                 <br />
                 <br />
                 Invente - a nexus of Innovation, Creativity and Entertainment,
@@ -354,8 +353,8 @@ export default function Home() {
                 various domains and caters to their adrenaline surges.
                 <br />
                 <br />
-                October 8 & 9; Save the dates, reinvent yourself in this Realm
-                of Virtuality.
+                October 8 & 9 - Save the dates, reinvent yourself in this Realm
+                of Virtuality!
               </p>
             </Col>
             <Col sm={12} md={12} lg={2}>
@@ -375,8 +374,8 @@ export default function Home() {
           id="departments"
         >
           <div className={styles.sub_title}>
-            <h2>DEPARTMENTS</h2>
-            <h2>DEPARTMENTS</h2>
+            <h2>EVENTS</h2>
+            <h2>EVENTS</h2>
           </div>
           <Container className={styles.dept_cards}>
             <Row>

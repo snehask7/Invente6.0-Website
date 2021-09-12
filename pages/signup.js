@@ -199,11 +199,21 @@ function SignUp() {
                       required
                       onChange={(e) => onChange('year', e)}
                     >
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5">5</option>
+                      <option className={styles.option} value="1">
+                        1
+                      </option>
+                      <option className={styles.option} value="2">
+                        2
+                      </option>
+                      <option className={styles.option} value="3">
+                        3
+                      </option>
+                      <option className={styles.option} value="4">
+                        4
+                      </option>
+                      <option className={styles.option} value="5">
+                        5
+                      </option>
                     </select>
                   </Col>
                   <Col xs={12} md={6}>
@@ -220,14 +230,30 @@ function SignUp() {
                       className={styles.inputField}
                       required
                     >
-                      <option value="CSE">CSE</option>
-                      <option value="IT">IT</option>
-                      <option value="ECE">ECE</option>
-                      <option value="EEE">EEE</option>
-                      <option value="Mechanical">Mechanical</option>
-                      <option value="BME">BME</option>
-                      <option value="Civil">Civil</option>
-                      <option value="Chemical">Chemical</option>
+                      <option className={styles.option} value="CSE">
+                        CSE
+                      </option>
+                      <option className={styles.option} value="IT">
+                        IT
+                      </option>
+                      <option className={styles.option} value="ECE">
+                        ECE
+                      </option>
+                      <option className={styles.option} value="EEE">
+                        EEE
+                      </option>
+                      <option className={styles.option} value="Mechanical">
+                        Mechanical
+                      </option>
+                      <option className={styles.option} value="BME">
+                        BME
+                      </option>
+                      <option className={styles.option} value="Civil">
+                        Civil
+                      </option>
+                      <option className={styles.option} value="Chemical">
+                        Chemical
+                      </option>
                     </datalist>
                   </Col>
                 </Row>
