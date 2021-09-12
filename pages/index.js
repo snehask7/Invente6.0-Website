@@ -337,7 +337,7 @@ export default function Home() {
               <p className={styles.about_content}>
                 While the present can be considered as unprecedented at its
                 best, SSN offers a platform to showcase your talents as a
-                surety.Presenting to you the 6th edition of the annual techfest
+                surety. Presenting to you the 6th edition of the annual techfest
                 - Invente.
                 <br />
                 <br />
