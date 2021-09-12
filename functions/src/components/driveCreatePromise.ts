@@ -11,7 +11,7 @@ export function driveCreatePromise(requestWithoutAuth: any) {
     const drive = google.drive('v3');
     const request = requestWithoutAuth;
     request.auth = client;
-    return drive.files.update(request, function (err: any, response: any) {
+    return drive.files.create(request, function (err: any, response: any) {
       if (err) {
         functions.logger.log(`The API returned an error: ${err}`);
         return reject(err);
