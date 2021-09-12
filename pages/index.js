@@ -761,7 +761,7 @@ export default function Home() {
                       />
                     </svg>
                     <div className={styles.org_card_content}>
-                      <h6 className={styles.org_card_title}>Alfrin A J</h6>
+                      <h6 className={styles.org_card_title}>Alfrin A.J.</h6>
                       <p className={styles.org_card_dept}>IT</p>
                       <p className={styles.org_card_phone}>+91 9791394453</p>
                     </div>
@@ -905,7 +905,7 @@ export default function Home() {
                       />
                     </svg>
                     <div className={styles.org_card_content}>
-                      <h6 className={styles.org_card_title}>Lokesh K.M</h6>
+                      <h6 className={styles.org_card_title}>Lokesh K.M.</h6>
                       <p className={styles.org_card_dept}>BME</p>
                       <p className={styles.org_card_phone}>+91 8072233516</p>
                     </div>
