@@ -342,7 +342,7 @@ export default function Home() {
                 <br />
                 <br />
                 Invente - a nexus of Innovation, Creativity and Entertainment,
-                is a 2-day Intercollegiate technical fest which aims to
+                is a 2-day Intercollegiate ONLINE technical fest which aims to
                 encourage students to think beyond academics and helps them
                 discover their hidden passions and talents. This technical
                 extravaganza gives space for students to flaunt their skills in
