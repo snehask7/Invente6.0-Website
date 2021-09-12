@@ -24,6 +24,7 @@
 .inventeLogo {
   margin-left: 2em;
   min-width: 100px;
+  cursor: pointer;
 }
 
 .ssnlogo {
