@@ -857,7 +857,15 @@ export default function Home() {
                       />
                     </svg>
                     <div className={styles.org_card_content}>
-                      <h6 className={styles.org_card_title}>Somnath T.V.</h6>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/somnath-thilak-3b5a531b5/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Somnath T.V.
+                        </a>
+                      </h6>
                       <p className={styles.org_card_dept}>EEE</p>
                       <p className={styles.org_card_phone}>+91 7550191192</p>
                     </div>
