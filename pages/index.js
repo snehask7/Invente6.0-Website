@@ -342,9 +342,9 @@ export default function Home() {
                 <br />
                 <br />
                 Invente - a nexus of Innovation, Creativity and Entertainment,
-                is a 2-day Intercollegiate technical fest which is aims to
-                encourage students to think beyond academics and helps them to
-                discover their hidden passions and talents.This technical
+                is a 2-day Intercollegiate technical fest which aims to
+                encourage students to think beyond academics and helps them
+                discover their hidden passions and talents. This technical
                 extravaganza gives space for students to flaunt their skills in
                 various domains and caters to their adrenaline surges.
                 <br />
@@ -659,7 +659,7 @@ export default function Home() {
               </Col>
               <Col>
                 <a
-                  href="https://cosmichvac.com"
+                  href="http://cosmicin.com/ "
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -169,7 +169,10 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
-      "organisers": [{ "name": "Sandhya B", "phone": 9790956452 }],
+      "organisers": [
+        { "name": "Indu S ", "phone": 9488758999 },
+        { "name": "Aadhithya K.B ", "phone": 7338773979 }
+      ],
       "description": {
         "summary": "Apply the basic principles of electronics, debug the given circuits and arrive at a solution",
         "rounds": 2,
@@ -1547,7 +1550,7 @@
         { "name": "Vaishnavi", "phone": 7530035323 }
       ],
       "description": {
-        "summary": "Do you like thinking in reverse? If so this is the right place for you. You can crack it even if you area beginner! Do register and showcase your skills.",
+        "summary": "Do you like thinking in reverse? If so this is the right place for you. You can crack it even if you are a beginner! Do register and showcase your skills.",
         "rounds": 2,
         "round_description": [
           {
