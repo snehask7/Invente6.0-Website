@@ -24,69 +24,63 @@ const Footer = ({ sticky }) => {
       >
         <Row>
           <Col xs={6} sm={6} md={4} lg={2}>
-            Sneha{' '}
             <a
               target="_blank"
               href="https://www.linkedin.com/in/sneha-sriram-/"
               className={styles.devLink}
               rel="noreferrer"
             >
-              Sriram
+              Sneha Sriram
             </a>
           </Col>
           <Col xs={6} sm={6} md={4} lg={2}>
-            Sruthi{' '}
             <a
               target="_blank"
               href="https://www.linkedin.com/in/sruthibijoyr/"
               className={styles.devLink}
               rel="noreferrer"
             >
-              Bijoy
+              Sruthi Bijoy
             </a>
           </Col>
           <Col xs={6} sm={6} md={4} lg={2}>
-            Siddharth{' '}
             <a
               target="_blank"
               href="https://www.linkedin.com/in/siddharth-sriraman/"
               className={styles.devLink}
               rel="noreferrer"
             >
-              Sriraman
+              Siddharth Sriraman
             </a>
           </Col>
           <Col xs={6} sm={6} md={4} lg={2}>
-            Vanathi{' '}
             <a
               target="_blank"
               href="https://www.linkedin.com/in/vanathi-g/"
               className={styles.devLink}
               rel="noreferrer"
             >
-              Ganeshraj
+              Vanathi Ganeshraj
             </a>
           </Col>
           <Col xs={6} sm={6} md={4} lg={2}>
-            Harisaran{' '}
             <a
               target="_blank"
               href="https://www.linkedin.com/in/harisaran-g/"
               className={styles.devLink}
               rel="noreferrer"
             >
-              G
+              Harisaran G
             </a>
           </Col>
           <Col xs={6} sm={6} md={4} lg={2}>
-            Sabesh{' '}
             <a
               target="_blank"
               href="https://www.linkedin.com/in/sabeshbharathi/"
               className={styles.devLink}
               rel="noreferrer"
             >
-              Bharathi
+              Sabesh Bharathi
             </a>
           </Col>
         </Row>

@@ -259,6 +259,10 @@ export default function Department({ data }) {
                       {events[id].open_to == 'All'
                         ? 'any Department'
                         : events[id].open_to.join()}
+                      <br />{' '}
+                      {events[id].category == 'tech'
+                        ? 'Not open to SSNites'
+                        : ''}
                     </div>
                     <div className={styles.col}>
                       {' '}
@@ -283,19 +287,21 @@ export default function Department({ data }) {
                         Registered
                       </button>
                     ) : (
-                      <button
-                        className={styles.registerButton}
-                        disabled={disableReg}
-                        onClick={() => {
-                          currentUser
-                            ? currentUser.emailVerified
-                              ? register(id)
-                              : router.push('/unverified')
-                            : router.push('/signin');
-                        }}
-                      >
-                        Register
-                      </button>
+                      <>
+                        <button
+                          className={styles.registerButton}
+                          disabled={disableReg}
+                          onClick={() => {
+                            currentUser
+                              ? currentUser.emailVerified
+                                ? register(id)
+                                : router.push('/unverified')
+                              : router.push('/signin');
+                          }}
+                        >
+                          Register
+                        </button>
+                      </>
                     )}
                   </div>
                 </div>

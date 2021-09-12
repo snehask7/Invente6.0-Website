@@ -853,7 +853,7 @@
         { "name": "Raajalakshumi", "phone": 9791349237 }
       ],
       "description": {
-        "summary": "This event comprises two rounds, which will be conducted in virtual mode. Event rules are explained to participants prior to the event in a zoom call.The first round is conducted on hackerrank/hackerearth platform which composes of 20 mcqs with duration compact of 30 mins.If the student crosses our cut off then he/shewill be qualified to the next round.In the secondround students will be given a cipher to break, andthey must automate the process through code in the given durationof 1-2 hrs.Program will be graded based on thenumber of test cases passed.Students with maximum scores were selected and awarded.",
+        "summary": "This event comprises two rounds, which will be conducted in virtual mode. Event rules are explained to participants prior to the event in a zoom call.The first round is conducted on hackerrank/hackerearth platform which composes of 20 mcqs with duration compact of 30 mins. If the student crosses our cut off then he/shewill be qualified to the next round.In the second round students will be given a cipher to break, and they must automate the process through code in the given duration of 1-2 hrs. Program will be graded based on the number of test cases passed. Students with maximum scores were selected and awarded.",
         "rounds": 2,
         "round_description": [
           {
@@ -883,7 +883,7 @@
         { "name": "Sanjay", "phone": 8608792215 }
       ],
       "description": {
-        "summary": "This event is a web development event and basically comprises two important rounds,which will be conducted in virtual mode where thestudents have to login at the given time.",
+        "summary": "This event is a web development event and basically comprises two important rounds, which will be conducted in virtual mode where thestudents have to login at the given time.",
         "rounds": 3,
         "round_description": [
           {
@@ -1065,7 +1065,7 @@
           {
             "name": "Round 2: Connection",
             "duration": "30 mins",
-            "description": "Connection Here, the answer should be found by usingthe pictures given in the slide which representsthe partof the answer i.e a word or a letter. Finally, theanswer can be found by connecting all the pictures."
+            "description": "Connection Here, the answer should be found by using the pictures given in the slide which represents the partof the answer i.e a word or a letter. Finally, the answer can be found by connecting all the pictures."
           },
           {
             "name": "Round 3: Player's stats based",
