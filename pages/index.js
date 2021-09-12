@@ -726,7 +726,15 @@ export default function Home() {
                       />
                     </svg>
                     <div className={styles.org_card_content}>
-                      <h6 className={styles.org_card_title}>Vignesh B.</h6>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/vigneshb2704/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Vignesh B.
+                        </a>
+                      </h6>
                       <p className={styles.org_card_dept}>CSE</p>
                       <p className={styles.org_card_phone}>+91 9841114252</p>
                     </div>
@@ -761,7 +769,15 @@ export default function Home() {
                       />
                     </svg>
                     <div className={styles.org_card_content}>
-                      <h6 className={styles.org_card_title}>Alfrin A.J.</h6>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/alfrin-aj/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Alfrin A.J.
+                        </a>
+                      </h6>
                       <p className={styles.org_card_dept}>IT</p>
                       <p className={styles.org_card_phone}>+91 9791394453</p>
                     </div>
@@ -797,7 +813,15 @@ export default function Home() {
                       />
                     </svg>
                     <div className={styles.org_card_content}>
-                      <h6 className={styles.org_card_title}>Nikhil V.</h6>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/nikhil-viswanath/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Nikhil V.
+                        </a>
+                      </h6>
                       <p className={styles.org_card_dept}>ECE</p>
                       <p className={styles.org_card_phone}>+91 9176875101</p>
                     </div>
@@ -869,7 +893,15 @@ export default function Home() {
                       />
                     </svg>
                     <div className={styles.org_card_content}>
-                      <h6 className={styles.org_card_title}>Sidharath K.S.</h6>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/sidharath-shah-696278188/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Sidharath K.S.
+                        </a>
+                      </h6>
                       <p className={styles.org_card_dept}>Civil</p>
                       <p className={styles.org_card_phone}>+91 9445892891</p>
                     </div>
@@ -905,7 +937,15 @@ export default function Home() {
                       />
                     </svg>
                     <div className={styles.org_card_content}>
-                      <h6 className={styles.org_card_title}>Lokesh K.M.</h6>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/lokesh-kumar-457511112/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Lokesh K.M.
+                        </a>
+                      </h6>
                       <p className={styles.org_card_dept}>BME</p>
                       <p className={styles.org_card_phone}>+91 8072233516</p>
                     </div>
@@ -941,7 +981,15 @@ export default function Home() {
                       />
                     </svg>
                     <div className={styles.org_card_content}>
-                      <h6 className={styles.org_card_title}>Cynthia J.</h6>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/cynthia-joy-070684196/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Cynthia J.
+                        </a>
+                      </h6>
                       <p className={styles.org_card_dept}>Mechanical</p>
                       <p className={styles.org_card_phone}>+91 9480038164</p>
                     </div>
@@ -977,7 +1025,15 @@ export default function Home() {
                       />
                     </svg>
                     <div className={styles.org_card_content}>
-                      <h6 className={styles.org_card_title}>Achsha I.</h6>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/achsha-israel-482857154/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Achsha I.
+                        </a>
+                      </h6>
                       <p className={styles.org_card_dept}>Chemical</p>
                       <p className={styles.org_card_phone}>+91 9445610075</p>
                     </div>
