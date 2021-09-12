@@ -15,11 +15,11 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: ['tsconfig.json', 'tsconfig.dev.json'],
-    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.dev.json'],
   },
   ignorePatterns: [
     '/lib/**/*', // Ignore built files.
+    '.eslintrc.js',
   ],
   plugins: ['@typescript-eslint', 'import'],
   rules: {
