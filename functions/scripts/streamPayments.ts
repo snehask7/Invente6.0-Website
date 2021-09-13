@@ -1,12 +1,13 @@
 import { initializeApp } from 'firebase/app';
 import {
   getFirestore,
-  writeBatch,
+  collection,
   connectFirestoreEmulator,
+  getDocs,
+  updateDoc,
   doc,
   serverTimestamp,
 } from 'firebase/firestore';
-import * as faker from 'faker';
 
 const firebase = initializeApp({
   projectId: 'invente-development',
@@ -17,27 +18,25 @@ const firebase = initializeApp({
 const firestore = getFirestore(firebase);
 connectFirestoreEmulator(firestore, 'localhost', 8080);
 
-const batch = writeBatch(firestore);
-for (let i = 0; i < 100; i++) {
-  const user = faker.name.findName();
-  batch.set(doc(firestore, 'users', user), {
-    fullName: user,
-    email: faker.internet.email(),
-    createdAt: serverTimestamp(),
+async function main(): Promise<any> {
+  const payments = collection(firestore, 'payments');
+  const names = [];
+  (await getDocs(payments)).forEach(async (payment) => {
+    names.push(payment.id);
   });
-  batch.set(doc(firestore, 'payments', user), {
-    bmeHack: false,
-    cseHack: false,
-    nonTech: false,
-    tech: false,
-    wsCentral: false,
-    wsCivil: false,
-    updatedAt: serverTimestamp(),
-  });
+  await Promise.all(
+    names.map(async (name) => {
+      if (Math.floor(Math.random() * 2) === 1) {
+        await updateDoc(doc(firestore, `payments/${name}`), {
+          bmeHack: true,
+          updatedAt: serverTimestamp(),
+        });
+      }
+    }),
+  );
 }
 
-batch
-  .commit()
+main()
   .then(() => {
     console.log('done');
   })
