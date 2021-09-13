@@ -10,13 +10,13 @@
         { "name": "Nimisha", "phone": 9840780834 }
       ],
       "description": {
-        "summary": "<i>“Because the people who are crazy enough to think they can change the world are the ones who do”<br/>~Steve Jobs</i><br/><br/>Have you ever been awestruck by the reach of technology? Does its revolutionary touch on this world dazzle you? Have you ever dreamed of being a tech-savvy pioneer? This is your time! Grab the baton! If you want to make the world a better place, the answer lies in creativity and innovation. Now’s your time to take these problems head on and arrive at remarkable solutions!<br/><br/>Join us in this 24 - hour hackathon and prototype a groundbreaking solution to problems in these topics. Creativity is the greatest rebellion in existence. Can you rebel and innovate a solution to the problems in these areas? Brave against the time crunch and grab this opportunity to win exciting prizes!!!<br/><br/> <b>Topics for Problem Statement</b><ul><li>Cyber Security</li><li>Medical and Healthcare</li><li>Women's Safety</li><li>Climate Change and Sustainability</li><li>Fintech</li><li>Technology for agriculture</li><li>Student Innovation (Open Idea)</li></ul><br/>The hackathon will follow a leader board system. The points awarded will be the cumulative points, gained by the team over the three reviews and final presentation. The top team will be announced as the winner of the hackathon.<br/><b>Decision taken by the review panel will be final.</b>",
+        "summary": "<i>“Because the people who are crazy enough to think they can change the world are the ones who do”<br/>~Steve Jobs</i><br/><br/>Have you ever been awestruck by the reach of technology? Does its revolutionary touch on this world dazzle you? Have you ever dreamed of being a tech-savvy pioneer? This is your time! Grab the baton! If you want to make the world a better place, the answer lies in creativity and innovation. Now’s your time to take these problems head on and arrive at remarkable solutions!<br/><br/>Join us in this 24 - hour hackathon and prototype a groundbreaking solution to problems in these topics. Creativity is the greatest rebellion in existence. Can you rebel and innovate a solution to the problems in these areas? Brave against the time crunch and grab this opportunity to win exciting prizes!!!<br/><br/> <b>Topics for Problem Statement</b><ul><li>Cyber Security</li><li>Medical and Healthcare</li><li>Women's Safety</li><li>Climate Change and Sustainability</li><li>Fintech</li><li>Technology for agriculture</li><li>Agritech</li><li>Student Innovation (Open Idea)</li></ul><br/>The hackathon will follow a leader board system. The points awarded will be the cumulative points, gained by the team over the three reviews and final presentation. The top team will be announced as the winner of the hackathon.<br/><b>Decision taken by the review panel will be final.</b>",
         "rounds": 5,
         "round_description": [
           {
             "name": "Schedule",
             "duration": null,
-            "description": "<h5>Day 1:</h5><ul><li>Virtual meet set up</li><li>Introduction - Google meet</li><li>Hackathon start</li><li>First Review - Discord</li><li>Second Review - Discord</li></ul><br/><h5>Day 2:</h5><ul><li>Third Review - Discord</li><li>Hackathon ends</li><li>Final Presentation - Google Meet</li><li>Valedictory</li></ul>"
+            "description": "<h5>Day 1:</h5><ul><li>10.00 AM – Introduction</li><li>11.00 AM – Hackathon starts</li><li>03.00 PM – First Review</li></ul><br/><h5>Day 2:</h5><ul><li>10.00 PM – Second Review</li><li>08.00 AM – Third Review</li><li>11.00 AM – Hackathon ends</li><li>12.00 PM – Final Presentation</li><li>03.30 PM – Valedictory</li></ul>"
           },
           {
             "name": "First Review:",
@@ -151,12 +151,12 @@
           {
             "name": "Round 1",
             "duration": null,
-            "description": "Participants (max team size of 3) will be assigned a unique electronic product and will be required to mail a presentation about the product's features on or before 4th October, 2021."
+            "description": "Participants will be asked to come up with a solution to improve the sales of a simple product and mail their solutions on or before 5th October. Finalists will be shortlisted after evaluating the answers."
           },
           {
             "name": "Round 2",
             "duration": null,
-            "description": "Shortlisted participants from round 1 will be asked to pitch their products for a duration of 5 minutes to a panel of judges. "
+            "description": " Shortlisted finalists will be assigned an electronic product, will be made aware of a theme and are expected to pitch their product for a maximum of 7 minutes to a panel of judges. Winners will be ascertained based on how well their pitch is made relevant to the given theme."
           }
         ]
       },
@@ -1479,7 +1479,7 @@
         { "name": "Aarthi", "phone": 7358090325 }
       ],
       "description": {
-        "summary": "Hacker’s Asylum is a Jeopardy style Capture The Flag event with an intriguing plot where you find clues , solve puzzles and capture the “flags”. Each element tests your grasp on OSINT, Cryptography, Reverse Engineering, Password Cracking and a whole range of Cyber Security concepts along with general logical skills. Each flag you capture gets you points and leads you to unfold the story a little more. But time is not on your side in this event as the first team to figure out all the clues and solve the murders , wins.<br/><br/>To participate in this event, you do not need any prior knowledge except basic computer and browsing skills. You can ask for help anytime but points will be calculated accordingly. If you’re new to CTFs or they sound interesting, this is the event for you!",
+        "summary": "A controversial content creator is found dead and the official report states that it is a suicide. You stumbled across their page recently and found some hidden messages that make you suspect that some foul play is involved. Unsurprisingly, OLEN, the production house that the content creator was a part of contacts you and wants you to retrieve the data from the victim’s erased system. But you find something more sinister as you keep digging. Can you get to the bottom of this before whatever killed the content creator gets to you as well?",
         "rounds": 2,
         "round_description": [
           {

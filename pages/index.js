@@ -613,8 +613,8 @@ export default function Home() {
             <h2>SPONSORS</h2>
           </div>
           <Container className={styles.sponsors}>
-            <Row>
-              <Col className={styles.facilio} style={{ textAlign: 'right' }}>
+            <Row className={styles.sponsorsSpaced}>
+              <Col>
                 <a href="https://facilio.com/" target="_blank" rel="noreferrer">
                   {/* eslint-disable-next-line */}
                   <img
@@ -625,7 +625,7 @@ export default function Home() {
                   />{' '}
                 </a>
               </Col>
-              <Col className={styles.facilio} style={{ textAlign: 'left' }}>
+              <Col>
                 <a
                   href="https://www.saama.com/"
                   target="_blank"
@@ -682,6 +682,21 @@ export default function Home() {
                   <img
                     src="/sponsors/typesense.svg"
                     alt="typesense"
+                    width="300"
+                    height="100"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://m.youtube.com/channel/UCaz-Sy2xHZWtFhu72GVAFrQ?sub_confirmation=1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/gr.png"
+                    alt="gautham raj"
                     width="300"
                     height="100"
                   />{' '}
