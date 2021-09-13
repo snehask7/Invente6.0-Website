@@ -194,68 +194,83 @@ function SignUp() {
                 <Row>
                   <Col xs={12} md={6}>
                     <h5 className={styles.inputLabel}>Year</h5>
-                    <select
-                      className={styles.inputField}
-                      required
-                      onChange={(e) => onChange('year', e)}
-                    >
-                      <option className={styles.option} value="1">
-                        1
-                      </option>
-                      <option className={styles.option} value="2">
-                        2
-                      </option>
-                      <option className={styles.option} value="3">
-                        3
-                      </option>
-                      <option className={styles.option} value="4">
-                        4
-                      </option>
-                      <option className={styles.option} value="5">
-                        5
-                      </option>
-                    </select>
+                    <div className={styles.terminalInput}>
+                      <p>{'>'}</p>
+                      <select
+                        className={styles.inputField}
+                        required
+                        onChange={(e) => onChange('year', e)}
+                      >
+                        <option className={styles.option} value="1">
+                          1
+                        </option>
+                        <option className={styles.option} value="2">
+                          2
+                        </option>
+                        <option className={styles.option} value="3">
+                          3
+                        </option>
+                        <option className={styles.option} value="4">
+                          4
+                        </option>
+                        <option className={styles.option} value="5">
+                          5
+                        </option>
+                      </select>
+                    </div>
                   </Col>
                   <Col xs={12} md={6}>
                     <h5 className={styles.inputLabel}>Department</h5>
-                    <input
-                      className={styles.inputField}
-                      type="text"
-                      list="departments"
-                      pattern="[A-Za-z]{1,}"
-                      onChange={(e) => onChange('department', e)}
-                      required
-                    />
-                    <datalist
-                      id="departments"
-                      className={styles.inputField}
-                      required
+                    <div className={styles.terminalInput}>
+                      <p>{'>'}</p>
+                      <input
+                        className={styles.inputField}
+                        type="text"
+                        list="departments"
+                        pattern="[A-Za-z]{1,}"
+                        onChange={(e) => onChange('department', e)}
+                        required
+                      />
+                      <datalist
+                        id="departments"
+                        className={styles.inputField}
+                        required
+                      >
+                        <option className={styles.option} value="CSE">
+                          CSE
+                        </option>
+                        <option className={styles.option} value="IT">
+                          IT
+                        </option>
+                        <option className={styles.option} value="ECE">
+                          ECE
+                        </option>
+                        <option className={styles.option} value="EEE">
+                          EEE
+                        </option>
+                        <option className={styles.option} value="Mechanical">
+                          Mechanical
+                        </option>
+                        <option className={styles.option} value="BME">
+                          BME
+                        </option>
+                        <option className={styles.option} value="Civil">
+                          Civil
+                        </option>
+                        <option className={styles.option} value="Chemical">
+                          Chemical
+                        </option>
+                      </datalist>
+                    </div>
+                    <p
+                      style={{
+                        textAlign: 'left',
+                        fontSize: '1.7vh',
+                        color: 'rgb(102, 116, 148)',
+                      }}
                     >
-                      <option className={styles.option} value="CSE">
-                        CSE
-                      </option>
-                      <option className={styles.option} value="IT">
-                        IT
-                      </option>
-                      <option className={styles.option} value="ECE">
-                        ECE
-                      </option>
-                      <option className={styles.option} value="EEE">
-                        EEE
-                      </option>
-                      <option className={styles.option} value="Mechanical">
-                        Mechanical
-                      </option>
-                      <option className={styles.option} value="BME">
-                        BME
-                      </option>
-                      <option className={styles.option} value="Civil">
-                        Civil
-                      </option>
-                      <option className={styles.option} value="Chemical">
-                        Chemical
-                      </option>
-                    </datalist>
+                      If other, type your department
+                    </p>
                   </Col>
                 </Row>
                 <Row>
