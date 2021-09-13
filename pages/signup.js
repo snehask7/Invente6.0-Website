@@ -224,6 +224,7 @@ function SignUp() {
                       list="departments"
                       pattern="[A-Za-z]{1,}"
                       onChange={(e) => onChange('department', e)}
+                      required
                     />
                     <datalist
                       id="departments"
