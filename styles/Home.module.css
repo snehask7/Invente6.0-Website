@@ -312,21 +312,22 @@
 .sponsors {
   text-align: center;
   margin-top: 10rem;
+  padding-top: 2em;
+  padding: 2em;
 }
 .sponsors img {
   margin-top: 1rem;
-  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 1em;
 }
-.sponsors .facilio {
-  width: 20rem !important;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-@media screen and (max-width: 767px) {
-  .facilio {
-    text-align: center !important;
+@media screen and (min-width: 1186px) {
+  .sponsorsSpaced {
+    padding-left: 15rem;
+    padding-right: 15rem;
   }
 }
+
 /*Organiser section*/
 .org_section {
   margin-top: 8rem;
