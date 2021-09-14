@@ -501,7 +501,7 @@
       "max_team_size": 3,
       "organisers": [
         { "name": "Yuvasri", "phone": 6379107639 },
-        { "name": "Harshini", "phone": 735842968 },
+        { "name": "Harshini", "phone": 7358429682 },
         { "name": "Prasidha", "phone": 9962236331 }
       ],
       "description": {
@@ -1479,7 +1479,7 @@
         { "name": "Aarthi", "phone": 7358090325 }
       ],
       "description": {
-        "summary": "A controversial content creator is found dead and the official report states that it is a suicide. You stumbled across their page recently and found some hidden messages that make you suspect that some foul play is involved. Unsurprisingly, OLEN, the production house that the content creator was a part of contacts you and wants you to retrieve the data from the victim’s erased system. But you find something more sinister as you keep digging. Can you get to the bottom of this before whatever killed the content creator gets to you as well?",
+        "summary": "Hacker’s Asylum is a Jeopardy style Capture The Flag event with an intriguing plot where you find clues , solve puzzles and capture the “flags”. Each element tests your grasp on OSINT, Cryptography, Reverse Engineering, Password Cracking and a whole range of Cyber Security concepts along with general logical skills. Each flag you capture gets you points and leads you to unfold the story a little more. But time is not on your side in this event as the first team to figure out all the clues and solve the murders, wins.",
         "rounds": 2,
         "round_description": [
           {
@@ -1490,7 +1490,7 @@
           {
             "name": "Main Event",
             "duration": "3 hours",
-            "description": "When you return from a 3 month deep undercover mission you find out that a lot of agents at OLEN , the spy organization you work at are dead! You’ve been assigned this case and now it’s on you to get to the bottom of it. Can you solve the reason behind these murders before you end up on the victim list?"
+            "description": "A controversial content creator is found dead and the official report states that it is a suicide. You stumbled across their page recently and found some hidden messages that make you suspect that some foul play is involved. Unsurprisingly, OLEN, the production house that the content creator was a part of contacts you and wants you to retrieve the data from the victim’s erased system. But you find something more sinister as you keep digging. Can you get to the bottom of this before whatever killed the content creator gets to you as well?"
           }
         ]
       },
