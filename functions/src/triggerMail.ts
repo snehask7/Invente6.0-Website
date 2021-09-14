@@ -1,29 +1,72 @@
 import * as functions from 'firebase-functions';
+import { firestore } from './admin';
 import * as mailgun from 'mailgun-js';
 import { DOMAIN } from './constants';
 
+interface User {
+  email: string;
+  fullName: string;
+  collegeName: string;
+  events: string[];
+  phone: string;
+  department: string;
+  year: string;
+  updatedAt: string;
+  username: string;
+}
 const mg = mailgun({
   apiKey: 'ebb6c4e2a083268fddb367eb1e51b20b-a3c55839-89643b78',
   domain: DOMAIN,
+  host: 'api.eu.mailgun.net',
 });
 
 const TriggerMail = functions.firestore
   .document('/payments/{userId}')
   .onUpdate(async (change, context) => {
-    const userId = context.params.userId;
-    const data = {
-      from: 'Excited User <verification@ssninvente.com>',
-      to: 'harithiru2018@gmail.com',
-      subject: 'Hello',
-      text: 'Testing some Mailgun awesomeness!' + userId,
-    };
-    await mg.messages().send(data, function (error, body) {
-      if (error !== undefined) {
-        functions.logger.error(error);
-      } else {
-        functions.logger.info(body.message);
+    const events = change.after.data();
+
+    if (
+      events.bmeHack === true ||
+      events.cseHack === true ||
+      events.eceHack === true ||
+      events.wsCentral === true ||
+      events.wsCivil === true ||
+      events.tech === true ||
+      events.nonTech === true
+    ) {
+      const userId = context.params.userId;
+      const user: User | undefined = (
+        await firestore.collection('users').doc(userId).get()
+      ).data() as User;
+
+      const eligible: { event: string }[] = [];
+      delete events.updatedAt;
+      for (const event of Object.keys(events)) {
+        if (events[event]) {
+          functions.logger.info(`${event} is true`);
+          eligible.push({ event });
+        }
       }
-    });
+
+      const data = {
+        from: 'SSN Invente Team <noreply@verification.ssninvente.com>',
+        to: user.email,
+        subject: 'Your payment is verified',
+        template: 'payment',
+        'v:name': user.fullName,
+        'v:eligible': eligible,
+      };
+
+      await mg.messages().send(data, function (error, body) {
+        if (error !== undefined) {
+          functions.logger.error(error);
+        } else {
+          functions.logger.info(body.message);
+        }
+      });
+    } else {
+      functions.logger.info('No eligible events');
+    }
   });
 
 export default TriggerMail;

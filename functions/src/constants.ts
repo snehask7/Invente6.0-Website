@@ -15,7 +15,7 @@ export const SCOPES = [
   'https://www.googleapis.com/auth/drive',
 ];
 
-export const DOMAIN = 'sandboxe003bbcca3c04e79ad19448f1f5cc5e7.mailgun.org';
+export const DOMAIN = 'verification.ssninvente.com';
 export const functionsOauthClient = new OAuth2Client(
   CONFIG_CLIENT_ID,
   CONFIG_CLIENT_SECRET,
