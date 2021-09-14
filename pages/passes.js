@@ -8,7 +8,7 @@ import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import { useNav } from '../lib/navbarstate';
 import styles from '../styles/Passes.module.css';
-
+import { FaMoneyCheck, FaCloudUploadAlt } from 'react-icons/fa';
 function Plans() {
   const { currentUser } = useAuth();
   const router = useRouter();
@@ -58,25 +58,30 @@ function Plans() {
                 </span>
               </div>
               <div className={styles.buttons}>
-                <div className={styles.plan_action}>
-                  <a
-                    target="_blank"
-                    href="https://m.paytm.me/ssninv_nrweb"
-                    rel="noreferrer"
-                  >
-                    Pay Now{' '}
-                  </a>
-                </div>
-
-                <div className={styles.plan_action}>
-                  <a
-                    target="_blank"
-                    href="https://7ey3j0toxd0.typeform.com/Invente-Receipt"
-                    rel="noreferrer"
-                  >
-                    Upload Receipt{' '}
-                  </a>
-                </div>
+                <a
+                  target="_blank"
+                  href="https://m.paytm.me/ssninv_nrweb"
+                  rel="noreferrer"
+                  className={styles.noselect}
+                >
+                  <span className={styles.paytext}>Pay Now</span>
+                  <span className={styles.icon}>
+                    <FaMoneyCheck className={styles.payIcon}></FaMoneyCheck>
+                  </span>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://7ey3j0toxd0.typeform.com/Invente-Receipt"
+                  rel="noreferrer"
+                  className={styles.noselect}
+                >
+                  <span className={styles.text}>Upload Receipt</span>
+                  <span className={styles.icon}>
+                    <FaCloudUploadAlt
+                      className={styles.payIcon}
+                    ></FaCloudUploadAlt>
+                  </span>
+                </a>
               </div>
               <br />
               <div className={styles.feature}>
