@@ -16,9 +16,9 @@ interface User {
 }
 
 const eventType: { [key: string]: string } = {
-  bmeHack: 'BME Hackathon',
-  cseHack: 'CSE Hackathon',
-  eceHack: 'ECE Hackathon',
+  bmeHack: 'Biomedicathon',
+  cseHack: 'Devathalon',
+  eceHack: 'Hackinfinity',
   wsCentral: 'Workshop Central',
   wsCivil: 'Workshop Civil',
   tech: 'All Technical events',
