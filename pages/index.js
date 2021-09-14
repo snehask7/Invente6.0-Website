@@ -42,11 +42,6 @@ export default function Home() {
           className={styles2['particle'] + ' ' + styles2['particle-4']}
         ></div>
       </div>
-      {/* <div className={styles2.animation_wrapper}>
-        <div
-          className={styles2['particle'] + ' ' + styles2['particle_4']}
-        ></div>
-      </div> */}
 
       <main className={styles.main}>
         <NavbarComp />
@@ -60,7 +55,6 @@ export default function Home() {
                   viewBox="0 0 515.15 164.29"
                 >
                   <defs></defs>
-                  <title>Invente_Logo_White</title>
                   <g id="Layer_2" data-name="Layer 2">
                     <g id="Layer_1-2" data-name="Layer 1">
                       <text
@@ -70,7 +64,7 @@ export default function Home() {
                         8
                       </text>
                       <text
-                        className="cls-2"
+                        className="cls-1"
                         transform="translate(219.67 156.8) scale(0.58)"
                       >
                         th
@@ -87,34 +81,6 @@ export default function Home() {
                       >
                         th
                       </text>
-                      {/* <path
-                      className="cls-1 svg-elem-1"
-                      d="M210.92,151.29v-1h7v2l-4.22,10.39-1.33-.42,4.54-10.06v-.92Z"
-                    ></path>
-                    <path
-                      className="cls-1 svg-elem-2"
-                      d="M222.92,152.29h-1v2.05c-.42.61-.37,1-.28,1.2s.3.29.63.29l.95-.06.05.66a8.22,8.22,0,0,1-1.09.11,1.37,1.37,0,0,1-1.14-.4c-.22-.27-.12-1.55-.12-1.55v-2.3h-1v-1h1v-2h0v2h2Z"
-                    ></path> */}
-                      {/* <path
-                      className="cls-1 svg-elem-3"
-                      d="M224.92,156.29h-1v-8h1v3.11a4.25,4.25,0,0,1,1.7-.41,1.59,1.59,0,0,1,1.43.58,2,2,0,0,1-.13,2v2.68h0v-2.65c-.3-.74-.38-1.25-.52-1.52a1,1,0,0,0-.92-.41,3.61,3.61,0,0,0-1.3.24l-.26.08Z"
-                    ></path> */}
-                      {/* <path
-                      className="cls-1 svg-elem-4"
-                      d="M229.81,164.29l.8-4h1.44l-1.17,4Z"
-                    ></path> */}
-                      {/* <path
-                      className="cls-1 svg-elem-5"
-                      d="M239.15,151.05a5.44,5.44,0,0,1,3.15-.8,5.58,5.58,0,0,1,3.18.8,2.63,2.63,0,0,1,1.18,2.34,2.83,2.83,0,0,1-.45,1.73,4.05,4.05,0,0,1-1.56,1.09,4.47,4.47,0,0,1,1.65,1.16,2.89,2.89,0,0,1,.55,1.87q0,3.45-4.53,3.45t-4.52-3.25a3.22,3.22,0,0,1,.51-2,4.7,4.7,0,0,1,1.58-1.26,3.83,3.83,0,0,1-1.44-1.13,2.88,2.88,0,0,1-.45-1.7A2.66,2.66,0,0,1,239.15,151.05Zm.15,8.56c0,1.47,1,2.21,3,2.21s3-.77,3-2.32a1.78,1.78,0,0,0-.54-1.43,4.18,4.18,0,0,0-1.6-.78h-1.92a3.06,3.06,0,0,0-1.5.81A2.19,2.19,0,0,0,239.3,159.61Zm5.86-6.42c0-1.35-.94-2-2.83-2s-2.83.67-2.83,2a1.89,1.89,0,0,0,.44,1.3,3.21,3.21,0,0,0,1.35.82h1.92a3.61,3.61,0,0,0,1.47-.8A1.8,1.8,0,0,0,245.16,153.19Z"
-                    ></path> */}
-                      {/* <path
-                      className="cls-1 svg-elem-6"
-                      d="M250.92,152.29h-3v2.05c1.36.61,1.4,1,1.49,1.2s.3.29.64.29l.94-.06.06.66a8.38,8.38,0,0,1-1.09.11,1.39,1.39,0,0,1-1.15-.4c-.21-.27.11-1.55.11-1.55v-2.3h-1v-1h0v-2h1v2h2Z"
-                    ></path> */}
-                      {/* <path
-                      className="cls-1 svg-elem-7"
-                      d="M252.92,156.29h-1v-8h1v3.11a2.71,2.71,0,0,1,1.47-.41,1.57,1.57,0,0,1,1.43.58,2.53,2.53,0,0,1,.1,2v2.68h0v-2.65a6.75,6.75,0,0,1-.75-1.52.94.94,0,0,0-.92-.41,3.65,3.65,0,0,0-1.3.24l0,.08Z"
-                    ></path> */}
                       <path
                         className="cls-1 svg-elem-8"
                         d="M272,156.28a8.6,8.6,0,0,1-1.07,4.89c-.72,1-2,1.52-3.92,1.52s-3.2-.52-3.92-1.55a8.72,8.72,0,0,1-1.08-4.89,8.94,8.94,0,0,1,1.1-4.95c.73-1.08,2-1.61,3.89-1.61s3.16.53,3.9,1.6A8.91,8.91,0,0,1,272,156.28Zm-8.54,0a8.08,8.08,0,0,0,.73,4,3.89,3.89,0,0,0,5.63,0,8.09,8.09,0,0,0,.72-4,8.37,8.37,0,0,0-.75-4.07,3.7,3.7,0,0,0-5.59,0A8.25,8.25,0,0,0,263.41,156.24Z"
@@ -327,7 +293,12 @@ export default function Home() {
               </div>
             </Col>
           </Row>
-          <div id="timer" className={navbarToggle ? styles.hide : styles.timer}>
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="800"
+            id="timer"
+            className={styles.timer}
+          >
             <div id="days" className={styles.days}>
               <div id="days_num" className={styles.numbers}></div>
               <div>days</div>
@@ -351,7 +322,7 @@ export default function Home() {
             <Col s={12} md={12} lg={2}>
               <div className={navbarToggle ? styles.hide : styles.astronaut}>
                 <Image
-                  src="/icons/astronaut.png"
+                  src="/icons/astronaut.webp"
                   alt="astronaut"
                   width={200}
                   height={200}
@@ -366,28 +337,26 @@ export default function Home() {
               <p className={styles.about_content}>
                 While the present can be considered as unprecedented at its
                 best, SSN offers a platform to showcase your talents as a
-                surety.
-                <br />
-                Presenting to you the 6th edition of the annual techfest -
-                Invente.
+                surety. Presenting to you the 6th edition of the annual techfest
+                - Invente.
                 <br />
                 <br />
                 Invente - a nexus of Innovation, Creativity and Entertainment,
-                is a 2-day Intercollegiate technical fest which is aims to
-                encourage students to think beyond academics and helps them to
-                discover their hidden passions and talents.This technical
+                is a 2-day Intercollegiate ONLINE technical fest which aims to
+                encourage students to think beyond academics and helps them
+                discover their hidden passions and talents. This technical
                 extravaganza gives space for students to flaunt their skills in
                 various domains and caters to their adrenaline surges.
                 <br />
                 <br />
-                October 8 & 9; Save the dates, reinvent yourself in this Realm
-                of Virtuality.
+                October 8 & 9 - Save the dates, reinvent yourself in this Realm
+                of Virtuality!
               </p>
             </Col>
             <Col sm={12} md={12} lg={2}>
               <div className={navbarToggle ? styles.hide : styles.astronaut2}>
                 <Image
-                  src="/icons/astronaut2.png"
+                  src="/icons/astronaut2.webp"
                   alt="astronaut"
                   width={250}
                   height={250}
@@ -401,8 +370,8 @@ export default function Home() {
           id="departments"
         >
           <div className={styles.sub_title}>
-            <h2>DEPARTMENTS</h2>
-            <h2>DEPARTMENTS</h2>
+            <h2>EVENTS</h2>
+            <h2>EVENTS</h2>
           </div>
           <Container className={styles.dept_cards}>
             <Row>
@@ -417,7 +386,7 @@ export default function Home() {
                     <div className={styles.card_image}>
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/cse.jpg"
+                        src="/icons/cse.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -445,7 +414,7 @@ export default function Home() {
                     <div className={styles.card_image}>
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/it.jpg"
+                        src="/icons/it.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -473,7 +442,7 @@ export default function Home() {
                     <div className={styles.card_image}>
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/ece.jpeg"
+                        src="/icons/ece.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -501,7 +470,7 @@ export default function Home() {
                     <div className={styles.card_image}>
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/eee.jpeg"
+                        src="/icons/eee.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -530,7 +499,7 @@ export default function Home() {
                       {' '}
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/bme.jpg"
+                        src="/icons/bme.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -559,7 +528,7 @@ export default function Home() {
                       {' '}
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/civil.jpeg"
+                        src="/icons/civil.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -588,7 +557,7 @@ export default function Home() {
                       {' '}
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/mech.jpg"
+                        src="/icons/mech.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -618,7 +587,7 @@ export default function Home() {
                       {' '}
                       {/* eslint-disable-next-line */}
                       <img
-                        src="/icons/chem.jpeg"
+                        src="/icons/chem.webp"
                         alt="cse"
                         width={200}
                         height={200}
@@ -637,394 +606,465 @@ export default function Home() {
               </Col>
             </Row>
           </Container>
-
-          <Container id="sponsors" className={styles.spons_section}>
-            <div className={styles.sub_title}>
-              <h2>SPONSORS</h2>
-              <h2>SPONSORS</h2>
-            </div>
-            <Container className={styles.sponsors}>
-              <Row>
-                <Col className={styles.facilio}>
-                  <a
-                    href="https://facilio.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {/* eslint-disable-next-line */}
-                    <img
-                      src="/sponsors/facilio.png"
-                      alt="facilio"
-                    />{' '}
-                  </a>
-                </Col>
-              </Row>
-              <Row>
-                <Col>
-                  <a
-                    href="https://business.stayflexi.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {/* eslint-disable-next-line */}
-                    <img
-                      src="/sponsors/sf.png"
-                      alt="stayflexi"
-                    />{' '}
-                  </a>
-                </Col>
-                <Col>
-                  <a href="cosmichvac.com" target="_blank">
-                    {/* eslint-disable-next-line */}
-                    <img
-                      src="/sponsors/cosmic.png"
-                      alt="cosmic"
-                    />{' '}
-                  </a>
-                </Col>
-                <Col>
-                  <a
-                    href="https://typesense.org/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {/* eslint-disable-next-line */}
-                    <img
-                      src="/sponsors/typesense.svg"
-                      alt="typesense"
-                    />{' '}
-                  </a>
-                </Col>
-              </Row>
-            </Container>
-            {/* <div className={styles.slider}>
-              <div className={styles.slide_track}>
-                <div className={styles.slide}>
-                  <Image src={ts} alt="ts"></Image>
-                </div>
-                <div className={styles.slide}>
-                  <Image src={ts} alt="ts"></Image>
-                </div>
-                <div className={styles.slide}>
-                  <Image src={ts} alt="ts"></Image>
-                </div>{' '}
-                <div className={styles.slide}>
-                  <Image src={ts} alt="ts"></Image>
-                </div>{' '}
-                <div className={styles.slide}>
-                  <Image src={ts} alt="ts"></Image>
-                </div>
-              </div>
-            </div> */}
-          </Container>
-          <div className={styles.org_section}>
-            <div className={styles.sub_title}>
-              <h2>ORGANISERS</h2>
-              <h2>ORGANISERS</h2>
-            </div>
-            <Container className={styles.org_cards}>
-              <Row>
-                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/cse.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Vignesh B.</h6>
-                        <p className={styles.org_card_dept}>CSE</p>
-                        <p className={styles.org_card_phone}>+91 9841114252</p>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/it.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Alfrin A J</h6>
-                        <p className={styles.org_card_dept}>IT</p>
-                        <p className={styles.org_card_phone}>+91 9791394453</p>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/ece.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Nikhil V.</h6>
-                        <p className={styles.org_card_dept}>ECE</p>
-                        <p className={styles.org_card_phone}>+91 9176875101</p>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/eee.JPG"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Somnath T.V.</h6>
-                        <p className={styles.org_card_dept}>EEE</p>
-                        <p className={styles.org_card_phone}>+91 7550191192</p>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/civil.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>
-                          Sidharath K.S.
-                        </h6>
-                        <p className={styles.org_card_dept}>Civil</p>
-                        <p className={styles.org_card_phone}>+91 9445892891</p>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/bme.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Lokesh K.M</h6>
-                        <p className={styles.org_card_dept}>BME</p>
-                        <p className={styles.org_card_phone}>+91 8072233516</p>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/mech.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Cynthia Joy</h6>
-                        <p className={styles.org_card_dept}>Mechanical</p>
-                        <p className={styles.org_card_phone}>+91 9480038164</p>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-                <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
-                  <div className={styles.org_container}>
-                    <div className={styles.org_card}>
-                      <div className={styles.org_card_image_container}>
-                        {/* eslint-disable-next-line */}
-                        <img
-                          className={styles.org_card_image}
-                          src="/presidents/chem.jpg"
-                          alt=""
-                        ></img>
-                      </div>
-
-                      <svg
-                        className={styles.org_card_svg}
-                        viewBox="0 0 800 500"
-                      >
-                        <path
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-                          stroke="transparent"
-                          fill="rgba(144, 53, 172)"
-                        />
-                        <pat
-                          className={styles.card_line}
-                          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-                          stroke="#03e9f4"
-                          strokeWidth="3"
-                          fill="transparent"
-                        />
-                      </svg>
-                      <div className={styles.org_card_content}>
-                        <h6 className={styles.org_card_title}>Achsha Israel</h6>
-                        <p className={styles.org_card_dept}>Chemical</p>
-                        <p className={styles.org_card_phone}>+91 9445610075</p>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
+        </div>
+        <div id="sponsors" className={styles.spons_section}>
+          <div className={styles.sub_title}>
+            <h2>SPONSORS</h2>
+            <h2>SPONSORS</h2>
           </div>
+          <Container className={styles.sponsors}>
+            <Row className={styles.sponsorsSpaced}>
+              <Col>
+                <a href="https://facilio.com/" target="_blank" rel="noreferrer">
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/facilio.webp"
+                    alt="facilio"
+                    width="300"
+                    height="130"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.saama.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/saama.svg"
+                    alt="saama"
+                    width="300"
+                    height="150"
+                  />{' '}
+                </a>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <a
+                  href="https://business.stayflexi.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/sf.webp"
+                    alt="stayflexi"
+                    width="230"
+                    height="100"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="http://cosmicin.com/ "
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/cosmic.webp"
+                    alt="cosmic"
+                    width="200"
+                    height="150"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://typesense.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/typesense.svg"
+                    alt="typesense"
+                    width="300"
+                    height="100"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://m.youtube.com/channel/UCaz-Sy2xHZWtFhu72GVAFrQ?sub_confirmation=1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/gr.png"
+                    alt="gautham raj"
+                    width="300"
+                    height="100"
+                  />{' '}
+                </a>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className={styles.org_section}>
+          <div className={styles.sub_title}>
+            <h2>ORGANISERS</h2>
+            <h2>ORGANISERS</h2>
+          </div>
+          <Container className={styles.org_cards}>
+            <Row>
+              <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
+                <div className={styles.org_container}>
+                  <div className={styles.org_card}>
+                    <div className={styles.org_card_image_container}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        className={styles.org_card_image}
+                        src="/presidents/cse.webp"
+                        alt=""
+                        width="230"
+                        height="200"
+                      ></img>
+                    </div>
+
+                    <svg className={styles.org_card_svg} viewBox="0 0 800 500">
+                      <path
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                        stroke="transparent"
+                        fill="rgba(144, 53, 172)"
+                      />
+                      <path
+                        className={styles.card_line}
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                        stroke="#03e9f4"
+                        strokeWidth="3"
+                        fill="transparent"
+                      />
+                    </svg>
+                    <div className={styles.org_card_content}>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/vigneshb2704/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Vignesh B.
+                        </a>
+                      </h6>
+                      <p className={styles.org_card_dept}>CSE</p>
+                      <p className={styles.org_card_phone}>+91 9841114252</p>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
+                <div className={styles.org_container}>
+                  <div className={styles.org_card}>
+                    <div className={styles.org_card_image_container}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        className={styles.org_card_image}
+                        src="/presidents/it.webp"
+                        alt=""
+                        width="230"
+                        height="200"
+                      ></img>
+                    </div>
+                    <svg className={styles.org_card_svg} viewBox="0 0 800 500">
+                      <path
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                        stroke="transparent"
+                        fill="rgba(144, 53, 172)"
+                      />
+                      <path
+                        className={styles.card_line}
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                        stroke="#03e9f4"
+                        strokeWidth="3"
+                        fill="transparent"
+                      />
+                    </svg>
+                    <div className={styles.org_card_content}>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/alfrin-aj/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Alfrin A.J.
+                        </a>
+                      </h6>
+                      <p className={styles.org_card_dept}>IT</p>
+                      <p className={styles.org_card_phone}>+91 9791394453</p>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
+                <div className={styles.org_container}>
+                  <div className={styles.org_card}>
+                    <div className={styles.org_card_image_container}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        className={styles.org_card_image}
+                        src="/presidents/ece.webp"
+                        alt=""
+                        width="230"
+                        height="200"
+                      ></img>
+                    </div>
+
+                    <svg className={styles.org_card_svg} viewBox="0 0 800 500">
+                      <path
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                        stroke="transparent"
+                        fill="rgba(144, 53, 172)"
+                      />
+                      <path
+                        className={styles.card_line}
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                        stroke="#03e9f4"
+                        strokeWidth="3"
+                        fill="transparent"
+                      />
+                    </svg>
+                    <div className={styles.org_card_content}>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/nikhil-viswanath/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Nikhil V.
+                        </a>
+                      </h6>
+                      <p className={styles.org_card_dept}>ECE</p>
+                      <p className={styles.org_card_phone}>+91 9176875101</p>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
+                <div className={styles.org_container}>
+                  <div className={styles.org_card}>
+                    <div className={styles.org_card_image_container}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        className={styles.org_card_image}
+                        src="/presidents/eee.webp"
+                        alt=""
+                        width="230"
+                        height="200"
+                      ></img>
+                    </div>
+
+                    <svg className={styles.org_card_svg} viewBox="0 0 800 500">
+                      <path
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                        stroke="transparent"
+                        fill="rgba(144, 53, 172)"
+                      />
+                      <path
+                        className={styles.card_line}
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                        stroke="#03e9f4"
+                        strokeWidth="3"
+                        fill="transparent"
+                      />
+                    </svg>
+                    <div className={styles.org_card_content}>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/somnath-thilak-3b5a531b5/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Somnath T.V.
+                        </a>
+                      </h6>
+                      <p className={styles.org_card_dept}>EEE</p>
+                      <p className={styles.org_card_phone}>+91 7550191192</p>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
+                <div className={styles.org_container}>
+                  <div className={styles.org_card}>
+                    <div className={styles.org_card_image_container}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        className={styles.org_card_image}
+                        src="/presidents/civil.webp"
+                        alt=""
+                        width="230"
+                        height="200"
+                      ></img>
+                    </div>
+
+                    <svg className={styles.org_card_svg} viewBox="0 0 800 500">
+                      <path
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                        stroke="transparent"
+                        fill="rgba(144, 53, 172)"
+                      />
+                      <path
+                        className={styles.card_line}
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                        stroke="#03e9f4"
+                        strokeWidth="3"
+                        fill="transparent"
+                      />
+                    </svg>
+                    <div className={styles.org_card_content}>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/sidharath-shah-696278188/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Sidharath K.S.
+                        </a>
+                      </h6>
+                      <p className={styles.org_card_dept}>Civil</p>
+                      <p className={styles.org_card_phone}>+91 9445892891</p>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
+                <div className={styles.org_container}>
+                  <div className={styles.org_card}>
+                    <div className={styles.org_card_image_container}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        className={styles.org_card_image}
+                        src="/presidents/bme.webp"
+                        alt=""
+                        width="230"
+                        height="200"
+                      ></img>
+                    </div>
+
+                    <svg className={styles.org_card_svg} viewBox="0 0 800 500">
+                      <path
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                        stroke="transparent"
+                        fill="rgba(144, 53, 172)"
+                      />
+                      <path
+                        className={styles.card_line}
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                        stroke="#03e9f4"
+                        strokeWidth="3"
+                        fill="transparent"
+                      />
+                    </svg>
+                    <div className={styles.org_card_content}>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/lokesh-kumar-457511112/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Lokesh K.M.
+                        </a>
+                      </h6>
+                      <p className={styles.org_card_dept}>BME</p>
+                      <p className={styles.org_card_phone}>+91 8072233516</p>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
+                <div className={styles.org_container}>
+                  <div className={styles.org_card}>
+                    <div className={styles.org_card_image_container}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        className={styles.org_card_image}
+                        src="/presidents/mech.webp"
+                        alt=""
+                        width="230"
+                        height="200"
+                      ></img>
+                    </div>
+
+                    <svg className={styles.org_card_svg} viewBox="0 0 800 500">
+                      <path
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                        stroke="transparent"
+                        fill="rgba(144, 53, 172)"
+                      />
+                      <path
+                        className={styles.card_line}
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                        stroke="#03e9f4"
+                        strokeWidth="3"
+                        fill="transparent"
+                      />
+                    </svg>
+                    <div className={styles.org_card_content}>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/cynthia-joy-070684196/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Cynthia J.
+                        </a>
+                      </h6>
+                      <p className={styles.org_card_dept}>Mechanical</p>
+                      <p className={styles.org_card_phone}>+91 9480038164</p>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col xs={12} sm={6} md={4} lg={3} className={styles.org_cols}>
+                <div className={styles.org_container}>
+                  <div className={styles.org_card}>
+                    <div className={styles.org_card_image_container}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        className={styles.org_card_image}
+                        src="/presidents/chem.webp"
+                        alt=""
+                        width="230"
+                        height="200"
+                      ></img>
+                    </div>
+
+                    <svg className={styles.org_card_svg} viewBox="0 0 800 500">
+                      <path
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                        stroke="transparent"
+                        fill="rgba(144, 53, 172)"
+                      />
+                      <path
+                        className={styles.card_line}
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                        stroke="#03e9f4"
+                        strokeWidth="3"
+                        fill="transparent"
+                      />
+                    </svg>
+                    <div className={styles.org_card_content}>
+                      <h6 className={styles.org_card_title}>
+                        <a
+                          href="https://www.linkedin.com/in/achsha-israel-482857154/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Achsha I.
+                        </a>
+                      </h6>
+                      <p className={styles.org_card_dept}>Chemical</p>
+                      <p className={styles.org_card_phone}>+91 9445610075</p>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
         </div>
       </main>
       <Footer />

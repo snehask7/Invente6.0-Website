@@ -38,7 +38,7 @@
   "32": { "name": "E-Bugging", "department": "EEE", "category": "tech" },
   "33": { "name": "Electronic-Maze", "department": "EEE", "category": "tech" },
   "34": { "name": "Ideate", "department": "EEE", "category": "tech" },
-  "35": { "name": "Inventino 2021", "department": "EEE", "category": "tech" },
+  "35": { "name": "Inventino", "department": "EEE", "category": "tech" },
   "36": { "name": "Tentkotta", "department": "EEE", "category": "non-tech" },
   "37": { "name": "IPL Bidding", "department": "EEE", "category": "non-tech" },
   "40": {
@@ -136,7 +136,7 @@
   "67": {
     "name": "BOB THE PLUMBER",
     "department": "Civil",
-    "category": "non-tech"
+    "category": "tech"
   },
   "68": {
     "name": "NETFLIX WARS",
@@ -198,7 +198,7 @@
   "03": { "name": "Code Triathlon", "department": "CSE", "category": "tech" },
   "04": { "name": "Hacker’s Asylum", "department": "CSE", "category": "tech" },
   "05": { "name": "MOCK JOB DRIVE", "department": "CSE", "category": "tech" },
-  "06": { "name": "Reverse in Relay", "department": "CSE", "category": "tech" },
+  "06": { "name": "Relay in Reverse", "department": "CSE", "category": "tech" },
   "07": { "name": "Game Nite", "department": "CSE", "category": "non-tech" },
   "80": {
     "name": "Devathlon",

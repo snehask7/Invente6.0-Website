@@ -9,28 +9,51 @@
   background: rgba(0, 0, 0, 0.1);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   color: white;
   height: 4em;
   font-size: 1.2rem;
   font-family: 'Menlo', monospace;
+  position: fixed;
+  top: 0;
+  z-index: 15;
+  right: 10px;
 }
 
 .inventeLogo {
   margin-left: 2em;
   min-width: 100px;
+  cursor: pointer;
+}
+
+.ssnlogo {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1100px) {
   .inventeLogo {
+    position: absolute;
+    left: 20px;
+  }
+
+  .centerNavLink {
+    margin: 0 1em;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .inventeHide {
     display: none;
   }
-  
-.centerNavLink {
-  margin: 0 1em;
 }
+
+@media screen and (max-width: 343px) {
+  .inventeLogo {
+    display: none;
+  }
 }
+
 .loginBtn {
   margin: 0 2em;
 }
@@ -56,8 +79,8 @@
   border: none;
   font-size: 16px;
   text-decoration: none;
-  text-transform: uppercase;
   overflow: hidden;
+  text-transform: uppercase;
   transition: 0.5s;
   letter-spacing: 4px;
 }
@@ -82,9 +105,12 @@
 }
 
 .centerTabMore {
-  padding-left: 10em;
+  padding-left: 10vh;
 }
 
+.centerTab {
+  padding-left: -5em !important;
+}
 @media screen and (max-width: 1100px) {
   .centerTab {
     display: none;
@@ -94,6 +120,11 @@
   }
 }
 
+/* @media screen and (max-width: 471px) {
+  .navbar {
+    right: 5px;
+  }
+} */
 .userPic {
   background: none;
   border: none;
@@ -122,20 +153,24 @@
     margin: 0 1em;
     font-size: 0.9em;
   }
+  .centerTabMore {
+    margin-left: 8em;
+  }
   .inventeLogo {
     margin-right: -200px;
   }
-  
+  .centerTab {
+    padding-left: 10em;
+  }
 }
 
-
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1101px) {
   .hamburger {
     display: none;
   }
 }
 
-@media screen and (max-width: 1099px) {
+@media screen and (max-width: 1100px) {
   .dropDownShown {
     background: rgb(32, 34, 67);
   }
@@ -165,11 +200,16 @@
 }
 
 .sideBarNavLink {
-  margin: 3vh 0;
+  margin: 2vh 0;
   font-size: 20px;
   z-index: 10;
 }
 
 .hide {
   display: none;
+}
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .navbar {
+    background: rgba(1, 4, 40, 1);
+  }
 }

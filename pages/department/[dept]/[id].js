@@ -1,11 +1,11 @@
 import axios from 'axios';
+import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
 import {
-  FaCalendarAlt,
   FaPhoneAlt,
   FaRegBuilding,
   FaRegClock,
@@ -13,6 +13,7 @@ import {
   FaUserAlt,
 } from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
+import Footer from '../../../components/Footer';
 import NavbarComp from '../../../components/Navbar';
 import data from '../../../data.json';
 import { useAuth } from '../../../lib/hooks';
@@ -27,26 +28,48 @@ export default function Department({ data }) {
   var events = data;
   const [profile, setProfile] = useState();
   const { navbarToggle, toggleNavbar } = useNav();
+  const [disableReg, setDisableReg] = useState(true);
 
   async function register(id) {
-    axios({
-      baseURL: window.location.origin,
-      method: 'POST',
-      url: '/api/register',
-      data: {
-        username: profile.username,
-        eventid: events[id].eventid,
-      },
-    })
-      .then(() => {
-        toast.success('Registered Successfully');
+    if (profile?.username) {
+      let toastId;
+      toastId = toast.loading('Registering..');
+      setDisableReg(true);
+      axios({
+        baseURL: window.location.origin,
+        method: 'POST',
+        url: '/api/register',
+        data: {
+          username: profile.username,
+          eventid: events[id].eventid,
+        },
       })
-      .catch((err) => {
-        console.log(err);
-        toast.error('Unable register. Please try again later.');
-      });
+        .then((res) => {
+          toast.dismiss(toastId);
+          toast.success('Registered Successfully');
+          getProfile();
+          setDisableReg(false);
+        })
+        .catch((err) => {
+          toast.dismiss(toastId);
+          toast.error('Unable register. Please try again later.');
+          setDisableReg(false);
+        });
+    } else {
+      toast.error('Please refresh the page');
+    }
   }
-
+  async function getProfile() {
+    if (currentUser?.emailVerified) {
+      const userDetails = await axios.get('/api/username', {
+        params: { uid: currentUser.uid },
+      });
+      const profileDetails = await axios.get('/api/user', {
+        params: { username: userDetails.data.username },
+      });
+      setProfile(profileDetails.data);
+    }
+  }
   useEffect(() => {
     async function fetchProfile() {
       if (currentUser?.emailVerified) {
@@ -60,9 +83,14 @@ export default function Department({ data }) {
       }
     }
     fetchProfile();
+    setDisableReg(false);
   }, [currentUser]);
   return (
     <React.Fragment>
+      <Head>
+        <title>{department}</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className={styles.container}>
         <NavbarComp />
         <main>
@@ -72,8 +100,12 @@ export default function Department({ data }) {
             }
           >
             <h1 className={styles.pageHeading}>
-              Department of{' '}
-              {department == 'Chemical' ? 'Chemical Engineering' : department}
+              Department of {department}
+              {department == 'Chemical' ||
+              department == 'Mechanical' ||
+              department == 'Civil'
+                ? ' Engineering'
+                : ' '}
             </h1>
             <Row className={styles.wrapper}>
               <Col
@@ -168,6 +200,25 @@ export default function Department({ data }) {
                       </Row>
                     );
                   })}
+                  {events[id].max_team_size != 1 &&
+                  events[id].eventid != '69' ? (
+                    <Row>
+                      <div className={styles.roundCard}>
+                        This is a team event and each person in the team must
+                        register individually and must also obtain a pass in
+                        order to participate.
+                      </div>
+                    </Row>
+                  ) : null}
+                  {events[id].eventid == '69' ? (
+                    <Row>
+                      <div className={styles.roundCard}>
+                        This is a team event and any 2 out of 5 people in the
+                        team must register individually and must also obtain a
+                        pass in order to participate.
+                      </div>
+                    </Row>
+                  ) : null}
                   <div className={styles.row}>
                     <div className={styles.col}>
                       {events[id].organisers.map((organiser, id) => {
@@ -196,11 +247,11 @@ export default function Department({ data }) {
                           ' '}
                       per team
                     </div>
-                    <div className={styles.col}>
+                    {/* <div className={styles.col}>
                       {' '}
                       <FaCalendarAlt></FaCalendarAlt>
                       <br></br>Oct 8, 9:00 AM
-                    </div>
+                    </div> */}
                     <div className={styles.col}>
                       {' '}
                       <FaRegBuilding></FaRegBuilding>
@@ -208,6 +259,10 @@ export default function Department({ data }) {
                       {events[id].open_to == 'All'
                         ? 'any Department'
                         : events[id].open_to.join()}
+                      <br />{' '}
+                      {events[id].category == 'tech'
+                        ? 'Not open to SSNites'
+                        : ''}
                     </div>
                     <div className={styles.col}>
                       {' '}
@@ -232,18 +287,21 @@ export default function Department({ data }) {
                         Registered
                       </button>
                     ) : (
-                      <button
-                        className={styles.registerButton}
-                        onClick={() => {
-                          currentUser
-                            ? currentUser.emailVerified
-                              ? register(id)
-                              : router.push('/unverified')
-                            : router.push('/signin');
-                        }}
-                      >
-                        Register
-                      </button>
+                      <>
+                        <button
+                          className={styles.registerButton}
+                          disabled={disableReg}
+                          onClick={() => {
+                            currentUser
+                              ? currentUser.emailVerified
+                                ? register(id)
+                                : router.push('/unverified')
+                              : router.push('/signin');
+                          }}
+                        >
+                          Register
+                        </button>
+                      </>
                     )}
                   </div>
                 </div>
@@ -251,6 +309,7 @@ export default function Department({ data }) {
             </Row>
           </div>
         </main>
+        <Footer />
       </div>
     </React.Fragment>
   );

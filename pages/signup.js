@@ -1,4 +1,5 @@
 import axios from 'axios';
+import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
@@ -52,7 +53,6 @@ function SignUp() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    console.log(state);
     try {
       setLoading(true);
       const { user: currentUser } = await signup(
@@ -61,8 +61,10 @@ function SignUp() {
       );
       if (currentUser) {
         const username =
-          state['full_name'].toLowerCase().replace(' ', '_') +
-          generate4DigitNumber();
+          state['full_name']
+            .substring(0, 15)
+            .toLowerCase()
+            .replace(/\s/g, '_') + generate4DigitNumber();
         const dicebearURL = `https://avatars.dicebear.com/api/bottts/${username}.svg`;
         await currentUser.sendEmailVerification();
         toast.success('Verification email sent');
@@ -84,7 +86,6 @@ function SignUp() {
           },
         })
           .then(() => {
-            console.log('SignUp success');
             toast.success('Sign up successful!');
           })
           .catch(() => {
@@ -94,11 +95,8 @@ function SignUp() {
       } else {
         toast.error('Error signing up');
       }
-      //console.log('SignUp success');
       setLoading(false);
     } catch (err) {
-      console.log(err.toString());
-      //console.log('Failed to login', err);
       toast.error('An unexpected error has occurred. ☠️');
     } finally {
       setLoading(false);
@@ -107,6 +105,10 @@ function SignUp() {
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Invente 6.0</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className={styles2.animation_wrapper}>
         <div
           className={styles2['particle'] + ' ' + styles2['particle_4']}
@@ -192,41 +194,83 @@ function SignUp() {
                 <Row>
                   <Col xs={12} md={6}>
                     <h5 className={styles.inputLabel}>Year</h5>
-                    <select
-                      className={styles.inputField}
-                      required
-                      onChange={(e) => onChange('year', e)}
-                    >
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5">5</option>
-                    </select>
+                    <div className={styles.terminalInput}>
+                      <p>{'>'}</p>
+                      <select
+                        className={styles.inputField}
+                        required
+                        onChange={(e) => onChange('year', e)}
+                      >
+                        <option className={styles.option} value="1">
+                          1
+                        </option>
+                        <option className={styles.option} value="2">
+                          2
+                        </option>
+                        <option className={styles.option} value="3">
+                          3
+                        </option>
+                        <option className={styles.option} value="4">
+                          4
+                        </option>
+                        <option className={styles.option} value="5">
+                          5
+                        </option>
+                      </select>
+                    </div>
                   </Col>
                   <Col xs={12} md={6}>
                     <h5 className={styles.inputLabel}>Department</h5>
-                    <input
-                      className={styles.inputField}
-                      type="text"
-                      list="departments"
-                      pattern="[A-Za-z]{1,}"
-                      onChange={(e) => onChange('department', e)}
-                    />
-                    <datalist
-                      id="departments"
-                      className={styles.inputField}
-                      required
+                    <div className={styles.terminalInput}>
+                      <p>{'>'}</p>
+                      <input
+                        className={styles.inputField}
+                        type="text"
+                        list="departments"
+                        pattern="[A-Za-z]{1,}"
+                        onChange={(e) => onChange('department', e)}
+                        required
+                      />
+                      <datalist
+                        id="departments"
+                        className={styles.inputField}
+                        required
+                      >
+                        <option className={styles.option} value="CSE">
+                          CSE
+                        </option>
+                        <option className={styles.option} value="IT">
+                          IT
+                        </option>
+                        <option className={styles.option} value="ECE">
+                          ECE
+                        </option>
+                        <option className={styles.option} value="EEE">
+                          EEE
+                        </option>
+                        <option className={styles.option} value="Mechanical">
+                          Mechanical
+                        </option>
+                        <option className={styles.option} value="BME">
+                          BME
+                        </option>
+                        <option className={styles.option} value="Civil">
+                          Civil
+                        </option>
+                        <option className={styles.option} value="Chemical">
+                          Chemical
+                        </option>
+                      </datalist>
+                    </div>
+                    <p
+                      style={{
+                        textAlign: 'left',
+                        fontSize: '1.7vh',
+                        color: 'rgb(102, 116, 148)',
+                      }}
                     >
-                      <option value="CSE">CSE</option>
-                      <option value="IT">IT</option>
-                      <option value="ECE">ECE</option>
-                      <option value="EEE">EEE</option>
-                      <option value="Mechanical">Mechanical</option>
-                      <option value="BME">BME</option>
-                      <option value="Civil">Civil</option>
-                      <option value="Chemical">Chemical</option>
-                    </datalist>
+                      If other, type your department
+                    </p>
                   </Col>
                 </Row>
                 <Row>

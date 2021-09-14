@@ -19,6 +19,7 @@
   align-items: center;
   z-index: -1;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 .centerItem {
   position: fixed;
@@ -30,7 +31,14 @@
   /* left: calc(50% - 45vw); */
   text-align: center;
   width: 50%;
+  margin-top: 5vw;
 }
+
+/* @media screen and (min-width: 1000px) {
+  .logo {
+    
+  }
+} */
 
 .headerRow {
   margin-top: 6%;
@@ -39,11 +47,14 @@
   margin-top: 8vw;
 }
 .dept_cards {
-  margin-top: 3vw !important;
+  padding-top: 3em;
 }
 @media screen and (max-width: 1000px) {
   .centerLogo {
     top: 20vw;
+  }
+  .headerRow {
+    margin-top: 25%;
   }
 }
 .astronaut {
@@ -107,8 +118,14 @@
 .sub_title {
   position: relative;
   left: calc(50% - 10px);
-  margin-bottom: 3vw;
+  margin-bottom: 3em;
   font-family: 'Menlo', monospace;
+}
+
+@media screen and (min-width: 1000px) {
+  .sub_title {
+    margin-bottom: 6em;
+  }
 }
 .sub_title h2 {
   color: #fff;
@@ -172,8 +189,7 @@
   width: 200px;
   height: 200px;
   border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: 0.4s;
   margin-top: 50px;
@@ -191,8 +207,7 @@
   border-radius: 40px;
   object-fit: cover;
   z-index: 10;
-  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+  box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.2);
 }
 
 .card .card_title {
@@ -276,17 +291,11 @@
 
 /* Sponsors*/
 .spons_section {
-  margin-top: -2rem;
+  margin-top: 2rem;
 }
 #sponsors {
   scroll-margin-top: 400px;
 }
-/* 
-@media screen and (max-width: 991px) {
-  .spons_section {
-    margin-top: 1vw !important;
-  }
-} */
 
 @keyframes scroll {
   0% {
@@ -296,63 +305,29 @@
     transform: translateX(calc(-250px * 7));
   }
 }
-.slider {
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
 
-  height: 150px;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: 960px;
-}
-.slide {
-  margin: 2em;
-  margin-top: 3em;
-}
-.slider::before,
-.slider::after {
-  content: '';
-  height: 200px;
-  position: absolute;
-  width: 200px;
-  z-index: 2;
-}
-.slider::after {
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg);
-}
-.slider::before {
-  left: 0;
-  top: 0;
-}
-.slider .slide_track {
-  animation: scroll 30s linear infinite;
-  display: flex;
-  width: calc(250px * 14);
-}
-.slider .slide {
-  height: 200px;
-  width: 250px;
-}
-.filler {
-  height: 10vh;
-}
 .hide {
   display: none;
 }
 .sponsors {
   text-align: center;
   margin-top: 10rem;
+  padding-top: 2em;
+  padding: 2em;
 }
 .sponsors img {
-  margin-top: 2rem;
-  width: 15rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 1em;
 }
-.sponsors .facilio {
-  margin-top: 2rem;
-  width: 20rem !important;
+@media screen and (min-width: 1186px) {
+  .sponsorsSpaced {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
 }
+
 /*Organiser section*/
 .org_section {
   margin-top: 8rem;
@@ -366,11 +341,21 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: rgba(144, 53, 172);
+  background-color: #11192779;
+  background-image: radial-gradient(
+    at 50% 50%,
+    rgba(171, 44, 196, 0.5) 0,
+    transparent 90%
+  );
 }
 .org_card {
   position: relative;
-  background: rgba(144, 53, 172);
+  background-color: #11192779;
+  background-image: radial-gradient(
+    at 50% 50%,
+    rgba(171, 44, 196, 0.5) 0,
+    transparent 90%
+  );
   width: 200px;
   height: 250px;
   border-radius: 6px;
@@ -397,10 +382,10 @@
   font-weight: 800;
   letter-spacing: 0.01em;
   position: absolute;
-  top: -1em;
+  top: -0.5rem;
 }
 .org_card_content {
-  margin-top: -2rem;
+  margin-top: -1rem;
   opacity: 0;
   animation: ContentFadeIn 0.8s 1.6s forwards;
 }
@@ -413,13 +398,13 @@
 .org_card_dept {
   font-weight: bold;
   position: absolute;
-  top: 0.5em;
+  top: 0.8rem;
 }
 
 .org_card_phone {
   font-size: 0.9em;
   position: absolute;
-  top: 2em;
+  top: 2.2rem;
 }
 
 .org_cols {
@@ -466,12 +451,28 @@
   }
   50% {
     opacity: 1;
-    filter: blur(2px);
+    filter: blur(0);
   }
   100% {
     transform: translateY(0) scale(1);
     opacity: 1;
     filter: blur(0);
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .org_card_svg {
+    display: none;
+  }
+  .org_card {
+    position: relative;
+    height: 270px;
+  }
+  .org_card_content {
+    margin-top: 0;
+  }
+  .org_card_image {
+    border-bottom: solid#03e9f4 2px;
   }
 }
 
@@ -487,13 +488,12 @@
   margin-top: 10em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #111927;
+  background-color: #11192779;
   background-image: radial-gradient(
-      at 47% 33%,
-      hsl(289.9, 87%, 47%) 0,
-      transparent 59%
-    ),
-    radial-gradient(at 82% 65%, hsl(218, 39%, 11%) 0, transparent 55%);
+    at 50% 50%,
+    rgba(171, 44, 196, 0.5) 0,
+    transparent 90%
+  );
   width: 50vw;
   border-radius: 25px;
 }
@@ -510,36 +510,25 @@
   margin: 2vw 1vw;
 }
 .days {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(203, 132, 221, 0.75);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: #b6b9be;
+  border-radius: 12px;
+  color: #b6b9be;
 }
 .hours {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.904);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  color: #183059;
+  color: #b6b9be;
 }
 .minutes {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(38, 255, 244, 0.75);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: #b6b9be;
 }
 .seconds {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(38, 255, 110, 0.75);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: #b6b9be;
 }
 .numbers {
-  color: #183059;
+  color: #c7ccd3;
   font-size: 2.5em;
   font-weight: bold;
 }
@@ -557,7 +546,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   .days,
   .hours,
   .minutes,

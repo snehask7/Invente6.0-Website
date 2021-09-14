@@ -4,11 +4,9 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  scroll-behavior: smooth;
-  min-height: 100vh;
+  min-height: 100% !important;
 }
 main {
   min-height: 100%;
@@ -610,3 +608,31 @@ svg.active .svg-elem-55 {
 .cls-2 {
   opacity: 0.92;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(46, 43, 42);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #03e9f4;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #03e9f4;
+}
+
+/* @media screen and (max-width: 471px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+} */

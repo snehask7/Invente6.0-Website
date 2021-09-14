@@ -1,4 +1,5 @@
 import axios from 'axios';
+import Head from 'next/head';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
@@ -13,6 +14,7 @@ import {
   FaUniversity,
   FaUserGraduate,
 } from 'react-icons/fa';
+import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import eventsInfo from '../eventsInfo.json';
 import { useAuth } from '../lib/hooks';
@@ -21,10 +23,19 @@ import styles from '../styles/Profile.module.css';
 
 function Profile() {
   const [profile, setProfile] = useState();
+  const [pass, setPass] = useState(false);
   const { currentUser } = useAuth();
   const router = useRouter();
   const { navbarToggle, toggleNavbar } = useNav();
-
+  const passNames = {
+    bmeHack: 'Biomedicathon',
+    cseHack: 'Devathlon',
+    eceHack: 'Hackinfinity',
+    nonTech: 'Non-Tech',
+    tech: 'Tech',
+    wsCentral: 'AI/ML Workshop',
+    wsCivil: 'Civil Workshop',
+  };
   useEffect(() => {
     async function getProfile() {
       const userDetails = await axios.get('/api/username', {
@@ -36,7 +47,17 @@ function Profile() {
         });
         if (profileDetails?.data) {
           setProfile(profileDetails.data);
-          console.log(profileDetails);
+          if (profileDetails.data.paid) {
+            var count = 0;
+
+            Object.keys(profileDetails.data.paid).forEach((pass, id) => {
+              if (profileDetails.data.paid[pass] == true) {
+                count += 1;
+              }
+            });
+            if (count == 0) setPass(false);
+            else setPass(true);
+          }
         } else {
           toast.error('Could not fetch profile');
           router.push('/');
@@ -200,6 +221,10 @@ function Profile() {
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Profile</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <NavbarComp />
       <div className={!navbarToggle ? styles.card : styles.hideCard}>
         {profile ? (
@@ -226,6 +251,33 @@ function Profile() {
               <div className={styles.text}>{profile.fullName}</div>
             </div> */}
             <Container className={styles.details}>
+              <Row>
+                <Col xs={12} sm={12} md={12} className={styles.ticketCol}>
+                  <div className={styles.ticket}>
+                    <p className={styles.eventTitle}>Event Passes Obtained</p>
+                    <hr />
+                    <span className={styles.admit}>
+                      {profile.paid && pass ? (
+                        Object.keys(profile.paid).map((pass, id) => {
+                          return profile.paid[pass] == true ? (
+                            <>
+                              <FaCheckCircle
+                                className={styles.icon_check}
+                              ></FaCheckCircle>
+                              &nbsp;
+                              {passNames[pass]}
+                              <br />
+                            </>
+                          ) : null;
+                        })
+                      ) : (
+                        <b>No pass obtained yet</b>
+                      )}
+                    </span>
+                    <br></br>
+                  </div>
+                </Col>
+              </Row>
               <Row>
                 <Col xs={6} sm={6} md={4} className={styles.cols}>
                   <div>
@@ -297,11 +349,18 @@ function Profile() {
         {profile ? (
           <section className={styles.price_section} id="pricing">
             <div className={styles.feature}>{renderEvents()}</div>
+            {console.log(profile.events)}
+            {profile.events?.length === 0 ? (
+              <h5 style={{ textAlign: 'center' }}>
+                You have not registered for any events yet!
+              </h5>
+            ) : null}
           </section>
         ) : (
           currentUser && null
         )}
       </div>
+      {profile ? <Footer /> : null}
     </div>
   );
 }

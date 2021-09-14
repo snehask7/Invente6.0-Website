@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -5,6 +6,7 @@ import { toast } from 'react-hot-toast';
 import Typist from 'react-typist';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
+import { useNav } from '../lib/navbarstate';
 import styles2 from '../styles/Auth.module.css';
 import styles from '../styles/Signin.module.css';
 
@@ -14,6 +16,7 @@ function Forgot() {
   const [loading, setLoading] = useState(false);
   const { currentUser, resetPassword } = useAuth();
   const router = useRouter();
+  const { navbarToggle, toggleNavbar } = useNav();
 
   const [step, setStep] = useState(-1);
 
@@ -27,7 +30,6 @@ function Forgot() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    console.log(formEmail);
     setLoading(true);
     try {
       await toast.promise(resetPassword(formEmail), {
@@ -39,13 +41,16 @@ function Forgot() {
       setSentMail(true);
       router.push('/');
     } catch (err) {
-      console.log(err);
       setLoading(false);
     }
   };
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Invente 6.0</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <NavbarComp />
       <main className={navbarToggle ? styles.hide : styles2.page_wrapper}>
         <div className={styles.signinCard}>

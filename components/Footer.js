@@ -7,7 +7,7 @@ const Footer = ({ sticky }) => {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container
+    <div
       fluid
       style={{
         textAlign: 'center',
@@ -16,14 +16,84 @@ const Footer = ({ sticky }) => {
       }}
       className={styles.align_items_center + ' ' + styles.footer}
     >
-      <Row>
-        <Col
-          style={{
-            textAlign: 'center',
-          }}
-          className={styles.footer_copyright}
-        >
-          <a target="_blank" href="#">
+      <p>Developed By</p>
+      <Container
+        style={{
+          marginBottom: '1em',
+        }}
+      >
+        <Row>
+          <Col xs={6} sm={6} md={4} lg={2}>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/sneha-sriram-/"
+              className={styles.devLink}
+              rel="noreferrer"
+            >
+              Sneha Sriram
+            </a>
+          </Col>
+          <Col xs={6} sm={6} md={4} lg={2}>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/sruthibijoyr/"
+              className={styles.devLink}
+              rel="noreferrer"
+            >
+              Sruthi Bijoy
+            </a>
+          </Col>
+          <Col xs={6} sm={6} md={4} lg={2}>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/siddharth-sriraman/"
+              className={styles.devLink}
+              rel="noreferrer"
+            >
+              Siddharth Sriraman
+            </a>
+          </Col>
+          <Col xs={6} sm={6} md={4} lg={2}>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/vanathi-g/"
+              className={styles.devLink}
+              rel="noreferrer"
+            >
+              Vanathi Ganeshraj
+            </a>
+          </Col>
+          <Col xs={6} sm={6} md={4} lg={2}>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/harisaran-g/"
+              className={styles.devLink}
+              rel="noreferrer"
+            >
+              Harisaran G
+            </a>
+          </Col>
+          <Col xs={6} sm={6} md={4} lg={2}>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/sabeshbharathi/"
+              className={styles.devLink}
+              rel="noreferrer"
+            >
+              Sabesh Bharathi
+            </a>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col
+            style={{
+              textAlign: 'center',
+            }}
+            className={styles.footer_copyright}
+          >
+            {/* <a target="_blank" href="#">
             <AnimatedSocialIcon
               width="1em"
               className={styles.icon}
@@ -40,29 +110,34 @@ const Footer = ({ sticky }) => {
               brandName="facebook"
               hoverColor="#3b5998"
             />
-          </a>
-          <a target="_blank" href="#">
-            <AnimatedSocialIcon
-              width="1em"
-              className={styles.icon}
-              animation="bounce"
-              brandName="instagram"
-              hoverColor="#E1306C"
-            />
-          </a>
-        </Col>
-      </Row>
-      <Row>
-        <Col
-          style={{
-            textAlign: 'center',
-          }}
-          className={styles.footer_copyright}
-        >
-          <h4>Copyright © {year} SSN</h4>
-        </Col>
-      </Row>
-    </Container>
+          </a> */}
+            <a
+              target="_blank"
+              href="https://www.instagram.com/ssn_invente6.0/"
+              rel="noreferrer"
+            >
+              <AnimatedSocialIcon
+                width="1em"
+                className={styles.icon}
+                animation="bounce"
+                brandName="instagram"
+                hoverColor="#E1306C"
+              />
+            </a>
+          </Col>
+        </Row>
+        <Row>
+          <Col
+            style={{
+              textAlign: 'center',
+            }}
+            className={styles.footer_copyright}
+          >
+            <h4>Copyright © {year} SSN</h4>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 };
 

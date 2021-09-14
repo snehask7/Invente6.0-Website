@@ -16,7 +16,6 @@
       #070e2100,
       rgba(144, 53, 172, 0.61)
     );
-  min-height: 100vh;
   align-items: center;
   background-blend-mode: screen;
   background-size: cover;
@@ -37,11 +36,13 @@
   color: white;
   font-family: 'Voltaire', sans-serif;
   font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 2rem;
 }
 @media screen and (max-width: 1000px) {
   .pageHeading {
     font-size: 5vw;
-    margin-top: 2em;
+    margin-top: 20%;
   }
 }
 
@@ -50,7 +51,7 @@
   min-width: 14vh;
   max-width: 18vh;
   min-height: 7vh;
-  margin: 2vh;
+  margin: 1vh;
   color: white;
   text-align: center;
   margin-left: auto;

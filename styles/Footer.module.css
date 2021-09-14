@@ -1,8 +1,10 @@
 .footer {
-  background-color: #27323a;
+  background-color: #27323a3a;
+  color: #fff;
   bottom: 0 !important;
-  padding-top: 10px !important;
+  padding-top: 60px;
   padding-bottom: 8px !important ;
+  width: 100%;
 }
 
 .footer_copyright {
@@ -33,4 +35,26 @@
 .icon {
   padding: 1em;
   color: white !important;
+}
+
+.devLink {
+  color: #03e9f4;
+}
+
+.devLink:hover {
+  color: #03e9f4;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #888184, 0 0 4px #888184,
+      0 0 5px #888184, 0 0 5px #888184, 0 0 6px #888184;
+  }
+  to {
+    text-shadow: 0 0 2px #fff, 0 0 3px #bebaba, 0 0 4px #bebaba, 0 0 5px #bebaba,
+      0 0 6px #bebaba, 0 0 7px #bebaba, 0 0 8px #bebaba;
+  }
 }

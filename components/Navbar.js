@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import { Col, Row } from 'react-bootstrap';
+import { FaAngleDown } from 'react-icons/fa';
 import { useAuth } from '../lib/hooks';
 import { useNav } from '../lib/navbarstate';
 import styles from '../styles/Navbar.module.css';
-
 export default function NavbarComp() {
   const { currentUser, logout } = useAuth();
   const [isOpen, setIsOpen] = useState(false);
@@ -14,38 +15,51 @@ export default function NavbarComp() {
   const onSignOut = async (event) => {
     try {
       await logout();
-      console.log('SignOut success');
       router.push('/');
     } catch (err) {
       console.log('Failed to logout', err);
     }
   };
 
+  const updateNav = () => {
+    if (!isOpen) {
+      document.getElementById('navbar').style.right = '0px';
+    } else {
+      document.getElementById('navbar').style.right = '10px';
+    }
+  };
+
   return (
-    <div className={styles.navbar}>
+    <div className={styles.navbar} id="navbar">
       <div className={styles.inventeLogo}>
-        <Link href="https://www.ssn.edu.in/" passHref>
-          <Image
-            src="/icons/ssn.png"
-            className={styles.ssnlogo}
-            width={80}
-            height={25}
-            alt="logo"
-          ></Image>
-        </Link>
-        <Link href="/" passHref>
-          <Image
-            src="/icons/logo.png"
-            className={styles.ssnlogo}
-            width={100}
-            height={25}
-            alt="logo"
-          ></Image>
-        </Link>
+        <Row>
+          <Col>
+            <Link href="https://www.ssn.edu.in/" passHref>
+              <Image
+                src="/icons/ssn.webp"
+                className={styles.ssnlogo}
+                width={80}
+                height={25}
+                alt="logo"
+              ></Image>
+            </Link>
+          </Col>
+          <Col className={styles.inventeHide}>
+            <Link href="/" passHref>
+              <Image
+                src="/icons/logo.webp"
+                width={100}
+                height={25}
+                alt="logo"
+              ></Image>
+            </Link>
+          </Col>
+        </Row>
       </div>
       <div
         className={styles.hamburger}
         onClick={() => {
+          updateNav();
           setIsOpen(!isOpen);
           toggleNavbar();
         }}
@@ -80,15 +94,15 @@ export default function NavbarComp() {
       <div className={currentUser ? styles.centerTab : styles.centerTabMore}>
         <div className={styles.authBar}>
           <Link href="/#departments">
-            <a className={styles.centerNavLink}>Departments</a>
+            <a className={styles.centerNavLink}>Events</a>
           </Link>
           <Link href="/workshop">
             <a className={styles.centerNavLink}>Workshops</a>
           </Link>
           <Link href="/hackathons">
-            <a className={styles.centerNavLink}>Hackathon</a>
+            <a className={styles.centerNavLink}>Hackathons</a>
           </Link>
-          <Link href="/#departments">
+          <Link href="/#sponsors">
             <a className={styles.centerNavLink}>Sponsors</a>
           </Link>
           {/* <Link href="/workshops">
@@ -105,6 +119,26 @@ export default function NavbarComp() {
 
       {isOpen ? (
         <div className={styles.sideBar}>
+          <div className={styles.inventeLogoSide}>
+            <Link href="https://www.ssn.edu.in/" passHref>
+              <Image
+                src="/icons/ssn.webp"
+                className={styles.ssnlogo}
+                width={80}
+                height={25}
+                alt="logo"
+              ></Image>
+            </Link>
+            <Link href="/" passHref>
+              <Image
+                src="/icons/logo.webp"
+                className={styles.ssnlogo}
+                width={100}
+                height={25}
+                alt="logo"
+              ></Image>
+            </Link>
+          </div>
           <Link href="/">
             <a
               onClick={() => {
@@ -124,7 +158,7 @@ export default function NavbarComp() {
               }}
               className={styles.sideBarNavLink}
             >
-              Departments
+              Events
             </a>
           </Link>
           <Link href="/workshop">
@@ -138,7 +172,7 @@ export default function NavbarComp() {
               Workshops
             </a>
           </Link>
-          <Link href="hackathons">
+          <Link href="/hackathons">
             <a
               onClick={() => {
                 toggleNavbar();
@@ -146,7 +180,7 @@ export default function NavbarComp() {
               }}
               className={styles.sideBarNavLink}
             >
-              Hackathon
+              Hackathons
             </a>
           </Link>
           <Link href="/#sponsors">
@@ -253,7 +287,7 @@ export default function NavbarComp() {
         {!currentUser ? (
           <div className={styles.authBar}>
             <Link href="/signin" passHref>
-              <a className={styles.loginBtn}>Log In</a>
+              <a className={styles.loginBtn}>LOG IN</a>
             </Link>
             <Link href="/signup" passHref>
               <a className={styles.signupBtn}>Sign Up</a>
@@ -273,12 +307,13 @@ export default function NavbarComp() {
                 src={
                   currentUser.photoURL
                     ? currentUser.photoURL
-                    : '/icons/hacker.png'
+                    : '/icons/hacker.webp'
                 }
                 alt="profile"
                 width={40}
                 height={40}
               />
+              <FaAngleDown style={{ color: 'white' }} />
             </button>
             <div
               className={

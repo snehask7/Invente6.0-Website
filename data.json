@@ -4,19 +4,19 @@
       "name": "Hackinfinity",
       "category": "hackathon",
       "min_team_size": 1,
-      "max_team_size": 4,
+      "max_team_size": 6,
       "organisers": [
         { "name": "Aishwarya", "phone": 7338935634 },
         { "name": "Nimisha", "phone": 9840780834 }
       ],
       "description": {
-        "summary": "<i>“Because the people who are crazy enough to think they can change the world are the ones who do”<br/>~Steve Jobs</i><br/><br/>Have you ever been awestruck by the reach of technology? Does its revolutionary touch on this world dazzle you? Have you ever dreamed of being a tech-savvy pioneer? This is your time! Grab the baton! If you want to make the world a better place, the answer lies in creativity and innovation. Now’s your time to take these problems head on and arrive at remarkable solutions!<br/><br/>Join us in this 24 - hour hackathon and prototype a groundbreaking solution to problems in these topics. Creativity is the greatest rebellion in existence. Can you rebel and innovate a solution to the problems in these areas? Brave against the time crunch and grab this opportunity to win exciting prizes!!!<br/><br/> <b>Topics for Problem Statement</b><ul><li>Cyber Security</li><li>Medical and Healthcare</li><li>Women's Safety</li><li>Climate Change and Sustainability</li><li>Fintech</li><li>Technology for agriculture</li><li>Student Innovation (Open Idea)</li></ul><br/>The hackathon will follow a leader board system. The points awarded will be the cumulative points, gained by the team over the three reviews and final presentation. The top team will be announced as the winner of the hackathon.<br/><b>Decision taken by the review panel will be final.</b>",
+        "summary": "<i>“Because the people who are crazy enough to think they can change the world are the ones who do”<br/>~Steve Jobs</i><br/><br/>Have you ever been awestruck by the reach of technology? Does its revolutionary touch on this world dazzle you? Have you ever dreamed of being a tech-savvy pioneer? This is your time! Grab the baton! If you want to make the world a better place, the answer lies in creativity and innovation. Now’s your time to take these problems head on and arrive at remarkable solutions!<br/><br/>Join us in this 24 - hour hackathon and prototype a groundbreaking solution to problems in these topics. Creativity is the greatest rebellion in existence. Can you rebel and innovate a solution to the problems in these areas? Brave against the time crunch and grab this opportunity to win exciting prizes!!!<br/><br/> <b>Topics for Problem Statement</b><ul><li>Cyber Security</li><li>Medical and Healthcare</li><li>Women's Safety</li><li>Climate Change and Sustainability</li><li>Fintech</li><li>Technology for agriculture</li><li>Agritech</li><li>Student Innovation (Open Idea)</li></ul><br/>The hackathon will follow a leader board system. The points awarded will be the cumulative points, gained by the team over the three reviews and final presentation. The top team will be announced as the winner of the hackathon.<br/><b>Decision taken by the review panel will be final.</b>",
         "rounds": 5,
         "round_description": [
           {
             "name": "Schedule",
             "duration": null,
-            "description": "<h5>Day 1:</h5><ul><li>Virtual meet set up</li><li>Introduction - Google meet</li><li>Hackathon start</li><li>First Review - Discord</li><li>Second Review - Discord</li></ul><br/><h5>Day 2:</h5><ul><li>Third Review - Discord</li><li>Hackathon ends</li><li>Final Presentation - Google Meet</li><li>Valedictory</li></ul>"
+            "description": "<h5>Day 1:</h5><ul><li>10.00 AM – Introduction</li><li>11.00 AM – Hackathon starts</li><li>03.00 PM – First Review</li></ul><br/><h5>Day 2:</h5><ul><li>10.00 PM – Second Review</li><li>08.00 AM – Third Review</li><li>11.00 AM – Hackathon ends</li><li>12.00 PM – Final Presentation</li><li>03.30 PM – Valedictory</li></ul>"
           },
           {
             "name": "First Review:",
@@ -54,8 +54,8 @@
       "min_team_size": 1,
       "max_team_size": 3,
       "organisers": [
-        { "name": "Harini", "phone": 8073169475 },
-        { "name": "Aadhish", "phone": 7598098147 }
+        { "name": "Sriram", "phone": 9884625729 },
+        { "name": "Kirthivasan", "phone": 9962744652 }
       ],
       "description": {
         "summary": "Solve puzzles and break the ultimate code",
@@ -82,20 +82,23 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
-      "organisers": [{ "name": "Manjunathan", "phone": 9789067642 }],
+      "organisers": [
+        { "name": "Shwetha S", "phone": 9790950184 },
+        { "name": "Krishi V", "phone": 9941683848 }
+      ],
       "description": {
-        "summary": null,
+        "summary": "As the amount of data increases day by day, extracting useful information from raw data has become inevitable. This event will test the participant’s skills in statistics, Machine Learning and Data Science.        ",
         "rounds": 2,
         "round_description": [
           {
             "name": "Round 1",
-            "duration": "30 mins",
+            "duration": null,
             "description": "MCQ Quiz on Data Science, Machine Learning and Statistics."
           },
           {
             "name": "Round 2",
-            "duration": "1.5 hours",
-            "description": "At the beginning, the participant will be asked a few questions for around 15 minutes for guiding them to use the correct model/testing their knowledge about the models that can be  used. If the team fails to answer the question the volunteer will guide the participants towards the  right direction (e.g.suggesting a column of values to be dropped etc) at the loss of points. Once a team solves the questions, the dataset (same dataset for all teams) will be given to  the team. The dataset will be technical in nature (related to ECE department). Using the answer to the questions as clues, each team must do exploratory analysis on  the dataset and come up with useful insights on the data and on how to proceed further.Then the team must implement a model/algorithm to predict the outputs for the given test values and measure the accuracy metrics along with the predictions."
+            "duration": null,
+            "description": "Teams will initially be quizzed (max 10 minutes) to test their basics and ensure they start off with appropriate  baseline models. Volunteers will guide the team towards the right direction if needed (e.g. suggesting a column of values to be dropped etc.) at the loss of points.<br/>After the quiz, the dataset will be provided. <br/>Teams are expected to perform exploratory data analysis, and implement a model/algorithm to predict the required value for the given test data. Teams will be judged based on the accuracy metrics as well as the predictions.            "
           }
         ]
       },
@@ -110,7 +113,6 @@
       "max_team_size": 3,
       "organisers": [
         { "name": "Palaniappan", "phone": 9791130573 },
-        { "name": "Karthik", "phone": 8015775424 },
         { "name": "Hariharan A", "phone": 9962903437 }
       ],
       "description": {
@@ -139,22 +141,22 @@
       "min_team_size": 1,
       "max_team_size": 3,
       "organisers": [
-        { "name": "Shwathi", "phone": 9445653201 },
-        { "name": "Ashwath", "phone": 9176253113 }
+        { "name": "Aakash", "phone": 8056722144 },
+        { "name": "Rangashri", "phone": 8825894683 }
       ],
       "description": {
-        "summary": null,
+        "summary": "Do you have what it takes to be a master marketer? Hitch on to \"The Big Meg\", pitch your product and if you are deemed worthy, fetch your reward.<br/><br/><b>Platform: Google Meet</b>",
         "rounds": 2,
         "round_description": [
           {
             "name": "Round 1",
             "duration": null,
-            "description": "Will be conducted in discord. Each team will be given a basic electronic product and will be given 4 minutes to prepare and sell the same to the judges for a maximum of 3 minutes."
+            "description": "Participants will be asked to come up with a solution to improve the sales of a simple product and mail their solutions on or before 5th October. Finalists will be shortlisted after evaluating the answers."
           },
           {
             "name": "Round 2",
             "duration": null,
-            "description": "Will again take place in discord and a theme or a problem statement will be established by the judges. And the participants will be given 20 mins to come up with a product or a service in accordance to the theme. And then the teams should convince the judges as to why they should invest in their product. The time cap for each pitch is set at 5 minutes."
+            "description": " Shortlisted finalists will be assigned an electronic product, will be made aware of a theme and are expected to pitch their product for a maximum of 7 minutes to a panel of judges. Winners will be ascertained based on how well their pitch is made relevant to the given theme."
           }
         ]
       },
@@ -167,7 +169,10 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
-      "organisers": [{ "name": "Sandhya B", "phone": 9790956452 }],
+      "organisers": [
+        { "name": "Indu S ", "phone": 9488758999 },
+        { "name": "Pranav Aadhithya K.B ", "phone": 7338773979 }
+      ],
       "description": {
         "summary": "Apply the basic principles of electronics, debug the given circuits and arrive at a solution",
         "rounds": 2,
@@ -193,20 +198,29 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 3,
-      "organisers": [{ "name": "Pooja S", "phone": 9791114323 }],
+      "organisers": [
+        { "name": "Aaryan S", "phone": 9952882211 },
+        { "name": "Gayathri S", "phone": 8754407646 },
+        { "name": "Karthik", "phone": 8015775424 }
+      ],
       "description": {
-        "summary": null,
-        "rounds": 2,
+        "summary": "Junkyard Jumble is a super fun semi-technical event that provides both.",
+        "rounds": 3,
         "round_description": [
           {
             "name": "Round 1",
             "duration": "15 mins",
-            "description": "The first round involves puzzles, scrambled words and references from your favourite fandoms. Use them to crack the physics concepts and move to the next round. This round requires quick thinking skills, analytical and mental ability. Basic concepts of physics will be tested. (class 11 and 12 physics concepts)."
+            "description": "This event triggers the participants to arrive at the solution by cracking simple puzzles and identifying well known Physics and Electronics Concepts. "
           },
           {
             "name": "Round 2",
             "duration": "3 mins per team",
-            "description": "This is the Dumb Charades round. Act out a basic technical (physics) question to your teammates. The team which guesses the maximum number of questions and also answers them correctly will win the competition."
+            "description": "This is the Dumb Charades round. The participants must act out questions to their teammates and then, find the answer, all under a ticking clock!"
+          },
+          {
+            "name": "Skills",
+            "duration": null,
+            "description": "Logical Reasoning, General Aptitude, Basic Physics, Fundamentals of Electronics and Semiconductors and 11/12th Physics"
           }
         ]
       },
@@ -218,8 +232,11 @@
       "name": "Paper Presentation",
       "category": "tech",
       "min_team_size": 1,
-      "max_team_size": 4,
-      "organisers": [{ "name": "Nethraa", "phone": 8939073910 }],
+      "max_team_size": 3,
+      "organisers": [
+        { "name": "Nethra P", "phone": 8925642614 },
+        { "name": "Bharath V", "phone": 9940656712 }
+      ],
       "description": {
         "summary": null,
         "rounds": 2,
@@ -227,7 +244,7 @@
           {
             "name": "Round 1:Submission of abstract",
             "duration": null,
-            "description": "The abstract of the paper of your preference from the given domains must be sent through mail by 1st October, 2021. The domains are as follows:<br/><ul><li>Antenna Systems and its Applications </li><li>Augmented Reality </li><li>Cognitive Science </li><li>Cybersecurity and its risk assessment techniques </li><li>Deep Learning </li><li>Emerging trends in Photonics </li><li>Internet of Intelligent Things </li><li>Internet of Things </li><li>Machine Learning </li><li>Machine Learning/ AI for networks </li><li>MEMS </li><li>Network Security and Blockchain Technology </li><li>Optical Communication and Networks </li><li>Robotics </li><li>Signal and Image processing</li><li>Virtual Reality</li></ul><br/>Email id to submit abstract: ssnieeecomsoc@gmail.com"
+            "description": "The abstract of the paper of your preference from the given domains must be sent through mail by 3rd October, 2021. The domains are as follows:<br/><ul><li>Antenna Systems and its Applications </li><li>Augmented Reality </li><li>Cognitive Science </li><li>Cybersecurity and its risk assessment techniques </li><li>Deep Learning </li><li>Emerging trends in Photonics </li><li>Internet of Intelligent Things </li><li>Internet of Things </li><li>Machine Learning </li><li>Machine Learning/ AI for networks </li><li>MEMS </li><li>Network Security and Blockchain Technology </li><li>Optical Communication and Networks </li><li>Robotics </li><li>Signal and Image processing</li><li>Virtual Reality</li></ul><br/>Email id to submit abstract: ssnieeecomsoc@gmail.com"
           },
           {
             "name": "Round 2",
@@ -245,9 +262,12 @@
       "category": "non-tech",
       "min_team_size": 1,
       "max_team_size": 3,
-      "organisers": [{ "name": "Vikram K", "phone": 7358046900 }],
+      "organisers": [
+        { "name": "Akash P", "phone": 6381586142 },
+        { "name": "Vikhas", "phone": 9361035286 }
+      ],
       "description": {
-        "summary": null,
+        "summary": "\"<i>Those are the two best words in English, 'Bidding' and 'War'.</i>\" - Evan Dougherty",
         "rounds": 2,
         "round_description": [
           {
@@ -270,24 +290,29 @@
       "name": "SketchX",
       "category": "non-tech",
       "min_team_size": 1,
-      "max_team_size": 3,
+      "max_team_size": 1,
       "organisers": [
-        { "name": "Tejaswi S", "phone": 6380562392 },
-        { "name": "Sharmada G", "phone": 7708617246 }
+        { "name": "Anusha", "phone": 9840251636 },
+        { "name": "Anjali", "phone": 9962096180 }
       ],
       "description": {
-        "summary": null,
-        "rounds": 2,
+        "summary": "Design is where science and art break even. Sketch X is a design event that will test the creativity and basic design knowledge of the participants. ",
+        "rounds": 3,
         "round_description": [
           {
             "name": "Round 1",
-            "duration": "45 mins",
-            "description": "Out of the few topics given on the spot, participants choose one to design a UI framework using any software they see fit. Each team will be scored by the judges and the co-participants(one from each team) through a google form that will be shared after every single presentation which will be 1 min(max). The form will be closed in a bare minimum time."
+            "duration": null,
+            "description": "MCQ round will be conducted based on topics like Design, Colour Theory and Graphic design principles through an online quiz platform."
           },
           {
             "name": "Round 2",
-            "duration": null,
-            "description": "It’s a guessing round where all the teams name 3 other teams who they think would have scored the highest (again, through a google form). for which they will be scored based on their accuracy."
+            "duration": "45 mins",
+            "description": "Out of the few topics given on the spot , participants who have cleared round 1 will choose one to design a Poster using any software they see fit(Adobe illustrator, Canva or PPT)"
+          },
+          {
+            "name": "Round 3",
+            "duration": "45 mins",
+            "description": "The participants will present their poster to the judges explaining the content of the poster and it will be judged based on the pitch, creativity and design. Each poster will be scored by the judges and the co-participants through a vote using an online poll."
           }
         ]
       },
@@ -363,11 +388,11 @@
       "min_team_size": 1,
       "max_team_size": 2,
       "organisers": [
-        { "name": "Sandhyavarshin", "phone": 9941288689 },
+        { "name": "Sandhyavarshini", "phone": 9941288689 },
         { "name": "Harsha", "phone": 9176962001 }
       ],
       "description": {
-        "summary": "This event consists of <b>two rounds</b> having a <b>duration of one and half an hour each.</b> Participants in the first round are required to design a webpage  under  the  given topic of any domain.  Selected   participants  are   allowed   for  the second round where they will be designing a webpage for the topics related to biomedical engineering domain.The participants can make use of any platform for developing theirwebpages.  At the  end of each round the participants are requested to  share their designsthrough an  email id  (which we will provide you) to assess the results. ",
+        "summary": "This event consists of <b>two rounds</b> having a <b>duration of one and half an hour each.</b> Participants in the first round are required to design a webpage  under  the  given topic of any domain.  Selected   participants  are   allowed   for  the second round where they will be designing a webpage for the topics related to biomedical engineering domain.The participants can make use of any platform for developing theirwebpages.  At the  end of each round the participants are requested to  share their designs through an  email id  (which we will provide you) to assess the results. ",
         "rounds": 0,
         "round_description": []
       },
@@ -389,18 +414,18 @@
         { "name": "Dharshan", "phone": 9789015214 }
       ],
       "description": {
-        "summary": "Participants are required to design a particular problem statement which we will be providing within a span of time and they'll have to present it to the panel of judges. It'll totally be of 2 rounds. One in which they'll have to design a simple model.  This is  the  screening round, where participants will be selected based on the reality of the designs. The second round will be the one where participants will be asked to produce a novel design of need with respect to any industry and that has to prove beneficial for the consumers. They'd have to explain it tothe judges. It's an individual  event. Participants  should be clear, concise in explaining  theaspects   of   the   design.   They   are   even   allowed   to   prepare   presentations   and   can   showsimulations, animations  of the designed 3D Model. Winners will be declared based on theinnovation, uniqueness, aesthetic approach and novelty of the proposed idea.<br><b>Platform to be used – Fusion 360, Solidworks, Blender</b>",
+        "summary": "Participants are required to design a particular problem statement which we will be providing within a span of time and they'll have to present it to the panel of judges. It'll totally be of 2 rounds. One in which they'll have to design a simple model.  This is  the  screening round, where participants will be selected based on the reality of the designs. The second round will be the one where participants will be asked to produce a novel design of need with respect to any industry and that has to prove beneficial for the consumers. They'd have to explain it to the judges. It's an individual  event. Participants  should be clear, concise in explaining  the aspects   of   the   design.   They   are   even   allowed   to   prepare   presentations   and   can   show simulations, animations  of the designed 3D Model. Winners will be declared based on theinnovation, uniqueness, aesthetic approach and novelty of the proposed idea.<br><b>Platform to be used – Fusion 360, Solidworks, Blender</b>",
         "rounds": 2,
         "round_description": [
           {
             "name": "Round 1",
             "duration": null,
-            "description": "Participants are required to design a product (exact 3D model ) of their own and submit it in aportal which we provide them. It has to relevant to the industry needs. Participants will befiltered in this round.<br><b>Filtering criteria - Complexity, originality.</b>"
+            "description": "Participants are required to design a product (exact 3D model ) of their own and submit it in a portal which we provide them. It has to relevant to the industry needs. Participants will be filtered in this round.<br><b>Filtering criteria - Complexity, originality.</b>"
           },
           {
             "name": "Round 2",
             "duration": null,
-            "description": "Participants are required to design a model which we assign them. Let's say we have a list of12 models from which they have to choose and design accordingly. The designs should bereplicated properly and rendered image has to be submitted for the same. Then they have toexplain the innovation in the design to the judges. More the innovation, higher the marks.<br><b>Novelty, aesthetics, uniqueness, innovation</b>"
+            "description": "Participants are required to design a model which we assign them. Let's say we have a list of 12 models from which they have to choose and design accordingly. The designs should be replicated properly and rendered image has to be submitted for the same. Then they have to explain the innovation in the design to the judges. More the innovation, higher the marks.<br><b>Novelty, aesthetics, uniqueness, innovation</b>"
           }
         ]
       },
@@ -424,12 +449,12 @@
           {
             "name": "Round 1",
             "duration": null,
-            "description": "Round 1 will take place before the main event around mid September during which the participating teams (team of 3) should send an abstract mentioning the Problem statement/theme from the list provided by us.<br/><b>Deadline - Sept 20</b><br/>Abstract should contain<br/><ul><li>Title</li><li>Description of the design</li><li>Novelty</li></ul>Submissions will be scrutinized and around 10-15 submissions will be selected for the secondround. Final list will be sent to the participants within the first week of October."
+            "description": "Round 1 will take place before the main event around mid September during which the participating teams (team of 3) should send an abstract mentioning the Problem statement/theme from the list provided by us.<br/><br/><b>Themes</b><br/><ul><li>Medical Apps/Remote monitoring</li><li>AI/ML</li><li>IoT</li><li>Vital Monitoring in Space</li><li>AR and VR</li><li>Human interfacing devices</li><li>3D designing</li></ul><br/>Abstract should contain<br/><ul><li>Title</li><li>Description of the design</li><li>Novelty</li></ul><br/><b>Deadline - Sept 20</b><br/>Submissions will be scrutinized and around 10-15 submissions will be selected for the second round. Final list will be sent to the participants within the first week of October."
           },
           {
             "name": "Round 2 (Main Event)",
-            "duration": null,
-            "description": "Shortlisted participants will have to deliver a presentation and the duration of which will belimited to 10 minutes. The top three teams will be awarded with prize money. Approximateevent duration will be 2 hours."
+            "duration": "2 hours",
+            "description": "The review will be conducted by the panel of judges from 3 to 5pm on Day 1 (October 7) and the final presentation (implementing all the suggestions provided by the judge) should be presented on Day 2 (October 8) from 3 to 5pm. The presentation will be limited to 10 minutes. The top three teams will be awarded with prize money."
           }
         ]
       },
@@ -486,7 +511,7 @@
           {
             "name": "Round 1",
             "duration": null,
-            "description": "The   first   round   will   consist   of   a   situation   type   quiz,   where   the   participants   will   be   givenbusiness situations, and they will be marked on the type of answers that they are writing. Theparticipants   will   be   judged   based   on   critical   reasoning,   strategic   thinking,   and   businessacumen.   This   will   NOT   be   an   MCQ   quiz,   the   participants   will   write   and   submit   theirresponses. One member of the team  will submit the responses, but the team members  candiscuss amongst themselves. (Elimination round, depending on the number of participants"
+            "description": "The   first   round   will   consist   of   a   situation   type   quiz,   where   the   participants   will   be   given business situations, and they will be marked on the type of answers that they are writing. The participants   will   be   judged   based   on   critical   reasoning,   strategic   thinking,   and   business acumen.   This   will   NOT   be   an   MCQ   quiz,   the   participants   will   write   and   submit   their responses. One member of the team  will submit the responses, but the team members  can discuss amongst themselves. (Elimination round, depending on the number of participants"
           },
           {
             "name": "Round 2",
@@ -565,7 +590,7 @@
           },
           {
             "name": "Event Rules",
-            "description": "<ul><li>Only a maximum of 4 authors and <b>only</b> student authors are allowed. It is not necessary that all authors must be from the same institute</li><li>he authors can present their paper individually or as a team during the final round</li><li><b>Plagiarism is strictly unacceptable.</b>Only original research works are accepted.</li><li>The paper must be in <b>DOUBLE COLUMN IEEE format</b>. This format must be strictly followed.</li><li>To refer the IEEE standard, use the link below : https://docs.google.com/document/d/1YgyGebtyRlekC8Wan6dXwCllsVC qa09C_glpRJ4P78Q/edit?usp=sharing </li><li>The paper submitted must be in <b>.pdf</b> format</li></ul>"
+            "description": "<ul><li>Only a maximum of 4 authors and <b>only</b> student authors are allowed. It is not necessary that all authors must be from the same institute</li><li>he authors can present their paper individually or as a team during the final round</li><li><b>Plagiarism is strictly unacceptable.</b>Only original research works are accepted.</li><li>The paper must be in <b>DOUBLE COLUMN IEEE format</b>. This format must be strictly followed.</li><li>To refer the IEEE standard, use the link: <a target=\"_blank\" href=\"https://docs.google.com/document/d/1YgyGebtyRlekC8Wan6dXwCllsVCqa09C_glpRJ4P78Q/edit?usp=sharing\"><u>IEE Format</u></a> </li><li>The paper submitted must be in <b>.pdf</b> format</li></ul>"
           }
         ]
       },
@@ -650,10 +675,10 @@
       "min_team_size": 1,
       "max_team_size": 3,
       "organisers": [
-        { "name": "Surabhi", "phone": 8248369664 },
-        { "name": "Shruthi", "phone": 9789015214 },
-        { "name": "Retika", "phone": 9789015214 },
-        { "name": "Shruthi", "phone": 9789015214 }
+        { "name": "Surabhi", "phone": 8939267346 },
+        { "name": "Shruthi", "phone": 9790466301 },
+        { "name": "Retika", "phone": 8939566476 },
+        { "name": "Swetha A", "phone": 8861119979 }
       ],
       "description": {
         "summary": "<b>DOMAINS COVERED:</b> Basics of EEE, Field theory, Digital logic circuits, Electronic devices, Microprocessors, Electrical Machines. ",
@@ -687,18 +712,18 @@
         { "name": "Saikrishna", "phone": 9159775911 }
       ],
       "description": {
-        "summary": "<b>IDEATE: </b>&nbsp;is an extended hackathon that kindles the passionate engineering minds to shape up their attractive ideas, that serves to solve a real-time problem or as a token of technological advancement.<br/><br/><b>DOMAINS</b>  <li>Internet Of Things – IoT </li><li>Crisis Response </li><li>Smart Security </li><li>Healthcare </li><li>Mobility </li><li>E- Technologies </li><li>Women Safety </li><li>Open Innovation </li><br/>If your idea doesn’t fall under the domains specified, don’t worry!! Put it on under Open Innovation and get a chance to feature as a winner!! ",
+        "summary": "<b>IDEATE: </b>&nbsp;It is an extended hackathon that kindles the passionate engineering minds to shape up their attractive ideas, that serves to solve a real-time problem or as a token of technological advancement.<br/><br/><b>DOMAINS</b>  <li>Internet Of Things – IoT </li><li>Crisis Response </li><li>Smart Security </li><li>Healthcare </li><li>Mobility </li><li>E- Technologies </li><li>Women Safety </li><li>Open Innovation </li><br/>If your idea doesn’t fall under the domains specified, don’t worry!! Put it on under Open Innovation and get a chance to feature as a winner!! ",
         "rounds": 5,
         "round_description": [
           {
             "name": "General Instructions",
             "duration": null,
-            "description": "<ul><li>Valid ID proofs, Laptop, Chargers, working webcam and other hardware equipments needed for completion of the hackathon is mandatory. </li><li>There should be a hardware which could be accompanied by a software.(Contact for  further enquiries on this) </li><li>Ensure to have a stable internet connection </li><li>Participants are requested to stick on to the timelines for a seamless experience at  both ends </li><li>The judging will be based on their novelty, feasibility, innovation quotient, business  model and relevance to problem statement </li><li>Reviews will be done at each stage and credits secured will be considered for evaluation. </li></ul>"
+            "description": "<ul><li>Valid ID proofs, Laptop, Chargers, working webcam and other hardware equipments needed for completion of the hackathon is mandatory. </li><li>There should be a hardware which could be accompanied by a software.(Contact for  further enquiries on this) </li><li>Ensure to have a stable internet connection. </li><li>Participants are requested to stick on to the timelines for a seamless experience at  both ends. </li><li>The judging will be based on their novelty, feasibility, innovation quotient, business  model and relevance to problem statement. </li><li>Reviews will be done at each stage and credits secured will be considered for evaluation. </li></ul>"
           },
           {
             "name": "Phase 1: (Registration) ",
             "duration": null,
-            "description": "<ul><li>Team Registration and domain selection has to be done. </li><li>Submission of Abstract  </li><li>Send your abstracts to the Mail ID : inventeideate2021@gmail.com </li></ul><br/><br/><b>Format for Sending Your Abstract: </b><br/><ul><li>Team Name: </li><li>Team Leader(SPOC): </li><li>Team Member Details: Name, Mail ID, Contact Number </li><li>Domain Chosen: </li><li>Problem Statement: </li><li>Objective: </li><li>Abstract: </li><li>Application: </li></ul><br/>Share in the form of TeamName_Domain.pdf <br/>Shortlisted Ideas from Phase 1 will move further <br/>Shortlisted Teams will share the format for further rounds of evaluation. The date and time for the rounds will be communicated to the shortlisted teams.  "
+            "description": "<ul><li>Team Registration and domain selection has to be done. </li><li>Submission of Abstract  </li><li>Send your abstracts to the Mail ID : inventeideate2021@gmail.com </li></ul><br/><br/><b>Format for Sending Your Abstract: </b><br/><ul><li>Team Name: </li><li>Team Leader(SPOC): </li><li>Team Member Details: Name, Mail ID, Contact Number </li><li>Domain Chosen: </li><li>Problem Statement: </li><li>Objective: </li><li>Abstract: </li><li>Application: </li></ul><br/>Share in the form of TeamName_Domain.pdf <br/>Shortlisted Ideas from Phase 1 will move further <br/>Shortlisted Teams will be shared the format for further rounds of evaluation. The date and time for the rounds will be communicated to the shortlisted teams.  "
           },
           {
             "name": "Phase 2: (Preliminary Evaluation) ",
@@ -713,7 +738,7 @@
           {
             "name": "Phase 4: (Final Pitching) on the day of Invente ",
             "duration": null,
-            "description": "<ul><li>Participants will have to pitch their project to a judging panel</li><li>Each team will be given 20 minutes for presentation.</li><li>The projects may be evaluated on following criteria : </li><ol><li>Feasibility and User-friendliness </li><li>Relevance to Problem Statement and Novelty </li><li>Business plan and marketability </li><li>Impact on the society </li><li>Sustainability and Quality </li><li>Creativity and Scalability </li></ol><li>here will be a Dry Run (not for evaluation) before commencement of phase 4, for the participants to get used to the environment.  </li></ul><br/>If teams are tied with the same points, there will be a tie-breaker round, which will happen either before or after Phase 4 (Further details will be given during the process, if at all a tie occurs). "
+            "description": "<ul><li>Participants will have to pitch their project to a judging panel</li><li>Each team will be given 20 minutes for presentation.</li><li>The projects may be evaluated on following criteria : </li><ol><li>Feasibility and User-friendliness </li><li>Relevance to Problem Statement and Novelty </li><li>Business plan and marketability </li><li>Impact on the society </li><li>Sustainability and Quality </li><li>Creativity and Scalability </li></ol><li>There will be a Dry Run (not for evaluation) before commencement of phase 4, for the participants to get used to the environment.  </li></ul><br/>If teams are tied with the same points, there will be a tie-breaker round, which will happen either before or after Phase 4 (Further details will be given during the process, if at all a tie occurs). "
           }
         ]
       },
@@ -722,7 +747,7 @@
       "eventid": "34"
     },
     {
-      "name": "Inventino 2021",
+      "name": "Inventino",
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
@@ -734,13 +759,13 @@
         { "name": "Sivakarthikeyan", "phone": 7812044835 }
       ],
       "description": {
-        "summary": "Arduino Lads here is a place to prove yourself unique among the crowd. This is a great opportunity to showcase your skills in electronics and microcontrollers using Arduino and compete with other innovative participants. We welcome you all to participate in one of the best tech symposiums in town and win exciting prizes. GET Ready, Set, Code!!!",
+        "summary": "Arduino Lads here is a place to prove yourself unique among the crowd. This is a great opportunity to showcase your skills in electronics and microcontrollers using Arduino and compete with other innovative participants. We welcome you all to participate in one of the best tech symposiums in town and win exciting prizes. Get Ready, Set, Code!!!",
         "rounds": 3,
         "round_description": [
           {
             "name": "General Instructions",
             "duration": null,
-            "description": "<ul><li>Valid ID proofs, laptop, working webcam and mic needed for completion of the competition is mandatory.  </li><li>Ensure you have a stable internet connection</li><li>Arduino IDE installed and running </li><li>Basic knowledge of Microprocessors and Microcontrollers is needed</li><li>Hands on knowledge of Arduino</li><li><b>Possession of an Arduino board and related hardware is advantageous.</b></li></ul>"
+            "description": "<ul><li>Valid ID proofs, laptop, working webcam and mic needed for completion of the competition is mandatory.  </li><li>Ensure you have a stable internet connection.</li><li>Arduino IDE installed and running. </li><li>Basic knowledge of Microprocessors and Microcontrollers is needed.</li><li>Hands on knowledge of Arduino.</li><li><b>Possession of an Arduino board and related hardware is advantageous.</b></li></ul>"
           },
           {
             "name": "Round 1 (Quiz)",
@@ -750,7 +775,7 @@
           {
             "name": "Round 2 (Inventino)",
             "duration": "2-3 hours",
-            "description": "<b>Mode:</b> GMeet / Zoom / Cisco Webex </br><ul><li>Participants will be shown Arduino based projects. The number of projects shown will be equal to the number of shortlisted teams. </li><li><b>Participants are required to demonstrate the project they are assigned in hardware.</b></li><li>Teams will be allowed to choose the project of their preference from the given projects based on their performance in the first round.</li><li>An event organiser will be assigned to each team who will be in possession of an Arduino board. In case the team doesn’t have a board with them, they can share their code with their assigned organiser who will test the code and show the output.</li><li>Teams can send their code for debugging how many ever times they want within the specified time frame.</li><li>If a team is in possession of an Arduino, they may debug it on their own. However <b>the final code must be sent to the organiser for testing</b>.</li><li>The code sent last will be taken for evaluation.</li><li>Teams are encouraged to add on to the project to innovate it. Extra marks will be awarded for this.</li><li>Teams are also required to explain how they can improve the project and take it forward as a product. Time will be allocated for this.</li></ul><br/><b>Evaluation will be based upon: </b><br/><ul><li>Closeness to the assigned project</li><li>Time taken to complete</li><li>Innovation quotient</li><li>Creativity and presentation</li></ul>"
+            "description": "<b>Mode:</b> GMeet / Zoom / Cisco Webex </br><ul><li>Participants will be shown Arduino based projects. The number of projects shown will be equal to the number of shortlisted teams. </li><li><b>Participants are required to demonstrate the project they are assigned in hardware. In case the team doesn’t have a board with them, they can share their code with their assigned organiser who will test the code and show the output.</b></li><li>Teams will be allowed to choose the project of their preference from the given projects based on their performance in the first round.</li><li>An event organiser will be assigned to each team who will be in possession of an Arduino board. </li><li>Teams can send their code for debugging how many ever times they want within the specified time frame.</li><li>If a team is in possession of an Arduino, they may debug it on their own. However <b>the final code must be sent to the organiser for testing</b>.</li><li>The code sent last will be taken for evaluation.</li><li>Teams are encouraged to add on to the project to innovate it. Extra marks will be awarded for this.</li><li>Teams are also required to explain how they can improve the project and take it forward as a product. Time will be allocated for this.</li></ul><br/><b>Evaluation will be based upon: </b><br/><ul><li>Closeness to the assigned project</li><li>Time taken to complete</li><li>Innovation quotient</li><li>Creativity and presentation</li></ul>"
           }
         ]
       },
@@ -774,7 +799,7 @@
           {
             "name": "Round 1",
             "duration": null,
-            "description": "<b><u>Part 1: MCQ</u></b><br/><ul><li>Every member of all teams will receive a test link.</li><li>This will be an MCQ-based test which will have 30 questions in total, and you will be given 15 minutes to answer those.</li><li>The average score of each team will be considered.</li></ul><b><u>Part 2: Guess the Film from the dialogue</u></b><br/><ul><li>After completing this online test, your team will be directed to a break-out room, where you will be having your second part of your Preliminary round.</li><li>Here you will be having a set of audio clips containing movie dialogues, separated as:</li><ul><li><i>Easy – 2 Points Each</i></li><li><i>Medium – 4 Points Each</i></li><li><i>Hard - 6 Points Each</i></li></ul><li>You will be given 2/3 minutes in total and you must “find the film” in which the dialogue is placed. You can find any number of films/dialogues within the given time. You can even choose whether you are going to find Easy/Medium/Hard.</li><li>This score will be added with the average score obtained in the first part and the combined score will be used to filter the participants to the next round.</li></ul>"
+            "description": "<b><u>Part 1: MCQ</u></b><br/><ul><li>Every member of all teams will receive a test link.</li><li>This will be an MCQ-based test which will have 30 questions in total, and you will be given 15 minutes to answer those.</li><li>The average score of each team will be considered.</li></ul><b><u>Part 2: Guess the Film from the dialogue</u></b><br/><ul><li>After completing this online test, your team will be directed to a break-out room, where you will be having your second part of your Preliminary round.</li><li>Here you will be having a set of audio clips containing movie dialogues, separated as:</li><ul><li><i>Easy – 2 Points Each</i></li><li><i>Medium – 4 Points Each</i></li><li><i>Hard - 6 Points Each</i></li></ul><li>You will be given 2 or 3 minutes in total and you must “find the film” in which the dialogue is placed. You can find any number of films/dialogues within the given time. You can even choose whether you are going to find Easy/Medium/Hard.</li><li>This score will be added with the average score obtained in the first part and the combined score will be used to filter the participants to the next round.</li></ul>"
           },
           {
             "name": "Round 2",
@@ -831,18 +856,18 @@
         { "name": "Raajalakshumi", "phone": 9791349237 }
       ],
       "description": {
-        "summary": "This event comprises two rounds,which will be conductedin virtual mode. Event rules are explained toparticipants prior to the event in a zoom call.The first round is conducted on hackerrank/hackerearth platform which composes of 20 mcqs with duration compact of 30 mins.If the student crosses our cut off then he/shewill be qualified to the next round.In the secondround students will be given a cipher to break, andthey must automate the process through code in the given durationof 1-2 hrs.Program will be graded based on thenumber of test cases passed.Students with maximum scores were selected and awarded.",
+        "summary": "This event comprises two rounds, which will be conducted in virtual mode. Event rules are explained to participants prior to the event in a zoom call.The first round is conducted on hackerrank/hackerearth platform which composes of 20 mcqs with duration compact of 30 mins. If the student crosses our cut off then he/shewill be qualified to the next round.In the second round students will be given a cipher to break, and they must automate the process through code in the given duration of 1-2 hrs. Program will be graded based on the number of test cases passed. Students with maximum scores were selected and awarded.",
         "rounds": 2,
         "round_description": [
           {
             "name": "Round 1: Quiz Round",
             "duration": "30 mins",
-            "description": "A quiz with around 20 questions will be given to the participants. The questions will involve the participants solving cryptographic puzzles and pattern based problems.<i>Students with maximum scores will be shortlisted.</i>"
+            "description": "A quiz with around 20 questions will be given to the participants. The questions will involve the participants solving cryptographic puzzles and pattern based problems. <i> Students with maximum scores will be shortlisted.</i>"
           },
           {
             "name": "Round 2: Coding Round",
             "duration": "1-2 hours",
-            "description": "Students will be given a cipher to break, and theymust automate the process through code. Program canbewritten in C,Cpp, Python, Java (hackerrank) Programwill be graded based on the number of test casespassed.<i>Winners will be announced based on the scores of Round 2.</i>"
+            "description": "Students will be given a cipher to break, and they must automate the process through code. Program can be written in C, Cpp, Python, Java (hackerrank) and will be graded based on the number of test cases passed. <i> Winners will be announced based on the scores of Round 2.</i>"
           }
         ]
       },
@@ -861,7 +886,7 @@
         { "name": "Sanjay", "phone": 8608792215 }
       ],
       "description": {
-        "summary": "This event is a web development event and basically comprises two important rounds,which will be conducted in virtual mode where thestudents have to login at the given time.",
+        "summary": "This event is a web development event and basically comprises two important rounds, which will be conducted in virtual mode where thestudents have to login at the given time.",
         "rounds": 3,
         "round_description": [
           {
@@ -1043,7 +1068,7 @@
           {
             "name": "Round 2: Connection",
             "duration": "30 mins",
-            "description": "Connection Here, the answer should be found by usingthe pictures given in the slide which representsthe partof the answer i.e a word or a letter. Finally, theanswer can be found by connecting all the pictures."
+            "description": "Connection Here, the answer should be found by using the pictures given in the slide which represents the partof the answer i.e a word or a letter. Finally, the answer can be found by connecting all the pictures."
           },
           {
             "name": "Round 3: Player's stats based",
@@ -1053,7 +1078,7 @@
           {
             "name": "Note",
             "duration": null,
-            "description": "<ul><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>Video must be on at all times</li>/ul>"
+            "description": "<ul><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>Video must be on at all times</li></ul>"
           }
         ]
       },
@@ -1125,7 +1150,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["2 Winners - Rs.2500 each", "2 Runner-Ups - Rs.2000 each"],
       "eventid": "70"
     },
     {
@@ -1154,7 +1179,7 @@
         ]
       },
       "open_to": ["Chemical"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "71"
     },
     {
@@ -1188,7 +1213,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "72"
     },
     {
@@ -1212,7 +1237,7 @@
         ]
       },
       "open_to": ["Chemical"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "73"
     },
     {
@@ -1242,7 +1267,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "74"
     },
     {
@@ -1272,7 +1297,7 @@
         ]
       },
       "open_to": ["Chemical"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "75"
     },
     {
@@ -1297,7 +1322,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.750"],
       "eventid": "76"
     },
     {
@@ -1321,7 +1346,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.750"],
       "eventid": "77"
     }
   ],
@@ -1329,7 +1354,7 @@
     {
       "name": "Codolympics",
       "category": "tech",
-      "min_team_size": 2,
+      "min_team_size": 1,
       "max_team_size": 2,
       "organisers": [
         { "name": "Avinash", "phone": 9840801323 },
@@ -1337,13 +1362,18 @@
         { "name": "Vrishin", "phone": 9677077928 }
       ],
       "description": {
-        "summary": "There would be 2 round, prelims and finals and each would be around 2-3 hours.",
-        "rounds": 1,
+        "summary": "Codolympics is a Competitive programming event in which the participants will compete in teams of 2 or individually taking part in a programming contest where they would be given the task of solving 5 - 7 DSA related problems. The theme of problem statements will be related to the theme chosen for invente to make the problems fun and exciting.<br/><br/>Ranking of teams is based on the standard ICPC rules, namely: First on the number of problems solved (more is better). In case of a tie, the total time for all accepted submissions is taken into account (less is better).<br/><br/>Time is measured from the beginning of the contest until the submission was accepted, where each rejected submission adds 10 - 20 minutes penalty time.<br/><br/>If there is still a tie, the time of acceptance for the last problem solved matters (less is better).<br/><br/>The rounds will be hosted on Competitive Programming platforms, i.e Codechef,Hackerrank or Hackerearth. Problems may vary (considerably) in difficulty, and appear in increasing order of difficulty.",
+        "rounds": 2,
         "round_description": [
           {
-            "name": "Description",
-            "duration": null,
-            "description": "Codolympics is a Competitive programming event in which the participants will compete in teams of 2 taking part in a programming contest where they would be given the task of solving 5 - 7 DSA related problems. The theme of problem statements will be related to the theme chosen for invente to make the problems fun and exciting.<br><b>Ranking</b> of teams is based on the standard ICPC rules, namely: First on the <b>number of problems solved</b> (more is better). In case of a tie, the total time for all accepted submissions is taken into account (less is better);<br><b>Time</b> is measured from the beginning of the contest until the submission was accepted, where <b>each rejected submission adds 10 - 20 minutes penalty time.</b><br>If there is still a tie, the time of acceptance for the last problem solved matters (less is better).<br>The rounds will be hosted on Competitive Programming platforms, i.e <b>Codechef</b>, <b>Hackerrank</b> or <b>Hackerearth</b>. Problems may vary (considerably) <b>in difficulty, and appear in increasing order of difficulty.</b>"
+            "name": "Prelims",
+            "duration": "2-3 hours",
+            "description": "<ul><li>Contains 5-7 problems to be solved in 2-3 Hours.</li><li>Top performing teams will be selected for the next round</li><li>Googling for solution, using a snippet is allowed</li><li>Inter-team plagiarism/ exchange of ideas/hints are not allowed.</li><li>This is a team contest (Max 2 per team)</li><li>In-case of discrepancies, the decision of the organizing committee is final.</li></ul><br/>The qualified teams will be intimated about their results, If a team is not available to confirm their participation, the next in line team will be notified."
+          },
+          {
+            "name": "Finals",
+            "duration": "2-3 hours",
+            "description": "<ul><li>Contains 5-7 problems to be solved in 2-3 Hours.</li><li>Top 2 teams based on performance, will be awarded</li><li>Googling for solution, using a snippet is allowed</li><li>Inter-team plagiarism/ exchange of ideas/hints are not allowed.</li><li>This is a team contest (Max 2 per team), Same team as prelims is</li>expected<li>In-case of discrepancies, the decision of the organizing committee is final</li></ul><br/>The winners will be notified of their status.            "
           }
         ]
       },
@@ -1420,17 +1450,17 @@
         "round_description": [
           {
             "name": "Crack the Code!",
-            "duration": null,
+            "duration": "20 mins",
             "description": "This deals with Pseudocodes and Algorithms. You will be asked to chip in the algorithm in Pseudocode format or comprehend the Pseudocode to understand the algorithm!"
           },
           {
             "name": "Code puzzle!",
-            "duration": null,
+            "duration": "45 mins",
             "description": "This round is like the jumble puzzle that you would have played during your childhood. If you have got the knack to quickly understand the logic, you will be on a winning sprint here."
           },
           {
             "name": "Techxtempo!",
-            "duration": null,
+            "duration": "45 mins",
             "description": "Extempo? Nah! Its Tech+Extempo.<br>Can’t stop your overflowing ideas and do you love to find tech solutions and build prototypes for burning real-world issues? Then you are the perfect fit.<br>PS: You don’t need to be a pro coder or star coder! Don’t miss to grab this opportunity that could fetch you an internship and cash prizes!"
           }
         ]
@@ -1449,7 +1479,7 @@
         { "name": "Aarthi", "phone": 7358090325 }
       ],
       "description": {
-        "summary": "Hacker’s Asylum is a Jeopardy style Capture The Flag event with an intriguing plot where you find clues , solve puzzles and capture the “flags”. Each element tests your grasp on OSINT, Cryptography, Reverse Engineering, Password Cracking and a whole range of Cyber Security concepts along with general logical skills. Each flag you capture gets you points and leads you to unfold the story a little more. But time is not on your side in this event as the first team to figure out all the clues and solve the murders , wins.<br/><br/>To participate in this event, you do not need any prior knowledge except basic computer and browsing skills. You can ask for help anytime but points will be calculated accordingly. If you’re new to CTFs or they sound interesting, this is the event for you!",
+        "summary": "A controversial content creator is found dead and the official report states that it is a suicide. You stumbled across their page recently and found some hidden messages that make you suspect that some foul play is involved. Unsurprisingly, OLEN, the production house that the content creator was a part of contacts you and wants you to retrieve the data from the victim’s erased system. But you find something more sinister as you keep digging. Can you get to the bottom of this before whatever killed the content creator gets to you as well?",
         "rounds": 2,
         "round_description": [
           {
@@ -1511,7 +1541,7 @@
       "eventid": "05"
     },
     {
-      "name": "Reverse in Relay",
+      "name": "Relay in Reverse",
       "category": "tech",
       "min_team_size": 3,
       "max_team_size": 3,
@@ -1520,7 +1550,7 @@
         { "name": "Vaishnavi", "phone": 7530035323 }
       ],
       "description": {
-        "summary": null,
+        "summary": "Do you like thinking in reverse? If so this is the right place for you. You can crack it even if you are a beginner! Do register and showcase your skills.",
         "rounds": 2,
         "round_description": [
           {
@@ -1542,8 +1572,8 @@
     {
       "name": "Game Nite",
       "category": "non-tech",
-      "min_team_size": 4,
-      "max_team_size": 5,
+      "min_team_size": 1,
+      "max_team_size": 1,
       "organisers": [
         { "name": "Jaanhavi", "phone": 7550045716 },
         { "name": "Abhishek", "phone": 9884844705 },
@@ -1551,9 +1581,20 @@
         { "name": "Gouthamnath", "phone": 9840053905 }
       ],
       "description": {
-        "summary": "When we were stuck at home with the seemingly endless lockdown, we didn’t know when we would hang out with our friends next. That is when we turned to online games to have fun and play with them. The main idea of this event is to take a breather from our hectic lives and enjoy those three hours<br>The preliminary round consists of players split randomly into teams and play a game chosen randomly from the wheel of fortune.  Players with the most points would move on to the next round. The final round is a trivia night where players test their knowledge,speed and accuracy. Time is definitely not your friend as the one who answers first will get maximum points.<br>If you are looking for an exhilarating, fun event before getting all technical, this event is for you.",
-        "rounds": 0,
-        "round_description": []
+        "summary": "When we were stuck at home with the seemingly endless lockdown, we didn’t know when we would hang out with our friends next. That is when we turned to online games to have fun and play with them. These games were not just a stress-buster but were sometimes the only thing we looked forward to during the day.<br/>If you are looking for an exhilarating, fun event before getting all technical, this event is for you.",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Wheel Of Fortune",
+            "duration": "90 mins",
+            "description": "Initially individual players will be randomly split into teams and each team will be assigned to a game chosen by the Wheel of Fortune. Neither you or we would know what game will be chosen to play beforehand. These are games which you might definitely know considering the fact that they are common Party Games. Volunteers will be present in each break out session and will guide you through the process. Winners in each event will be selected and they will proceed to the second and final round of the event. The fact that you will not be knowing which game you’ll be participating prior to the round adds to the mystery of the event."
+          },
+          {
+            "name": "Trivia Night",
+            "duration": "60 mins",
+            "description": "The final round is a trivia nite where players test their knowledge against time."
+          }
+        ]
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.2500", "Runner-Up - Rs.1500"],
@@ -1756,7 +1797,7 @@
         { "name": "Thendral", "phone": 9445584880 }
       ],
       "description": {
-        "summary": "<i>“Too many people spend too much time trying to perfect something before they actually do it. Instead of waiting for perfection, run with what you got and fix it along the way...”</i><br/>Unscripted is a semi technical event that tests an individual’s extemporising skills. This event includes two challenging rounds in which the each participant will be assigned a topic related to civil engineering and they are expected showcase their extemporising skills by speaking atleast 3 minutes about their topic. A preparation time of 1-2 minutes will be allotted for each participant. Based on their speaking skills and the content they deliver, participants will be chosen to advance to round 2.<br/>The success of your presentation will be judged not by the knowledge you send but by what the listener receives. The winner will be selected based on the judges scores and will receive exciting prizes.<br/><br/><b>Platform: MS Teams</b>",
+        "summary": "<i>“Too many people spend too much time trying to perfect something before they actually do it. Instead of waiting for perfection, run with what you got and fix it along the way...”</i><br/>Unscripted is a semi technical event that tests an individual’s extemporising skills. This event includes two challenging rounds in which the each participant will be assigned a topic related to civil engineering and they are expected to showcase their extemporising skills by speaking atleast 3 minutes about their topic. A preparation time of 1-2 minutes will be allotted for each participant. Based on their speaking skills and the content they deliver, participants will be chosen to advance to round 2.<br/>The success of your presentation will be judged not by the knowledge you send but by what the listener receives. The winner will be selected based on the judges scores and will receive exciting prizes.<br/><br/><b>Platform: Zoom</b>",
         "rounds": 2,
         "round_description": [
           {
@@ -1777,7 +1818,7 @@
     },
     {
       "name": "BOB THE PLUMBER",
-      "category": "non-tech",
+      "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
       "organisers": [
@@ -1841,12 +1882,11 @@
     {
       "name": "ACE it (VALORANT)",
       "category": "non-tech",
-      "min_team_size": 0,
-      "max_team_size": 0,
+      "min_team_size": 5,
+      "max_team_size": 5,
       "organisers": [
-        { "name": "Krithikan", "phone": 9944666013 },
-        { "name": "Srinirav", "phone": 9940615473 },
-        { "name": "Nanditha", "phone": 9677058210 }
+        { "name": "Pavithranathan", "phone": 9786844782 },
+        { "name": "Mohamed A", "phone": 8220977985 }
       ],
       "description": {
         "summary": "A non-technical event based on the game - VALORANT. Valorant is a team-based first-person shooter(5 Vs 5). Players can select an agent from a variety of choices who have their own unique abilities. This game has gained huge popularity in today's gaming world. Both team take turns playing attack or defence and battle their way to get 13 round wins in order to secure the match point. This game requires team co-ordination and communication skills in order to win. Two teams flying on top of the leaderboard will be given exciting cash prices. ",
@@ -1855,7 +1895,7 @@
           {
             "name": "Rules",
             "duration": null,
-            "description": "<ul><li>It is enough if any 2 out of 5 participants register</li><li>Participants must follow the rules. </li><li>Rules regarding the game and teams will be notified after registration. </li><li>Stage 1 is knockout stage. Winners qualify for successive rounds. </li><li>Final round will be a best of three. (Based on final two teams convenience the Finals will be conducted either on the same day or the next day) </li><li>All general Valorant rules applied. No third party hacks are permitted, if found the entire team will be eliminated. </li><li>Map selection and other details will be shared in our discord server after registration.</li></ul>"
+            "description": "<ul><li>Any 2 out of 5 must register.</li><li>Participants must follow the rules. </li><li>Rules regarding the game and teams will be notified after registration. </li><li>Stage 1 is knockout stage. Winners qualify for successive rounds. </li><li>Final round will be a best of three. (Based on final two teams convenience the Finals will be conducted either on the same day or the next day) </li><li>All general Valorant rules applied. No third party hacks are permitted, if found the entire team will be eliminated. </li><li>Map selection and other details will be shared in our discord server after registration.</li></ul>"
           }
         ]
       },
@@ -1870,7 +1910,12 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
-      "organisers": [],
+      "organisers": [
+        { "name": "Manufacturing: Mohammad R", "phone": 7397492626 },
+        { "name": "Thermal: Arunachalam N", "phone": 9789589073 },
+        { "name": "Robotics: Karthik R", "phone": 7358632280 },
+        { "name": "Design: Ranjith K", "phone": 8508506659 }
+      ],
       "description": {
         "summary": "<b>Platform: Zoom/GMeet</b><br/><b>No of rounds: 2</b>",
         "rounds": 2,
@@ -1888,7 +1933,11 @@
         ]
       },
       "open_to": ["Mechanical"],
-      "prizes": [],
+      "prizes": [
+        "Winners and runner-up will be announced for each domain",
+        "Domain winner - Rs.1500",
+        "Domain Runner-Up - Rs.1000"
+      ],
       "eventid": "40"
     },
     {
@@ -1896,7 +1945,10 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
-      "organisers": [],
+      "organisers": [
+        { "name": "Vengadesh V", "phone": 9677243361 },
+        { "name": "Mohanraj A", "phone": 8825416750 }
+      ],
       "description": {
         "summary": "<b>Platform: Zoom/GMeet</b><br/><b>No of rounds: 1</b>",
         "rounds": 1,
@@ -1909,7 +1961,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": [],
+      "prizes": ["Winner - Rs.2500", "Runner-Up - Rs.1500"],
       "eventid": "41"
     },
     {
@@ -1917,7 +1969,10 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
-      "organisers": [],
+      "organisers": [
+        { "name": "Gautam R", "phone": 8939332169 },
+        { "name": "Srinath", "phone": 7695806593 }
+      ],
       "description": {
         "summary": "Are you an automobile enthusiast? This event is just for you. Join us for this fun filled unorthodox quiz and win exciting prizes!",
         "rounds": 3,
@@ -1925,7 +1980,7 @@
           {
             "name": "Prelims (Online MCQ):",
             "duration": "15-20 mins",
-            "description": "<ul><li>This is a technical quiz round covering an assortment of topics from automobile, conducted using Kahoot!</li><li>Use the above link to get accustomed to the interface</li><li>A total of 20 questions</li><li>Time duration per question will be brief to prevent malpractices</li><li>Of this, ‘n’ teams will be qualified for the finals</li></ul>"
+            "description": "<ul><li>This is a technical quiz round covering an assortment of topics from automobile, conducted using <a target=\"_blank\" href=\"https://kahoot.com/\"><u>Kahoot!</u></a></li><li>Use the above link to get accustomed to the interface</li><li>A total of 20 questions</li><li>Time duration per question will be brief to prevent malpractices</li><li>Of this, ‘n’ teams will be qualified for the finals</li></ul>"
           },
           {
             "name": "Finals (Traditional: Turn wise):",
@@ -1940,7 +1995,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": [],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "42"
     },
     {
@@ -1948,9 +2003,12 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
-      "organisers": [],
+      "organisers": [
+        { "name": "Nandita S", "phone": 9176067279 },
+        { "name": "Goutham K", "phone": 8891103014 }
+      ],
       "description": {
-        "summary": "<b>Platform: Zoom</b><br/><b>No of rounds: 3</b>",
+        "summary": "Mechathlon is a mock interview drive that will prepare you for placements. This event follows the same pattern as most placement interview sessions. Register and experience the placement process!<br/><br/><b>Platform: Zoom</b><br/><b>No of rounds: 3</b>",
         "rounds": 3,
         "round_description": [
           {
@@ -1971,17 +2029,20 @@
         ]
       },
       "open_to": ["Mechanical"],
-      "prizes": [],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "43"
     },
     {
       "name": "2 fast 2 curious",
       "category": "tech",
-      "min_team_size": 1,
-      "max_team_size": 1,
-      "organisers": [],
+      "min_team_size": 2,
+      "max_team_size": 2,
+      "organisers": [
+        { "name": "Venkatesh S", "phone": 9710887173 },
+        { "name": "Shriram S", "phone": 7305500805 }
+      ],
       "description": {
-        "summary": "We know you would rock in your domain. We know you would also manage time. But <b>What if</b> we tell you that you will have to manage both! So here we are to challenge your technical skills but not compromising on the time!<br/><br/><b>Platform: Quizizz andZoom</b><br/><b>No of rounds: 2</b>",
+        "summary": "We know you would rock in your domain. We know you would also manage time. But <b>What if</b> we tell you that you will have to manage both! So here we are to challenge your technical skills but not compromising on the time!<br/><br/><b>Platform: Quizizz and Zoom</b><br/><b>No of rounds: 2</b>",
         "rounds": 2,
         "round_description": [
           {
@@ -1997,7 +2058,7 @@
         ]
       },
       "open_to": ["Mechanical"],
-      "prizes": [],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "44"
     },
     {
@@ -2005,7 +2066,10 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
-      "organisers": [],
+      "organisers": [
+        { "name": "Sam S", "phone": 6369009801 },
+        { "name": "Shoba E", "phone": 7338757883 }
+      ],
       "description": {
         "summary": "Each registered team has to complete a set of tasks testing their marketing skills and design skills. A complete study of the given product has to be undertaken and a final 3D model of the product has to be submitted.<br/><b>Platorm: Zoom</b>",
         "rounds": 2,
@@ -2023,7 +2087,7 @@
         ]
       },
       "open_to": ["Mechanical"],
-      "prizes": [],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "45"
     },
     {
@@ -2031,7 +2095,10 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
-      "organisers": [],
+      "organisers": [
+        { "name": "Varuna G", "phone": 9840789912 },
+        { "name": "Viswapriya G", "phone": 9087590821 }
+      ],
       "description": {
         "summary": "What better way to push your technically sound mind to its limits than solving puzzles? Quarter Mile of Invente 2021 brings you the perfect blend of fun and learning in the form of a multi tiered quiz event.<br/><br/><b>Platform: Gmeet/Discord</b><br/><b>No of Rounds: 3</b>",
         "rounds": 3,
@@ -2053,8 +2120,8 @@
           }
         ]
       },
-      "open_to": "All",
-      "prizes": [],
+      "open_to": ["Mechanical"],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "46"
     },
     {
@@ -2062,30 +2129,33 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 2,
-      "organisers": [],
+      "organisers": [
+        { "name": "Krishnanand M", "phone": 9841021169 },
+        { "name": "Akshaya", "phone": 7358548743 }
+      ],
       "description": {
-        "summary": "<b>Platform: Zoom and use of google drive</b><br/><b>No of Rounds: 3</b>",
+        "summary": "Are you a person who likes to play card games like cricket attax or WWE? Or are you person who missed playing these games? Car wars is the event for you! It is a fun filled event to test your technical knowledge and competitive strategy.  Additionally, anyone with an interest in automotive field is guaranteed to enjoy this event. The technical knowledge required is beginner friendly but the fun involved is elite.<br/><br/><b>Platform: Zoom and use of google drive</b><br/><b>No of Rounds: 3</b>",
         "rounds": 3,
         "round_description": [
           {
             "name": "Round 1",
             "duration": null,
-            "description": "In the first round, all the teams would be bidding for the cards with the allotted amount (the cash pool will be provided before the round)[NOT ACTUAL MONEY]. The cards would only have the car's name and photo with the overall rating. There will be a fixed no. of car types and each card will have 5 attributes based on the car's specification. Each team should have at least one car of each category (category of carswill be informed later).<br/>The cars WON'T HAVE THE SPECIFICATION VALUE.            "
+            "description": "In the first round, all the teams would be bidding for the cards with the allotted amount (the cash pool will be provided before the round)[NOT ACTUAL MONEY]. The cards would only have the car's name and photo with the overall rating. There will be a fixed no. of car types and each card will have 5 attributes based on the car's specification. Each team should have at least one car of each category (category of cars will be informed later).<br/>The cars WON'T HAVE THE SPECIFICATION VALUE.            "
           },
           {
             "name": "Round 2",
             "duration": null,
-            "description": "In the second round, the teams would be completing tasks to get the values ofeach specification of their cars."
+            "description": "In the second round, the teams would be completing tasks to get the values of each specification of their cars."
           },
           {
             "name": "Round 3",
             "duration": null,
-            "description": "In the third round, each team would be pitted against another team (based on random draw by the organizers; card clashes will be based on the specifications they received from the second round.<br/> All the rounds from now on will be on a knock-out basis.<br/><br/>Rules for the third round:<br/><ul><li>One versus one</li><li>only one person can interact from a team</li><li>order of drawing cards should be fixed by both teams</li><li>A decider question will choose on which team goes first.</li><li>The team that goes without any cards loses the round.</li><li>The winners of each clash will move to the next level. This goes on until the final winner is decided.</li>"
+            "description": "In the third round, each team would be pitted against another team (based on random draw by the organizers) card clashes will be based on the specifications they received from the second round.<br/> All the rounds from now on will be on a knock-out basis.<br/><br/>Rules for the third round:<br/><ul><li>One versus one</li><li>Only one person can interact from a team</li><li>Order of drawing cards should be fixed by both teams</li><li>A decider question will choose on which team goes first.</li><li>The team that goes without any cards loses the round.</li><li>The winners of each clash will move to the next level. This goes on until the final winner is decided.</li>"
           }
         ]
       },
       "open_to": "All",
-      "prizes": [],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "47"
     },
     {
@@ -2093,7 +2163,10 @@
       "category": "non-tech",
       "min_team_size": 2,
       "max_team_size": 2,
-      "organisers": [],
+      "organisers": [
+        { "name": "GV Surya Shashank", "phone": 9962527657 },
+        { "name": "Akash S", "phone": 8438340228 }
+      ],
       "description": {
         "summary": "Life is too short to play a bad game. Join us for a fun-filled day with your friends. Exciting prizes up for grabs!!<br/><br/><b>Platform: Google forms, Zoom</b><br/><b>No of Rounds: 3</b>",
         "rounds": 3,
@@ -2116,7 +2189,7 @@
         ]
       },
       "open_to": "All",
-      "prizes": [],
+      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.600"],
       "eventid": "48"
     }
   ]
