@@ -26,7 +26,7 @@ const eventType: { [key: string]: string } = {
 };
 
 const mg = mailgun({
-  apiKey: 'ebb6c4e2a083268fddb367eb1e51b20b-a3c55839-89643b78',
+  apiKey: functions.config().env.mailgun.apikey,
   domain: DOMAIN,
   host: 'api.eu.mailgun.net',
 });
