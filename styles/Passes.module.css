@@ -500,3 +500,80 @@ section.price_section .free_tier + .plan_action a:after {
 .buttons {
   text-align: center;
 }
+
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+.noselect {
+	width: 250px;
+	height: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+	background-color: #50E3C2;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55%);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.noselect, .noselect span {
+	transition: 200ms;
+}
+
+.noselect .text {
+	transform: translateX(40px);
+	color: white;
+	font-weight: bold;
+}
+
+.noselect .paytext {
+	transform: translateX(70px);
+	color: white;
+	font-weight: bold;
+}
+
+
+.noselect .icon {
+	position: absolute;
+	border-left: 1px solid #ffffff;
+  transform: translateX(207px);
+	height: 40px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.noselect .payIcon {
+	width: 20px;
+	fill: #eee;
+}
+
+.noselect:hover .text, .noselect:hover .paytext {
+	color: transparent;
+}
+
+.noselect:hover .icon {
+	width: 250px;
+	border-left: none;
+	transform: translateX(0);
+}
+
+.noselect:focus {
+	outline: none;
+}
