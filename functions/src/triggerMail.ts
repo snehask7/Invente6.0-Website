@@ -14,6 +14,17 @@ interface User {
   updatedAt: string;
   username: string;
 }
+
+const eventType: { [key: string]: string } = {
+  bmeHack: 'BME Hackathon',
+  cseHack: 'CSE Hackathon',
+  eceHack: 'ECE Hackathon',
+  wsCentral: 'Workshop Central',
+  wsCivil: 'Workshop Civil',
+  tech: 'All Technical events',
+  nonTech: 'All Non-Technical events',
+};
+
 const mg = mailgun({
   apiKey: 'ebb6c4e2a083268fddb367eb1e51b20b-a3c55839-89643b78',
   domain: DOMAIN,
@@ -43,18 +54,20 @@ const TriggerMail = functions.firestore
       delete events.updatedAt;
       for (const event of Object.keys(events)) {
         if (events[event]) {
-          functions.logger.info(`${event} is true`);
-          eligible.push({ event });
+          eligible.push({ event: eventType[event] });
         }
       }
+      const variables = {
+        name: user.fullName,
+        eligible,
+      };
 
       const data = {
         from: 'SSN Invente Team <noreply@verification.ssninvente.com>',
         to: user.email,
         subject: 'Your payment is verified',
         template: 'payment',
-        'v:name': user.fullName,
-        'v:eligible': eligible,
+        'h:X-Mailgun-Variables': JSON.stringify(variables),
       };
 
       await mg.messages().send(data, function (error, body) {
