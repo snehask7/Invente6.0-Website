@@ -449,7 +449,7 @@
           {
             "name": "Round 1",
             "duration": null,
-            "description": "Round 1 will take place before the main event around mid September during which the participating teams (team of 3) should send an abstract mentioning the Problem statement/theme from the list provided by us.<br/><br/><b>Themes</b><br/><ul><li>Medical Apps/Remote monitoring</li><li>AI/ML</li><li>IoT</li><li>Vital Monitoring in Space</li><li>AR and VR</li><li>Human interfacing devices</li><li>3D designing</li></ul><br/>Abstract should contain<br/><ul><li>Title</li><li>Description of the design</li><li>Novelty</li></ul><br/><b>Deadline - Sept 20</b><br/>Submissions will be scrutinized and around 10-15 submissions will be selected for the second round. Final list will be sent to the participants within the first week of October."
+            "description": "Round 1 will take place before the main event around mid September during which the participating teams (team of 3) should send an abstract mentioning the Problem statement/theme from the list provided by us.<br/><br/><b>Themes</b><br/><ul><li>Medical Apps/Remote monitoring</li><li>AI/ML</li><li>IoT</li><li>Vital Monitoring in Space</li><li>AR and VR</li><li>Human interfacing devices</li><li>3D designing</li></ul><br/>Abstract should contain<br/><ul><li>Title</li><li>Description of the design</li><li>Novelty</li></ul><br/><b>Deadline - Oct 1st</b><br/>Submit the abstract to: <b><u>inventebiomedicathon@gmail.com</u></b><br/> Submissions will be scrutinized and around 10-15 submissions will be selected for the second round. Final list will be sent to the participants within the first week of October."
           },
           {
             "name": "Round 2 (Main Event)",
@@ -495,7 +495,7 @@
       "eventid": "55"
     },
     {
-      "name": "Entrepreneurship",
+      "name": "Startup Smackdown",
       "category": "non-tech",
       "min_team_size": 1,
       "max_team_size": 3,
@@ -505,7 +505,7 @@
         { "name": "Prasidha", "phone": 9962236331 }
       ],
       "description": {
-        "summary": null,
+        "summary": "Are you always brimming with business ideas, but can’t pitch them to anyone? Do you have innovative solutions to existing problems and feel the need to showcase them? Well then, what are you waiting for? Come join us at the Entrepreneurship event, to prove your prowess as an entrepreneurial genius! ✨",
         "rounds": 3,
         "round_description": [
           {
@@ -530,7 +530,7 @@
       "eventid": "56"
     },
     {
-      "name": " Reel it ",
+      "name": "Thambi Reel Inum Varala",
       "category": "non-tech",
       "min_team_size": 1,
       "max_team_size": 1,

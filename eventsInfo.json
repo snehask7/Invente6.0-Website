@@ -101,11 +101,15 @@
   "54": { "name": "Biomedicathon", "department": "BME", "category": "bmeHack" },
   "55": { "name": "Medical Auction", "department": "BME", "category": "tech" },
   "56": {
-    "name": "Entrepreneurship",
+    "name": "Startup Smackdown - An Entrepreneuship Event",
     "department": "BME",
     "category": "non-tech"
   },
-  "57": { "name": " Reel it ", "department": "BME", "category": "non-tech" },
+  "57": {
+    "name": "Thambi Reel Inum Varala ",
+    "department": "BME",
+    "category": "non-tech"
+  },
   "60": {
     "name": "ARCHITECTURE AT ZERO",
     "department": "Civil",
