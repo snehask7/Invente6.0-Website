@@ -856,7 +856,7 @@
         { "name": "Raajalakshumi", "phone": 9791349237 }
       ],
       "description": {
-        "summary": "This event comprises two rounds, which will be conducted in virtual mode. Event rules are explained to participants prior to the event in a zoom call.The first round is conducted on hackerrank/hackerearth platform which composes of 20 mcqs with duration compact of 30 mins. If the student crosses our cut off then he/shewill be qualified to the next round.In the second round students will be given a cipher to break, and they must automate the process through code in the given duration of 1-2 hrs. Program will be graded based on the number of test cases passed. Students with maximum scores were selected and awarded.",
+        "summary": "This event comprises two rounds, which will be conducted in virtual mode. Event rules are explained to participants prior to the event in a zoom call.The first round is conducted on hackerrank/hackerearth platform which composes of 20 mcqs with duration compact of 30 mins. If the student crosses our cut off then he/she will be qualified to the next round.In the second round students will be given a cipher to break, and they must automate the process through code in the given duration of 1-2 hrs. Program will be graded based on the number of test cases passed. Students with maximum scores were selected and awarded.",
         "rounds": 2,
         "round_description": [
           {
@@ -879,14 +879,14 @@
       "name": "WEBSITICA",
       "category": "tech",
       "min_team_size": 1,
-      "max_team_size": 1,
+      "max_team_size": 2,
       "organisers": [
         { "name": "Rithanya", "phone": 9487852180 },
         { "name": "Pakkeer", "phone": 9789032965 },
         { "name": "Sanjay", "phone": 8608792215 }
       ],
       "description": {
-        "summary": "This event is a web development event and basically comprises two important rounds, which will be conducted in virtual mode where thestudents have to login at the given time.",
+        "summary": "This event is a web development event and basically comprises two important rounds, which will be conducted in virtual mode where the students have to login at the given time.",
         "rounds": 3,
         "round_description": [
           {
@@ -917,7 +917,7 @@
       "max_team_size": 2,
       "organisers": [
         { "name": "Divya", "phone": 9445816942 },
-        { "name": "Badrinarayan", "phone": 8903039560 },
+        { "name": "Badrinarayanan", "phone": 8903039560 },
         { "name": "Keertivaas", "phone": 8939126658 }
       ],
       "description": {
@@ -972,7 +972,7 @@
           {
             "name": "Note",
             "duration": null,
-            "description": "<ul><li>The student must login at the given time or else they’ll not be allowed to login.</li><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>This platform rquired webcam and audio enabled (round 1)</li></ul>"
+            "description": "<ul><li>The student must login at the given time or else they’ll not be allowed to login.</li><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>This platform required webcam and audio enabled (round 1)</li></ul>"
           }
         ]
       },
@@ -991,7 +991,7 @@
         { "name": "Visvesh", "phone": 9524587047 }
       ],
       "description": {
-        "summary": "Have a Research/Review Paper? Come present it withus at \"Papyrus\", our Paper Presentation Event.",
+        "summary": "Have a Research/Review Paper? Come present it with us at \"Papyrus\", our Paper Presentation Event.",
         "rounds": 3,
         "round_description": [
           {
@@ -1007,7 +1007,7 @@
           {
             "name": "Rules",
             "duration": null,
-            "description": "<ul><li>Each paper can have upto 3 authors.</li><li>Submitted papers must be in IEEE format.</li><li>Papers must not be published before anywhere or beunder consideration for publication in any journalor conference.</li><li>Plagiarism is not allowed. Original works only.</li><li>Paper length limited to 6 pages.</li><li>Paper must be in .pdf, .docx, or .doc formats.</li><li>A team can have participants from different institutions.</li><li>The paper is to be attached to the mail <u>paperpresentationinvente2021@gmail.com </u>with the subject as the title of the paper.</li><li>The mail must contain - name of authors, college names and departments, phone numbers, and email addresses</li></ul>"
+            "description": "<ul><li>Each paper can have upto 3 authors.</li><li>Submitted papers must be in IEEE format.</li><li>Papers must not be published before anywhere or be under consideration for publication in any journalor conference.</li><li>Plagiarism is not allowed. Original works only.</li><li>Paper length limited to 6 pages.</li><li>Paper must be in .pdf, .docx, or .doc formats.</li><li>A team can have participants from different institutions.</li><li>The paper is to be attached to the mail <u>paperpresentationinvente2021@gmail.com </u>with the subject as the title of the paper.</li><li>The mail must contain - name of authors, college names and departments, phone numbers, and email addresses</li></ul>"
           }
         ]
       },
@@ -1021,7 +1021,7 @@
       "min_team_size": 2,
       "max_team_size": 2,
       "organisers": [
-        { "name": "Venkatesh", "phone": 784574861 },
+        { "name": "Venkatesh", "phone": 7845748610 },
         { "name": "Sriram", "phone": 9940270388 },
         { "name": "Koushika", "phone": 9632066644 }
       ],
@@ -1032,12 +1032,12 @@
           {
             "name": "Round 1- Short technical questions",
             "duration": "30 mins",
-            "description": "This round comproses of 30 questions. The questions will be like<br/><ul><li>Formula of Cost functions</li><li>Regression vs Classification</li><li>General Model Testing</li><li>Missing Data Etc.</li></ul>"
+            "description": "This round comprises of 30 questions. The questions will be like<br/><ul><li>Formula of Cost functions</li><li>Regression vs Classification</li><li>General Model Testing</li><li>Missing Data Etc.</li></ul>"
           },
           {
             "name": "Round 2- Coding round",
             "duration": "60 mins",
-            "description": "<ul><li>1 data set</li><li>Need to build a model that solves for the given dataset (either a classification or prediction modelbased on the data)</li><li>Aggregate of both the rounds will be the winner.</li></ul>"
+            "description": "<ul><li>1 data set</li><li>Need to build a model that solves for the given dataset (either a classification or prediction model based on the data)</li><li>Aggregate of both the rounds will be the winner.</li></ul>"
           },
           {
             "name": "Note",
@@ -1063,12 +1063,12 @@
           {
             "name": "Round 1: MCQ Based on Tech-GK",
             "duration": "15 mins",
-            "description": "MCQs Questions like<br/><ul><li>Who invented Cricket?</li><li>No. of shapes on a foot?</li></ul>"
+            "description": "MCQs like<br/><ul><li>Who invented Cricket?</li><li>No. of shapes on a foot?</li></ul>"
           },
           {
             "name": "Round 2: Connection",
             "duration": "30 mins",
-            "description": "Connection Here, the answer should be found by using the pictures given in the slide which represents the partof the answer i.e a word or a letter. Finally, the answer can be found by connecting all the pictures."
+            "description": "Connection Here, the answer should be found by using the pictures given in the slide which represents the part of the answer i.e a word or a letter. Finally, the answer can be found by connecting all the pictures."
           },
           {
             "name": "Round 3: Player's stats based",
