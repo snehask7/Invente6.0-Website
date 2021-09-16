@@ -148,6 +148,28 @@ export default function Department({ data }) {
               </Col>
               <Col lg={12} xl={12} md={12} sm={12}>
                 <div className={styles.eventDetails}>
+                  <p
+                    style={{
+                      fontSize: '19px',
+                      textAlign: 'center',
+                    }}
+                  >
+                    Head over to the
+                    <span
+                      style={{
+                        fontWeight: 'bold',
+                        color: 'cyan',
+                      }}
+                    >
+                      <Link href={'/passes'}> Passes </Link>
+                    </span>
+                    page to purchase passes for the event categories you wish to
+                    register for!
+                  </p>
+                </div>
+              </Col>
+              <Col lg={12} xl={12} md={12} sm={12}>
+                <div className={styles.eventDetails}>
                   <p className={styles.headerWrapper}>
                     <span className={styles.eventHeading}>
                       {events[id].name}
