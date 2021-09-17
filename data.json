@@ -1932,7 +1932,7 @@
           }
         ]
       },
-      "open_to": ["Mechanical"],
+      "open_to": "All",
       "prizes": [
         "Winners and runner-up will be announced for each domain",
         "Domain winner - Rs.1500",
@@ -1990,7 +1990,7 @@
           {
             "name": "Rules:",
             "duration": null,
-            "description": "<ul><li>Every Team registered for this event should have a Team leader</li><li>Only the team leader should fill the registration form entering details of participants</li><li>15 minutes before the scheduled start time of this round, every team leader will receive a Google form link to his/her registered email ID. </li><li>The team members can connect through zoom or meet or any means to communicate among each other.</li></ul>"
+            "description": "<ul><li>The participants will receive a google form one day before the event and only the team leader should fill the form entering their team details.</li><li>15 minutes before the scheduled start time of the round, every team leader will receive a Google form link to his/her registered email ID. </li><li>The team members can connect through zoom or meet or any means to communicate among each other.</li></ul>"
           }
         ]
       },
@@ -2028,7 +2028,7 @@
           }
         ]
       },
-      "open_to": ["Mechanical"],
+      "open_to": "All",
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "43"
     },
@@ -2057,7 +2057,7 @@
           }
         ]
       },
-      "open_to": ["Mechanical"],
+      "open_to": "All",
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "44"
     },
@@ -2086,7 +2086,7 @@
           }
         ]
       },
-      "open_to": ["Mechanical"],
+      "open_to": "All",
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "45"
     },
@@ -2120,7 +2120,7 @@
           }
         ]
       },
-      "open_to": ["Mechanical"],
+      "open_to": "All",
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "46"
     },
