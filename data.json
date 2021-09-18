@@ -1990,7 +1990,7 @@
           {
             "name": "Rules:",
             "duration": null,
-            "description": "<ul><li>The participants will receive a google form one day before the event and only the team leader should fill the form entering their team details.</li><li>15 minutes before the scheduled start time of the round, every team leader will receive a Google form link to his/her registered email ID. </li><li>The team members can connect through zoom or meet or any means to communicate among each other.</li></ul>"
+            "description": "<ul><li>The participants will receive a google form one day before the event and only the team leader should fill the form entering their team details.</li><li>15 minutes before the scheduled start time of the round, every participant will receive the online meeting link to their registered email ID. </li><li>The team members can connect through zoom or meet or any means to communicate among each other.</li></ul>"
           }
         ]
       },
@@ -2028,7 +2028,7 @@
           }
         ]
       },
-      "open_to": "All",
+      "open_to": ["Mechanical"],
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "43"
     },
