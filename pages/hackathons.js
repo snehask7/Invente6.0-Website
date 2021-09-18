@@ -75,7 +75,7 @@ export default function Department({ data }) {
           >
             <h1 className={styles.pageHeading}>Hackathons</h1>
             <Row className={styles.wrapper}>
-              <Row style={{ textAlign: 'center' }}>
+              <Row style={{ textAlign: 'center', maxWidth: '500px' }}>
                 <Col>
                   <a href="/department/ECE/0">
                     <div className={styles.eventCard}>
