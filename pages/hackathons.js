@@ -9,7 +9,7 @@ import {
   FaCalendarAlt,
   FaRegBuilding,
   FaTrophy,
-  FaUserAlt,
+  FaUserAlt
 } from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
 import Footer from '../components/Footer';
@@ -167,7 +167,7 @@ export default function Department({ data }) {
                   <br />
                   <br />
                   {/* eslint-disable-next-line */}
-                  It&apos;'s all the same here at Devathlon!
+                  It's all the same here at Devathlon!
                   <br />
                   <br />
                   <b>
