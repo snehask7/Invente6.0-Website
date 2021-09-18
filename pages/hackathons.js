@@ -9,7 +9,7 @@ import {
   FaCalendarAlt,
   FaRegBuilding,
   FaTrophy,
-  FaUserAlt
+  FaUserAlt,
 } from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
 import Footer from '../components/Footer';
