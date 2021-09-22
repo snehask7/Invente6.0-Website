@@ -1911,10 +1911,10 @@
       "min_team_size": 1,
       "max_team_size": 4,
       "organisers": [
-        { "name": "Manufacturing: Mohammad R", "phone": 7397492626 },
-        { "name": "Thermal: Arunachalam N", "phone": 9789589073 },
+        { "name": "Manufacturing: Ranjith K R", "phone": 8508506659 },
+        { "name": "Thermal: Karthik R", "phone": 7358632280 },
         { "name": "Robotics: Karthik R", "phone": 7358632280 },
-        { "name": "Design: Ranjith K", "phone": 8508506659 }
+        { "name": "Design: Ranjith K R", "phone": 8508506659 }
       ],
       "description": {
         "summary": "<b>Platform: Zoom/GMeet</b><br/><b>No of rounds: 2</b>",
@@ -1970,7 +1970,7 @@
       "min_team_size": 1,
       "max_team_size": 2,
       "organisers": [
-        { "name": "Gautam R", "phone": 8939332169 },
+        { "name": "Mohammad Riaz Khan K N", "phone": 7397492626 },
         { "name": "Srinath", "phone": 7695806593 }
       ],
       "description": {
@@ -2004,7 +2004,7 @@
       "min_team_size": 1,
       "max_team_size": 1,
       "organisers": [
-        { "name": "Nandita S", "phone": 9176067279 },
+        { "name": "Varuna G R", "phone": 9840789912 },
         { "name": "Goutham K", "phone": 8891103014 }
       ],
       "description": {
@@ -2130,7 +2130,7 @@
       "min_team_size": 2,
       "max_team_size": 2,
       "organisers": [
-        { "name": "Krishnanand M", "phone": 9841021169 },
+        { "name": "Vengadesh V", "phone": 9677243361 },
         { "name": "Akshaya", "phone": 7358548743 }
       ],
       "description": {
@@ -2164,7 +2164,7 @@
       "min_team_size": 2,
       "max_team_size": 2,
       "organisers": [
-        { "name": "GV Surya Shashank", "phone": 9962527657 },
+        { "name": "Arunachalam N", "phone": 9789589073 },
         { "name": "Akash S", "phone": 8438340228 }
       ],
       "description": {
