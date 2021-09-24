@@ -612,9 +612,9 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner: Rs.3000", "Runner-Up: Rs.1500"],
+      "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
       "eventid": "30",
-      "prizepool": "Rs. 4500"
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "Tech Quiz",
@@ -648,9 +648,9 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
       "eventid": "31",
-      "prizepool": "Rs. 4500"
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "E-Bugging",
@@ -685,9 +685,9 @@
         ]
       },
       "open_to": ["All Circuit Branches"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
       "eventid": "32",
-      "prizepool": "Rs. 4500"
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "Electronic-Maze",
@@ -717,9 +717,9 @@
         ]
       },
       "open_to": ["ECE", "EEE"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
       "eventid": "33",
-      "prizepool": "Rs. 4500"
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "Ideate",
@@ -764,9 +764,9 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.6000", "Runner-Up - Rs.3000"],
       "eventid": "34",
-      "prizepool": "Rs. 4500"
+      "prizepool": "Rs. 9000"
     },
     {
       "name": "Inventino",
@@ -802,9 +802,9 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "35",
-      "prizepool": "Rs. 4500"
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "Tentkotta",
@@ -832,9 +832,9 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "36",
-      "prizepool": "Rs. 1500"
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "IPL Bidding",
@@ -864,9 +864,9 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner:Rs.3000", "Runner-Up:Rs.1500"],
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "37",
-      "prizepool": "Rs. 4500"
+      "prizepool": "Rs. 3000"
     }
   ],
   "IT": [
