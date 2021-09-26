@@ -1678,6 +1678,7 @@
       },
       "open_to": "All",
       "prizes": [],
+      "prizepool": "Rs. 4000",
       "eventid": "60"
     },
     {
@@ -1713,6 +1714,7 @@
       },
       "open_to": "All",
       "prizes": [],
+      "prizepool": "Rs. 4000",
       "eventid": "61"
     },
     {
@@ -1742,6 +1744,7 @@
       },
       "open_to": "All",
       "prizes": [],
+      "prizepool": "Rs. 4000",
       "eventid": "62"
     },
     {
@@ -1766,6 +1769,7 @@
       },
       "open_to": "All",
       "prizes": [],
+      "prizepool": "Rs. 4000",
       "eventid": "63"
     },
     {
@@ -1800,6 +1804,7 @@
       },
       "open_to": "All",
       "prizes": [],
+      "prizepool": "Rs. 4000",
       "eventid": "64"
     },
     {
@@ -1834,6 +1839,7 @@
       },
       "open_to": ["Civil"],
       "prizes": [],
+      "prizepool": "Rs. 4000",
       "eventid": "65"
     },
     {
@@ -1863,6 +1869,7 @@
       },
       "open_to": "All",
       "prizes": [],
+      "prizepool": "Rs. 4000",
       "eventid": "66"
     },
     {
@@ -1897,6 +1904,7 @@
       },
       "open_to": ["Civil"],
       "prizes": [],
+      "prizepool": "Rs. 4000",
       "eventid": "67"
     },
     {
@@ -1926,6 +1934,7 @@
       },
       "open_to": "All",
       "prizes": [],
+      "prizepool": "Rs. 4000",
       "eventid": "68"
     },
     {
@@ -1950,6 +1959,7 @@
       },
       "open_to": "All",
       "prizes": [],
+      "prizepool": "Rs. 4000",
       "eventid": "69"
     }
   ],
