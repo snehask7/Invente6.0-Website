@@ -127,7 +127,7 @@
 
 @media screen and (max-width: 1000px) {
   .eventHeading {
-    font-size: 4.5vw;
+    font-size: 7vw;
   }
 }
 
@@ -185,14 +185,32 @@
   font-size: 1vw;
 }
 
+.passDetails {
+  padding: 1rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 50em -70px #df159280;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Menlo', monospace;
+  font-size: 1vw;
+}
+
 @media screen and (max-width: 1000px) {
   .eventDetails {
+    font-size: 2vw;
+  }
+  .passDetails {
     font-size: 2vw;
   }
 }
 
 @media screen and (max-width: 800px) {
   .eventDetails {
+    font-size: 3vw;
+  }
+  .passDetails {
     font-size: 3vw;
   }
 }
@@ -222,6 +240,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: auto;
 }
 
 @media (max-width: 1200px) {

@@ -5,10 +5,25 @@ module.exports = {
     node: true,
   },
   extends: [
-    "eslint:recommended",
-    "google",
+    'eslint:recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings',
+    'plugin:import/typescript',
+    'google',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
   ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    project: ['./tsconfig.json', './tsconfig.dev.json'],
+  },
+  ignorePatterns: [
+    '/lib/**/*', // Ignore built files.
+    '.eslintrc.js',
+    'scripts/**/',
+  ],
+  plugins: ['@typescript-eslint', 'import'],
   rules: {
-    quotes: ["error", "double"],
+    '@typescript-eslint/no-explicit-any': 'off',
   },
 };

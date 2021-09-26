@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "rootDir": "./src"
+  },
+  "compileOnSave": true,
+  "include": ["src/**.ts", "src", "src/**/**.ts"]
+}

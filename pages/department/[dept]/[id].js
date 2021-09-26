@@ -147,6 +147,27 @@ export default function Department({ data }) {
                 </Row>
               </Col>
               <Col lg={12} xl={12} md={12} sm={12}>
+                <div className={styles.passDetails}>
+                  <p
+                    style={{
+                      textAlign: 'center',
+                    }}
+                  >
+                    Head over to the
+                    <span
+                      style={{
+                        fontWeight: 'bold',
+                        color: 'cyan',
+                      }}
+                    >
+                      <Link href={'/passes'}> Passes </Link>
+                    </span>
+                    page to purchase passes for the event categories you wish to
+                    participate in!
+                  </p>
+                </div>
+              </Col>
+              <Col lg={12} xl={12} md={12} sm={12}>
                 <div className={styles.eventDetails}>
                   <div className={styles.eventHeader}>
                     <p className={styles.headerWrapper}>
@@ -251,8 +272,8 @@ export default function Department({ data }) {
                     <Row>
                       <div className={styles.roundCard}>
                         This is a team event and each person in the team must
-                        register individually and must also obtain a pass in
-                        order to participate.
+                        register individually through this website and must also
+                        obtain a pass in order to participate.
                       </div>
                     </Row>
                   ) : null}
@@ -260,8 +281,8 @@ export default function Department({ data }) {
                     <Row>
                       <div className={styles.roundCard}>
                         This is a team event and any 2 out of 5 people in the
-                        team must register individually and must also obtain a
-                        pass in order to participate.
+                        team must register individually through this website and
+                        must also obtain a pass in order to participate.
                       </div>
                     </Row>
                   ) : null}

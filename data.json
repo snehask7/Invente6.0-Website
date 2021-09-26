@@ -10,7 +10,7 @@
         { "name": "Nimisha", "phone": 9840780834 }
       ],
       "description": {
-        "summary": "<i>“Because the people who are crazy enough to think they can change the world are the ones who do”<br/>~Steve Jobs</i><br/><br/>Have you ever been awestruck by the reach of technology? Does its revolutionary touch on this world dazzle you? Have you ever dreamed of being a tech-savvy pioneer? This is your time! Grab the baton! If you want to make the world a better place, the answer lies in creativity and innovation. Now’s your time to take these problems head on and arrive at remarkable solutions!<br/><br/>Join us in this 24 - hour hackathon and prototype a groundbreaking solution to problems in these topics. Creativity is the greatest rebellion in existence. Can you rebel and innovate a solution to the problems in these areas? Brave against the time crunch and grab this opportunity to win exciting prizes!!!<br/><br/> <b>Topics for Problem Statement</b><ul><li>Cyber Security</li><li>Medical and Healthcare</li><li>Women's Safety</li><li>Climate Change and Sustainability</li><li>Fintech</li><li>Technology for agriculture</li><li>Agritech</li><li>Student Innovation (Open Idea)</li></ul><br/>The hackathon will follow a leader board system. The points awarded will be the cumulative points, gained by the team over the three reviews and final presentation. The top team will be announced as the winner of the hackathon.<br/><b>Decision taken by the review panel will be final.</b>",
+        "summary": "<i>“Because the people who are crazy enough to think they can change the world are the ones who do”<br/>~Steve Jobs</i><br/><br/>Have you ever been awestruck by the reach of technology? Does its revolutionary touch on this world dazzle you? Have you ever dreamed of being a tech-savvy pioneer? This is your time! Grab the baton! If you want to make the world a better place, the answer lies in creativity and innovation. Now’s your time to take these problems head on and arrive at remarkable solutions!<br/><br/>Join us in this 24 - hour hackathon and prototype a groundbreaking solution to problems in these topics. Creativity is the greatest rebellion in existence. Can you rebel and innovate a solution to the problems in these areas? Brave against the time crunch and grab this opportunity to win exciting prizes!!!<br/><br/> <b>Topics for Problem Statement</b><ul><li>Cyber Security</li><li>Medical and Healthcare</li><li>Women's Safety</li><li>Climate Change and Sustainability</li><li>Fintech</li><li>Agritech</li><li>Student Innovation (Open Idea)</li></ul><br/>The hackathon will follow a leader board system. The points awarded will be the cumulative points, gained by the team over the three reviews and final presentation. The top team will be announced as the winner of the hackathon.<br/><b>Decision taken by the review panel will be final.</b>",
         "rounds": 5,
         "round_description": [
           {
@@ -46,7 +46,8 @@
         "1st Runner-Up - Rs.8000",
         "2nd Runner-Up - Rs.5000"
       ],
-      "eventid": "20"
+      "eventid": "20",
+      "prizepool": "Rs. 25000"
     },
     {
       "name": "Enigma",
@@ -75,7 +76,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
-      "eventid": "21"
+      "eventid": "21",
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "Data Utopia",
@@ -104,7 +106,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
-      "eventid": "22"
+      "eventid": "22",
+      "prizepool": "Rs. 4500"
     },
     {
       "name": "Tinkering Thoughts",
@@ -133,7 +136,8 @@
       },
       "open_to": "All",
       "prizes": ["Inplant Training for the top two teams"],
-      "eventid": "23"
+      "eventid": "23",
+      "prizepool": "Inplant Traning for winners"
     },
     {
       "name": "The Big Meg",
@@ -151,18 +155,19 @@
           {
             "name": "Round 1",
             "duration": null,
-            "description": "Participants will be asked to come up with a solution to improve the sales of a simple product and mail their solutions on or before 5th October. Finalists will be shortlisted after evaluating the answers."
+            "description": "Participants will be asked to answer a few questions, via a form, related to the sales and marketing techniques of a product. Finalists will be shortlisted after evaluating the answers."
           },
           {
             "name": "Round 2",
             "duration": null,
-            "description": " Shortlisted finalists will be assigned an electronic product, will be made aware of a theme and are expected to pitch their product for a maximum of 7 minutes to a panel of judges. Winners will be ascertained based on how well their pitch is made relevant to the given theme."
+            "description": "Shortlisted finalists will be made aware of a topic. They will be expected to come up with and pitch any product of choice, for a maximum of 7 minutes to a panel of judges. Winners will be ascertained based on a set of judging criteria."
           }
         ]
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
-      "eventid": "24"
+      "eventid": "24",
+      "prizepool": "Rs. 4500"
     },
     {
       "name": "Debug-a-circuit ",
@@ -191,7 +196,8 @@
       },
       "open_to": ["ECE", "EEE", "(Or any Electronics related majors)"],
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
-      "eventid": "25"
+      "eventid": "25",
+      "prizepool": "Rs. 2500"
     },
     {
       "name": "Junkyard Jumble",
@@ -226,7 +232,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
-      "eventid": "26"
+      "eventid": "26",
+      "prizepool": "Rs. 2500"
     },
     {
       "name": "Paper Presentation",
@@ -255,7 +262,8 @@
       },
       "open_to": ["ECE"],
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
-      "eventid": "27"
+      "eventid": "27",
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "IPL Auction",
@@ -284,7 +292,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
-      "eventid": "28"
+      "eventid": "28",
+      "prizepool": "Rs. 2500"
     },
     {
       "name": "SketchX",
@@ -318,7 +327,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner:Rs.2000", "Runner-Up:Rs.1000"],
-      "eventid": "29"
+      "eventid": "29",
+      "prizepool": "Rs. 3000"
     }
   ],
   "BME": [
@@ -341,7 +351,8 @@
         "Best Presentation Award:  Rs.3000 (based on IEEE pitch norms)",
         "Best Innovation Award: Rs. 2000 (based on social and technical novelty)"
       ],
-      "eventid": "50"
+      "eventid": "50",
+      "prizepool": "Rs. 5000"
     },
     {
       "name": "Quiz Masters",
@@ -380,7 +391,8 @@
         "1st Runner-Up - Rs.1250",
         "2nd Runner-Up - Rs.750"
       ],
-      "eventid": "51"
+      "eventid": "51",
+      "prizepool": "Rs. 2000"
     },
     {
       "name": "Telehealth Web Development",
@@ -402,7 +414,8 @@
         "1st Runner-Up - Rs.1250",
         "2nd Runner-Up - Rs.750"
       ],
-      "eventid": "52"
+      "eventid": "52",
+      "prizepool": "Rs. 2000"
     },
     {
       "name": "Design to Innovate",
@@ -449,7 +462,7 @@
           {
             "name": "Round 1",
             "duration": null,
-            "description": "Round 1 will take place before the main event around mid September during which the participating teams (team of 3) should send an abstract mentioning the Problem statement/theme from the list provided by us.<br/><br/><b>Themes</b><br/><ul><li>Medical Apps/Remote monitoring</li><li>AI/ML</li><li>IoT</li><li>Vital Monitoring in Space</li><li>AR and VR</li><li>Human interfacing devices</li><li>3D designing</li></ul><br/>Abstract should contain<br/><ul><li>Title</li><li>Description of the design</li><li>Novelty</li></ul><br/><b>Deadline - Sept 20</b><br/>Submissions will be scrutinized and around 10-15 submissions will be selected for the second round. Final list will be sent to the participants within the first week of October."
+            "description": "Round 1 will take place before the main event around mid September during which the participating teams (team of 3) should send an abstract mentioning the Problem statement/theme from the list provided by us.<br/><br/><b>Themes</b><br/><ul><li>Medical Apps/Remote monitoring</li><li>AI/ML</li><li>IoT</li><li>Vital Monitoring in Space</li><li>AR and VR</li><li>Human interfacing devices</li><li>3D designing</li></ul><br/>Abstract should contain<br/><ul><li>Title</li><li>Description of the design</li><li>Novelty</li></ul><br/><b>Deadline - Oct 1st</b><br/>Submit the abstract to: <b><u>inventebiomedicathon@gmail.com</u></b><br/> Submissions will be scrutinized and around 10-15 submissions will be selected for the second round. Final list will be sent to the participants within the first week of October."
           },
           {
             "name": "Round 2 (Main Event)",
@@ -464,7 +477,8 @@
         "1st Runner-Up - Rs.1500",
         "2nd Runner-Up - Rs.1000"
       ],
-      "eventid": "54"
+      "eventid": "54",
+      "prizepool": "Rs. 4500"
     },
     {
       "name": "Medical Auction",
@@ -492,20 +506,21 @@
         "1st Runner-Up - Rs.1500",
         "2nd Runner-Up - Rs.500"
       ],
-      "eventid": "55"
+      "eventid": "55",
+      "prizepool": "Rs. 2000"
     },
     {
-      "name": "Entrepreneurship",
+      "name": "Startup Smackdown",
       "category": "non-tech",
       "min_team_size": 1,
       "max_team_size": 3,
       "organisers": [
         { "name": "Yuvasri", "phone": 6379107639 },
-        { "name": "Harshini", "phone": 735842968 },
+        { "name": "Harshini", "phone": 7358429682 },
         { "name": "Prasidha", "phone": 9962236331 }
       ],
       "description": {
-        "summary": null,
+        "summary": "Are you always brimming with business ideas, but can’t pitch them to anyone? Do you have innovative solutions to existing problems and feel the need to showcase them? Well then, what are you waiting for? Come join us at the Entrepreneurship event, to prove your prowess as an entrepreneurial genius! ✨",
         "rounds": 3,
         "round_description": [
           {
@@ -527,10 +542,11 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
-      "eventid": "56"
+      "eventid": "56",
+      "prizepool": "Rs. 3000"
     },
     {
-      "name": " Reel it ",
+      "name": "Thambi Reel Inum Varala",
       "category": "non-tech",
       "min_team_size": 1,
       "max_team_size": 1,
@@ -546,7 +562,7 @@
           {
             "name": "Preliminary Round",
             "duration": "90 mins",
-            "description": "For the preliminary round, a topic will be given on spot to the participants, based on which they have to make a video of 30seconds and upload it in the given drive link. Participants will be shortlisted in this round by the judges. Decision will be based on Creativity."
+            "description": "For the preliminary round, a topic will be given on spot to the participants, based on which they have to make a video of 30 seconds and upload it in the given drive link. Participants will be shortlisted in this round by the judges. Decision will be based on Creativity."
           },
           {
             "name": "Final Round",
@@ -557,7 +573,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner:Rs.1000", "Runner-Up:Rs.500"],
-      "eventid": "57"
+      "eventid": "57",
+      "prizepool": "Rs. 1500"
     }
   ],
   "EEE": [
@@ -590,13 +607,14 @@
           },
           {
             "name": "Event Rules",
-            "description": "<ul><li>Only a maximum of 4 authors and <b>only</b> student authors are allowed. It is not necessary that all authors must be from the same institute</li><li>he authors can present their paper individually or as a team during the final round</li><li><b>Plagiarism is strictly unacceptable.</b>Only original research works are accepted.</li><li>The paper must be in <b>DOUBLE COLUMN IEEE format</b>. This format must be strictly followed.</li><li>To refer the IEEE standard, use the link: <a target=\"_blank\" href=\"https://docs.google.com/document/d/1YgyGebtyRlekC8Wan6dXwCllsVCqa09C_glpRJ4P78Q/edit?usp=sharing\"><u>IEE Format</u></a> </li><li>The paper submitted must be in <b>.pdf</b> format</li></ul>"
+            "description": "<ul><li>Only a maximum of 4 authors and <b>only</b> student authors are allowed. It is not necessary that all authors must be from the same institute</li><li>he authors can present their paper individually or as a team during the final round</li><li><b>Plagiarism is strictly unacceptable.</b>Only original research works are accepted.</li><li>The paper must be in <b>DOUBLE COLUMN IEEE format</b>. This format must be strictly followed.</li><li>To refer the IEEE standard, use the link: <a target=\"_blank\" href=\"https://docs.google.com/document/d/1YgyGebtyRlekC8Wan6dXwCllsVCqa09C_glpRJ4P78Q/edit?usp=sharing\"><u>IEEE Format</u></a> </li><li>The paper submitted must be in <b>.pdf</b> format</li></ul>"
           }
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner: Rs.3000", "Runner-Up: Rs.1500"],
-      "eventid": "30"
+      "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
+      "eventid": "30",
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "Tech Quiz",
@@ -630,8 +648,9 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
-      "eventid": "31"
+      "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
+      "eventid": "31",
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "E-Bugging",
@@ -666,8 +685,9 @@
         ]
       },
       "open_to": ["All Circuit Branches"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
-      "eventid": "32"
+      "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
+      "eventid": "32",
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "Electronic-Maze",
@@ -697,8 +717,9 @@
         ]
       },
       "open_to": ["ECE", "EEE"],
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
-      "eventid": "33"
+      "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
+      "eventid": "33",
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "Ideate",
@@ -723,7 +744,7 @@
           {
             "name": "Phase 1: (Registration) ",
             "duration": null,
-            "description": "<ul><li>Team Registration and domain selection has to be done. </li><li>Submission of Abstract  </li><li>Send your abstracts to the Mail ID : inventeideate2021@gmail.com </li></ul><br/><br/><b>Format for Sending Your Abstract: </b><br/><ul><li>Team Name: </li><li>Team Leader(SPOC): </li><li>Team Member Details: Name, Mail ID, Contact Number </li><li>Domain Chosen: </li><li>Problem Statement: </li><li>Objective: </li><li>Abstract: </li><li>Application: </li></ul><br/>Share in the form of TeamName_Domain.pdf <br/>Shortlisted Ideas from Phase 1 will move further <br/>Shortlisted Teams will be shared the format for further rounds of evaluation. The date and time for the rounds will be communicated to the shortlisted teams.  "
+            "description": "<ul><li>Team Registration and domain selection has to be done. </li><li>Submission of Abstract by September 30th,2021  </li><li>Send your abstracts to the Mail ID : inventeideate2021@gmail.com </li></ul><br/><br/><b>Format for Sending Your Abstract: </b><br/><ul><li>Team Name: </li><li>Team Leader(SPOC): </li><li>Team Member Details: Name, Mail ID, Contact Number </li><li>Domain Chosen: </li><li>Problem Statement: </li><li>Objective: </li><li>Abstract: </li><li>Application: </li></ul><br/>Share in the form of TeamName_Domain.pdf <br/>Shortlisted Ideas from Phase 1 will move further <br/>Shortlisted Teams will be shared the format for further rounds of evaluation. The date and time for the rounds will be communicated to the shortlisted teams.  "
           },
           {
             "name": "Phase 2: (Preliminary Evaluation) ",
@@ -743,8 +764,9 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
-      "eventid": "34"
+      "prizes": ["Winner - Rs.6000", "Runner-Up - Rs.3000"],
+      "eventid": "34",
+      "prizepool": "Rs. 9000"
     },
     {
       "name": "Inventino",
@@ -780,8 +802,9 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
-      "eventid": "35"
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
+      "eventid": "35",
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "Tentkotta",
@@ -809,8 +832,9 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
-      "eventid": "36"
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
+      "eventid": "36",
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "IPL Bidding",
@@ -840,8 +864,9 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner:Rs.3000", "Runner-Up:Rs.1500"],
-      "eventid": "37"
+      "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
+      "eventid": "37",
+      "prizepool": "Rs. 3000"
     }
   ],
   "IT": [
@@ -856,7 +881,7 @@
         { "name": "Raajalakshumi", "phone": 9791349237 }
       ],
       "description": {
-        "summary": "This event comprises two rounds, which will be conducted in virtual mode. Event rules are explained to participants prior to the event in a zoom call.The first round is conducted on hackerrank/hackerearth platform which composes of 20 mcqs with duration compact of 30 mins. If the student crosses our cut off then he/shewill be qualified to the next round.In the second round students will be given a cipher to break, and they must automate the process through code in the given duration of 1-2 hrs. Program will be graded based on the number of test cases passed. Students with maximum scores were selected and awarded.",
+        "summary": "This event comprises two rounds, which will be conducted in virtual mode. Event rules are explained to participants prior to the event in a zoom call.The first round is conducted on hackerrank/hackerearth platform which composes of 20 mcqs with duration compact of 30 mins. If the student crosses our cut off then he/she will be qualified to the next round.In the second round students will be given a cipher to break, and they must automate the process through code in the given duration of 1-2 hrs. Program will be graded based on the number of test cases passed. Students with maximum scores were selected and awarded.",
         "rounds": 2,
         "round_description": [
           {
@@ -873,20 +898,21 @@
       },
       "open_to": "All",
       "prizes": ["Winner: Rs.3000", "Runner-Up: Rs.1500"],
-      "eventid": "10"
+      "eventid": "10",
+      "prizepool": "Rs. 4500"
     },
     {
       "name": "WEBSITICA",
       "category": "tech",
       "min_team_size": 1,
-      "max_team_size": 1,
+      "max_team_size": 2,
       "organisers": [
         { "name": "Rithanya", "phone": 9487852180 },
         { "name": "Pakkeer", "phone": 9789032965 },
         { "name": "Sanjay", "phone": 8608792215 }
       ],
       "description": {
-        "summary": "This event is a web development event and basically comprises two important rounds, which will be conducted in virtual mode where thestudents have to login at the given time.",
+        "summary": "This event is a web development event and basically comprises two important rounds, which will be conducted in virtual mode where the students have to login at the given time.",
         "rounds": 3,
         "round_description": [
           {
@@ -908,7 +934,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
-      "eventid": "11"
+      "eventid": "11",
+      "prizepool": "Rs. 4500"
     },
     {
       "name": "CODERA",
@@ -917,7 +944,7 @@
       "max_team_size": 2,
       "organisers": [
         { "name": "Divya", "phone": 9445816942 },
-        { "name": "Badrinarayan", "phone": 8903039560 },
+        { "name": "Badrinarayanan", "phone": 8903039560 },
         { "name": "Keertivaas", "phone": 8939126658 }
       ],
       "description": {
@@ -943,7 +970,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
-      "eventid": "12"
+      "eventid": "12",
+      "prizepool": "Rs. 4500"
     },
     {
       "name": "REVERSE GEAR",
@@ -972,13 +1000,14 @@
           {
             "name": "Note",
             "duration": null,
-            "description": "<ul><li>The student must login at the given time or else they’ll not be allowed to login.</li><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>This platform rquired webcam and audio enabled (round 1)</li></ul>"
+            "description": "<ul><li>The student must login at the given time or else they’ll not be allowed to login.</li><li> Switching of tabs is not allowed</li><li>No usage of phone</li><li>This platform required webcam and audio enabled (round 1)</li></ul>"
           }
         ]
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
-      "eventid": "13"
+      "eventid": "13",
+      "prizepool": "Rs. 4500"
     },
     {
       "name": "PAPYRUS",
@@ -991,7 +1020,7 @@
         { "name": "Visvesh", "phone": 9524587047 }
       ],
       "description": {
-        "summary": "Have a Research/Review Paper? Come present it withus at \"Papyrus\", our Paper Presentation Event.",
+        "summary": "Have a Research/Review Paper? Come present it with us at \"Papyrus\", our Paper Presentation Event.",
         "rounds": 3,
         "round_description": [
           {
@@ -1007,13 +1036,14 @@
           {
             "name": "Rules",
             "duration": null,
-            "description": "<ul><li>Each paper can have upto 3 authors.</li><li>Submitted papers must be in IEEE format.</li><li>Papers must not be published before anywhere or beunder consideration for publication in any journalor conference.</li><li>Plagiarism is not allowed. Original works only.</li><li>Paper length limited to 6 pages.</li><li>Paper must be in .pdf, .docx, or .doc formats.</li><li>A team can have participants from different institutions.</li><li>The paper is to be attached to the mail <u>paperpresentationinvente2021@gmail.com </u>with the subject as the title of the paper.</li><li>The mail must contain - name of authors, college names and departments, phone numbers, and email addresses</li></ul>"
+            "description": "<ul><li>Each paper can have upto 3 authors.</li><li>Submitted papers must be in IEEE format.</li><li>Papers must not be published before anywhere or be under consideration for publication in any journalor conference.</li><li>Plagiarism is not allowed. Original works only.</li><li>Paper length limited to 6 pages.</li><li>Paper must be in .pdf, .docx, or .doc formats.</li><li>A team can have participants from different institutions.</li><li>The paper is to be attached to the mail <u>paperpresentationinvente2021@gmail.com </u>with the subject as the title of the paper.</li><li>The mail must contain - name of authors, college names and departments, phone numbers, and email addresses</li></ul>"
           }
         ]
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
-      "eventid": "14"
+      "eventid": "14",
+      "prizepool": "Rs. 4500"
     },
     {
       "name": "ANALYTICS SPRINT",
@@ -1021,7 +1051,7 @@
       "min_team_size": 2,
       "max_team_size": 2,
       "organisers": [
-        { "name": "Venkatesh", "phone": 784574861 },
+        { "name": "Venkatesh", "phone": 7845748610 },
         { "name": "Sriram", "phone": 9940270388 },
         { "name": "Koushika", "phone": 9632066644 }
       ],
@@ -1032,12 +1062,12 @@
           {
             "name": "Round 1- Short technical questions",
             "duration": "30 mins",
-            "description": "This round comproses of 30 questions. The questions will be like<br/><ul><li>Formula of Cost functions</li><li>Regression vs Classification</li><li>General Model Testing</li><li>Missing Data Etc.</li></ul>"
+            "description": "This round comprises of 30 questions. The questions will be like<br/><ul><li>Formula of Cost functions</li><li>Regression vs Classification</li><li>General Model Testing</li><li>Missing Data Etc.</li></ul>"
           },
           {
             "name": "Round 2- Coding round",
             "duration": "60 mins",
-            "description": "<ul><li>1 data set</li><li>Need to build a model that solves for the given dataset (either a classification or prediction modelbased on the data)</li><li>Aggregate of both the rounds will be the winner.</li></ul>"
+            "description": "<ul><li>1 data set</li><li>Need to build a model that solves for the given dataset (either a classification or prediction model based on the data)</li><li>Aggregate of both the rounds will be the winner.</li></ul>"
           },
           {
             "name": "Note",
@@ -1048,7 +1078,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
-      "eventid": "15"
+      "eventid": "15",
+      "prizepool": "Rs. 4500"
     },
     {
       "name": "SPORTS QUIZ",
@@ -1063,12 +1094,12 @@
           {
             "name": "Round 1: MCQ Based on Tech-GK",
             "duration": "15 mins",
-            "description": "MCQs Questions like<br/><ul><li>Who invented Cricket?</li><li>No. of shapes on a foot?</li></ul>"
+            "description": "MCQs like<br/><ul><li>Who invented Cricket?</li><li>No. of shapes on a foot?</li></ul>"
           },
           {
             "name": "Round 2: Connection",
             "duration": "30 mins",
-            "description": "Connection Here, the answer should be found by using the pictures given in the slide which represents the partof the answer i.e a word or a letter. Finally, the answer can be found by connecting all the pictures."
+            "description": "Connection Here, the answer should be found by using the pictures given in the slide which represents the part of the answer i.e a word or a letter. Finally, the answer can be found by connecting all the pictures."
           },
           {
             "name": "Round 3: Player's stats based",
@@ -1084,7 +1115,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
-      "eventid": "16"
+      "eventid": "16",
+      "prizepool": "Rs. 1500"
     },
     {
       "name": "E-TREASURE HUNT",
@@ -1115,7 +1147,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner:Rs.1000", "Runner-Up:Rs.500"],
-      "eventid": "17"
+      "eventid": "17",
+      "prizepool": "Rs. 1500"
     }
   ],
   "Chemical": [
@@ -1151,7 +1184,8 @@
       },
       "open_to": "All",
       "prizes": ["2 Winners - Rs.2500 each", "2 Runner-Ups - Rs.2000 each"],
-      "eventid": "70"
+      "eventid": "70",
+      "prizepool": "Rs. 9000"
     },
     {
       "name": "Who's on the Leaderboard",
@@ -1180,7 +1214,8 @@
       },
       "open_to": ["Chemical"],
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
-      "eventid": "71"
+      "eventid": "71",
+      "prizepool": "Rs. 3500"
     },
     {
       "name": "Be-safe-athon",
@@ -1214,7 +1249,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
-      "eventid": "72"
+      "eventid": "72",
+      "prizepool": "Rs. 3500"
     },
     {
       "name": "Like-for-Like",
@@ -1238,7 +1274,8 @@
       },
       "open_to": ["Chemical"],
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
-      "eventid": "73"
+      "eventid": "73",
+      "prizepool": "Rs. 3500"
     },
     {
       "name": "The Commentator’s Conference",
@@ -1268,7 +1305,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
-      "eventid": "74"
+      "eventid": "74",
+      "prizepool": "Rs. 3500"
     },
     {
       "name": "IPL-Invente's Pictionary League",
@@ -1298,7 +1336,8 @@
       },
       "open_to": ["Chemical"],
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
-      "eventid": "75"
+      "eventid": "75",
+      "prizepool": "Rs. 3500"
     },
     {
       "name": "The Last Man Standing",
@@ -1323,7 +1362,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.750"],
-      "eventid": "76"
+      "eventid": "76",
+      "prizepool": "Rs. 1750"
     },
     {
       "name": "Ee Sala MEME Namadhe",
@@ -1347,7 +1387,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.750"],
-      "eventid": "77"
+      "eventid": "77",
+      "prizepool": "Rs. 1750"
     }
   ],
   "CSE": [
@@ -1379,7 +1420,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.6000", "Runner-Up - Rs.4000"],
-      "eventid": "00"
+      "eventid": "00",
+      "prizepool": "Rs. 10000"
     },
     {
       "name": "Dev Heist",
@@ -1408,7 +1450,8 @@
       },
       "open_to": ["All"],
       "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"],
-      "eventid": "01"
+      "eventid": "01",
+      "prizepool": "Rs. 6000"
     },
     {
       "name": "Paper Presentation",
@@ -1432,7 +1475,8 @@
       },
       "open_to": ["All"],
       "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"],
-      "eventid": "02"
+      "eventid": "02",
+      "prizepool": "Rs. 6000"
     },
     {
       "name": "Code Triathlon",
@@ -1467,7 +1511,8 @@
       },
       "open_to": "All",
       "prizes": ["Best Ideator - Rs.3000", "Best Innovater - Rs.3000"],
-      "eventid": "03"
+      "eventid": "03",
+      "prizepool": "Rs. 6000"
     },
     {
       "name": "Hacker’s Asylum",
@@ -1479,7 +1524,7 @@
         { "name": "Aarthi", "phone": 7358090325 }
       ],
       "description": {
-        "summary": "A controversial content creator is found dead and the official report states that it is a suicide. You stumbled across their page recently and found some hidden messages that make you suspect that some foul play is involved. Unsurprisingly, OLEN, the production house that the content creator was a part of contacts you and wants you to retrieve the data from the victim’s erased system. But you find something more sinister as you keep digging. Can you get to the bottom of this before whatever killed the content creator gets to you as well?",
+        "summary": "Hacker’s Asylum is a Jeopardy style Capture The Flag event with an intriguing plot where you find clues , solve puzzles and capture the “flags”. Each element tests your grasp on OSINT, Cryptography, Reverse Engineering, Password Cracking and a whole range of Cyber Security concepts along with general logical skills. Each flag you capture gets you points and leads you to unfold the story a little more. But time is not on your side in this event as the first team to figure out all the clues and solve the murders, wins.",
         "rounds": 2,
         "round_description": [
           {
@@ -1490,13 +1535,14 @@
           {
             "name": "Main Event",
             "duration": "3 hours",
-            "description": "When you return from a 3 month deep undercover mission you find out that a lot of agents at OLEN , the spy organization you work at are dead! You’ve been assigned this case and now it’s on you to get to the bottom of it. Can you solve the reason behind these murders before you end up on the victim list?"
+            "description": "A controversial content creator is found dead and the official report states that it is a suicide. You stumbled across their page recently and found some hidden messages that make you suspect that some foul play is involved. Unsurprisingly, OLEN, the production house that the content creator was a part of contacts you and wants you to retrieve the data from the victim’s erased system. But you find something more sinister as you keep digging. Can you get to the bottom of this before whatever killed the content creator gets to you as well?"
           }
         ]
       },
       "open_to": ["All"],
       "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"],
-      "eventid": "04"
+      "eventid": "04",
+      "prizepool": "Rs. 6000"
     },
     {
       "name": "MOCK JOB DRIVE",
@@ -1538,7 +1584,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"],
-      "eventid": "05"
+      "eventid": "05",
+      "prizepool": "Rs. 5000"
     },
     {
       "name": "Relay in Reverse",
@@ -1567,7 +1614,8 @@
       },
       "open_to": ["All"],
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"],
-      "eventid": "06"
+      "eventid": "06",
+      "prizepool": "Rs. 5000"
     },
     {
       "name": "Game Nite",
@@ -1598,7 +1646,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.2500", "Runner-Up - Rs.1500"],
-      "eventid": "07"
+      "eventid": "07",
+      "prizepool": "Rs. 4000"
     }
   ],
   "Civil": [
@@ -1911,10 +1960,10 @@
       "min_team_size": 1,
       "max_team_size": 4,
       "organisers": [
-        { "name": "Manufacturing: Mohammad R", "phone": 7397492626 },
-        { "name": "Thermal: Arunachalam N", "phone": 9789589073 },
+        { "name": "Manufacturing: Ranjith K R", "phone": 8508506659 },
+        { "name": "Thermal: Karthik R", "phone": 7358632280 },
         { "name": "Robotics: Karthik R", "phone": 7358632280 },
-        { "name": "Design: Ranjith K", "phone": 8508506659 }
+        { "name": "Design: Ranjith K R", "phone": 8508506659 }
       ],
       "description": {
         "summary": "<b>Platform: Zoom/GMeet</b><br/><b>No of rounds: 2</b>",
@@ -1932,13 +1981,14 @@
           }
         ]
       },
-      "open_to": ["Mechanical"],
+      "open_to": "All",
       "prizes": [
         "Winners and runner-up will be announced for each domain",
         "Domain winner - Rs.1500",
         "Domain Runner-Up - Rs.1000"
       ],
-      "eventid": "40"
+      "eventid": "40",
+      "prizepool": "Rs. 2500"
     },
     {
       "name": "Project Exhibition",
@@ -1962,7 +2012,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.2500", "Runner-Up - Rs.1500"],
-      "eventid": "41"
+      "eventid": "41",
+      "prizepool": "Rs. 4000"
     },
     {
       "name": "Need for Speed – Autoquiz",
@@ -1970,7 +2021,7 @@
       "min_team_size": 1,
       "max_team_size": 2,
       "organisers": [
-        { "name": "Gautam R", "phone": 8939332169 },
+        { "name": "Mohammad Riaz Khan K N", "phone": 7397492626 },
         { "name": "Srinath", "phone": 7695806593 }
       ],
       "description": {
@@ -1990,13 +2041,14 @@
           {
             "name": "Rules:",
             "duration": null,
-            "description": "<ul><li>Every Team registered for this event should have a Team leader</li><li>Only the team leader should fill the registration form entering details of participants</li><li>15 minutes before the scheduled start time of this round, every team leader will receive a Google form link to his/her registered email ID. </li><li>The team members can connect through zoom or meet or any means to communicate among each other.</li></ul>"
+            "description": "<ul><li>The participants will receive a google form one day before the event and only the team leader should fill the form entering their team details.</li><li>15 minutes before the scheduled start time of the round, every participant will receive the online meeting link to their registered email ID. </li><li>The team members can connect through zoom or meet or any means to communicate among each other.</li></ul>"
           }
         ]
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
-      "eventid": "42"
+      "eventid": "42",
+      "prizepool": "Rs. 2500"
     },
     {
       "name": "Mechathlon",
@@ -2004,7 +2056,7 @@
       "min_team_size": 1,
       "max_team_size": 1,
       "organisers": [
-        { "name": "Nandita S", "phone": 9176067279 },
+        { "name": "Varuna G R", "phone": 9840789912 },
         { "name": "Goutham K", "phone": 8891103014 }
       ],
       "description": {
@@ -2030,7 +2082,8 @@
       },
       "open_to": ["Mechanical"],
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
-      "eventid": "43"
+      "eventid": "43",
+      "prizepool": "Rs. 2500"
     },
     {
       "name": "2 fast 2 curious",
@@ -2057,9 +2110,10 @@
           }
         ]
       },
-      "open_to": ["Mechanical"],
+      "open_to": "All",
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
-      "eventid": "44"
+      "eventid": "44",
+      "prizepool": "Rs. 2500"
     },
     {
       "name": "Design and deal",
@@ -2086,9 +2140,10 @@
           }
         ]
       },
-      "open_to": ["Mechanical"],
+      "open_to": "All",
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
-      "eventid": "45"
+      "eventid": "45",
+      "prizepool": "Rs. 3000"
     },
     {
       "name": "QUARTER MILE",
@@ -2120,9 +2175,10 @@
           }
         ]
       },
-      "open_to": ["Mechanical"],
+      "open_to": "All",
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
-      "eventid": "46"
+      "eventid": "46",
+      "prizepool": "Rs. 2500"
     },
     {
       "name": "Car wars",
@@ -2130,7 +2186,7 @@
       "min_team_size": 2,
       "max_team_size": 2,
       "organisers": [
-        { "name": "Krishnanand M", "phone": 9841021169 },
+        { "name": "Vengadesh V", "phone": 9677243361 },
         { "name": "Akshaya", "phone": 7358548743 }
       ],
       "description": {
@@ -2156,7 +2212,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
-      "eventid": "47"
+      "eventid": "47",
+      "prizepool": "Rs. 2500"
     },
     {
       "name": "ROUNDABOUT",
@@ -2164,7 +2221,7 @@
       "min_team_size": 2,
       "max_team_size": 2,
       "organisers": [
-        { "name": "GV Surya Shashank", "phone": 9962527657 },
+        { "name": "Arunachalam N", "phone": 9789589073 },
         { "name": "Akash S", "phone": 8438340228 }
       ],
       "description": {
@@ -2190,7 +2247,8 @@
       },
       "open_to": "All",
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.600"],
-      "eventid": "48"
+      "eventid": "48",
+      "prizepool": "Rs. 1600"
     }
   ]
 }

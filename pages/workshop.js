@@ -1,5 +1,6 @@
 import axios from 'axios';
 import Head from 'next/head';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
@@ -70,6 +71,26 @@ export default function Department({ data }) {
             }
           >
             <h1 className={styles.pageHeading}>Workshops</h1>
+            <Col lg={12} xl={12} md={12} sm={12}>
+              <div className={styles.passDetails}>
+                <p
+                  style={{
+                    textAlign: 'center',
+                  }}
+                >
+                  Head over to the
+                  <span
+                    style={{
+                      fontWeight: 'bold',
+                      color: 'cyan',
+                    }}
+                  >
+                    <Link href={'/passes'}> Passes </Link>
+                  </span>
+                  page to purchase passes for the workshops you wish to attend!
+                </p>
+              </div>
+            </Col>
             <Row className={styles.wrapper}>
               <Col lg={12} xl={12} md={12} sm={12}>
                 <div className={styles.eventDetails}>

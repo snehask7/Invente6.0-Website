@@ -1,5 +1,6 @@
 import axios from 'axios';
 import Head from 'next/head';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
@@ -74,7 +75,7 @@ export default function Department({ data }) {
           >
             <h1 className={styles.pageHeading}>Hackathons</h1>
             <Row className={styles.wrapper}>
-              <Row style={{ width: '50%' }}>
+              <Row style={{ textAlign: 'center', maxWidth: '500px' }}>
                 <Col>
                   <a href="/department/ECE/0">
                     <div className={styles.eventCard}>
@@ -101,21 +102,165 @@ export default function Department({ data }) {
                 </Col>
               </Row>
               <Col lg={12} xl={12} md={12} sm={12}>
+                <div className={styles.passDetails}>
+                  <p
+                    style={{
+                      textAlign: 'center',
+                    }}
+                  >
+                    Head over to the
+                    <span
+                      style={{
+                        fontWeight: 'bold',
+                        color: 'cyan',
+                      }}
+                    >
+                      <Link href={'/passes'}> Passes </Link>
+                    </span>
+                    page to purchase passes for the hackathons you wish to
+                    participate in!
+                  </p>
+                </div>
+              </Col>
+              <Col lg={12} xl={12} md={12} sm={12}>
                 <div className={styles.eventDetails}>
+                  <Row style={{ textAlign: 'right' }}>
+                    <Col>
+                      <a
+                        href="https://business.stayflexi.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {/* eslint-disable-next-line */}
+                        <img
+                          src="/sponsors/sf.webp"
+                          alt="stayflexi"
+                          style={{ width: '15vh' }}
+                        />{' '}
+                      </a>
+                    </Col>
+                  </Row>
                   <p className={styles.headerWrapper}>
                     <span className={styles.eventHeading}>Devathlon</span>
                   </p>
                   <br></br>
-                  Devathlon is a one week long hackathon. The problem statement
-                  will be released on 1st of October. The participants get a
-                  week to build a solution for the given problem statement. The
-                  solution will be evaluated during Invente and depending on the
-                  viability of the product, the solution will be considered for
-                  piloting and may be funded. The developers of best solutions
-                  get the chance to intern and work in world class companies.
-                  The detailed description will be released soon. <br />
+                  In this first of its kind cross-department hackathon sponsored
+                  by{' '}
+                  <a
+                    href="https://business.stayflexi.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    StayFlexi Inc, USA
+                  </a>
+                  , we look forward to meeting skilled individuals from domains
+                  spread across engineering and technology, business strategy
+                  and marketing. <br />
                   <br />
-                  <hr />
+                  Have a game-changing Idea and a Skilled Team?
+                  <br />
+                  Have a great Team that is looking to actualize any Idea?
+                  <br />
+                  Have a brilliant Idea but need domain experts?
+                  <br />
+                  Looking for that right opportunity to put your skills to use?
+                  <br />
+                  <br />
+                  {/* eslint-disable-next-line */}
+                  It's all the same here at Devathlon!
+                  <br />
+                  <br />
+                  <b>
+                    Come Ideate. Pitch. Develop. Hack your Startup in a Week.
+                  </b>
+                  <br />
+                  <br />
+                  <Row>
+                    <div className={styles.roundCard}>
+                      <b>1st October</b> <hr></hr>
+                      <p>
+                        The 1st of October will start off with a{' '}
+                        <b>1-minute pitch</b> of ideas by teams and individuals.
+                        After a first-level of scrutiny, the <b>top 10 ideas</b>{' '}
+                        will be published after a <b>voting</b> by the
+                        participants.
+                        <br />
+                        <br />
+                        This will be followed by a <b>team formation session</b>
+                        . While teams with a selected idea are all set to go,
+                        participants entering individually and teams looking for
+                        ideas to work on will be allowed to collaborate with
+                        already registered like-minded individuals or even join
+                        registered teams that are looking to collaborate. While
+                        there is{' '}
+                        <b>
+                          no limit on the team size, participants can maximize
+                          their winnings by contesting with a smaller one
+                        </b>
+                        . Participants must submit their final teams at the end
+                        of this session.
+                        <br />
+                        <br />
+                        This will be followed by a <b>
+                          team-wise mentorship
+                        </b>{' '}
+                        session. Teams can interact with a panel of{' '}
+                        <b>industry experts and entrepreneurs</b> brought in by
+                        Devathlon to devise and refine their work plan for the
+                        week to come.
+                      </p>
+                    </div>
+                  </Row>
+                  <Row>
+                    <div className={styles.roundCard}>
+                      <b>2nd and 3rd October</b> <hr></hr>
+                      <p>
+                        Teams will work on formulating a{' '}
+                        <b>
+                          business model, marketing strategy, organization
+                          structure
+                        </b>{' '}
+                        and developing a <b>proof-of-concept or prototype</b> of
+                        their product or service.
+                      </p>
+                    </div>
+                  </Row>
+                  <Row>
+                    <div className={styles.roundCard}>
+                      <b>4th October</b> <hr></hr>
+                      <p>
+                        A <b>new set of mentors</b> will be brought in for teams
+                        to personally evaluate their work progress. Teams can
+                        further get their business as well as technical models
+                        assessed by domain experts, refine their course of
+                        action accordingly and imbibe their industrial wisdom.
+                      </p>
+                    </div>
+                  </Row>
+                  <Row>
+                    <div className={styles.roundCard}>
+                      <b>5th, 6th and 7th October</b> <hr></hr>
+                      <p>
+                        Teams will continue to work on the business model and
+                        marketing research. They must complete their
+                        demonstrable proof of concept by the end of the 7th
+                        october.
+                      </p>
+                    </div>
+                  </Row>
+                  <Row>
+                    <div className={styles.roundCard}>
+                      <b>8th October</b> <hr></hr>
+                      <p>
+                        Each team is given an opportunity to make a{' '}
+                        <b>15-minute final presentation</b> of their
+                        full-fledged idea along with their week’s work and proof
+                        of concept to a panel of <b>esteemed judges</b> whom
+                        they will be meeting for the first time! Judges will
+                        then announce the winning teams.
+                      </p>
+                    </div>
+                  </Row>
                   <div className={styles.row}>
                     {/* <div className={styles.col}>
                       {events[id].organisers.map((organiser, id) => {
@@ -132,6 +277,26 @@ export default function Department({ data }) {
                         );
                       })}
                     </div> */}
+                    <Row>
+                      <div className={styles.roundCard}>
+                        Other perks!
+                        <hr />
+                        In this sponsored event,{' '}
+                        <b>
+                          individuals may be offered a chance to intern at
+                          leading companies and startups
+                        </b>
+                        . Viable and impressive ideas may even be considered for{' '}
+                        <b>piloting and funding</b>.
+                      </div>
+                    </Row>
+                    <Row>
+                      <div className={styles.roundCard}>
+                        This is a team event and each person in the team must
+                        register individually through this website and must also
+                        obtain a pass in order to participate.
+                      </div>
+                    </Row>
                     <div className={styles.col}>
                       {' '}
                       <FaUserAlt></FaUserAlt>
@@ -141,10 +306,7 @@ export default function Department({ data }) {
                     <div className={styles.col}>
                       {' '}
                       <FaCalendarAlt></FaCalendarAlt>
-                      <br></br>Problem Statement release: October 1st<br></br>
-                      1st Review: October 4th
-                      <br />
-                      Judging: October 8th
+                      <br></br>October 1st-8th
                     </div>
                     <div className={styles.col}>
                       {' '}

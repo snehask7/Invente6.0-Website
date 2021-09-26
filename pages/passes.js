@@ -3,12 +3,12 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
+import { FaCloudUploadAlt, FaMoneyCheck } from 'react-icons/fa';
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import { useNav } from '../lib/navbarstate';
 import styles from '../styles/Passes.module.css';
-import { FaMoneyCheck, FaCloudUploadAlt } from 'react-icons/fa';
 function Plans() {
   const { currentUser } = useAuth();
   const router = useRouter();
@@ -55,6 +55,12 @@ function Plans() {
                       also be updated in your profile!
                     </li>
                   </ol>
+                  <br />
+                  <h5 style={{ textAlign: 'center' }}>
+                    {' '}
+                    You may register for events before obtaining the pass.
+                    Remember to obtain the pass before the event starts!
+                  </h5>
                 </span>
               </div>
               <div className={styles.buttons}>
@@ -160,11 +166,7 @@ function Plans() {
                         <div className={styles.price}>200</div>
                       </div>
                       <div className={styles.plan_description}>
-                        <span>
-                          All Tech + All Non-Tech
-                          <br />
-                          &nbsp;
-                        </span>
+                        <span>All Tech + All Non-Tech</span>
                       </div>
                     </div>
                   </Col>
