@@ -169,25 +169,71 @@ export default function Department({ data }) {
               </Col>
               <Col lg={12} xl={12} md={12} sm={12}>
                 <div className={styles.eventDetails}>
-                  <p className={styles.headerWrapper}>
-                    <span className={styles.eventHeading}>
-                      {events[id].name}
-                    </span>
-                    <span
-                      className={
-                        events[id].category == 'tech' ||
-                        events[id].category == 'hackathon'
-                          ? styles.techbadge
-                          : styles.nontechbadge
-                      }
+                  <div className={styles.eventHeader}>
+                    <p className={styles.headerWrapper}>
+                      <span className={styles.eventHeading}>
+                        {events[id].name}
+                      </span>
+                      <span
+                        className={
+                          events[id].category == 'tech' ||
+                          events[id].category == 'hackathon'
+                            ? styles.techbadge
+                            : styles.nontechbadge
+                        }
+                      >
+                        {events[id].category == 'tech'
+                          ? 'Tech'
+                          : events[id].category == 'hackathon'
+                          ? 'Hackathon'
+                          : 'Non-Tech'}
+                      </span>
+                    </p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      version="1.1"
+                      className={styles.prizesvg}
                     >
-                      {events[id].category == 'tech'
-                        ? 'Tech'
-                        : events[id].category == 'hackathon'
-                        ? 'Hackathon'
-                        : 'Non-Tech'}
+                      <defs>
+                        <filter id="gooey">
+                          <feGaussianBlur
+                            in="SourceGraphic"
+                            stdDeviation="5"
+                            result="blur"
+                          />
+                          <feColorMatrix
+                            in="blur"
+                            type="matrix"
+                            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                            result="highContrastGraphic"
+                          />
+                          <feComposite
+                            in="SourceGraphic"
+                            in2="highContrastGraphic"
+                            operator="atop"
+                          />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div className={styles.gooey_button}>
+                    <span className={styles.prizes_text}>
+                      Prizes Worth {events[id].prizepool}
                     </span>
-                  </p>
+
+                    <span className={styles.bubbles}>
+                      <span className={styles.bubble}></span>
+                      <span className={styles.bubble}></span>
+                      <span className={styles.bubble}></span>
+                      <span className={styles.bubble}></span>
+                      <span className={styles.bubble}></span>
+                      <span className={styles.bubble}></span>
+                      <span className={styles.bubble}></span>
+                      <span className={styles.bubble}></span>
+                      <span className={styles.bubble}></span>
+                      <span className={styles.bubble}></span>
+                    </span>
+                  </div>
                   <br></br>
                   {events[id].description.summary ? (
                     <>
