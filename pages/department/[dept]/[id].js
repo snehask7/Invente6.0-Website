@@ -218,7 +218,7 @@ export default function Department({ data }) {
                   </div>
                   <div className={styles.gooey_button}>
                     <span className={styles.prizes_text}>
-                      Prizes Worth Rs. 10,000
+                      Prizes Worth {events[id].prizepool}
                     </span>
 
                     <span className={styles.bubbles}>
