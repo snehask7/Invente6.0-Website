@@ -326,6 +326,18 @@
   display: none;
 }
 
+.eventHeader {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.prizesvg {
+  max-width: 300px;
+  justify-self: flex-end;
+}
+
 .gooey_button {
   padding: 1rem;
   font-size: 18px;
@@ -336,8 +348,8 @@
   width: 180px;
   text-align: center;
   float: right;
-  margin-top: -80px;
-  margin-right: 50px;
+  margin-top: -100px;
+  margin-right: 10px;
   background-color: #03e9f4; }
   .gooey_button:focus {
     outline: none; }
