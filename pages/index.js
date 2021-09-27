@@ -707,6 +707,23 @@ export default function Home() {
                 </a>
               </Col>
             </Row>
+            <Row>
+              <Col>
+                <a
+                  href="https://microcode-inc.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/microcode.jpeg"
+                    alt="Microcode"
+                    width="230"
+                    height="100"
+                  />{' '}
+                </a>
+              </Col>
+            </Row>
           </Container>
         </div>
         <div className={styles.org_section}>
