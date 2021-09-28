@@ -2249,6 +2249,33 @@
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.600"],
       "eventid": "48",
       "prizepool": "Rs. 1600"
+    },
+    {
+      "name": "Clutch or Kick",
+      "category": "non-tech",
+      "min_team_size": 5,
+      "max_team_size": 5,
+      "organisers": [
+        { "name": "Biju", "phone": 8220415710 },
+        { "name": "Abdulkadir", "phone": 9962715169 }
+      ],
+      "description": {
+        "summary": "Think you have the  Tenz aim? The Hiko clutch genes? the AvgJonas lineups? Here's the perfect opportunity to prove your mettle and kickstart your eSports aspirations. Welcome to the most anticipated event of Invente-6.0. Grab your chance flex your aim and game sense on the server and register now! Let's see if you can CLUTCH... Or Kick.",
+        "rounds": 2,
+        "round_description": [
+          {
+            "name": "Rules",
+            "duration": null,
+            "description": "<ol><li>Each team will consist of 5 players with no substitutions allowed. All players must give their Riot ID and Tag at least 48 hours before the day of the tournament.</li><li>Each team is allowed one timeout during the course of the match in the case of any technical issues that may arise.</li><li>Double elimination bracket format will be followed. The grand final will have no bracket reset.</li><li>Vulgarity / Toxicity of any kind will not be tolerated during the course of the tournament.</li><li>The upper bracket final and grand final will be best of 3 maps while the rest of the tournament will be a single map.</li><li>Matches at 12-12 will go into overtime. If there is no winner after 32 rounds, the next round will be the decider.</li><li>Uses of any in-game exploits/bugs/glitches will lead to disqualification.</li><li>The map pool consists of – Ascent, Bind, Haven, Split, Icebox and Breeze. Choice of map will be done by alternate map bans.</li><li>The organizer’s decision will be final in all matters.</li><li>Any roster changes have to be reported to the organizers 24 hours before the tournament starts.</li></ol>"
+          }
+        ]
+      },
+      "open_to": "All",
+      "prizes": [
+        "Will be revealed soon!"
+      ],
+      "eventid": "40",
+      "prizepool": "TBA!"
     }
   ]
 }
