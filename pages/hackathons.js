@@ -141,7 +141,12 @@ export default function Department({ data }) {
                     </Col>
                   </Row>
                   <p className={styles.headerWrapper}>
-                    <span className={styles.eventHeading}>Devathlon</span>
+                    <span
+                      className={styles.eventHeading}
+                      style={{ marginLeft: '0' }}
+                    >
+                      Devathlon
+                    </span>
                   </p>
                   <br></br>
                   In this first of its kind cross-department hackathon sponsored

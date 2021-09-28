@@ -95,7 +95,12 @@ export default function Department({ data }) {
               <Col lg={12} xl={12} md={12} sm={12}>
                 <div className={styles.eventDetails}>
                   <p className={styles.headerWrapper}>
-                    <span className={styles.eventHeading}>AI/ML Workshop</span>
+                    <span
+                      className={styles.eventHeading}
+                      style={{ marginLeft: '0' }}
+                    >
+                      AI/ML Workshop
+                    </span>
                   </p>
                   <br></br>A 3 hour workshop exploring the recent technical
                   advancements in the field of AI/ML conducted by the best
@@ -186,7 +191,12 @@ export default function Department({ data }) {
               <Col lg={12} xl={12} md={12} sm={12} style={{ marginTop: '2em' }}>
                 <div className={styles.eventDetails}>
                   <p className={styles.headerWrapper}>
-                    <span className={styles.eventHeading}>Civil Workshop</span>
+                    <span
+                      className={styles.eventHeading}
+                      style={{ marginLeft: '0' }}
+                    >
+                      Civil Workshop
+                    </span>
                   </p>
                   <br></br>
                   <p>
