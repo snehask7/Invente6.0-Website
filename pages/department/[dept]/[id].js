@@ -99,14 +99,63 @@ export default function Department({ data }) {
               !navbarToggle ? styles.mainContainer : styles.hideMainContainer
             }
           >
-            <h1 className={styles.pageHeading}>
-              Department of {department}
-              {department == 'Chemical' ||
-              department == 'Mechanical' ||
-              department == 'Civil'
-                ? ' Engineering'
-                : ' '}
-            </h1>
+            <Row>
+              <Col style={{ textAlign: 'center' }}>
+                <h1 className={styles.pageHeading}>
+                  <u>
+                    Department of {department}
+                    {department == 'Chemical' ||
+                    department == 'Mechanical' ||
+                    department == 'Civil'
+                      ? ' Engineering'
+                      : ' '}
+                  </u>
+                </h1>
+              </Col>
+            </Row>
+            {department == 'CSE' ? (
+              <Row style={{ justifyContent: 'center' }}>
+                <Col
+                  xs="6"
+                  md="2"
+                  lg="1"
+                  style={{ textAlign: 'center', marginTop: '-0.5vw' }}
+                >
+                  <a
+                    href="https://facilio.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                      <img
+                      src="/sponsors/facilio.webp"
+                      alt="facilio"
+                      width="90vw"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col
+                  xs="6"
+                  md="2"
+                  lg="1"
+                  style={{ textAlign: 'center', alignItems: 'flex-end' }}
+                >
+                  <a
+                    href="https://www.saama.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                      <img
+                      src="/sponsors/saama.png"
+                      alt="saama"
+                      width="100vw"
+                    />{' '}
+                  </a>
+                </Col>
+              </Row>
+            ) : null}
+
             <Row className={styles.wrapper}>
               <Col
                 lg={12}
