@@ -41,13 +41,33 @@
 } */
 
 .headerRow {
-  margin-top: 6%;
+  margin-top: 1%;
 }
 .dept_section {
   margin-top: 8vw;
 }
 .dept_cards {
   padding-top: 3em;
+}
+.registerButton {
+  padding: 5px 10px;
+  color: #03e9f4;
+  background: none;
+  border: 2px solid #03e9f4;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 15px;
+  letter-spacing: 4px;
+  border-radius: 15px;
+}
+.registerButton:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 30px #03e9f4;
 }
 @media screen and (max-width: 1000px) {
   .centerLogo {
@@ -485,7 +505,7 @@
   font-family: 'Lato', sans-serif;
   font-size: 0.7em;
   letter-spacing: 3px;
-  margin-top: 10em;
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   background-color: #11192779;

@@ -299,18 +299,26 @@ export default function Home() {
               </div>
             </Col>
           </Row>
-          <div className={styles3.blinkbox}>
+          <div className={styles3.blinkbox} data-aos="zoom-in">
             <div className={styles3.light}></div>
-            <div class={styles3.blink}>
-              <span>Hackathon starting on 1st October!<br />Prizes worth 30k and internships from 5 companies!</span>
+            <div className={styles3.blink}>
+              <span>
+                Hackathon starting on 1st October!
+                <br />
+                Prizes worth 30k and internships from 5 companies!
+              </span>
+              <br />
+              <button
+                className={styles.registerButton}
+                onClick={() => {
+                  router.push('/hackathons');
+                }}
+              >
+                Register
+              </button>
             </div>
           </div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="800"
-            id="timer"
-            className={styles.timer}
-          >
+          <div data-aos="zoom-in" id="timer" className={styles.timer}>
             <div id="days" className={styles.days}>
               <div id="days_num" className={styles.numbers}></div>
               <div>days</div>
@@ -738,6 +746,21 @@ export default function Home() {
                   <img
                     src="/sponsors/orono.jpg"
                     alt="orono"
+                    width="230"
+                    height="100"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.shankarabuildpro.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/shankara.jfif"
+                    alt="Shankara"
                     width="230"
                     height="100"
                   />{' '}
