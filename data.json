@@ -2281,10 +2281,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": [
-        "Will be revealed soon!"
-      ],
-      "eventid": "40",
+      "prizes": ["Will be revealed soon!"],
+      "eventid": "49",
       "prizepool": "TBA!"
     }
   ]

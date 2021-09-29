@@ -9,8 +9,10 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import { useNav } from '../lib/navbarstate';
+import styles3 from '../styles/Blink.module.scss';
 import styles from '../styles/Home.module.css';
 import styles2 from '../styles/Particles.module.scss';
+
 export default function Home() {
   AOS.init();
   const [loadAnimation, setLoadAnimation] = useState('');
@@ -297,6 +299,12 @@ export default function Home() {
               </div>
             </Col>
           </Row>
+          <div className={styles3.blinkbox}>
+            <div className={styles3.light}></div>
+            <div class={styles3.blink}>
+              <span>Hackathon starting on 1st October!<br />Prizes worth 30k and internships from 5 companies!</span>
+            </div>
+          </div>
           <div
             data-aos="zoom-in"
             data-aos-delay="800"
