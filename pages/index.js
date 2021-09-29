@@ -625,7 +625,7 @@ export default function Home() {
                     src="/sponsors/facilio.webp"
                     alt="facilio"
                     width="300"
-                    height="130"
+                    height="160"
                   />{' '}
                 </a>
               </Col>
@@ -639,8 +639,9 @@ export default function Home() {
                   <img
                     src="/sponsors/saama.svg"
                     alt="saama"
-                    width="300"
-                    height="150"
+                    width="250"
+                    height="80"
+                    style={{ marginTop: '4vw' }}
                   />{' '}
                 </a>
               </Col>
@@ -718,6 +719,17 @@ export default function Home() {
                   <img
                     src="/sponsors/microcode.jpeg"
                     alt="Microcode"
+                    width="230"
+                    height="100"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a href="http://www.orono.in/" target="_blank" rel="noreferrer">
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/orono.jpg"
+                    alt="orono"
                     width="230"
                     height="100"
                   />{' '}
