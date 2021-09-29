@@ -136,6 +136,10 @@ export default function NavbarComp() {
                 width={100}
                 height={25}
                 alt="logo"
+                onClick={() => {
+                  toggleNavbar();
+                  setIsOpen(!isOpen);
+                }}
               ></Image>
             </Link>
           </div>
