@@ -791,6 +791,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Parithi", "phone": 9092437531 },
         { "name": "Siddharthan", "phone": 6385101827 },
