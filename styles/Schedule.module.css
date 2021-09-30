@@ -54,7 +54,7 @@
 
 .eventsDesktop {
   margin-top: 2em;
-  min-width: 80vw;
+  min-width: 95vw;
   border: 2px transparent;
   border-radius: 25px;
   background-origin: border-box;
@@ -64,7 +64,6 @@
 
 .scheduleTable {
   margin: 2em 0;
-  min-width: 80vw;
   border: 2px transparent;
   border-radius: 25px;
   background-origin: border-box;
@@ -80,6 +79,9 @@
 .timeM {
   border: none;
   white-space: pre;
+  max-width: 3vw;
+  word-wrap: break-word;
+ 
 }
 
 .event {
@@ -89,6 +91,10 @@
   font-weight: bold;
   color: #fff;
   border-left: 2px solid #19e9f023;
+  max-width: 50px;
+  /* max-height: 10vw;
+  /* overflow: hidden; */
+  /* overflow-wrap: break-word; */
 }
 
 .purple {
@@ -105,6 +111,10 @@
 
 .teal{
   background-color: #0CECDD !important;
+}
+
+.tan{
+  background-color: #F9D5A7 !important;
 }
 .eventM {
   text-align: center;
@@ -225,7 +235,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1000px) {
   .eventsDesktop {
     display: none;
   }
@@ -234,7 +244,7 @@
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1000px) {
   .eventsDesktop {
     display: block;
   }
