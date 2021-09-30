@@ -6,8 +6,8 @@ import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
 import {
-  FaPhoneAlt,
   FaCalendarAlt,
+  FaPhoneAlt,
   FaRegBuilding,
   FaTrophy,
   FaUserAlt,
@@ -313,7 +313,7 @@ export default function Department({ data }) {
                       {' '}
                       <FaUserAlt></FaUserAlt>
                       <br></br>
-                      1-4 per team
+                      1-5 per team
                     </div>
                     <div className={styles.col}>
                       {' '}
