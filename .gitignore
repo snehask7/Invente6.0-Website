@@ -35,3 +35,5 @@ yarn-error.log*
 # vercel
 .vercel
 *-debug.log
+userData.json
+pages/api/save.js
