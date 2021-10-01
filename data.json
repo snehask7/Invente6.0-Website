@@ -5,6 +5,7 @@
       "category": "hackathon",
       "min_team_size": 1,
       "max_team_size": 6,
+      "ssn": false,
       "organisers": [
         { "name": "Aishwarya", "phone": 7338935634 },
         { "name": "Nimisha", "phone": 9840780834 }
@@ -54,6 +55,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Sriram", "phone": 9884625729 },
         { "name": "Kirthivasan", "phone": 9962744652 }
@@ -84,6 +86,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
+      "ssn": false,
       "organisers": [
         { "name": "Shwetha S", "phone": 9790950184 },
         { "name": "Krishi V", "phone": 9941683848 }
@@ -114,6 +117,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Palaniappan", "phone": 9791130573 },
         { "name": "Hariharan A", "phone": 9962903437 }
@@ -144,6 +148,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Aakash", "phone": 8056722144 },
         { "name": "Rangashri", "phone": 8825894683 }
@@ -174,6 +179,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Indu S ", "phone": 9488758999 },
         { "name": "Pranav Aadhithya K.B ", "phone": 7338773979 }
@@ -204,6 +210,7 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Aaryan S", "phone": 9952882211 },
         { "name": "Gayathri S", "phone": 8754407646 },
@@ -240,6 +247,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Nethra P", "phone": 8925642614 },
         { "name": "Bharath V", "phone": 9940656712 }
@@ -337,6 +345,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
+      "ssn": false,
       "organisers": [
         { "name": "Chetana", "phone": 8870229158 },
         { "name": "Sasya", "phone": 9963731710 }
@@ -359,6 +368,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
+      "ssn": true,
       "organisers": [
         { "name": "Padmavati", "phone": 8637460184 },
         { "name": "Manjula", "phone": 9094949027 },
@@ -399,6 +409,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
+      "ssn": true,
       "organisers": [
         { "name": "Sandhyavarshini", "phone": 9941288689 },
         { "name": "Harsha", "phone": 9176962001 }
@@ -422,6 +433,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
+      "ssn": false,
       "organisers": [
         { "name": "Dhanush", "phone": 8248369664 },
         { "name": "Dharshan", "phone": 9789015214 }
@@ -485,6 +497,7 @@
       "category": "tech",
       "min_team_size": 3,
       "max_team_size": 4,
+      "ssn": false,
       "organisers": [
         { "name": "Sockalingam (whatsapp only)", "phone": 7358485950 },
         { "name": "Sherwin", "phone": 9629129302 }
@@ -583,6 +596,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
+      "ssn": true,
       "organisers": [
         { "name": "Madhusudan", "phone": 8637433373 },
         { "name": "Adhitya", "phone": 9445027807 },
@@ -621,6 +635,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
+      "ssn": false,
       "organisers": [
         { "name": "Sri Hari", "phone": 9566061591 },
         { "name": "Suraj", "phone": 9384661042 },
@@ -657,6 +672,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Harikrishna", "phone": 9884048488 },
         { "name": "Lohini", "phone": 8870503649 },
@@ -694,6 +710,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Surabhi", "phone": 8939267346 },
         { "name": "Shruthi", "phone": 9790466301 },
@@ -726,6 +743,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 5,
+      "ssn": true,
       "organisers": [
         { "name": "Harini", "phone": 8056245960 },
         { "name": "Nishitha", "phone": 9790871217 },
@@ -773,6 +791,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Parithi", "phone": 9092437531 },
         { "name": "Siddharthan", "phone": 6385101827 },
@@ -875,6 +894,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
+      "ssn": false,
       "organisers": [
         { "name": "Nandana", "phone": 6382844423 },
         { "name": "Swathi", "phone": 6385555603 },
@@ -906,6 +926,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
+      "ssn": true,
       "organisers": [
         { "name": "Rithanya", "phone": 9487852180 },
         { "name": "Pakkeer", "phone": 9789032965 },
@@ -942,6 +963,7 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 2,
+      "ssn": true,
       "organisers": [
         { "name": "Divya", "phone": 9445816942 },
         { "name": "Badrinarayanan", "phone": 8903039560 },
@@ -978,6 +1000,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
+      "ssn": false,
       "organisers": [
         { "name": "Adithya", "phone": 9962771981 },
         { "name": "Harrison", "phone": 9080810523 },
@@ -1014,6 +1037,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Nithish", "phone": 9092110340 },
         { "name": "Suthakar", "phone": 9360457630 },
@@ -1050,6 +1074,7 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 2,
+      "ssn": false,
       "organisers": [
         { "name": "Venkatesh", "phone": 7845748610 },
         { "name": "Sriram", "phone": 9940270388 },
@@ -1157,6 +1182,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Shivaani", "phone": 9444981640 },
         { "name": "Bhuvaneshwari", "phone": 6369340571 }
@@ -1192,6 +1218,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
+      "ssn": false,
       "organisers": [
         { "name": "Matheswaran", "phone": 7448735575 },
         { "name": "Harish", "phone": 7397249225 }
@@ -1222,6 +1249,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Hrishitha", "phone": 6385904860 },
         { "name": "Nethra", "phone": 7358271870 }
@@ -1257,6 +1285,7 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 2,
+      "ssn": true,
       "organisers": [
         { "name": "Kavi Priya", "phone": 9585247277 },
         { "name": "Niraimathi", "phone": 7639858799 }
@@ -1282,6 +1311,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
+      "ssn": false,
       "organisers": [
         { "name": "Riju", "phone": 6380743486 },
         { "name": "Monica", "phone": 8939463005 },
@@ -1313,6 +1343,7 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 2,
+      "ssn": true,
       "organisers": [
         { "name": "Shabhareesan", "phone": 6383590530 },
         { "name": "Dharsen", "phone": 6369272004 },
@@ -1397,6 +1428,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
+      "ssn": true,
       "organisers": [
         { "name": "Avinash", "phone": 9840801323 },
         { "name": "Venkataraman", "phone": 9176584507 },
@@ -1428,6 +1460,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
+      "ssn": true,
       "organisers": [
         { "name": "Vanathi", "phone": 8939684993 },
         { "name": "Sneha", "phone": 7358223523 }
@@ -1458,6 +1491,7 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 4,
+      "ssn": false,
       "organisers": [
         { "name": "Niel", "phone": 9789053812 },
         { "name": "Sachin", "phone": 9498097774 }
@@ -1483,6 +1517,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
+      "ssn": true,
       "organisers": [
         { "name": "Madhumitha S", "phone": 9445172739 },
         { "name": "Keerthana", "phone": 6383684631 },
@@ -1519,6 +1554,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
+      "ssn": false,
       "organisers": [
         { "name": "Christina", "phone": 7411175409 },
         { "name": "Aarthi", "phone": 7358090325 }
@@ -1549,6 +1585,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
+      "ssn": false,
       "organisers": [
         { "name": "Vishakan", "phone": 9003046970 },
         { "name": "Sreyas", "phone": 7448472807 },
@@ -1592,6 +1629,7 @@
       "category": "tech",
       "min_team_size": 3,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Subhiksha", "phone": 9791755626 },
         { "name": "Vaishnavi", "phone": 7530035323 }
@@ -1656,6 +1694,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
+      "ssn": false,
       "organisers": [
         { "name": "Niveditha", "phone": 9444556136 },
         { "name": "Yuvalatha", "phone": 9841732980 }
@@ -1686,6 +1725,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
+      "ssn": false,
       "organisers": [
         { "name": "Jyothir Adithya", "phone": 8300158662 },
         { "name": "Grandhe Vishnu", "phone": 9025001415 },
@@ -1722,6 +1762,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": false,
       "organisers": [
         { "name": "Naveen", "phone": 7358196955 },
         { "name": "Vikram", "phone": 8870640116 }
@@ -1752,6 +1793,7 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 2,
+      "ssn": true,
       "organisers": [
         { "name": "Deepika", "phone": 9445247522 },
         { "name": "Harapriya", "phone": 6385161717 }
@@ -1777,6 +1819,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
+      "ssn": true,
       "organisers": [
         { "name": "Sheena", "phone": 9092076543 },
         { "name": "Yuvarani", "phone": 9841732991 }
@@ -1812,6 +1855,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
+      "ssn": false,
       "organisers": [
         { "name": "Nijanthan", "phone": 7397454505 },
         { "name": "Narenthiran", "phone": 7548815835 }
@@ -1847,6 +1891,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
+      "ssn": false,
       "organisers": [
         { "name": "Prabhakaran", "phone": 9566124655 },
         { "name": "Thendral", "phone": 9445584880 }
@@ -1877,6 +1922,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
+      "ssn": false,
       "organisers": [
         { "name": "Rajkumar", "phone": 9842446869 },
         { "name": "Yogeswaran", "phone": 9629506412 }
@@ -1969,6 +2015,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
+      "ssn": false,
       "organisers": [
         { "name": "Manufacturing: Ranjith K R", "phone": 8508506659 },
         { "name": "Thermal: Karthik R", "phone": 7358632280 },
@@ -2005,6 +2052,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
+      "ssn": true,
       "organisers": [
         { "name": "Vengadesh V", "phone": 9677243361 },
         { "name": "Mohanraj A", "phone": 8825416750 }
@@ -2030,6 +2078,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
+      "ssn": false,
       "organisers": [
         { "name": "Mohammad Riaz Khan K N", "phone": 7397492626 },
         { "name": "Srinath", "phone": 7695806593 }
@@ -2065,6 +2114,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 1,
+      "ssn": false,
       "organisers": [
         { "name": "Varuna G R", "phone": 9840789912 },
         { "name": "Goutham K", "phone": 8891103014 }
@@ -2100,6 +2150,7 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 2,
+      "ssn": false,
       "organisers": [
         { "name": "Venkatesh S", "phone": 9710887173 },
         { "name": "Shriram S", "phone": 7305500805 }
@@ -2130,6 +2181,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 3,
+      "ssn": true,
       "organisers": [
         { "name": "Sam S", "phone": 6369009801 },
         { "name": "Shoba E", "phone": 7338757883 }
@@ -2160,6 +2212,7 @@
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 4,
+      "ssn": false,
       "organisers": [
         { "name": "Varuna G", "phone": 9840789912 },
         { "name": "Viswapriya G", "phone": 9087590821 }
@@ -2195,6 +2248,7 @@
       "category": "tech",
       "min_team_size": 2,
       "max_team_size": 2,
+      "ssn": false,
       "organisers": [
         { "name": "Vengadesh V", "phone": 9677243361 },
         { "name": "Akshaya", "phone": 7358548743 }
