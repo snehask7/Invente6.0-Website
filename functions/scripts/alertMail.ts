@@ -54,7 +54,7 @@ async function main() {
           const data = {
             from: 'SSN Invente Team <noreply@verification.ssninvente.com>',
             to: document.data().email,
-            subject: 'Remainder - Payment',
+            subject: 'Reminder - Payment',
             template: 'alert',
             'h:X-Mailgun-Variables': JSON.stringify(variables),
           };
