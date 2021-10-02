@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .container {
   background-image: linear-gradient(to right, #050d22, #070e21, #1c132e),
     linear-gradient(
@@ -41,7 +44,7 @@
 
 .title {
   margin: 1em;
-  font-size: 12px;
+  font-size: 1vw;
   color: #fff;
 }
 
@@ -54,7 +57,7 @@
 
 .eventsDesktop {
   margin-top: 2em;
-  min-width: 80vw;
+  min-width: 95vw;
   border: 2px transparent;
   border-radius: 25px;
   background-origin: border-box;
@@ -64,8 +67,8 @@
 
 .scheduleTable {
   margin: 2em 0;
-  min-width: 80vw;
   border: 2px transparent;
+  min-width: 90vw;
   border-radius: 25px;
   background-origin: border-box;
   background-clip: content-box, border-box;
@@ -80,41 +83,60 @@
 .timeM {
   border: none;
   white-space: pre;
+  max-width: 3vw;
+  word-wrap: break-word;
+  font-size: 12px !important;
 }
-
+.dept {
+  font-size: 14px !important;
+}
 .event {
   text-align: center;
   padding: 0;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   color: #fff;
   border-left: 2px solid #19e9f023;
+  max-width: 50px;
+  border-radius: 10px;
+  /* max-height: 10vw;
+  /* overflow: hidden; */
+  /* overflow-wrap: break-word; */
 }
 
 .purple {
-  background-color: #845ec2 !important;
+  background-color: #7122fa !important;
 }
 
 .pink {
-  background-color: #F08FC0 !important;
+  background-color: #ff2281 !important;
 }
 
-.blue{
-  background-color: #39A2DB !important;
+.blue {
+  background-color: #00a9fe !important;
 }
 
-.teal{
-  background-color: #0CECDD !important;
+.teal {
+  background-color: #560a86 !important;
+}
+
+.tan {
+  background-color: #13ca91 !important;
+}
+
+.red {
+  background-color: #faa214 !important;
 }
 .eventM {
   text-align: center;
   padding: 0;
-  font-size: 3vw;
+  font-size: 1em;
   font-weight: bold;
   color: #fff;
   border-left: 2px solid #19e9f023;
   word-wrap: break-word;
-  width: 10vw;
+  max-width: 2vw;
+  border-radius: 10px;
 }
 
 .time {
@@ -145,11 +167,10 @@
 
 .card,
 .selectedCard {
-  font-size: 2vh;
-  min-width: 7vh;
-  max-width: 18vh;
-  min-height: 7vh;
-  margin: 2vh;
+  font-size: 0.7em;
+  width: 6em;
+  height: 4em;
+  margin: 1em;
   color: white;
   text-align: center;
   margin-left: auto;
@@ -159,11 +180,11 @@
   position: relative;
   font-family: 'Voltaire', sans-serif;
   background: rgba(0, 0, 0, 0.5);
-  padding: 2vh 0 0;
+  padding: 1em 0 0;
 }
 
 .card_title {
-  font-size: 4vw;
+  font-size: 1.7vw;
 }
 
 .selectedCard {
@@ -172,7 +193,7 @@
 
 .day {
   color: #fff;
-  font-size: 2vh;
+  font-size: 3vh;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
@@ -203,7 +224,7 @@
 
 .daySel {
   color: #19e9f0;
-  font-size: 2vh;
+  font-size: 3vh;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
@@ -225,7 +246,21 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 600px) {
+  .card,
+  .selectedCard {
+    width: 4em;
+    height: 3em;
+  }
+  .card_title {
+    font-size: 2vw;
+  }
+  .timeM {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .eventsDesktop {
     display: none;
   }
@@ -234,7 +269,7 @@
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1000px) {
   .eventsDesktop {
     display: block;
   }
@@ -244,4 +279,32 @@
 }
 .hide {
   display: none;
+}
+
+.pageHeading {
+  text-align: center;
+  color: white;
+  font-family: 'Voltaire', sans-serif;
+  font-weight: 700;
+  margin-top: 3em;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  .pageHeading {
+    font-size: 5vw;
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .pageHeading {
+    font-size: 6vw;
+    margin-top: 30%;
+  }
+}
+
+.link :hover {
+  color: #fff !important;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #03e9f4, 0 0 42px #03e9f4,
+    0 0 82px #03e9f4, 0 0 92px #03e9f4;
 }
