@@ -1735,8 +1735,37 @@ function Schedule() {
                   </tr>
                   <tr className={styles.title}>
                     <Department name={'IT'} rows={3} />
-                    <EventPink name={'Websitica'} cols={8} />
-                    <EventBlue name={'Sports Quiz'} cols={3} />
+                    <EventPink name={'Analytics Sprint'} cols={4} />
+                    <EventBlue name={'Codera'} cols={4} />
+                    <EventTeal name={'Papyrus'} cols={2} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventTan name={'Enigma'} cols={4} />
+                    <EventPurple name={'E-Treasure Hunt'} cols={4} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
@@ -1747,20 +1776,9 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventTeal name={'Codolympics'} cols={10} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <EventPurple name={'Hacker`s Asylum'} cols={8} />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
@@ -1780,23 +1798,9 @@ function Schedule() {
                   </tr>
                   <tr className={styles.title}>
                     <Department name={'ECE'} rows={3} />
-                    <EventPink name={'Websitica'} cols={8} />
-                    <EventBlue name={'Sports Quiz'} cols={3} />
-                    <Empty time={'half'} />
+                    <EventPink name={'Hackinfinity'} cols={14} />
                     <Empty />
                     <Empty time={'half'} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <EventTeal name={'Codolympics'} cols={10} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <EventPurple name={'Hacker`s Asylum'} cols={8} />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -1806,6 +1810,62 @@ function Schedule() {
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
+                    <EventPurple name={'Debug-a-circuit'} cols={5} />
+                    <EventTeal name={'Paper Presentation'} cols={9} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty />
+                    <EventTan name={'Enigma'} cols={7} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <EventBlue name={'Data Utopia'} cols={4} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventPurple name={'IPL Auction'} cols={8} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
@@ -1825,8 +1885,34 @@ function Schedule() {
                   </tr>
                   <tr className={styles.title}>
                     <Department name={'EEE'} rows={3} />
-                    <EventPink name={'Websitica'} cols={8} />
-                    <EventBlue name={'Sports Quiz'} cols={3} />
+                    <EventPink name={'Inventino Round 2'} cols={4} />
+                    <EventBlue name={'Tech Quiz Round 3'} cols={4} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventTeal name={'Paper Presentation'} cols={6} />
+                    <EventPurple name={'E Bugging'} cols={6} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
@@ -1837,20 +1923,9 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventTeal name={'Codolympics'} cols={10} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <EventPurple name={'Hacker`s Asylum'} cols={8} />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
@@ -1870,23 +1945,14 @@ function Schedule() {
                   </tr>
                   <tr className={styles.title}>
                     <Department name={'CIVIL'} rows={3} />
-                    <EventPink name={'Websitica'} cols={8} />
-                    <EventBlue name={'Sports Quiz'} cols={3} />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
+                    <EventPink name={'Bob the Plumber Round 2'} cols={4} />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventTeal name={'Codolympics'} cols={10} />
+                    <EventBlue name={'Solution Au Probleme Round 2'} cols={6} />
                     <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <EventPurple name={'Hacker`s Asylum'} cols={8} />
+                    <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -1896,6 +1962,69 @@ function Schedule() {
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventPurple name={'Quizzards of Oz'} cols={4} />
+                    <EventTan name={'Architecture\nat Zero'} cols={2} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <EventTeal name={'Deal or No Deal'} cols={8} />
+                    <EventPink name={'Netflix Wars'} cols={4} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventPurple name={'Clash of Minds'} cols={8} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
@@ -1915,8 +2044,31 @@ function Schedule() {
                   </tr>
                   <tr className={styles.title}>
                     <Department name={'BME'} rows={3} />
-                    <EventPink name={'Websitica'} cols={8} />
-                    <EventBlue name={'Sports Quiz'} cols={3} />
+                    <EventPink name={'Quiz Masters'} cols={4} />
+                    <EventBlue name={'Entrepreneurship'} cols={6} />
+                    <EventPurple name={'Medical Auction'} cols={4} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <EventTan name={'Biomedicathon'} cols={4} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventTeal name={'Telehealth Web Development'} cols={6} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
@@ -1927,20 +2079,9 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventTeal name={'Codolympics'} cols={10} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <EventPurple name={'Hacker`s Asylum'} cols={8} />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
@@ -1960,8 +2101,16 @@ function Schedule() {
                   </tr>
                   <tr className={styles.title}>
                     <Department name={'MECH'} rows={3} />
-                    <EventPink name={'Websitica'} cols={8} />
-                    <EventBlue name={'Sports Quiz'} cols={3} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventPink name={'Need for Speed'} cols={10} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
@@ -1972,11 +2121,31 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventTeal name={'Codolympics'} cols={10} />
+                    <EventBlue name={'2 Fast 2 Curious'} cols={8} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
-                    <EventPurple name={'Hacker`s Asylum'} cols={8} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventPurple name={'Mechathlon'} cols={6} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -1986,6 +2155,86 @@ function Schedule() {
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <EventTan name={'Quarter Mile'} cols={8} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventTeal name={'Design and Deal'} cols={6} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventPurple name={'Roundabout'} cols={8} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <EventTan name={'Valorant'} cols={14} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
@@ -2005,8 +2254,18 @@ function Schedule() {
                   </tr>
                   <tr className={styles.title}>
                     <Department name={'CHEM'} rows={3} />
-                    <EventPink name={'Websitica'} cols={8} />
-                    <EventBlue name={'Sports Quiz'} cols={3} />
+                    <EventPink name={'Paper Presentation'} cols={4} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventBlue name={'Be-Safe-Athon'} cols={4} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventPurple name={'Ee Sala\nMeme Namadhe'} cols={2} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
@@ -2017,11 +2276,12 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventTeal name={'Codolympics'} cols={10} />
+                    <EventTeal name={'Like for Like'} cols={4} />
                     <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <EventPurple name={'Hacker`s Asylum'} cols={8} />
+                    <Empty time={'half'} />
+                    <EventTan name={"Commentator's Conference"} cols={4} />
+                    <Empty />
+                    <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />

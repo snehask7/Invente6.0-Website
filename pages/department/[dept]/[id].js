@@ -127,7 +127,7 @@ export default function Department({ data }) {
                     rel="noreferrer"
                   >
                     {/* eslint-disable-next-line */}
-                      <img
+                    <img
                       src="/sponsors/facilio.webp"
                       alt="facilio"
                       width="90vw"
@@ -146,7 +146,7 @@ export default function Department({ data }) {
                     rel="noreferrer"
                   >
                     {/* eslint-disable-next-line */}
-                      <img
+                    <img
                       src="/sponsors/saama.png"
                       alt="saama"
                       width="100vw"
@@ -376,7 +376,7 @@ export default function Department({ data }) {
                         ? 'any Department'
                         : events[id].open_to.join()}
                       <br />{' '}
-                      {events[id].category == 'tech'
+                      {events[id].category == 'tech' && events[id].ssn == false
                         ? 'Not open to SSNites'
                         : ''}
                     </div>

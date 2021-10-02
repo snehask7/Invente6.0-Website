@@ -7,6 +7,7 @@ import { Col, Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
 import {
   FaCalendarAlt,
+  FaPhoneAlt,
   FaRegBuilding,
   FaTrophy,
   FaUserAlt,
@@ -304,9 +305,15 @@ export default function Department({ data }) {
                     </Row>
                     <div className={styles.col}>
                       {' '}
+                      <FaPhoneAlt></FaPhoneAlt>
+                      <br></br>
+                      Likhitha : 6383688836 <br></br> Nivedhitha : 9445502654
+                    </div>
+                    <div className={styles.col}>
+                      {' '}
                       <FaUserAlt></FaUserAlt>
                       <br></br>
-                      1-4 per team
+                      1-5 per team
                     </div>
                     <div className={styles.col}>
                       {' '}
