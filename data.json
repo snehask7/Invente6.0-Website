@@ -2072,6 +2072,7 @@
     {
       "name": "Paper Presentation",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 4,
       "ssn": false,
@@ -2109,6 +2110,7 @@
     {
       "name": "Project Exhibition",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 4,
       "ssn": true,
@@ -2135,6 +2137,7 @@
     {
       "name": "Need for Speed – Autoquiz",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 2,
       "ssn": false,
@@ -2171,6 +2174,7 @@
     {
       "name": "Mechathlon",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -2207,6 +2211,7 @@
     {
       "name": "2 fast 2 curious",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 2,
       "max_team_size": 2,
       "ssn": false,
@@ -2238,6 +2243,7 @@
     {
       "name": "Design and deal",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": true,
@@ -2269,6 +2275,7 @@
     {
       "name": "QUARTER MILE",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 4,
       "ssn": false,
@@ -2305,6 +2312,7 @@
     {
       "name": "Car wars",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 2,
       "max_team_size": 2,
       "ssn": false,
@@ -2341,6 +2349,7 @@
     {
       "name": "ROUNDABOUT",
       "category": "non-tech",
+      "date": "Oct 9",
       "min_team_size": 2,
       "max_team_size": 2,
       "organisers": [
@@ -2376,6 +2385,7 @@
     {
       "name": "Clutch or Kick",
       "category": "non-tech",
+      "date": "Oct 9",
       "min_team_size": 5,
       "max_team_size": 5,
       "organisers": [
