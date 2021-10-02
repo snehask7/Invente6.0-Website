@@ -41,7 +41,7 @@
 
 .title {
   margin: 1em;
-  font-size: 12px;
+  font-size: 1vw;
   color: #fff;
 }
 
@@ -65,6 +65,7 @@
 .scheduleTable {
   margin: 2em 0;
   border: 2px transparent;
+  min-width: 90vw;
   border-radius: 25px;
   background-origin: border-box;
   background-clip: content-box, border-box;
@@ -81,13 +82,13 @@
   white-space: pre;
   max-width: 3vw;
   word-wrap: break-word;
- 
+ font-size: 12px !important;
 }
 
 .event {
   text-align: center;
   padding: 0;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   color: #fff;
   border-left: 2px solid #19e9f023;
@@ -119,12 +120,12 @@
 .eventM {
   text-align: center;
   padding: 0;
-  font-size: 3vw;
+  font-size: 1em;
   font-weight: bold;
   color: #fff;
   border-left: 2px solid #19e9f023;
   word-wrap: break-word;
-  width: 10vw;
+  max-width: 2vw;
 }
 
 .time {
@@ -155,11 +156,10 @@
 
 .card,
 .selectedCard {
-  font-size: 2vh;
-  min-width: 7vh;
-  max-width: 18vh;
-  min-height: 7vh;
-  margin: 2vh;
+  font-size: 0.7em;
+  width: 6em;
+  height: 4em;
+  margin: 1em;
   color: white;
   text-align: center;
   margin-left: auto;
@@ -169,11 +169,11 @@
   position: relative;
   font-family: 'Voltaire', sans-serif;
   background: rgba(0, 0, 0, 0.5);
-  padding: 2vh 0 0;
+  padding: 1em 0 0;
 }
 
 .card_title {
-  font-size: 4vw;
+  font-size: 1.7vw;
 }
 
 .selectedCard {
@@ -233,6 +233,20 @@
   background: #19e9f0;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .card,
+.selectedCard {
+  width: 4em;
+  height: 3em;
+}
+.card_title {
+  font-size: 2vw;
+}
+.timeM {
+ font-size: 10px !important;
+}
 }
 
 @media screen and (max-width: 1000px) {

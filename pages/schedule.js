@@ -373,11 +373,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventPurple name={'Junkyard Jumble'} cols={6} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
+                    <EventPurple name={'SketchX'} cols={5} />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
@@ -416,7 +412,7 @@ function Schedule() {
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
-                    <Department name={'EEE'} rows={3} />
+                    <Department name={'EEE'} rows={4} />
                     <EventPink name={'Inventino\nRound 1'} cols={2} />
                     <EventTan name={'Tech\nQuiz'} cols={4} />
                     <Empty />
@@ -465,6 +461,20 @@ function Schedule() {
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventPurple name={'IPL Bidding'} cols={12} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
@@ -491,7 +501,7 @@ function Schedule() {
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
-                    <Department name={'CIVIL'} rows={3} />
+                    <Department name={'CIVIL'} rows={4} />
                     <Empty />
                     <Empty time={'half'} />
                     <EventPink name={'Paper\nPresentation\nRound 1'} cols={4} />
@@ -504,6 +514,21 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventTeal
+                      name={'Ace-It\nValorant Championship'}
+                      cols={14}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -884,42 +909,50 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventMPurple name={'Web-it-out'} rows={6} />
                       <Empty time={'half'} />
-                      <EventMPink name={'Hacker`s Asylum'} rows={8} />
-                      <EventMBlue name={'Mock Job Drive'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
+
+                      <EventMPurple name={'Mock Job Drive Tests'} rows={4} />
                       <Empty time={'half'} />
+                      <EventMBlue name={'Code Triathlon'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventMTeal name={'Codolympics'} rows={10} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'12 PM'} />
+                      <Empty time={'half'} />
+                      <EventMBlue name={'Hacker`s Asylum Prelims'} rows={2} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
+                      <EventMTeal name={'Codolympics Prelims'} rows={4} />
+                      <Empty time={'half'} />
+                      <EventMPurple
+                        name={'Mock Job Drive Interviews'}
+                        rows={6}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'2 PM'} />
+                      <EventMTeal name={'Hacker`s Asylum Finals'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -932,6 +965,31 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                      <EventMPurple name={'Codolympics Finals'} rows={4} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -944,23 +1002,20 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventMPurple name={'Web-it-out'} rows={6} />
                       <Empty time={'half'} />
-                      <EventMPink name={'Hacker`s Asylum'} rows={8} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
+                      <EventMPurple name={'Websitica'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventMBlue name={'Codolympics'} rows={10} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -973,6 +1028,8 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
+                      <Empty time={'half'} />
+                      <EventMTeal name={'Reverse Gear'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -985,12 +1042,38 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'3 PM'} />
+
+                      <EventMPurple name={'Sports Quiz'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -1003,23 +1086,22 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventM name={'Web-it-out'} rows={6} />
                       <Empty time={'half'} />
-                      <EventM name={'Hacker`s Asylum'} rows={8} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
+                      <EventMPurple name={'Hackinfinity'} rows={13} />
+                      <EventMTeal name={'Tinkering Thoughts'} rows={5} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
+                      <EventMBlue name={'Junkyard  Jumble'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventM name={'Codolympics'} rows={10} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -1032,6 +1114,8 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
+                      <EventMTeal name={'The Big Meg'} rows={5} />
+                      <EventMPink name={'SketchX'} rows={5} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -1050,6 +1134,30 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -1062,23 +1170,23 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventM name={'Web-it-out'} rows={6} />
-                      <Empty time={'half'} />
-                      <EventM name={'Hacker`s Asylum'} rows={8} />
+                      <EventMPurple name={'Inventino Round 1'} rows={2} />
+                      <EventMPurple name={'Ideate'} rows={14} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
+                      <EventMPurple name={'Tech Quiz Round 1 & 2'} rows={4} />
+                      <EventMPurple name={'Tentukota'} rows={6} />
+                      <EventMPurple name={'IPL Bidding'} rows={12} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventM name={'Codolympics'} rows={10} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -1091,6 +1199,8 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
+                      <Empty time={'half'} />
+                      <EventMTeal name={'Electronic Maze'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -1109,6 +1219,30 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -1121,23 +1255,34 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventM name={'Web-it-out'} rows={6} />
-                      <Empty time={'half'} />
-                      <EventM name={'Hacker`s Asylum'} rows={8} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
+                      <EventMPurple
+                        name={'Paper Presentation Round 1'}
+                        rows={4}
+                      />
+                      <EventMPurple
+                        name={'Ace It-Valorant Championship'}
+                        rows={14}
+                      />
                       <Empty time={'half'} />
+                      <EventMPurple name={'Bob the Plumber Round 1'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventM name={'Codolympics'} rows={10} />
+                      <EventMPurple
+                        name={
+                          'Architecture At Zero - Problem Statement Release'
+                        }
+                        rows={2}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -1150,6 +1295,15 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
+                      <EventMTeal
+                        name={'Paper Presentation Round 2'}
+                        rows={4}
+                      />
+                      <EventMTeal
+                        name={'Solution Au Probleme Round 1'}
+                        rows={4}
+                      />
+                      <EventMTeal name={'Unscripted'} rows={8} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -1168,6 +1322,30 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -1180,41 +1358,41 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventM name={'Web-it-out'} rows={6} />
-                      <Empty time={'half'} />
-                      <EventM name={'Hacker`s Asylum'} rows={8} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
+                      <EventMPurple name={'Paper Presentation'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventM name={'Codolympics'} rows={10} />
+                      <EventMPurple name={'Biomedicathon'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'12 PM'} />
+                      <EventMPurple name={'Design to Innovate'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
+                      <Empty time={'half'} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'2 PM'} />
+                      <EventMPurple name={'Reel It'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -1227,6 +1405,30 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -1239,29 +1441,29 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventM name={'Web-it-out'} rows={6} />
-                      <Empty time={'half'} />
-                      <EventM name={'Hacker`s Asylum'} rows={8} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
+                      <EventMPurple name={'Car Wars'} rows={10} />
+                      <EventMPurple name={'Design and Deal'} rows={12} />
+                      <EventMPurple name={'Mechathon'} rows={6} />
+                      <EventMPurple name={'Paper Presentation'} rows={12} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventM name={'Codolympics'} rows={10} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'12 PM'} />
+                      <EventMPurple name={'Project Exhibition'} rows={8} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -1286,6 +1488,30 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -1298,41 +1524,44 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventM name={'Web-it-out'} rows={6} />
-                      <Empty time={'half'} />
-                      <EventM name={'Hacker`s Asylum'} rows={8} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
+                      <EventMPurple name={'Paper Presentation'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventM name={'Codolympics'} rows={10} />
+                      <EventMPurple name={'Who`s the leaderboard'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'12 PM'} />
+                      <EventMPurple name={'Be-Safe-Athon'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
+                      <EventMTeal
+                        name={'Invente`s Pictionary League'}
+                        rows={4}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'2 PM'} />
+                      <EventMTeal name={'Last Man Standing'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -1345,6 +1574,30 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -1820,36 +2073,38 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventMPurple name={'Web-it-out'} rows={6} />
-                      <Empty time={'half'} />
-                      <EventMPink name={'Hacker`s Asylum'} rows={8} />
-                      <EventMBlue name={'Mock Job Drive'} rows={6} />
+                      <EventMPurple
+                        name={'Dev Heist (Prelims + Finals)'}
+                        rows={6}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
+                      <EventMPurple name={'Relay in Reverse'} rows={6} />
+                      <EventMPurple name={'Devathlon (Judging)'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventMTeal name={'Codolympics'} rows={10} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'12 PM'} />
+                      <EventMPurple name={'Game Nite'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
+                      <EventMTeal name={'Paper Presentation'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -1868,6 +2123,30 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -1880,23 +2159,20 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventMPurple name={'Web-it-out'} rows={6} />
-                      <Empty time={'half'} />
-                      <EventMPink name={'Hacker`s Asylum'} rows={8} />
+                      <EventMPurple name={'Analytics Sprint'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventMBlue name={'Codolympics'} rows={10} />
+                      <EventMPurple name={'Codera'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -1909,6 +2185,8 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
+                      <EventMTeal name={'Papyrus'} rows={2} />
+                      <EventMTeal name={'Enigma'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -1921,12 +2199,37 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'3 PM'} />
+                      <EventMTeal name={'E-Treasure Hunt'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -1939,29 +2242,30 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventM name={'Web-it-out'} rows={6} />
-                      <Empty time={'half'} />
-                      <EventM name={'Hacker`s Asylum'} rows={8} />
+                      <EventMTeal name={'Hackinfinity'} rows={12} />
+                      <EventMTeal name={'Debug-a-circuit'} rows={5} />
+                      <EventMTeal name={'Data Utopia'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
+                      <EventMTeal name={'Enigma'} rows={5} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventM name={'Codolympics'} rows={10} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
+                      <EventMTeal name={'Paper Presentation'} rows={7} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'12 PM'} />
+                      <EventMPurple name={'IPL Auction'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -1986,6 +2290,30 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -1998,23 +2326,21 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventM name={'Web-it-out'} rows={6} />
-                      <Empty time={'half'} />
-                      <EventM name={'Hacker`s Asylum'} rows={8} />
+                      <EventMPurple name={'Inventino Round 2'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
+                      <EventMPurple name={'Paper Presentation'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventM name={'Codolympics'} rows={10} />
+                      <EventMPurple name={'Tech Quiz Round 3'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -2027,24 +2353,51 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
+                      <EventMTeal name={'E-Bugging Round 1'} rows={2} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'2 PM'} />
+                      <EventMTeal name={'E-Bugging Round 2'} rows={2} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'3 PM'} />
+                      <EventMTeal name={'E-Bugging Round 3'} rows={2} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -2057,23 +2410,21 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventM name={'Web-it-out'} rows={6} />
-                      <Empty time={'half'} />
-                      <EventM name={'Hacker`s Asylum'} rows={8} />
+                      <EventMPurple name={'Bob The Plumber Round 2'} rows={4} />
+                      <EventMPurple name={'Deal Or No Deal'} rows={8} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventM name={'Codolympics'} rows={10} />
+                      <EventMPurple name={'Quizzards of Oz'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -2086,6 +2437,16 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
+                      <EventMTeal
+                        name={'Solution Au Probleme Round 2'}
+                        rows={6}
+                      />
+                      <EventMTeal name={'Netflix Wars'} rows={4} />
+                      <EventMTeal name={'Clash of Minds'} rows={8} />
+                      <EventMTeal
+                        name={'Architecture At Zero Submission'}
+                        rows={2}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -2104,6 +2465,30 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -2116,23 +2501,21 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventM name={'Web-it-out'} rows={6} />
-                      <Empty time={'half'} />
-                      <EventM name={'Hacker`s Asylum'} rows={8} />
+                      <EventMPurple name={'Quiz Masters'} rows={4} />
+                      <EventMPurple name={'Biomedicathon'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventM name={'Codolympics'} rows={10} />
+                      <EventMPurple name={'Entrepreneurship'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -2145,12 +2528,17 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
+                      <EventMTeal
+                        name={'Telehealth Web Development'}
+                        rows={6}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'2 PM'} />
+                      <EventMTeal name={'Medical Auction'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -2163,6 +2551,30 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -2175,29 +2587,31 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventM name={'Web-it-out'} rows={6} />
-                      <Empty time={'half'} />
-                      <EventM name={'Hacker`s Asylum'} rows={8} />
+                      <EventMPurple name={'Quarter Mile'} rows={8} />
+                      <EventMPurple name={'Valorant'} rows={14} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
+                      <EventMPurple name={'Need For Speed'} rows={10} />
+                      <EventMPurple name={'Mechathlon'} rows={6} />
+                      <EventMPurple name={'Design and Deal'} rows={6} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventM name={'Codolympics'} rows={10} />
+                      <EventMPurple name={'2 Fast 2 Curious'} rows={8} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'12 PM'} />
+                      <EventMPurple name={'Roundabout'} rows={8} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -2222,6 +2636,30 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
@@ -2234,29 +2672,27 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventM name={'Web-it-out'} rows={6} />
-                      <Empty time={'half'} />
-                      <EventM name={'Hacker`s Asylum'} rows={8} />
+                      <EventMPurple name={'Paper Presentation'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <Empty time={'half'} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventM name={'Codolympics'} rows={10} />
+                      <EventMPurple name={'Like For Like'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'12 PM'} />
+                      <EventMPurple name={'Be-Safe-Athon'} rows={4} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -2269,18 +2705,47 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'2 PM'} />
+                      <EventMTeal
+                        name={'The Commentator`s Conference'}
+                        rows={4}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'3 PM'} />
+                      <EventMPurple name={'Ee Sala Meme Namadhe'} rows={2} />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'4 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'5 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'6 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'7 PM'} />
+                    </tr>
+                    <tr className={styles.title}>
+                      <Empty time={'half'} />
+                    </tr>
+                    <tr className={styles.titleM}>
+                      <TimeM time={'8 PM'} />
                     </tr>
                   </tbody>
                 </Table>
