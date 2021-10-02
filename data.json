@@ -352,6 +352,7 @@
     {
       "name": "Paper Presentation",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 2,
       "ssn": false,
@@ -375,6 +376,7 @@
     {
       "name": "Quiz Masters",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": true,
@@ -416,6 +418,7 @@
     {
       "name": "Telehealth Web Development",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 2,
       "ssn": true,
@@ -440,6 +443,7 @@
     {
       "name": "Design to Innovate",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -470,6 +474,7 @@
     {
       "name": "Biomedicathon",
       "category": "hackathon",
+      "date": "Oct 8 & 9",
       "min_team_size": 3,
       "max_team_size": 3,
       "organisers": [
@@ -504,6 +509,7 @@
     {
       "name": "Medical Auction",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 3,
       "max_team_size": 4,
       "ssn": false,
@@ -534,6 +540,7 @@
     {
       "name": "Startup Smackdown",
       "category": "non-tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "organisers": [
@@ -570,6 +577,7 @@
     {
       "name": "Thambi Reel Inum Varala",
       "category": "non-tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 1,
       "organisers": [
