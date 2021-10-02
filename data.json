@@ -1867,7 +1867,7 @@
           {
             "name": "Problem Statement:",
             "duration": null,
-            "description": "5 problem statements will be given out of which the participant/team is required to choose any 1 statement and come up with a solution within the specified time limit. The abstract should be presented for the same."
+            "description": "5 problem statements will be given out of which the participant/team is required to choose any 1 statement and come up with a solution within the specified time limit. The abstract should be presented for the same.<br/><br/><a target=\"_blank\" href=\"/docs/Problem-Statement.pdf\"><button style=\"background-color:#0ff;border:none;padding:5px;border-radius:20px\">Download Problem Statement</button></a>"
           },
           {
             "name": "Instructions",
