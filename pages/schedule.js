@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
+import React, { useState } from 'react';
 import { Col, Container, Row, Table } from 'react-bootstrap';
+import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import { useNav } from '../lib/navbarstate';
 import styles from '../styles/Schedule.module.css';
-import Link from 'next/link';
 
 let current = 'CSE';
 let day = 1;
@@ -322,7 +323,7 @@ function Schedule() {
       <NavbarComp />
       <main>
         <h1 className={navbarToggle ? styles.hide : styles.pageHeading}>
-          SCHEDULE
+          <u>SCHEDULE</u>
         </h1>
         {day == 1 ? (
           <div>
@@ -369,7 +370,10 @@ function Schedule() {
                 </thead>
 
                 <tbody>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'CSE'} rows={4} />
                     <Empty />
                     <Empty time={'half'} />
@@ -480,7 +484,10 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                   </tr>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'IT'} rows={1} />
                     <Empty />
                     <Empty time={'half'} />
@@ -536,7 +543,10 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                   </tr>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'ECE'} rows={3} />
                     <Empty />
                     <EventBlue
@@ -634,7 +644,10 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                   </tr>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'EEE'} rows={4} />
                     <EventPink
                       name={'Inventino\nRound 1'}
@@ -753,7 +766,10 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                   </tr>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'CIVIL'} rows={4} />
                     <Empty />
                     <Empty time={'half'} />
@@ -884,7 +900,10 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                   </tr>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'BME'} rows={3} />
                     <Empty />
                     <Empty time={'half'} />
@@ -992,7 +1011,10 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                   </tr>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'MECH'} rows={5} />
                     <Empty />
                     <Empty time={'half'} />
@@ -1126,7 +1148,10 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                   </tr>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'CHEM'} rows={3} />
                     <Empty />
                     <Empty time={'half'} />
@@ -2157,7 +2182,10 @@ function Schedule() {
             <div className={styles.eventsDesktop}>
               <Table>
                 <thead>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Empty time={'half'} />
                     <Time time={'9 AM'} />
                     <Empty time={'half'} />
@@ -2186,7 +2214,10 @@ function Schedule() {
                 </thead>
 
                 <tbody>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'CSE'} rows={4} />
                     <EventPurple
                       name={'Dev Heist (prelims + Finals)'}
@@ -2285,11 +2316,29 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                   </tr>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'IT'} rows={3} />
-                    <EventRed name={'Analytics Sprint'} cols={4} />
-                    <EventPurple name={'Codera'} cols={4} />
-                    <EventPink name={'Papyrus'} cols={2} />
+                    <EventRed
+                      name={'Analytics Sprint'}
+                      cols={4}
+                      id={5}
+                      department={'IT'}
+                    />
+                    <EventPurple
+                      name={'Codera'}
+                      cols={4}
+                      id={2}
+                      department={'IT'}
+                    />
+                    <EventPink
+                      name={'Papyrus'}
+                      cols={2}
+                      id={4}
+                      department={'IT'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2313,8 +2362,18 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventBlue name={'Enigma'} cols={4} />
-                    <EventTeal name={'E-Treasure Hunt'} cols={4} />
+                    <EventBlue
+                      name={'Enigma'}
+                      cols={4}
+                      id={0}
+                      department={'IT'}
+                    />
+                    <EventTeal
+                      name={'E-Treasure Hunt'}
+                      cols={4}
+                      id={7}
+                      department={'IT'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2348,9 +2407,17 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                   </tr>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'ECE'} rows={3} />
-                    <EventTan name={'Hackinfinity'} cols={14} />
+                    <EventTan
+                      name={'Hackinfinity'}
+                      cols={14}
+                      id={0}
+                      department={'ECE'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2362,8 +2429,18 @@ function Schedule() {
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
-                    <EventRed name={'Debug-a-circuit'} cols={5} />
-                    <EventPurple name={'Paper Presentation'} cols={9} />
+                    <EventRed
+                      name={'Debug-a-circuit'}
+                      cols={5}
+                      id={5}
+                      department={'ECE'}
+                    />
+                    <EventPurple
+                      name={'Paper Presentation'}
+                      cols={9}
+                      id={7}
+                      department={'ECE'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2376,49 +2453,12 @@ function Schedule() {
                   </tr>
                   <tr className={styles.title}>
                     <Empty />
-                    <EventPink name={'Enigma'} cols={7} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <Empty time={'half'} />
-                    <EventBlue name={'Data Utopia'} cols={4} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <EventTeal name={'IPL Auction'} cols={8} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
+                    <EventPink
+                      name={'Enigma'}
+                      cols={7}
+                      id={1}
+                      department={'ECE'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2436,9 +2476,74 @@ function Schedule() {
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <EventBlue
+                      name={'Data Utopia'}
+                      cols={4}
+                      id={2}
+                      department={'ECE'}
+                    />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventTeal
+                      name={'IPL Auction'}
+                      cols={8}
+                      id={8}
+                      department={'ECE'}
+                    />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'EEE'} rows={3} />
-                    <EventTan name={'Inventino Round 2'} cols={4} />
-                    <EventRed name={'Tech Quiz Round 3'} cols={4} />
+                    <EventTan
+                      name={'Inventino Round 2'}
+                      cols={4}
+                      id={5}
+                      department={'EEE'}
+                    />
+                    <EventRed
+                      name={'Tech Quiz Round 3'}
+                      cols={4}
+                      id={1}
+                      department={'EEE'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2458,8 +2563,18 @@ function Schedule() {
                   <tr className={styles.title}>
                     <Empty />
                     <Empty time={'half'} />
-                    <EventPurple name={'Paper Presentation'} cols={6} />
-                    <EventPink name={'E Bugging'} cols={6} />
+                    <EventPurple
+                      name={'Paper Presentation'}
+                      cols={6}
+                      id={0}
+                      department={'EEE'}
+                    />
+                    <EventPink
+                      name={'E Bugging'}
+                      cols={6}
+                      id={2}
+                      department={'EEE'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2495,35 +2610,27 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                   </tr>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'CIVIL'} rows={3} />
-                    <EventBlue name={'Bob the Plumber Round 2'} cols={4} />
+                    <EventBlue
+                      name={'Bob the Plumber Round 2'}
+                      cols={4}
+                      id={7}
+                      department={'Civil'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventTeal name={'Solution Au Probleme Round 2'} cols={6} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <EventTan name={'Quizzards of Oz'} cols={4} />
-                    <EventRed name={'Architecture\nat Zero'} cols={2} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
+                    <EventTeal
+                      name={'Solution Au Probleme Round 2'}
+                      cols={6}
+                      id={5}
+                      department={'Civil'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2535,51 +2642,22 @@ function Schedule() {
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
-                    <EventPurple name={'Deal or No Deal'} cols={8} />
-                    <EventPink name={'Netflix Wars'} cols={4} />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <EventBlue name={'Clash of Minds'} cols={8} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
+                    <EventTan
+                      name={'Quizzards of Oz'}
+                      cols={4}
+                      id={1}
+                      department={'Civil'}
+                    />
+                    <EventRed
+                      name={'Architecture\nat Zero'}
+                      cols={2}
+                      id={0}
+                      department={'Civil'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2595,10 +2673,103 @@ function Schedule() {
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
+                    <EventPurple
+                      name={'Deal or No Deal'}
+                      cols={8}
+                      id={4}
+                      department={'Civil'}
+                    />
+                    <EventPink
+                      name={'Netflix Wars'}
+                      cols={4}
+                      id={8}
+                      department={'Civil'}
+                    />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventBlue
+                      name={'Clash of Minds'}
+                      cols={8}
+                      id={3}
+                      department={'Civil'}
+                    />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'BME'} rows={3} />
-                    <EventTeal name={'Quiz Masters'} cols={4} />
-                    <EventTan name={'Entrepreneurship'} cols={6} />
-                    <EventRed name={'Medical Auction'} cols={4} />
+                    <EventTeal
+                      name={'Quiz Masters'}
+                      cols={4}
+                      id={1}
+                      department={'BME'}
+                    />
+                    <EventTan
+                      name={'Startup Smackdown'}
+                      cols={6}
+                      id={6}
+                      department={'BME'}
+                    />
+                    <EventRed
+                      name={'Medical Auction'}
+                      cols={4}
+                      id={5}
+                      department={'BME'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2610,37 +2781,22 @@ function Schedule() {
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
-                    <EventPurple name={'Biomedicathon'} cols={4} />
+                    <EventPurple
+                      name={'Biomedicathon'}
+                      cols={4}
+                      id={4}
+                      department={'BME'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventPink name={'Telehealth Web Development'} cols={6} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
+                    <EventPink
+                      name={'Telehealth Web Development'}
+                      cols={6}
+                      id={2}
+                      department={'BME'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2652,10 +2808,43 @@ function Schedule() {
                     <Empty />
                   </tr>
                   <tr className={styles.title}>
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'MECH'} rows={3} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventBlue name={'Need for Speed'} cols={10} />
+                    <EventBlue
+                      name={'Need for Speed'}
+                      cols={10}
+                      id={2}
+                      department={'Mechanical'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2673,7 +2862,12 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventTeal name={'2 Fast 2 Curious'} cols={8} />
+                    <EventTeal
+                      name={'2 Fast 2 Curious'}
+                      cols={8}
+                      id={4}
+                      department={'Mechanical'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2689,26 +2883,12 @@ function Schedule() {
                   <tr className={styles.title}>
                     <Empty />
                     <Empty time={'half'} />
-                    <EventTan name={'Mechathlon'} cols={6} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                    <Empty time={'half'} />
-                    <Empty />
-                  </tr>
-                  <tr className={styles.title}>
-                    <Empty time={'half'} />
-                    <EventRed name={'Quarter Mile'} cols={8} />
+                    <EventTan
+                      name={'Mechathlon'}
+                      cols={6}
+                      id={3}
+                      department={'Mechanical'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2727,9 +2907,38 @@ function Schedule() {
                   </tr>
                   <tr className={styles.title}>
                     <Empty time={'half'} />
+                    <EventRed
+                      name={'Quarter Mile'}
+                      cols={8}
+                      id={6}
+                      department={'Mechanical'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventPurple name={'Design and Deal'} cols={6} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <Empty />
+                  </tr>
+                  <tr className={styles.title}>
+                    <Empty time={'half'} />
+                    <Empty />
+                    <Empty time={'half'} />
+                    <EventPurple
+                      name={'Design and Deal'}
+                      cols={6}
+                      id={5}
+                      department={'Mechanical'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2754,7 +2963,12 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventPink name={'Roundabout'} cols={8} />
+                    <EventPink
+                      name={'Roundabout'}
+                      cols={8}
+                      id={8}
+                      department={'Mechanical'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2767,7 +2981,12 @@ function Schedule() {
                   </tr>
                   <tr className={styles.title}>
                     <Empty time={'half'} />
-                    <EventBlue name={'Valorant'} cols={14} />
+                    <EventBlue
+                      name={'Clutch or Kick'}
+                      cols={14}
+                      id={9}
+                      department={'Mechanical'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2804,15 +3023,33 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                   </tr>
-                  <tr className={styles.title}>
+                  <tr
+                    className={styles.title}
+                    style={{ borderTop: '1px solid #19e9f023' }}
+                  >
                     <Department name={'CHEM'} rows={3} />
-                    <EventTeal name={'Paper Presentation'} cols={4} />
-                    <EventTan name={'Be-Safe-Athon'} cols={4} />
+                    <EventTeal
+                      name={'Paper Presentation'}
+                      cols={4}
+                      id={0}
+                      department={'Chemical'}
+                    />
+                    <EventTan
+                      name={'Be-Safe-Athon'}
+                      cols={4}
+                      id={2}
+                      department={'Chemical'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventRed name={'Ee Sala\nMeme Namadhe'} cols={2} />
+                    <EventRed
+                      name={'Ee Sala\nMeme Namadhe'}
+                      cols={2}
+                      id={7}
+                      department={'Chemical'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2830,8 +3067,18 @@ function Schedule() {
                     <Empty time={'half'} />
                     <Empty />
                     <Empty time={'half'} />
-                    <EventPurple name={"Who's on the\nLeaderbard"} cols={4} />
-                    <EventPink name={'Like For Like'} cols={4} />
+                    <EventPurple
+                      name={"Who's on the\nLeaderbard"}
+                      cols={4}
+                      id={1}
+                      department={'Chemical'}
+                    />
+                    <EventPink
+                      name={'Like For Like'}
+                      cols={4}
+                      id={3}
+                      department={'Chemical'}
+                    />
                     <Empty />
                     <Empty time={'half'} />
                     <Empty />
@@ -2988,7 +3235,12 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventMRed name={'Analytics Sprint'} rows={4} />
+                      <EventMRed
+                        name={'Analytics Sprint'}
+                        rows={4}
+                        id={5}
+                        department={'IT'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3001,7 +3253,12 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventMPurple name={'Codera'} rows={4} />
+                      <EventMPurple
+                        name={'Codera'}
+                        rows={4}
+                        id={2}
+                        department={'IT'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3014,8 +3271,18 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
-                      <EventMPink name={'Papyrus'} rows={2} />
-                      <EventMBlue name={'Enigma'} rows={4} />
+                      <EventMPink
+                        name={'Papyrus'}
+                        rows={2}
+                        id={4}
+                        department={'IT'}
+                      />
+                      <EventMBlue
+                        name={'Enigma'}
+                        rows={4}
+                        id={0}
+                        department={'IT'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3028,7 +3295,12 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'3 PM'} />
-                      <EventMTeal name={'E-Treasure Hunt'} rows={4} />
+                      <EventMTeal
+                        name={'E-Treasure Hunt'}
+                        rows={4}
+                        id={7}
+                        department={'IT'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3071,13 +3343,33 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventMTan name={'Hackinfinity'} rows={12} />
-                      <EventMRed name={'Debug-a-circuit'} rows={5} />
-                      <EventMPurple name={'Data Utopia'} rows={4} />
+                      <EventMTan
+                        name={'Hackinfinity'}
+                        rows={12}
+                        id={0}
+                        department={'ECE'}
+                      />
+                      <EventMRed
+                        name={'Debug-a-circuit'}
+                        rows={5}
+                        id={5}
+                        department={'ECE'}
+                      />
+                      <EventMPurple
+                        name={'Data Utopia'}
+                        rows={4}
+                        id={2}
+                        department={'ECE'}
+                      />
                     </tr>
                     <tr className={styles.titleM}>
                       <Empty time={'half'} />
-                      <EventMPink name={'Enigma'} rows={5} />
+                      <EventMPink
+                        name={'Enigma'}
+                        rows={5}
+                        id={1}
+                        department={'ECE'}
+                      />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
@@ -3090,11 +3382,21 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <Empty time={'half'} />
-                      <EventMBlue name={'Paper Presentation'} rows={7} />
+                      <EventMBlue
+                        name={'Paper Presentation'}
+                        rows={7}
+                        id={7}
+                        department={'ECE'}
+                      />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'12 PM'} />
-                      <EventMTeal name={'IPL Auction'} rows={6} />
+                      <EventMTeal
+                        name={'IPL Auction'}
+                        rows={6}
+                        id={8}
+                        department={'ECE'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3155,21 +3457,36 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventMTan name={'Inventino Round 2'} rows={4} />
+                      <EventMTan
+                        name={'Inventino Round 2'}
+                        rows={4}
+                        id={5}
+                        department={'EEE'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <EventMRed name={'Paper Presentation'} rows={6} />
+                      <EventMRed
+                        name={'Paper Presentation'}
+                        rows={6}
+                        id={0}
+                        department={'EEE'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventMPurple name={'Tech Quiz Round 3'} rows={4} />
+                      <EventMPurple
+                        name={'Tech Quiz Round 3'}
+                        rows={4}
+                        id={1}
+                        department={'EEE'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3182,21 +3499,36 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'1 PM'} />
-                      <EventMPink name={'E-Bugging Round 1'} rows={2} />
+                      <EventMPink
+                        name={'E-Bugging Round 1'}
+                        rows={2}
+                        id={2}
+                        department={'EEE'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'2 PM'} />
-                      <EventMBlue name={'E-Bugging Round 2'} rows={2} />
+                      <EventMBlue
+                        name={'E-Bugging Round 2'}
+                        rows={2}
+                        id={2}
+                        department={'EEE'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'3 PM'} />
-                      <EventMTeal name={'E-Bugging Round 3'} rows={2} />
+                      <EventMTeal
+                        name={'E-Bugging Round 3'}
+                        rows={2}
+                        id={2}
+                        department={'EEE'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3239,8 +3571,18 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventMTan name={'Bob The Plumber Round 2'} rows={4} />
-                      <EventMRed name={'Deal Or No Deal'} rows={8} />
+                      <EventMTan
+                        name={'Bob The Plumber Round 2'}
+                        rows={4}
+                        id={7}
+                        department={'Civil'}
+                      />
+                      <EventMRed
+                        name={'Deal Or No Deal'}
+                        rows={8}
+                        id={4}
+                        department={'Civil'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3253,7 +3595,12 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventMPurple name={'Quizzards of Oz'} rows={4} />
+                      <EventMPurple
+                        name={'Quizzards of Oz'}
+                        rows={4}
+                        id={1}
+                        department={'Civil'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3269,12 +3616,26 @@ function Schedule() {
                       <EventMTeal
                         name={'Solution Au Probleme Round 2'}
                         rows={6}
+                        id={5}
+                        department={'Civil'}
                       />
-                      <EventMPink name={'Netflix Wars'} rows={4} />
-                      <EventMBlue name={'Clash of Minds'} rows={8} />
+                      <EventMPink
+                        name={'Netflix Wars'}
+                        rows={4}
+                        id={8}
+                        department={'Civil'}
+                      />
+                      <EventMBlue
+                        name={'Clash of Minds'}
+                        rows={8}
+                        id={3}
+                        department={'Civil'}
+                      />
                       <EventMTeal
                         name={'Architecture At Zero Submission'}
                         rows={2}
+                        id={0}
+                        department={'Civil'}
                       />
                     </tr>
                     <tr className={styles.title}>
@@ -3330,8 +3691,18 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventMTan name={'Quiz Masters'} rows={4} />
-                      <EventMRed name={'Biomedicathon'} rows={4} />
+                      <EventMTan
+                        name={'Quiz Masters'}
+                        rows={4}
+                        id={1}
+                        department={'BME'}
+                      />
+                      <EventMRed
+                        name={'Biomedicathon'}
+                        rows={4}
+                        id={4}
+                        department={'BME'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3344,7 +3715,12 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventMPurple name={'Entrepreneurship'} rows={6} />
+                      <EventMPurple
+                        name={'Startup Smackdown'}
+                        rows={6}
+                        id={6}
+                        department={'BME'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3360,6 +3736,8 @@ function Schedule() {
                       <EventMPink
                         name={'Telehealth Web Development'}
                         rows={6}
+                        id={2}
+                        department={'BME'}
                       />
                     </tr>
                     <tr className={styles.title}>
@@ -3367,7 +3745,12 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'2 PM'} />
-                      <EventMBlue name={'Medical Auction'} rows={4} />
+                      <EventMBlue
+                        name={'Medical Auction'}
+                        rows={4}
+                        id={5}
+                        department={'BME'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3416,31 +3799,66 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventMTeal name={'Quarter Mile'} rows={8} />
-                      <EventMTan name={'Valorant'} rows={14} />
+                      <EventMTeal
+                        name={'Quarter Mile'}
+                        rows={8}
+                        id={6}
+                        department={'Mechanical'}
+                      />
+                      <EventMTan
+                        name={'Clutch or Kick'}
+                        rows={14}
+                        id={9}
+                        department={'Mechanical'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'10 AM'} />
-                      <EventMRed name={'Need For Speed'} rows={10} />
-                      <EventMPurple name={'Mechathlon'} rows={6} />
-                      <EventMPink name={'Design and Deal'} rows={6} />
+                      <EventMRed
+                        name={'Need For Speed'}
+                        rows={10}
+                        id={2}
+                        department={'Mechanical'}
+                      />
+                      <EventMPurple
+                        name={'Mechathlon'}
+                        rows={6}
+                        id={3}
+                        department={'Mechanical'}
+                      />
+                      <EventMPink
+                        name={'Design and Deal'}
+                        rows={6}
+                        id={5}
+                        department={'Mechanical'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventMBlue name={'2 Fast 2 Curious'} rows={8} />
+                      <EventMBlue
+                        name={'2 Fast 2 Curious'}
+                        rows={8}
+                        id={4}
+                        department={'Mechanical'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'12 PM'} />
-                      <EventMTeal name={'Roundabout'} rows={8} />
+                      <EventMTeal
+                        name={'Roundabout'}
+                        rows={8}
+                        id={8}
+                        department={'Mechanical'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3501,7 +3919,12 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'9 AM'} />
-                      <EventMTan name={'Paper Presentation'} rows={4} />
+                      <EventMTan
+                        name={'Paper Presentation'}
+                        rows={4}
+                        id={0}
+                        department={'Chemical'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3514,7 +3937,12 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'11 AM'} />
-                      <EventMRed name={'Be-Safe-Athon'} rows={4} />
+                      <EventMRed
+                        name={'Be-Safe-Athon'}
+                        rows={4}
+                        id={2}
+                        department={'Chemical'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3524,6 +3952,8 @@ function Schedule() {
                       <EventMPurple
                         name={"Who's on the Leaderboard"}
                         rows={4}
+                        id={1}
+                        department={'Chemical'}
                       />
                     </tr>
                     <tr className={styles.title}>
@@ -3537,14 +3967,24 @@ function Schedule() {
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'2 PM'} />
-                      <EventMPink name={'Like for Like'} rows={4} />
+                      <EventMPink
+                        name={'Like for Like'}
+                        rows={4}
+                        id={3}
+                        department={'Chemical'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
                     </tr>
                     <tr className={styles.titleM}>
                       <TimeM time={'3 PM'} />
-                      <EventMBlue name={'Ee Sala Meme Namadhe'} rows={2} />
+                      <EventMBlue
+                        name={'Ee Sala Meme Namadhe'}
+                        rows={2}
+                        id={7}
+                        department={'Chemical'}
+                      />
                     </tr>
                     <tr className={styles.title}>
                       <Empty time={'half'} />
@@ -3583,6 +4023,7 @@ function Schedule() {
           </div>
         ) : null}
       </main>
+      <Footer />
     </div>
   );
 }

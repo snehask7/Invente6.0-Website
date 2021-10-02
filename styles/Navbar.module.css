@@ -31,7 +31,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .inventeLogo {
     position: absolute;
     left: 20px;
@@ -111,7 +111,7 @@
 .centerTab {
   padding-left: -5em !important;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .centerTab {
     display: none;
   }
@@ -148,7 +148,7 @@
   right: 1px;
 }
 
-@media screen and (max-width: 1543px) {
+@media screen and (max-width: 1555px) {
   .centerNavLink {
     margin: 0 1em;
     font-size: 0.9em;
@@ -164,7 +164,7 @@
   }
 }
 
-@media screen and (min-width: 1101px) {
+@media screen and (min-width: 1200px) {
   .hamburger {
     display: none;
   }
