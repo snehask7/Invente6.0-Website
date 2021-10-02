@@ -4,7 +4,7 @@ import * as admin from 'firebase-admin';
 admin.initializeApp({
   projectId: 'invente-development',
   storageBucket: 'invente-development.appspot.com',
-  databaseURL: 'https://invente-development-default-rtdb.firebaseio.com/',
+  databaseURL: 'https://invente-development-default-rtdb.firebaseio.com',
 });
 
 export const firestore = admin.firestore();

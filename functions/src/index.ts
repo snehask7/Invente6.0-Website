@@ -6,6 +6,7 @@ import CreateFiles from './createFiles';
 import ExportToSheets from './exportToSheets';
 import AddHeaders from './addHeaders';
 import triggerMail from './triggerMail';
+import AlertMail from './alertMail';
 
 // visit the URL for this Function to request tokens
 exports.authgoogleapi = AuthGoogleAPI;
@@ -22,3 +23,6 @@ exports.addHeaders = AddHeaders;
 
 // Shoot mail to verified payment users
 exports.triggerMail = triggerMail;
+
+// Shoot mail to unpaid users
+exports.alertMail = AlertMail;
