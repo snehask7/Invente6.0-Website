@@ -862,7 +862,7 @@ export default function Home() {
                 <a href="http://www.roca.in/" target="_blank" rel="noreferrer">
                   {/* eslint-disable-next-line */}
                   <img
-                    src="/sponsors/ROCA.png"
+                    src="/sponsors/ROCA.jpg"
                     alt="Roca"
                     width="150"
                     height="80"
