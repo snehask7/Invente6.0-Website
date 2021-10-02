@@ -762,7 +762,7 @@
           {
             "name": "Phase 1: (Registration) ",
             "duration": null,
-            "description": "<ul><li>Team Registration and domain selection has to be done. </li><li>Submission of Abstract by September 30th,2021  </li><li>Send your abstracts to the Mail ID : inventeideate2021@gmail.com </li></ul><br/><br/><b>Format for Sending Your Abstract: </b><br/><ul><li>Team Name: </li><li>Team Leader(SPOC): </li><li>Team Member Details: Name, Mail ID, Contact Number </li><li>Domain Chosen: </li><li>Problem Statement: </li><li>Objective: </li><li>Abstract: </li><li>Application: </li></ul><br/>Share in the form of TeamName_Domain.pdf <br/>Shortlisted Ideas from Phase 1 will move further <br/>Shortlisted Teams will be shared the format for further rounds of evaluation. The date and time for the rounds will be communicated to the shortlisted teams.  "
+            "description": "<ul><li>Team Registration and domain selection has to be done. </li><li>Submission of Abstract by October 3rd,2021  </li><li>Send your abstracts to the Mail ID : inventeideate2021@gmail.com </li></ul><br/><br/><b>Format for Sending Your Abstract: </b><br/><ul><li>Team Name: </li><li>Team Leader(SPOC): </li><li>Team Member Details: Name, Mail ID, Contact Number </li><li>Domain Chosen: </li><li>Problem Statement: </li><li>Objective: </li><li>Abstract: </li><li>Application: </li></ul><br/>Share in the form of TeamName_Domain.pdf <br/>Shortlisted Ideas from Phase 1 will move further <br/>Shortlisted Teams will be shared the format for further rounds of evaluation. The date and time for the rounds will be communicated to the shortlisted teams.  "
           },
           {
             "name": "Phase 2: (Preliminary Evaluation) ",
@@ -1861,13 +1861,13 @@
         { "name": "Narenthiran", "phone": 7548815835 }
       ],
       "description": {
-        "summary": "Usually there are three solutions to every problems :accept it , change it or leave it...If you can't accept it , change it and If you can't change it ,think more because there must be no chance of leaving it.....<br/><br/>So solution au probléme is a technical event which will give u some statements of technical  problems. You have to choose a statement and bring us right solution for it. Teams can refer any material and  have to submit your abstract before end time. The best abstracts will be shortlisted for presentation of their idea. Based on presentation of abstracts, teams will be selected for final presentation in which yourppt work , innovation and changes you done by review of reviewers. Finally the bestteams will be chosen as winners and review panel decision will be final",
+        "summary": "Usually there are three solutions to every problems :accept it , change it or leave it...If you can't accept it , change it and If you can't change it ,think more because there must be no chance of leaving it.....<br/><br/>So solution au probléme is a technical event which will give u some statements of technical  problems. You have to choose a statement and bring us right solution for it. Teams can refer any material and  have to submit your abstract before end time. The best abstracts will be shortlisted for presentation of their idea. Based on presentation of abstracts, teams will be selected for final presentation in which yourppt work , innovation and changes you done by review of reviewers. Finally the best teams will be chosen as winners and review panel decision will be final",
         "rounds": 3,
         "round_description": [
           {
             "name": "Problem Statement:",
             "duration": null,
-            "description": "5 problem statements will be given out of which the participant/team is required to choose any 1 statement and come up with a solution within the specified time limit. The abstract should be presented for the same."
+            "description": "3 problem statements will be given out of which the participant/team is required to choose any 1 statement and come up with a solution within the specified time limit. The abstract should be presented for the same.<br/><br/><a target=\"_blank\" href=\"/docs/Problem-Statement.pdf\"><button style=\"background-color:#0ff;border:none;padding:5px;border-radius:20px\">Download Problem Statement</button></a>"
           },
           {
             "name": "Instructions",

@@ -46,8 +46,10 @@ export default function Department({ data }) {
       })
         .then((res) => {
           toast.dismiss(toastId);
-          toast.success('Registered Successfully');
-          getProfile();
+          toast.success(
+            'Registered Successfully! Make sure to get your pass to complete the registration!'
+          );
+          router.push('/profile');
           setDisableReg(false);
         })
         .catch((err) => {
@@ -212,7 +214,9 @@ export default function Department({ data }) {
                       <Link href={'/passes'}> Passes </Link>
                     </span>
                     page to purchase passes for the event categories you wish to
-                    participate in!
+                    participate in! Only after you get a pass, the registration
+                    becomes valid and you will receive further details about the
+                    event.
                   </p>
                 </div>
               </Col>
