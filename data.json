@@ -611,6 +611,7 @@
     {
       "name": "Paper Presentation",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 4,
       "ssn": true,
@@ -650,6 +651,7 @@
     {
       "name": "Tech Quiz",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 2,
       "ssn": false,
@@ -687,6 +689,7 @@
     {
       "name": "E-Bugging",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -725,6 +728,7 @@
     {
       "name": "Electronic-Maze",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -758,6 +762,7 @@
     {
       "name": "Ideate",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 5,
       "ssn": true,
@@ -806,6 +811,7 @@
     {
       "name": "Inventino",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -845,6 +851,7 @@
     {
       "name": "Tentkotta",
       "category": "non-tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 3,
       "organisers": [
@@ -875,6 +882,7 @@
     {
       "name": "IPL Bidding",
       "category": "non-tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 2,
       "organisers": [
