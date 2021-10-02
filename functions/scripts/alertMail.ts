@@ -33,7 +33,7 @@ async function main() {
   const users = await getDocs(
     query(
       collection(firestore, 'users'),
-      where('email', '==', 'sneha18157@cse.ssn.edu.in'),
+      where('email', '==', 'harisarang19045@it.ssn.edu.in'),
     ),
   );
   await Promise.all(
@@ -60,13 +60,8 @@ async function main() {
           };
           if (paymentStatus.data()[category] == false) {
             console.log('Sending a mail');
-            await mg.messages().send(data, function (error, body) {
-              if (error !== undefined) {
-                console.error(error);
-              } else {
-                console.log(body.message);
-              }
-            });
+            await mg.messages().send(data);
+            console.log('success');
           }
         }),
       );
@@ -74,4 +69,4 @@ async function main() {
   );
 }
 
-main().then();
+main().finally(() => process.exit(0));
