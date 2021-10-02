@@ -1213,6 +1213,7 @@
     {
       "name": "Paper Presentation",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -1249,6 +1250,7 @@
     {
       "name": "Who's on the Leaderboard",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -1280,6 +1282,7 @@
     {
       "name": "Be-safe-athon",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -1316,6 +1319,7 @@
     {
       "name": "Like-for-Like",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 2,
       "max_team_size": 2,
       "ssn": true,
@@ -1342,6 +1346,7 @@
     {
       "name": "The Commentator’s Conference",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -1374,6 +1379,7 @@
     {
       "name": "IPL-Invente's Pictionary League",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 2,
       "max_team_size": 2,
       "ssn": true,
@@ -1406,6 +1412,7 @@
     {
       "name": "The Last Man Standing",
       "category": "non-tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 1,
       "organisers": [
@@ -1432,6 +1439,7 @@
     {
       "name": "Ee Sala MEME Namadhe",
       "category": "non-tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "organisers": [
