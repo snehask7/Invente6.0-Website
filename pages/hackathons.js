@@ -17,6 +17,7 @@ import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
 import { useNav } from '../lib/navbarstate';
+import styles2 from '../styles/Blink.module.scss';
 import styles from '../styles/DepartmentPage.module.css';
 
 export default function Department({ data }) {
@@ -149,6 +150,12 @@ export default function Department({ data }) {
                       Devathlon
                     </span>
                   </p>
+                  <div className={styles2.blinkbox} data-aos="zoom-in">
+                    <div className={styles2.light}></div>
+                    <div className={styles2.blink}>
+                      <span>Registrations Closed!</span>
+                    </div>
+                  </div>
                   <br></br>
                   In this first of its kind cross-department hackathon sponsored
                   by{' '}
@@ -338,21 +345,12 @@ export default function Department({ data }) {
                   </div>
                   <div className={styles.buttonWrapper}>
                     {profile && profile.events.includes('80') ? (
-                      <button className={styles.registeredButton} disabled>
+                      <button className={styles.registerButton} disabled>
                         Registered
                       </button>
                     ) : (
-                      <button
-                        className={styles.registerButton}
-                        onClick={() => {
-                          currentUser
-                            ? currentUser.emailVerified
-                              ? register('80')
-                              : router.push('/unverified')
-                            : router.push('/signin');
-                        }}
-                      >
-                        Register
+                      <button className={styles.registerClosed} disabled={true}>
+                        Closed
                       </button>
                     )}
                   </div>

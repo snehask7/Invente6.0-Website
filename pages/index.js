@@ -9,7 +9,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import { useNav } from '../lib/navbarstate';
-import styles3 from '../styles/Blink.module.scss';
 import styles from '../styles/Home.module.css';
 import styles2 from '../styles/Particles.module.scss';
 
@@ -299,7 +298,7 @@ export default function Home() {
               </div>
             </Col>
           </Row>
-          <div className={styles3.blinkbox} data-aos="zoom-in">
+          {/* <div className={styles3.blinkbox} data-aos="zoom-in">
             <div className={styles3.light}></div>
             <div className={styles3.blink}>
               <span>
@@ -317,7 +316,7 @@ export default function Home() {
                 Register
               </button>
             </div>
-          </div>
+          </div> */}
           <div data-aos="zoom-in" id="timer" className={styles.timer}>
             <div id="days" className={styles.days}>
               <div id="days_num" className={styles.numbers}></div>
