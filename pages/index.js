@@ -661,7 +661,22 @@ export default function Home() {
                 </a>
               </Col>
             </Row>
-            <Row>
+            <Row className={styles.sponsorsSpaced}>
+              <Col>
+                <a
+                  href="http://leankloud.com//"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/leankloud.png"
+                    alt="leankloud"
+                    width="220"
+                    height="60"
+                  />{' '}
+                </a>
+              </Col>
               <Col>
                 <a
                   href="https://business.stayflexi.com/"
@@ -672,11 +687,13 @@ export default function Home() {
                   <img
                     src="/sponsors/sf.webp"
                     alt="stayflexi"
-                    width="230"
-                    height="100"
+                    width="200"
+                    height="60"
                   />{' '}
                 </a>
               </Col>
+            </Row>
+            <Row>
               <Col>
                 <a
                   href="http://cosmicin.com/ "
@@ -687,8 +704,37 @@ export default function Home() {
                   <img
                     src="/sponsors/cosmic.webp"
                     alt="cosmic"
+                    width="140"
+                    height="100"
+                    style={{ marginTop: '-1vh' }}
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a href="https://motorq.com/ " target="_blank" rel="noreferrer">
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/motorq.png"
+                    alt="motorq"
+                    width="180"
+                    height="40"
+                    style={{ marginTop: '4vh' }}
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.emids.com/ "
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/emids.svg"
+                    alt="emids"
                     width="200"
-                    height="150"
+                    height="60"
+                    style={{ marginTop: '3vh' }}
                   />{' '}
                 </a>
               </Col>
@@ -702,8 +748,8 @@ export default function Home() {
                   <img
                     src="/sponsors/typesense.svg"
                     alt="typesense"
-                    width="300"
-                    height="100"
+                    width="250"
+                    height="80"
                   />{' '}
                 </a>
               </Col>
@@ -717,8 +763,8 @@ export default function Home() {
                   <img
                     src="/sponsors/gr.png"
                     alt="gautham raj"
-                    width="300"
-                    height="100"
+                    width="200"
+                    height="70"
                   />{' '}
                 </a>
               </Col>
@@ -734,8 +780,8 @@ export default function Home() {
                   <img
                     src="/sponsors/microcode.jpeg"
                     alt="Microcode"
-                    width="230"
-                    height="100"
+                    width="180"
+                    height="80"
                   />{' '}
                 </a>
               </Col>
@@ -745,8 +791,8 @@ export default function Home() {
                   <img
                     src="/sponsors/orono.jpg"
                     alt="orono"
-                    width="230"
-                    height="100"
+                    width="180"
+                    height="80"
                   />{' '}
                 </a>
               </Col>
@@ -760,8 +806,8 @@ export default function Home() {
                   <img
                     src="/sponsors/shankara.jfif"
                     alt="Shankara"
-                    width="230"
-                    height="100"
+                    width="180"
+                    height="80"
                   />{' '}
                 </a>
               </Col>
