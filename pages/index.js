@@ -917,7 +917,7 @@ export default function Home() {
                 </a>
               </Col>
             </Row>
-            <Row className={styles.sponsorsSpaced}>
+            <Row>
               <Col>
                 <a
                   href="https://felixpilottraining.com/"
@@ -933,7 +933,54 @@ export default function Home() {
                   />{' '}
                 </a>
               </Col>
-
+              <Col>
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/srimurugan.jpg"
+                  alt="FSri Murugan"
+                  width="150"
+                  height="100"
+                />{' '}
+              </Col>
+              <Col>
+                <a
+                  href="https://www.emveetech.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/emvee.jpg"
+                    alt="emvee"
+                    width="200"
+                    height="70"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="http://thinaiorganics.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/sana.jpg"
+                    alt="Thinai"
+                    width="160"
+                    height="70"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/mj.png"
+                  alt="MJ"
+                  width="180"
+                  height="120"
+                />{' '}
+              </Col>
               <Col>
                 <a
                   href="https://www.geeksforgeeks.org/"
@@ -944,7 +991,7 @@ export default function Home() {
                   <img
                     src="/sponsors/gfg.png"
                     alt="gfg"
-                    width="120"
+                    width="100"
                     height="70"
                   />{' '}
                 </a>
