@@ -9,6 +9,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import { useNav } from '../lib/navbarstate';
+import styles3 from '../styles/Blink.module.scss';
 import styles from '../styles/Home.module.css';
 import styles2 from '../styles/Particles.module.scss';
 
@@ -298,25 +299,25 @@ export default function Home() {
               </div>
             </Col>
           </Row>
-          {/* <div className={styles3.blinkbox} data-aos="zoom-in">
+          <div className={styles3.blinkbox} data-aos="zoom-in">
             <div className={styles3.light}></div>
             <div className={styles3.blink}>
               <span>
-                Hackathon starting on 1st October!
+                Hackinfinity starting on 8th October!
                 <br />
-                Prizes worth 30k and internships from 5 companies!
+                Prizes worth 25k!!
               </span>
               <br />
               <button
                 className={styles.registerButton}
                 onClick={() => {
-                  router.push('/hackathons');
+                  router.push('/department/ECE/0');
                 }}
               >
                 Register
               </button>
             </div>
-          </div> */}
+          </div>
           <div data-aos="zoom-in" id="timer" className={styles.timer}>
             <div id="days" className={styles.days}>
               <div id="days_num" className={styles.numbers}></div>

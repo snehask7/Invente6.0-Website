@@ -18,7 +18,7 @@
           {
             "name": "Schedule",
             "duration": null,
-            "description": "<h5>Day 1:</h5><ul><li>10.00 AM – Introduction</li><li>11.00 AM – Hackathon starts</li><li>03.00 PM – First Review</li></ul><br/><h5>Day 2:</h5><ul><li>10.00 PM – Second Review</li><li>08.00 AM – Third Review</li><li>11.00 AM – Hackathon ends</li><li>12.00 PM – Final Presentation</li><li>03.30 PM – Valedictory</li></ul>"
+            "description": "<h5>Day 1:</h5><ul><li>10.00 AM – Introduction</li><li>11.00 AM – Hackathon starts</li><li>03.00 PM – First Review</li><li>10.00 PM – Second Review</li></ul><br/><h5>Day 2:</h5><ul><li>08.00 AM – Third Review</li><li>11.00 AM – Hackathon ends</li><li>12.00 PM – Final Presentation</li><li>03.30 PM – Valedictory</li></ul>"
           },
           {
             "name": "First Review:",
@@ -89,7 +89,7 @@
       "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 2,
-      "ssn": false,
+      "ssn": true,
       "organisers": [
         { "name": "Shwetha S", "phone": 9790950184 },
         { "name": "Krishi V", "phone": 9941683848 }
@@ -153,7 +153,7 @@
       "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 3,
-      "ssn": false,
+      "ssn": true,
       "organisers": [
         { "name": "Aakash", "phone": 8056722144 },
         { "name": "Rangashri", "phone": 8825894683 }
