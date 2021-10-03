@@ -18,27 +18,7 @@
           {
             "name": "Schedule",
             "duration": null,
-            "description": "<h5>Day 1:</h5><ul><li>10.00 AM – Introduction</li><li>11.00 AM – Hackathon starts</li><li>03.00 PM – First Review</li><li>10.00 PM – Second Review</li></ul><br/><h5>Day 2:</h5><ul><li>08.00 AM – Third Review</li><li>11.00 AM – Hackathon ends</li><li>12.00 PM – Final Presentation</li><li>03.30 PM – Valedictory</li></ul>"
-          },
-          {
-            "name": "First Review:",
-            "duration": null,
-            "description": "<ol><li>Teams are expected to explain their problem statement and the workflow of their solution.</li><li>In this round, teams will be evaluated based on the novelty of their problem statement and the clarity in their approach.</li></ol>"
-          },
-          {
-            "name": "Second Review:",
-            "duration": null,
-            "description": "<ol><li>This review is a checkpoint to track the team’s progress.</li><li>The reviewers will give their input and their thoughts on the team’s solution and changes if there are any.</li></ol>"
-          },
-          {
-            "name": "Third Review:",
-            "duration": null,
-            "description": "<ol><li>Teams are expected to implement the changes given in the previous review by the reviewers.</li><li>In this round, the teams are reviewed based on their progress in accordance with their proposed workflow and closeness to completion of the project.</li></ol>"
-          },
-          {
-            "name": "Final Presentation:",
-            "duration": null,
-            "description": "<ol><li>In this round, teams will be evaluated based on presentation, ability to explain their idea and innovation in their solution.</li><li>Teams which address the marketability of their product will be awarded additional points</li></ol>"
+            "description": "<h5>October 8th:</h5><ul><li>10.00 AM – Introduction</li><li>11.00 AM – Hackathon starts</li><li>03.00 PM – First Review</li><li>10.00 PM – Second Review</li></ul><br/><h5>October 9th:</h5><ul><li>08.00 AM – Third Review</li><li>11.00 AM – Hackathon ends</li><li>12.00 PM – Final Presentation</li><li>03.30 PM – Valedictory</li></ul>"
           },
           {
             "name": "General Instructions",
