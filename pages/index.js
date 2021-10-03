@@ -662,7 +662,7 @@ export default function Home() {
                 </a>
               </Col>
             </Row>
-            <Row className={styles.sponsorsSpaced}>
+            <Row>
               <Col>
                 <a
                   href="http://leankloud.com//"
@@ -690,6 +690,21 @@ export default function Home() {
                     alt="stayflexi"
                     width="200"
                     height="60"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.mrcoopergroup.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/cooper.png"
+                    alt="mr cooper"
+                    width="350"
+                    height="70"
                   />{' '}
                 </a>
               </Col>
@@ -870,6 +885,39 @@ export default function Home() {
                   />{' '}
                 </a>
               </Col>
+
+              <Col>
+                <a
+                  href="https://www.dalmiabharat.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/dalmia.png"
+                    alt="dalmia"
+                    width="130"
+                    height="70"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.linkedin.com/school/ssn-alumni-association/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/ssnaa.jfif"
+                    alt="SSNAA"
+                    width="100"
+                    height="100"
+                  />{' '}
+                </a>
+              </Col>
+            </Row>
+            <Row className={styles.sponsorsSpaced}>
               <Col>
                 <a
                   href="https://felixpilottraining.com/"
@@ -885,17 +933,18 @@ export default function Home() {
                   />{' '}
                 </a>
               </Col>
+
               <Col>
                 <a
-                  href="https://www.dalmiabharat.com/"
+                  href="https://www.geeksforgeeks.org/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   {/* eslint-disable-next-line */}
                   <img
-                    src="/sponsors/dalmia.png"
-                    alt="dalmia"
-                    width="130"
+                    src="/sponsors/gfg.png"
+                    alt="gfg"
+                    width="120"
                     height="70"
                   />{' '}
                 </a>
