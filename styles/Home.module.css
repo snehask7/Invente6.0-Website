@@ -142,7 +142,19 @@
   margin-bottom: 3em;
   font-family: 'Menlo', monospace;
 }
-
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem !important;
+}
+@media screen and (max-width: 690px) {
+  .video {
+    width: 90%;
+  }
+}
+.videoSection {
+  text-align: center;
+}
 @media screen and (min-width: 1000px) {
   .sub_title {
     margin-bottom: 6em;

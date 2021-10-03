@@ -1360,6 +1360,23 @@ export default function Home() {
             </Row>
           </Container>
         </div>
+        <div className={styles.videoSection} style={{ marginTop: '8rem' }}>
+          <div className={styles.sub_title}>
+            <h2>WALKTHROUGH</h2>
+            <h2>WALKTHROUGH</h2>
+          </div>
+          <br />
+          <iframe
+            width="560"
+            height="315"
+            className={styles.video}
+            src="https://www.youtube.com/embed/4HN2JoihCfQ"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
       </main>
       <Footer />
     </div>
