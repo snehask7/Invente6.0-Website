@@ -82,11 +82,14 @@
 .empty,
 .timeM {
   border: none;
-  white-space: pre;
   max-width: 3vw;
   word-wrap: break-word;
   font-size: 12px !important;
 }
+.empty, .half {
+  white-space: pre;
+}
+
 .dept {
   font-size: 14px !important;
 }

@@ -21,14 +21,6 @@ export default function NavbarComp() {
     }
   };
 
-  const updateNav = () => {
-    if (!isOpen) {
-      document.getElementById('navbar').style.right = '0px';
-    } else {
-      document.getElementById('navbar').style.right = '10px';
-    }
-  };
-
   return (
     <div className={styles.navbar} id="navbar">
       <div className={styles.inventeLogo}>
@@ -59,7 +51,6 @@ export default function NavbarComp() {
       <div
         className={styles.hamburger}
         onClick={() => {
-          updateNav();
           setIsOpen(!isOpen);
           toggleNavbar();
         }}

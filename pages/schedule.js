@@ -378,7 +378,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventPurple
-                      name={'Mock Job Drive\n(Tests)'}
+                      name={'Mock Job Drive (Tests)'}
                       cols={4}
                       id={5}
                       department={'CSE'}
@@ -386,7 +386,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventPink
-                      name={'Codolympics\nPrelims'}
+                      name={'Codolympics Prelims'}
                       cols={4}
                       id={0}
                       department={'CSE'}
@@ -398,7 +398,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventPink
-                      name={'Codolympics\nFinals'}
+                      name={'Codolympics Finals'}
                       cols={4}
                       id={0}
                       department={'CSE'}
@@ -413,7 +413,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventBlue
-                      name={"Hacker's\nAsylum\nPrelims"}
+                      name={"Hacker's Asylum Prelims"}
                       cols={2}
                       id={4}
                       department={'CSE'}
@@ -421,7 +421,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventBlue
-                      name={"Hacker's\nAsylum\nFinals"}
+                      name={"Hacker's Asylum Finals"}
                       cols={6}
                       id={4}
                       department={'CSE'}
@@ -444,7 +444,7 @@ function Schedule() {
                       department={'CSE'}
                     />
                     <EventTan
-                      name={'Moke Job Drive\n(Interviews)'}
+                      name={'Moke Job Drive (Interviews)'}
                       cols={6}
                       id={5}
                       department={'CSE'}
@@ -568,7 +568,7 @@ function Schedule() {
                   <tr className={styles.title}>
                     <Empty />
                     <EventTeal
-                      name={'Tinkering\nThoughts'}
+                      name={'Tinkering Thoughts'}
                       cols={5}
                       id={3}
                       department={'ECE'}
@@ -650,13 +650,13 @@ function Schedule() {
                   >
                     <Department name={'EEE'} rows={4} />
                     <EventPink
-                      name={'Inventino\nRound 1'}
+                      name={'Inventino Round 1'}
                       cols={2}
                       id={5}
                       department={'EEE'}
                     />
                     <EventBlue
-                      name={'Tech\nQuiz'}
+                      name={'Tech Quiz'}
                       cols={4}
                       id={1}
                       department={'EEE'}
@@ -774,7 +774,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventPink
-                      name={'Paper\nPresentation\nRound 1'}
+                      name={'Paper Presentation Round 1'}
                       cols={4}
                       id={2}
                       department={'Civil'}
@@ -782,7 +782,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventBlue
-                      name={'Paper\nPresentation\nRound 2'}
+                      name={'Paper Presentation Round 2'}
                       cols={4}
                       id={2}
                       department={'Civil'}
@@ -805,7 +805,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventTeal
-                      name={'Ace-It\nValorant Championship'}
+                      name={'Ace-It Valorant Championship'}
                       cols={14}
                       id={9}
                       department={'Civil'}
@@ -822,7 +822,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventTan
-                      name={'Arch.\nat Zero\nProblem\nStatement\nRelease'}
+                      name={'Arch. at Zero Problem Statement Release'}
                       cols={2}
                       id={0}
                       department={'Civil'}
@@ -830,7 +830,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventRed
-                      name={'Solution\nAU\nProbleme\nRound\n1'}
+                      name={'Solution AU Probleme Round 1'}
                       cols={2}
                       id={5}
                       department={'Civil'}
@@ -853,7 +853,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventPurple
-                      name={'Bob The\nPlumber\nRound 1'}
+                      name={'Bob The Plumber Round 1'}
                       cols={4}
                       id={7}
                       department={'Civil'}
@@ -861,7 +861,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventPink
-                      name={'\nUnscripted'}
+                      name={' Unscripted'}
                       cols={8}
                       id={6}
                       department={'Civil'}
@@ -908,7 +908,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventBlue
-                      name={'Paper\nPresentation'}
+                      name={'Paper Presentation'}
                       cols={6}
                       id={0}
                       department={'BME'}
@@ -964,13 +964,13 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventTan
-                      name={'Design\nand\nInnovate'}
+                      name={'Design and Innovate'}
                       cols={4}
                       id={3}
                       department={'BME'}
                     />
                     <EventRed
-                      name={'Thambi Reel\nInum Varala'}
+                      name={'Thambi Reel Inum Varala'}
                       cols={4}
                       id={7}
                       department={'BME'}
@@ -1156,7 +1156,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventRed
-                      name={'\nPaper Presentation'}
+                      name={' Paper Presentation'}
                       cols={4}
                       id={0}
                       department={'Chemical'}
@@ -1164,7 +1164,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventPurple
-                      name={"Invente's\nPictionary\nLeague"}
+                      name={"Invente's Pictionary League"}
                       cols={4}
                       id={5}
                       department={'Chemical'}
@@ -1212,7 +1212,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventBlue
-                      name={"The Commentator's\nConference"}
+                      name={"The Commentator's Conference"}
                       cols={4}
                       id={4}
                       department={'Chemical'}
@@ -1222,7 +1222,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventTeal
-                      name={'The Last Man\nStanding'}
+                      name={'The Last Man Standing'}
                       cols={4}
                       id={6}
                       department={'Chemical'}
@@ -2253,7 +2253,7 @@ function Schedule() {
                       department={'CSE'}
                     />
                     <EventTeal
-                      name={'Paper\nPresentation'}
+                      name={'Paper Presentation'}
                       cols={4}
                       id={2}
                       department={'CSE'}
@@ -2653,7 +2653,7 @@ function Schedule() {
                       department={'Civil'}
                     />
                     <EventRed
-                      name={'Architecture\nat Zero'}
+                      name={'Architecture at Zero'}
                       cols={2}
                       id={0}
                       department={'Civil'}
@@ -3045,7 +3045,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventRed
-                      name={'Ee Sala\nMeme Namadhe'}
+                      name={'Ee Sala Meme Namadhe'}
                       cols={2}
                       id={7}
                       department={'Chemical'}
@@ -3068,7 +3068,7 @@ function Schedule() {
                     <Empty />
                     <Empty time={'half'} />
                     <EventPurple
-                      name={"Who's on the\nLeaderbard"}
+                      name={"Who's on the Leaderbard"}
                       cols={4}
                       id={1}
                       department={'Chemical'}
