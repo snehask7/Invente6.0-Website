@@ -1520,8 +1520,8 @@
           },
           {
             "name": "Finals",
-            "duration": "2-3 hours",
-            "description": "<ul><li>Participants will be given a theme for an app/website/prototype that they’ll have to design and implement. They can choose one common theme from 3 or 4 options that will be given to them at the start by majority vote.</li><li>Proctoring will be done (breakout rooms + screenshare)</li><li>Participants will have to submit the code on Github</li> </ul><br/><b>Judging Criteria</b><ul><li>Visual Hierarchy</li><li>Navigation</li><li>Design and Creativity</li><li>Responsiveness (very important!)</li><li>Intuitiveness </li><li>Load time and performance </li></ul>"
+            "duration": "2 hours",
+            "description": "<ul><li>Participants will be given a theme for an app/website that they’ll have to design and implement. They can choose one common theme from 3 or 4 options that will be given to them at the start by majority vote.</li><li>Proctoring will be done (breakout rooms + screenshare)</li><li>Participants will have to submit the code on Github</li> </ul><br/><b>Judging Criteria</b><ul><li>Visual Hierarchy</li><li>Navigation</li><li>Design and Creativity</li><li>Responsiveness (very important!)</li><li>Intuitiveness </li><li>Load time and performance </li></ul>"
           }
         ]
       },
