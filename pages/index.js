@@ -811,6 +811,94 @@ export default function Home() {
                   />{' '}
                 </a>
               </Col>
+              <Col>
+                <a href="https://cmti.co.in/" target="_blank" rel="noreferrer">
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/cmti.png"
+                    alt="CMTI"
+                    width="150"
+                    height="80"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.deepwoodsgreen.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/deepwoods.webp"
+                    alt="deepwoods"
+                    width="150"
+                    height="80"
+                  />{' '}
+                </a>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/jeyam.png"
+                  alt="Jeyam"
+                  width="180"
+                  height="80"
+                />{' '}
+              </Col>
+              <Col>
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/rajam.jpg"
+                  alt="Rajam"
+                  width="280"
+                  height="70"
+                />{' '}
+              </Col>
+
+              <Col>
+                <a href="http://www.roca.in/" target="_blank" rel="noreferrer">
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/ROCA.jpg"
+                    alt="Roca"
+                    width="150"
+                    height="80"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://felixpilottraining.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/FELIX.jpg"
+                    alt="Felix"
+                    width="150"
+                    height="70"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.dalmiabharat.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/dalmia.png"
+                    alt="dalmia"
+                    width="130"
+                    height="70"
+                  />{' '}
+                </a>
+              </Col>
             </Row>
           </Container>
         </div>

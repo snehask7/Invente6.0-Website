@@ -468,7 +468,8 @@
         ]
       },
       "open_to": "All",
-      "prizes": [],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
+      "prizepool": "Rs. 2500",
       "eventid": "53"
     },
     {
@@ -1927,7 +1928,7 @@
           {
             "name": "Instructions",
             "duration": null,
-            "description": "<ul><li>It is not necessary that all participants must be from same institute.</li><li>All the team members should have proper internetconnection.</li><li>Abstracts should be submitted on or before October 5 , 8PM.</li><li>The teams with the best abstracts will be shortlisted for the presentation of their idea.</li><li>Participants are required to make their own arrangements and are allowed to refer any material (including internet sources).</li><li>Participants are supposed to present their idea after the selection of the first review (abstract selection).</li><li>The presentation of the idea will be judged based on Innovation, Impact, Feasibility and Marketability.</li><li>The second review will be conducted 4-5 days prior of the final presentation.</li><li>Participants are requested to register their team and send in their abstract before the deadline using the form (will be provided soon).</li><li>The final presentation should not exceed 15 mins.</li></ul>"
+            "description": "<ul><li>It is not necessary that all participants must be from same institute.</li><li>All the team members should have proper internetconnection.</li><li>Abstracts should be submitted on or before October 6th , 8PM.</li><li>The teams with the best abstracts will be shortlisted for the presentation of their idea.</li><li>Participants are required to make their own arrangements and are allowed to refer any material (including internet sources).</li><li>Participants are supposed to present their idea after the selection of the first review (abstract selection).</li><li>The presentation of the idea will be judged based on Innovation, Impact, Feasibility and Marketability.</li><li>The second review will be conducted 4-5 days prior of the final presentation.</li><li>Participants are requested to register their team and send in their abstract before the deadline using the form (will be provided soon).</li><li>The final presentation should not exceed 15 mins.</li></ul>"
           },
           {
             "name": "Evaluation Criteria",
