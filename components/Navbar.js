@@ -105,7 +105,7 @@ export default function NavbarComp() {
           <Link href="/schedule">
             <a className={styles.centerNavLink}>Schedule</a>
           </Link>
-          <Link href="/#sponsors">
+          <Link href="/sponsors">
             <a className={styles.centerNavLink}>Sponsors</a>
           </Link>
           {/* <Link href="/workshops">
@@ -201,7 +201,7 @@ export default function NavbarComp() {
               Schedule
             </a>
           </Link>
-          <Link href="/#sponsors">
+          <Link href="/sponsors">
             <a
               onClick={() => {
                 toggleNavbar();
