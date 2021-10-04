@@ -126,6 +126,25 @@
   text-transform: uppercase;
 }
 
+.sponsorHeading {
+  margin-left: 10vw;
+  text-align: center;
+  font-weight: 900 !important;
+  background: #08aeea;
+  background: -webkit-linear-gradient(
+    to right bottom,
+    #08aeea 5%,
+    #b721ff 100%
+  );
+  background: -moz-linear-gradient(to right bottom, #1fdcdf 5%, #2769dc 100%);
+  background: linear-gradient(to right bottom, #1fdcdf 5%, #2769dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3vw;
+  font-family: 'Voltaire', sans-serif;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 1000px) {
   .eventHeading {
     font-size: 7vw;
