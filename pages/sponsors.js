@@ -104,21 +104,6 @@ export default function Department({ data }) {
             </Col>
           </Row>
           <div className={styles.row}>
-            {/* <div className={styles.col}>
-                      {events[id].organisers.map((organiser, id) => {
-                        return (
-                          <div key={`organiser${id}`}>
-                            {id == 0 ? (
-                              <>
-                                <FaPhoneAlt></FaPhoneAlt>
-                                <br></br>
-                              </>
-                            ) : null}
-                            {organiser.name + ' : ' + organiser.phone}
-                          </div>
-                        );
-                      })}
-                    </div> */}
             <div className={styles.col}>
               {' '}
               <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
@@ -155,6 +140,72 @@ export default function Department({ data }) {
                 rel="noreferrer"
               >
                 facilio-inc
+              </a>
+              <br></br>
+            </div>
+          </div>
+        </>
+      );
+    else if (company == 2)
+      return (
+        <>
+          <Row style={{ textAlign: 'center' }}>
+            <Col>
+              <a
+                href="https://www.infysec.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/infy_logo.png"
+                  alt="Infysec"
+                  style={{ width: '28vh' }}
+                />{' '}
+              </a>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col style={{ textAlign: 'center' }}>
+              {/* eslint-disable-next-line */}
+              <img
+                src="/sponsors/infysec_info.jpeg"
+                alt="Infysec"
+                style={{
+                  marginLeft: 'auto',
+                  marginRight: 'auto',
+                  padding: '2em',
+                  width: '60%',
+                }}
+              />{' '}
+            </Col>
+          </Row>
+          <div className={styles.row}>
+            <div className={styles.col}>
+              {' '}
+              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
+              <a
+                target="_blank"
+                href="https://www.infysec.com/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                https://www.infysec.com/
+              </a>
+              <br></br>
+            </div>
+
+            <div className={styles.col}>
+              {' '}
+              <FaLinkedinIn style={{ fontSize: '1.5rem' }}></FaLinkedinIn>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/infysec/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                infysec
               </a>
               <br></br>
             </div>
@@ -211,6 +262,25 @@ export default function Department({ data }) {
                     <div className={styles.content}>
                       <div className={styles.content}>
                         <p>Facilio</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col>
+                  <div
+                    className={
+                      styles.eventCard +
+                      ' ' +
+                      (company == 2 ? styles.eventSelected : '')
+                    }
+                    onClick={() => {
+                      clickCompany(2);
+                    }}
+                  >
+                    <span></span>
+                    <div className={styles.content}>
+                      <div className={styles.content}>
+                        <p>Infysec</p>
                       </div>
                     </div>
                   </div>
