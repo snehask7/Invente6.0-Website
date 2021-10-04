@@ -151,7 +151,11 @@ export default function Department({ data }) {
         <>
           <Row style={{ textAlign: 'center' }}>
             <Col>
-              <a href="https://www.infysec.com/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.infysec.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {/* eslint-disable-next-line */}
                 <img
                   src="/sponsors/infy_logo.png"
@@ -172,11 +176,10 @@ export default function Department({ data }) {
                   marginLeft: 'auto',
                   marginRight: 'auto',
                   padding: '2em',
-                  width: '60%'
+                  width: '60%',
                 }}
               />{' '}
             </Col>
-
           </Row>
           <div className={styles.row}>
             <div className={styles.col}>
@@ -192,7 +195,6 @@ export default function Department({ data }) {
               </a>
               <br></br>
             </div>
-
 
             <div className={styles.col}>
               {' '}
