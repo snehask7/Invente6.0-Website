@@ -5,12 +5,17 @@ timer = setInterval(function () {
   const today = new Date().getTime();
   let diff;
   diff = invente - today;
-
-  let days = Math.floor(diff / (1000 * 60 * 60 * 24));
-  let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-  let seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
+  if (diff > 0) {
+    days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    seconds = Math.floor((diff % (1000 * 60)) / 1000);
+  } else {
+    days = '00';
+    hours = '00';
+    minutes = '00';
+    seconds = '00';
+  }
   if (document.getElementById('days_num'))
     document.getElementById('days_num').innerHTML = days;
   if (document.getElementById('hours_num'))
