@@ -1479,7 +1479,11 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.6000", "Runner-Up - Rs.4000"],
+      "prizes": [
+        "Winner - Rs.6000",
+        "Runner-Up - Rs.4000",
+        "Win Internships from Motorq"
+      ],
       "eventid": "00",
       "prizepool": "Rs. 10000"
     },
