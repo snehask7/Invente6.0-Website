@@ -20,7 +20,16 @@
   background-blend-mode: screen;
   background-size: cover;
 }
-
+.singleVideoSection {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 800px) {
+  .singleVideoSection {
+    width: 90%;
+  }
+}
 .mainContainer {
   padding: 4em;
 }

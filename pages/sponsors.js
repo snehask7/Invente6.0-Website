@@ -546,6 +546,56 @@ export default function Department({ data }) {
           </div>
         </>
       );
+    else if (company == 7)
+      return (
+        <>
+          <Row style={{ textAlign: 'center' }}>
+            <Col>
+              <a
+                href="https://www.isaca-chennai.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/ISACA.jpg"
+                  alt="saama"
+                  width="190"
+                  height="80"
+                  style={{ width: '26vh' }}
+                />{' '}
+              </a>
+            </Col>
+          </Row>
+          <br />
+          <Row className={styles.singleVideoSection}>
+            <iframe
+              width="460"
+              height="315"
+              src="https://www.youtube.com/embed/8Wa9jqzCGkk"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </Row>
+          <div className={styles.row}>
+            <div className={styles.col}>
+              {' '}
+              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
+              <a
+                target="_blank"
+                href="https://www.isaca-chennai.org/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                https://www.isaca-chennai.org/
+              </a>
+              <br></br>
+            </div>
+          </div>
+        </>
+      );
     else return <></>;
   };
   useEffect(() => {
@@ -672,6 +722,25 @@ export default function Department({ data }) {
                     <div className={styles.content}>
                       <div className={styles.content}>
                         <p>CMTI</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col>
+                  <div
+                    className={
+                      styles.eventCard +
+                      ' ' +
+                      (company == 7 ? styles.eventSelected : '')
+                    }
+                    onClick={() => {
+                      clickCompany(7);
+                    }}
+                  >
+                    <span></span>
+                    <div className={styles.content}>
+                      <div className={styles.content}>
+                        <p>ISACA - Chennai Chapter</p>
                       </div>
                     </div>
                   </div>
