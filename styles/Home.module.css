@@ -342,9 +342,7 @@
 }
 
 /* Sponsors*/
-.spons_section {
-  margin-top: 2rem;
-}
+
 #sponsors {
   scroll-margin-top: 400px;
 }
@@ -367,7 +365,13 @@
   padding-top: 2em;
   padding: 2em;
 }
-.sponsors img {
+.sponsors2 {
+  text-align: center;
+  padding-top: 1em;
+  padding: 0.5em;
+}
+.sponsors img,
+.sponsors2 img {
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;

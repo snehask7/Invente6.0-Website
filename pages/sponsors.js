@@ -41,6 +41,426 @@ export default function Department({ data }) {
           <h5 style={{ textAlign: 'center' }}>
             Click on a sponsor above to learn more about them
           </h5>
+          <div
+            id="sponsors"
+            className={styles3.spons_section}
+            style={{ width: '100%', marginLeft: 'auto', marginRight: 'auto' }}
+          >
+            <div className={styles3.sponsors2}>
+              <Row className={styles3.sponsorsSpaced}>
+                <Col>
+                  <a
+                    href="https://facilio.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/facilio.webp"
+                      alt="facilio"
+                      width="200"
+                      height="140"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://www.saama.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/saama.svg"
+                      alt="saama"
+                      width="250"
+                      height="80"
+                      style={{ marginTop: '4vw' }}
+                    />{' '}
+                  </a>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <a
+                    href="http://leankloud.com//"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/leankloud.png"
+                      alt="leankloud"
+                      width="220"
+                      height="60"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://business.stayflexi.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/sf.webp"
+                      alt="stayflexi"
+                      width="200"
+                      height="60"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://www.mrcoopergroup.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/cooper.png"
+                      alt="mr cooper"
+                      width="350"
+                      height="70"
+                    />{' '}
+                  </a>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <a
+                    href="http://cosmicin.com/ "
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/cosmic.webp"
+                      alt="cosmic"
+                      width="140"
+                      height="100"
+                      style={{ marginTop: '-1vh' }}
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://motorq.com/ "
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/motorq.png"
+                      alt="motorq"
+                      width="180"
+                      height="40"
+                      style={{ marginTop: '4vh' }}
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://www.emids.com/ "
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/emids.svg"
+                      alt="emids"
+                      width="200"
+                      height="60"
+                      style={{ marginTop: '3vh' }}
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://typesense.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/typesense.svg"
+                      alt="typesense"
+                      width="250"
+                      height="80"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://m.youtube.com/channel/UCaz-Sy2xHZWtFhu72GVAFrQ?sub_confirmation=1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/gr.png"
+                      alt="gautham raj"
+                      width="200"
+                      height="70"
+                    />{' '}
+                  </a>
+                </Col>
+
+                <Col>
+                  <a
+                    href="https://microcode-inc.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/microcode.jpeg"
+                      alt="Microcode"
+                      width="180"
+                      height="80"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="http://www.orono.in/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/orono.jpg"
+                      alt="orono"
+                      width="180"
+                      height="80"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://www.shankarabuildpro.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/shankara.jfif"
+                      alt="Shankara"
+                      width="180"
+                      height="80"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://cmti.co.in/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/cmti.png"
+                      alt="CMTI"
+                      width="150"
+                      height="80"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://www.deepwoodsgreen.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/deepwoods.webp"
+                      alt="deepwoods"
+                      width="150"
+                      height="80"
+                    />{' '}
+                  </a>
+                </Col>
+
+                <Col>
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/jeyam.png"
+                    alt="Jeyam"
+                    width="180"
+                    height="80"
+                  />{' '}
+                </Col>
+                <Col>
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/rajam.jpg"
+                    alt="Rajam"
+                    width="280"
+                    height="70"
+                  />{' '}
+                </Col>
+
+                <Col>
+                  <a
+                    href="http://www.roca.in/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/ROCA.jpg"
+                      alt="Roca"
+                      width="150"
+                      height="80"
+                    />{' '}
+                  </a>
+                </Col>
+
+                <Col>
+                  <a
+                    href="https://www.dalmiabharat.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/dalmia.png"
+                      alt="dalmia"
+                      width="130"
+                      height="70"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://www.linkedin.com/school/ssn-alumni-association/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/ssnaa.jfif"
+                      alt="SSNAA"
+                      width="100"
+                      height="100"
+                    />{' '}
+                  </a>
+                </Col>
+
+                <Col>
+                  <a
+                    href="https://felixpilottraining.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/FELIX.jpg"
+                      alt="Felix"
+                      width="150"
+                      height="70"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/srimurugan.jpg"
+                    alt="FSri Murugan"
+                    width="150"
+                    height="100"
+                  />{' '}
+                </Col>
+                <Col>
+                  <a
+                    href="https://www.emveetech.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/emvee.jpg"
+                      alt="emvee"
+                      width="200"
+                      height="70"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="http://thinaiorganics.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/sana.jpg"
+                      alt="Thinai"
+                      width="160"
+                      height="70"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/mj.png"
+                    alt="MJ"
+                    width="180"
+                    height="120"
+                  />{' '}
+                </Col>
+                <Col>
+                  <a
+                    href="https://www.geeksforgeeks.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/gfg.png"
+                      alt="gfg"
+                      width="100"
+                      height="70"
+                    />{' '}
+                  </a>
+                </Col>
+
+                <Col>
+                  <a
+                    href="https://www.yoode.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/ycode.JPG"
+                      alt="yoode"
+                      width="250"
+                      height="80"
+                    />{' '}
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://www.isaca-chennai.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* eslint-disable-next-line */}
+                    <img
+                      src="/sponsors/ISACA.jpg"
+                      alt="saama"
+                      width="190"
+                      height="80"
+                    />{' '}
+                  </a>
+                </Col>
+              </Row>
+            </div>
+          </div>
         </>
       );
     } else if (company == 1)
@@ -631,6 +1051,25 @@ export default function Department({ data }) {
             </h1>
             <Row className={styles.wrapper}>
               <Row style={{ textAlign: 'center' }}>
+                <Col>
+                  <div
+                    className={
+                      styles.eventCard +
+                      ' ' +
+                      (company == 0 ? styles.eventSelected : '')
+                    }
+                    onClick={() => {
+                      clickCompany(0);
+                    }}
+                  >
+                    <span></span>
+                    <div className={styles.content}>
+                      <div className={styles.content}>
+                        <p>All</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
                 <Col>
                   <div
                     className={
