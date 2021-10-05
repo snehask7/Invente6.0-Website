@@ -430,7 +430,7 @@ export default function Department({ data }) {
               <u>Sponsors</u>
             </h1>
             <Row className={styles.wrapper}>
-              <Row style={{ textAlign: 'center', maxWidth: '500px' }}>
+              <Row style={{ textAlign: 'center' }}>
                 <Col>
                   <div
                     className={
