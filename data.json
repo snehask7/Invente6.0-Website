@@ -1468,11 +1468,11 @@
         "round_description": [
           {
             "name": "Prelims",
-            "duration": "2-3 hours",
+            "duration": "1-3pm Oct 8th",
             "description": "<ul><li>Contains 5-7 problems to be solved in 2-3 Hours.</li><li>Top performing teams will be selected for the next round</li><li>Googling for solution, using a snippet is allowed</li><li>Inter-team plagiarism/ exchange of ideas/hints are not allowed.</li><li>This is a team contest (Max 2 per team)</li><li>In-case of discrepancies, the decision of the organizing committee is final.</li></ul><br/>The qualified teams will be intimated about their results, If a team is not available to confirm their participation, the next in line team will be notified."
           },
           {
-            "name": "Finals",
+            "name": "6-8pm Oct 8th",
             "duration": "2-3 hours",
             "description": "<ul><li>Contains 5-7 problems to be solved in 2-3 Hours.</li><li>Top 2 teams based on performance, will be awarded</li><li>Googling for solution, using a snippet is allowed</li><li>Inter-team plagiarism/ exchange of ideas/hints are not allowed.</li><li>This is a team contest (Max 2 per team), Same team as prelims is</li>expected<li>In-case of discrepancies, the decision of the organizing committee is final</li></ul><br/>The winners will be notified of their status.            "
           }
