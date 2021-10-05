@@ -997,6 +997,34 @@ export default function Home() {
                 </a>
               </Col>
             </Row>
+            <Row className={styles.sponsorsSpaced}>
+              <Col>
+                <a href="https://www.yoode.com/" target="_blank" rel="noreferrer">
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/ycode.JPG"
+                    alt="yoode"
+                    width="250"
+                    height="80"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.isaca-chennai.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/ISACA.jpg"
+                    alt="saama"
+                    width="190"
+                    height="80"
+                  />{' '}
+                </a>
+              </Col>
+            </Row>
           </Container>
         </div>
         <div className={styles.org_section}>
