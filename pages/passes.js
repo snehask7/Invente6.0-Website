@@ -61,6 +61,10 @@ function Plans() {
                     You may register for events before obtaining the pass.
                     Remember to obtain the pass before the event starts!
                   </h5>
+                  <h5 style={{ textAlign: 'center' }}>
+                    {' '}
+                    <u>NOTE</u>: <u>Hackinfinity requires a separate pass</u>
+                  </h5>
                 </span>
               </div>
               <div className={styles.buttons}>
@@ -262,30 +266,6 @@ function Plans() {
                           AI/ML Workshop
                           <br />
                           &nbsp;{' '}
-                        </span>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col className={styles.pricing_plan}>
-                    <div className={styles.plan_bg}>
-                      <Image
-                        width="400"
-                        height="600"
-                        src="/Plans/blue.svg"
-                        alt="plan background"
-                      />
-                    </div>
-                    <div className={styles.super_tier}>
-                      <div className={styles.plan_title}>Workshop</div>
-                      <div className={styles.plan_price}>
-                        <div className={styles.dollar}>Rs.</div>
-                        <div className={styles.price}>100</div>
-                      </div>
-                      <div className={styles.plan_description}>
-                        <span>
-                          Civil Workshop
-                          <br />
-                          &nbsp;
                         </span>
                       </div>
                     </div>
