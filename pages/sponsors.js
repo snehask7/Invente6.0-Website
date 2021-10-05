@@ -412,12 +412,13 @@ export default function Department({ data }) {
             </Col>
           </Row>
           <br />
+
           <Row>
             <Col style={{ textAlign: 'center' }}>
               {/* eslint-disable-next-line */}
               <img
                 className={styles.poster}
-                src="/sponsors/cosmic_info.jpg"
+                src="/sponsors/cosmic_info2.jpg"
                 alt="Cosmic info"
                 style={{
                   marginLeft: 'auto',
@@ -426,13 +427,29 @@ export default function Department({ data }) {
               />{' '}
             </Col>
           </Row>
-          <Row style={{ textAlign: 'center' }}>
+          <br />
+          <Row>
+            <Col style={{ textAlign: 'center' }}>
+              {/* eslint-disable-next-line */}
+              <img
+                className={styles.poster}
+                src="/sponsors/cosmic_info1.jpg"
+                alt="Cosmic info"
+                style={{
+                  marginLeft: 'auto',
+                  marginRight: 'auto',
+                }}
+              />{' '}
+            </Col>
+          </Row>
+
+          {/* <Row style={{ textAlign: 'center' }}>
             <a href="/cosmic.pdf" target="_blank">
               <button className={styles.registerButton}>
                 Download Brochure
               </button>
             </a>
-          </Row>
+          </Row> */}
           <br />
           <br />
           <div className={styles.row}>
