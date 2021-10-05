@@ -63,7 +63,11 @@ function Plans() {
                   </h5>
                   <h5 style={{ textAlign: 'center' }}>
                     {' '}
-                    <u>NOTE</u>: <u>Hackinfinity requires a separate pass</u>
+                    <u>NOTE</u>:{' '}
+                    <u>
+                      Hackinfinity,Biomedicathon,AI/ML workshop require a
+                      separate pass and are not included in the combo
+                    </u>
                   </h5>
                 </span>
               </div>
@@ -174,7 +178,7 @@ function Plans() {
                       </div>
                     </div>
                   </Col>
-                  <Col className={styles.pricing_plan}>
+                  {/* <Col className={styles.pricing_plan}>
                     <div className={styles.plan_bg}>
                       <Image
                         width="400"
@@ -197,7 +201,7 @@ function Plans() {
                         </span>
                       </div>
                     </div>
-                  </Col>
+                  </Col> */}
                   <Col className={styles.pricing_plan}>
                     <div className={styles.plan_bg}>
                       <Image

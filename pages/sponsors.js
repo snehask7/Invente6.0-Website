@@ -493,7 +493,7 @@ export default function Department({ data }) {
       </Head>
       <div className={styles.container}>
         <NavbarComp />
-        <main style={{ marginBottom: '10em' }}>
+        <main style={{ marginBottom: '15em' }}>
           <div
             className={
               !navbarToggle ? styles.mainContainer : styles.hideMainContainer
