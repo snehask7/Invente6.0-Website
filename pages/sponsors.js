@@ -104,21 +104,6 @@ export default function Department({ data }) {
             </Col>
           </Row>
           <div className={styles.row}>
-            {/* <div className={styles.col}>
-                      {events[id].organisers.map((organiser, id) => {
-                        return (
-                          <div key={`organiser${id}`}>
-                            {id == 0 ? (
-                              <>
-                                <FaPhoneAlt></FaPhoneAlt>
-                                <br></br>
-                              </>
-                            ) : null}
-                            {organiser.name + ' : ' + organiser.phone}
-                          </div>
-                        );
-                      })}
-                    </div> */}
             <div className={styles.col}>
               {' '}
               <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
