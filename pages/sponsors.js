@@ -161,6 +161,256 @@ export default function Department({ data }) {
           </div>
         </>
       );
+    else if (company == 2)
+      return (
+        <>
+          <Row style={{ textAlign: 'center' }}>
+            <Col>
+              <a
+                href="https://www.mrcooper.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/cooper.png"
+                  alt="Mr Cooper"
+                  className={styles.longLogo}
+                />{' '}
+              </a>
+            </Col>
+          </Row>
+
+          <Row>
+            <h3 style={{ textAlign: 'left' }}>About Us</h3>
+            <p style={{ textAlign: 'justify' }}>
+              We are Mr. Cooper Group, America’s largest non-bank mortgage
+              service provider, a leading mortgage lender, a comprehensive
+              real-estate services and technology company. And we’re here to
+              keep the dream of home ownership alive. <br />
+              <br />
+              We live and breathe this mission because we are never content with
+              the status quo. Mr. Cooper Group India was born in 2015 around the
+              idea that every customer should have a memorable home-buying
+              experience. To ensure the best customer experience possible, we
+              need to make every transaction simple and smooth, using
+              leading-edge technology and increasing efficiency across various
+              business operations. Today, we are creating real estate solutions
+              serving mortgage servicers, originators, real estate
+              professionals, financial institutions, and homebuyers and sellers.
+              While Mr. Cooper focuses on business operations in Originations,
+              Servicing, and Corporate groups including IT, Finance, Risk &amp;
+              Compliance, Legal and Internal Audit, Xome offers Asset
+              Management, Property Disposition, Title Services, Valuations, Data
+              &amp; Analytics, Portfolio Recapture Solutions, and Field Services
+              through an integrated technology driven platform. Over the last
+              five years, our intensely committed and culturally diverse team
+              have embraced the digital disruption to create a far-reaching
+              online experience for our consumers. <br />
+              <br />
+              We have offices in Chennai and Bengaluru, India and our
+              headquarters are in Dallas, Texas. We’re Great Place to
+              Work-Certified™ twice in a row both in India and the U.S., and one
+              of HousingWire’s Tech 100 Real Estate companies in 2020. At Mr.
+              Cooper Group, we live by our three core values. We are Challengers
+              of Convention, Champions for our Customers and Cheerleaders for
+              our Team. <br />
+              <br />
+              You can visit{' '}
+              <a
+                href="https://careers.mrcooper.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://careers.mrcooper.com/
+              </a>
+              for current job openings.
+            </p>
+          </Row>
+          <div className={styles.row}>
+            <div className={styles.col}>
+              {' '}
+              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
+              <a
+                target="_blank"
+                href="https://www.mrcooper.com/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                https://www.mrcooper.com/
+              </a>
+              <br></br>
+            </div>
+
+            <div className={styles.col}>
+              {' '}
+              <FaLinkedinIn style={{ fontSize: '1.5rem' }}></FaLinkedinIn>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/showcase/mr.-cooper---india/?viewAsMember=true"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                Mr Cooper
+              </a>
+              <br></br>
+            </div>
+            <div className={styles.col}>
+              {' '}
+              <FaLinkedinIn style={{ fontSize: '1.5rem' }}></FaLinkedinIn>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/showcase/xome-india/?viewAsMember=true"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                Xome
+              </a>
+              <br></br>
+            </div>
+          </div>
+        </>
+      );
+    else if (company == 3)
+      return (
+        <>
+          <Row style={{ textAlign: 'center' }}>
+            <Col>
+              <a
+                href="https://www.infysec.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/infy_logo.png"
+                  alt="Infysec"
+                  style={{ width: '28vh' }}
+                />{' '}
+              </a>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col style={{ textAlign: 'center' }}>
+              {/* eslint-disable-next-line */}
+              <img
+                className={styles.poster}
+                src="/sponsors/infysec_info.jpeg"
+                alt="Infysec"
+                style={{
+                  marginLeft: 'auto',
+                  marginRight: 'auto',
+                  padding: '2em',
+                }}
+              />{' '}
+            </Col>
+          </Row>
+          <div className={styles.row}>
+            <div className={styles.col}>
+              {' '}
+              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
+              <a
+                target="_blank"
+                href="https://www.infysec.com/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                https://www.infysec.com/
+              </a>
+              <br></br>
+            </div>
+
+            <div className={styles.col}>
+              {' '}
+              <FaLinkedinIn style={{ fontSize: '1.5rem' }}></FaLinkedinIn>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/infysec/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                infysec
+              </a>
+              <br></br>
+            </div>
+          </div>
+        </>
+      );
+    else if (company == 4)
+      return (
+        <>
+          <Row style={{ textAlign: 'center' }}>
+            <Col>
+              <a href="https://cmti.co.in/" target="_blank" rel="noreferrer">
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/cmti.png"
+                  alt="Infysec"
+                  style={{ width: '28vh' }}
+                />{' '}
+              </a>
+            </Col>
+          </Row>
+          <br />
+          <Row>
+            <Col sm="12" md="6" style={{ textAlign: 'center' }}>
+              {/* eslint-disable-next-line */}
+              <img
+                className={styles.poster}
+                src="/sponsors/cmti_info1.jpg"
+                alt="CMTI"
+                style={{
+                  marginLeft: 'auto',
+                  marginRight: 'auto',
+                  marginBottom: '1em',
+                }}
+              />{' '}
+            </Col>
+            <Col style={{ textAlign: 'center' }}>
+              {/* eslint-disable-next-line */}
+              <img
+                className={styles.poster}
+                src="/sponsors/cmti_info2.jpg"
+                alt="CMTI"
+                style={{
+                  marginLeft: 'auto',
+                  marginRight: 'auto',
+                }}
+              />{' '}
+            </Col>
+          </Row>
+          <div className={styles.row}>
+            <div className={styles.col}>
+              {' '}
+              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
+              <a
+                target="_blank"
+                href="https://cmti.co.in/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                https://cmti.co.in/
+              </a>
+              <br></br>
+            </div>
+
+            <div className={styles.col}>
+              {' '}
+              <FaLinkedinIn style={{ fontSize: '1.5rem' }}></FaLinkedinIn>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/cmtionline/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                cmtionline
+              </a>
+              <br></br>
+            </div>
+          </div>
+        </>
+      );
     else return <></>;
   };
   useEffect(() => {
@@ -211,6 +461,63 @@ export default function Department({ data }) {
                     <div className={styles.content}>
                       <div className={styles.content}>
                         <p>Facilio</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col>
+                  <div
+                    className={
+                      styles.eventCard +
+                      ' ' +
+                      (company == 2 ? styles.eventSelected : '')
+                    }
+                    onClick={() => {
+                      clickCompany(2);
+                    }}
+                  >
+                    <span></span>
+                    <div className={styles.content}>
+                      <div className={styles.content}>
+                        <p>Mr Cooper</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col>
+                  <div
+                    className={
+                      styles.eventCard +
+                      ' ' +
+                      (company == 3 ? styles.eventSelected : '')
+                    }
+                    onClick={() => {
+                      clickCompany(3);
+                    }}
+                  >
+                    <span></span>
+                    <div className={styles.content}>
+                      <div className={styles.content}>
+                        <p>Infysec</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col>
+                  <div
+                    className={
+                      styles.eventCard +
+                      ' ' +
+                      (company == 4 ? styles.eventSelected : '')
+                    }
+                    onClick={() => {
+                      clickCompany(4);
+                    }}
+                  >
+                    <span></span>
+                    <div className={styles.content}>
+                      <div className={styles.content}>
+                        <p>CMTI</p>
                       </div>
                     </div>
                   </div>

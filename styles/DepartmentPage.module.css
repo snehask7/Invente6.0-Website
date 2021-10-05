@@ -150,7 +150,22 @@
     font-size: 7vw;
   }
 }
-
+.poster {
+  width: 70%;
+}
+@media screen and (max-width: 908px) {
+  .poster {
+    width: 110%;
+  }
+}
+.longLogo {
+  width: 40%;
+}
+@media screen and (max-width: 908px) {
+  .longLogo {
+    width: 80%;
+  }
+}
 .techbadge {
   padding: 4px 20px;
   border-radius: 20px;
