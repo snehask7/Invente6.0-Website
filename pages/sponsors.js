@@ -84,7 +84,6 @@ export default function Department({ data }) {
                 style={{
                   marginLeft: 'auto',
                   marginRight: 'auto',
-                  padding: '2em',
                 }}
               />{' '}
             </Col>
@@ -469,6 +468,84 @@ export default function Department({ data }) {
           </div>
         </>
       );
+    else if (company == 6)
+      return (
+        <>
+          <Row style={{ textAlign: 'center' }}>
+            <Col>
+              <a
+                href="https://m.youtube.com/channel/UCaz-Sy2xHZWtFhu72GVAFrQ?sub_confirmation=1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/gr.png"
+                  alt="GowthamRaj"
+                  style={{ width: '28vh' }}
+                />{' '}
+              </a>
+            </Col>
+          </Row>
+          <br />
+          <Row>
+            <Col sm="12" md="5" style={{ textAlign: 'center' }}>
+              {/* eslint-disable-next-line */}
+              <img
+                src="/sponsors/gr_info.jpg"
+                alt="GowthamRaj"
+                style={{
+                  marginLeft: 'auto',
+                  marginRight: 'auto',
+                  padding: '2em',
+                }}
+              />{' '}
+            </Col>
+            <Col sm="12" md="7">
+              <div className={styles3.videoSection2}>
+                <iframe
+                  className={styles3.video2}
+                  width="500"
+                  height="345"
+                  src="https://www.youtube.com/embed/7Ea6hBzEa4o"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </Col>
+          </Row>
+          <div className={styles.row}>
+            <div className={styles.col}>
+              {' '}
+              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/UCaz-Sy2xHZWtFhu72GVAFrQ"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                Youtube Channel
+              </a>
+              <br></br>
+            </div>
+            <div className={styles.col}>
+              {' '}
+              <FaLinkedinIn style={{ fontSize: '1.5rem' }}></FaLinkedinIn>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/gowthamrajceg"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                gowthamrajceg{' '}
+              </a>
+              <br></br>
+            </div>
+          </div>
+        </>
+      );
     else return <></>;
   };
   useEffect(() => {
@@ -595,6 +672,25 @@ export default function Department({ data }) {
                     <div className={styles.content}>
                       <div className={styles.content}>
                         <p>CMTI</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col>
+                  <div
+                    className={
+                      styles.eventCard +
+                      ' ' +
+                      (company == 6 ? styles.eventSelected : '')
+                    }
+                    onClick={() => {
+                      clickCompany(6);
+                    }}
+                  >
+                    <span></span>
+                    <div className={styles.content}>
+                      <div className={styles.content}>
+                        <p>GowthamRaj</p>
                       </div>
                     </div>
                   </div>
