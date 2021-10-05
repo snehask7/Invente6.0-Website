@@ -396,6 +396,62 @@ export default function Department({ data }) {
           </div>
         </>
       );
+    else if (company == 5)
+      return (
+        <>
+          <Row style={{ textAlign: 'center' }}>
+            <Col>
+              <a href="http://cosmicin.com/" target="_blank" rel="noreferrer">
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/cosmic.webp"
+                  alt="Cosmic"
+                  style={{ width: '28vh' }}
+                />{' '}
+              </a>
+            </Col>
+          </Row>
+          <br />
+          <Row>
+            <Col style={{ textAlign: 'center' }}>
+              {/* eslint-disable-next-line */}
+              <img
+                className={styles.poster}
+                src="/sponsors/cosmic_info.jpg"
+                alt="Cosmic info"
+                style={{
+                  marginLeft: 'auto',
+                  marginRight: 'auto',
+                }}
+              />{' '}
+            </Col>
+          </Row>
+          <Row style={{ textAlign: 'center' }}>
+            <a href="/cosmic.pdf" target="_blank">
+              <button className={styles.registerButton}>
+                Download Brochure
+              </button>
+            </a>
+          </Row>
+          <br />
+          <br />
+          <div className={styles.row}>
+            <div className={styles.col}>
+              {' '}
+              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
+              <a
+                target="_blank"
+                href="http://cosmicin.com/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                http://cosmicin.com/
+              </a>
+              <br></br>
+            </div>
+          </div>
+        </>
+      );
     else return <></>;
   };
   useEffect(() => {
@@ -465,6 +521,25 @@ export default function Department({ data }) {
                     <div className={styles.content}>
                       <div className={styles.content}>
                         <p>Mr Cooper</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col>
+                  <div
+                    className={
+                      styles.eventCard +
+                      ' ' +
+                      (company == 5 ? styles.eventSelected : '')
+                    }
+                    onClick={() => {
+                      clickCompany(5);
+                    }}
+                  >
+                    <span></span>
+                    <div className={styles.content}>
+                      <div className={styles.content}>
+                        <p>Cosmic</p>
                       </div>
                     </div>
                   </div>

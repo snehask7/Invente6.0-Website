@@ -999,7 +999,11 @@ export default function Home() {
             </Row>
             <Row className={styles.sponsorsSpaced}>
               <Col>
-                <a href="https://www.yoode.com/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.yoode.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {/* eslint-disable-next-line */}
                   <img
                     src="/sponsors/ycode.JPG"
