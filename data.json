@@ -3,6 +3,7 @@
     {
       "name": "Hackinfinity",
       "category": "hackathon",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 6,
       "ssn": false,
@@ -11,33 +12,18 @@
         { "name": "Nimisha", "phone": 9840780834 }
       ],
       "description": {
-        "summary": "<i>“Because the people who are crazy enough to think they can change the world are the ones who do”<br/>~Steve Jobs</i><br/><br/>Have you ever been awestruck by the reach of technology? Does its revolutionary touch on this world dazzle you? Have you ever dreamed of being a tech-savvy pioneer? This is your time! Grab the baton! If you want to make the world a better place, the answer lies in creativity and innovation. Now’s your time to take these problems head on and arrive at remarkable solutions!<br/><br/>Join us in this 24 - hour hackathon and prototype a groundbreaking solution to problems in these topics. Creativity is the greatest rebellion in existence. Can you rebel and innovate a solution to the problems in these areas? Brave against the time crunch and grab this opportunity to win exciting prizes!!!<br/><br/> <b>Topics for Problem Statement</b><ul><li>Cyber Security</li><li>Medical and Healthcare</li><li>Women's Safety</li><li>Climate Change and Sustainability</li><li>Fintech</li><li>Agritech</li><li>Student Innovation (Open Idea)</li></ul><br/>The hackathon will follow a leader board system. The points awarded will be the cumulative points, gained by the team over the three reviews and final presentation. The top team will be announced as the winner of the hackathon.<br/><b>Decision taken by the review panel will be final.</b>",
+        "summary": "<i>“Because the people who are crazy enough to think they can change the world are the ones who do”<br/>~Steve Jobs</i><br/><br/>Have you ever been awestruck by the reach of technology? Does its revolutionary touch on this world dazzle you? Have you ever dreamed of being a tech-savvy pioneer? This is your time! Grab the baton! If you want to make the world a better place, the answer lies in creativity and innovation. Now’s your time to take these problems head on and arrive at remarkable solutions!<br/><br/>Join us in this 24 - hour hackathon and prototype a groundbreaking solution to problems in these topics. Creativity is the greatest rebellion in existence. Can you rebel and innovate a solution to the problems in these areas? Brave against the time crunch and grab this opportunity to win exciting prizes!!!<br/><br/> <b>Topics for Problem Statement</b><ul><li>Cyber Security</li><li>Medical and Healthcare</li><li>Women's Safety</li><li>Climate Change and Sustainability</li><li>Fintech</li><li>Agritech</li><li>Student Innovation (Open Idea)</li></ul><br/>The hackathon will have 3 reviews and 1 final presentation over the course of 24 hours. A leader board system will be followed. The points awarded will be the cumulative points, gained by the team over the three reviews and final presentation. The top team will be announced as the winner of the hackathon.<br/><b>*Decision taken by the review panel will be final.</b><br/><br/><b>Platform used: </b> Discord and Google Meet",
         "rounds": 5,
         "round_description": [
           {
             "name": "Schedule",
             "duration": null,
-            "description": "<h5>Day 1:</h5><ul><li>10.00 AM – Introduction</li><li>11.00 AM – Hackathon starts</li><li>03.00 PM – First Review</li></ul><br/><h5>Day 2:</h5><ul><li>10.00 PM – Second Review</li><li>08.00 AM – Third Review</li><li>11.00 AM – Hackathon ends</li><li>12.00 PM – Final Presentation</li><li>03.30 PM – Valedictory</li></ul>"
+            "description": "<h5>October 8th:</h5><ul><li>10.00 AM – Introduction</li><li>11.00 AM – Hackathon starts</li><li>03.00 PM – First Review</li><li>10.00 PM – Second Review</li></ul><br/><h5>October 9th:</h5><ul><li>08.00 AM – Third Review</li><li>11.00 AM – Hackathon ends</li><li>12.00 PM – Final Presentation</li><li>03.30 PM – Valedictory</li></ul>"
           },
           {
-            "name": "First Review:",
+            "name": "General Instructions",
             "duration": null,
-            "description": "<ol><li>Teams are expected to explain their problem statement and the workflow of their solution.</li><li>In this round, teams will be evaluated based on the novelty of their problem statement and the clarity in their approach.</li></ol>"
-          },
-          {
-            "name": "Second Review:",
-            "duration": null,
-            "description": "<ol><li>This review is a checkpoint to track the team’s progress.</li><li>The reviewers will give their input and their thoughts on the team’s solution and changes if there are any.</li></ol>"
-          },
-          {
-            "name": "Third Review:",
-            "duration": null,
-            "description": "<ol><li>Teams are expected to implement the changes given in the previous review by the reviewers.</li><li>In this round, the teams are reviewed based on their progress in accordance with their proposed workflow and closeness to completion of the project.</li></ol>"
-          },
-          {
-            "name": "Final Presentation:",
-            "duration": null,
-            "description": "<ol><li>In this round, teams will be evaluated based on presentation, ability to explain their idea and innovation in their solution.</li><li>Teams which address the marketability of their product will be awarded additional points</li></ol>"
+            "description": "<ol><li>All the team members should have a proper internet connection.</li><li>Participants are required to have their own components and software. </li><li>Teams will be allotted separate channels on discord, at least one member is expected to be on the channel at all times.</li><li>The team are expected to give updates on discord at periodic intervals and the reviews will take place on discord.</li><li>Participants will be informed of the order in which reviews will happen and must join their respective channels / meetings at the specified times. </li><li>Mentorship for technical skills will be given.</li><li>Participants are supposed to build their product during the Hackathon. </li><li>Product will be judged based on Innovation, Impact, Feasibility and Marketability. </li><li>Product can be a mix of hardware and software technologies, but can be purely software or hardware based as well. </li><li>Participants are allowed to use existing libraries or components, however only the work done during the 24hrs will be considered for evaluation. </li><li>Organizers will be available on discord for any other help/queries</li></ol><br/>The team and problem statement details will be collected via Google Forms after all the team members have registered and paid.<br/><br/><b>Perks: </b>GeeksforGeeks will offer coupons to their exclusive courses to the Winners and all participants."
           }
         ]
       },
@@ -53,6 +39,7 @@
     {
       "name": "Enigma",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -84,9 +71,10 @@
     {
       "name": "Data Utopia",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 2,
-      "ssn": false,
+      "ssn": true,
       "organisers": [
         { "name": "Shwetha S", "phone": 9790950184 },
         { "name": "Krishi V", "phone": 9941683848 }
@@ -115,6 +103,7 @@
     {
       "name": "Tinkering Thoughts",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -146,9 +135,10 @@
     {
       "name": "The Big Meg",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 3,
-      "ssn": false,
+      "ssn": true,
       "organisers": [
         { "name": "Aakash", "phone": 8056722144 },
         { "name": "Rangashri", "phone": 8825894683 }
@@ -177,6 +167,7 @@
     {
       "name": "Debug-a-circuit ",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -201,13 +192,14 @@
         ]
       },
       "open_to": ["ECE", "EEE", "(Or any Electronics related majors)"],
-      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
+      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
       "eventid": "25",
-      "prizepool": "Rs. 2500"
+      "prizepool": "Rs.4500"
     },
     {
       "name": "Junkyard Jumble",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 2,
       "max_team_size": 3,
       "ssn": false,
@@ -276,6 +268,7 @@
     {
       "name": "IPL Auction",
       "category": "non-tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "organisers": [
@@ -306,6 +299,7 @@
     {
       "name": "SketchX",
       "category": "non-tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 1,
       "organisers": [
@@ -343,6 +337,7 @@
     {
       "name": "Paper Presentation",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 2,
       "ssn": false,
@@ -366,6 +361,7 @@
     {
       "name": "Quiz Masters",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": true,
@@ -407,6 +403,7 @@
     {
       "name": "Telehealth Web Development",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 2,
       "ssn": true,
@@ -431,6 +428,7 @@
     {
       "name": "Design to Innovate",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -455,12 +453,14 @@
         ]
       },
       "open_to": "All",
-      "prizes": [],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
+      "prizepool": "Rs. 2500",
       "eventid": "53"
     },
     {
       "name": "Biomedicathon",
       "category": "hackathon",
+      "date": "Oct 8 & 9",
       "min_team_size": 3,
       "max_team_size": 3,
       "organisers": [
@@ -495,6 +495,7 @@
     {
       "name": "Medical Auction",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 3,
       "max_team_size": 4,
       "ssn": false,
@@ -525,6 +526,7 @@
     {
       "name": "Startup Smackdown",
       "category": "non-tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "organisers": [
@@ -561,6 +563,7 @@
     {
       "name": "Thambi Reel Inum Varala",
       "category": "non-tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 1,
       "organisers": [
@@ -594,6 +597,7 @@
     {
       "name": "Paper Presentation",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 4,
       "ssn": true,
@@ -633,6 +637,7 @@
     {
       "name": "Tech Quiz",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 2,
       "ssn": false,
@@ -670,6 +675,7 @@
     {
       "name": "E-Bugging",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -708,6 +714,7 @@
     {
       "name": "Electronic-Maze",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -741,6 +748,7 @@
     {
       "name": "Ideate",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 5,
       "ssn": true,
@@ -762,7 +770,7 @@
           {
             "name": "Phase 1: (Registration) ",
             "duration": null,
-            "description": "<ul><li>Team Registration and domain selection has to be done. </li><li>Submission of Abstract by September 30th,2021  </li><li>Send your abstracts to the Mail ID : inventeideate2021@gmail.com </li></ul><br/><br/><b>Format for Sending Your Abstract: </b><br/><ul><li>Team Name: </li><li>Team Leader(SPOC): </li><li>Team Member Details: Name, Mail ID, Contact Number </li><li>Domain Chosen: </li><li>Problem Statement: </li><li>Objective: </li><li>Abstract: </li><li>Application: </li></ul><br/>Share in the form of TeamName_Domain.pdf <br/>Shortlisted Ideas from Phase 1 will move further <br/>Shortlisted Teams will be shared the format for further rounds of evaluation. The date and time for the rounds will be communicated to the shortlisted teams.  "
+            "description": "<ul><li>Team Registration and domain selection has to be done. </li><li>Submission of Abstract by October 3rd,2021  </li><li>Send your abstracts to the Mail ID : inventeideate2021@gmail.com </li></ul><br/><br/><b>Format for Sending Your Abstract: </b><br/><ul><li>Team Name: </li><li>Team Leader(SPOC): </li><li>Team Member Details: Name, Mail ID, Contact Number </li><li>Domain Chosen: </li><li>Problem Statement: </li><li>Objective: </li><li>Abstract: </li><li>Application: </li></ul><br/>Share in the form of TeamName_Domain.pdf <br/>Shortlisted Ideas from Phase 1 will move further <br/>Shortlisted Teams will be shared the format for further rounds of evaluation. The date and time for the rounds will be communicated to the shortlisted teams.  "
           },
           {
             "name": "Phase 2: (Preliminary Evaluation) ",
@@ -789,6 +797,7 @@
     {
       "name": "Inventino",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -828,6 +837,7 @@
     {
       "name": "Tentkotta",
       "category": "non-tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 3,
       "organisers": [
@@ -858,6 +868,7 @@
     {
       "name": "IPL Bidding",
       "category": "non-tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 2,
       "organisers": [
@@ -892,6 +903,7 @@
     {
       "name": "ENIGMA:(CRYPT IT)",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -924,6 +936,7 @@
     {
       "name": "WEBSITICA",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 2,
       "ssn": true,
@@ -961,6 +974,7 @@
     {
       "name": "CODERA",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 2,
       "max_team_size": 2,
       "ssn": true,
@@ -998,6 +1012,7 @@
     {
       "name": "REVERSE GEAR",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -1035,6 +1050,7 @@
     {
       "name": "PAPYRUS",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -1072,6 +1088,7 @@
     {
       "name": "ANALYTICS SPRINT",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 2,
       "max_team_size": 2,
       "ssn": false,
@@ -1109,6 +1126,7 @@
     {
       "name": "SPORTS QUIZ",
       "category": "non-tech",
+      "date": "Oct 8",
       "min_team_size": 2,
       "max_team_size": 2,
       "organisers": [{ "name": "Mohamed", "phone": 8508446000 }],
@@ -1146,6 +1164,7 @@
     {
       "name": "E-TREASURE HUNT",
       "category": "non-tech",
+      "date": "Oct 9",
       "min_team_size": 2,
       "max_team_size": 2,
       "organisers": [{ "name": "Harish", "phone": 9965514387 }],
@@ -1180,6 +1199,7 @@
     {
       "name": "Paper Presentation",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -1216,6 +1236,7 @@
     {
       "name": "Who's on the Leaderboard",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -1247,6 +1268,7 @@
     {
       "name": "Be-safe-athon",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -1283,6 +1305,7 @@
     {
       "name": "Like-for-Like",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 2,
       "max_team_size": 2,
       "ssn": true,
@@ -1309,6 +1332,7 @@
     {
       "name": "The Commentator’s Conference",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -1341,6 +1365,7 @@
     {
       "name": "IPL-Invente's Pictionary League",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 2,
       "max_team_size": 2,
       "ssn": true,
@@ -1373,6 +1398,7 @@
     {
       "name": "The Last Man Standing",
       "category": "non-tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 1,
       "organisers": [
@@ -1399,6 +1425,7 @@
     {
       "name": "Ee Sala MEME Namadhe",
       "category": "non-tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "organisers": [
@@ -1426,6 +1453,7 @@
     {
       "name": "Codolympics",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 2,
       "ssn": true,
@@ -1440,23 +1468,28 @@
         "round_description": [
           {
             "name": "Prelims",
-            "duration": "2-3 hours",
+            "duration": "1-3pm Oct 8th",
             "description": "<ul><li>Contains 5-7 problems to be solved in 2-3 Hours.</li><li>Top performing teams will be selected for the next round</li><li>Googling for solution, using a snippet is allowed</li><li>Inter-team plagiarism/ exchange of ideas/hints are not allowed.</li><li>This is a team contest (Max 2 per team)</li><li>In-case of discrepancies, the decision of the organizing committee is final.</li></ul><br/>The qualified teams will be intimated about their results, If a team is not available to confirm their participation, the next in line team will be notified."
           },
           {
-            "name": "Finals",
+            "name": "6-8pm Oct 8th",
             "duration": "2-3 hours",
             "description": "<ul><li>Contains 5-7 problems to be solved in 2-3 Hours.</li><li>Top 2 teams based on performance, will be awarded</li><li>Googling for solution, using a snippet is allowed</li><li>Inter-team plagiarism/ exchange of ideas/hints are not allowed.</li><li>This is a team contest (Max 2 per team), Same team as prelims is</li>expected<li>In-case of discrepancies, the decision of the organizing committee is final</li></ul><br/>The winners will be notified of their status.            "
           }
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.6000", "Runner-Up - Rs.4000"],
+      "prizes": [
+        "Winner - Rs.6000",
+        "Runner-Up - Rs.4000",
+        "Win Internships from Motorq"
+      ],
       "eventid": "00",
       "prizepool": "Rs. 10000"
     },
     {
       "name": "Dev Heist",
+      "date": "Oct 9",
       "category": "tech",
       "min_team_size": 1,
       "max_team_size": 2,
@@ -1476,8 +1509,8 @@
           },
           {
             "name": "Finals",
-            "duration": "2-3 hours",
-            "description": "<ul><li>Participants will be given a theme for an app/website/prototype that they’ll have to design and implement. They can choose one common theme from 3 or 4 options that will be given to them at the start by majority vote.</li><li>Proctoring will be done (breakout rooms + screenshare)</li><li>Participants will have to submit the code on Github</li> </ul><br/><b>Judging Criteria</b><ul><li>Visual Hierarchy</li><li>Navigation</li><li>Design and Creativity</li><li>Responsiveness (very important!)</li><li>Intuitiveness </li><li>Load time and performance </li></ul>"
+            "duration": "2 hours",
+            "description": "<ul><li>Participants will be given a theme for an app/website that they’ll have to design and implement. They can choose one common theme from 3 or 4 options that will be given to them at the start by majority vote.</li><li>Proctoring will be done (breakout rooms + screenshare)</li><li>Participants will have to submit the code on Github</li> </ul><br/><b>Judging Criteria</b><ul><li>Visual Hierarchy</li><li>Navigation</li><li>Design and Creativity</li><li>Responsiveness (very important!)</li><li>Intuitiveness </li><li>Load time and performance </li></ul>"
           }
         ]
       },
@@ -1489,6 +1522,7 @@
     {
       "name": "Paper Presentation",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 2,
       "max_team_size": 4,
       "ssn": false,
@@ -1503,7 +1537,7 @@
           {
             "name": "Description",
             "duration": null,
-            "description": "Paper presentation – the OG event for any technical competition is an event where participants will be required to submit research papers.<br>These papers will then be put through an initial test to make sure there is no <b>plagiarism</b>, that the paper is formatted correctly and the references provided are legitimate ones.<br>ANY PAPER FOUND TO BE PLAGIARISED WILL BE IMMEDIATELY DISQUALIFIED.<br>After the preliminary scanning the selected papers will be announced after which the participants will be required to present their work to a panel of esteemed judges. Participants can use any form of media to present their paper like power points, live demonstrations or just the paper (all on zoom). "
+            "description": "Paper presentation – the OG event for any technical competition is an event where participants will be required to submit research papers.<br>These papers will then be put through an initial test to make sure there is no <b>plagiarism</b>, that the paper is formatted correctly and the references provided are legitimate ones.<br>ANY PAPER FOUND TO BE PLAGIARISED WILL BE IMMEDIATELY DISQUALIFIED.<br>After the preliminary scanning the selected papers will be announced after which the participants will be required to present their work to a panel of esteemed judges. Participants can use any form of media to present their paper like power points, live demonstrations or just the paper (all on zoom). <br/><br/> <b>Link for submission: https://docs.google.com/forms/d/e/1FAIpQLSfPNNFbgkWZIplGnqKCeUyIWavM6_jHCmGhDu-mjFhptiSWzg/viewform?usp=sf_link</b>"
           }
         ]
       },
@@ -1515,6 +1549,7 @@
     {
       "name": "Code Triathlon",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": true,
@@ -1552,6 +1587,7 @@
     {
       "name": "Hacker’s Asylum",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 2,
       "ssn": false,
@@ -1583,6 +1619,7 @@
     {
       "name": "MOCK JOB DRIVE",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -1627,6 +1664,7 @@
     {
       "name": "Relay in Reverse",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 3,
       "max_team_size": 3,
       "ssn": false,
@@ -1658,6 +1696,7 @@
     {
       "name": "Game Nite",
       "category": "non-tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "organisers": [
@@ -1692,6 +1731,7 @@
     {
       "name": "ARCHITECTURE AT ZERO",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -1723,6 +1763,7 @@
     {
       "name": "QUIZZARDS OF OZ",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -1760,6 +1801,7 @@
     {
       "name": "Paper Presentation",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": false,
@@ -1791,6 +1833,7 @@
     {
       "name": "CLASH OF MINDS",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 2,
       "max_team_size": 2,
       "ssn": true,
@@ -1817,6 +1860,7 @@
     {
       "name": "DEAL OR NO DEAL",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": true,
@@ -1853,6 +1897,7 @@
     {
       "name": "SOLUTION -AU PROBLEME",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 4,
       "ssn": false,
@@ -1861,18 +1906,18 @@
         { "name": "Narenthiran", "phone": 7548815835 }
       ],
       "description": {
-        "summary": "Usually there are three solutions to every problems :accept it , change it or leave it...If you can't accept it , change it and If you can't change it ,think more because there must be no chance of leaving it.....<br/><br/>So solution au probléme is a technical event which will give u some statements of technical  problems. You have to choose a statement and bring us right solution for it. Teams can refer any material and  have to submit your abstract before end time. The best abstracts will be shortlisted for presentation of their idea. Based on presentation of abstracts, teams will be selected for final presentation in which yourppt work , innovation and changes you done by review of reviewers. Finally the bestteams will be chosen as winners and review panel decision will be final",
+        "summary": "Usually there are three solutions to every problems :accept it , change it or leave it...If you can't accept it , change it and If you can't change it ,think more because there must be no chance of leaving it.....<br/><br/>So solution au probléme is a technical event which will give u some statements of technical  problems. You have to choose a statement and bring us right solution for it. Teams can refer any material and  have to submit your abstract before end time. The best abstracts will be shortlisted for presentation of their idea. Based on presentation of abstracts, teams will be selected for final presentation in which yourppt work , innovation and changes you done by review of reviewers. Finally the best teams will be chosen as winners and review panel decision will be final",
         "rounds": 3,
         "round_description": [
           {
             "name": "Problem Statement:",
             "duration": null,
-            "description": "5 problem statements will be given out of which the participant/team is required to choose any 1 statement and come up with a solution within the specified time limit. The abstract should be presented for the same."
+            "description": "3 problem statements will be given out of which the participant/team is required to choose any 1 statement and come up with a solution within the specified time limit. The abstract should be presented for the same.<br/><br/><a target=\"_blank\" href=\"/docs/Problem-Statement.pdf\"><button style=\"background-color:#0ff;border:none;padding:5px;border-radius:20px\">Download Problem Statement</button></a>"
           },
           {
             "name": "Instructions",
             "duration": null,
-            "description": "<ul><li>It is not necessary that all participants must be from same institute.</li><li>All the team members should have proper internetconnection.</li><li>Abstracts should be submitted on or before October 5 , 8PM.</li><li>The teams with the best abstracts will be shortlisted for the presentation of their idea.</li><li>Participants are required to make their own arrangements and are allowed to refer any material (including internet sources).</li><li>Participants are supposed to present their idea after the selection of the first review (abstract selection).</li><li>The presentation of the idea will be judged based on Innovation, Impact, Feasibility and Marketability.</li><li>The second review will be conducted 4-5 days prior of the final presentation.</li><li>Participants are requested to register their team and send in their abstract before the deadline using the form (will be provided soon).</li><li>The final presentation should not exceed 15 mins.</li></ul>"
+            "description": "<ul><li>It is not necessary that all participants must be from same institute.</li><li>All the team members should have proper internetconnection.</li><li>Abstracts should be submitted on or before October 6th , 8PM.</li><li>The teams with the best abstracts will be shortlisted for the presentation of their idea.</li><li>Participants are required to make their own arrangements and are allowed to refer any material (including internet sources).</li><li>Participants are supposed to present their idea after the selection of the first review (abstract selection).</li><li>The presentation of the idea will be judged based on Innovation, Impact, Feasibility and Marketability.</li><li>The second review will be conducted 4-5 days prior of the final presentation.</li><li>Participants are requested to register their team and send in their abstract before the deadline using the form (will be provided soon).</li><li>The final presentation should not exceed 15 mins.</li></ul>"
           },
           {
             "name": "Evaluation Criteria",
@@ -1889,6 +1934,7 @@
     {
       "name": "UNSCRIPTED",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -1920,6 +1966,7 @@
     {
       "name": "BOB THE PLUMBER",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 4,
       "ssn": false,
@@ -1956,6 +2003,7 @@
     {
       "name": "NETFLIX WARS",
       "category": "non-tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "organisers": [
@@ -1986,6 +2034,7 @@
     {
       "name": "ACE it (VALORANT)",
       "category": "non-tech",
+      "date": "Oct 8",
       "min_team_size": 5,
       "max_team_size": 5,
       "organisers": [
@@ -2013,6 +2062,7 @@
     {
       "name": "Paper Presentation",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 4,
       "ssn": false,
@@ -2050,6 +2100,7 @@
     {
       "name": "Project Exhibition",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 1,
       "max_team_size": 4,
       "ssn": true,
@@ -2076,6 +2127,7 @@
     {
       "name": "Need for Speed – Autoquiz",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 2,
       "ssn": false,
@@ -2112,6 +2164,7 @@
     {
       "name": "Mechathlon",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 1,
       "ssn": false,
@@ -2148,6 +2201,7 @@
     {
       "name": "2 fast 2 curious",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 2,
       "max_team_size": 2,
       "ssn": false,
@@ -2179,6 +2233,7 @@
     {
       "name": "Design and deal",
       "category": "tech",
+      "date": "Oct 8 & 9",
       "min_team_size": 1,
       "max_team_size": 3,
       "ssn": true,
@@ -2210,6 +2265,7 @@
     {
       "name": "QUARTER MILE",
       "category": "tech",
+      "date": "Oct 9",
       "min_team_size": 1,
       "max_team_size": 4,
       "ssn": false,
@@ -2246,6 +2302,7 @@
     {
       "name": "Car wars",
       "category": "tech",
+      "date": "Oct 8",
       "min_team_size": 2,
       "max_team_size": 2,
       "ssn": false,
@@ -2282,6 +2339,7 @@
     {
       "name": "ROUNDABOUT",
       "category": "non-tech",
+      "date": "Oct 9",
       "min_team_size": 2,
       "max_team_size": 2,
       "organisers": [
@@ -2317,6 +2375,7 @@
     {
       "name": "Clutch or Kick",
       "category": "non-tech",
+      "date": "Oct 9",
       "min_team_size": 5,
       "max_team_size": 5,
       "organisers": [

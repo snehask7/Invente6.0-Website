@@ -303,15 +303,15 @@ export default function Home() {
             <div className={styles3.light}></div>
             <div className={styles3.blink}>
               <span>
-                Hackathon starting on 1st October!
+                Hackinfinity starting on 8th October!
                 <br />
-                Prizes worth 30k and internships from 5 companies!
+                Prizes worth 25k!!
               </span>
               <br />
               <button
                 className={styles.registerButton}
                 onClick={() => {
-                  router.push('/hackathons');
+                  router.push('/department/ECE/0');
                 }}
               >
                 Register
@@ -665,6 +665,21 @@ export default function Home() {
             <Row>
               <Col>
                 <a
+                  href="http://leankloud.com//"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/leankloud.png"
+                    alt="leankloud"
+                    width="220"
+                    height="60"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
                   href="https://business.stayflexi.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -673,11 +688,28 @@ export default function Home() {
                   <img
                     src="/sponsors/sf.webp"
                     alt="stayflexi"
-                    width="230"
-                    height="100"
+                    width="200"
+                    height="60"
                   />{' '}
                 </a>
               </Col>
+              <Col>
+                <a
+                  href="https://www.mrcoopergroup.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/cooper.png"
+                    alt="mr cooper"
+                    width="350"
+                    height="70"
+                  />{' '}
+                </a>
+              </Col>
+            </Row>
+            <Row>
               <Col>
                 <a
                   href="http://cosmicin.com/ "
@@ -688,8 +720,37 @@ export default function Home() {
                   <img
                     src="/sponsors/cosmic.webp"
                     alt="cosmic"
+                    width="140"
+                    height="100"
+                    style={{ marginTop: '-1vh' }}
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a href="https://motorq.com/ " target="_blank" rel="noreferrer">
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/motorq.png"
+                    alt="motorq"
+                    width="180"
+                    height="40"
+                    style={{ marginTop: '4vh' }}
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.emids.com/ "
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/emids.svg"
+                    alt="emids"
                     width="200"
-                    height="150"
+                    height="60"
+                    style={{ marginTop: '3vh' }}
                   />{' '}
                 </a>
               </Col>
@@ -703,8 +764,8 @@ export default function Home() {
                   <img
                     src="/sponsors/typesense.svg"
                     alt="typesense"
-                    width="300"
-                    height="100"
+                    width="250"
+                    height="80"
                   />{' '}
                 </a>
               </Col>
@@ -718,8 +779,8 @@ export default function Home() {
                   <img
                     src="/sponsors/gr.png"
                     alt="gautham raj"
-                    width="300"
-                    height="100"
+                    width="200"
+                    height="70"
                   />{' '}
                 </a>
               </Col>
@@ -735,8 +796,8 @@ export default function Home() {
                   <img
                     src="/sponsors/microcode.jpeg"
                     alt="Microcode"
-                    width="230"
-                    height="100"
+                    width="180"
+                    height="80"
                   />{' '}
                 </a>
               </Col>
@@ -746,8 +807,8 @@ export default function Home() {
                   <img
                     src="/sponsors/orono.jpg"
                     alt="orono"
-                    width="230"
-                    height="100"
+                    width="180"
+                    height="80"
                   />{' '}
                 </a>
               </Col>
@@ -761,8 +822,209 @@ export default function Home() {
                   <img
                     src="/sponsors/shankara.jfif"
                     alt="Shankara"
-                    width="230"
+                    width="180"
+                    height="80"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a href="https://cmti.co.in/" target="_blank" rel="noreferrer">
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/cmti.png"
+                    alt="CMTI"
+                    width="150"
+                    height="80"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.deepwoodsgreen.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/deepwoods.webp"
+                    alt="deepwoods"
+                    width="150"
+                    height="80"
+                  />{' '}
+                </a>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/jeyam.png"
+                  alt="Jeyam"
+                  width="180"
+                  height="80"
+                />{' '}
+              </Col>
+              <Col>
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/rajam.jpg"
+                  alt="Rajam"
+                  width="280"
+                  height="70"
+                />{' '}
+              </Col>
+
+              <Col>
+                <a href="http://www.roca.in/" target="_blank" rel="noreferrer">
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/ROCA.jpg"
+                    alt="Roca"
+                    width="150"
+                    height="80"
+                  />{' '}
+                </a>
+              </Col>
+
+              <Col>
+                <a
+                  href="https://www.dalmiabharat.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/dalmia.png"
+                    alt="dalmia"
+                    width="130"
+                    height="70"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.linkedin.com/school/ssn-alumni-association/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/ssnaa.jfif"
+                    alt="SSNAA"
+                    width="100"
                     height="100"
+                  />{' '}
+                </a>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <a
+                  href="https://felixpilottraining.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/FELIX.jpg"
+                    alt="Felix"
+                    width="150"
+                    height="70"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/srimurugan.jpg"
+                  alt="FSri Murugan"
+                  width="150"
+                  height="100"
+                />{' '}
+              </Col>
+              <Col>
+                <a
+                  href="https://www.emveetech.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/emvee.jpg"
+                    alt="emvee"
+                    width="200"
+                    height="70"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="http://thinaiorganics.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/sana.jpg"
+                    alt="Thinai"
+                    width="160"
+                    height="70"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/mj.png"
+                  alt="MJ"
+                  width="180"
+                  height="120"
+                />{' '}
+              </Col>
+              <Col>
+                <a
+                  href="https://www.geeksforgeeks.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/gfg.png"
+                    alt="gfg"
+                    width="100"
+                    height="70"
+                  />{' '}
+                </a>
+              </Col>
+            </Row>
+            <Row className={styles.sponsorsSpaced}>
+              <Col>
+                <a
+                  href="https://www.yoode.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/ycode.JPG"
+                    alt="yoode"
+                    width="250"
+                    height="80"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.isaca-chennai.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/ISACA.jpg"
+                    alt="saama"
+                    width="190"
+                    height="80"
                   />{' '}
                 </a>
               </Col>
@@ -1129,6 +1391,23 @@ export default function Home() {
               </Col>
             </Row>
           </Container>
+        </div>
+        <div className={styles.videoSection} style={{ marginTop: '8rem' }}>
+          <div className={styles.sub_title}>
+            <h2>WALKTHROUGH</h2>
+            <h2>WALKTHROUGH</h2>
+          </div>
+          <br />
+          <iframe
+            width="560"
+            height="315"
+            className={styles.video}
+            src="https://www.youtube.com/embed/4HN2JoihCfQ"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
         </div>
       </main>
       <Footer />

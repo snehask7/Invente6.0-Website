@@ -18,13 +18,12 @@ $shadow: 0px 0px 30px, 0 0 5px, 0 0 1em rgba(171, 44, 196, 0.5),
 
 .blink {
   position: relative;
-  margin: 20px auto;
   color: $text;
   font-family: 'Voltaire', sans-serif;
   font-size: 3vh;
   text-shadow: $shadow;
   animation: blink 1.5s ease infinite;
-  padding: 30px;
+  padding: 5px;
 }
 @media screen and (max-width: 769px) {
   .blink {

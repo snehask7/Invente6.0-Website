@@ -19,6 +19,7 @@ import NavbarComp from '../components/Navbar';
 import eventsInfo from '../eventsInfo.json';
 import { useAuth } from '../lib/hooks';
 import { useNav } from '../lib/navbarstate';
+import styles2 from '../styles/Home.module.css';
 import styles from '../styles/Profile.module.css';
 
 function Profile() {
@@ -271,8 +272,26 @@ function Profile() {
                           ) : null;
                         })
                       ) : (
-                        <b>No pass obtained yet</b>
+                        <button
+                          className={styles2.registerButton}
+                          onClick={() => {
+                            router.push('/passes');
+                          }}
+                          style={{ marginLeft: '2em' }}
+                        >
+                          Get Pass
+                        </button>
                       )}
+                      {pass ? (
+                        <button
+                          className={styles2.registerButton}
+                          onClick={() => {
+                            router.push('/passes');
+                          }}
+                        >
+                          Get More Passes
+                        </button>
+                      ) : null}
                     </span>
                     <br></br>
                   </div>

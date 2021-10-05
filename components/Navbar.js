@@ -102,7 +102,10 @@ export default function NavbarComp() {
           <Link href="/hackathons">
             <a className={styles.centerNavLink}>Hackathons</a>
           </Link>
-          <Link href="/#sponsors">
+          <Link href="/schedule">
+            <a className={styles.centerNavLink}>Schedule</a>
+          </Link>
+          <Link href="/sponsors">
             <a className={styles.centerNavLink}>Sponsors</a>
           </Link>
           {/* <Link href="/workshops">
@@ -187,7 +190,18 @@ export default function NavbarComp() {
               Hackathons
             </a>
           </Link>
-          <Link href="/#sponsors">
+          <Link href="/schedule">
+            <a
+              onClick={() => {
+                toggleNavbar();
+                setIsOpen(!isOpen);
+              }}
+              className={styles.sideBarNavLink}
+            >
+              Schedule
+            </a>
+          </Link>
+          <Link href="/sponsors">
             <a
               onClick={() => {
                 toggleNavbar();

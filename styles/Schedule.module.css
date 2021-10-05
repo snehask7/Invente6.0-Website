@@ -85,9 +85,11 @@
   white-space: pre;
   max-width: 3vw;
   word-wrap: break-word;
- font-size: 12px !important;
+  font-size: 12px !important;
 }
-
+.dept {
+  font-size: 14px !important;
+}
 .event {
   text-align: center;
   padding: 0;
@@ -96,33 +98,34 @@
   color: #fff;
   border-left: 2px solid #19e9f023;
   max-width: 50px;
+  border-radius: 10px;
   /* max-height: 10vw;
   /* overflow: hidden; */
   /* overflow-wrap: break-word; */
 }
 
 .purple {
-  background-color: #845ec2 !important;
+  background-color: #7122fa !important;
 }
 
 .pink {
-  background-color: #F08FC0 !important;
+  background-color: #ff2281 !important;
 }
 
-.blue{
-  background-color: #39A2DB !important;
+.blue {
+  background-color: #00a9fe !important;
 }
 
-.teal{
-  background-color: #0abeb2 !important;
+.teal {
+  background-color: #560a86 !important;
 }
 
-.tan{
-  background-color: #ddbc92 !important;
+.tan {
+  background-color: #13ca91 !important;
 }
 
-.red{
-  background-color: #E98580 !important;
+.red {
+  background-color: #faa214 !important;
 }
 .eventM {
   text-align: center;
@@ -133,6 +136,7 @@
   border-left: 2px solid #19e9f023;
   word-wrap: break-word;
   max-width: 2vw;
+  border-radius: 10px;
 }
 
 .time {
@@ -189,7 +193,7 @@
 
 .day {
   color: #fff;
-  font-size: 2vh;
+  font-size: 3vh;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
@@ -220,7 +224,7 @@
 
 .daySel {
   color: #19e9f0;
-  font-size: 2vh;
+  font-size: 3vh;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
@@ -244,16 +248,16 @@
 
 @media screen and (max-width: 600px) {
   .card,
-.selectedCard {
-  width: 4em;
-  height: 3em;
-}
-.card_title {
-  font-size: 2vw;
-}
-.timeM {
- font-size: 10px !important;
-}
+  .selectedCard {
+    width: 4em;
+    height: 3em;
+  }
+  .card_title {
+    font-size: 2vw;
+  }
+  .timeM {
+    font-size: 10px !important;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -299,7 +303,7 @@
   }
 }
 
-.link :hover{
+.link :hover {
   color: #fff !important;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #03e9f4, 0 0 42px #03e9f4,
     0 0 82px #03e9f4, 0 0 92px #03e9f4;
