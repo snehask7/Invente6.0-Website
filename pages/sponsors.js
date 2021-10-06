@@ -738,6 +738,19 @@ export default function Department({ data }) {
               </a>
               <br></br>
             </div>
+            <div className={styles.col}>
+              {' '}
+              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
+              <a
+                target="_blank"
+                href="https://crm.infysec.com/admin/recruitment/recruitment_campaign#2"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                Login
+              </a>
+              <br></br>
+            </div>
           </div>
         </>
       );
@@ -750,7 +763,7 @@ export default function Department({ data }) {
                 {/* eslint-disable-next-line */}
                 <img
                   src="/sponsors/cmti.png"
-                  alt="Infysec"
+                  alt="cmti1"
                   style={{ width: '28vh' }}
                 />{' '}
               </a>
@@ -798,21 +811,6 @@ export default function Department({ data }) {
               </a>
               <br></br>
             </div>
-
-            <div className={styles.col}>
-              {' '}
-              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
-              <a
-                target="_blank"
-                href="https://crm.infysec.com/admin/recruitment/recruitment_campaign#2"
-                style={{ fontSize: '1rem', marginLeft: '1rem' }}
-                rel="noreferrer"
-              >
-                Login
-              </a>
-              <br></br>
-            </div>
-
             <div className={styles.col}>
               {' '}
               <FaLinkedinIn style={{ fontSize: '1.5rem' }}></FaLinkedinIn>
