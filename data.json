@@ -160,9 +160,9 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "24",
-      "prizepool": "Rs. 4500"
+      "prizepool": "Rs. 2500"
     },
     {
       "name": "Debug-a-circuit ",
@@ -617,7 +617,7 @@
           },
           {
             "name": "Round 1",
-            "description": "<b>The papers submitted will be reviewed by a panel of judges</b><br><ul><li>The research paper should be submitted within the stipulated date to invente.eee.paperpresentation@gmail.com</li><li>Mention the title of the paper, author’s names in the mail.</li><li>The last date for paper submission is <b>26/09/2021</b></li><li>The research papers should follow the above rules mentioned</li><li>The paper will be under review by a panel of judges</li><li>The panel will take into account the plagiarism Report of the Research papers for the selection process</li><li>The selected participants will be notified through mail</li></ul>"
+            "description": "<b>The papers submitted will be reviewed by a panel of judges</b><br><ul><li>The research paper should be submitted within the stipulated date to invente.eee.paperpresentation@gmail.com</li><li>Mention the title of the paper, author’s names in the mail.</li><li>The last date for paper submission is <b>07/10/2021</b></li><li>The research papers should follow the above rules mentioned</li><li>The paper will be under review by a panel of judges</li><li>The panel will take into account the plagiarism Report of the Research papers for the selection process</li><li>The selected participants will be notified through mail</li></ul>"
           },
           {
             "name": "Round 2",
