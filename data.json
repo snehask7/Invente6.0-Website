@@ -160,9 +160,9 @@
         ]
       },
       "open_to": "All",
-      "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
+      "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "24",
-      "prizepool": "Rs. 4500"
+      "prizepool": "Rs. 2500"
     },
     {
       "name": "Debug-a-circuit ",
