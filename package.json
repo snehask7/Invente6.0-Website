@@ -12,6 +12,7 @@
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
+    "@phuocng/react-pdf-viewer": "^1.7.0",
     "@zeit/next-sass": "^1.0.1",
     "aos": "^2.3.4",
     "axios": "^0.21.1",
@@ -27,6 +28,7 @@
     "react-dom": "17.0.2",
     "react-hot-toast": "^2.1.1",
     "react-icons": "^4.2.0",
+    "react-pdf": "^5.4.0",
     "react-responsive-modal": "^6.1.0",
     "react-svg-drawing": "^1.0.1",
     "react-typist": "^2.0.5"

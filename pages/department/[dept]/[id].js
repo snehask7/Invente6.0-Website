@@ -223,6 +223,25 @@ export default function Department({ data }) {
               </Col>
               <Col lg={12} xl={12} md={12} sm={12}>
                 <div className={styles.eventDetails}>
+                  {department === 'CSE' && id == 0 ? (
+                    <Row className={styles.motorqLogo}>
+                      <Col>
+                        <a
+                          href="https://motorq.com/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {/* eslint-disable-next-line */}
+                            <img
+                            src="/sponsors/motorq.png"
+                            alt="stayflexi"
+                            style={{ width: '18vh' }}
+                          />{' '}
+                        </a>
+                      </Col>
+                    </Row>
+                  ) : null}
+
                   <div className={styles.eventHeader}>
                     <p className={styles.headerWrapper}>
                       <span className={styles.eventHeading}>

@@ -47,6 +47,13 @@
   font-weight: 700;
   margin-top: 2em;
 }
+.pageHeading2 {
+  text-align: center;
+  color: white;
+  font-family: 'Voltaire', sans-serif;
+  font-weight: 700;
+  margin-top: 0.5em;
+}
 
 .hide {
   display: none;
@@ -501,79 +508,171 @@ section.price_section .free_tier + .plan_action a:after {
   text-align: center;
 }
 
-
 .noselect {
   -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-		-webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .noselect {
-	width: 250px;
-	height: 50px;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	border: none;
-	border-radius: 10px;
-	box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
-	background-color: #50E3C2;
-    background-image: 
-        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
-        radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55%);
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  background-color: #50e3c2;
+  background-image: radial-gradient(
+      at 47% 33%,
+      hsl(162, 77%, 40%) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, hsl(198, 100%, 50%) 0, transparent 55%);
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 10px;
 }
 
-.noselect, .noselect span {
-	transition: 200ms;
+.noselect,
+.noselect span {
+  transition: 200ms;
 }
 
 .noselect .text {
-	transform: translateX(40px);
-	color: white;
-	font-weight: bold;
+  transform: translateX(40px);
+  color: white;
+  font-weight: bold;
 }
 
 .noselect .paytext {
-	transform: translateX(70px);
-	color: white;
-	font-weight: bold;
+  transform: translateX(70px);
+  color: white;
+  font-weight: bold;
 }
-
 
 .noselect .icon {
-	position: absolute;
-	border-left: 1px solid #ffffff;
+  position: absolute;
+  border-left: 1px solid #ffffff;
   transform: translateX(207px);
-	height: 40px;
-	width: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 .noselect .payIcon {
-	width: 20px;
-	fill: #eee;
+  width: 20px;
+  fill: #eee;
 }
 
-.noselect:hover .text, .noselect:hover .paytext {
-	color: transparent;
+.noselect:hover .text,
+.noselect:hover .paytext {
+  color: transparent;
 }
 
 .noselect:hover .icon {
-	width: 250px;
-	border-left: none;
-	transform: translateX(0);
+  width: 250px;
+  border-left: none;
+  transform: translateX(0);
 }
 
 .noselect:focus {
-	outline: none;
+  outline: none;
+}
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.launchButton {
+  min-width: 300px;
+  min-height: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4fd1c5;
+  background: linear-gradient(
+    90deg,
+    rgba(129, 230, 217, 1) 0%,
+    rgba(79, 209, 197, 1) 100%
+  );
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+}
+
+.launchButton::before {
+  content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #00ffcb;
+  box-shadow: 0 0 60px rgba(0, 255, 203, 0.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.launchButton:hover,
+.launchButton:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+.launchButton:hover::before,
+.launchButton:focus::before {
+  opacity: 1;
+}
+
+.launchButton::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00ffcb;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+.launchButton:hover::after,
+.launchButton:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
 }

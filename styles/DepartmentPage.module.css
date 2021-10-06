@@ -34,6 +34,14 @@
   padding: 4em;
 }
 
+.motorqLogo {
+  text-align: left;
+}
+@media screen and (max-width: 800px) {
+  .mainContainer {
+    padding: 1em;
+  }
+}
 @media screen and (max-width: 800px) {
   .mainContainer {
     padding: 1em;
@@ -417,7 +425,7 @@
   justify-self: flex-end;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1000px) {
   .eventHeading {
     margin-left: 0;
   }
@@ -425,7 +433,9 @@
   .prizesvg {
     display: none;
   }
-
+  .motorqLogo {
+    text-align: center;
+  }
   .gooey_button {
     display: none;
   }
