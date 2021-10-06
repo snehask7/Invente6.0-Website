@@ -801,6 +801,20 @@ export default function Department({ data }) {
 
             <div className={styles.col}>
               {' '}
+              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
+              <a
+                target="_blank"
+                href="https://crm.infysec.com/admin/recruitment/recruitment_campaign#2"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                Login
+              </a>
+              <br></br>
+            </div>
+
+            <div className={styles.col}>
+              {' '}
               <FaLinkedinIn style={{ fontSize: '1.5rem' }}></FaLinkedinIn>
               <a
                 target="_blank"
@@ -1124,52 +1138,6 @@ export default function Department({ data }) {
           </div>
         </>
       );
-    else if (company == 9)
-      return (
-        <>
-          <Row style={{ textAlign: 'center' }}>
-            <Col>
-              <a href="https://www.yoode.com/" target="_blank" rel="noreferrer">
-                {/* eslint-disable-next-line */}
-                <img
-                  src="/sponsors/ycode.JPG"
-                  alt="yoode"
-                  width="190"
-                  height="80"
-                  style={{ width: '26vh' }}
-                />{' '}
-              </a>
-            </Col>
-          </Row>
-          <br />
-          <Row className={styles.singleVideoSection}>
-            <iframe
-              width="460"
-              height="315"
-              src="https://www.youtube.com/embed/qRHtoYmN7CI"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </Row>
-          <div className={styles.row}>
-            <div className={styles.col}>
-              {' '}
-              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
-              <a
-                target="_blank"
-                href="https://www.yoode.com/"
-                style={{ fontSize: '1rem', marginLeft: '1rem' }}
-                rel="noreferrer"
-              >
-                https://www.yoode.com/
-              </a>
-              <br></br>
-            </div>
-          </div>
-        </>
-      );
     else if (company == 10)
       return (
         <>
@@ -1220,6 +1188,42 @@ export default function Department({ data }) {
               <br></br>
             </div>
           </div>
+        </>
+      );
+    else if (company == 11)
+      return (
+        <>
+          <Row style={{ textAlign: 'center' }}>
+            {/*eslint-disable-next-line @next/next/no-img-element*/}
+            <img
+              className={styles.poster}
+              src="/sponsors/builder.jpg"
+              alt="builder"
+              style={{
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                marginBottom: '1em',
+              }}
+            />{' '}
+          </Row>
+        </>
+      );
+    else if (company == 12)
+      return (
+        <>
+          <Row style={{ textAlign: 'center' }}>
+            {/*eslint-disable-next-line @next/next/no-img-element*/}
+            <img
+              className={styles.poster}
+              src="/sponsors/kavithai.jpg"
+              alt="kavithai"
+              style={{
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                marginBottom: '1em',
+              }}
+            />{' '}
+          </Row>
         </>
       );
     else return <></>;
@@ -1376,16 +1380,16 @@ export default function Department({ data }) {
                     className={
                       styles.eventCard +
                       ' ' +
-                      (company == 7 ? styles.eventSelected : '')
+                      (company == 10 ? styles.eventSelected : '')
                     }
                     onClick={() => {
-                      clickCompany(7);
+                      clickCompany(10);
                     }}
                   >
                     <span></span>
                     <div className={styles.content}>
                       <div className={styles.content}>
-                        <p>ISACA - Chennai Chapter</p>
+                        <p>Typesense</p>
                       </div>
                     </div>
                   </div>
@@ -1452,16 +1456,54 @@ export default function Department({ data }) {
                     className={
                       styles.eventCard +
                       ' ' +
-                      (company == 10 ? styles.eventSelected : '')
+                      (company == 7 ? styles.eventSelected : '')
                     }
                     onClick={() => {
-                      clickCompany(10);
+                      clickCompany(7);
                     }}
                   >
                     <span></span>
                     <div className={styles.content}>
                       <div className={styles.content}>
-                        <p>Typesense</p>
+                        <p>ISACA - Chennai Chapter</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col>
+                  <div
+                    className={
+                      styles.eventCard +
+                      ' ' +
+                      (company == 11 ? styles.eventSelected : '')
+                    }
+                    onClick={() => {
+                      clickCompany(11);
+                    }}
+                  >
+                    <span></span>
+                    <div className={styles.content}>
+                      <div className={styles.content}>
+                        <p>Chandrasekhar Builders Pvt Ltd</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col>
+                  <div
+                    className={
+                      styles.eventCard +
+                      ' ' +
+                      (company == 12 ? styles.eventSelected : '')
+                    }
+                    onClick={() => {
+                      clickCompany(12);
+                    }}
+                  >
+                    <span></span>
+                    <div className={styles.content}>
+                      <div className={styles.content}>
+                        <p>Kavidhai Uravu</p>
                       </div>
                     </div>
                   </div>
