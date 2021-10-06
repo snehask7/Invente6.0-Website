@@ -627,6 +627,46 @@ export default function Home() {
             </Row>
           </Container>
         </div>
+        <div
+          id="chief guest"
+          className={styles.spons_section}
+          style={{ textAlign: 'center', color: 'white' }}
+        >
+          <div className={styles.sub_title}>
+            <h2>Chief Guest</h2>
+            <h2>Chief Guest</h2>
+          </div>
+          {/* eslint-disable-next-line */}
+          <img style={{ marginTop: '3em' }} src="/cg.jpg"></img>
+          <Container style={{ textAlign: 'left', padding: '1em' }}>
+            <h1>S Sunil Kumar</h1>
+            <h5>President, Henkel - India</h5>
+            <br />
+            <p style={{ textAlign: 'justify' }}>
+              Sunil Kumar was appointed President of Henkel in India, effective
+              October 01, 2020, responsible for steering the company through its
+              next growth phase. In addition, he is the Regional Business
+              Director – Packaging SBU for India, Middle East &amp; Africa,
+              Henkel Adhesive Technologies. This is a role he has been essaying
+              since January 2020.He joined Henkel in January 2015 as Business
+              Director - Packaging &amp; Consumer Goods, South Asia. In this
+              role, he was responsible for Flexible Packaging, Packaging and
+              Labelling, Paper, Tapes, Labels, Personal Hygiene, Building,
+              Construction and Sports and Fashion businesses in the country.
+            </p>
+            <p style={{ textAlign: 'justify' }}>
+              Sunil started his career in 1990 with the Carborundum Universal
+              Ltd., a division of the Murugappa Group. He has also worked with
+              Castrol between 1992 and January 2015 in various sales and
+              marketing positions in the Industrial segments of Automotive,
+              Metals amongst others.Sunil holds a Bachelor’s in Technology
+              degree (B.Tech) in Chemical Engineering from Coimbatore Institute
+              of Technology, CIT Coimbatore. He has also completed an Executive
+              Certificate Program in Business Management, Indian Institute of
+              Management, Kolkata.
+            </p>
+          </Container>
+        </div>
         <div id="sponsors" className={styles.spons_section}>
           <div className={styles.sub_title}>
             <h2>SPONSORS</h2>

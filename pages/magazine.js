@@ -65,7 +65,7 @@ function Plans() {
               </Col>
             </Row>
             <h1 className={styles.pageHeading2}>
-              SSN Invente 6.0 Magazine
+              SSN Invente 6.0 Magazine Launch by Mr.Sunil Kumar
               <br />
             </h1>
             <section>
