@@ -1505,12 +1505,12 @@
           {
             "name": "Prelims: CSS battle",
             "duration": "20 mins",
-            "description": "<ul><li>The participants will have to replicate a design given to them using HTML & CSS</li><li>Participants can make use of code collaboration platforms to work together</li><li>No. of teams selected for the finals will depend on registrations.</li></ul>"
+            "description": "<ul><li>The participants will have to replicate a design given to them using HTML & CSS</li><li>Participants are required to code using CodeSandbox for the prelims.</li><li>A volunteer assigned to each team will be over-seeing your CodeSanbox session.</li><li>You can find a demo on using CodeSandbox <a href = 'https://youtu.be/4tyBj6QlARo' target='_blank'>here</a>. </li><li>No. of teams selected for the finals will depend on registrations.</li></ul>"
           },
           {
             "name": "Finals",
             "duration": "2 hours",
-            "description": "<ul><li>Participants will be given a theme for an app/website that they’ll have to design and implement. They can choose one common theme from 3 or 4 options that will be given to them at the start by majority vote.</li><li>Proctoring will be done (breakout rooms + screenshare)</li><li>Participants will have to submit the code on Github</li> </ul><br/><b>Judging Criteria</b><ul><li>Visual Hierarchy</li><li>Navigation</li><li>Design and Creativity</li><li>Responsiveness (very important!)</li><li>Intuitiveness </li><li>Load time and performance </li></ul>"
+            "description": "<ul><li>Participants will be given a theme for an app/website that they’ll have to design and implement. They can choose one common theme from 3 or 4 options that will be given to them at the start by majority vote.</li><li>Proctoring will be done on MS Teams (breakout rooms + screenshare)</li><li>Participants will have to submit the code on Github</li><li>For this round, the participants are required to use Gitpod for web dev or any IDE of their choice for app dev</li><li>You can find a demo on using Gitpod <a href = 'https://youtu.be/4tyBj6QlARo' target='_blank'>here</a>.</li></ul><br/><b>Judging Criteria</b><ul><li>Visual Hierarchy</li><li>Navigation</li><li>Design and Creativity</li><li>Responsiveness (very important!)</li><li>Intuitiveness </li><li>Load time and performance </li></ul>"
           }
         ]
       },
