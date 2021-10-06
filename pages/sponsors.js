@@ -963,6 +963,18 @@ export default function Department({ data }) {
               </a>
               <br></br>
             </div>
+            <div className={styles.col}>
+              {' '}
+              <FaInstagram style={{ fontSize: '1.5rem' }}></FaInstagram>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/gowthamraj_ceg/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                @gowthamraj_ceg
+              </a>
+            </div>
           </div>
         </>
       );
@@ -1106,6 +1118,104 @@ export default function Department({ data }) {
                 rel="noreferrer"
               >
                 https://www.yoode.com/
+              </a>
+              <br></br>
+            </div>
+          </div>
+        </>
+      );
+    else if (company == 9)
+      return (
+        <>
+          <Row style={{ textAlign: 'center' }}>
+            <Col>
+              <a href="https://www.yoode.com/" target="_blank" rel="noreferrer">
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/ycode.JPG"
+                  alt="yoode"
+                  width="190"
+                  height="80"
+                  style={{ width: '26vh' }}
+                />{' '}
+              </a>
+            </Col>
+          </Row>
+          <br />
+          <Row className={styles.singleVideoSection}>
+            <iframe
+              width="460"
+              height="315"
+              src="https://www.youtube.com/embed/qRHtoYmN7CI"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </Row>
+          <div className={styles.row}>
+            <div className={styles.col}>
+              {' '}
+              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
+              <a
+                target="_blank"
+                href="https://www.yoode.com/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                https://www.yoode.com/
+              </a>
+              <br></br>
+            </div>
+          </div>
+        </>
+      );
+    else if (company == 10)
+      return (
+        <>
+          <Row style={{ textAlign: 'center' }}>
+            <Col>
+              <a
+                href="https://www.typesense.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/typesense.svg"
+                  alt="typesense"
+                  width="190"
+                  height="80"
+                  style={{ width: '26vh' }}
+                />{' '}
+              </a>
+            </Col>
+          </Row>
+          <br />
+          <Row style={{ textAlign: 'center' }}>
+            {/*eslint-disable-next-line @next/next/no-img-element*/}
+            <img
+              className={styles.poster}
+              src="/sponsors/typesense_poster.jpg"
+              alt="typesense_poster"
+              style={{
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                marginBottom: '1em',
+              }}
+            />{' '}
+          </Row>
+          <div className={styles.row}>
+            <div className={styles.col}>
+              {' '}
+              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
+              <a
+                target="_blank"
+                href="https://www.typesense.org/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                https://www.typesense.org/
               </a>
               <br></br>
             </div>
@@ -1333,6 +1443,25 @@ export default function Department({ data }) {
                     <div className={styles.content}>
                       <div className={styles.content}>
                         <p>GowthamRaj</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col>
+                  <div
+                    className={
+                      styles.eventCard +
+                      ' ' +
+                      (company == 10 ? styles.eventSelected : '')
+                    }
+                    onClick={() => {
+                      clickCompany(10);
+                    }}
+                  >
+                    <span></span>
+                    <div className={styles.content}>
+                      <div className={styles.content}>
+                        <p>Typesense</p>
                       </div>
                     </div>
                   </div>
