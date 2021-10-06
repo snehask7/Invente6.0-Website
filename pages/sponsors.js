@@ -1071,7 +1071,7 @@ export default function Department({ data }) {
                 style={{ fontSize: '1rem', marginLeft: '1rem' }}
                 rel="noreferrer"
               >
-                https://felixpilottraining.com/
+                felixpilottraining.com
               </a>
               <br></br>
             </div>
