@@ -16,7 +16,6 @@
       #070e2100,
       rgba(144, 53, 172, 0.61)
     );
-  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -60,19 +59,19 @@
 
 @keyframes go-left {
   0% {
-      transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
   }
   100% {
-      transform: translate(-100%, 0%);
+    transform: translate(-100%, 0%);
   }
 }
 
 @keyframes go-right {
   0% {
-      transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
   }
   100% {
-      transform: translate(100%, 0%);
+    transform: translate(100%, 0%);
   }
 }
 
@@ -179,4 +178,8 @@
 
 .noselect:focus {
   outline: none;
+}
+.hidecurtain {
+  opacity: 0;
+  transition: all 500ms linear 5s;
 }

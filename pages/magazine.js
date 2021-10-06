@@ -1,4 +1,3 @@
-import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -8,22 +7,24 @@ import { Col, Row } from 'react-bootstrap';
 import { GrArticle } from 'react-icons/gr';
 import styles from '../styles/Magazine.module.css';
 
-const PDFViewer = dynamic(() => import('../components/pdfViewer'), {
-  ssr: false,
-});
-
 function Plans() {
   const router = useRouter();
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
+  const [hide, setHide] = useState(true);
 
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
+  function timeout(delay) {
+    return new Promise((res) => setTimeout(res, delay));
   }
 
-  function drawCurtains() {
+  async function drawCurtains() {
     document.getElementById('curtainRight').classList.add(styles.curtainRight);
     document.getElementById('curtainLeft').classList.add(styles.curtainLeft);
+    document.getElementById('launchbutton').style.display = 'none';
+    await timeout(5000).then(hidecurtain);
+  }
+  async function hidecurtain() {
+    document.getElementById('curtainRight').classList.add(styles.hidecurtain);
+    document.getElementById('curtainLeft').classList.add(styles.hidecurtain);
+    await timeout(30).then(setHide(false));
   }
 
   return (
@@ -37,11 +38,11 @@ function Plans() {
           />
         </Head>
         <main>
-          <div className={styles.mainContainer}>
+          <div className={styles.mainContainer} style={{ marginBottom: '3em' }}>
             <Row>
-              <Col>
+              <Col md="5" style={{ textAlign: 'right' }}>
                 <Link href="https://www.ssn.edu.in/" passHref>
-                  <div style={{ paddingTop: '4vh' }}>
+                  <div style={{ paddingTop: '3vh', marginRight: '2vh' }}>
                     <Image
                       src="/icons/ssn.webp"
                       className={styles.ssnlogo}
@@ -52,7 +53,7 @@ function Plans() {
                   </div>
                 </Link>
               </Col>
-              <Col className={styles.inventeHide}>
+              <Col md="7" className={styles.inventeHide}>
                 <Link href="/" passHref>
                   <Image
                     src="/icons/invente.png"
@@ -73,6 +74,7 @@ function Plans() {
                 className={styles.noselect}
                 style={{ marginTop: '5%', marginBottom: '5%' }}
                 onClick={drawCurtains}
+                id="launchbutton"
               >
                 <span className={styles.paytext}>Launch </span>
                 <span className={styles.icon}>
@@ -82,34 +84,37 @@ function Plans() {
                   ></GrArticle>
                 </span>
               </button>
-              <div className={styles.curtainContainer}>
-                <div id="curtainLeft" className={styles.curtain}>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
+              {hide ? (
+                <div className={styles.curtainContainer}>
+                  <div id="curtainLeft" className={styles.curtain}>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                  </div>
+                  <div id="curtainRight" className={styles.curtain}>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                    <div className={styles.curtainElement}></div>
+                  </div>
                 </div>
-                <div id="curtainRight" className={styles.curtain}>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                  <div className={styles.curtainElement}></div>
-                </div>
-              </div>
+              ) : null}
+
               <div id="magazine-iframe" style={{ paddingTop: '1%' }}>
-                <iframe src="/cosmic.pdf" width="100%" height="800px" />
+                <iframe src="/mag.pdf" width="100%" height="800px" />
               </div>
             </section>
           </div>
