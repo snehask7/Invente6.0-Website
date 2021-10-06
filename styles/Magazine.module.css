@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.container {
+  background-image: linear-gradient(to right, #050d22, #070e21, #1c132e),
+    linear-gradient(
+      to bottom right,
+      #153ca0bb,
+      #070e2100,
+      rgba(144, 53, 172, 0),
+      rgba(144, 53, 172, 0)
+    ),
+    linear-gradient(
+      to bottom right,
+      #153ca000,
+      #153ca000,
+      #070e2100,
+      rgba(144, 53, 172, 0.61)
+    );
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-blend-mode: screen;
+  background-size: cover;
+  z-index: -1;
+}
+
+.mainContainer {
+  min-width: 45vw;
+  padding-top: 2vh;
+}
+
+.curtainContainer {
+  width: 45vw;
+  left: 27.25vw;
+  margin-top: 0.5vw;
+  height: 800px;
+  position: absolute;
+  z-index: 3;
+}
+
+.curtain {
+  width: 22.5vw;
+  height: 800px;
+  float: left;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.curtainLeft {
+  animation-name: go-left;
+}
+
+.curtainRight {
+  animation-name: go-right;
+}
+
+@keyframes go-left {
+  0% {
+    transform: translate(0%, 0%);
+  }
+  100% {
+    transform: translate(-100%, 0%);
+  }
+}
+
+@keyframes go-right {
+  0% {
+    transform: translate(0%, 0%);
+  }
+  100% {
+    transform: translate(100%, 0%);
+  }
+}
+
+.curtainElement {
+  width: 10%;
+  height: 100%;
+  float: left;
+  border-bottom-right-radius: 67px;
+  border-bottom-left-radius: 67px;
+}
+
+/* Alternating color of curtain pieces */
+
+.curtainElement:nth-child(odd) {
+  background-color: #ba0f0f;
+}
+
+.curtainElement:nth-child(even) {
+  background-color: #d72525;
+}
+
+.pageHeading2 {
+  text-align: center;
+  color: white;
+  font-family: 'Voltaire', sans-serif;
+  font-weight: 700;
+  margin-top: 0.5em;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.noselect {
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  background-color: #50e3c2;
+  background-image: radial-gradient(
+      at 47% 33%,
+      hsl(162, 77%, 40%) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, hsl(198, 100%, 50%) 0, transparent 55%);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.noselect,
+.noselect span {
+  transition: 200ms;
+}
+
+.noselect .text {
+  transform: translateX(40px);
+  color: white;
+  font-weight: bold;
+}
+
+.noselect .paytext {
+  transform: translateX(70px);
+  color: white;
+  font-weight: bold;
+}
+
+.noselect .icon {
+  position: absolute;
+  border-left: 1px solid #ffffff;
+  transform: translateX(207px);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noselect .payIcon {
+  width: 20px;
+  fill: #eee;
+}
+
+.noselect:hover .text,
+.noselect:hover .paytext {
+  color: transparent;
+}
+
+.noselect:hover .icon {
+  width: 250px;
+  border-left: none;
+  transform: translateX(0);
+}
+
+.noselect:focus {
+  outline: none;
+}
+.hidecurtain {
+  opacity: 0;
+  transition: all 500ms linear 5s;
+}
