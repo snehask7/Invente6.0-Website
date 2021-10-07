@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
+import { FaCalendarAlt, FaPhoneAlt } from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
@@ -102,10 +103,59 @@ export default function Department({ data }) {
                       AI/ML Workshop
                     </span>
                   </p>
-                  <br></br>A 3 hour workshop exploring the recent technical
-                  advancements in the field of AI/ML conducted by the best
-                  people in the industry. The speakers and agenda of the
-                  workshop will be revealed soon!!
+                  <br></br>Have you ever wondered how Youtube, Netflix and
+                  Spotify have just the right suggestions for you? Have you been
+                  awestruck by the way Google Photos can organize your memories?
+                  Well thanks to Artificial Intelligence and Machine Learning,
+                  our devices have become much more smarter and efficient! In
+                  this workshop, you will have an opportunity to learn about the
+                  basics and roots behind such a radical technological bloom.
+                  <br />
+                  <br />
+                  Here’s what the speakers have in store for you!
+                  <br />
+                  <br />
+                  <ul>
+                    <li>Industry X.0</li>
+                    <li>Machine Learning foundations for beginners</li>
+                    <li>Traditional method of statistics </li>
+                    <li>Recent trends in Analytics and Machine Learning </li>
+                    <li>
+                      About powerful tools R and Python which transformed the ML
+                      journey and accessibility{' '}
+                    </li>
+                    <li>Choosing your specifics on your ML journey </li>
+                    <li>Breaking the Myth of the ML complications</li>
+                    <li>Importance of Data</li>
+                    <li>The latest ML automations</li>
+                  </ul>
+                  <Row>
+                    <Col sm="12" md="6" style={{ textAlign: 'center' }}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        className={styles.poster}
+                        src="/aiml1.png"
+                        alt="CMTI"
+                        style={{
+                          marginLeft: 'auto',
+                          marginRight: 'auto',
+                          marginBottom: '1em',
+                        }}
+                      />{' '}
+                    </Col>
+                    <Col style={{ textAlign: 'center' }}>
+                      {/* eslint-disable-next-line */}
+                      <img
+                        className={styles.poster}
+                        src="/aiml2.png"
+                        alt="CMTI"
+                        style={{
+                          marginLeft: 'auto',
+                          marginRight: 'auto',
+                        }}
+                      />{' '}
+                    </Col>
+                  </Row>
                   {/* {events[id].description.summary ? (
                     <>
                       <p
@@ -139,27 +189,20 @@ export default function Department({ data }) {
                     );
                   })} */}
                   <div className={styles.row}>
-                    {/* <div className={styles.col}>
-                      {events[id].organisers.map((organiser, id) => {
-                        return (
-                          <div key={`organiser${id}`}>
-                            {id == 0 ? (
-                              <>
-                                <FaPhoneAlt></FaPhoneAlt>
-                                <br></br>
-                              </>
-                            ) : null}
-                            {organiser.name + ' : ' + organiser.phone}
-                          </div>
-                        );
-                      })}
-                    </div> */}
+                    <div className={styles.col}>
+                      <div key={`organiser${id}`}>
+                        <FaPhoneAlt></FaPhoneAlt>
+                        <br></br>
+                        Aishwarya : 7338935634
+                        <br />B Vignesh : 9841114252
+                      </div>
+                    </div>
 
-                    {/* <div className={styles.col}>
+                    <div className={styles.col}>
                       {' '}
                       <FaCalendarAlt></FaCalendarAlt>
-                      <br></br>Oct 8, 9:00 AM
-                    </div> */}
+                      <br></br>Oct 9th, 9.30 AM - 11.30 AM
+                    </div>
                     {/* <div className={styles.col}>
                       {' '}
                       <FaRegBuilding></FaRegBuilding>
