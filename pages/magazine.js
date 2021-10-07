@@ -19,7 +19,7 @@ function Plans() {
     document.getElementById('curtainRight').classList.add(styles.curtainRight);
     document.getElementById('curtainLeft').classList.add(styles.curtainLeft);
     document.getElementById('launchbutton').style.display = 'none';
-    await timeout(5000).then(hidecurtain);
+    await timeout(3500).then(hidecurtain);
   }
   async function hidecurtain() {
     document.getElementById('curtainRight').classList.add(styles.hidecurtain);
@@ -28,7 +28,7 @@ function Plans() {
   }
 
   return (
-    <>
+    <div className={styles.body}>
       <div className={styles.container}>
         <Head>
           <title>Magazine Launch</title>
@@ -120,7 +120,7 @@ function Plans() {
           </div>
         </main>
       </div>
-    </>
+    </div>
   );
 }
 export default Plans;

@@ -1224,6 +1224,168 @@ export default function Department({ data }) {
           </Row>
         </>
       );
+    else if (company == 13)
+      return (
+        <>
+          <Row style={{ textAlign: 'center' }}>
+            <Col>
+              <a
+                href="https://business.stayflexi.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/sf.webp"
+                  alt="Stayflexi"
+                  width="190"
+                  height="80"
+                  style={{ width: '30vh' }}
+                />{' '}
+              </a>
+            </Col>
+          </Row>
+          <br />
+          <div style={{ textAlign: 'center' }}>
+            <h4>All-in-one property management and automation platform</h4>
+            <h6>
+              Stayflexi automates every aspect of your hotel or vacation rental
+              management and upsells unsold rooms and amenities
+            </h6>
+            {/* eslint-disable-next-line */}
+            <img
+              className={styles.poster}
+              src="/sponsors/sf1.png"
+              alt="Infysec"
+              style={{
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                padding: '2em',
+              }}
+            />{' '}
+            {/* eslint-disable-next-line */}
+            <img
+              className={styles.poster}
+              src="/sponsors/sf2.png"
+              alt="Infysec"
+              style={{
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                padding: '2em',
+              }}
+            />{' '}
+            <h4>
+              MODERN OPERATING SYSTEM FOR HOSPITALITY. SALES, OPERATIONS AND
+              MANAGEMENT IN A SINGLE PLATFORM
+            </h4>
+            {/* eslint-disable-next-line */}
+            <img
+              className={styles.poster}
+              src="/sponsors/sf3.jpg"
+              alt="Infysec"
+              style={{
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                padding: '2em',
+              }}
+            />{' '}
+            {/* eslint-disable-next-line */}
+            <img
+              className={styles.poster}
+              src="/sponsors/sf4.png"
+              alt="Infysec"
+              style={{
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                padding: '2em',
+              }}
+            />{' '}
+            {/* eslint-disable-next-line */}
+            <img
+              className={styles.poster}
+              src="/sponsors/sf5.jpg"
+              alt="Infysec"
+              style={{
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                padding: '2em',
+              }}
+            />{' '}
+            {/* eslint-disable-next-line */}
+            <img
+              className={styles.poster}
+              src="/sponsors/sf6.png"
+              alt="Infysec"
+              style={{
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                padding: '2em',
+              }}
+            />{' '}
+            {/* eslint-disable-next-line */}
+            <img
+              className={styles.poster}
+              src="/sponsors/sf7.png"
+              alt="Infysec"
+              style={{
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                padding: '2em',
+              }}
+            />{' '}
+            <h3>CEO & Co-Founder</h3>
+            {/* eslint-disable-next-line */}
+            <img
+              src="/sponsors/sf8.jpg"
+              alt="Infysec"
+              style={{
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                padding: '2em',
+                width: '35vh',
+              }}
+            />{' '}
+            <a href="https://www.linkedin.com/in/venkatsakamuri/">
+              <h6>Venkatesh Sakamuri</h6>
+            </a>
+            <p>
+              Venkatesh Sakamuri is the Co-Founder & CEO at Stayflexi (YC W21).
+              Previously, Venkatesh was a Senior Member Of the Technical Staff
+              at Oracle. Venkatesh holds a Master&apos;s degree from Carnegie
+              Mellon University. He is also an alumnus of SSN College of
+              Engineering.
+            </p>
+          </div>
+          <div className={styles.row}>
+            <div className={styles.col}>
+              {' '}
+              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
+              <a
+                target="_blank"
+                href="https://business.stayflexi.com/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                https://business.stayflexi.com/
+              </a>
+              <br></br>
+            </div>
+            <div className={styles.col}>
+              {' '}
+              <FaLinkedinIn style={{ fontSize: '1.5rem' }}></FaLinkedinIn>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/stayflex/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                Stayflexi
+              </a>
+              <br></br>
+            </div>
+          </div>
+        </>
+      );
     else return <></>;
   };
   useEffect(() => {
@@ -1312,6 +1474,25 @@ export default function Department({ data }) {
                     <div className={styles.content}>
                       <div className={styles.content}>
                         <p>Mr Cooper</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col>
+                  <div
+                    className={
+                      styles.eventCard +
+                      ' ' +
+                      (company == 13 ? styles.eventSelected : '')
+                    }
+                    onClick={() => {
+                      clickCompany(13);
+                    }}
+                  >
+                    <span></span>
+                    <div className={styles.content}>
+                      <div className={styles.content}>
+                        <p>Stayflexi</p>
                       </div>
                     </div>
                   </div>

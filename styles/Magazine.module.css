@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Voltaire&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.body {
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
 .container {
   background-image: linear-gradient(to right, #050d22, #070e21, #1c132e),
     linear-gradient(
@@ -31,8 +35,8 @@
 }
 
 .curtainContainer {
-  width: 45vw;
-  left: 27.25vw;
+  left: 21.25vw;
+  width: 60vw;
   margin-top: 0.5vw;
   height: 800px;
   position: absolute;
@@ -40,7 +44,7 @@
 }
 
 .curtain {
-  width: 22.5vw;
+  width: 27vw;
   height: 800px;
   float: left;
   animation-duration: 4s;
@@ -62,7 +66,7 @@
     transform: translate(0%, 0%);
   }
   100% {
-    transform: translate(-100%, 0%);
+    transform: translate(-80%, 0%);
   }
 }
 
@@ -71,7 +75,7 @@
     transform: translate(0%, 0%);
   }
   100% {
-    transform: translate(100%, 0%);
+    transform: translate(90%, 0%);
   }
 }
 
