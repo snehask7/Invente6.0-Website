@@ -232,7 +232,7 @@ export default function Department({ data }) {
                           rel="noreferrer"
                         >
                           {/* eslint-disable-next-line */}
-                            <img
+                          <img
                             src="/sponsors/motorq.png"
                             alt="stayflexi"
                             style={{ width: '18vh' }}
@@ -427,6 +427,8 @@ export default function Department({ data }) {
                       <button className={styles.registeredButton} disabled>
                         Registered
                       </button>
+                    ) : events[id].closed == true ? (
+                      <h5>Registration Closed!</h5>
                     ) : (
                       <>
                         <button
