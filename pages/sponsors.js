@@ -121,8 +121,8 @@ export default function Department({ data }) {
                     <img
                       src="/sponsors/cooper.png"
                       alt="mr cooper"
-                      width="350"
-                      height="70"
+                      width="250"
+                      height="50"
                     />{' '}
                   </a>
                 </Col>
