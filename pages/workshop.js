@@ -130,7 +130,7 @@ export default function Department({ data }) {
                     <li>The latest ML automations</li>
                   </ul>
                   <Row>
-                    <Col sm="12" md="6" style={{ textAlign: 'center' }}>
+                    <Col style={{ textAlign: 'center' }}>
                       {/* eslint-disable-next-line */}
                       <img
                         className={styles.poster}
@@ -140,18 +140,6 @@ export default function Department({ data }) {
                           marginLeft: 'auto',
                           marginRight: 'auto',
                           marginBottom: '1em',
-                        }}
-                      />{' '}
-                    </Col>
-                    <Col style={{ textAlign: 'center' }}>
-                      {/* eslint-disable-next-line */}
-                      <img
-                        className={styles.poster}
-                        src="/aiml2.png"
-                        alt="CMTI"
-                        style={{
-                          marginLeft: 'auto',
-                          marginRight: 'auto',
                         }}
                       />{' '}
                     </Col>
