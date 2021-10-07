@@ -4,6 +4,7 @@ import OAuthCallback from './oauthcallback';
 import AuthGoogleAPI from './authGoogleApi';
 import CreateFiles from './createFiles';
 import ExportToSheets from './exportToSheets';
+import ExportEventToSheet from './exportEventToSheet';
 import AddHeaders from './addHeaders';
 import triggerMail from './triggerMail';
 
@@ -16,6 +17,9 @@ exports.createFiles = CreateFiles;
 
 // Export the users to sheets
 exports.exportToSheets = ExportToSheets;
+
+// Export specific event to sheet
+exports.exportEventToSheet = ExportEventToSheet;
 
 // Add headers to all the sheets. (Call just once, already done)
 exports.addHeaders = AddHeaders;
