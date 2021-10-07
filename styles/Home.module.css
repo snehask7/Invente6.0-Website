@@ -21,6 +21,19 @@
   min-height: 100vh;
   overflow-x: hidden;
 }
+
+.bioImage {
+  border-radius: 50%;
+  transition: 0.5s;
+  box-shadow: 8px 8px 10px #0a0a0a;
+  border: 3px dashed white;
+}
+
+.bioImage:hover {
+  box-shadow: 8px 8px 10px #070e21;
+  transform: scale(1.04);
+}
+
 .centerItem {
   position: fixed;
 }
