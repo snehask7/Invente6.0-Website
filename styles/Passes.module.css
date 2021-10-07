@@ -497,10 +497,10 @@ section.price_section .free_tier + .plan_action a:after {
   border: solid 1px rgba(128, 128, 128, 0.2);
   font-family: 'Menlo', monospace;
   min-width: auto;
-  max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
+  width: 80%;
   padding: 1vh;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
 }

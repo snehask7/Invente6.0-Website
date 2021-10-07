@@ -64,10 +64,7 @@ function Plans() {
                   <h5 style={{ textAlign: 'center' }}>
                     {' '}
                     <u>NOTE</u>:{' '}
-                    <u>
-                      Hackinfinity,Biomedicathon,AI/ML workshop require a
-                      separate pass and are not included in the combo
-                    </u>
+                    <u>Hackathons and workshop require a separate pass!</u>
                   </h5>
                 </span>
               </div>
