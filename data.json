@@ -68,7 +68,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "21",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Data Utopia",
@@ -101,7 +101,7 @@
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
       "eventid": "22",
       "prizepool": "Rs. 4500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Tinkering Thoughts",
@@ -134,7 +134,7 @@
       "prizes": ["Inplant Training for the top two teams"],
       "eventid": "23",
       "prizepool": "Inplant Traning for winners",
-      "closed": false
+      "closed": true
     },
     {
       "name": "The Big Meg",
@@ -167,7 +167,7 @@
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "24",
       "prizepool": "Rs. 2500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Debug-a-circuit ",
@@ -200,7 +200,7 @@
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
       "eventid": "25",
       "prizepool": "Rs.4500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Junkyard Jumble",
@@ -239,7 +239,7 @@
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "26",
       "prizepool": "Rs. 2500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Paper Presentation",
@@ -271,7 +271,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "27",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "IPL Auction",
@@ -303,7 +303,7 @@
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "28",
       "prizepool": "Rs. 2500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "SketchX",
@@ -340,7 +340,7 @@
       "prizes": ["Winner:Rs.2000", "Runner-Up:Rs.1000"],
       "eventid": "29",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     }
   ],
   "BME": [
@@ -2260,7 +2260,7 @@
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "43",
       "prizepool": "Rs. 2500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "2 fast 2 curious",
@@ -2326,7 +2326,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "45",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "QUARTER MILE",
