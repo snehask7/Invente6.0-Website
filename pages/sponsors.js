@@ -1386,6 +1386,221 @@ export default function Department({ data }) {
           </div>
         </>
       );
+    else if (company == 14)
+      return (
+        <>
+          <Row style={{ textAlign: 'center' }}>
+            <Col>
+              <a
+                href="https://www.dalmiabharat.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {/* eslint-disable-next-line */}
+                <img
+                  src="/sponsors/dalmia.png"
+                  alt="Dalmia"
+                  width="190"
+                  height="80"
+                  style={{ width: '26vh' }}
+                />{' '}
+              </a>
+            </Col>
+          </Row>
+
+          <Row>
+            <h4 style={{ textAlign: 'left', marginTop: '2em' }}>
+              About Dalmia Bharat:
+            </h4>
+            <p style={{ textAlign: 'justify' }}>
+              <em>
+                <u>1939</u>
+              </em>
+              <br />
+              It was in the year 1939, during the pre-independence era, the
+              company started its cement unit as a venture towards Building up a
+              self-reliant India with respect to one of the country’s essential
+              commodities / Core Sectors. Of the four units so started, one was
+              located at Dalmiapuram, which was later incorporated as “DALMIA
+              CEMENT (BHARAT) LIMITED” (whilst two units got absorbed in
+              Pakistan due to partition). In 1939, a 250 Tonnes per day kiln was
+              started by the Company to manufacture cement by Semi-dry process.
+              The machinery was supplied by M/s. POLYSIUS , GERMANY.
+              <br />
+              <br />
+              <em>
+                <u>1939-1942</u>
+              </em>
+              <br />
+              In 1949, a 500 Tonnes per day Wet Process Unax Kiln supplied by
+              M/s. F.L.SMIDTH, DENMARK was installed. Again in 1959, expansion
+              was undertaken with the installation of another 500 Tonnes per day
+              wet process Folax Kiln supplied by M/s. F.L.SMIDTH, DENMARK. In
+              1982, a 200 Tonnes per day Vertical Shaft Kiln (First of its kind
+              in India) was installed using fuel as Coal Slurry Process.
+              <br />
+              <br />
+              <em>
+                <u>1983-1993</u>
+              </em>
+              <br />
+              Decontrol of Cement – Partial Decontrol (1983) – Full Decontrol
+              (1984) In the year 1983, Captive Power Gensets supplied by M/s
+              Wartsila were installed.
+              <br />
+              <br /> In the year 1984, Oil well cement production was started
+              and in 1986 the prestigious API Monogram certification was
+              received from American Petroleum Institute, USA. <br />
+              <br />
+              With rising costs of fuel, major modernization programme was
+              undertaken in line with policy of the Government of India to
+              switch over from Wet Process to Dry Process. Consequently, a 1500
+              Tonnes per day pre-calcinator kiln supplied by M/s. KHD HUMBOLDT
+              WEDAG AG, WEST GERMANY was commissioned in 1987 and both the Wet
+              Process kilns were stopped. This is a modern Dry Process Kiln
+              First of its kind in TAMILNADU with Computerised Controls. The New
+              Plant includes Stacker Reclaimer and ‘X’ RAY Analyser to ensure
+              uniform Quality.
+              <br />
+              <br />
+              In the year 1990, we have installed state of the art Electronic
+              Roto Packer - I with 8 spouts for packing cement. In the year
+              1991, we have introduced a new technology “Auto Kiln Control
+              System” for smooth operation of Kiln. Also, in the year 1991, a
+              Regional Training Centre sponsored by World Bank DANIDA is started
+              at our Plant to cater to all South Indian Cement Plants. This is a
+              recognition of our Plant as center for excellence for transfer of
+              Technology.
+              <br />
+              <br />
+              In the year 1993, we have been awarded ISO 9002 certification for
+              our Quality Management System (First cement company in South
+              India) from BIS.
+              <br />
+              <br />
+              <em>
+                <u>1994-2004</u>
+              </em>
+              <br />
+              In the year 1994, we have installed state of the art Electronic
+              Roto Packer-II (12 spout) for packing cement.
+              <br />
+              <br />
+              In the year 1997, Cement grinding was modernized by introducing
+              Vertical Roller Mill.
+              <br />
+              <br />
+              The Central control room has been upgraded with latest fuzzy logic
+              controls for improved energy efficiency and productivity.
+              <br />
+              <br />
+              We have upgraded the Kiln Cooler with the latest IKN technology
+              for improved thermal efficiency.
+              <br />
+              <br />A substantial expansion project was completed in 2002 with
+              up gradation of our KHD Kiln, enhancing the capacity to 3300 TPD,
+              by installing energy efficient low pressure cyclones and the Kiln
+              Cooler with the latest CFG technology for improved thermal
+              efficiency.
+              <br />
+              <br />
+              In the year 2004, we have received ISO 14001 certification for our
+              Environmental Management System from BIS.
+              <br />
+              <br />
+              <em>
+                <u>2005 Onwards</u>
+              </em>
+              <br />
+              A major capacity expansion project is commissioned during the year
+              2006 to enhance the total cement capacity by putting up a most
+              modern & energy efficient 3800 TPD Plant.
+              <br />
+              <br />
+              Also to meet the increased power requirement at optimum cost, a 27
+              MW Captive Thermal Power Plant is put up during the year 2005.
+              <br />
+              <br />
+              Additional Captive Thermal Power Plant of Capacity 18 MW is
+              commissioned in the year 2008.
+              <br />
+              <br />
+              In the year 2010, we have received IS 18001:2007 certification for
+              our OH&MS (Occupational Health and Safety Management System) from
+              BIS.
+              <br />
+              <br />
+              <em>
+                <u>2015 Onwards</u>
+              </em>
+              <br />
+              In The year 2015, we have received IS/ISO 50001:2011 Certification
+              for Energy Management System from BIS. And further Dalmia Cement
+              Bharat Limited, Dalmiapuram has strengthened its Quality
+              Management system by obtaining API Spec Q1 from American Petroleum
+              Institute in 2016.
+              <br />
+              <br />
+              <em>
+                <u>2016 Onwards</u>
+              </em>
+              <br />
+              Dalmia Cement Bharat Limited, Dalmiapuram also obtained the Green
+              Pro Certification from CII for the PPC Product in the year 2016.
+              <br />
+              <br />
+              Also, Certified for 5S from QCFI as Par Excellence and Platinum
+              Award by ABK AOTS.
+              <br />
+              <br />
+              <em>
+                <u>2017 Onwards</u>
+              </em>
+              <br />
+              In the year 2017, we have changeover and received IS/ISO 9001:2015
+              certification for our Quality Management System first in Cement
+              from BIS.
+              <br />
+              <br />
+              <em>
+                <u>2018 Onwards</u>
+              </em>
+              <br />
+              In the year 2018, we have changeover and received IS/ISO
+              14001:2015 certification for our Environment Management System
+              first in Cement from BIS.
+              <br />
+              <br />
+              Certified for 5S Excellence Award by CII.
+              <br />
+              <br />
+              <em>
+                <u>2019 Onwards</u>
+              </em>
+              <br />
+              Green Pro Certification from CII for the PPC Product Renewed upto
+              December 2020.
+              <br />
+              <br />
+            </p>
+          </Row>
+          <div className={styles.row}>
+            <div className={styles.col}>
+              {' '}
+              <FaLink style={{ fontSize: '1.5rem' }}></FaLink>
+              <a
+                target="_blank"
+                href="https://www.dalmiabharat.com/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                https://www.dalmiabharat.com/
+              </a>
+              <br></br>
+            </div>
+          </div>
+        </>
+      );
     else return <></>;
   };
   useEffect(() => {
@@ -1683,6 +1898,25 @@ export default function Department({ data }) {
                     <div className={styles.content}>
                       <div className={styles.content}>
                         <p>Kavidhai Uravu</p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col>
+                  <div
+                    className={
+                      styles.eventCard +
+                      ' ' +
+                      (company == 14 ? styles.eventSelected : '')
+                    }
+                    onClick={() => {
+                      clickCompany(14);
+                    }}
+                  >
+                    <span></span>
+                    <div className={styles.content}>
+                      <div className={styles.content}>
+                        <p>Dalmia Bharat</p>
                       </div>
                     </div>
                   </div>
