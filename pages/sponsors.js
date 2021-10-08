@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { FaInstagram, FaLink, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLink, FaLinkedin, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
@@ -1064,6 +1064,71 @@ export default function Department({ data }) {
                 rel="noreferrer"
               >
                 https://www.isaca-chennai.org/
+              </a>
+              <br></br>
+            </div>
+            <div className={styles.col}>
+              {' '}
+              <FaYoutube style={{ fontSize: '1.5rem' }}></FaYoutube>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/UCuukFVdnX5F64d8l4u25kYQ"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                YouTube
+              </a>
+              <br></br>
+            </div>
+            <div className={styles.col}>
+              {' '}
+              <FaLinkedin style={{ fontSize: '1.5rem' }}></FaLinkedin>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/isaca-chennai-chapter/?trk=top_nav_home"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+              <br></br>
+            </div>
+            <div className={styles.col}>
+              {' '}
+              <FaFacebook style={{ fontSize: '1.5rem' }}></FaFacebook>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/IsacaChennai/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                Facebook
+              </a>
+              <br></br>
+            </div>
+            <div className={styles.col}>
+              {' '}
+              <FaInstagram style={{ fontSize: '1.5rem' }}></FaInstagram>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/isacachennai/"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                Instagram
+              </a>
+              <br></br>
+            </div>
+            <div className={styles.col}>
+              {' '}
+              <FaTwitter style={{ fontSize: '1.5rem' }}></FaTwitter>
+              <a
+                target="_blank"
+                href="https://twitter.com/isacachennai"
+                style={{ fontSize: '1rem', marginLeft: '1rem' }}
+                rel="noreferrer"
+              >
+                Twitter
               </a>
               <br></br>
             </div>
