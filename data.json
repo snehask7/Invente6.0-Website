@@ -608,7 +608,7 @@
       "prizes": ["Winner:Rs.1000", "Runner-Up:Rs.500"],
       "eventid": "57",
       "prizepool": "Rs. 1500",
-      "closed": false
+      "closed": true
     }
   ],
   "EEE": [
