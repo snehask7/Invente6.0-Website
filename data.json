@@ -134,7 +134,7 @@
       "prizes": ["Inplant Training for the top two teams"],
       "eventid": "23",
       "prizepool": "Inplant Traning for winners",
-      "closed": false
+      "closed": true
     },
     {
       "name": "The Big Meg",
@@ -239,7 +239,7 @@
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "26",
       "prizepool": "Rs. 2500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Paper Presentation",
