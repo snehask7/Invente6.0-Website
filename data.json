@@ -2466,7 +2466,7 @@
       "prizes": ["Will be revealed soon!"],
       "eventid": "49",
       "prizepool": "TBA!",
-      "closed": false
+      "closed": true
     }
   ]
 }
