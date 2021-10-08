@@ -1528,7 +1528,7 @@
       ],
       "eventid": "00",
       "prizepool": "Rs. 10000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Dev Heist",
