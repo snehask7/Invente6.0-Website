@@ -505,7 +505,7 @@
       ],
       "eventid": "54",
       "prizepool": "Rs. 4500",
-      "closed": true
+      "closed": false
     },
     {
       "name": "Medical Auction",
