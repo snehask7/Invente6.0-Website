@@ -2364,7 +2364,7 @@
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "46",
       "prizepool": "Rs. 2500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Car wars",
