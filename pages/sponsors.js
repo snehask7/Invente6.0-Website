@@ -483,13 +483,13 @@ export default function Department({ data }) {
                 </Col>
                 <Col>
                   <a
-                    href="https://www.redbull.com/in-en/"
+                    href="https://basement.redbull.com/en-in"
                     target="_blank"
                     rel="noreferrer"
                   >
                     {/* eslint-disable-next-line */}
                     <img
-                      src="/sponsors/rb.svg"
+                      src="/sponsors/redbull_basement.jpeg"
                       alt="RB"
                       width="190"
                       height="80"
