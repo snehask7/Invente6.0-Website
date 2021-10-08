@@ -2439,7 +2439,7 @@
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.600"],
       "eventid": "48",
       "prizepool": "Rs. 1600",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Clutch or Kick",
