@@ -1661,7 +1661,7 @@
       "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"],
       "eventid": "04",
       "prizepool": "Rs. 6000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "MOCK JOB DRIVE",
