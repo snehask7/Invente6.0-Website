@@ -35,7 +35,7 @@
       ],
       "eventid": "20",
       "prizepool": "Rs. 25000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Enigma",
@@ -651,7 +651,7 @@
       "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
       "eventid": "30",
       "prizepool": "Rs. 3000",
-      "closed": true
+      "closed": false
     },
     {
       "name": "Tech Quiz",
