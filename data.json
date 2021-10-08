@@ -469,7 +469,7 @@
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "prizepool": "Rs. 2500",
       "eventid": "53",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Biomedicathon",
