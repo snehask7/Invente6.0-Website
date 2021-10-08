@@ -1628,7 +1628,7 @@
       "prizes": ["Best Ideator - Rs.3000", "Best Innovater - Rs.3000"],
       "eventid": "03",
       "prizepool": "Rs. 6000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Hacker’s Asylum",
@@ -1707,7 +1707,7 @@
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"],
       "eventid": "05",
       "prizepool": "Rs. 5000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Relay in Reverse",
