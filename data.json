@@ -958,7 +958,7 @@
       "prizes": ["Winner: Rs.3000", "Runner-Up: Rs.1500"],
       "eventid": "10",
       "prizepool": "Rs. 4500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "WEBSITICA",
@@ -997,7 +997,7 @@
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
       "eventid": "11",
       "prizepool": "Rs. 4500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "CODERA",
@@ -1036,7 +1036,7 @@
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
       "eventid": "12",
       "prizepool": "Rs. 4500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "REVERSE GEAR",
@@ -1075,7 +1075,7 @@
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
       "eventid": "13",
       "prizepool": "Rs. 4500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "PAPYRUS",
@@ -1114,7 +1114,7 @@
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
       "eventid": "14",
       "prizepool": "Rs. 4500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "ANALYTICS SPRINT",
@@ -1153,7 +1153,7 @@
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
       "eventid": "15",
       "prizepool": "Rs. 4500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "SPORTS QUIZ",
@@ -1192,7 +1192,7 @@
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.500"],
       "eventid": "16",
       "prizepool": "Rs. 1500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "E-TREASURE HUNT",
@@ -1226,7 +1226,7 @@
       "prizes": ["Winner:Rs.1000", "Runner-Up:Rs.500"],
       "eventid": "17",
       "prizepool": "Rs. 1500",
-      "closed": false
+      "closed": true
     }
   ],
   "Chemical": [
