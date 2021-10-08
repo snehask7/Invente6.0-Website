@@ -302,16 +302,12 @@ export default function Home() {
           <div className={styles3.blinkbox} data-aos="zoom-in">
             <div className={styles3.light}></div>
             <div className={styles3.blink}>
-              <span>
-                Hackinfinity starting on 8th October!
-                <br />
-                Prizes worth 25k!!
-              </span>
+              <span>AI/ML Workshop on Oct 9th!</span>
               <br />
               <button
                 className={styles.registerButton}
                 onClick={() => {
-                  router.push('/department/ECE/0');
+                  router.push('/workshop');
                 }}
               >
                 Register
