@@ -1266,7 +1266,7 @@
       "prizes": ["2 Winners - Rs.2500 each", "2 Runner-Ups - Rs.2000 each"],
       "eventid": "70",
       "prizepool": "Rs. 9000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Who's on the Leaderboard",
@@ -1337,7 +1337,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "72",
       "prizepool": "Rs. 3500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Like-for-Like",
@@ -1399,7 +1399,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "74",
       "prizepool": "Rs. 3500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "IPL-Invente's Pictionary League",
@@ -1433,7 +1433,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "75",
       "prizepool": "Rs. 3500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "The Last Man Standing",
@@ -1461,7 +1461,7 @@
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.750"],
       "eventid": "76",
       "prizepool": "Rs. 1750",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Ee Sala MEME Namadhe",
