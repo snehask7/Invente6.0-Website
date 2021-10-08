@@ -1049,7 +1049,7 @@ export default function Home() {
                 </a>
               </Col>
             </Row>
-            <Row className={styles.sponsorsSpaced}>
+            <Row>
               <Col>
                 <a
                   href="https://www.yoode.com/"
@@ -1074,7 +1074,37 @@ export default function Home() {
                   {/* eslint-disable-next-line */}
                   <img
                     src="/sponsors/ISACA.jpg"
-                    alt="saama"
+                    alt="ISACA"
+                    width="190"
+                    height="80"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://uzhavarbumi.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/ub.jpg"
+                    alt="UB"
+                    width="190"
+                    height="80"
+                  />{' '}
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.redbull.com/in-en/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {/* eslint-disable-next-line */}
+                  <img
+                    src="/sponsors/rb.svg"
+                    alt="RB"
                     width="190"
                     height="80"
                   />{' '}

@@ -651,7 +651,7 @@
       "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
       "eventid": "30",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Tech Quiz",
@@ -690,7 +690,7 @@
       "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
       "eventid": "31",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "E-Bugging",
@@ -730,7 +730,7 @@
       "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
       "eventid": "32",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Electronic-Maze",
@@ -765,7 +765,7 @@
       "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
       "eventid": "33",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Ideate",
@@ -815,7 +815,7 @@
       "prizes": ["Winner - Rs.6000", "Runner-Up - Rs.3000"],
       "eventid": "34",
       "prizepool": "Rs. 9000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Inventino",
@@ -856,7 +856,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "35",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Tentkotta",
@@ -888,7 +888,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "36",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "IPL Bidding",
@@ -922,7 +922,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "37",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     }
   ],
   "IT": [
