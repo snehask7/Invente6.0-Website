@@ -1947,7 +1947,7 @@
       "prizes": [],
       "prizepool": "Rs. 4000",
       "eventid": "64",
-      "closed": false
+      "closed": true
     },
     {
       "name": "SOLUTION -AU PROBLEME",
@@ -2293,7 +2293,7 @@
       "prizes": ["Winner - Rs.1500", "Runner-Up - Rs.1000"],
       "eventid": "44",
       "prizepool": "Rs. 2500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Design and deal",
