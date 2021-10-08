@@ -31,6 +31,9 @@ const ExportToSheets = functions
     functions.logger.info('Flag', flag);
     for (const event of chosenEvents) {
       try {
+        // skip events that have completed.
+        if (['Codolympics'].includes(event.name)) continue;
+
         // functions.logger.info(event);
         let userDataPaid = [];
         const userDataUnpaid = [];
