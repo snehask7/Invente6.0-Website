@@ -1809,7 +1809,7 @@
       "prizes": [],
       "prizepool": "Rs. 4000",
       "eventid": "60",
-      "closed": false
+      "closed": true
     },
     {
       "name": "QUIZZARDS OF OZ",
@@ -1985,7 +1985,7 @@
       "prizes": [],
       "prizepool": "Rs. 4000",
       "eventid": "65",
-      "closed": false
+      "closed": true
     },
     {
       "name": "UNSCRIPTED",
@@ -2018,7 +2018,7 @@
       "prizes": [],
       "prizepool": "Rs. 4000",
       "eventid": "66",
-      "closed": false
+      "closed": true
     },
     {
       "name": "BOB THE PLUMBER",
@@ -2056,7 +2056,7 @@
       "prizes": [],
       "prizepool": "Rs. 4000",
       "eventid": "67",
-      "closed": false
+      "closed": true
     },
     {
       "name": "NETFLIX WARS",
@@ -2156,7 +2156,7 @@
       ],
       "eventid": "40",
       "prizepool": "Rs. 2500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Project Exhibition",
@@ -2184,7 +2184,7 @@
       "prizes": ["Winner - Rs.2500", "Runner-Up - Rs.1500"],
       "eventid": "41",
       "prizepool": "Rs. 4000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Need for Speed – Autoquiz",
