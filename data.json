@@ -367,7 +367,7 @@
       ],
       "eventid": "50",
       "prizepool": "Rs. 5000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Quiz Masters",
@@ -505,7 +505,7 @@
       ],
       "eventid": "54",
       "prizepool": "Rs. 4500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Medical Auction",
