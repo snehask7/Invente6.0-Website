@@ -3,7 +3,15 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { FaFacebook, FaInstagram, FaLink, FaLinkedin, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa';
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLink,
+  FaLinkedin,
+  FaLinkedinIn,
+  FaTwitter,
+  FaYoutube,
+} from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
