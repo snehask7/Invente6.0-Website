@@ -200,7 +200,7 @@
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
       "eventid": "25",
       "prizepool": "Rs.4500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Junkyard Jumble",
