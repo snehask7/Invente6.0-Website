@@ -2088,7 +2088,7 @@
       "prizes": [],
       "prizepool": "Rs. 4000",
       "eventid": "68",
-      "closed": false
+      "closed": true
     },
     {
       "name": "ACE it (VALORANT)",
