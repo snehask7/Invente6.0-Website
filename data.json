@@ -68,7 +68,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "21",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Data Utopia",
@@ -271,7 +271,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "27",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "IPL Auction",
@@ -410,7 +410,7 @@
       ],
       "eventid": "51",
       "prizepool": "Rs. 2000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Telehealth Web Development",
@@ -436,7 +436,7 @@
       ],
       "eventid": "52",
       "prizepool": "Rs. 2000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Design to Innovate",
@@ -505,7 +505,7 @@
       ],
       "eventid": "54",
       "prizepool": "Rs. 4500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Medical Auction",
@@ -537,7 +537,7 @@
       ],
       "eventid": "55",
       "prizepool": "Rs. 2000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Startup Smackdown",
@@ -575,7 +575,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1000"],
       "eventid": "56",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Thambi Reel Inum Varala",
@@ -651,7 +651,7 @@
       "prizes": ["Winner: Rs.2000", "Runner-Up: Rs.1000"],
       "eventid": "30",
       "prizepool": "Rs. 3000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Tech Quiz",
@@ -1589,7 +1589,7 @@
       "prizes": ["Winner - Rs.4000", "Runner-Up - Rs.2000"],
       "eventid": "02",
       "prizepool": "Rs. 6000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Code Triathlon",
@@ -1740,7 +1740,7 @@
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.2000"],
       "eventid": "06",
       "prizepool": "Rs. 5000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Game Nite",
@@ -1774,7 +1774,7 @@
       "prizes": ["Winner - Rs.2500", "Runner-Up - Rs.1500"],
       "eventid": "07",
       "prizepool": "Rs. 4000",
-      "closed": false
+      "closed": true
     }
   ],
   "Civil": [
@@ -1848,7 +1848,7 @@
       "prizes": [],
       "prizepool": "Rs. 4000",
       "eventid": "61",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Paper Presentation",
@@ -1909,7 +1909,7 @@
       "prizes": [],
       "prizepool": "Rs. 4000",
       "eventid": "63",
-      "closed": false
+      "closed": true
     },
     {
       "name": "DEAL OR NO DEAL",
@@ -2088,7 +2088,7 @@
       "prizes": [],
       "prizepool": "Rs. 4000",
       "eventid": "68",
-      "closed": false
+      "closed": true
     },
     {
       "name": "ACE it (VALORANT)",
