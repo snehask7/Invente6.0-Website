@@ -302,16 +302,11 @@ export default function Home() {
           <div className={styles3.blinkbox} data-aos="zoom-in">
             <div className={styles3.light}></div>
             <div className={styles3.blink}>
-              <span>AI/ML Workshop on Oct 9th!</span>
+              <span>
+                Thank you all for making Invente 6.0 a grand success! Looking
+                forward to seeing you all again next year!!
+              </span>
               <br />
-              <button
-                className={styles.registerButton}
-                onClick={() => {
-                  router.push('/workshop');
-                }}
-              >
-                Register
-              </button>
             </div>
           </div>
           <div data-aos="zoom-in" id="timer" className={styles.timer}>
