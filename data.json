@@ -410,7 +410,7 @@
       ],
       "eventid": "51",
       "prizepool": "Rs. 2000",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Telehealth Web Development",
@@ -1848,7 +1848,7 @@
       "prizes": [],
       "prizepool": "Rs. 4000",
       "eventid": "61",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Paper Presentation",
@@ -1909,7 +1909,7 @@
       "prizes": [],
       "prizepool": "Rs. 4000",
       "eventid": "63",
-      "closed": false
+      "closed": true
     },
     {
       "name": "DEAL OR NO DEAL",
