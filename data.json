@@ -101,7 +101,7 @@
       "prizes": ["Winner - Rs.3000", "Runner-Up - Rs.1500"],
       "eventid": "22",
       "prizepool": "Rs. 4500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Tinkering Thoughts",
@@ -1299,7 +1299,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "71",
       "prizepool": "Rs. 3500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "Be-safe-athon",
@@ -1365,7 +1365,7 @@
       "prizes": ["Winner - Rs.2000", "Runner-Up - Rs.1500"],
       "eventid": "73",
       "prizepool": "Rs. 3500",
-      "closed": false
+      "closed": true
     },
     {
       "name": "The Commentator’s Conference",
@@ -1488,7 +1488,7 @@
       "prizes": ["Winner - Rs.1000", "Runner-Up - Rs.750"],
       "eventid": "77",
       "prizepool": "Rs. 1750",
-      "closed": false
+      "closed": true
     }
   ],
   "CSE": [
