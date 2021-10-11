@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { FaAngleDown } from 'react-icons/fa';
 import { useAuth } from '../lib/hooks';
 import { useNav } from '../lib/navbarstate';
 import styles from '../styles/Navbar.module.css';
@@ -247,7 +246,7 @@ export default function NavbarComp() {
             </a>
           </Link>
 
-          {!currentUser ? (
+          {/* {!currentUser ? (
             <>
               <Link href="/signin">
                 <a
@@ -298,62 +297,62 @@ export default function NavbarComp() {
                 </a>
               </Link>
             </>
-          )}
+          )}*/}
         </div>
       ) : null}
-      <div className={styles.profile}>
-        {!currentUser ? (
-          <div className={styles.authBar}>
-            <Link href="/signin" passHref>
-              <a className={styles.loginBtn}>LOG IN</a>
-            </Link>
-            <Link href="/signup" passHref>
-              <a className={styles.signupBtn}>Sign Up</a>
-            </Link>
-          </div>
-        ) : (
-          <div className={styles.dropDown}>
-            <button
-              className={
-                profClicked
-                  ? styles.userPic + ' ' + styles.userPicOnDropDown
-                  : styles.userPic
-              }
-              onClick={() => setProfClicked(!profClicked)}
-            >
-              <Image
-                src={
-                  currentUser.photoURL
-                    ? currentUser.photoURL
-                    : '/icons/hacker.webp'
-                }
-                alt="profile"
-                width={40}
-                height={40}
-              />
-              <FaAngleDown style={{ color: 'white' }} />
-            </button>
-            <div
-              className={
-                profClicked && !navbarToggle
-                  ? styles.dropDownShown
-                  : styles.dropDownHidden
-              }
-            >
-              <div>
-                <Link href="/profile">
-                  <a>Profile</a>
+      {/* <div className={styles.profile}>
+            {!currentUser ? (
+              <div className={styles.authBar}>
+                <Link href="/signin" passHref>
+                  <a className={styles.loginBtn}>LOG IN</a>
+                </Link>
+                <Link href="/signup" passHref>
+                  <a className={styles.signupBtn}>Sign Up</a>
                 </Link>
               </div>
-              <div>
-                <a href="#" onClick={() => onSignOut()}>
-                  Logout
-                </a>
+            ) : (
+              <div className={styles.dropDown}>
+                <button
+                  className={
+                    profClicked
+                      ? styles.userPic + ' ' + styles.userPicOnDropDown
+                      : styles.userPic
+                  }
+                  onClick={() => setProfClicked(!profClicked)}
+                >
+                  <Image
+                    src={
+                      currentUser.photoURL
+                        ? currentUser.photoURL
+                        : '/icons/hacker.webp'
+                    }
+                    alt="profile"
+                    width={40}
+                    height={40}
+                  />
+                  <FaAngleDown style={{ color: 'white' }} />
+                </button>
+                <div
+                  className={
+                    profClicked && !navbarToggle
+                      ? styles.dropDownShown
+                      : styles.dropDownHidden
+                  }
+                >
+                  <div>
+                    <Link href="/profile">
+                      <a>Profile</a>
+                    </Link>
+                  </div>
+                  <div>
+                    <a href="#" onClick={() => onSignOut()}>
+                      Logout
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        )}
-      </div>
+            )}
+          </div>*/}
     </div>
   );
 }
