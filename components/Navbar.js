@@ -211,7 +211,7 @@ export default function NavbarComp() {
               Sponsors
             </a>
           </Link>
-          {/* <Link href="/workshops">
+          <Link href="/workshops">
             <a
               onClick={() => {
                 toggleNavbar();
@@ -221,8 +221,8 @@ export default function NavbarComp() {
             >
               Workshops
             </a>
-          </Link> */}
-          {/* <Link href="/schedule">
+          </Link>
+          <Link href="/schedule">
             <a
               onClick={() => {
                 toggleNavbar();
@@ -232,7 +232,7 @@ export default function NavbarComp() {
             >
               Schedule
             </a>
-          </Link> */}
+          </Link>
 
           <Link href="/passes">
             <a
