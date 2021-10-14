@@ -30,7 +30,7 @@ const Footer = ({ sticky }) => {
               className={styles.devLink}
               rel="noreferrer"
             >
-              Sneha Sriram
+              Sneha Sriram (CSE)
             </a>
           </Col>
           <Col xs={6} sm={6} md={4} lg={2}>
@@ -40,7 +40,7 @@ const Footer = ({ sticky }) => {
               className={styles.devLink}
               rel="noreferrer"
             >
-              Sruthi Bijoy
+              Sruthi Bijoy (CSE)
             </a>
           </Col>
           <Col xs={6} sm={6} md={4} lg={2}>
@@ -50,7 +50,7 @@ const Footer = ({ sticky }) => {
               className={styles.devLink}
               rel="noreferrer"
             >
-              Siddharth Sriraman
+              Siddharth Sriraman (CSE)
             </a>
           </Col>
           <Col xs={6} sm={6} md={4} lg={2}>
@@ -60,7 +60,7 @@ const Footer = ({ sticky }) => {
               className={styles.devLink}
               rel="noreferrer"
             >
-              Vanathi Ganeshraj
+              Vanathi Ganeshraj (CSE)
             </a>
           </Col>
           <Col xs={6} sm={6} md={4} lg={2}>
@@ -70,7 +70,7 @@ const Footer = ({ sticky }) => {
               className={styles.devLink}
               rel="noreferrer"
             >
-              Harisaran G
+              Harisaran G (IT)
             </a>
           </Col>
           <Col xs={6} sm={6} md={4} lg={2}>
@@ -80,7 +80,7 @@ const Footer = ({ sticky }) => {
               className={styles.devLink}
               rel="noreferrer"
             >
-              Sabesh Bharathi
+              Sabesh Bharathi (IT)
             </a>
           </Col>
         </Row>

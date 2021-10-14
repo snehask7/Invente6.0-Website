@@ -7,7 +7,6 @@ import { Col, Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
 import {
   FaCalendarAlt,
-  FaPhoneAlt,
   FaRegBuilding,
   FaTrophy,
   FaUserAlt,
@@ -310,12 +309,12 @@ export default function Department({ data }) {
                         obtain a pass in order to participate.
                       </div>
                     </Row>
-                    <div className={styles.col}>
+                    {/* <div className={styles.col}>
                       {' '}
                       <FaPhoneAlt></FaPhoneAlt>
                       <br></br>
                       Likhitha : 6383688836 <br></br> Nivedhitha : 9445502654
-                    </div>
+                    </div> */}
                     <div className={styles.col}>
                       {' '}
                       <FaUserAlt></FaUserAlt>

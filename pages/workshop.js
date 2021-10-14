@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
-import { FaCalendarAlt, FaPhoneAlt } from 'react-icons/fa';
+import { FaCalendarAlt } from 'react-icons/fa';
 import 'react-responsive-modal/styles.css';
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
@@ -177,14 +177,14 @@ export default function Department({ data }) {
                     );
                   })} */}
                   <div className={styles.row}>
-                    <div className={styles.col}>
+                    {/* <div className={styles.col}>
                       <div key={`organiser${id}`}>
                         <FaPhoneAlt></FaPhoneAlt>
                         <br></br>
                         Aishwarya : 7338935634
                         <br />B Vignesh : 9841114252
                       </div>
-                    </div>
+                    </div> */}
 
                     <div className={styles.col}>
                       {' '}

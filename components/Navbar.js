@@ -116,6 +116,9 @@ export default function NavbarComp() {
           <Link href="/passes">
             <a className={styles.centerNavLink}>Passes</a>
           </Link>
+          <Link href="/magazine">
+            <a className={styles.centerNavLink}>Magazine</a>
+          </Link>
         </div>
       </div>
 
@@ -243,6 +246,17 @@ export default function NavbarComp() {
               className={styles.sideBarNavLink}
             >
               Passes
+            </a>
+          </Link>
+          <Link href="/magazine">
+            <a
+              onClick={() => {
+                toggleNavbar();
+                setIsOpen(!isOpen);
+              }}
+              className={styles.sideBarNavLink}
+            >
+              Magazine
             </a>
           </Link>
 

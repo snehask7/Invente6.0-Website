@@ -1,10 +1,9 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { GrArticle } from 'react-icons/gr';
+import Footer from '../components/Footer';
+import NavbarComp from '../components/Navbar';
 import styles from '../styles/Magazine.module.css';
 
 function Plans() {
@@ -37,39 +36,59 @@ function Plans() {
             content="initial-scale=1.0, width=device-width"
           />
         </Head>
+        <NavbarComp />
         <main>
-          <div className={styles.mainContainer} style={{ marginBottom: '3em' }}>
-            <Row>
-              <Col md="5" style={{ textAlign: 'right' }}>
-                <Link href="https://www.ssn.edu.in/" passHref>
-                  <div style={{ paddingTop: '3vh', marginRight: '2vh' }}>
-                    <Image
-                      src="/icons/ssn.webp"
-                      className={styles.ssnlogo}
-                      width={100}
-                      height={50}
-                      alt="logo"
-                    ></Image>
-                  </div>
-                </Link>
-              </Col>
-              <Col md="7" className={styles.inventeHide}>
-                <Link href="/" passHref>
-                  <Image
-                    src="/icons/invente.png"
-                    width={300}
-                    height={100}
-                    alt="logo"
-                  ></Image>
-                </Link>
-              </Col>
-            </Row>
+          <div className={styles.mainContainer} style={{ marginTop: '6em' }}>
             <h1 className={styles.pageHeading2}>
-              SSN Invente 6.0 Magazine Launch by Mr.Sunil Kumar
+              Techvibe Magazine
               <br />
             </h1>
             <section>
-              <button
+              <Row>
+                <Col md="4" sm="12" style={{ textAlign: 'center' }}>
+                  <a href="/TechVibe2021.pdf" target="_blank">
+                    {/* eslint-disable-next-line */}
+                    <img
+                      className={styles.poster}
+                      src="/mag1.JPG"
+                      alt="Magazine 1"
+                      style={{
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                      }}
+                    />{' '}
+                  </a>
+                </Col>
+                <Col md="4" sm="12" style={{ textAlign: 'center' }}>
+                  <a href="/TechVibe2020.pdf" target="_blank">
+                    {/* eslint-disable-next-line */}
+                    <img
+                      className={styles.poster}
+                      src="/mag2.JPG"
+                      alt="Magazine 2"
+                      style={{
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                      }}
+                    />{' '}
+                  </a>
+                </Col>
+                <Col md="4" sm="12" style={{ textAlign: 'center' }}>
+                  <a href="/TechVibe2019.pdf" target="_blank">
+                    {/* eslint-disable-next-line */}
+                    <img
+                      className={styles.poster}
+                      src="/mag3.JPG"
+                      alt="Magazine 3"
+                      style={{
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                      }}
+                    />{' '}
+                  </a>
+                </Col>
+              </Row>
+              {/* <button
                 rel="noreferrer"
                 className={styles.noselect}
                 style={{ marginTop: '5%', marginBottom: '5%' }}
@@ -83,8 +102,8 @@ function Plans() {
                     className={styles.payIcon}
                   ></GrArticle>
                 </span>
-              </button>
-              {hide ? (
+              </button> */}
+              {/* {hide ? (
                 <div className={styles.curtainContainer}>
                   <div id="curtainLeft" className={styles.curtain}>
                     <div className={styles.curtainElement}></div>
@@ -111,14 +130,15 @@ function Plans() {
                     <div className={styles.curtainElement}></div>
                   </div>
                 </div>
-              ) : null}
+              ) : null} */}
 
-              <div id="magazine-iframe" style={{ paddingTop: '1%' }}>
-                <iframe src="/mag.pdf" width="100%" height="800px" />
-              </div>
+              {/* <div id="magazine-iframe" style={{ paddingTop: '1%' }}>
+                <iframe src="/mag.pdf" className={styles.pdf} width="100%" height="800px" />
+              </div> */}
             </section>
           </div>
         </main>
+        <Footer></Footer>
       </div>
     </div>
   );

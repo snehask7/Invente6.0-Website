@@ -7,7 +7,6 @@ import { Col, Row } from 'react-bootstrap';
 import { toast } from 'react-hot-toast';
 import {
   FaCalendarAlt,
-  FaPhoneAlt,
   FaRegBuilding,
   FaRegClock,
   FaTrophy,
@@ -360,7 +359,7 @@ export default function Department({ data }) {
                     </Row>
                   ) : null}
                   <div className={styles.row}>
-                    <div className={styles.col}>
+                    {/* <div className={styles.col}>
                       {events[id].organisers.map((organiser, id) => {
                         return (
                           <div key={`organiser${id}`}>
@@ -374,7 +373,7 @@ export default function Department({ data }) {
                           </div>
                         );
                       })}
-                    </div>
+                    </div> */}
                     <div className={styles.col}>
                       {' '}
                       <FaUserAlt></FaUserAlt>

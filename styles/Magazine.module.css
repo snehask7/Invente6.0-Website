@@ -27,11 +27,13 @@
   background-blend-mode: screen;
   background-size: cover;
   z-index: -1;
+  min-height: 100vh;
 }
 
 .mainContainer {
   min-width: 45vw;
   padding-top: 2vh;
+  padding: 2vh;
 }
 
 .curtainContainer {
@@ -42,7 +44,15 @@
   position: absolute;
   z-index: 3;
 }
-
+.poster {
+  width: 70%;
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 908px) {
+  .poster {
+    width: 100%;
+  }
+}
 .curtain {
   width: 27vw;
   height: 800px;
@@ -186,4 +196,9 @@
 .hidecurtain {
   opacity: 0;
   transition: all 500ms linear 5s;
+}
+@media screen and (max-width: 370px) {
+  .pdf {
+    display: none;
+  }
 }

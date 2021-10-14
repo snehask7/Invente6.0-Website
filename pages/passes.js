@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { FaCloudUploadAlt, FaMoneyCheck } from 'react-icons/fa';
 import Footer from '../components/Footer';
 import NavbarComp from '../components/Navbar';
 import { useAuth } from '../lib/hooks';
@@ -69,7 +68,7 @@ function Plans() {
                 </span>
               </div>
               <div className={styles.buttons}>
-                <a
+                {/* <a
                   target="_blank"
                   href="https://m.paytm.me/ssninv_nrweb"
                   rel="noreferrer"
@@ -79,8 +78,8 @@ function Plans() {
                   <span className={styles.icon}>
                     <FaMoneyCheck className={styles.payIcon}></FaMoneyCheck>
                   </span>
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   target="_blank"
                   href="https://7ey3j0toxd0.typeform.com/Invente-Receipt"
                   rel="noreferrer"
@@ -92,7 +91,7 @@ function Plans() {
                       className={styles.payIcon}
                     ></FaCloudUploadAlt>
                   </span>
-                </a>
+                </a> */}
               </div>
               <br />
               <div className={styles.feature}>
