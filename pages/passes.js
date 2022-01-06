@@ -102,7 +102,6 @@ function Plans() {
                         width="400"
                         height="600"
                         src="/Plans/purple.svg"
-                        alt="plan background"
                       />
                     </div>
                     {/* eslint-disable-next-line */}
@@ -128,7 +127,6 @@ function Plans() {
                         width="400"
                         height="600"
                         src="/Plans/purple.svg"
-                        alt="plan background"
                       />
                     </div>
                     {/* eslint-disable-next-line */}
@@ -154,7 +152,6 @@ function Plans() {
                         width="400"
                         height="600"
                         src="/Plans/purple.svg"
-                        alt="plan background"
                       />
                     </div>
                     {/* eslint-disable-next-line */}
@@ -204,7 +201,6 @@ function Plans() {
                         width="400"
                         height="600"
                         src="/Plans/green.svg"
-                        alt="plan background"
                       />
                     </div>
                     <div className={styles.super_tier}>
@@ -228,7 +224,6 @@ function Plans() {
                         width="400"
                         height="600"
                         src="/Plans/green.svg"
-                        alt="plan background"
                       />
                     </div>
                     <div className={styles.super_tier}>
