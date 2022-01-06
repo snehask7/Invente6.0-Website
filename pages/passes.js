@@ -102,6 +102,7 @@ function Plans() {
                         width="400"
                         height="600"
                         src="/Plans/purple.svg"
+                        alt=""
                       />
                     </div>
                     {/* eslint-disable-next-line */}
